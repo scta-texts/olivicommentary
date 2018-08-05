@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Quaestio 50</title>
+        <author xml:id="PJO">Peter John Olivi</author>
+        <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.06">
+          <title>Librum II, Quaestio 49</title>
+          <date when="2015-06-08">June 08, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Ad Claras Aquas</publisher>
+        <pubPlace>Quaracchi</pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="1922">1922</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Quaestions In Secundum Librum Sententiarum, ed. Bernardus Jansent, S.I, Ad Claras Aquas, 1922</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-06-08" who="#JW" status="draft" n="2015.08">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pjo-l2q50">
+        <head>Librum II, Quaestio 50</head>
+        <p>Secundo (g) quaeritur utrum in corpore humano sit
+        aliqua forma substantialis praeter animam.</p>
+        <div>
+        <head>Et quod non probatio (h).</head>
+        <p>1. Plurificata causa per se (i) plurificatur effectus; sed
+        cuiuslibet formae substantialis est dare esse, et hoc convenit
+        ei per se (k); ergo si plures sunt formae per se in corpore
+        <pb n="24"/>
+        humano, plura habebit (a) esse; hoc autem est impossibile,
+          quia tunc unum ens esset plura entia completa. Et (b) ad
+          minus, pro quanto dabunt esse aliud, pro tanto illud ens
+          cuius sunt formae erit (c) plura entia. Cum etiam quaelibet
+          illarum formarum per se sumpta faceret (d) ens per se, et (e)
+          in composito similiter facient, et ita unum ens erit plures
+          substantiae et plura entia per se.</p>
+          <p>2. Item, omnis forma adveniens post esse completum est
+          accidentalis; sed quaelibet forma substantialis dat esse simpliciter
+          et completum; ergo et cetera. Minor patet: esse enim
+          substantiae quod (f) est esse per se est (g) esse completum;
+          quaelibet autem forma substantialis dat esse simpliciter et
+          per se. Cum etiam ratio generis et passiones eius conveniant
+          (h) simpliciter et aequaliter suis inferioribus: ergo corpus
+          erit aequaliter substantia et ens per se sicut homo vel (i)
+          corpus animatum.</p>
+          <p>3. Praeterea, secundum 
+            <ref><name ref="#Aristotle">Aristotelem</name>, I <title ref="#OnGeneration">De generatione 
+              et corruptione</title>,
+            <seg>Aristotle, De generatione et corruptione, I, cap. 2, 317a20sqq</seg>
+            </ref> 
+            corruptio simpliciter terminatur (k) 
+            in non ens simpliciter; sed in formis substantialibus est 
+            semper corruptio simpliciter (l); ergo omnis res corrupta secundum (m) 
+            aliquam formam substantialem est non ens simpliciter; 
+            ergo corpus humanum, cum abscedit ab eo anima, 
+            est non ens simpliciter, et sic non (n) habens aliquam formam 
+            substantialem erit non ens (o) simpliciter. Idem (p) potest argui 
+            a parte generationis.</p>
+          <p>4. Praeterea, cum omnis forma substantialis det esse 
+            per se: ergo per quamcunque formam substantialem sine 
+            adiutorio alterius potest (q) res per se existere; si ergo (r) corporeitas 
+            vel animalitas per se sumptae sunt formae distinctae 
+            a suis differentiis (s), poterit aliquid esse substantia et non 
+            habebit aliam formam, et corpus etiam (t) poterit esse sine 
+            suis differentiis et animal similiter.</p>
+          
+          <p>5. Praeterea, omnis forma, cum sit actus, habet aliquam
+          virtutem activam (u), sicut dicit 
+            <ref>
+              <seg><name ref="#JohnDamascenus">Damascenus</name>, III libro,</seg>
+              <bibl>Damascenus, De fide orthodoxa, III, 15 (PG 94, 1058, 1055)</bibl>
+            </ref>
+          quod omnis substantia habet aliquem actum substantialem; 
+          <pb n="25"/>
+          ergo corporeitas et ratio superioris habebunt aliquos actus
+          substantiales.</p>
+          
+          <p>6. Praeterea, secundum 
+            <ref>
+              <seg><name ref="#Aristotle">Aristotelem,</name> VII <title ref="#Metaphysics">Metaphysicae</title>,</seg>
+              <bibl><!-- Auctor doctrinam Aristotelis detorquet, prae oculis habuisse videtur --> Aristotle, Metaphysics, VII, 8, 1033a24sqq</bibl>
+            </ref>
+           quando ex aliquibus (a) aliquid constituitur, semper 
+           resultat (b) forma tertia ab eis per quam ipsa et compositum 
+           sunt unum, quae est forma compositi; sed si forma generis 
+           et differentiarum sunt diversae: ergo quando componuntur, 
+           praeter eas adhuc erit (c) ibi alia forma substantialis; cum 
+           etiam ilia (a) forma adveniat ultimo, habebit rationem differentiae, 
+           et ita adhuc praeter ipsam erit forma tertia per 
+           quam ipsa cum aliis facit unum, et sic in infinitum. Ad minus, 
+           cum ex anima rationali et formis corporalibus non possit 
+           una forma (e) per essentiam constitui (f): ergo homo non 
+           erit (g) unum ens per unam formam. Materia etiam corporis 
+           humani vere (h) habebit plures formas; forma enim corporalis 
+           non erit pars animae nec formae ex eis constitutae, cum 
+           nulla ex eis constitui possit (i).</p>
+          <p>7. Praeterea, formae istae, cum sint omnino simplices, 
+            differunt (k) se totis et ita in nullo convenient nec in aliqua 
+            ratione nec intentione (l); hoc autem est impossibile; ergo 
+            impossibile est esse plures.</p>
+          
+          <p>8. Praeterea, si differunt (m) se totis, non plus habebit 
+            de convenientia forma generis (n) cum sua differentia quam 
+            cum differentia alterius generis, nec erit (o) aliqua ratio ordinis 
+            (p) inter illa; et sic essentia differentiae poterit uniri 
+            materiae sine essentia generis et aeque primo (q) eam informare; 
+            et tunc materia informabitur pluribus formis aeque 
+            primis.</p>
+          
+          <p>9. Praeterea, forma quae de se est purus actus (r) nihil 
+            est materiale vel potentiale; ergo nihil habet informabile et 
+            ita non perficietur sequenti forma; propter quod dicit 
+            <ref>
+              <seg><name ref="#Aristotle">Aristoteles</name>, V <title ref="#Physics">Physicorum</title>,</seg>
+              <bibl>Aristoteles, Physics, 5, cap. 2, 226a10sqq</bibl>
+            </ref>
+            quod formae non est forma.</p>
+          <p><pb n="26"/>10. Praeterea, essentia generis esse habet in (a) diversis 
+            speciebus, in tantum quod dicit 
+            <ref>
+              <seg><name ref="#Aristotle">Aristoteles</name>, VII <title ref="#Physics">Physicorum</title>,</seg>
+              <bibl>Aristotle, Physics, VII, cap 4, 249a21sqq</bibl>
+            </ref> 
+            quod genus non est vere univocum in diversis 
+            speciebus, sed quasi aequivocum (b), unde comparatio non 
+            potest fieri proprie nisi secundum solam speciem; si ergo 
+            dicit essentiam distinctam ab essentia differentiae (c), cum 
+            istam varietatem non habeat ex se nec ex materia, quia 
+            sic essentiam (d) speciei haberet (e): ergo habet ab essentia 
+            differentiae; ergo vel informatur ab ea vel erit (f) actus 
+            eius, et ita formae erit forma; sequetur etiam quod essentia 
+            recipiet variationes essentiales (g) vel saltem accidentales 
+            secundum et per se.</p>
+          <p>11. Praeterea, omnis virtus superior extendit se ad omnia 
+            ad quae inferiores potentiae, et hoc altiori modo, sicut dicit 
+            <ref>
+              <seg><name ref="#Boethius">Boethius</name>, V <title ref="#Consolation">De consolatione</title>,</seg>
+              <bibl>Boethius, De consolatio, prosa 4 (PL63, 849)</bibl>
+            </ref> 
+            et potest haberi ex libro 
+            <ref>
+              <seg><title>De causis</title>,</seg>
+              <bibl>Liber de Causis, sect. 1 (ed. Bardenhewer, p. 163 sq)</bibl>
+            </ref> 
+            et patet manifeste in (h) intellectu et sensitivis 
+            potentiis; ergo omnis forma superior (i) eodem modo extendet 
+            se ad omnes actus seu actualitates ad quos inferiores 
+            formae corporales. Prima consequentia patet: quia virtus 
+            non potest esse nobilior nec magis actualis quam forma cuius 
+            est; ergo quantum virtus excedit virtutes inferiores (k), tantum 
+            forma cuius est excedit inferiores formas.</p>
+          <p>12. Praeterea, 
+            <ref>
+              <seg><name ref="#Dionysius">Dionysius</name></seg>
+              <bibl>Pseudo-Dionysius, De divinis nominibus, cap. 4, sect. 20; cap. 5, sect. 6 (PG 3, 718, 821sq.)</bibl>
+            </ref> 
+            dicit quod entia, quanto 
+            perfectiora, tanto simpliciora (l); sed si genus cum differentiis 
+            sunt plures formae, erit e contrario (m); compositior enim 
+            est species quam genus, cum tamen sit perfectior, et anima 
+            rationalis quam sensitiva, et homo quam asinus.</p>
+          
+          <p>13. Praeterea, potentia dicitur respectu actus, et ita 
+            oportet quod diversorum actuum sint diversae potentiae; 
+            ergo ad diversas formas oportet esse diversas potentias susceptivas, 
+            et si formae (n) differunt specie, et potentiae differunt 
+            specie (o); sed materia non est aliud quam ens in potentia 
+            et idem per essentiam cum ipsa potentia; ergo si po<pb n="27"/>tentiae 
+            sunt (a) plures, et materiae (b) plures; ergo semper 
+            plures formae habebunt plures materias. Cum etiam pluralitas 
+            potentiarum, maxime specie differentium, non possit 
+            esse in eodem (c) secundum idem (d), et (e) materia sit omnino 
+            simplex: non poterunt plures potentiae esse in una materia (f).</p>
+          
+          <p>14. Praeterea, omnis forma substantialis facit id, cuius 
+            est forma, esse substantiam (g) et ens per se; ergo differentia 
+            ultima faciet illud (h) cui advenit esse substantiam et ens 
+            per se; ergo prius non erat substantia nec ens per se, illud 
+            enim quod est non fit quantum ad (i) illud esse quod habet, 
+            <ref>
+              <seg>secundum enim <name ref="#Aristotle">Aristotelem</name></seg>
+              <bibl>Cfr., De generatione et corruptione I, 3, 317b1sqq.; Phys., V, 1, 225a27</bibl>
+            </ref> 
+            (k) quod fit non est.</p>
+          <p>15. Praeterea, nobiliores conditiones plus (l) debentur
+          formae quam materiae; sed essentia materiae est una (m) et 
+          simplex non habens in se plurificationem vel compositionem
+          essentiarum materialium; ergo nec forma habebit in se pluralitatem
+          vel compositionem essentiarum formalium.</p>
+          
+          <p>16. Praeterea, sicut se habet forma ad materiam, sic
+          materia ad formam; sed forma non potest esse simul in
+          pluribus materiis; ergo nec materia simul sub pluribus
+          formis.</p>
+          
+          <p>17. Praeterea, quod maxime est unum, est (n) in termino
+          unum; sed 
+          <cit>
+            <quote>quod est unum definitione est maxime unum</quote>
+            <bibl>Aristotle, Topics, I, cap. 7, 103a25sq.</bibl>
+          </cit> 
+            secundum 
+            <ref><name ref="#Aristotle">Aristotelem,</name> I <title ref="#Topics">Topicorum</title></ref>; 
+            ergo est in termino unum; sed magis est unum quod non habet compositionem 
+            formarum quam quod habet; ergo unum definitione 
+            non habet plures formas; sed omnis species est unum definitione; 
+            ergo et cetera.</p>
+          
+          <p>18. Praeterea, optimum non potest esse nisi unum; sed 
+            forma substantialis est optimum cuiuslibet rei; ergo non potest 
+            esse nisi una forma in qualibet re.</p>
+          
+          <p>19. Praeterea, secundum <ref><name ref="#Aristotle">Aristotelem</name>, II <title>De anima</title></ref>,
+          <cit>
+            <quote>oculus erutus non est oculus nisi aequivoce,</quote>
+            <bibl>Cfr. cap. 1 412b 20sq.</bibl>
+          </cit> et similiter (o) corpus humanum non est corpus humanum recedente
+          anima nisi aequivoce; ergo est alterius speciei, quando est 
+          in eo anima, et alterius, quando non est in eo; sed non po<pb n="28"/>test 
+            esse alterius speciei nisi per alteram differentiam seu 
+            formam specificam; ergo corpus non potest esse sine differentia 
+            seu forma specifica et eadem ratione nec forma generis 
+            sed si forma generis esset realiter distincta a suis differentiis, 
+            posset inveniri sine aliqua ipsarum; ergo et cetera.</p> 
+          
+          <p>Contra: 1. Corpus cui anima unitur prius naturaliter 
+            est complexionatum et organizatum quam ei anima uniatur; 
+            sed corpus non potest esse corpus nisi per aliquam formam 
+            substantialem nec organizatum nec complexionatum; ergo 
+            oportet quod praeter animam habeat formam substantialem 
+            per quam sit corpus et aliam per quam sit mixtum et complexionatum 
+            et aliam per quam sit organizatum.</p>
+          <p>2. Praeterea, omne definibile habet genus et differentiam, 
+            saltem unam; sed genus et differentia habent diversas essentias 
+            formales, unum enim non potest praed1can de alio 
+            secundum 
+            <ref><name>Aristotelem,</name> VI <title>Topicorum</title>.</ref></p>
+          <p>3. Item, si essentia differentiae nihil addit ad essentiam 
+            generis: ergo genus est tota essentia speciei et generalissimum 
+            tota essentia suorum inferiorum; hoc autem est (a) impossibile; 
+            ergo et primum.</p>
+          <p>4. Praeterea, quaecunque uni et eidem sunt eadem, simpliciter 
+            inter se sunt eadem; si ergo essentia generis et essentia 
+            differentiae sunt simpliciter eadem, differentiae diversarum 
+            specierum eiusdem generis erunt simpliciter eadem et 
+            species similiter; hoc autem est (b) falsum; ergo et primum.</p>
+          
+          <p>5. Praeterea, quod potest esse (c) sine altero non est 
+            simpliciter idem ei (d); sed essentia generis potest esse simpliciter 
+            sine essentia differentiae; ergo non est simpliciter 
+            idem ei.</p>
+          
+          <p>6. Item, si essent simpliciter eadem, essent aequalis
+          ambitus.</p>
+          
+          <p>7. Item, effectus et proprietates differentes secundum 
+            rem oportet quod habeant causas immediatas differentes secundum 
+            rem; sed secundum unamquamque naturam generis 
+            et differentiarum insunt rei differentes proprietates secundum 
+            rem, ut secundum substantiam esse subiectum numeri 
+            et secundum corporeitatem esse quantum et secundum elementare 
+            esse transmutabile et secundum igneitatem esse calidum 
+            et sic de aliis; ergo ipsa different secundum rem.</p>
+        </div>
+        <div>
+          <head>Respondeo</head> 
+          <p><pb n="29"/>Quidam dicunt quod in nulla re sunt plures 
+            formae, unde dicunt quod in corpore humano 
+            non est aliqua forma substantialis nisi an anima 
+            rationalis et quod haec virtute continet in se 
+            omnes rationes aliarum formarum inferiorum, 
+            et ideo per ipsam corpus est corpus et elementare 
+            et mixtum, complexionatum et organizatum. 
+            - Fundamentum autem potissimum suae 
+            rationis sumunt a duobus. Quorum unum est, 
+            quod cum per quamlibet formam substantialem 
+            res cuius est forma sit substantia sive ens simpliciter 
+            vel per se ens, sicut patet per definitionem 
+            formae substantialis, nulla autem alia 
+            forma postea adveniens faciat ipsam rem esse 
+            substantiam sive ens simpliciter et per se (a): 
+            ideo nulla alia forma post primam formam (b) 
+            substantialem ad veniens poterit esse substantialis; 
+            cum etiam adveniat (c) enti per se, erit 
+            accidentalis. Aliud vero est ex parte unionis 
+            harum formarum.</p>
+          <p>Opinio autem haec non potest habere in se (d) 
+            veritatem. - Quod patet, si attendamus ad hominis 
+            generationem (e), ad eius corruptionem, 
+            ad rationum formalium quidditatem et definitionem 
+            et ad earundem effectum (f) varium et 
+            variam proprietatem seu passionem (g).</p>
+          
+          <p>Patet quidem (k) primo, si attendamus ad hominis 
+            generationem. Si enim sola anima est (i) forma 
+            corporis sui, tunc ipsa unitur materiae primae (k) nulla forma 
+            substantiali mediante. Cum ergo essentia materiae primae 
+            aeque perfecte sit sub quolibet elemento et elementato sicut 
+            in humano semine, ita poterit ex illis immediate generari 
+            homo sicut ex semine, et ita immediate (l) poterit anima rationalis 
+            uniri materiis eorum, destructis formis ipsorum, sicut 
+            et materiae corporis sui. Quod certum est esse falsum. Erit 
+            <pb n="30"/>etiam falsum quod dicit 
+            <ref>
+              <seg><name ref="#Aristotle">Aristoteles</name>, VII <title ref="#Metaphysics">Metaphysicae</title>,</seg>
+              <bibl>Aristotle, Metaphysics, Capp. 7 et 8, 1033b2sqq.</bibl>
+            </ref> 
+            quod materiae variantur secundum varietates formarum; 
+            unde dicit quod quaelibet forma habet esse in propria materia, 
+            sicut dat exemplum de colera. Nec valet, si dicatur 
+            quod dispositiones accidentales sunt in causa quare rationalis 
+            anima potest potius uniri materiae corporis sui quam 
+            aliorum corporum, quia aptitudo et appropriatio talis non 
+            erit (a) essentialis materiae nec per se sed per accidens ad 
+            eam pertinens. Dispositiones etiam hac non poterunt in materia 
+            remanere sine suis formis substantialibus quarum erant 
+            per se passiones et per se effectus. Cum etiam forma immediatius 
+            uniatur materiae quam talia accidentia, ut habetur 
+            <ref>
+              <seg>VIII <title ref="#Metaphysics">Metaphysicae</title>,</seg>
+              <bibl>Aristotle, Metaphysics, VIII, c. 13, 1038b26sqq;</bibl>
+            </ref> 
+            nihil est dicere quod ipsa sint dispositiones 
+            intermediae. Praeterea, nihil corrumpi potest per 
+            actionem vel motum nisi ex hoc quod aliquid aliud generatur 
+            quod simul cum illo stare non potest; nullum enim non 
+            ens potest habere causam per se; corruptio autem formae 
+            non est aliud quam eam deficere et desinere; ergo ad hoc 
+            quod prior forma substantialis corrumpatur necesse erit (b) 
+            quod agens quod eam corrumpit per accidens, aliam per se 
+            et non per accidens generet. Tertio patet hoc: quia omne 
+            agens specificum (c) et substantiale operatur in materia aliquid 
+            specificum et substantiale; operatur enim sibi (d) simile; 
+            sed (e) virtus generativa est (f) agens tale; ergo oportet quod 
+            inducat in materia aliquid specificum et substantiale; quod 
+            esse non potest, si anima rationalis est sola forma humani 
+            corporis. Haec autem magis patent, si verum sit, sicut credo, 
+            quod nullum accidens proprium potest generari in materia 
+            aliqua, nisi prius naturaliter generetur tantundem de sua 
+            substantiali forma.</p>
+          
+          <p>Patet etiam, si attendamus ad (g) hominis corruptionem, 
+            quia recedente anima materia fit sub alia 
+            forma; et non est dare causam efficientem talem formam, 
+            maxime quando est mors violenta et subita. Cum etiam materia, 
+            quantum est de se, habeat se aequaliter ad omnes formas, 
+            non erit (h) dare causam quare magis generetur haec 
+            forma quam alia. Non etiam erit dare unde vel ex quo gene<pb n="31"/>retur 
+            haec forma; quod, licet sit (a) efficacius ad hoc improbandum, 
+            omitto prosequi, quia alibi habet locum. Praeterea, 
+            variatio accidentium non potest facere ut materia non subsit 
+            et coaptetur suae formae, cum non uniatur ei per intermedia 
+            accidentia; ergo nunquam per variationem accidentium potest 
+            fieri ut corpus non coaptetur animae sicut materia suae formae, 
+            et ita non poterit homo corrumpi unquam, cum anima 
+            et essentia materiae sint secundum se incorruptibiles. Patet 
+            etiam hoc clarius, ostenso quod propria accidentia corrumpi 
+            non possint nec in toto nec in parte, nisi corrupta forma 
+            substantiali cuius sunt propria vel in toto vel in parte.</p>
+          
+          <p>Patet etiam hoc tertio ex parte rationum
+          formalium, quas oportet in anima poni, si ipsa
+          sola est forma corporis. Cum enim corpus humanum 
+          non sit corpus nec elementatum seu mixtum nec complexionatum 
+          nec organizatum nisi per aliquam formam (b) seu formas 
+          quae non possunt esse accidentales, cum haec sint corpori
+          humano substantialia et dicant di versum gradum et
+          perfectionem substantialem corporis humani, in his autem
+          corpus humanum cum aliis corporibus univoce conveniat:
+          oportebit quod ratio corporeitatis et ceterae perfectiones
+          praedictae sint univocae in anima et in ceteris corporibus.
+          Et tunc de necessitate sequuntur multa inconvenientia: tunc
+          enim vere dicere poterimus quod anima est complexio et
+          corporeitas, et sic de aliis; tunc etiam erit verum quod
+          forma extensa et simplex sunt (c) univocae et eiusdem speciei; 
+          sequitur etiam quod corporeitas, mixtio, organizatio, 
+          vegetativa, sensitiva et intellectiva in anima rationali sint 
+          penitus idem secundum rem, quod est valde absurdum impossibile 
+          est enim quod ea quae in diversis rebus inveniuntur
+          esse naturae diversae (d) in aliquo creato sint omnino 
+          idem, nec etiam in Deo hoc esse posset, si sumerentur univoce
+          cum primis.</p>
+          <p>Quarto etiam patet hoc ex parte effectuum
+          et proprietatum. Impossibile est enim in ali quo creato
+          quod secundum eandem virtutem sit principium diversorum
+          actuum vel effectuum diversorum genere; unde potentias
+          animae per actus diversos iudicamus esse diversas secundum
+          essentiam. Cum etiam omnis propria passio inseparabiliter
+          sequatur suam formam: omnes proprietates istarum
+          <pb n="32"/>
+          perfectionum inseparabiliter inhaerent ipsi animae; et tunc
+          in anima erit vere calor (a), frigiditas, humiditas, extensio,
+          et sic de aliis. Si (b) dicatur quod proprietates sunt totius 
+          compositi per formam et ideo destructo composito destruuntur:
+          hoc non valet, quia si forma ignis (c) nunc posset esse (d)
+          per se, adhuc vere haberet calorem, et sic est de multis 
+          aliis (e).</p>
+          <p>Haec etiam opinio non videtur esse bene
+          consona fid_ei catholicae, quia videtur ex ea sequi
+          quod Christus non susceperit ex Virgine nisi solum materiam
+          primam; admjnistrare autem solum materiam primam
+          non videtur esse administratio quae competit matri in generatione
+          prolis, nam ita bene posset terra administrasse materiam
+          primam corpori Christi sicut et Virgo. - Praeterea,
+          cum materia prima, in quantum talis, nullam habeat in se
+          foeditatem et maxime vitiosam, nec una materia prima ex
+          se sit magis pura quam alia: ergo nulla anima contrahet 
+          originale peccatum occasione sui corporis, id est, suae materiae 
+          primae; nec Virgo administravit puriorem materiam
+          animae Christi quam aliae matres, quia formae et dispositiones 
+          praecedentes propter quas poterat dici purior omnes
+          secundum hoc removentur, antequam anima infundatur; et
+          ita puritas quae ex eis in materia proveniebat nihil faceret
+          ad mundam receptionem animae, et eodem modo nec impuritas
+          ex malis dispositionibus praecedentium formarum proveniens
+          nihil faceret ad immundam receptionem animae. -
+          Cum etiam de corpore Christi mortuo exiverit sanguis et
+          aqua in signum quod erat verum corpus humanum secundum
+          <ref><name ref="#John">Iohannem</name> in <title ref="#Iio">prima canonica</title></ref> dicentem quod 
+            <cit>
+              <quote ana="#Iio5_8">tres 
+                sunt qui testimonium dant in terra, spiritus, aqua et sanguis,</quote>
+              <bibl>I Ioh. 5:8</bibl>
+            </cit> 
+            si ille sanguis et aqua non fuerant in corpore Christi
+          nisi solum secundum suam materiam primam, sed potius
+          postea forma sanguinis et aquae fuit eis aggenerata: ergo
+          fluxus eorum non fuit signum quod corpus Christi esset vere
+          humanum compositum, scilicet ex elementis et humoribus,
+          sed solum quod erat materia prima. -- Praeterea, cum nulla
+          sit maior corruptio quam resolvi usque ad materiam primam:
+          in morte Christi corpus eius summam habuit corruptionem,
+          quoniam de toto esse formali quod habebat in Christo 
+          <pb n="33"/>
+          nihil sibi remansit nisi sola materia prima; et ita falso assumit
+          <ref>
+            <seg><name ref="#Peter">Petrus</name></seg>
+            <bibl>Acts 2:27; Psalm 15:10</bibl>
+          </ref> 
+            ex testimonio dicendum quod 
+            <cit>
+              <quote ana="#act2_27">caro eius non vidit corruptionem.</quote>
+              <bibl>Acts 2:27</bibl>
+            </cit> 
+            - Praeterea, materia prima in quantum 
+            talis, non est corpus, sed solum materia corporis; si ergo 
+            omnes formae quas corpus Christi habebat in Christo vivo 
+            in eius morte discesserunt ab eo, sicut haec opinio ponit: 
+            ergo nullo modo potuit dici idem corpus numero quod prius, 
+            cum non haberet eandem formam numero corpoream quam 
+            prius; sed solum posset dici eadem materia prima numero 
+            quae prius; et tunc nullus dicendo in persona Christi (2): 
+            <cit>
+              <quote ana="#mt26_26">hoc est corpus meum,</quote>
+              <bibl>Matthew 26:26, Marc 14:22; Luc. 22, 19</bibl>
+            </cit> 
+            confecisset.</p>
+          <p>Contra hanc etiam esse videtur 
+            <ref>
+              <name ref="#Augustine">Augustinus,</name> libro II 
+              <title>Contra Maximinum</title>, capitulo 7:</ref> 
+            <cit>
+              <quote>Tria itaque novimus 
+                de corpore Domini exiisse, cum penderet in ligno, 
+                primo spiritum, unde scriptum est: 
+                <cit>
+                  <quote ana="#iob19_30">et inclinato capite emisit spiritum,</quote>
+                  <bibl>Iob. 19:30</bibl>
+                </cit> 
+                deinde quando latus eius lancea perforatum 
+                est, sanguinem et aquam. Quae tria, si per se ipsa intueamur, 
+                diversas habent singula quaeque substantias ac 
+                per hoc non sunt unum.</quote>
+              <bibl>Augustine, Contra Maximinum, Cap. 22 (PL 42, 795)</bibl>
+            </cit> 
+            Item, 
+            <ref>VI <title ref="#deTrinitate">De Trinitate,</title> capitulo 3,</ref> 
+            dicit: 
+            <cit>
+              <quote>Nescio utrum inveniatur in Scripturis dictum 
+                unum sunt quorum est diversa natura. Cum ergo sic 
+                dicitur unum ut non addatur quid unum, et plura unum dicantur: 
+                eadem natura et essentia non dissidens nec dissentiens 
+                significatur; cum vero additur quid unum, potest aliquid 
+                significari ex pluribus unum factum, quamvis diversis 
+                natura, sicut anima et corpus non sunt utique unum. Quid 
+                enim tam diversum, nisi addatur aut subintelligatur quid 
+                unum, id est, unus homo aut unum animal? unde <name ref="#Paul">Apostolus</name>: 
+                <cit>
+                  <quote ana="#Icor6_16">qui adhaeret (a) meretrici, inquit (6), unum corpus est;</quote>
+                  <bibl>I Cor 6:16</bibl>
+                </cit> 
+                non dixit: unum sunt aut unum est, sed addidit <mentioned>corpus,</mentioned> tanquam 
+                ex duobus drversis unum corpus adiunctione compositum (b).</quote> 
+              <bibl>Augustine, De Trinitate, VI, c. 3 (PL 42, 926)</bibl>
+            </cit>
+          </p>
+          <p>Aliorum fuit opinio quod ratio cuiuslibet 
+            generis et differentiarum omnium sequentium 
+            sunt realiter differentes, non tantum ratione. 
+            Et isti moventur propter diversitatem rationum generis 
+            et differentiarum quae realiter in re continentur et propter 
+            diversitatem ambitus et coexistentiae earundem.</p>
+          
+          <p><pb n="34"/>Opinio autem haec, sicut credo, veritatem 
+            habere non potest. Si enim omnes generum rationes 
+            sunt distinctae realiter, poterit ad minus esse semper ratio 
+            superioris generis sine inferiori. Et ita poterit esse (a) corpus 
+            quod nullam habebit specialem rationem corporum. Poterit 
+            etiam esse aliquid quantum et non habebit aliquam 
+            rationem specialem alicuius quantitatis. Similiter (b) esset de 
+            qualitate et relatione et sic de aliis. Cum etiam omnis forma 
+            habeat virtutem activam et sit per se potens ad aliquid agendum: 
+            omnis ratio superior haberet hoc; quod manifeste patet 
+            esse (c) falsum et impossibile. Praeterea, quis sapiens dicet 
+            quod actio intelligendi sit per aliam (d) essentiam actio seu 
+            in genere actionis et per aliam sit in specie talis actionis, 
+            scilicet scitivae, aut quod caritas sit per aliam essentiam 
+            qualitas et per aliam habitus et per aliam amor et per aliam 
+            sit virtuosa et iterum per aliam sit in propria specie per 
+            quam differt a ceteris virtutibus et virtuosis? Et simile est 
+            de aliis infinitis (e): nunquid enim linea est per aliam essentiam 
+            quantitas et per aliam talis quantitas, scilicet linearis? 
+            aut nunquid (f) lux vel color est per aliam essentiam accidens 
+            et per aliam qualitas et per aliam qualitas corporalis 
+            et per aliam color (g)? Quod etiam omnis ratio quae realiter 
+            est in aliquo differat realiter, ita quod habeat essentiam 
+            realiter distinctam ab omni alia ratione quae in eodem existit 
+            realiter impossibile est probari, quin in ratione sit peccatum 
+            accidentis procedendo a distinctione quae est secundum 
+            rationes ad (h) distinctionem realem. Non enim habet 
+            hoc ratio, in quantum ratio, quia sic esset in Deo vere realis 
+            distinctio; nec potest probari quod hoc habeat, in quantum 
+            creata vel participata. Potest etiam contrarium manifeste 
+            ostendi: eadem enim res sunt actio et passio, relatioque qua 
+            creatura refertur ad creatorem ratione creationis nihil addit 
+            realiter ad essentiam creaturae, sicut alibi ducendo ad impossibilia 
+            multa est probatum.</p>
+          <p>Et ideo videtur mihi esse via media incedendum. 
+            Dico igitur quod tunc ratio superioris 
+            generis et ratio sequentis differentiae sunt di<pb n="35"/>versae 
+            realiter, quando utraque habet virtutem 
+            activam et actionem sibi (a) propriam differentem 
+            ab alia, et quando ratio superioris generis 
+            potest esse absque aliqua differentiarum sequentium; 
+            ut materia elementaris potest esse sub forma 
+            alicuius elementi absque forma mixti, et habet forma elementi 
+            virtutem activam et actionem differentem ab actione 
+            et virtute formae mixti. Quandocunque autem ista 
+            non insunt, credo eas esse omnino realiter idem; 
+            quemadmodum se habet ratio substantiae et ratio differentiarum 
+            sequentium. Cum igitur formae corporis nostri corporales (b) 
+            habeant virtutes et actiones differentes, quin immo 
+            et per se proprietates et etiam conditiones essentiales varias 
+            ab iis quae competunt animae, in quantum est anima et in 
+            quantum est sensitiva et rationalis - inest enim formis 
+            illis essentialiter, sicut credo, esse in corporis materia corporaliter 
+            et extense, et sic habere existentiam dependentem 
+            a materia, quae ad minus contrariantur animae rationali, 
+            et habent operationes corporales quae per se et immediate 
+            non possunt esse animae, etiam vegetativae, et multo minus 
+            aliarum -: idcirco simpliciter teneo in corpore humano (c) 
+            praeter animam esse alias formas realiter differentes ab ipsa 
+            et etiam (d) credo omnes gradus formales qui in eo sunt (e) 
+            concurrere ad unam perfectam formam constituendam, quarum 
+            principalior et omnium quodam modo forma et radix 
+            est illa quae ultimo (f) advenit. Quod quomodo verum sit in 
+            sequentibus quaestionibus plurimum (g) apparebit, et in responsionibus 
+            argumentorum (h) aliqua tangentur.</p>
+        </div>
+        <div>
+          <head>
+            <supplied>Solutio Obiectorum</supplied>
+          </head>
+          <p>Respondendum igitur ad argumenta (i) utriusque 
+            partis.</p>
+          
+          <p>Quod enim primo dicitur quod si in aliquo sunt 
+            plures rationes formales realiter distinctae, quod illa res 
+            habebit plura esse: dicendum ad hoc quod quaelibet illarum 
+            rationum formalium, quando est in re per se et sine aliis, 
+            tunc est forma rei substantialis et ideo tune dat ei esse per se; 
+            quando autem est cum aliis (k), non est forma, sed pars 
+            <pb n="36"/>
+            formae, et ideo tunc earum non est dare esse per se, sed totalis 
+            formae. - Quod autem dicitur quod si quaelibet per se sumpta 
+            dabat esse per se, multo magis cum aliis iuncta, cum nullam 
+            imperfectionem accipiat ex aliaru'm adiunctione, sed 
+            magis perfectionem: dicendum quod sicut pars ignis, cum 
+            est in suo toto, non est ens per se, sed solum pars entis 
+            et tamen perfectior est, cum est in toto quam quando est 
+            separata ab ipso, sic est et (a) in proposito. Formae enim 
+            totius est dare esse per se et non alicuius partis eius, licet 
+            ipsius sit hoc dare per suas partes; unde per quamlibet 
+            partium suarum formalium dat unum gradum actualitatis 
+            essendi et tunc sicut ex omnibus partibus consurgit una 
+            forma completa, ita ex omnibus gradibus essendi consurgit 
+            unum esse completum. Pars ergo formalis non dat esse nec 
+            etiam per se gradum essendi, sed forma per ipsam.</p>
+          
+          <p>Ad secundum dicendum quod sicut forma adveniens 
+            alteri formae, quae post adventum eius existit rei forma 
+            totalis sicut prius, est accidentalis, non autem si ex suo adventu 
+            prima amittat (b) rationem totalitatis, ut iam non sit 
+            forma rei sed potius pars formae, quin immo ista quae advenit 
+            erit potius forma quam prima, quanto est (c) actualior et 
+            completior: sic similiter forma adveniens post esse (d) completum, 
+            si illud esse cui advenit adhuc est esse rei totale, 
+            ipsa est accidentalis. Si autem illud esse post eius adventum 
+            non iam sit esse rei, sed potius unus de gradibus eius et 
+            quodam modo pars eius: tunc non (e) iam debet dici advenire 
+            enti (f) completo vel post esse completum, cum ex suo 
+            adventu constituatur ens completum, et quod prius erat esse 
+            rei iam non sit, sed solum pars vel gradus essendi. Unde 
+            et potest dici aliud ens a priori per adventum formae sequentis 
+            fuisse factum et ita nec advenire enti priori nec 
+            esse accidentalis (g) ei enti quod per ipsam fit et constituitur. 
+            - Quod etiam adiungitur quod ratio generis convenit 
+            aequaliter inferioribus, hoc non est verum nisi logice <!-- edition actually as logiec -->, quia 
+            logicus (h) rationes rerum plus considerat secundum suam 
+            abstractionem et communitatem quam secundup1 earum realem 
+            (i) entitatem. Naturaliter enim loquendo, natura generis 
+            quasi aequivocatur in suis (k) speciebus secundum 
+            <ref>
+              <seg><name ref="#Aristotle">Aristo<pb n="37"/>telem</name>, VII <title ref="#Physics">Physicorum</title>;</seg>
+              <bibl>Cfr. Aristotle, Physics, VII, cap. 4, 249a21sqq</bibl>
+            </ref> 
+            licetque (a) ex hoc sequeretur 
+            quod quodlibet ens per suam formam substantialem sit vere 
+            per se ens, non tamen sequitur quod altera adveniente et 
+            sic prima cessante (b) habere rationem formae, quod per primam 
+            adhuc sit ens per se.</p>
+        
+          <p>Ad tertium dicendum quod generatio vere est ex 
+            non ente; ens enim quod per generationem fit ens antea 
+            non erat nisi secundum quid et in potentia; per alterationem 
+            autem id quod prius erat non ens non fit ens, sed ipsum 
+            ens fit tale vel tale. Non autem propter hoc oportet quod 
+            quando aliquid generatur, quod nihil quod est in eo prius 
+            aliquo modo esset, cum certum sit, etiam 
+            <ref>
+              <seg>secundum <name ref="#Aristotle">Aristotelem</name>,</seg>
+              <bibl>Aristotle, Physics, I, 5, 188a19sqq.;</bibl>
+            </ref> 
+            quod materia quae est vere pars entis prius 
+            esset, cum una et eadem sit contrariorum et secundum eum 
+            sit ingenerabilis. Bene tamen sequitur quod nihil illorum quae 
+            sunt de substantia entis generati (c) haberet prius idem esse 
+            quod nunc habet vel esset pars eiusdem (d) entis cuius nunc 
+            est. Unde pro tanto ipsum ens cum omnibus suis partibus (e) 
+            potest dici generatum, quia omnia in ipso aliud esse accipiunt 
+            et in eius generatione partes alterius entis fiunt. Corpus 
+            ergo humanum, cum advenit sibi anima, non debet dici 
+            quod fiat aliud ens, sed quod fit pars alterius entis et desinit 
+            esse per se ens; nec cum abscedit ab eo anima, debet 
+            dici quod fiat aliud ens quam prius esset, cum prius non esset 
+            ens per se; sed debet dici quod abscedente anima corpus 
+            quod erat pars hominis vel alterius animalis fit per se ens. 
+            Et ita non sequitur quod corruptio terminetur ad (f) ens, eum 
+            prius ens, scilicet homo vel animal, vere corruptum (g) et 
+            vere non ens et aliud factum sit.</p>
+          
+          <p>Quartum concedo; bene enim concludit quod non 
+            omnes rationes formales sunt ad invicem distinctae realiter, 
+            non tamen ex hoc sequitur quod nullae.</p>
+          
+          <p>Quintum etiam secundum eundem modum concedendum 
+            est.</p>
+          
+          <p>Ad sextum dicendum quod verbum <name ref="#Aristotle">Aristotelis</name> verum 
+            est, quando aliquid constituitur ex aliquibus sicut ex 
+            partibus materialibus, non autem intelligitur hoc de parti<pb n="38"/>bus 
+            formalibus; unde si ali quae duae formae concurrerent 
+            ad constitutionem tertiae sicut partes materiales, ut concurrunt 
+            membra humani corporis ad constitutionem ipsius: tunc 
+            oporteret quod praeter ipsas esset adhuc tertia alia ab eis 
+            existens. Nunc autem sic concurrunt quod ultima est perfectio 
+            primae, et prima est quodam modo pars ultimae et 
+            quodam modo virtus et instrumentum (a) eius, sicut sunt 
+            formae elementares formae mixti vel vegetativae et sicut 
+            vegetativa sensitivae et sicut est utraque animae rationalis. 
+            Et ideo sicut ex materia et forma vere fit unum compositum 
+            per essentiam, ita ex prima forma et ultima vere fit una 
+            forma per essentiam. Et huic modo satis concordant verba 
+            <ref>
+              <seg><name ref="#Aristotle">Aristotelis</name>, VII <title ref="#Metaphysics">Metaphysicae</title></seg>
+              <bibl>Haec explicatio omnino adversatur ingenio philosophiae Aristotelicae; cfr. Aristoteles, Metaphysics, VII, 7-9, 1032a12sqq.</bibl>
+            </ref> 
+            et 
+            <ref>
+              <seg>etiam VIII.</seg>
+              <bibl>Aristoteles, Metaphysics, VIII, 4-6, 1044a15sqq.</bibl>
+            </ref> 
+            - Quod 
+            autem adiungitur quod ex anima rationali et formis corporalibus 
+            non fit unum per essentiam, et ita non fit vere ens unum (b) 
+            per essentiam: dico quod licet anima et formae corporales 
+            non sint simpliciter unum per essentiam et secundum se, 
+            respectu tamen corporis humani non sunt nisi una forma 
+            completa. Et sicut ex corpore et anima rationali vere fit 
+            unum per essentiam, non ita quod unum sit alterum vel 
+            quin unum non possit separari ab altero: ita dico quod anima 
+            rationalis cum ceteris formis corporis sunt unum per 
+            essentiam; non enim est minus unum cum formis corporis 
+            quam cum materia earum. Sicut autem illa quae ultimo 
+            advenit dicitur proprie forma rei, et aliae praecedentes 
+            habent se ad ipsam sicut partes ad totum et sicut ad suam 
+            radicem - forma enim, quanto completior et posterior adveniens, 
+            tanto magis est penetrativa capacitatis materiae et 
+            magis intrat intima eius, et ideo ipsa est omnium radicalis 
+            et alias quodam modo intra se continens (c) sicut totum suas 
+            partes -: sic similiter anima debet dici proprie forma hominis, 
+            aliae vero quasi partes eius et instrumenta.</p>
+          
+          <p>Ad septimum dicendum quod licet istae formae seu 
+            isti gradus formales differant se totis, non tamen ex hoc sequitur 
+            quod in nulla intentione conveniant. Genera enim 
+            decem praedicamentorum, licet se totis ad (d) invicem differant, 
+            conveniunt tamen in intentione entis seu accidentis et 
+            <pb n="39"/>
+            in aliis intentionibus generalibus quae circueunt (a) omne 
+            ens. In qua intentione si conveniant aequaliter, saltem pro 
+            tanto quod ipsa ratio simpliciter (b) servetur in unoquoque, 
+            licet forte perfectius sit in altero, ut ratio substantiae simpliciter 
+            est (c) in corpore, perfectius tamen in angelo: dicitur 
+            (d) eis univoce secundum logicum convenire. Diversi autem 
+            gradus formales in nulla propria intentione conveniunt 
+            nisi analogice, unde et ratio formae convenit eis analogice.</p>
+          
+          <p>Ad octavum dicendum quod licet gradus formalis a 
+            quo sumitur ratio differentiae totaliter secundum essentiam 
+            differat a gradu formali a quo sumitur ratio generis: non 
+            tamen propter hoc sequitur quod minus habeat de convenientia 
+            cum ipso vel ita parum sicut cum alio genere. Sicut 
+            enim materia corporalis differt se tota a forma corporali, 
+            plus tamen convenit cum ipsa quam cum forma spirituali: 
+            ita est in hoc. Sciendum tamen quod convenire cum aliquo 
+            potest intelligi dupliciter: aut ita quod conveniant in aliqua 
+            una intentione seu ratione, ut conveniunt duae species in 
+            ratione generis, et sic tantum differt (e) unus gradus formalis 
+            ab altero qui est sui generis, quantum ab illo qui est alterius 
+            generis; aut ex hoc dicuntur convenire, quia unum est alteri 
+            iuxta suam exigentiam proportionaliter coaptatum, ut est propria 
+            materia propriae formae, et sic plus convenit genus 
+            cum sua differentia quam cum differentia alterius generis, 
+            quia huic est coaptatum proportionaliter, alteri nullo modo. 
+            Dicuntur etiam aliqua convenire in tertio quod constituunt, 
+            ut partes in toto et (f) forma et materia in composito; et sic 
+            adhuc plus convenit genus cum sua differentia quam cum differentia 
+            alterius generis. Unde in argumento non eodem 
+            modo sumebatur convenientia et differentia.</p>
+          
+          <p>Ad nonum dicendum quod (g) forma prima non perficitur 
+            ab ultima (h) nisi quodam modo indirecte. Forma enim 
+            adveniens eo ipso quo perficit materiam plenius quam prima 
+            et est eius plenior actualitas et vivificatio et purificatio: eo 
+            ipso et forma prima fit purior et actualior et similiter eius 
+            operationes. Agens enim inducit formam ultimam in materia 
+            magis ac magis purificando et sublimando eam et sic per 
+            consequens omnia quae in ea sunt. Unde forma ultima est 
+            solum perfectio materiae proprie, soli enim sibi unitur ut 
+            <pb n="40"/> 
+            materiae et ut perfectibili, formae vero primae non unitur 
+            nisi sicut parti formali. Nec intelligas quod forma ultima 
+            perficiat primam aliquo modo effective, sed agens quod (a) 
+            ipsam produxit ipsam educendo et eo ipso quo eam educebat 
+            primam formam sublimavit et perfecit; formae (b) tamen illae, 
+            quae se et omnes formas sibi subiectas movent ad actus, 
+            perficiunt eas effective quoad actus sicut se ipsas. Ex prima 
+            ergo forma et ultima non fit unum proprie sicut ex perfectibili 
+            et perfectione; sed pro tanto dicuntur una forma et 
+            unus actus, quia ordinato modo concurrunt ad unam materiam 
+            perficiendam; actualitas enim ultimae formae talis est 
+            quod non posset materia ipsam capere, nisi per primam 
+            formam esset capacitas materiae dilatata (c), sublimata et 
+            coaptata ad ultimam recipiendam. Uniuntur ergo sicut inferior 
+            gradus et superior, et sic fit perfecta actualitas ex gradu 
+            ipsius supremo et infimo. Sicut enim partes materiae non 
+            possunt ad invicem uniri nisi per formam et in forma, sic 
+            duo gradus formales realiter distincti non possunt ad invicem 
+            uniri nisi in materia; non enim sunt (d) actus suis ipsius 
+            sed materiae.</p>
+          
+          <p>Ad decimum dicendum quod communiter formae (e) 
+            substantiales bene intenduntur et remittuntur secundum essentias 
+            suas in materia sua, sicut alibi habet ostendi, licet 
+            quidam contrarium asseverent. Et ideo agens, quando introducit 
+            formas ultimas, si amoveat minus nobilem et inducat 
+            magis actualem et perfectjorem: tunc sublimat primam a 
+            qua sumitur ratio generis et hoc sublimando materiam ad 
+            ultimam recipiendam; et eo ipso quo tacit ipsam partem et 
+            instrumentum ultimae, quodam modo specie variatur eius 
+            actio et natura, sicut et actio omnis rei quodammodo specie 
+            variatur, quando fit ipsa res instrumentum alterius agentis, 
+            ut caloris actio, cum fit instrumentum f6rmae mixti vel animae 
+            vegetativae. Haec est ergo causa quare 
+            <ref>
+              <seg><name ref="#Aristotle">Aristoteles</name>dicit</seg>
+              <bibl>Superfluum videtur annotare quantopere haec explicatio genuinae Aristotelis doctrinae contraria sit.</bibl>
+            </ref> 
+            naturas generum in diversis speciebus fere aequivocari.</p>
+          
+          <p>Ad undecimum dicendum quod licet virtus superior 
+            extendat se ad omnia obiecta ad quae inferior, non tamen 
+            ad eosdem actus producendos; unde intellectus non potest 
+            <pb n="41"/> 
+            elicere istum actum qui est sentire vel vegetare. Et ideo 
+            si ex hoc sequeretur quod forma cuius est virtus superior 
+            posset se extendere ad omines materias perficiendas ad 
+            quas (a) se extendunt inferiores formae: non tamen ex hoc 
+            sequeretur quod ipsa posset dare illis omnes perfectiones 
+            et actualitates quas dant inferiores. Non etiam est simile 
+            quod sicut potentia potest se extendere ad plura obiecta; 
+            quod ita una forma possit se extendere (b) ad plures materias, 
+            cum una forma non possit esse communiter et secundum 
+            unum et eundem ordinem nisi (c) unius materiae, sicut 
+            nec potest dare nisi unum esse nec potest esse forma nisi 
+            unius entis; potentia autem potest habere plura obiecta materialia, 
+            etsi non formalia, et plures actus numero, etsi non 
+            specie. Bene autem concedo quod sequatur quod si virtus 
+            se extendere (d) potest ad plura obiecta, quod forma cuius 
+            est virtus possit se ad illa obiecta extendere. Non tamen ex 
+            illa ratione aliquo modo sequitur quod si potentia potest se 
+            extendere ad plura obiecta, quod eius forma possit se extendere 
+            ad plures materias perficiendas (e) seu ad plures perfectiones 
+            eidem materiae communicandas.</p> 
+          
+          <p>Ad duodecimum dicendum quod <name ref="#Dionysius">Dionysius</name> bene 
+            dicit quod perfectiones participatae, quanto simpliciores, tanto 
+            perfectiores (f), ut esse quam vivere vel sapere; sed de entibus 
+            <ref>
+              <seg>dicit</seg>
+              <bibl>Cfr. Pseudo-Dionysius, De divinibus nominibus., cap. 5, sect. 3 et sect. 5 (PG 3, 818sq.).</bibl>
+            </ref> 
+            quod tanto perfectiora, quanto plures perfectiones 
+            participant, ut perfectius est ens quod vivit et sapit quam 
+            illud quod solum est et vivit. Et sic ex verbo <name ref="#Dionysius">Dionysii</name> magis 
+            potest argui contrarium quam propositum. - Sciendum 
+            tamen quod est simplicitas repugnans quantitati; et de hac 
+            verum est quod quanto aliquid simplicius, tanto perfectius. 
+            Et est simplicitas repugnans dispersioni et distractioni, sicut 
+            dicimus: <quote>cor non simplex, sed multiplex</quote>; quod est in 
+            multa distractum; et sic etiam verum est quod omnis res 
+            et omnis perfectio, quanto in se unitior et recollectior et 
+            quanto sit simplicior, tanto perfectior. Et est simplicitas repugnans 
+            perfectionum aggregationi; et de hac non est verum 
+            nisi in solo Deo quod quanto simplicius, tanto perfec<pb n="42"/>tius. 
+            In Deo autem idcirco verum est, non quia perfectiones 
+            ibi desint (a), sed quia omnes in unitate suae essentiae et 
+            sui esse cum summa (b) identitate comprehenduntur, quod 
+            esse non potest in creatis; quamvis et de ipsis perfectionibus 
+            non sit omnino simpliciter intelligendum quod quanto 
+            sunt simpliciores, tanto sunt perfectiores. Quantum enim ad 
+            rationem latioris et universalioris ambitus et altioris abstractionis 
+            et fundamentalis prioritatis est hoc verum, non autem 
+            quantum ad rationem <sic>ultimioris</sic> et magis consummatae actualitatis (c).</p> 
+          
+          <p>Ad decimum tertium dicendum quod diversorum 
+            actuum sunt diversae potentiae secundum rationem realem, 
+            seu diversorum actuum sunt diversae rationes reales potentiarum. 
+            Non autem oportet quod sicut actus realiter differunt, 
+            quod sic potentiae realiter differant. Quamvis enim 
+            quot modis dicitur unum correlativorum, tot modis dicatur 
+            et reliquum: non tamen omni modo quo diversificatur unum, 
+            diversificatur et reliquum. Plus enim diversificantur illuminationes 
+            orientes ab aliquo puncto luminoso quam ipsum 
+            lumen principians et accidentia plus quam suppositum eorum. 
+            Una igitur materia secundum substantiam potest plures gradus 
+            formales recipere secundum plures rationes potentiales, 
+            quam vis potentiae in ea (d) non habeant diversas essentias; 
+            sicut (d) et in formis aliquibus videmus quod sensitiva rationalis 
+            informat (f) materiam spiritualem animae et materiam 
+            corporis eius secundum diversas rationes, licet non 
+            secundum diversas essentias. Quod autem ita sit in suis locis 
+            et materiis est ostensum.</p>
+          
+          <p>Ad decimum quartum dicendum quod differentia 
+            ultima non est tota forma rei, nisi prout est aggregata et accepta 
+            cum praecedentibus formis seu naturis formalibus. In 
+            adventu autem eius forma praecedens amittit rationem formae 
+            totalis, et ens praecedens amittit rationem totius et 
+            per se entis; aut enim totaliter destruuntur aut assumunt (g) 
+            rationem partis.</p>
+          
+          <p>Ad decimum quintum dicendum quod forma simplicior 
+            est quam materia simplicitate unitionis et recollectionis, 
+            sed non oportet quod semper sit simplicior simplicitate 
+            incompositionis et inaggregationis; sicut et species perfectior 
+            <pb n="43"/>et unitior est quam suum genus, non tamen minus composita. 
+            Sicut enim supra dictum est, non omnis simplicitas creata 
+            est nobilior quam quaecunque compositio seu aggregatio.</p>
+          
+          <p>Ad decimum sextum dicendum quod minor est 
+            falsa in aliquibus formis: sensitiva enim rationalis potest esse 
+            in pluribus materiis. - Consequentia etiam non est bona: 
+            quamvis enim in aliquibus (a) verum sit quod sicut se habet 
+            materia ad formam, sic forma ad materiam, non propter hoc 
+            sequitur quod sit verum in omnibus; unde argumentum a simili 
+            frequenter peccat secundum consequens. - Maior etiam 
+            est sane intelligenda: verum est enim quod sicut se habet 
+            forma ad informare materiam, sic materia ad informari a 
+            forma; sicut enim illa (b) actualis est ad istam informandam, 
+            sic et ista est (c) potens ad capiendam illam. Sed in hoc sunt 
+            dissimiles: quia licet forma non possit aliam materiam habere, 
+            materia tamen potest ultra eam (d) capere alias formas. Posset 
+            etiam n dici quod sicut forma communiter non potest 
+            esse nisi in una materia, sic nec materia nisi (f) sub una 
+            forma totali. Naturae enim formales frequenter non habent 
+            rationem formae, sed potius partis formalis; materia enim (g), 
+            etsi possit capere plures partes formales, nunquam tamen 
+            nisi unam formam, accipiendo proprie nomen formae.</p>
+          
+          <p>Ad decimum septimum dicendum quod illud quod 
+            est definitione (h) unum cum aliquo bene est maxime unum 
+            cum illo, quia in nullo realiter differunt ad invicem; non 
+            tamen ex hoc sequitur quod illud in se et absolute sit maxime 
+            unum (i). Unde si gradus formarum essent unum definitione 
+            (k), tunc essent maxime unum; nunc autem non possunt 
+            dici unum definitione nisi in eo quod constituunt unam 
+            essentiam et definitionem et sunt partes ipsius. - Quod autem 
+            dicit quod omnis species est unum definitione: sensus 
+            est quod est unum cum ipsa. - Potest etiam dici quod licet 
+            unum definitione sit maxime unum per comparationem ad 
+            alia genera unitatum quae sunt unum genere vel specie vel 
+            supposito, tamen intra se habet gradus maioris vel minoris 
+            unitatis. Quod enim habet definitionem (l) simpliciorem et 
+            magis unam, poterit dici magis unum definitione, id est, ma<pb n="44"/>gis 
+            unum per definitionem seu quidditatem vel quoad definitionem 
+            vel quidditatem quam illud quod habet definitionem 
+            minus simplicem et minus unam; sicut creatura (a) rationalis 
+            est dignissima omnium aliarum, et tamen inter se 
+            una est dignior altera. Verumtamen definitum quod (b) habet 
+            definitionem minus simplicem non minus est unum cum sua 
+            definitione quam sit definitum habens definitionem simpliciorem (c) 
+            cum sua.</p>
+          
+          <p>Ad duodevicesimum dicendum quod licet optimum 
+            simpliciter non sit nisi unum, optimum tamen in genere potest 
+            multiplicari sicut et genera, et optimum alicui potest 
+            multiplicari sicut et essentia. Bene tamen est verum quod 
+            una res non potest habere nisi unum suae existentiae optimum, 
+            quod est eius forma; quae est vere una, licet plures habeat 
+            (d) gradus vel partes, nec minus una quam suum totum.</p> 
+          
+          <p>Ad undevicesimum dicendum quod quamvis corpus 
+            humanum abscedente anima non reciperet aliquam naturam 
+            differentialem, adhuc non esset corpus humanum nisi aequivoce; 
+            esset (e) tamen corpus sicut prius univoce. Et hoc dico 
+            sumendo humanum pro animato anima rationali, quia sumendo 
+            humanum pro complexione et organizatione humana 
+            seu quae fuit hominis vel est animae humanae unibilis, sic 
+            est ibi univocatio (f). - Quod autem dicit quod tunc esset 
+            alterius speciei, concedo. - Sed quod subiungit quod hoc 
+            non posset esse nisi per alteram differentiam superadditam, 
+            si intelligatur quod haec differentia sit natura realiter differens 
+            a formalibus naturis prius in corpore existentibus, non 
+            est verum; si vero (g) accipiatur pro modo essentiali corpori 
+            et formali, utpote quia prius stante anima illae naturae formaliter 
+            non habebant rationem formae totalis, sed magis 
+            partis formalis, sic est verum. Nunc autem, scilicet postquam 
+            abscessit anima, habent rationem formae totalis (h), et hoc, 
+            scilicet habere rationem formae totalis, est essentiale tali 
+            speciei et ipsam in esse constituens. Et tunc secundum hoc 
+            nihil inconveniens sequitur.</p>
+          
+          <p>Ad argumenta in contrarium dicendum quod 
+            primum argumentum non plus concludit nisi quod oportet 
+            aliquam formam substantialem praecedere adventum ani<pb n="45"/>mae; 
+            licet illi qui tenent quod non sit ibi alia forma praeter 
+            animam ad hoc respondeant dicentes quod per animam in 
+            quantum habet in se rationem corporeitatis et ceterarum 
+            formarum corporalium, corpus est corpus et complexionatum 
+            et organizatum, et naturaliter prius ipsum corpus per ipsam 
+            est corpus quam per ipsam sit animatum vel sentiens. Et ita 
+            ipsa, in quantum habet in se rationem primarum formarum 
+            unitur materiae primae et nullum actum habenti; sed in 
+            quantum anima, unitur eidem ut iam perfectae et in actum 
+            aliquem reductae, non quidem per aliam formam, sed per 
+            animam, non in quantum anima, sed in quantum habens in 
+            se rationes primarum formarum corporalium. Hoc tamen non 
+            esse verum superius est ostensum.</p> 
+          
+          <p>Ad secundum dicendum quod licet genus et differentia 
+            semper dicant diversas rationes formales -- propter quod 
+            unum de altero non potest praedicari, pro eo quod praedicatio 
+            vanatur propter solam diversitatem rationum vel intentionum 
+            -: tamen non semper oportet quod genus et differentia 
+            nominent diversas essentias realiter distinctas seu 
+            diversos gradus formales. Differentia enim corporeitatis nihil 
+            addit ad rationem substantiae quod sit ab ea realiter distinctum; 
+            sed sola forma corporeitatis, in quantum est potens 
+            materiam perficere et stabilire et facere rem per se existere 
+            habet in se rationem formae substantialis et ipsa eadem in 
+            quantum est talis forma, habet in se rationem corporeitatis. 
+            Alias sola ratio formalis generis vel sola forma eius haberet 
+            rationem formae substantialis; et sic nulla differentia hoc haberet, 
+            nec anima esset forma substantialis, sed sola forma genens. 
+            Si etiam diversitas (a) rationum infert vere distinctionem 
+            realem, tunc quaelibet differentia quantumcunque simplex, 
+            erit vere composita, cum diversas habeat (b) in se rationes.</p> 
+          <p>Ad tertium dicendum quod in iis, in quibus genus et 
+            differentia nullam ponunt ·diversitatem realem in forma sed 
+            solum rationis, illa essentia quae erit essentia generis erit (c) 
+            etiam essentia differentiae. Et sic per identitatem bene poterit 
+            dici in talibus quod essentia generis est tota essentia 
+            speciei. Non tamen (d) propter hoc (e) ratio generis erit ratio 
+            differentiae nec ratio totius speciei; nec essentia, in quantum 
+            comprehendit in se rationem generis, erit essentia totius 
+            speciei, sed in quantum comprehendit utramque.</p>
+        <p><pb n="46"/> 
+          Ad quartum dicendum quod licet differentia sit realiter 
+          eadem cum genere, non tamen propter hoc oportet quod 
+          sit realiter eadem cum differentia sibi opposita, licet illa 
+          realiter sit eadem cum suo genere. Si autem genus seu forma 
+          generis unum numero esset in diversis speciebus et non 
+          multiplicatum, tunc esset impossibile quod oppositae differentiae 
+          essent cum ipso realiter eaedem et non ad invicem. 
+          Dico igitur quod licet oppositae differentiae aliquando sint 
+          realiter eaedem cum suo genere seu cum forma generis, non 
+          tamen sunt realiter eaedem uni et eidem rei, nisi sumas 
+          unum secundum rationem et intentionem et secundum solum 
+          intellectum.</p>
+        <p>Ad quintum dicendum quod essentia generis in illis 
+          in quibus est realiter eadem cum sua differentia, prout realiter 
+          est in una specie, eadem realiter non potest esse in 
+          alia specie, nisi solum secundum identitatem (a) rationis, et 
+          sic, prout est realiter eadem cum sua differentia, non potest 
+          ab ipsa (b) separari, potest tamen consimilis alibi inveniri; 
+          sicut et forma speciei quae est in uno individuo non potest 
+          eadem realiter esse in altero, licet sit eiusdem speciei, sed 
+          solum consimilis. Quia tamen (c) illa non habent nisi unam 
+          rationem secundum intellectum, ideo intellectus dicit esse 
+          unam formam in pluribus.</p>
+        <p>Ad sextum dicendum quod ratio differentiae nunquam 
+          est aequalis ambitus cum ratione generis; forma tamen a 
+          qua sumitur ratio generis, quae est semper forma particularis, 
+          quando est realiter eadem cum sua differentia, prout est 
+          realiter et particulariter cum ipsa existens, no11 est maioris 
+          ambitus. Quando autem est ab ipsa realiter distincta, pro 
+          tanto est maioris ambitus, licet sit particularis, quia potest 
+          esse cum opposita differentia, sicut et materia potest esse 
+          sub pluribus formis.</p>
+          
+          <p>Ad septimum dicendum quod argumentum credo quod 
+            teneat, ubi proprietates important aliquid realiter differens 
+            secundum essentiam ab ipsa forma cuius sunt proprietates, 
+            et quando per hoc quod dat unam proprietatem non dat 
+            aliam. Quando autem per hoc quod dat unam eo ipso dat 
+            alteram - pro eo quod tales proprietates per comparationem 
+            ad talem (d) formam in tali materia habent (e) ad invicem 
+            ordinem -: possunt esse ab eadem ratione seu natura for<pb n="47"/>mali. 
+            - Quod autem dicit quod secundum unamquamque 
+            naturam generis et differentiarum sunt in re proprietates 
+            differentes secundum rem, credo quod (a) est falsum. - Quid 
+            autem sit (b) veritatis vel falsitatis in exemplis quae in ratione 
+            ponuntur alterius (c) est et non minoris inquisitionis.</p> 
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

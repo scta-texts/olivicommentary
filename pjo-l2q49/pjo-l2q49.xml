@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Quaestio 49</title>
+        <author xml:id="PJO">Peter John Olivi</author>
+        <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.05">
+          <title>Librum II, Quaestio 49</title>
+          <date when="2015-06-05">June 05, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Ad Claras Aquas</publisher>
+        <pubPlace>Quaracchi</pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="1922">1922</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Quaestions In Secundum Librum Sententiarum, ed. Bernardus Jansent, S.I, Ad Claras Aquas, 1922</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-06-05" who="#JW" status="draft" n="2015.06">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pjo-l2q49">
+        <head>Librum II, Quaestio 49</head>
+        <p>Deinde de homine quoad eius substantialem
+        formam quaeruntur quatuor communia.</p>
+        
+        <p>
+          <app>
+            <lem>Primo</lem>
+            <rdg wit="#B4" type="om."/>
+          </app> 
+          quaeritur an anima immediate informet 
+          omnes partes corporis sui.</p>
+        <div>
+          <head>Et quod non probatur.</head>
+          <p>1. Primo, ex discontinuitate plurium partium corporis 
+            nostri. Quae enim sunt inter se discontinua, sunt numero diversa 
+            ac per consequens non sunt partes unius entis numero 
+            <app>
+              <lem>nec informantur a forma una numero (b);</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            sed multae partes 
+            corporis nostri sunt inter se discontinuae; ergo et cetera. 
+            Minor patet: quia sanguis non 
+            <app>
+              <lem>continuatur</lem>
+              <rdg wit="#B4" type="intextu">nervis</rdg>
+            </app> 
+            venis nec venae 
+            aut nervi cum ossibus, nec spiritus cum arteriis aut 
+            nervis, et universaliter partes heterogeneae seu diversae 
+            speciei non continuantur realiter inter se, quia omnis continuatio 
+            oportet quod sit per unam formam continuam et continuantem.</p> 
+          
+          <p>2. Item, secundo probatur hoc ex specifica diversitate 
+            membrorum corporis. Quae enim informantur ab eadem 
+            forma specifica sunt eiusdem speciei, et e contrario quae 
+            sunt diversae 
+            <app>
+              <lem>speciei</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr> <!-- addition of "et" is unclear -->
+                  <add place="margin">et speciei</add>
+                </corr>
+              </rdg>
+            </app> 
+            a 
+            <app>
+              <lem>formis diversarum specierum</lem>
+              <rdg wit="#B4">diversis formis specificis</rdg>
+            </app> 
+            informantur; sed diversa membra corporis nostri sunt diversae 
+            speciei, ut caput et cor, manus et 
+            <app>
+              <lem>pes,</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            oculi et 
+            nares, 
+            <app>
+              <lem wit="#B4">alia</lem>
+              <rdg wit="#V">ibi</rdg>
+            </app> 
+            etiam sunt diversarum specierum, ut nervi et 
+            ossa, caro et medulla, sanguis et fleuma; constat autem quod 
+            anima nostra est forma unius speciei; ergo non informat 
+            <pb n="2"/>partes corporis nostri. Probatio minoris: quia constat quod 
+            per diversitatem specificam sensitivarum propriarum passionum 
+            et operationum arguimus diversitatem specificam suorum 
+            subiectorum; certum est autem quod propria passio et 
+            operatio oculi differt specie a propria passione et operatione 
+            aurium et aliorum membrorum. - Praeterea etiam, 
+            <ref>
+              <seg>secundum 
+                mundanum philosophum (1),</seg>
+              <bibl>Cfr. Aristot., De anima, II, 1, 418b18sqq</bibl>
+            </ref> 
+            sicut anima est forma 
+            <app>
+              <lem>totius</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr> <!-- text says "al. mn." -->
+                  <add>totius</add>
+                </corr>
+              </rdg>
+            </app> 
+            corporis, sic potentia visiva est forma oculi et auditiva auris 
+            et sic de aliis; sed constat quod istae potentiae sunt diversae 
+            speciei. - Praeterea, secundum hoc cor et caput non 
+            differunt nisi sicut pannus albus et niger vel sicut partes 
+            eiusdem 
+            <app>
+              <lem wit="#B4">panis</lem>
+              <rdg wit="#V">pannis</rdg>
+            </app> 
+            triticei quarum una est humidior vel 
+            <app>
+              <lem>siccior</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>seccior</del>
+                  <add>siccior</add>
+                </corr>
+              </rdg>
+            </app> altera; quod est ridiculosum et quasi contra sensum. 
+            - Praeterea, secundum hoc, quando vinum per operationem 
+            sacramentalem convertitur in sanguinem aut panis in corpus, 
+            eo ipso convertitur in omnes partes corporis tanquam 
+            in omnes partes eiusdem speciei, cum non fiat conversio in 
+            accidentia, sed solum in substantiam. - Forte dicetur quod 
+            licet anima sit 
+            <app>
+              <lem>secundum rem (d)</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            simplex et 
+            <app>
+              <lem wit="#B4">unius</lem>
+              <rdg wit="#V">unus</rdg>
+            </app> 
+            simplicis 
+            speciei, habet tamen in se vim dandi diversis partibus 
+            corporis diversos actus et diversas 
+            <app>
+              <lem>rationes</lem>
+              <rdg wit="#B4">actiones</rdg>
+            </app> 
+            specificas. 
+            Sed contra hoc est: quia ad hoc quod partes corporis differant 
+            specie oportet quod habeant in se diversas formas 
+            seu differentias substantiales per quas formaliter in specie 
+            reponantur; quicquid enim aliud detur quasi fluens a forma 
+            substantia erit in genere accidentis et per illud non possunt 
+            <app> <!-- edition has "Ita B4, V add. sive -->
+              <lem>differre</lem>
+              <rdg wit="#V" type="intextu">sive</rdg>
+            </app> 
+            specifice, et dato quod illud fiuens esset aliquid 
+            substantiale, oporteret quod esset substantiale illius formae 
+            et magis intrinsecum quam materiae; ergo per huiusmodi 
+            plus differret forma specifice quam ipsa materia. - Praeterea, 
+            in materia quae secundum se est eiusdem speciei non 
+            est dare rationem vel causam quare animalis forma eiusdem 
+            speciei det eius partibus diversas rationes specificas 
+            <app>
+              <lem>et substantiales (h).</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            - Forte etiam contra 
+            <app>
+              <lem>maiorem</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>materia</del>
+                  <add>maiorem</add>
+                </corr>
+              </rdg>
+            </app> 
+            dicetur quod 
+            respectu suae formae corporalis specificae sunt diversa specie, 
+            non autem respectu formae spiritualis, scilicet animae. 
+            Contra: quia sicut consimilis dispositio materiae ad formam 
+            <pb n="3"/> 
+            aliquam exigit consimilem formam, sic diversa diversam; 
+            sed substantiales et corporales formae membrorum corporis 
+            nostri disponunt 
+            <app>
+              <lem>ipsa</lem>
+              <rdg wit="#B4">ipsam</rdg>
+            </app> 
+            ad susceptionem animae; ergo diversae 
+            disponent ad diversas animas. - Praeterea, diversae 
+            operationes organorum specificae sunt ab anima tanquam a 
+            principio formali et effective, si ipsa est eorum forma immediata; 
+            sed impossibile videtur quod sint ab eadem simplici 
+            forma; ergo et cetera.</p> 
+          <p>3. Tertio probatur principale ex nova separatione vel 
+            aggeneratione quarundam partium. Anima enim non potest 
+            de novo advenire partibus de novo aggeneratis  
+            <app>
+              <lem>seu agglutinatis (b)</lem>
+              <rdg wit="#B4" type="om."/>              
+            </app> 
+            nec recedere ab eisdem de novo separatis sine aliquo 
+            sui motu vel mutatione; sed forma unita materiae corporali, 
+            in quantum talis, non vadit ad aliquid, saltem corporale 
+            vel situale, per se et separatim, sed solum cum materia 
+            vel aliqua parte materiae cui est unita; constat autem 
+            quod anima cum materia vel parte materiae corporalis in 
+            qua erat prius non potest subintrare et informare partes de 
+            novo venientes ac per consequens nec potest cum illis prioribus 
+            ab istis ultimis recedere. -- Praeterea, hoc non posset 
+            fieri nisi per motum localem partis prius animatae et animae 
+            cum ipsa; patens est autem quod impossibile est quod 
+            per talem motum localem hoc fiat. - Praeterea, quando anima 
+            ad partes illas ibit vel recedet, quia non erat in eis secundum 
+            suam totalitatem, pro quanto ibit ad illas, pro tanto in minori 
+            plenitudine erit in partibus prioribus, et pro quanto recedet, 
+            erit in maiori plenitudine in iis in quibus remanet. - Praeterea, 
+            eius recessus vel reditus non poterit esse aliud quam 
+            quaedam retractio et contractio animae versus se et versus 
+            partes in quibus prius et principalius est et erat, et e contra 
+            eius accessus ad partes de novo venientes non erit nisi 
+            quaedam dilatatio et diffusio animae; sed talis contractio et 
+            dilatatio sunt motus spirituales genere differentes ab omni 
+            motu corporali ac per consequens ab alio motore causati; 
+            ergo praeter motus corporales qui fiunt in partibus de novo 
+            corruptis vel aggeneratis oporteret dare alios motus spirituales 
+            in anima factos ab aliqua causa vel motore spirituali.</p> 
+          
+          <p>4. Quarto probatur hoc ex simplicitate animae. Forma 
+            enim secundum se simplex et uniformis est tota in omni 
+            parte quam informat; ergo est in omnibus aeque intense et 
+            aeque primo et aeque stabiliter; sed impossibile est animam 
+            <pb n="4"/>esse aequaliter et aeque primo in corde et pede; ergo et cetera. 
+            - Dicebatur quod anima ut forma est in omnibus partibus 
+            aeque intense et aeque primo, sed non ut motor. Contra: 
+            quia ex primo quod conceditur sequitur secundum quod negatur, 
+            quia si est ibi aeque ut forma, ergo habet in eis aequale 
+            esse et aequales dispositiones ad ipsam; sed ubi est 
+            aequalitas essentiae et esse et dispositionum, est aequalitas 
+            operationum; ergo et cetera. - Praeterea, actus vitae est 
+            ab anima ut a forma; sed· iste non est aequaliter in omnibus. 
+            - Item, forma communicat suae materiae suam actualitatem 
+            et suam operationem, et praecipue si est simplex; 
+            ergo anima communicabit omnibus partibus corporis sui 
+            actualitatem sensitivam et intellectivam et operationes 
+            <app>
+              <lem wit="#B4">intellectivas</lem>
+              <rdg wit="#V">intelligentiae</rdg>
+            </app> 
+            et omnes operationes sensitivas, scilicet visivam, 
+            auditivam, imaginativam et cetera, vegetativa etiam 
+            omnibus communicabit actum attrahendi, digerendi, convertendi, 
+            incorporandi et expellendi impurum et consimilia; sed 
+            praedictorum contrarium experimento probamus; ergo et 
+            cetera. - Dicebatur quod intellectivum et visivum et cetera 
+            sumpta pro essentia animae communicantur corpori, 
+            non autem sumpta pro potentia. Contra: quia ubi est essentia 
+            <app>
+              <lem>intellectivi</lem>
+              <rdg wit="#B4">intellectiva</rdg>
+            </app> 
+            et esse formate eius, ibi debet 
+            <app>
+              <lem>oriri et esse potentia</lem>
+              <rdg wit="#B4">oriri potentia et esse</rdg>
+            </app> 
+            et eius operatio. - Forte adhuc dicetur 
+            quod primum non est verum nisi de forma quae totaliter 
+            est immersa materiae suae, non autem de forma quae transcendit 
+            materiam suam, qualis est anima. Sed contra hoc 
+            est: primo, quia omnis forma excedit in nobilitate et actualitate 
+            materiam suam sicut actus potentiam passivam; secundo; 
+            quia quicquid pertinet ad formam, in quantum, est 
+            forma, totum oportet esse immersum sive inhaerens materiae; 
+            si ergo tota essentia animae seu anima secundum totam suam actualitatem formalem est forma corporis, ergo 
+            secundum totam suam actualitatem inhaeret corpori; ergo 
+            eam totam communicat illi. - Item, ubi est anima, ibi est 
+            et sua potentia; sed nos experimento probamus quod potentia 
+            visiva non est in manu vel pede nec potentia auditiva 
+            in oculo et sic de aliis; ergo anima quae est subiectum potentiae 
+            non est in membris illis. -- Forte dices quod praedictae 
+            potentiae sunt ibi assistendo, 
+            <app>
+              <lem>sed non informando nec operando. Contra: quia qua ratione potentia est assi<pb n="5"/>stendo</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">sed non informando nec operando. Contra: quia qua ratione potentia est assistendo</add>
+                </corr>
+              </rdg>
+            </app> 
+            <app>
+              <lem>ibi,</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            eadem ratione et sua operatio et informatio 
+            erunt ibi assistendo, cum sint intra ipsam potentiam. Praeterea, 
+            illud assistere oportet quod ali quid addat super potentiam, 
+            cum non semper assistat partibus omnibus, utpote 
+            quando separantur a corpore ipsa remanente, aut quando 
+            <app>
+              <lem>ipsa cum anima separatur a corpore (b);</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            oportet etiam quod 
+            secundum quod in pluribus partibus assistet, eius assistentia 
+            sit maior et maioris ambitus; sed haec non videntur in 
+            potentia posse dari et praecipue 
+            <app>
+              <lem>in</lem>
+              <rdg wit="#V" type="om."/>
+            </app> 
+            potentiis sensuum particularium 
+            quae non videntur habere tantum ambitum aut 
+            tantam magnitudinem quantum habet tota essentia animae 
+            aut potentiae superiores; ex quo videtur quod non possint 
+            tantum corpus vel locum corporalem per assistentiam occupare 
+            sicut facit tota 
+            <app>
+              <lem>essentia animae.</lem>
+              <rdg wit="#B4">anima.</rdg>
+            </app></p>
+          <p>5. Item 
+            <ref>
+              <seg>ad principale:</seg>
+              <bibl>Licet aperte hic nova obiectio incipiat, in responsione tamen prior eius pars trahitur ad quartam obiectionem</bibl>
+            </ref> 
+            si anima informat omnes partes,
+            ergo cum sit simplex, est tota in qualibet parte et etiam in
+            punctis seu contactibus partium. Ex quo etiam impossibilia
+            duo sequi videntur: primo 
+            <app>
+              <lem>scilicet, quod (e)</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>quod scilicet</del>
+                  <add>scilicet, quod</add>
+                </corr>
+              </rdg>
+            </app> 
+            sit actu in infinitis
+            partibus et punctis seu punctalibus contactibus, quia 
+            in tot erit actu quot sunt ibi in potentia, alias non esset
+            tota in unaquaque ipsarum; secundo, quia tota anima erit
+            <sic>infinities</sic> replicata et quasi iterata et erit se ipsa prior et
+            posterior et sibi ipsi quasi per varios contactus continuata,
+            quia prout est in manu, continget se ipsam, prout est in
+            brachio et sic de aliis. Ex quo iterum videtur sequi quod
+            eius existentia 
+            <app>
+              <lem wit="#B4">et</lem>
+              <rdg wit="#V">etiam</rdg>
+            </app> 
+            informatio erit extensa secundum extensionem
+            partium, quia aliam essentiam et informationem habebit
+            in una parte et aliam in alia, et tunc aut habebunt 
+            unitatem continuationis aut erunt numero infinitae. Quod
+            probatur ex adaequatione et appropriatione formae ad materiam
+            et e contrario. Ex appropriatione arguitur sic: propria
+            forma habet unam propriam materiam, saltem 
+            <app>
+              <lem>in uno genere materiae (g);</lem> 
+              <rdg wit="#B4">eiusdem generis</rdg>
+            </app> 
+            ergo in 
+            <app>
+              <lem>illo</lem>
+              <rdg wit="#B4">nullo</rdg>
+            </app>
+            genere non potest habere
+            aliam; sed si anima est in omnibus partibus corporis, sequitur
+            quod erit in nutrimentalibus quae per vim nutritivam
+            et augmentativam adveniunt, et cum illis advenientibus priores
+            saepe recedant, poterit fieri quod erit omnino extra prio<pb n="6"/>res 
+            in quibus primo fuit, existendo solum in iis quae postmodum 
+            advenerunt, et hoc poterit contingere non solum 
+            semel, sed 
+            <app>
+              <lem>et</lem>
+              <rdg wit="#B4">etiam</rdg>
+            </app> 
+            pluries; ex his autem sequitur quod non appropriat 
+            sibi solam unam materiam. Ex adaequatione vero 
+            sic: si enim anima es_t adaequata suae materiae corporali 
+            cui primo unitur, ergo non potest habere maiorem vel minorem 
+            illa; ergo non poterit esse in partibus nutrimentalibus 
+            nec in aliqua alia sine qua ipsa anima potest esse in 
+            corpore.</p>
+          <p>6. Sexto, ex conversione quarundam partium in alias. 
+            Secundum enim physicos sanguis convertitur in membra et 
+            secundum quosdam etiam ceteri corporis humores; sed non 
+            videtur quod pars corporis informata ab anima convertatur 
+            in aliam partem, quia tunc ab eadem forma animae recedendo 
+            accederet et transiret in eandem, ita quod de una 
+            informatione animae veniret in aliam informationem eiusdem; 
+            ergo secundum hoc sanguis non informatur ab anima; 
+            sed sanguis est de principalissimis partibus corporis. Unde 
+            <app>
+              <lem>et Scriptura sacra dicit</lem>
+              <rdg wit="#B4">in Scriptura dicitur</rdg>
+            </app> 
+            quod 
+            <cit>
+              <quote ana="#lev17_14">sedes animae in sanguine 
+            est,</quote>
+              <bibl>Leviticus 17:14 <!-- edition also suggests 17:11 --></bibl>
+            </cit> 
+            et 
+            <app>
+              <lem>prohibetur</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>probetur</del>
+                  <add>prohibetur</add>
+                </corr>
+              </rdg>
+            </app> esus sanguinis, 
+            <ref>
+              <seg><title ref="#lev">Levitici</title> 17 (2),</seg>
+              <bibl>Leviticus 17:10-11</bibl>
+            </ref> 
+            quia 
+            anima carnis in sanguine est, et 
+            <ref><title ref="#deut">Deuterominii</title> 13 (3),</ref> 
+            <cit>
+              <quote ana="#deut12_23">hoc solum cave ne sanguinem comedas, sanguis enim corporis pro anima est.</quote>
+              <bibl>Deuteronomy 12:23</bibl>
+            </cit> 
+            In cuius rei signum videmus quod sanguine 
+            extracto subito corpus moritur, unde et natura supra 
+            modum refugit et horret effusionem sanguinis. Si etiam sanguis 
+            non esset de principalibus partibus corporis, non remansisset 
+            in Christi corpore glorioso, nec institutum esset 
+            singulare sacramentum conversionis vini in sanguinem eius.</p>
+          
+          <p>7. Septimo, ex continuitate partium corporis monstruosi
+            habentis duo capita et duo pectora atque corda, non autem
+            habentis nisi unas nares et duas tibias; constat enim quod 
+            omne continuum est unum ens numero; sed illae nares et tibiae
+            continuantur cum duobus pectoribus; ergo sunt cum eis 
+            unum ens numero; si ergo anima cuiuslibet duorum pectorum
+            et capitum informat totum corpus suum: ergo utraque anima
+            informat easdem nares et tibias, quod est impossibile; sed
+            qua ratione una non informat eas, nec alia; ergo videtur
+            quod a neutra informentur. - Item, saepe videmus carnem 
+            mortuam esse sicut prius continuam cum carne viva, sicut
+            <pb n="7"/>
+            patet in quibusdam paralyticis vel in callositatibus manuum 
+            et pedum rusticorum; sed ubi nulla est operatio vitae, ibi non 
+            est anima. Ex hoc etiam eodem potest argui simile de capillis 
+            seu pilis qui praeterquam in sua radice nullam in se videntur 
+            habere operationem vitae et tamen sunt pars corporis 
+            spectantes ad resurrectionem; unde Christus dicit (1), 
+            <cit>
+              <quote ana="#mt10_30"><!-- add lc12_7 adn Lc21_18 -->vestri 
+                capilli capitis omnes ·numerati sunt, et capillus de capite 
+                vestro non pedbit.</quote>
+              <bibl>Matthew 10:30; Luke 12:7; Luke 21:18</bibl>
+            </cit>
+          </p>
+        <p>8. Octavo probatur hoc ex nobilitate animae. Nobilitatis 
+          enim formae est posse agere et influere non solum prope 
+          se, sed etiam in longinqua; ergo anima poterit influere actus 
+          et operationes vitae in partes a se distantes. - Item, quanto 
+          potentia est altior 
+          <app>
+            <lem>et efficacior,</lem>
+            <rdg wit="#V" type="corrAddition">
+              <corr>
+                <add place="margin">et efficacior</add>
+              </corr>
+            </rdg>
+          </app> 
+          tanto potest in remotiora 
+          agere, unde videmus quod lux solis et calor ignis agunt in 
+          remotissima; sed potentia vivifica est potentia nobilissima; 
+          ergo et cetera.</p>
+        <p>9. Nono ex denominatione formali. 
+          <app>
+            <lem>Quaelibet</lem>
+            <rdg wit="#V" type="corrReplace">
+              <corr>
+                <del>Quolibet</del>
+                <add>Quaelibet</add>
+              </corr>
+            </rdg>
+          </app> 
+          enim 
+          materia denominatur a forma ei inhaerente, et in homogeneis 
+          quaelibet pars habet denominationem sui totius, quaelibet 
+          enim pars aquae est aqua, et quaelibet pars panis est panis; 
+          ergo quicquid est informatum ab anima est animal; sed nulla 
+          pars corporis proprie est animal, sed solum ipsum 
+          <app>
+            <lem>totum;</lem>
+            <rdg wit="#V" type="corrAddition">
+              <corr>
+                <add place="margin">totum</add>
+              </corr>
+            </rdg>
+          </app> 
+          ergo nulla pars corporis informatur ab anima, sed solum 
+          ipsum totum.</p>
+          <p>10. Item, 
+            <ref>
+              <seg><name ref="#Aristotle">Aristoteles</name>, libro <title>De causa motus animalium</title>,</seg>
+              <bibl>Cfr. De animae motione, cap. 10, 703a29sqq</bibl>
+            </ref> 
+            dicit quod corpus animalis assimilatur civitati seu 
+            regno in quo sunt varia officia et variae potestates, anima 
+            vero regi, et sicut rex existens in uno loco regit totum 
+            regnum per potestatem ab ipso in alios manantem, sic anima, 
+            ut est in corde, influit in alia membra vitam; ergo et cetera. 
+            - Dicebatur quod potentiae animae organicae non 
+            sunt in anima ut in subiecto, sed potius in organis. Contra: 
+            <app> <!-- some kind of correction; edition is unclear: "Al. m. corr. a. s." -->
+              <lem>actus sentiendi</lem>
+            </app> 
+            sunt in suis agentibus secundum ilium, 
+            <ref>
+              <seg>IX <title ref="#Metaphysics">Metaphysicae</title>;</seg>
+              <bibl>Aristotle, Metaphysics, Cap 3, 1047a7sq.</bibl>
+            </ref> 
+            sed 
+            <app>
+              <lem>agens est anima;</lem>
+              <rdg wit="#B4">anima est agens</rdg>
+            </app> 
+            ergo et cetera.</p>
+          
+          <p>11. Item, solo corde laeso nulla facta prius mutatione 
+            in aliis membris sequitur mors, facta autem in aliis quacunque 
+            et non facta in corde adhuc stat vita; ergo videtur 
+            quod ipsa sit in solo corde.</p>
+        
+          <p><pb n="8"/>12. Item, impossibile est 'stante forma animae (a) in sua 
+            materia non esse ibi operationem animae et debitum regimen 
+            materiae; sed in quibusdam partibus paralyticis aut 
+            putrefactis nulla penitus apparet operatio animae nec gubernatio 
+            aut connexio materiae illarum partium; ergo et 
+            cetera.</p>
+          
+          <p>13. Item, sicut se habet materia ad informari, sic (b) se 
+            habet forma ad informare; sed nulla pars corporis potest 
+            informari a duabus animabus; ergo nec una anima potest 
+            informare duas partes corporis.</p>
+        </div>
+        <div>
+        <head>Respondeo (c)</head>
+        <p>Quod anima informat omnes partes corporis 
+          ui.</p>
+        <p>Et hoc probat primo unitas entis et sui (d) 
+          esse et existentiae. Oportet enim quod omnes partes 
+          unius entis concurrant in unam totalem naturam constituendam 
+          et integrandam seu consummandam; sed partes corporis 
+          ad unam naturam totalem animalis constituendam non 
+          possunt congregari, nisi omnes uniantur et perficiantur per 
+          unam animam; constat enim quod ex sola essentia suarum materiarum (e) 
+          non sunt ad hoc unitae nec per unam formam extensam 
+          et continuam, cum plures earum sint discontinuae, nec 
+          per unam specificam formam corporalem, cum ex se non habeant 
+          nec habere possint unam talem, cum respectu formarum 
+          corporalium sint diversarum specierum; ergo oportet 
+          quod hoc sit per (f) unam formam simplicem quam dicimus 
+          animam. - Item, anima est forma sufficiens ad faciendum 
+          cum sua materia unum ens completum et unam naturam completam 
+          (g); ergo quicquid erit extra haec duo erit extra naturam 
+          et extra subsistentiam illius entis; sed omnis pars corporis 
+          non informata ab ipsa est extra rationem animae et 
+          materiae suae; ergo et cetera. - Item, pars corporis non 
+          informata ab anima est (h) inanimata; ergo non erit pars animalis, 
+          in quantum est animal, nec animati (i), in quantum 
+          animatum; sed animal vel ens (k) animatum, in quantum 
+          animal, dicit rationem totius unius entis; ergo pars corporis 
+          <pb n="9"/> 
+          inanimata non erit pars illius totius ac per consequens nec 
+          erit pars corporis sui, quia quicquid est pars partis est pars
+          totius. - Item, quicquid est pars (a) animalis est fundatum (b)
+          et substantificatum in radicali subsistentia eius; radicalis
+          autem subsistentia vel est in anima vel in composito ex
+          anima et corpore, in quantum tali; ergo omnis pars animalis
+          vel est fundata in subsistentia animae vel in subsistentia
+          resultante ex unione animae cum corpore; sed nihil
+          potest esse fundatum (e) in altero praedictorum, quin secundum
+          suum esse substantiale participet vitam pro fundamento
+          sui esse, et quin vita seu existentia viva sit sibi
+          intimata et substantialiter connexa et coniuncta; quod in
+          creaturis est impossibile fieri, nisi vita animae uniatur ei
+          ut forma.</p>
+          <p>Secundo probat hoc ratio vivi seu vitae et
+          operationum eius. Omne enim vivens est substantialiter
+          informatum aliqua vita a qua suscipit suum esse quod
+          est vivere et rationem viventis seu vivi; sed omnes partes
+          corporis animalis vivunt et vitaliter in se vigent; quod (d)
+          pro tanto sensibili experimento probamus, pro quanto in notitiam
+          vitae per sensus devenimus. - Item, vis animae
+          nutritiva et conversiva seu assimilativa et augmentativa invenitur
+          fere in omnibus partibus corporis, in sanguine vero
+          vis animae seu existentiae eius sustentativa, secundum illud
+          <ref><title ref="#lev">Levitici</title> 17,</ref> 
+            <cit>
+              <quote ana="#lev17_11">anima carnis (e) in sanguine est (f),</quote>
+              <bibl>Leviticus 17:11</bibl>
+            </cit>
+            et <ref><title ref="#deut">Deuteronomii</title> 
+            12,</ref> 
+            <cit>
+              <quote ana="#deut12_23">hoc solum cave ne sanguinem comedas, sanguis 
+                enim eorum pro anima est;</quote>
+              <bibl>Deuteronomy 12:23</bibl>
+            </cit> 
+            in spiritibus vero est vis
+          non solum vivifica, sed etiam intentionnm animae et sensuum
+          eius delativa. - Unde <ref><name ref="#Augustine">Augustinus</name>, XII <title ref="#onGenesis">Super Genesim,</title>
+          capitulo 20,</ref> dicit (3) quod 
+            <cit>
+              <quote>in dormientibus in cerebro consopitur 
+                via sentiendi quae intentionem animae ducit ad oculos, 
+                ideoque ipsa intentio in (g) aliud a versa (h) cernit visa somniorum, 
+                cum autem vigilat, ducitur per ilia itinera intentio 
+                sentiendi usque ad oculos;</quote>
+              <bibl>Augustine, De Gen. ad lit., XII 20 (Pl 34, 471)</bibl>
+            </cit> 
+            non potest autem duci nisi (i) 
+            in aliquo corpore subtili quod spiritus (k) vocamus. Et 
+            <ref>capitulo 
+            15:</ref> 
+            <cit>
+              <quote>sensus, inquit, <!-- note inquit problem --> corporis qui per quinque (l) 
+            <pb n="10"/>rivulos distribuitur, cum illud quod est subtilissimum in corpore 
+            et ob hoc animae vicinius quam cetera, id est, lux, 
+            primum per oculos diffunditur (a) sola emicatque in radiis 
+            oculorum ad visibilia (b) contuenda; deinde mixtura quadam 
+            primo cum aere puro, secundo cum aere nebuloso (c), tertio 
+            cum corpulentiore humore, quarto cum terrena crassitudine 
+            quinque sensus efficit, sicut in libro tertio itemque in septimo 
+            disseruisse me recolo.</quote>
+              <bibl>Augustine, De Gen. ad lit., XII, 15 (Pl 34, 66)</bibl>
+            </cit> 
+            Ibi enim, scilicet in septimo 
+            circa medium (d), dicitur (e) quod 
+            <cit>
+              <quote>quamvis omnis caro terrenam
+              soliditatem in promptu gerat, habet tamen in se aliquid
+              aeris quod pulmonibus continetur (e) et a corde per 
+              arteriam diffunditur et ignis non solum (f) fervidam qualitatem
+              cuius sedes in iecore est, sed etiam (g) et luculentam
+              quae supervolat in (h) excelsum cerebri locum, unde radii
+              emicant oculorum.</quote>
+              <bibl>Augustine, ?? Cap 13 (PL 44, 362)</bibl>
+            </cit> 
+            Et infra (2): 
+            <cit>
+              <quote>anima (i) crassiorem corporis (k) 
+                sui materiam, id est, humidam quandam terram 
+                quae in carnis versa est qualitatem per subtiliorem materiam 
+                corporis administrat, id est, per lucem et aerem tanquam 
+                per ea quae spiritui similiora sunt et viciniora; nullus 
+                enim sine his duobus vel sensus in corpore est vel ab anima 
+                spontaneus corporis motus.</quote>
+              <bibl>Augustine, ... Cap 15 (Pl 34, 363)</bibl>
+            </cit> 
+            Item, <ref>III libro, capitulo 6 (3),</ref>
+          dicit: 
+            <cit>
+              <quote>quoniam sentire non est corporis (l), sed animae per 
+                corpus, licet acute disseratur secundum diversitatem corporeorum 
+                elementorum sensus (m) esse corporis distributos, anima 
+                tamen cui sentiendi vis inest per subtilius corpus agit vigorem 
+                sentiendi; inchoat itaque motum in omnibus sensibus 
+                a subtilitate ignis, sed non (n) in omnibus ad idem pervenit; 
+                in visu enim pervenit represso (o) calore usque ad eius lucem, 
+                in auditu usque ad liquidiorem aerem (P) calore ignis 
+                penetrat, in olfactu autem transit aerem purum et pervenit 
+                usque ad humidam exhalationem, unde crassior aura subsistit, 
+                in gustu autem hanc (q) transit et pervenit usque ad humorem 
+                corpulentiorem quo etiam penetrato atque traiecto (r), 
+                cum ad terrenam gravitatem pervenit, tangendi ulterius 
+                sensum agit.</quote>
+              <bibl>Cfr. Cap 5 (Pl 34, 282)</bibl>
+            </cit>
+          </p>
+          <!-- where i left off --> 
+          <p><pb n="11"/>
+          Tertio ostendit hoc ratio motus naturali oboedientia 
+          venientis ab anima in corpus et in partes
+          corporis. Ad solum enim imperium voluntatis rationalis
+          vel sensualis moventur partes corporis, et ex passionibus
+          eius (a), scilicet timoris, irae, tristitiae et consimilium, naturali
+          ordine sequitur passio conformis in corpore; sed hoc non
+          est possibile, nisi anima insit (b) partibus ut naturalis forma
+          ipsarum; unde ad animam separatam vel ad (c) angelum hoc
+          non sequeretur in corpore (a) assumpto ab eis. - Item, sedes
+          virium animae motivarum figitur in ilia parte stabili
+          et nodosa (e) a qua et contra quam incipit motus partis sequentis, 
+          sicut patet in locis unde inflectuntur digiti vel manus;
+          ergo ubicunque sunt tales nodi seu flexurae, ibi est
+          vis motiva animae; cum etiam aliquando ita cito vel prius
+          moveat localiter extremam partem digiti sicut primam, oportet
+          quod vis motiva immediate sit in extrema sicut et in
+          media vel in prima (f). Haec tamen ratio non infert (g) expresse
+          nisi de partibus in quibus expresse (h) est vis motiva,
+          ex consequenti tamen infert de toto; quia si anima est in
+          medio et in extremis et in circuitu partium corporis (i), oportet
+          quod sit in omnibus intermediis.</p>
+          <p>Quarto ostendit hoc ordo naturalis connexionis
+          omnium partium corporis ad animam et
+          ad cor. Anima (k) enim movet se et corpus in quo est per
+          motum processivum, et omnes partes corporis naturali et 
+          stabili nexu sequuntur eam et corpus in quo ipsa est; ergo
+          habent aliquem naturalem et stabilem nexum cum ea; sed
+          naturalis nexus ipsarum cum ea non est nisi per informationem; 
+          ergo et cetera. -- Item, omnes partes connectuntur 
+          cordi, ut ipso et eius influxu (l) intermediante participent
+          vitam eius; sed vita eius est idem quod anima aut est actus
+          eius internus et simplex manans ab ea sicut a forma immediata;
+          ergo et cetera.</p>
+          <p>Quinto probat hoc ratio naturalis conservationis (m) 
+            et regiminis ipsarum partium, quia non
+          <pb n="12"/> 
+            possunt stare in sua naturali perfectione nisi per praesentiam 
+            et naturalem influxum animae. Cuius ratio non videtur 
+            posse dari, nisi quia est naturalis earum (a) perfectio et 
+            naturalis motor seu gubernator eis naturaliter unitus; naturalis 
+            autem unio animae (b) ad eas non potest dari sine 
+            unione formali animae ad ipsas.</p>
+          <p>Sexto ostendit hoc ratio sensus et actus sentiendi. 
+            Qui utique experimento vivo et certo probatur inesse 
+            fere in toto corpore, saltem in medio et extremis ex 
+            omni latere; constat autem quod actus sentiendi et dolendi (c) 
+            est immediate in anima et ab anima aut saltem in parte 
+            animata, in quantum est animata. Et haec est ratio 
+            <ref><name ref="#Augustine">Augustini,</name> 
+            in fine libri <title>De immortalitate animae,</title></ref> 
+            ubi ait: 
+            <cit>
+              <quote>anima vero non solum universae moli corporis sui, sed 
+                etiam unicuique particulae ipsius (d) tota simul adest, quia 
+                partis corporis passionem tota sentit; cum enim quis dolet 
+                in pede, advertitur oculus (e), lingua loquitur, admovetur 
+                manus; quod non fieret, nisi illud (f) quod animae (g) est in eis 
+                partibus etiam in pede sentiret nec sentire absens (h) quod 
+                ibi factum est posset; non enim nuntio aliquo credibile (i) 
+                est fieri, quia passio quae fit non per continuationem molis 
+                (k) currit, ut ceteras partes animae quae alibi non (l) sunt 
+                latere non sinat, sed illud quod fit in particula pedis tota 
+                anima sentit et ibi tantum sentit ubi fit; tota igitur singulis 
+                partibus simul adest quae tota simul sentit in singulis;</quote>
+              <bibl>Augustine, De immortalitate animae, Cap. 16 (PL 32, 1034)</bibl>
+            </cit> 
+            haec <name ref="#Augustine">Augustinus.</name> 
+            Haec autem ratio directe probat 
+            de omnibus partibus in quibus est actus sentiendi, ex consequenti 
+            vero probat hoc de aliis, quia non est verisimile 
+            quod sit in medio et in extrema superficie corporis et non 
+            sit in reliquis infra illam superficiem contentis et naturaliter 
+            ac substantialiter connexis. - Item, homo sentit se ipsum 
+            seu quandam vitalem subsistentiam suam in toto corpore 
+            simul sumpto existere. - Item, nos per sensum communem 
+            (m) intime sentimus omnes actus sensuum particularium 
+            et immutationes eorum et debitam vel malam dispositionem 
+            ipsorum; nec ista operatio fit per spatium aut (n) interme<pb n="13"/>dium, 
+            sed potius per quendam nexum intimum actuum et 
+            potentiarum; ergo et cetera.</p>
+          
+          <p>Septimo probat hoc ratio naturalis affectus 
+            quo membra sibi mutuo condolent et congaudent (a), 
+            quod non potest fieri, nisi quia uno spiritu vegetantur 
+            et una sensitiva (b) afficiuntur; et rursus affectus quo 
+            homo naturaliter diligit omnes partes corporis sui (c) non tanquam 
+            extrinseca et aliena a sua natura, sed potius tanquam 
+            intrinsecas sui partes (d).</p>
+          
+          <p>Modus autem huius informationis huiusque existentiae 
+            et difficultates ipsam (e) contingentes in responsionibus argumentorum
+            tangentur.</p>
+        </div>
+        <div>
+            <head>[Solutio Obiectorum]</head>
+            <p>Ad primum igitur dicendum quod in corporibus solas 
+              formas corporales et extensas (f) habentibus divisio continuitatis 
+              facit numerum plurium entium (g) et suppositorum, in 
+              iis vero quae habent unam formam animae simplicem ad 
+              quam omnes partes corporis substantialiter connectuntur 
+              divisio (h) continui non facit numerum entium sive suppositorum, 
+              sed tantum numerum partium eiusdem entis. Huius 
+              autem diversitatis ratio est: quia in habentibus solam formam 
+              corporalem non potest esse unio vel(i) unitas nisi per 
+              continuationem formae et partium eius, in animatis vero (k) 
+              potest absque hoc esse per simplicitatem animae in sua unitate 
+              spiritualiter uniente ea quae secundum formam continuitatis 
+              sunt inter se disiuncta.</p>
+          
+          <p>Ad secundum dicendum quod secundum illos qui ponunt
+            plures formas substantiales esse in corpore animalis,
+            quod (l) et credo esse ponendum, suo tamen modo alibi explicato (m), 
+            tripliciter potest aliqua forma dici specifica: uno 
+            modo, quia (n) principaliter constituit et complet suum totum 
+            (o) in esse specifico et completo; secundo modo, quia
+            comprehendit (p) in se determinate et specifice totam rationem 
+            seu definitionem (q) formalem (r) speciei sui totius; et 
+            his modis non possunt esse plures formae specificae in eodem,
+            et quae praedictis modis sunt diversarum specierum
+            <pb n="14"/>
+            non possunt informari una forma specifica praedictis modis
+            sumpta; tertio modo dicitur forma specifica, quia sic est secundum
+            se et in se (a) specificata quod per alteram formam
+            non potest secundum se amplius specificari, ut (b) verbi gratia,
+            organizatio vel vegetatio communiter sumpta est adhuc specificabilis (c), 
+            ita quod non potest poni in esse, nisi specificetur
+            ad certum modum organizationis aut vegetationis, organizatio
+            autem ad certum modum (d) sufficienter specificata non est
+            secundum se amplius specificabilis, sed nihilominus corpus
+            quod est per ipsam (e) formaliter organizatum est adhuc per
+            aliam formam in perfecta specie animalis vel plantae constituendum,
+            utpote per animam certae speciei. Sumendo
+            ergo (f) formam specificam hoc tertio modo possunt partes 
+            diversarum specierum una ulteriori forma specifica informari
+            ac per consequens et duas formas (g) specificas et (h)
+            secundum se diversarum specierum existentes in se habere,
+            quia talis diversitas et multiplicitas formarum specifica non
+            diversificat totalem speciem totius animalis, sed potius concurrunt
+            in ipsam ut partes ipsius. - Rursus sciendum quod
+            licet anima respectu quantitatis extensivae sit simplex, non
+            tamen respectu partium essentialium. Licet etiam tota secundum
+            se (i) sit unius speciei, nihilominus habet in se plures
+            partes inter se differentes ex quibus sua una tota!is species
+            constituitur; et per illas dat diversam rationem specificam
+            et diversas operationes et potestates diversis partibus
+            corporis sui, quia per suam partem seu potentiam visivam informat
+            oculum et per auditivam aurem et sic de aliis. - Et
+            secundum hoc concedendae sunt quatuor probationes minoris(k)
+            rationis praedictae et etiam duae sequentes rationes
+            factae contra illum modum. Dicendum ergo (l) quod quando (m)
+            anima unius et solius simplicis speciei dicitur posse dare
+            diversis partibus materiae suae diversos actus et diversas
+            rationes specificas, quod hoc (n) non potest fieri, nisi vel ex
+            parte partium animae formalium vel ex parte formarum corporalium
+            corporis sui ponatur (o) aliqua diversitas specifica.
+            - Maior autem eiusdem (p) rationis est sub uno sensu vera et
+            sub alio falsa. Quando (q) enim dicit quod quae informantur
+            ab, eadem forma specifica sunt eiusdem speciei, verum est, 
+            <pb n="15"/>
+            pro quanto ab eadem informantur, prout est unius speciei;
+            pro quanto autem informantur a diversis aut pro quanto ab
+            eadem, prout habet in se (a) partes (b) diversas, potius sunt
+            diversae speciei quam unius. -- Et per hoc patet ad instantias
+            (c) quae contra maiorem ibidem subduntur, quia (d) respectu
+            formae animae sunt membra corporis pro tanto diversae
+            speciei, pro quanto a diversis partibus animae informantur.
+            Sciendum tamen quod membra diversae speciei et
+            diversarum dispositionum seu complexionum (e) possunt ab
+            eadem formali parte animae informari, pro quanto habent
+            aliquam unam communem dispositionem secundum quam
+            sunt capaces eiusdem potentiae animae; unde eadem potentia
+            tactiva suscipitur in oculo, aure et manu, secundum quod
+            conveniunt in aliqua forma vel dispositione (f) corporali.
+            Licet etiam eadem potentia animae non possit in eis suscipi
+            secundum diversas (g) sui rationes specificas, potest tamen
+            secundum diversos sui gradus et secundum diversos aspectus
+            et modos, et pro tanto potest in diversis membris exigere
+            diversas dispositiones corporales; unde et ipsa vis visiva
+            aliter est in variis (h) tunicis oculi, aliter in eius humore cristallino
+            vel aquaeo et (i) aliter in nervo optico (k) et aliter
+            in pupilla, aliter in circumferentia oculi.</p>
+            <p>Ad tertium dicendum quod anima in partibus corporis
+            de novo (l) aggeneratis non infit (m) de novo (n) per aliquem
+            (o) sui motum, sed solum per simplicem naturali ordine
+            consequentem generationem formae et (p) dispositionis
+            corporalis per quam partes de novo aggeneratae sunt capaces
+            animae; eo enim ipso quo per vim nutritivam assimilantur
+            et incorporantur membris communicatur eis anima
+            et vita (q) membrorum quibus incorporantur. Ista autem mutatio
+            facta in anima non et aliud (r) quam nova unio eius
+            ad partes de novo aggeneratas, quae secundum quosdam non
+            fit (s) in ea per aliquid formale sibi realiter additum, sed
+            solum per hoc quod materia corporalis per motum unionis
+            et incorporationis ad partes corporis radicales terminatur ad
+            unionem ipsius cum anima, ita quod anima se habet in hoc
+            solum ut terminus. - Secundum alios vero est ibi (t) ultra hoc
+            <pb n="16"/>
+            alius motus in partibus radicalibus, cui motui est annexa
+            quaedam protensio seu dilatatio ex unione (a) animae ad materiam
+            nutrimentalem, ita quod haec protensio et dilatatio
+            animae causatur a praedicto corporali motu partium radicalium
+            per modum naturalis colligantiae. De quo eolligantiae (b) 
+            modo in tractatu de originali peccato et in quaestione
+            de impedimento usus liberi (c) arbitrii amplius est tactum.
+            - Praedicta autem mutatio non est localis aut (d) situalis
+            nisi solum (e) ex consequenti et per accidens, quia non respicit 
+            extrema praedictae unionis sub ratione loci vel situs,
+            sed solum sub ratione materiae et (f) formae. Pro (g) quanto
+            tamen corporalis materia animae acquirit ex (h) hoc diffusiorem
+            situm (i) et locum, pro tanto et anima acquirit maiorem
+            locum. Consimiliter autem est dicendum de recessu
+            animae a partibus corporis quae de novo abscinduntur vel (k)
+            corrumpuntur, quia per motum abscissionis vel corruptionis 
+            recedunt partes illae ab unione animae tanquam a termino
+            a quo, et per motum disiunctionis factum in partibus corporis
+            fit in anima naturalis retractio sui a partibus corruptis.
+            Ex his autem non sequitur quod anima post recessum a partibus
+            corruptis sit plenius in partibus remanentibus aut quod
+            post sui dilatationem (l) ad partes de novo aggeneratas sit
+            minus plene in partibus prioribus, quia illa existentia seu
+            informatio animae exhibita partibus aggeneratis nihil adimit
+            informationis priorum partium, nec informatio animae ablata
+            partibus (m) abscisis acquirit aliquid informationi partium remanentium.
+            - Et per hoc patet ad quatuor media ibi (n) interclusa;
+            nam ad duo prima patet per hoc quod motus ille
+            non est per se ad locum vel situm et etiam per hoc quod
+            ilia (o) mutatio non fit in anima nisi ex consequenti, per modum
+            scilicet colligantiae naturalis. - Ad tertium vero patet:
+            quia sicut anima non est secundum <sic>totalitem <!-- probably should be totalitatem --></sic> suae vis informativae
+            in partibus radicalibus, quando simul cum eis
+            informat nutrimentum, sic nec quando ipsas solas sine nutrimentalibus
+            informat; unde illud suae vis informativae secundum
+            quod informat partes (p) nutrimentales non est in
+            partibus radicalibus nisi solum per consubstantialem concomitantiam,
+            eo modo quo potentia visiva dicitur esse in caeco
+            <pb n="17"/>
+            vel in manu (a) per hoc quod substantialiter existit in anima
+            existente in manu (b) et in corpore caeci; quamvis in hoc
+            sit differentia quod (c) informatio partium nutrimentalium dependet
+            ab informatione radicalium quibus sunt connexae. --
+            Ad quartum etiam patet quod licet praedicta contractio (d)
+            et dilatatio sint mutationes (e) spirituales a corporalibus differentes,
+            nihilominus per intermediationem naturalis colligantiae
+            possunt effici a causis illarum corporalium mutationum 
+            quibus huiusmodi spirituales sunt naturaliter (f) ecolligatae.</p>
+          <p>Ad quartum principale dicendum quod anima non
+            est (g) simplex simplicitate parvitatis, qualis est simplicitas
+            punctalis, qua in genere quantitatis nihil potest minus esse
+            intelligi; sed potius est simplex (h) simplicitate spirituali habente 
+            in se magnitudinem essentiae et virtutis et compositionem 
+            diversarum naturarum formalium. Et ideo licet 
+            anima se (i) tota informet membra, sumendo totum pro simplici
+            privante (k) partes extensas, non tamen se tota, id est,
+            non (l) secundum totum ambitum suae essentiae et virtutis,
+            quia nulla pars corporis est capax totius ambitus sui. Licet
+            etiam anima secundum totam vim informativam corporis 
+            sui informet totum corpus, ut est suae vi perfecte adaequatum,
+            non tamen ex hoc sequitur quod secundum omne (m) 
+            quod est m ea (n) formale informet corpus; quia ipsa (o) 
+            ponitur habere aliam materiam spiritualem secundum quam
+            subest formis partis intellectivae. Et ideo anima rationalis
+            aliter transcendit suam materiam corporalem quam faciunt (p) 
+            formae extensae aut quam animae quae non habent aliam (q)
+            materiam praeter corporalem. - Quod vero dicitur (r) quod
+            in corpore mutilato aut (s) in corpore infantili est tota anima
+            et tota vis eius (t) informativa, et hoc secundum totalitatem
+            suae existentiae (u), cum nihil eius sit tunc extra corpus
+            illud: sciendum quod licet sit ibi tota per praesentiam, non
+            tamen est ibi tota per informationem seu per informativam
+            existentiam; quia secundum multas sui rationes tam formales
+            quam materiales est praesens illi corpori secundum (v)
+            quas non informat ipsum. - Rursus, quamvis ambitus totius
+            <pb n="18"/>
+            animae sit maior quam solus ambitus suarum potentiarum
+            sensitivarum, non est tamen maior respectu informationis
+            corporis seu respectu informativae existentiae eius in corpore,
+            saltem secundum illos qui ponunt corpus informari
+            ab anima per solam suam partem sensitivam (a). Et per
+            hoc patet ad plura quae ibi tangebantur (b). - Ad illud
+            vero de existentia animae in infinitis partibus et punctis dicendum
+            quod anima non est in partibus corporis nisi secundum
+            quod partes participant rationem entis et rationem
+            informabilis. Illae (c) autem sumptae ut actu infinitae et (d)
+            ut in infinitas (e) divisae (f) non habent rationem entis nec
+            rationem informabilis nec rationem possibilis (g), sed potius
+            impossibilis; unde non habent rationem entis, nisi prout
+            sumuntur sub aliqua una finita continuitate, et loquor de
+            illis quae inter se (h) continuantur. Et hinc est quod potentialis
+            (i) infinitas partium non attingitur ab anima tanquam (k) 
+            infinitas actualis, sed solum ut infinitas potentialis,
+            quia nec aliter habet rationem entis. Quia igitur contactus
+            seu continuitas partium continuarum non dicit (l) aliquid actu
+            distinctum, ideo non attingitur ab anima tanquam actu distinctum,
+            sed solum ut indistinctum, quia non attingitur nisi
+            sicut est. - Ad illud vero quod de replicatione animae (m)
+            subditur dicendum quod anima non est (n) in corpore et
+            partibus eius per modum existentiae multiplicatae aut replicatae,
+            sumendo multiplicationem aut (o) replicationem proprie,
+            sed potius est ibi (p) per modum unius totalis existentiae,
+            quae (q) non est divisa aut divisibilis in plura tota (r)
+            nec in plures partes situales aut extensive diffusa, sed solum
+            est intelligibiliter (s) divisibilis secundum (t) plures aspectus
+            virtuales aut in plures partes intelligibiles, pro quanto
+            scilicet existentia animae in uno membro differt ab existentia
+            eius in alio membro. Ex tali autem existentia (u) non
+            debet dici anima esse (r) prior vel posterior se ipsa aut se
+            ipsam contingens aut quod (x), prout est in pede, sit situaliter
+            sive (y) localiter distans a se ipsa, prout est in capite,
+            et (z) plus quam a se ipsa, prout est in crure.</p>
+          
+          <p><pb n="19"/>Ad quintum dicendum quod quia anima est forma
+            virtualiter et etiam essentialiter multiformis, ita quod in
+            sua simplicitate habet magnitudinem secundum intensionem
+            et extensionem (a) diversimode communicabilem et hoc sub
+            certo ordine et connexione: idcirco anima adaequat et appropriat
+            sibi suam materiam corporalem aliter quam (b) formae
+            corporales extensae. Materiam enim illam quam aspicit
+            primo et principaliter sic sibi appropriat quod sine ilia non
+            potest aliquid corporis informare, nisi miraculose alteri corpori
+            uniretur, sicut fuit unita corpori primitus sibi (c) dato;
+            materiam vero quam secundario aspicit - verumtamen sic
+            quod ad eius generationem aut assumptionem non potest
+            cooperari (d), sicut est manus (e) vel oculus - appropriat quidem
+            sibi, non sic quin sine illa possit in corpore animalis
+            existere, sed sic quod non potest aliam (f) consimilem loco
+            illius (g) habere, nisi fieret miraculose; materiam vero nutrimentalem
+            quam respicit ordine tertio (h) potest nunc hanc
+            nunc illam sibi assumere, non tamen pro habitu; sed sub
+            certa lege naturae infixa sibi et plurimis partibus corporis
+            quas respicit duplici modo praemisso (i), hanc quidem non
+            sibi appropriat, nisi solum pro quanto sunt unitae et assimilatae
+            prioribus partibus corporis quae radicales vocantur.
+            Anima ergo proprie sibi appropriat (k) materiam corporis
+            radicalissimam, quia sola illa est primo et per se materia
+            eius, reliqua vero non nisi ista mediante et in huius subsidium
+            et (t) complementum. De adaequatione autem ex praedictis
+            satis potest patere; quia illa materia est vere sibi
+            adaequata quae sufficienter correspondet totali ambitui suae
+            vis informativae, reliqua vero adaequatur ei secundum proportionem
+            quam habet ad eam, ita quod secundum triplicem
+            modum appropriationis (m) praemissum triplex adaequatio
+            est sibi danda. De his autem in quaestione an nutrimentum
+            convertatur in carnem radicali materiae aequivalentem
+            plura sunt tacta.</p>
+            <p>Ad sextum dicendum quod propter quandam verisimilitudinem
+            et conformitatem et propter simultaneam commixtionem
+            aliquando (n) nomine sanguinis accipitur quidam
+            nutrimentalis humor sanguini consimilis et assimilationi et 
+            <pb n="20"/>
+            incorporationi membrorum conveniens et propinquus. Et hoc
+            modo non est inconveniens sanguinem converti in membra,
+            quia talis sanguis (a) ante sui conversionem in membra non
+            est pars corporis aut membrorum nisi solum in potentia (b).
+            Sumendo vero sanguinem, prout in ipso 
+              <ref>
+                <seg>secundum Scripturam sacram</seg>
+                <bibl>Cfr. Leviticus 17:11, 17:14; Deuteronomy 12:23</bibl>
+              </ref> 
+              et secundum vivam experientiam vita animae 
+              fundatur et sustentatur - cui et fides sacramenti altaris
+              concordat, nam alias sacramentalis conversio vini in
+              sanguinem Christi non esset conversio in aliquam partem
+              substantiae corporis eius - : tunc de tali sanguine non oportet
+              quod convertatur in membra, cum ex ordine naturae
+              fixo et stabili sit ad aliud ordinatus, scilicet ad sustentationem
+              vitae in membris. Dato autem quod aliquando (c) contingat,
+              hoc non fiet, nisi prius amittat naturam partis et veri
+              sanguinis et assumat modum humoris nutrimentalis in membra
+              convertibilis; sicut fit in illo qui comedit manus suas
+              quae iam comestae utique per modum nutrimenti convertuntur
+              in alia (d) membra. Cui autem hoc non placet, posset
+              dicere quod sicut plumbum per nobiliorem et puriorem digestionem 
+              est convertibile in argentum: sic sanguis in membra,
+              ita quod sanguis in hac vita n01idum omnino invariabili
+              serviat de duobus, primo scilicet de sustentamento vitae,
+              secundario autem de nutrimento. - Ad id (e) autem
+              quod contra hoc dicitur, scilicet quod motus naturalis non
+              est ab eadem forma (f) in eandem: dicendum quod hoc (g) est
+              verum in motu qui est proprie a contrario in contrarium,
+              non autem in motu qui est de imperfecto ad perfectum;
+              sicut patet (h) in motu intensionis eiusdem formae. - Praeterea,
+              si sanguis mutatur in membra, tunc forma sanguinis
+              corrumpitur, et aggeneratur ibi alia forma corporalis consimilis
+              membro (i), et ad hanc (k) proprie terminatur motus.
+              Pro quanto autem ab eadem anima in eandem animam motus
+              ille per consequens terminatur, fit iuxta modum quo,
+              quando fides in visionem gloriae commutatur (l), curritur ab
+              eodem obiecto (m) credito in idem obiectum ut visum.</p>
+          
+            <p>Ad septimum dicendum quod duplex est continuitas: 
+              una scilicet apparens et superficialis et secundum solas qua<pb n="21"/>litates (a) 
+              accidentales, ut cum aqua apparenter continuatur 
+              vino vel pirus olivae cui est inserta; alia est realis et per 
+              formam substantialem, simul etiam per accidentalem. Et (b) 
+              de hac est verum quod omne continuum est unum ens (c) 
+              numero. Et hoc modo non est inter pirum et olivam sibi 
+              insertam, quia anima et vita et complexio et organizatio 
+              alterius speciei est in piro et alterius in oliva vel pomo cui 
+              est inserta. Et hoc modo est in (d) praefato exemplo corporis 
+              monstruosi, quia anima unius pectoris et cordis pertingit 
+              usque ad certum locum et non ulterius, et usque ad illum 
+              solum sentiret punctionem factam in corpore (e), reliqua vero 
+              anima occupat residuum. In carne vero callositatum, si vere 
+              et omnino est mortua, est simile; quia tunc non continuatur 
+              carni vivae per formam substantialem, sed per solam apparentem 
+              commixtionem caloris et humoris materialis (f). 
+              Ad illud vero de pilis dicunt quidam quod habent vitam in 
+              sola radice secundum quam vivo corpori sunt infixi et secundum 
+              hoc sola ilia pars eorum quae vivit (g) informatur ab 
+              anima quantum ad potentiam seu formam vegetativam; alii 
+              vero volunt quod vita sit in toto pilo, quamvis apparentius 
+              et radicalius sit in radice, et hoc est verisimilius.</p>
+          
+          <p>Ad octavum dicendum quod prima propositio est 
+            falsa de actibus qui intra ipsam (h) materiam et potentiam 
+            formae tantum recipiuntur (t); et huiusmodi sunt immediatae 
+            operationes sensuum et vitae. Praeterea, actus primus qui 
+            dicitur informatio in se includit essentiam et praesentiam 
+            formae. De actibus vero qui a forma fiunt in extrinsecum
+            patiens est verum quod quanto potentia est in extrinsecum
+            patiens efficacior, tanto in remotius agere potest.</p>
+          
+          <p>Ad nonum dicendum quod secus est in forma inextensa 
+            et multiformi et in forma extensa et uniformi, ita (k) 
+            quod forma totius ad formam partis nihil addit nisi solas 
+            unigeneas formas ceterarum partium, sicut est in aqua vel
+            vino. In prima (l) enim solum totum a totali forma simpliciter
+            denominatur, cuius ratio patet, pars vero denominatur 
+            ab ipsa solum in respectu ad totum, unde pars informata
+            ab anima non dicitur animal, sed pars animalis, et
+            loquor de parte quae nullo modo potest habere radicalem
+            rationem totius. Vel potest dici quod denominatio a forma
+            <pb n="22"/>
+            potest fieri dupliciter: primo scilicet, solum (a) significando 
+            simplicem inhaerentiam formae, sicut a colore dicitur coloratum
+            et ab anima animatum et a vita vivum et a sensu
+            sensitivum; et hoc modo quaelibet pars animalis denominatur 
+            ab anima, quia quaelibet dicitur (b) animata et viva.
+            Secunda modo fit denominatio per modum totius vel totalis
+            per se entis; et hoc modo animal denominatur ab anima vel
+            potius ab animalitate et homo ab humanitate. Et huiusmodi
+            denominatio competit soli illi quod habet rationem totius et
+            per se entis; quod magis proprie vacatur concretio quam
+            denominatio.</p>
+            <p>Ad decimum dicendum quod illud <name ref="#Aristotle">Aristotelis</name> est 
+              simpliciter intelligendum quantum ad vim animae motivam (c) 
+              et regitivam, secundum quid vero quantum ad vim 
+              informativam. Vis enim regitiva corporis altius et principalius 
+              residet in corde et capite quam in ceteris membris; 
+              nam sensus communis et universales potentiae ibi proprie 
+              figuntur. Et quia (d) quanto potentiae sunt altiores et intimiores, 
+              tanto intimius et altius habent in se essentiam animae: 
+              ideo anima altius et intimius et radicalius informat 
+              principalia membra. Non oportet autem quod exempla quae 
+              dantur in (e) omnibus et per omnia conformentur his (f) pro 
+              quibus dantur. Unde quoad hoc exemplum de rege deficit, 
+              quia rex existens (g) in metropoli regni non est praesens personaliter 
+              ceteris regni locis, sicut est anima, etiam prout est 
+              motor in ceteris partibus corporis.</p>
+            <p>Ad undecimum (h) dicendum quod ex hoc non probatur 
+              animam non esse in ceteris partibus a corde, immo 
+              potius praesupponitur ibi fuisse, pro quanto vita (i) quae ibi 
+              fuerat praesupponitur (k) esse exstincta. Sequitur tamen ex 
+              hoc quod anima sub certo ordine informat et vivificat: primo 
+              scilicet cor et partes radicaliores, deinde ceteras mediantibus 
+              primis et per connexionem istarum ad illas. Quodsi dicas 
+              quod anima est simplex et ita oportet quod aeque primo 
+              et aeque intense omnes partes informet: patet ex supradictis 
+              quod anima ita est simplex quod tamen multiformis et 
+              etiam secundum quamcunque suarum formarum vel potentiarum 
+              habet gradus intensionis plurimos et magnum ambitum 
+              intelligibilis magnitudinis sub certo ordine communicabilis 
+              diffusae moli corporis sui.</p>
+          
+          <pb n="23"/>
+            <p>Ad duo decimum dicendum quod licet in quibusdam 
+              partibus corporis (a) infirmantibus cessent operationes quarundam 
+              potentiarum animae, non tamen operatio (b) vitae, 
+              quamvis aliquando non sit (c_ sensibiliter nobis apparens.</p>
+          
+          <p>Ad decimum tertium dicendum quod prima propositio
+            est pro tanto vera, pro quanto sicut materia est in
+            potentia ad informari, sic forma est actus ad informare; in
+            pluribus vero aliis differenter (d) se habent. Unde videmus
+            quod eadem materia corporalis potest a pluribus formis corporalibus 
+            tam substantialibus quam accidentalibus simul informari,
+            et tamen eadem forma corporalis non potest plures
+            materias corporales informare nec aliquam materiam accidentalem,
+            cum omnis materia sit in genere substantiae. Et
+            ideo non oportet quod licet idem corpus non possit simul a
+            duabus perfectis animabus informari, quod nec forma animae
+            possit duas materias, unam scilicet intellectualem et aliam
+            corporalem, et in corporalibus unam radicalem et aliam
+            nutrimentalem, simul informare; quamvis in hoc sit similitudo,
+            quia sicut (e) idem corpus a diversis partibus animae
+            simul per ordinem informatur, sic eadem forma animae
+            omnes illas materias sic sub certo ordine et connexione informat
+            quod quodam modo sortiuntur unam plenam rationem 
+            unius totalis materiae respectu formae animae, 
+            quia nulla earum complet totum ambitum vis informativae
+            animae (f).</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

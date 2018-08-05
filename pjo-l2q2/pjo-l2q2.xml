@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Quaestio 2</title>
+        <author xml:id="PJO">Peter John Olivi</author>
+        <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.05">
+          <title>Librum II, Quaestio 2</title>
+          <date when="2015-05-11">May 11, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Ad Claras Aquas</publisher>
+        <pubPlace>Quaracchi</pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="1922">1922</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Quaestions In Secundum Librum Sententiarum, ed. Bernardus Jansent, S.I, Ad Claras Aquas, 1922</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-05-11" who="#JW" status="draft" n="2015.05">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pjo-l2q2">
+        
+        <head>QUAESTIO II.</head>
+        <div>
+          <p>Secundo quaeritur an creatio passio, id est, an creari
+        addat aliquid realiter diversum super essentias
+        rerum creatarum.</p>
+          <p>Et quod sic videtur.</p>
+          <p>1. Quandocunque alterum duorum positivorum potest
+        tolli vel transire ab altero illo remanente, illa necessario
+        differunt realiter et unum addit ad alterum aliquid realiter
+        d1fferens ab 1llo; sed nunc creari transiit et praeteriit remanente
+        essentia rei creatae; ergo et cetera.</p>
+        <p>2. Item, id quod permanet in tota successione differt
+        realiter ab ipsa successione et a partibus eius, quia illud
+        est totum Simul, haec vero sunt solum in successione; sed
+        creatio et conservatio sunt in transitu successivo, essentia
+        vero rei est semper tota simul; ergo et cetera.</p>
+        <p>3. Item, si essent idem, unum praedicaretur de altero;
+        sed non bene dicitur: creatura est creatio ; ergo et cetera.</p>
+        <p>4. Item, rerum 
+          <app>
+            <lem>non</lem>
+            <rdg wit="#V" type="corrAddition">
+              <corr>
+                <add place="margin">non</add>
+              </corr>
+            </rdg>
+            <rdg wit="#B4 #B5" type="om."/>
+          </app> 
+          creandarum videt Deus totam 
+          quidditatem et essentiam et tamen non videt eius creationem, 
+          cum non sit creanda; sed si essent omnino id ipsum 
+          non 
+          <app> <!-- slighly unclear here -->
+            <lem>posset</lem>
+            <rdg wit="#B4" type="intextu">videre</rdg>
+          </app> 
+          unum videre sine altera; ergo et cetera.</p>
+        
+          <p>5. Item, nulla res est causa suae existentiae; sed creari 
+            est causa existentiae creaturae; non enim ideo creatur, quia 
+            est, sed potius ideo est, quia creatur; sed omnis causa differt 
+            realiter a suo causa to; ergo et cetera. -- 
+            <app> <!-- something added in marg here -->
+              <lem>Item</lem>
+            </app>, 
+            <ref>
+              <seg><name ref="#Avicenna">Avicenna,</name> 
+            III <title ref="#AvicennaMetaphysics">Metaphysicae,</title></seg>
+              <bibl>Cap. 10, fol. 83rv <!-- this ref is a bit unclear to me; --></bibl>
+            </ref> dicit quod relativa referuntur
+        per relationes, 
+            <app>
+              <lem>ipsae vero relationes</lem>
+              <rdg wit="#B5" type="om."/>
+            </app> 
+            se ipsis referuntur; 
+            ergo relativa realiter differunt a relationibus suis, alias relativa 
+            referuntur se ipsis, sicut et ipsae relationes; ergo et 
+            cetera.</p>
+        
+          <p><pb n="24"/>6. Item, absurdum est dicere quod creatio sit composita
+          ex materia et forma; sed hoc oportet dici, si ipsa 
+            <app>
+              <lem>est</lem>
+              <rdg wit="#B4">sit</rdg>
+            </app> 
+            omnino idem quod substantia rei creatae; ergo et cetera.</p>
+          
+          <p>7. Item, mutatio differt a mutato sicut receptum a recipiente
+          vel a subiecto; sed creatio est mutatio creaturae de
+          non esse in esse et creatura est per eam mutata; quod patet,
+          quia habet se aliter nunc quam prius; ergo et cetera.</p>
+        </div>
+        <div>
+          <head>Respondeo</head>
+          <p>Quod nihil addit realiter diversum, dicit
+          tamen quandam rationem respectivam in essentia
+          rei creatae realiter inclusam, ita quod essentia
+          creaturae habet in se 
+            <app>
+              <lem>absolutam rationem</lem>
+              <rdg wit="#B4">rationem absolutam</rdg>
+            </app> 
+            suae
+          essentiae et 
+            <app>
+              <lem>hanc</lem>
+              <rdg wit="#B4">habet</rdg>
+            </app> 
+            rationem respectivam qua vere est et fuit a Deo absque aliqua diversitate essentiali.</p>
+          
+          <p>Hoc autem probatur primo ex hoc quod creatio non potest
+          addere ad rem creatam aliquid accidentale nec partiale
+          quod dicat aliquam specialem partem essentiae.</p>
+          
+          <p>Primum autem, quod scilicet non addat accidens, probatur
+          per quatuor principia per se nota. Primum est quod
+          omne accidens est naturaliter 
+            <app>
+              <lem>posterius</lem>
+              <rdg wit="#B3">posterior</rdg>
+            </app> 
+            suo subiecto; secundum est quod impossibile est quod aliquod accidens sit
+          naturaliter prius suo subiecto; tertium est quod impossibile est
+          quod aliquod accidens sit causa esse et essentiae sui subiecti,
+          et praecipue quod sit causa effectiva; quartum est quod
+          impossibile est quod aliquod accidens sit per se existens.
+          Sed haec quatuor aperte et necessario ponuntur, si creatio
+          est accidens. Nam eo ipso quod erit accidens erit naturaliter
+          posterior suo subiecto et ita essentia creaturae erit naturaliter
+          prius actu quam sit sua creatio; quod est 
+            <app>
+              <lem>expressa</lem>
+              <rdg wit="#B5">expresse</rdg>
+            </app> 
+            contradictio. Si autem est naturaliter prior, tunc accidens
+          est naturaliter 
+            <app>
+              <lem>prius</lem>
+              <rdg wit="#B4 #B5">prior</rdg>
+            </app> 
+            suo subiecto; et tunc sequuntur etiam duo ultima, sicut de se patet.</p>
+          
+          <p>Praeterea, si creatio est accidens, tunc aut est accidentalis
+          relatio aut factio aut receptio seu recepta passio aut
+          aliqua qualitas. Si 
+            <app>
+              <lem>solum</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            accidentalis relatio, tunc 
+            <app>
+              <lem>tria</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            impossibilia sequuntur: primo scilicet, quod suum subiectum
+          quod per eam refertur et in quo ipsa fundatur erit naturaliter
+          prius quam ipsa. Secundo, quod ipsa non erit fieri ipsius
+          <pb n="25"/>
+            creaturae, sed solum quoddam referri seu quidam respectus
+          rei ut iam existentis in actu. Tertio, quod creatura poterit esse
+          actu aut intelligi esse actu absque creatione; id est, absque
+          eo quod sit creata; ex quo enim nec in essentia nec in substantiali
+          esse creaturae 
+            <app>
+              <lem>essentialiter</lem>
+              <rdg wit="#B4" type="intextu">non</rdg>
+            </app> 
+            includitur creatio, absque contradictione poterit essentia et esse creaturae poni 
+            non posita creatione. Quarto, quia omnis relatio accidentalis 
+            exigit aliquam essentiam accidentalem absolutam seu alterius 
+            generis in qua fundetur, sicut alibi est probatum. -- 
+            Si autem est factio, tunc creatura vere fiet et creabitur ab 
+            ipsa et ita ipsa erit 
+            <app>
+              <lem>creator</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>creato</del>
+                  <add>creator</add>
+                </corr>
+              </rdg>
+            </app> et habebit in se vim creativam
+          creaturae. Tunc etiam non exiget patiens nec subiectum,
+          et tam en haec erit factio creata; quod est impossibile.
+          - Si autem est passio recepta, tunc praeexigit subiectum patiens
+          et ipsum recipiens, tunc etiam non erit creatio, sed
+          aliqua alio mutatio. - Quartum de qualitate non prosequor,
+          quia eius absurditas nimis patet.</p>
+          
+          <p>Praeterea, si est accidens, tunc erit accidens separabile,
+          quia creatio qua res 
+            <app>
+              <lem>in</lem>
+              <rdg wit="#B5" type="om."/>
+            </app> 
+            primo nunc fuit creata iam transiit; 
+            dato autem quod sit accidens separabile, tunc sicut nunc 
+            res potest esse sine ea, potuit et antea semper. Si dicas quod 
+            respectu initii creaturae est eius accidens inseparabile, tunc 
+            saltem aut erit propria passio manans ab essentia creaturae 
+            pro illo tunc aut 
+            <app>
+              <lem>erit</lem>
+              <rdg wit="#B4 #B5" type="om."/>
+            </app> 
+            per essentiam suam 
+            <app>
+              <lem>determinata</lem>
+              <rdg wit="#B4 #B5">determinatam</rdg>
+            </app> 
+            ad illud recipiendum; quorum absurditas de se patet. - 
+            Praeterea hoc accidens in subiecto extenso et corporali 
+            <app> <!-- is B2 correct of is that an error -->
+              <lem>erit extensum</lem>
+              <rdg wit="#B2">extensum esset</rdg>
+            </app> 
+            et corporale et in simplici et intellectuali erit 
+            simplex et intellectuale. - Praeterea, cum formae ita creentur 
+            sicut et materiae, ergo creatio formarum erit quoddam accidens 
+            per se et primo fundatum in forma tanquam in subiecto 
+            primo, ita quod illa creatio non erit in materia; quia 
+            creatio formae, 
+            <app>
+              <lem>in quantum formae,</lem>
+              <rdg wit="#B5" type="om."/>
+            </app> 
+            non est creatio materiae 
+            nec e contrario. - Praeterea, omne accidens gratuitum 
+            est separabile a subiecto, 
+            <app>
+              <lem wit="#B5">cum</lem>
+              <rdg wit="#V #B4">cui</rdg>
+            </app> 
+            ex mera gratia 
+            <app>
+              <lem wit="#B5">detur;</lem>
+              <rdg wit="#V #B4" type="om."/>
+            </app> 
+            sed si creatio est accidens, erit accidens gratuitum 
+            et supernaturale suo subieto, alias esset sibi accidens naturale 
+            et debitum; et tunc contra legem naturae et debiti rerum 
+            faceret Deus eas non creando.</p>
+          
+          <p><pb n="26"/>Quod autem non sit pars creaturae aut aliquid partiale 
+            probatur: Primo, quia tunc reliquae partes non essent creatae 
+            nisi forte solum denominative sen adiunctive, eo modo 
+            <app> <!-- unsure if V is correct witness, if ed does not state, I'm using the editoris referring to V -->
+              <lem>quo materia</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">quo materia</add>
+                </corr>
+              </rdg>
+            </app> 
+            dicitur 
+            <app>
+              <lem>formata</lem>
+              <rdg wit="#B4">formalis</rdg>
+            </app> 
+            per formam sibi adiunctam. 
+            -- Secundo, quia tunc erit de absoluta 
+            <app>
+              <lem>ratione</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>ratio</del>
+                  <add>ratione</add>
+                </corr>
+              </rdg>
+            </app> 
+            quidditatis 
+            rerum creabilium, quamvis nunquam creentur. -- Tertio, 
+            quia secundum hoc 
+            <app>
+              <lem>nunc</lem>
+              <rdg wit="#V" type="corrDeletion">
+                <corr>
+                  <del>nec</del>
+                </corr>
+              </rdg>
+            </app> 
+            primo creari non poterit transire 
+            sine partiali diminutione essentiae creatae. - Quarto, quia 
+            aut erit pars materialis aut formalis, et si formalis, tunc praeexiget 
+            materiam. - Quinto, quia tunc ex essentia et esse rei 
+            creatae et ex creatione eorum simul sumptis constituetur una 
+            tertia essentia et natura tanquam ex partibus suis.</p>
+          
+          <p>Forte dicetur quod non addit aliquid accidentale nec 
+            aliquid partiale, sed addit essentiale quod non est pars. - Sed 
+            contra hoc arguitur: primo, quia omne essentiale alieni aut 
+            est pars essentiae eius aut tota essentia; et si non pars nec 
+            totum, nihil est eius, nisi sit accidentale. - Secundo, quia aut 
+            est omnino idem cum essentia aut omnino per essentiam 
+            diversum ab ea aut partim idem partim diversum. Si omnino 
+            idem, tunc habeo intentum; si omnino per essentiam diversum, 
+            ergo nullo modo sunt sibi coessentialia; si partim idem, 
+            partim diversum, hoc non potest esse nisi dupliciter: aut scilicet 
+            quia est eius pars quae in hoc solum differt a toto, quia 
+            non est ipsum totum nec ceterae partes eius, aut quia dicit 
+            partem eius et ultra hoc aliquid aliud quod non est pars 
+            illius totius nec ipsum totum, et tunc illud aliquid additum 
+            erit necessario quoddam accidens. - Tertio, quia aut illud 
+            essentiale erit naturaliter prius quam essentia creaturae aut 
+            naturaliter posterius aut nec 
+            <app>
+              <lem>naturaliter</lem>
+              <rdg wit="#B4 #B5" type="intextu">est</rdg>
+            </app> 
+            prius nec posterius. 
+            Si naturaliter prius, ergo prius est naturaliter per se 
+            ipsum et in se ipso et, quamvis sit quid creatum, erit tamen 
+            causa effectiva totius creaturae; quod non solum est 
+            impossibile, sed 
+            <app>
+              <lem wit="#B4">etiam</lem>
+              <rdg wit="#V B5">est</rdg>
+            </app> 
+            contra fidem. Si posterius, tunc non 
+            est creatio creaturae, sed potius subsequens eam. Si neque 
+            prius neque posterius, ergo saltem nullum ordinem causalitatis 
+            habet ad creaturam nec creatura ad eam; tunc etiam 
+            neutrum dependet ab altero nisi solum sicut duo correlativa; 
+            et tunc non poterunt ab invicem separari nec secundum rem 
+            nec secundum intellectum.</p>
+          
+          <p><pb n="27"/>Secundo probatur principale ex respectu ad Deum 
+            <app>
+              <lem>creantem.</lem>
+              <rdg wit="#B5 #B4">terminantem</rdg>
+            </app> 
+            Et primo, quia nimis derogat divinae potentiae 
+            qui 
+            <app>
+              <lem>dicit quod ipse</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add>dicit quod ipse</add>
+                </corr>
+              </rdg>
+            </app> 
+            non possit creaturam immediate creare, 
+            ita quod ipsa sit eius immediatus effectus; sed hoc ponitur, 
+            si suum creari necessario differt per essentiam ab ea. - Secundo, 
+            quia constat quod Deus creat volendo; sed suum velle 
+            ita immediate potest ferri super essentiam creaturae et super 
+            suum esse sicut super quamcunque aliam essentiam; ergo ita 
+            potest eam immediate creare sicut et essentiam creationis. - 
+            Tertio, quia multum derogat Deo qui dicit quod ipse non 
+            <app>
+              <lem>creare possit</lem>
+              <rdg wit="#B5 #B4">possit creare</rdg>
+            </app> 
+            creaturam sine causa intermedia sibi cooperante; 
+            sed hoc ponitur hic, quia hic ponitur creatio passio 
+            tanquam 
+            <app>
+              <lem>quiddam</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>quidam</del>
+                  <add>quiddam</add>
+                </corr>
+              </rdg>
+            </app> 
+            realiter et causaliter medium inter creatorem et creaturam.</p>
+          
+          <p>Tertio probatur principale ex respectu Creatoris ad 
+            ipsam creationem. Constat enim quod omnis essentia alia a 
+            Deo est facta a Deo; si ergo creatio passio est essentia differens 
+            ab essentia creaturae et ab essentia Dei, ergo ipsa 
+            est creata a Deo. Aut igitur suum creari differt realiter ab 
+            ea aut non. Si sic, tunc ibitur in infinitum, quia suum 
+            creari habebit aliud creari et illud iterum aliud usque in 
+            infinitum. Si non, tunc eadem ratione poterit fieri quod creari 
+            ipsius creaturae non differat ab ea. - Praeterea, si creatura 
+            creatur per creari realiter differens ab 
+            <app>
+              <lem>ea,</lem>
+              <rdg type="corrReplace">
+                <corr>
+                  <del>a</del>
+                  <add>ea</add>
+                </corr>
+              </rdg>
+            </app> 
+            tunc saltem 
+            ipsa immediate fit ab illo creari; ergo saltem illud suum 
+            fieri quo ipsa fit ab illo creari nihil addit ad ipsam aut ibitur 
+            in infinitum; sed qua ratione hoc potest poni sine additione, 
+            eadem ratione et primum; ergo et cetera.</p>
+          
+          <p>Quarto probatur ex respectu ad ceteras habitudines
+          creaturae ad 
+            <app>
+              <lem>Creatorem.</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>creatoem</del>
+                  <add>Creatorem</add>
+                </corr>
+              </rdg>
+            </app> 
+            Ipsa enim essentia creaturae secundum
+          se ipsam nullo sibi addito est similitudo divini 
+          exemplaris et divinae ideae, ipsa etiam per essentiam suam, 
+          nullo alio sibi addito est immediatus terminus et effectus 
+          Dei. Et dato quod esset mediatus, saltem istam habitudinem 
+          secundam 
+            <app>
+              <lem>habet</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">habet</add>
+                </corr>
+              </rdg>
+            </app> 
+            nullo alio sibi addito, alias enim iretur usque in infinitum. Ipsa 
+            <app>
+              <lem>etiam,</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">etiam</add>
+                </corr>
+              </rdg>
+            </app> 
+            nullo alio sibi addito, habet 
+            Deum pro iine ultimo: essentia enim entis et potentiarum 
+            eius, nullo alio sibi addito, est imago Dei, et saltern essentia
+          gratiae et gloriae, nullo 
+            <app>
+              <lem>alio sibi</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>sibi alio</del>
+                  <add>alio sibi</add>
+                </corr>
+              </rdg>
+            </app> 
+            addito, est similitudo Dei.
+          <pb n="28"/>Nec mirum, quia radius lucis vel coloris et omnes primae 
+            impressiones agentium sunt per se similitudo sui agentis.</p>
+          
+          <p>Quinto probatur ex reali quidditate seu ratione ipsius
+          creari, quod quidem non est aliud quam esse immediate a
+          Deo et non de alio. Sed esse immediate a Deo nihil addit
+          super esse nisi solum significatum huius 
+            <app>
+              <lem>quod</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="aboveLine">quod</add>
+                </corr>
+              </rdg>
+            </app> 
+            dico a Deo, 
+            quod solum significat Deum ut causam. Sicut ergo cum dicitur: 
+            Deus est causa creaturae, nihil additur ad Deum nisi 
+            creatura, ita, cum dicitur: hoc est immediate a Deo, nihil 
+            additur ad illud ens vel ad illud esse nisi Deus vel causa increata. 
+            - Si dicas quod creari non est idem quod esse a Deo, 
+            sed idem quod fieri a Deo: contra, quia illud fieri non est 
+            aliud quam esse a Deo; alias prius fieret res quam esset.</p>
+        </div>
+        <div>
+        <head>[Solutio obiectorum].</head>
+          <p>Ad primum igitur in contrarium dicendum quod prima 
+            est 
+            <app>
+              <lem>vera,</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>una</del>
+                  <add>vera</add>
+                </corr>
+              </rdg>
+            </app>  
+            quando realis entitas unius positivi tollitur a 
+            entitate alterius remanente, non autem, quando aufertur secundum 
+            solam rationem secundum quam differt a ratione 
+            alterius positivi. Et hoc modo est 
+            <app>
+              <lem>in</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            proposito, sicut in 
+            fine quaestionis de aevo est plenius recitatum. Quando enim 
+            idem ens semper manet idem secundum rem, sic 
+            <app>
+              <lem>quod</lem>
+              <rdg wit="#B4 #B5" type="om."/>
+            </app> 
+            permanendo continue acquirit novam rationem permanendi 
+            sen essendi et continue 
+            <app>
+              <lem>aliam</lem>
+              <rdg wit="#B4 #B5">alias</rdg>
+            </app> 
+            amittit, sicut si Deus rem 
+            quam creavit annihilaret et iterum eandem penitus recrearet: 
+            tunc suum prius esse non differret a sequenti secundum 
+            suam realem entitatem, sed solum secundum rationem secundum 
+            quam dicitur prius fuisse.</p>
+          
+          <p>2. Ad secundum dicendum quod quando idem sibi 
+            ipsi succedit et sibi succedendo permanet idem quod prius, 
+            tunc successivum et permanens non differunt realiter, quin 
+            potius ex primo datis 
+            <app>
+              <lem>convincuntur</lem>
+              <rdg wit="#B4">convincitur</rdg>
+            </app> 
+            esse 
+            <app>
+              <lem>id</lem>
+              <rdg wit="#B4">totum</rdg>
+            </app> 
+            ipsum. Et 
+            sic est in proposito. Unde prima ratio permanentiae quae dicitur 
+            praeteriisse non est aliud quam ipsum ens, in quantum 
+            primo extitit. Et consimiliter secunda non est aliud quam 
+            idem ens, . in quantum nunc post primam permanentiam 
+            exstat. Licet autem ens sic permanens sit 
+            <app>
+              <lem>semper</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            totum simul respectu partium suae essentiae, non est tamen totum 
+            simul respectu suae continuatae permanentiae; quia ipsum<pb n="29"/>met, 
+            in quantum primo extitit, non fuit simul cum se ipso, 
+            in quantum est secundo exstans.</p>
+        
+          <p>3. Ad tertium dicendum quod praedicatio potius respicit 
+            rationem et modum significandi quam identitatem rei. 
+            Quia ergo hic est diversus modus significandi, quia creatura 
+            significat rem creatam per modum termini vel per modum 
+            substantiae, creatio vero per modum actionis seu exitus: idcirco 
+            unum non dicitur proprie de altero, dicitur tamen vere 
+            propter veram identitatem realem; multa enim improprie 
+            dicta sunt vera.</p>
+        
+          <p>4. Ad quartum dicendum quod licet Deus videat totam 
+            essentiam creabilium respectu totalitatis partium suae 
+            essentiae, non tamen respectu totalitatis rationum fiendi et 
+            existendi quas possunt habere. Unde loquendo proprie totam 
+            videt essentiam, sed non omnes rationes seu modos essendi 
+            sumptas ut fiendas vel factas, licet omnes videat secundam 
+            rationem possibilis vel secundum 
+            <app> <!-- is B2 correct -->
+              <lem>absolutam rationem</lem>
+              <rdg wit="#B2">rationem absolutam</rdg>
+            </app> 
+            suarum quidditatum, intelligendo scilicet quid dicit haec 
+            ratio et quid ilia. Nec sequitur has rationes esse realiter 
+            diversas, si una potest videri sine altera; sicut non sequitur 
+            ipsas esse realiter diversas, si una, in quantum ratio talis, 
+            potest esse sine altera, in quantum est ratio alia ab illa.</p>
+        
+          <p>5. Ad quintum dicendum quod creari non est causa 
+            existentiae rei creatae. Quando vero dicimus quod res 
+            <app>
+              <lem>ideo</lem>
+              <rdg wit="#B4 #B5">non</rdg>
+            </app> 
+            est, quia creatur: non intendimus per hoc directe significare 
+            causam, sed solum consignificare; per hoc enim consignificamus 
+            quod est a creante, in quantum 
+            <app> <!-- is b2 correct -->
+              <lem>est</lem>
+              <rdg wit="#B2" type="om."/>
+            </app> 
+            creans. Alias quaero de ipso creari quare est et quare 
+            <app>
+              <lem wit="#B4 #B5">fit.</lem>
+              <rdg wit="#V">fuit</rdg>
+            </app> 
+            Et si dicatur quod ideo est, quia fit et fit quia creatur, nullus ita 
+            <app>
+              <lem wit="#B4 #B5">desipiet</lem>
+              <rdg wit="#V">decipiet</rdg>
+            </app> 
+            ut putet quod creatur per aliud creari aut quod 
+            <app> <!-- unclear is there a mistake here -->
+              <lem wit="#B4">fit</lem>
+              <rdg wit="#V">fit</rdg>
+            </app> 
+            per aliud fieri quod sit ·aliud ab ipso.</p>
+          
+        <p>6. Ad sextum dicendum quod licet secundum modum 
+          significandi valde impropria locutio sit dicere quod creatio 
+          passio sit composita ex materia et forma, non est tamen 
+          impropria dicere quod creatio substantiae compositae sit composita 
+          ex creatione suae materiae et suae formae vel ceterarum 
+          partium eius. Et tunc pro quanto creatio materiae 
+          non differt realiter a materia nec creatio formae a forma, 
+          pro tanto vere, licet improprie, dicitur creatio compositi esse 
+          composita.</p>
+        
+          <p><pb n="30"/>7. Ad septimum dicendum quod mutatio proprie sumpta 
+            differt a subiecto quod per eam mutatur tanquam accidens 
+            eius naturaliter subsequens suum subiectum. Et hoc 
+            modo creatio non est mutatio. Sumendo tamen large nomen 
+            mutationis pro omni nova inceptione vel desitione entium, 
+            sic creatio et annihilatio sunt quaedam mutationes. Sed tamen 
+            sicut annihilatio non est aliud realiter ab annihilato, 
+            in quantum tali, sic creatio nihil aliud realiter addit ad rem 
+            creatam; quia nec oportet quod inceptio formae aut sui fieri 
+            addat aliquid realiter diversum ad ipsam formam vel ad 
+            suum fieri.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Quaestio 56</title>
+        <author xml:id="PJO">Peter John Olivi</author>
+        <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.06">
+          <title>Librum II, Quaestio 56</title>
+          <date when="2015-06-03">June 03, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Ad Claras Aquas</publisher>
+        <pubPlace>Quaracchi</pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="1922">1922</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Quaestions In Secundum Librum Sententiarum, ed. Bernardus Jansent, S.I, Ad Claras Aquas, Vol. II, 1924</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-06-03" who="#JW" status="draft" n="2015.06">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pjo-l2q56">
+        <head>Librum II, Quaestio 56</head>
+        <p>Secundo quaeritur an pars intellectiva animae rationalis 
+          quae communiter mens vocatur sit eiusdem 
+          speciei cum parte intellectiva angeli, vel 
+          an nostrae potentiae intellectuales sint eiusdem 
+          speciei cum intellectualibus potentiis angelorum.</p>
+        <div>
+          <head>Et videtur quod non.</head>
+          <p>1. Differentiae enim specificae diversarum specierum et 
+            diversorum generum sunt inter se diversae specie; sed intellectivum (a) 
+            humanum est ultima et (b) specifica differentia 
+            hominis et (c) intellectivum angelicum angeli; constat autem 
+            quod angelus et homo differunt specie; ergo et cetera.</p>
+          
+          <p>2. Item, quaecunque distinguuntur ab invicem per contraria 
+            eis substantialia differunt specie; sed intellectivum 
+            angelicum et humanum sic se habent, differunt enim per 
+            unibile corpori et sensualitati et per non unibile, nam intellectivum 
+            humanum (d) est essentialiter unibile et unitum corpori 
+            humano et eius sensualitati, mens vero angeli est omnino 
+            inunibilis eis; ergo et cetera.</p>
+          
+          <p>3. Item, intellectui humano, ut dicitur, est (e) essentiale 
+            quod discurrat de principiis in (f) conclusiones, angelico vero (g) 
+            est e contra essentiale quod eas videat sine discursu; ergo 
+            differunt (h) per oppositas et (i) consubstantiales differentias. 
+            Et consimiliter, ut dicitur, voluntas humana et angelica essentialiter 
+            differunt per vertibile ab eo obiecto cui primo inhaesit 
+            et per irrevertibile; quod probant per hoc: quia angelus 
+            post (k) primum peccatum non potuit poenitere de illo, homo 
+            vero potest et potuit.</p>
+          
+          <p>4. Item, intellectui humano, ut dicitur, est essentiale 
+            quod quantum est ex se, sit a principio nudus omni specie 
+            <pb n="299"/>intelligibilium acsi tabula rasa in qua nihil est pictum, est 
+            etiam, ut dicitur, ei essentiale quod aliquando possit esse in 
+            actu, aliquando non; e contra vero angelico intellectui est 
+            essentiale quod sit plenus formis intelligibilium et quod sit 
+            semper pervigil et in actu; ergo et cetera.</p>
+          
+          <p>5. Item, maior ratio quare possent videri eiusdem speciei 
+            est: quia videntur habere eadem obiecta et aliquos actus 
+            eiusdem speciei; sed quod ex hoc non sequatur ipsa esse 
+            eiusdem speciei probo: quia constat quod sicut bos et homo 
+            et leo differunt specie, sic et eorum formae sensitivae quibus 
+            eorum corpora et organa informantur et sensificantur; sed 
+            constat quod oculus bovis et hominis habent obiecta eiusdem 
+            speciei et etiam visiones seu actus visuales, et idem est de 
+            aliis sensibus eorum; ergo et cetera.</p>
+        </div>
+        <div>
+          <head>In contrarium arguitur.</head>
+          <p>1. Primo ex actibus et habitibus gratiae et gloriae: 
+            Quia actus visionis et caritatis, quibus anima Petri videt 
+            et amat aliquam rationem perfectam in Deo, videtur esse 
+            eiusdem speciei cum actibus angeli eandem rationem videntis, 
+            et maxime si <name ref="#Peter">Petrus</name> sit illi angelo in gloria coaequalis; 
+            sed constat quod actus et habitus gratiae habent aliquas 
+            essentiales diversitates secundum diversitates (a) subiectorum 
+            et potentiarum in quibus sunt; nec mirum, quia habent se 
+            ad illa sicut perfectiones ad perfectibilia et sicut accidentia 
+            ad propria subiecta, unde videmus quod omnes habitus et 
+            actus voluntatis differunt ab habitibus et actibus intellectus 
+            per intellectivum et appetitivum, quia omnes hi sunt essentialiter 
+            appetitivi, illi vero intellectivi.</p>
+          
+          <p>2. Secundo arguitur ex ratione principii activi: Quia 
+            specifici et immediati actus seu inftuxus diversorum principiorum 
+            activorum differunt specie sicut et ilia; sed constat 
+            quod liber consensus seu liberum velle est actus specificus 
+            et immediatus voluntatis liberae (b) et est ab illa tanquam 
+            a principio activo; sed quando angelus et homo consentiunt 
+            in idem obiectum et propter eundem finem, ita quod in illo 
+            obiecto quicquid vult unus vult alter, tunc illi consensus videntur 
+            esse omnino eiusdem speciei, ut verbi gratia, ecce 
+            quod beatus Petrus non solum ex caritate vult mundum esse 
+            sicut et angelus sibi in gloria coaequalis, sed (c) et propter 
+            <pb n="300"/>easdem causas vult hoc nunc propter quas et angelus: ergo 
+            videtur quod huiusmodi velle ipsorum sint eiusdem speciei 
+            ac per consequens quod et potentiae activae ipsorum.</p> 
+          
+          <p>3. Tertio arguitur ex ratione divinae imaginis secundum 
+            quam uterque est factus: Licet enim in Deo non sit proprie 
+            dare naturam seu rationem specificam eo modo quo in 
+            creatis, nihilominus est ibi secundum suum modum; constat 
+            autem quod imago proprie dicitur similitudo speciei seu alicuius 
+            secundum suam speciem, unde et in hoc differt a similitudine 
+            quae dicitur vestigium; sed duae imagines vere 
+            eiusdem speciei sunt eaedem specie, sicut patet de duabus 
+            figuris seu imaginibus eiusdem sigilli; ergo et cetera. - 
+            Sed forte contra hoc dicetur: quia imago eiusdem obiecti 
+            est alterius speciei in intellectu et alterius in sensu et alterius 
+            in pictura corporali. - Ad hoc dicitur quod saltem illae 
+            quae sunt in corporali materia sunt semper eiusdem speciei 
+            et consimiliter illae quae sunt in sensu particulari; ergo consimiliter 
+            illae quae respectu eiusdem obiecti sunt in natura 
+            seu potentia intellectuali erunt eiusdem speciei, et maxime, 
+            quando huiusmodi imagines habent rationem imaginis non 
+            solum quoad rationem exprimendi, sed etiam quoad suum 
+            esse substantiale, sicut utique habet respectu Dei omnis 
+            mens (a) seu omnis natura intellectualis. Praeterea, modus 
+            secundum quem mens est ad imaginem Dei non respicit rationem 
+            specificam divinae naturae secundum hunc gradum 
+            vel illum nec secundum quod est (b) idea huius obiecti vel 
+            illius praeterquam mentis. Si enim mens secundum suam 
+            speciem respiceret certum gradum imitationis divinae naturae, 
+            tunc nunquam esset ad imaginem Dei nec in sua propria 
+            specie, nisi cum esset in illo gradu, ita quod non haberet 
+            plus nec minus, et ita omnes mentes eiusdem speciei 
+            necessaria essent aequales. Si etiam respiceret solas quasdam 
+            ideas quorundam obiectorum aliorum a se, tunc eius potentiae 
+            non possent deduci, etiam a Deo, ad ceteras ideas et 
+            earum obiecta cognoscendas et amandas, quod constat esse 
+            falsum. Unde sicut Verbum Dei Patris est actualiter expressivum 
+            omnium idearum mentis paternae et totius sapientiae 
+            eius, et ideo non possunt esse in Deo plura Verba: sic mens 
+            creata secundum suam speciem est potentialiter deducibilis 
+            ad quaecunque. Ex quo videtur quod non possint dari plures 
+            species mentium.</p>
+          
+          <p><pb n="301"/>4. Quarto arguitur ex ordine utriusque ad eosdem ultimos 
+            fines: Quae enim secundum suam essentiam sunt ordinabilia 
+            et aliqualiter inclinata ad eosdem principales et proprios 
+            fines et ad easdem proprias et finales perfectiones videntur 
+            habere essentias eiusdem speciei; sed mens humana 
+            et angelica sunt huiusmodi, quia ultima beatitudo (a) est propria 
+            perfectio ipsarum; constat autem ex fide catholica quod 
+            sunt ordinabiles ad beatitudinem eiusdem speciei, et etiam 
+            plures mentes humanae perducuntur ad aequalem gloriam 
+            angelorum et aliquae ad maiorem. Quod vero a quibusdam 
+            dicitur primam propositionem esse veram de fine naturali, 
+            non autem de supernaturali, gloria vero non est finis naturalis, 
+            sed supernaturalis: a ceteris improbatur, quia non solum 
+            secundum fidem, sed etiam secundum rectam rationem 
+            constat quod omnis natura rationalis est per essentiam talis 
+            quod proprius et ultimus eius finis non potest per naturam 
+            creatam acquiri, sed solum per agens supernaturale nec 
+            potest esse in aliqua forma mere naturali, immo oportet quod 
+            sit in forma virtuali et gratifica et modo ineffabili unita et 
+            uniente cum supernaturalissimo Deo. Et tamen haereticum 
+            et erroneum esset dicere quin omnis natura rationalis ex 
+            sua essentia et natura exigat talem perfectionem et finem, 
+            unde et pro tanto est ei naturalis. Unde et quando naturaliter 
+            appetit summam beatitudinem, secundum rem appetit 
+            illam quae est supernaturalis, quia in nulla alia potest vere 
+            salvari ratio summae beatitudinis nec ratio summi boni.</p> 
+          
+          <p>5. Quinto arguitur ex ambitu potentiarum intellectivarum: 
+            Quaelibet enim ex sua specie habet totum ens pro 
+            obiecto et intra suum potentialem ambitum potentialiter comprehendit 
+            omnes species et modos habituum et actuum, qui 
+            generi talis potentiae assignari possunt; sed si natura intellectualis 
+            esset divisa in varias species, tunc altiorem et latiorem 
+            ambitum obiectorum haberet sumpta in genere quam 
+            prout esset sumpta sub aliqua suarum specierum et ita in 
+            nulla sua specie haberet totum entis ambitum pro obiecto.</p>
+        </div>
+        <div>
+          <head>Respondeo</head>
+          <p>Quod secundum quosdam simpliciter differunt specie, 
+            secundum alios vero non differunt specie quoad suas essentias 
+            absolutas, sed solum quoad aliquos respectus et modos 
+            <pb n="302"/>essendi eis annexos. - Qui enim volunt quod anima rationalis 
+            secundum totam formalem suam essentiam sit forma corporis 
+            coguntur dicere quod non solum secundum suam formam 
+            sensitivam, sed et secundum intellectivam differat specie 
+            simpliciter a mente angelica, quia nihil essentialius est 
+            formae alicuius materiae quam quod sit forma et actus respectu 
+            illius materiae. - Qui vero ponunt animam rationalem 
+            esse formam corporis secundum solam partem suam (a) 
+            sensitivam non coguntur tenere quod unio vel unitiva inclinatio 
+            partis intellectivae ad partem sensitivam et ad corpus 
+            sensificatum sit omnino id ipsum quod absoluta essentia 
+            partis intellectivae, sed sufficit quod sit quaedam essentia relativa (b) 
+            illi annexa, sicut piro insertae in arborem (c) pomum 
+            est annexa inclinatio et unio ad pomum cui est inserta, aut 
+            sicut ramo qui vivit et salva sua specie potest a stipite et 
+            radice abscinde est annexa unio ad stipitem et radicem. 
+            Quae quidem unio non posset tolli ramo salva sua specie, 
+            si esset omnino id ipsum cum absoluta forma ipsius rami; 
+            nec mirum, quia nec etiam actualis unio formae ad materiam 
+            est omnino id ipsum cum forma.</p>
+        </div>
+        <div>
+          <head>
+            <supplied>Solutio Obiectorum</supplied>
+          </head>
+        <p>Sustinendo igitur ad praesens hanc positionem 
+          ad primum dicitur quod ali quid potest dici differentia 
+          specifica dupliciter: Primo quidem, quia est secundum 
+          se sufficienter specificatum. Et hoc modo organizatio 
+          capitis vel manus, qualis competit corpori humano, est quadam 
+          forma specifica. Secundo modo potest dici specifica, quia 
+          in sua ratione includit omnes rationes specificas sui totius 
+          seu totalem specificationem ipsius. Et hoc solo secundo modo 
+          est vera maior rationis praedictae, non autem primo modo, 
+          quamvis et de primo modo possit dici quod talis differentia 
+          specifica per hoc quod sibi alia adiunguntur et ipsa eis ad 
+          constituendum unam totalem naturam cuiusdam novae speciei 
+          ex eis compositae assumit circa se potius quam intra 
+          se quandam aliam specificationem, secundum quam (a) potest 
+          dici (e) quod differt specie etiam a se ipsa separatim et absolute 
+          sumpta. Talis autem differentia specifica est secundum 
+          istos intellectivum humanum, quia non dicit omnes rationes 
+          <pb n="303"/>specificas hominis, quia in sensitiva humana complexio et 
+          organizatio humana sunt quaedam rationes et differentiae 
+          hominis specificae. Sed si poneretur unum nomen formae totali 
+          ex his tribus conflatae, tunc ilia haberet rationem differentiae 
+          specificae iuxta modum secundum. Si etiam intellectivo humano 
+          auferretur a Deo omnis inclinatio ad corpus 
+          et ad sensitivam humanam, ita quod in se et in sua materia 
+          absolute stabiliretur, tunc eo ipso fieret non humanum et faceret 
+          quandam novam speciem entis.</p>
+        
+          <p>Et per hoc patet ad secundum: Quia aliud est differre 
+            ab aliis specie per solum se ipsum, aliud per aliam 
+            essentiam sibi annexam. Unde materia unius corporis per 
+            solam essentiam suam non differt specie a materia alterius 
+            corporis, sed solum per diversas formas substantiales sibi annexas. 
+            Unde isti dicunt quod Deus posset intellectivo angelico 
+            tollere modum essendi quem habet et dare sibi inclinationem 
+            ad corpus infigendo sibi seu suae materiae sensitivam 
+            humanam, ita quod eo ipso de intellectivo angelico 
+            fieret intellectivum humanum, sicut ex materia corporis humani 
+            potest fieri materia corporis (a) bovini per variationem 
+            formarum. Dicunt enim isti quod si pigmentarius potest diversas 
+            species et virtutes gemmarum et herbarum artificialiter 
+            commiscere, ut fiat ex eis confectio una: multo magis 
+            Deus posset eas naturali commixtione unire ut fieret ex eis 
+            una totalis natura.</p> 
+          
+          <p>Ad tertium dicitur quod discurrere et non discurrere 
+            potius competunt intellectui per habitus et dispositiones ei (b) 
+            annexos quam per solam essentiam suam. Causa enim non 
+            <sic>discutendi</sic> est plenitudo scientalis habitus conclusionum aut 
+            praeclaritas habitualis ingenii et vivacis aspectus ad varias 
+            conclusiones ex principiis et in principiis (c) subito capiendas. 
+            Unde tam anima Christi quam homines beati non solum in 
+            Deo sed etiam in proprio genere ita repente vident naturales 
+            conclusiones sicut et angeli. Et si Deus a principio ita paucos 
+            habitus inseruisset intellectui angelico sicut nostro ita indigeret 
+            discursu sicut et noster; quamvis nec adhuc omni 
+            discurso careat, saltem in daemonibus, sicut alibi est ostensum. 
+            - Illud etiam de invertibilitate angelicae voluntatis est 
+            erroneum; non enim hoc competit sibi essentialiter plus 
+            <pb n="304"/>quam homini. Cuius probationes omitto ad praesens, quia 
+            ipsas alibi recitavi.</p>
+          
+          <p>Ad quartum dicendum quod esse ex se nudum ab 
+            omni specie non est essentialius intellectui humano quam 
+            angelica, quia nec species rerum sunt minus accidentales 
+            intellectui angelica quam humano, quamvis (a) Deus ex suo 
+            beneplacito plures species plenius et inseparabilius inseruerit 
+            angelis a principio quam hominibus praeterquam Christo homini. 
+            - Quod etiam subditur quod semper esse in actu est 
+            essentiale intellectui angelico, oppositum vero est essentiale 
+            intellectui humano, falsum est. - Utrorumque autem probationes 
+            et explicationes omitto, quia tam ex se quam ex alibi 
+            a me tactis de facili colligi possunt.</p> 
+          
+          <p>Ad quintum dicendum quod aliud est sensitivam 
+            bovis differre specie a sensitiva hominis vel leonis et aliud 
+            eius potentiam visivam vel auditivam, quia tota sensitiva 
+            eorum multa varia hinc et inde includit plus quam faciant 
+            istae potentiae vel illae. Potentiae enim istae non videntur 
+            hinc et inde differre specie nisi solum per varias uniones et 
+            inclinationes eis affixas praeterquam forte de potentiis sensitivae 
+            humanae quae a doctoribus ponuntur esse infixae in 
+            materia intellectuali tanquam quaedam paitiales formae illius. 
+            Est autem dubium an potentia visiva bovis posset materiae 
+            intellectuali infigi, ita quod fieret potentia sensitivae 
+            humanae. Videtur enim quibusdam quod forma huius materiae 
+            per aliam inclinationem sibi datam ad alteram formam 
+            priorique sibi ablata potest fieri forma alterius materiae. Et 
+            hoc est magis consonum potentiae Dei et universali ambitui 
+            entis, quia non minus mirabile videtur naturam humanam 
+            potuisse inclinari ad personam alterius naturae quam formam 
+            de novo inclinari ad aliquam materiam sibi novam. Quomodocunque 
+            tamen hoc sit, iuxta differentiam earum erit censendum (b) 
+            de differentia visionum suarum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

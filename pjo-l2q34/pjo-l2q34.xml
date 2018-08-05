@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Quaestio 34</title>
+        <author xml:id="PJO">Peter John Olivi</author>
+        <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.05">
+          <title>Librum II, Quaestio 34</title>
+          <date when="2015-05-17">May 19, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Ad Claras Aquas</publisher>
+        <pubPlace>Quaracchi</pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="1922">1922</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Quaestions In Secundum Librum Sententiarum, ed. Bernardus Jansent, S.I, Ad Claras Aquas, 1922</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-05-19" who="#JW" status="draft" n="2015.05">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pjo-l2q34">
+        <head>Librum II, Quaestio 34</head>
+        
+        <p>Tertio (n) ad illud quod iuxta hoc quaerebatur
+        [an in angelis sint species universales]</p>
+        <div> 
+          <head>Respondeo</head>
+          <p>Quod licet sequaces primae positionis teneant (o) 
+            quod in angelis sint species universales 
+            et quod in superioribus sunt universaliores 
+            quam in iis qui sunt inferiorum ordinum et in<pb n="610"/>super 
+            volentes quod universalitas earum (a) sit 
+            talis quod per unam similitudinem apprehendatur (b) 
+            tota una natura(c) specifica cum omnibus 
+            individuis suis et aliquando (d) totum unum 
+            genus cum omnibus speciebus suis et cum omnibus 
+            individuis specierum suarum: sequendo 
+            tamen viam magis catholicam et rationi (e) amplius 
+            consonam teneo quod in nullo angelo nec 
+            in aliqua penitus creatura est dare huiusmodi 
+            species praedicta universalitatem habentes; 
+            tum quia si quis bene inspexerit (f), omnia inconvenientia 
+            praemissa includuntur in ista positione 
+            sicut in positione praecedenti; tum quia 
+            praeter inconvenientia praedicta adhuc alia (g) 
+            ad hoc sequuntur.</p> 
+          <p>Primo quidem (h), quia ex hoc sequitur quod angeli uno 
+            actu cognoscant infinita, etiam illo modo quo nec Deo cognitio 
+            infinitorum potest attribui, utpote quod per modum 
+            unius entis et unius totius seu unius aggregati infinita simul 
+            cognoscant; sicut enim ostensum est in quaestione an Deus 
+            possit actu facere infinita, talis modus cognoscendi infinita 
+            includit (i) in se omnes contradictiones quas positio infinitorum 
+            in actu in se includit. Quod autem talis modus cognitionis 
+            ex ista positione in eis (k) sequatur patet: quia sicut 
+            illa species est una, sic totum suum obiectum repraesentabit 
+            ut unum totale obiectum, quamvis ex pluribus aggregatum, 
+            nisi forte dicatur quod (l) potens est unumquodque infinitorum 
+            per se et absolute repraesentare sicut et essentia divina; 
+            quod si ita esset, nescio si aliquid (m) divinius et ineffabilius 
+            eis attribui posset. - Sequetur etiam quod cognoscant 
+            actu et simul totam divisibilitatem et divisionem (n) 
+            continui, acsi tota esset (o) expleta; et consimiliter cognoscent (p), 
+            saltem supremi angeli, infinitas species numerorum 
+            et figurarum et omnia individua quae possunt esse sub eis. 
+            - Sequetur etiam quod (q) specie uniformiter repraesentante 
+            semper uniformiter omnia cognoscant ac per consequens quod 
+            individua quae non sunt (r) cognoscant esse actu, sicut et 
+            illa quae sunt, et e contrario quod illa (s) quae sunt cogno<pb n="611"/>scant 
+            non esse actu, sicut et illa quae non sunt; quoniam 
+            uniformiter et per eandem similitudinem omnia simul repraesentantur.</p>
+          
+          <p>Sequetur etiam quod ita cognoscant futura contingentia 
+            sicut praesentia et praeterita, quia omnes cogitationes futuras 
+            quae sunt eiusdem speciei cum cogitatione praesenti 
+            quam nunc cognoscunt (a), ita cognoscent actu et praesentialiter 
+            sicut et istam, ex quo per unam similitudinem cognoscunt 
+            (b) totam speciem et infinita individua eius; et idem 
+            sequetur de omnibus locutionibus (c) et operationibus futuris 
+            quae sunt eiusdem speciei cum locutione vel operatione praesenti 
+            (d). Et ultra hoc, si est(d) species supremi angeli, cognoscent. 
+            omnes locutiones et operationes (f) quae sunt eiusdem 
+            generis cum praesenti cogitatione vel locutione vel operatione. 
+            - Sequetur etiam quod omnia secreta cordium quae 
+            sunt eiusdem speciei vel generis cum aliquibus quae sunt 
+            eis nota ita aperte et ita certitudinaliter cognoscant sicut 
+            et illa. - Sequetur etiam quod ita cognoscant quaecunque 
+            absentia, quantumque longe distantia, sicut et praesenta, 
+            solum (g) sint eiusdem generis (h) vel speciei cum illis. -- 
+            Sequetur etiam quod nullam variationem in obiectis cognoscere 
+            possint (i) nisi prius facta variatione in speciebus per 
+            quas huiusmodi obiecta vident vel sciunt.</p> 
+          <p>Multa alia inconvenientia possent ex praedicto errore 
+            deduci (k), et praedicta possent adhuc plenius explicari. Altior 
+            enim universalitas quoad plura attribuitur ab eis huiusmodi (l) 
+            speciebus quam attribuant (m) naturis angelorum, quia hic ponitur 
+            quod una species per aequivalentiam seu potius per 
+            praevalentiam comprehendat (n) in se omnes proprias rationes 
+            et generales omnium (o) individuorum et omnium specierum et 
+            generum quae per eam cognoscuntur aut cognosci possunt, acsi 
+            1magmaremur unam (p) lucem quae haberet in se realiter et 
+            per indifferentiam rationes proprias et generales omnium specierum 
+            colorum et luminum et omnium (q) individuorum suorum 
+            vel (r) acsi imaginaremur formam unam quae haberet 
+            in se rationes generales et proprias omnium formarum. Et 
+            indubitanter (s) talis forma esset extra omne genus et super 
+            <pb n="612"/>omne genus (a) ac per consequens vere (b) idem quod summus 
+            Deus. - Sequetur etiam quod Deus non possit eas (c) diminuere 
+            vel augere; diminuere quidem (d) non, pro eo quod 
+            sunt simplicissimae, ita quod omnia sunt in ea id ipsum (e); 
+            augere vero (f) non, quia continent in se totum ambitum suae 
+            speciei et etiam quia sunt actu infinitae et etiam quia, si 
+            augerentur, aliquid eis adderetur, ac per consequens caderet 
+            in eis compositio et componibilitas et sic per consequens 
+            partialitas et particularitas (g).</p>
+          
+          <p>Sequetur etiam quod gradatim ascendendo Deus poterit 
+            facere unum agnelum et unam speciem in eo tantae (h) altitudinis 
+            quod quod per illam (i) cognoscet totum ambitum entis aut 
+            saltem totum ambitum unius generis generalissimi; quia qua 
+            ratione potest facere quod unus cognoscat per unam speciem 
+            totum ambitum unius generis proximi et alius eo superior 
+            possit per aliam speciem (k) totum ambitum superioris generis: 
+            eadem ratione poterit facere quod alius eo superiori possit (l) 
+            in totum ambitum unius generis generalissimi et iterum 
+            quod alius eo superior possit in totum ambitum entis et tunc 
+            iterum quod alius isto superior possit in aliquid maioris ambitus 
+            quam sit totius ambitus entis et sic semper in infinitum 
+            magis ac magis ascendendo. -- Sequetur etiam quod omnis 
+            species quae est in intellectu unius angelis nullam habeat penitus 
+            univocationem cum speciebus quae sunt in altero angelo 
+            ac per consequens (m) quod nec eorum actus, et fortassis ad 
+            hoc sequetur quod nec eorum obiecta; quamvis hoc modo (n) 
+            non sequatur quod (o) ipse cognoscit eadem obiecta quae et 
+            nos, et tamen cognoscit ea per aliquid qua ratione species (p) 
+            intellectus angelici habent huiuscemodi universalitatem, eadem 
+            ratione habeant hoc et habitus voluntatis eorum, ita 
+            quod unus (q) habitus caritatis vel cuiuscunque virtutis seu 
+            vitii sit (r) simul et semel potens in omnia (s) obiecta particularia 
+            contenta sub suo generali obiecto et sic per consequens 
+            quod uno actu tendat (t) in omnia secundum omnes proprias 
+            rationes eorum et non solum secundum generales, sicut et 
+            <pb n="613"/> de specie intellectus ponitur. - Praeterea, quaero ab istis 
+            quomodo cognoscent (a) affirmationes et negationes ex obiectis 
+            diversarum specierum suarum constitutas (b), utpote si angelus 
+            intra se dicat quod obiectum istius speciei non est obiectum 
+            illius, aut quomodo cognoscet (c) subiectum esse sub tali 
+            vel tali accidente. Haec autem et multa consiri1ilia infra in 
+            quaestionibus de cognitione (d) angeli plenius tangentur.</p> 
+        </div>
+        <div>
+          <head>[Solutio Obiectorum]</head>
+          <p>Ad primum (e) dicendum quod (f) in omnibus verbis (g) 
+            <name ref="#Dionysius">Dionysii</name> est regulariter advertendum quod semper loquitur 
+            de angelis et eorum cognitione, prout sunt beati, nec (h) 
+            intendit eis attribuere simplicitatem et unificationem (i) omnimodae 
+            indivisibilitatis, sed solum plenioris recollectionis 
+            ad unum summum Deum. E! modo autem talis simplicitatis 
+            non sequitur quod quamvis species angeli superioris sint (k) 
+            hoc modo simpliciores, quod propter hoc possit plura cognoscere (l) 
+            per unam speciem quam angeli inferiores; sed bene 
+            ex hoc sequitur quod per illam speciem simpliciori et unitiori (m) 
+            modo cognoscat suum obiectum quam angelus inferior 
+            per suam.</p>
+          
+          <p>Ad secundum dicendum quod· prima propositio non 
+            est vera semper et necessario de simplicitate omnimodae 
+            indivisibilitatis, sed solum de simplicitate maioris recollectionis 
+            et unitionis sui et suarum partium. - Illa autem consequentia (n), 
+            qua dicitur quod virtus unita est potentior quam 
+            multiplicata, ergo ad plura se extendit, non infert necessario, 
+            quia potentior potest esse (o), aut quia ad plura se extendit 
+            aut quia ad unum et idem intensiori et efficaciori modo pertingit. 
+            Et sic patet quod procedit a duabus (p) causis veritatis 
+            ad unam, quod est fallacia (q) consequentis. - Si quis (r) 
+            tamen ad haec duo argumenta praedicta (s) afferre vellet 
+            exemplum quod auctores (t) praedictae positionis solent afferre, 
+            quod scilicet (u) videmus quod magister in una propo<pb n="614"/>sitione 
+            seu in uno primo (a) principio multam scientiam et 
+            multas conclusiones simul et unite comprehendit, quod discipulus 
+            facere non poterit (b), nisi per magistrum sibi divisim 
+            et partialiter explicentur (c), ex quo videtur quod magister 
+            plura simul et per unum comprehendat, discipulus 
+            vero (d) hoc non possit nisi per plura et successive, si igitur 
+            hoc invenitur in nobis, videtur quod in angelis multo magis (e) 
+            possit inveniri: dicendum ad istud (f) quod magister 
+            apprehendendo (g) unam propositionem seu unum principium 
+            non apprehendit plura explicite nisi per plures species aut 
+            per unam ex pluribus compositam seu aggregatam, immo quot 
+            terminos explicite (h) cognoscit, tot eorum (i) species explicite 
+            habet; unde cum quis (k) cogitat quod homo non est asinus, 
+            tunc necessaria habet in suo cogitatu speciem hominis et 
+            speciem (l) asini. Sciendum igitur quod aliud est plura simul 
+            cognoscere (m) in relatione ad unum, aliud cognoscere illa per 
+            unam speciem. Magister igitur, quia (n) habet scientiam protensiorem 
+            et recollectiorem (o) et pleniorem et magis explicatam 
+            quam discipulus, potest primo modo plura simul cognoscere 
+            quam discipulus, non autem secundo modo. Et consimiliter 
+            (p) est de superiori angelo respectu inferioris.</p>
+        
+          <p>Ad tertium dicendum quod universalitas quam intellectus 
+            attribuit naturis rerum in abstracto et universaliter intellectis 
+            non est sic in intellectu ut ponat in eo aliquam realem 
+            universalitatem; non enim est ibi nisi (q) sicut res imaginata 
+            in imaginatione aut sicut repraesentatum (r) in repraesentante, 
+            repraesentantia autem non sunt (s) secundum 
+            rem illud quod repraesentant. Quamvis igitur species repraesentet 
+            intellectui universalitatem quam rebus attribuit, 
+            non propter hoc sequitur quod sit universalis, sed solum 
+            ex hoc sequitur quod sit repraesentativa universalitatis. Si 
+            dicas quod non potest repraesentare non ens, saltem veraciter, 
+            species autem (t) repraesentat huiusmodi universalitatem 
+            absque omni falsitate: dicendum quod non ens bene (u) potest 
+            repraesentari absque omni falsitate, solummodo quod per 
+            hoc non affirmetur quod ita sit in re, unde imaginans ro<pb n="615"/>sam 
+            in tempore (a) quo nulla est rosa non est falsus, nisi 
+            crederet quod ita esset in re. Intellectus autem, quando cogitat 
+            in rebus universalitatem, non sic cogitat hoc quod ita 
+            credat esse (b) in re et absolute et realiter, sed solummodo 
+            cogitat (c) hoc, credendo quod non est ita in re absolute et 
+            realiter; cogitat (d) enim tunc quod quamvis res non sit 
+            in se universalis, tamen intellectui sic absolute absque sua 
+            individuatione offertur (e), acsi non esset indi vidua et (f) acsi 
+            non esset in individuis multiplicata, sed potius acsi esset in 
+            eis sine omni (g) sui plurificatione existens, quia tunc non 
+            cogitat eam, prout in ea differunt, sed solum prout in ea 
+            conveniunt.</p>
+          
+          <p>Ad quartum dicendum quod aliud est dicere quod (h) 
+            intellectum, in quantum est sic intellectum est universale 
+            et aliud quod intellectum, in quantum est sic intellectum 
+            videtur esse quasi universale et offertur (i) intellectui quasi 
+            universale. Primo modo non est simpliciter vera maior propositio, 
+            nisi per le (k)  <mentioned>universale</mentioned> idem intelligas significare (l) 
+            quod in secundo modo expressius significamus. - Quod autem 
+            additur quod intellectum, in quantum tale est in intelligente (m): 
+            sciendum quod haec (n) locutio potest intelligi vero 
+            modo et falso. Si enim sit sensus quod rem intellectam intelligi 
+            non (o) est aliud quam intelligentem intelligere ipsam, 
+            sic est verum; per hoc enim (p) nihil aliud significamus nisi 
+            quod passivum huius verbi <mentioned>intelligere</mentioned> nihil ponit in re 
+            intellecta, sed solum in ipso intelligente (q), quia secundum 
+            rem non est aliud quam suum activum, et (r) idem est de 
+            laudare et laudari et amare et amari. Ex hoc autem nihil 
+            potest inferri contra propositum. Si autem sit sensus quod 
+            praeter habitum et actum intelligendi sit (s) in intellectu 
+            quoddam obiectum abstractum in quo intellectus intelligat 
+            et speculetur obiectum quod est in rebus extrinsecis (t) existens, 
+            quamvis hoc quidam (u) posuisse videantur dicentes 
+            quod intellectus intelligendo format quoddam primum intellectum 
+            in quo speculatur rem exteriorem, unde dicunt 
+            quod res exteriores non sunt ab intellectu primo intellectae, 
+            sed solum secundario, nec sunt prima eius obiecta, sed potius 
+            <pb n="616"/>secundaria: nihilominus hoc est falsum et, quia nulla ratione 
+            fulcitur, eadem facilitate solvitur qua probatur. De improbatione 
+            tamen huius dicti in quaestionibus de cognitione intellectus 
+            humani plenius habet tangi. Esto autem quod aliquid 
+            tale esset in eo (a), adhuc differt ab (b) habitu et actu scientiae 
+            sicut effectus a sua causa et sicut formatum (c) d1ffert a suo 
+            principio (d) formativo et ab actione per quam formatur, quia (p) 
+            ipsi ponunt quod huiusmodi intellectum (f) efficitur et formatur 
+            ab intellectu per actum intelligendi intermedium.</p>
+          
+          <p>Ad quintum dicendum quod de specie per 
+            quam Deus et res in Deo videntur videtur esse 
+            doctorum modernorum triplex sententia: quia 
+            quidam volunt quod species qua Deus videtur sit particularis 
+            et quod quot rationes vel (g) ideae in Deo videntur, 
+            tot species sint in intellectu eas vidente, quae quidem species 
+            non sunt simpliciter unum et idem nisi solum per aliquam 
+            unam coordinationem earum. Quod istos autem nullum (h) 
+            est argumentum quantum ad primam rationem ibi 
+            factam, quia tunc ex falsa suppositione procedit. - Ad secundam 
+            vero respondent quod maior est falsa, qua tunc 
+            sequeretur quod nulla imaginatio Dei esset determinati generis 
+            ac per consequens quod nulla mens (i) angelica vel 
+            humana sit determinati generis (k). Sicut igitur non (n) oportet 
+            quod similitudo lapidis (m) sit lapis: sic non (n) oportet quod 
+            similitudo rei quae est extra omne genus sit extra omne (o) 
+            genus. - Quod etiam ibi additur, quod similitudo reducitur 
+            ad idem genus cum re cuius est similitudo, non est verum 
+            simpliciter, quia species qua (p) intelligo lapidem nullo 
+            modo est in genere lapidis; secundum quid tamen forte potest 
+            esse verum in (q) similitudinibus naturaliter (r) resultantibus 
+            et originatis ab ipsis rebus, ut est radius a luce solari. 
+            Isti (s) autem bene volunt quod repraesentare ipsius speciei (t), 
+            pro quanto non dicit aliud quam essentiam ipsius speciei, 
+            sit determinati generis sicut et ipsa, et quod solum pro tanto 
+            possit dici indeterminati generis, pro quanto per hoc (u) non 
+            <pb n="617"/>intendimus aliud significare nisi quod suum obiectum per 
+            eam repraesentatum sit indeterminati (a) generis. Unde quando 
+            profertur quod suum repraesentare non est determinati genens, 
+            duplex potest esse sensus (b): aut quod non est obiecti (c) 
+            habentis determinatum genus aut quod non habet (d) essentiam 
+            et definitionem quae sit in aliquo genere determinato. 
+            Primo modo est vera, secundo modo est falsa (e). - Et per 
+            hoc patet ad <sic>contraargumentationem</sic> (f) in fine illius rationis 
+            factam.</p> 
+          
+          <p>Alii vero volunt (g) quod per unam speciem universalem 
+            hoc fiat. Hi sunt sequaces (h) positionis praemissae quae 
+            ponit universalitatem specierum in angelis. Quamvis enim (i) 
+            mentes hominum ponant non comprehendere totum ambitum 
+            suae naturae specificae, sed potius esse particulares 
+            eiusdem speciei: nihilominus concedunt quod in eis possint 
+            esse aliqui (k) habitus universales. Unde et in anima Christi 
+            ponunt habitum gratiae sic universalem quod, ut dicunt, 
+            comprehendit in se quicquid est de ratione gratiae seu totum 
+            ambitum gratiae, quamvis non comprehendat totum 
+            ambitum entis. Isti igitur concedunt conclusionem argumenti 
+            praedicti.</p>
+          
+          <p>Contra hos autem (l) sunt fere omnia praedicta, et (m) 
+            ultra hoc, quia ponere mentes nostras esse particulares 
+            et simul cum hoc habere aliquod accidens universale est 
+            aperte ponere simul duo (n) contradictoria in eodem. Constat 
+            enim quod accidens continetur et circumscribitur a suo 
+            subiecto, ita quod non excedit (o) limites capacitatis eius; 
+            constat etiam quod universale habens realiter et actu totum 
+            ambitum suae universalitatis excedit in infinitum limites 
+            subiecti particularis nec habet aliquam proportionem 
+            ad ipsum. Ponere igitur habitum universalem in mente particulari 
+            est ponere quod habitus ille sit simul particularis et 
+            universalis, finitus et infinitus (p), proportionalis illi menti et 
+            improportionalis (q), et consimiliter quod mens ilia sit particularis 
+            et (r) universalis, finita et infinita, proportionalis et 
+            improportionalis infinitati (s) sui accidentis. Quis autem fidelis 
+            ferat audiens quod visio qua Petrus videt Deum aut caritas 
+            <pb n="618"/>qua fruitur Deo non sit eiusdem speciei, immo nec eiusdem generis cum visione et caritate Pauli aut angeli in eius 
+            hierarchia et ordine est collocatus (a)? Et tam en hoc expresse 
+            ponit positio praedicta. De hoc autem quod ponunt 
+            de gratia animae Christi, licet prima fronte videantur honorare 
+            animam Christi: nihilominus haec positio (b) praedicta 
+            inconvenientia in se includit et ultra quod secundum hoc 
+            nihil est dare gratiae in aliqua mente humana (c) vel angelo, 
+            quin totum (d) sit essentialiter recollectum et contentum 
+            in gratia animae Christi; alias (e) enim non potest esse 
+            verum quod gratia eius contineat in se quicquid est de ratione 
+            gratiae et totum ambitum eius. Ex hoc autem sequeretur 
+            quod aut nulla gratia sit in aliqua anima vel (f) angelo 
+            nisi in sola anima Christi aut quod eadem gratia numero 
+            quae est in anima Christi esset in angelis et in animabus 
+            (g) sanctis. Quis etiam ferat quod caritas animae 
+            Christi aut visio gloriae suae nullam habet univocationem 
+            cum caritate et visione (h) aliarum animarum aut angelorum? 
+            hoc enim sequitur ex positione (i) praedicta. Praeterea, 
+            cum ipsi ponant quod species qua unusquisque beatorum 
+            videt Deum et res in Deo sit universalis: quomodo species 
+            qua anima Christi videt Deum transcendet (k) in infinitum 
+            tot species universales (l) volunt enim ipsi quod gratia animae 
+            Christi transcendat in infinitum gratiam omnium (m) animarum. 
+            Praeterea, quomodo tot universales species et visiones 
+            respectu eiusdem obiecti et eiusdem rationis obiectivae 
+            poterunt poni absque ali qua sui univocatione (n)? unde 
+            etiam tot differentiae poterunt inveniri ut per eas omnes 
+            inter se genere aut specie differant?</p>
+          
+          <p>Tertii (o) autem volunt quod species qua Deus et res 
+            in Deo (p) videntur sit particularis et simplex et quod in sua 
+            simplicitate sine omni reali differentia sui seu sine (q) reali 
+            additione vel augmentatione sibi (r) superaddita sit efficax 
+            ad repraesentandum tam Deum quam omnia quae beatis in 
+            Deo repraesentantur et revelantur aut revelari possunt. Dicunt 
+            etiam (s) hoc esse possibile in ista specie et non in aliis, 
+            pro eo quod ista per se et principaliter repraesentat Deum 
+            <pb n="619"/>simplicissimum; et quia Deus repraesentatus ab ea est exemplar 
+            omnium rerum, idcirco species ista est potens secundario 
+            repraesentare res quarum est Deus exemplar. In aliis autem 
+            speciebus non est sic, quoniam ipsae primo et per se repraesentant 
+            res et ideo oportet secundum definitionem (a) rerum 
+            eas esse distinctas; habitus enim distinguuntur secundum 
+            definitionem obiectorum formalium et principalium. Et hinc 
+            est quod species qua Deus videtur est, ut dicunt una et 
+            simplex, quia eius formale et principale obiectum est simplex; 
+            in aliis autem obiectis est e contrario et per consequens 
+            in speciebus per quas cognoscuntur.</p> 
+          <p>Quamvis autem haec posito (b) sit quorundam 
+            doctorum nostrorum, quia tam en quoad multa 
+            quae in ea includuntur vehementer videtur favere 
+            errori praemisso de universa1itate specierum, 
+            idcirco quaedam dubia et forte periculosa 
+            quae in ipsa includi videntur paululum explicabo. 
+            -- Quorum unum est, quod species praedicta 
+            sine omni(c) reali sua differentia et sine 
+            reali additione vel augmentatione sibi (d) superaddita 
+            sit efficax ad repraesentandum omnia 
+            quae beatis in Deo praesentantur (e) aut revelantur. 
+            - Aliud(f) est, quod species ista sit (g) 
+            simplex. - Tertium est, quod quia (h) eius formale 
+            obiectum est rea1iter seu essentialiter 
+            unum et simplex, quod propter hoc ipsa sit realiter 
+            et(i) essentialiter una et (k) simplex. - Quartum 
+            est, quod quia non repraesentat (i) res nisi 
+            secundario, per unum scilicet principale obiectum 
+            inter medium, idcirco non oportet eam distingui secundum diversitatem rerum.</p>
+          
+          <p>Primum enim videtur esse dubium, quia constat quod 
+            illa species repraesentat omnia quae repraesentat per suam essentiam, 
+            unde naturale et essentia1e est ei suum repraesentare; 
+            sed omne essentiale et naturale semper manet actu, quamdiu 
+            est actu tota essentia et natura illius cuius erat essentiale; 
+            ergo tota repraesentatio actualis ad quam ilia (m) species est 
+            potens per suam essentiam tota erit simul, et hoc semper (n), 
+            <pb n="620"/>quamdiu tota essentia illius speciei erit actu; ergo beati scient 
+            actu per eam quicquid eis in Deo revelari potest in tota successione 
+            suae aeviternitatis et quicquid eis antea revelari 
+            potuit; et tunc sequitur quod nihil restet eis in Deo revelandum 
+            et quod nihil in eis de novo sit revelatum, ex quo 
+            per illam speciem fuerunt beatificati; sequetur (a) etiam quod 
+            actu videant infinita (b), quia infinita possunt eis successive 
+            revelari in Deo; et tunc (c) iterum sequetur quod ipsa (d) 
+            species et eius actus habeant actualem infinitatem.</p>
+          <p>Forte dicetur, sicut et ab is tis communiter dicitur, 
+            quod species non repraesentat actu nisi solum illa ad quae 
+            tam ipsa quam (e) eius potentia est actu conversa; et ideo 
+            per hoc quod intellectus beatorum de novo convertitur ad 
+            aliqua ad quae prius non erat conversus et per hoc quod 
+            species de novo convertitur et refertur ad illa potest quilibet 
+            beatus per eandem speciem de novo (f) videre plura in Deo 
+            quae alias (g) non vidit, et per hunc modum possunt eis successive 
+            et de novo plura (h) revelari. Videturque huius simile (i) 
+            esse in nobis: quam vis enim multas species habeamus actu (k) 
+            in memoria et multos (l) habitus intellectuales in intellectiva 
+            potentia, non tamen scimus actu quicquid per eas scimus 
+            habitu, sed indigemus adhuc (m) novis et pluribus conversionibus 
+            intellectus nostri.</p>
+        <p>Sed quod haec (n) evasio non sit bona videtur: Primo, quia species ista non est in memoria sed potius 
+          in acie intelligentiae et est semper coniuncta actui, quia 
+          aut est idem quod ipse actus aut est essentiale et immediatum 
+          principium ipsius. Unde in tali specie (o) non habet 
+          locum exemplum praedictum nec innovatio conversionis, 
+          quia ista semper est actu conversa ad suum obiectum et ad 
+          suum actum, immo semper est eis coniuncta aut forte secundum 
+          aliquos est omnino idem quod ipse actus. - Secunda, 
+          quia species ista (p) non potest fieri in acie intelligentiae, 
+          nisi ipsa acies sit prius naturaliter conversa ad obiectum 
+          quod per illam speciem videri potest aut ad speciem 
+          memorialem (g) quae secundum <name ref="#Aristotle">Augustinum</name> tenet locum 
+          et vicem obiecti. Et haec est sententia 
+          <ref>
+            <seg>
+              <name ref="#Aristotle">Augustini,</name> libro <title ref="#deTrinitate">De<pb n="621"/>
+        Trinitate</title>
+            </seg>
+            <bibl>Augustine, De Trinitate, XI, 3, 7 (PL 42, 988sqq)</bibl>
+          </ref> 
+          et in pluribus aliis locis. Et hoc ipsum manifeste 
+          experimur tam in (a) intellectu quam in omnibus potentiis 
+          apprehensivis (b). Non igitur potest poni nova conversio sequens 
+          istam speciem, sicut supponit praedicta evasio, sed potius 
+          oportet quod conversio (c) ad quodcunque obiectum quod per 
+          ipsam (d) videtur naturali ordine praecedat ipsam speciem. 
+          Tertio, quia (e) sive subsequatur eam conversio sive praecedat, 
+          nunquam potest per eam aliquid videri aut repraesentari nisi 
+          ipsa habeat in sua essentia rationem illius obiecti repraesentativam; 
+          ergo praeter praedictas (f) conversiones oportet 
+          quod in ea sint essentialiter tot rationes repraesentativae 
+          quot res possunt per eam videri. Nec potest dici quod istae 
+          rationes sibi de novo adveniant, nisi aliquid essentiale sibi 
+          de novo adveniat (h) et nisi sit tale quod habeat in se plenam 
+          rationem speciei repraesentantis seu repraesentativi. 
+          Si igitur nullo(h) tali sibi addito possunt per eam (i) videri 
+          quaecunque possunt (k) beatis in Deo (l) revelari: tunc oportet 
+          quod ipsa (m) habeat in suo esse (n) in simul actu infinitas rationis 
+          infinitorum revelabilium. - Quarto, quia actus visionis
+          non est minoris simplicitatis et nobilitatis quam ipsa 
+          species, cum principalis (o) ratio gloriae et principale complementum 
+          eius potius consistat (p) in actibus quam in habitibus; 
+          ergo si species unica (q) et simplex potest n se extendere 
+          ad omnia revelabilia: et unicus simplex actus poterit 
+          consimiliter ad omnia se extend ere; sed hoc est impossibile, 
+          quia (s) constat quod quando fit (t) aliqua nova revelatio, 
+          tunc de novo fit (u) aliqua nova visio, incipit enim beatus 
+          tunc(v) de novo videre aliquid quod prius non videbat, et 
+          consimiliter constat quod quando subtrahitur aliqua revelatio 
+          prius facta, tunc subtrahitur aliqua visio, desinit (x) enim beatus 
+          (y) aliquid videre quod prius videbat; esto autem quod 
+          nihil tale ibi subtrahatur: nihilominus a Deo subtrahi posset 
+          beato in statu gloriae existente. - Quinto, quia constat quod 
+          <pb n="622"/>una species non potest (a) in plures visiones seu in plures actus 
+          diversae speciei (b), et posito quod posset in plures, non 
+          posset in infinitos (c) infinitarum specierum; sed secundum 
+          viam (d) praedictam posset una simplex species in infinitos 
+          actus seu visiones diversarum specierum (e), quia quot revelabilia (f) 
+          diversarum specierum possent beatis revelari, in tot 
+          actuales visiones diversarum specierum posset una simplex 
+          species beatorum. - Sexto, quia constat quod per novas conversiones 
+          nihil de novo videtur, nisi de novo aliqua nova species 
+          et aliqua (g) nova visio ipsi intellectui innascatur; sicut 
+          et manifeste (h) de oculo experimur, unde quantumcunque (i) 
+          ad plura convertatur in tenebris, nihil per hoc de novo 
+          videt, quia nulla species vel visio sibi de novo ingignitur (k). 
+          - Septimo, quia esto quod beatus divino ·munere elevetur (l) 
+          ad hoc ut intensius (m) et clarius videat Deum et omnia quae 
+          prius in Deo vide bat: quaero tunc an species sit facta intensior 
+          et clarior et maior, et oportet necessaria dicere quod 
+          sic; sed non potest talis esse defectus per solam additionem 
+          novarum conversionum, nisi aliquid essentiale et eiusdem 
+          speciei sibi addatur, sicut patet ex iis quae istimet de augmenta 
+          gratiae (n) et habituum alibi pro certo affirmant. - 
+          Octavo, quia constat quod beatus non videt aliquid in Deo 
+          per suam speciem, nisi illa species sit similis illi (o) ideae 
+          per quam illa res a Deo videtur, ita quod oportet quod sit 
+          illi ideae similis (p) non solum secundum generalem rationem 
+          ipsius, sed etiam secundum propriam; ergo si praedicta positio 
+          vera est, sequitur quod species uniuscuiusque beati (q) 
+          sit similis omnibus ideis et rationibus quae in Deo sunt secundum 
+          propriam rationem uniuscuiusque idearum et rationum; 
+          et tunc sequitur quod haberet (r) immensitatem quasi 
+          aequalem immensitati idearum et rationum divinarum, quia 
+          oporteret eam esse (s) similem omnibus ideis et rationibus 
+          quae per totam aevi (t) successionem possent eis revelari. - 
+          Nono, quia quaero an Deus possit hanc speciem diminuere; 
+          et credo quod oportebit dicere quod Deus de absoluta potentia 
+          gloriam <name ref="#Peter">Petri</name> vel cuiuscunque beati potest minuere. 
+          <pb n="623"/>Quaero (a) etiam an species inferioris beati sit univoca et eiusdem 
+          speciei cum specie superioris beati, et utique ipsimet (b) 
+          dicunt, sicut et dicere habent, quod sic, et loquor de specie 
+          respectu eiusdem ideae vel rationis obiectivae; constat autem 
+          quod species inferioris beati est multo minor quam 
+          species superioris beati; ergo oportet quod ista habeat (c) 
+          aliquid plus de essentia suae speciei et illa aliquid minus. 
+          Ex utroque autem istorum sequitur quod in eorum specie sit 
+          dare partem et partem ac per consequens quod sint ex pluribus 
+          compositae. Si dicatur quod ibi solum est dare partem 
+          et partem respectu graduum maioris intensionis et remissionis, 
+          non autem respectu extensionis ad plura obiecta: 
+          miror quare non ita faciliter concedant posse ibi cadere pluralitatem 
+          respectu (d) plurium obiectorum sicut respectu unius 
+          intensius et remissius repraesentati. - Decimo, quia cum 
+          de novo converti sit de novo aliqua mutatione mutari non 
+          videtur quod species possit per se nova conversione converti, 
+          nisi nova mutatione mutaretur et variaretur (e); species autem, 
+          cum sit forma, non potest mutari nisi per accidens 
+          nisi forte tunc eam per se mutari dicamus, quando aliquid 
+          essentiale sibi additur vel subtrahitur, quae mutatio potius 
+          esset contra eos (f) quam pro eis; ergo speciei non potest 
+          dari ali qua nova conversio nisi per accidens, scilicet per hoc 
+          solum quod potentia convertitur. Et consimiliter nulla nova 
+          relatio (g) potest sibi per se advenire (h) nisi ex mutatione 
+          sui aut ex mutatione alterius extremi, quod quidem non est 
+          aliud quam suum obiectum; quod nullo modo hic ponitur 
+          mutari, quia (i) eius obiectum est Deus (k).</p>
+        <p>Secundum, scilicet quod ista species sit simplex, iam 
+          ex praemissis patet quam sit dubium, quia ex omnibus 
+          praemissis potest improbari; omnia enim probant (l) speciem 
+          istam esse ex pluribus aggregatam. - Praeterea, videtur 
+          ex hoc sequi quod haec species contineat in se totum ambitum 
+          plurium generum et specierum, quia constat quod 
+          per hanc speciem poterunt successive repraesentari et videri 
+          infinita individua unius speciei et plurium specierum et infinitae 
+          species figurarum et numerorum et aliorum generum, 
+          ex quo per solam innovationem conversionum (m) ipsa est de 
+          se potens ad omnia sufficienter repraesentanda. Si autem 
+          <pb n="624"/>hoc ita se habet, tunc ex hoc iterum sequuntur omnia inconvenientia 
+          quae supra ex positione universalitatis ostensa 
+          sunt sequi. - Praeterea, constat quod haec species cum 
+          simplicitate praedicta oportebit quod habeat vehementem 
+          intensionem seu magnitudinem essentiae et virtutis; sed sicut 
+          supra in quaestione de materia (a) angelorum et etiam in 
+          sequenti quaestione de universalitate est probatum, ubicunque 
+          (b) haec duo per talem modum occurrunt (c), idem est 
+          ibi totum et totaliter; et tunc qua ratione illud simplex 
+          sine (d) differentia partium ad tantam magnitudinem attingit 
+          et ad tantam virtutem, eadem ratione et ad infinitam. Multaque (e) 
+          alia inconvenientia ex hoc sequuntur, sicut de se et 
+          ex iis quae supra dicta sunt satis faciliter patere potest. - 
+          Praeterea, qua ratione(f) Deus potest facere quod illa species 
+          habeat in se vim plurium specierum sine aliqua sui compositione 
+          vel diversitate, eadem ratione poterit facere (g) 
+          quod una alia forma creata habeat in se vim plurium formarum. 
+          Et tunc posset Deus facere quod per unam formam 
+          simplicem corpus humanum esset corpus et quod per eandem 
+          (h) esset complexionatum (i), organizatum, vegetatum et 
+          sensificatum; et tunc rediret positio de unitate formarum. 
+          Tunc etiam posset facere quod forma lapidis simul esset 
+          forma auri et omnium metallorum et forma plantae et forma 
+          asini et sic de aliis aut saltem quod per aequivalentiam seu 
+          praevalentiam haberet in se vim et rationem omnium illarum 
+          formarum (k) et consimilium. ·</p>
+        <p>Tertium etiam videtur esse dubium (l), immo aperte 
+          falsum, quia ex hoc sequeretur (m) quod habitus caritatis et 
+          eius actus essent omnino idem cum ista specie et eius actu (n); 
+          quia constat quod non habent (o) in Deo obiecta secundum 
+          rem diversa, ita parum enim differunt (p) in Deo realiter 
+          bonum et verum seu sapientia et amor sicut et plures ideae. 
+          - Praeterea, secundum hoc sequeretur (q) quod species ista (r) 
+          deberet in omnibus conformari et quasi coaequari unitati et 
+          simplicitati et immensitati sui obiecti. -- Praeterea, quare (s) 
+          tunc ex eadem ratione non sequitur quod species duorum
+        <pb n="625"/>
+          vel omnium beatorum sint unica (a) simplex species, ita quod 
+          in eis nulla sit numeralis diversitas, ex quo habent in Deo 
+          unum formale obiectum omnino simplex et omnino idem 
+          numero? si igitur in his praedicta ratio non habet locum, ergo 
+          nec in illo.</p>
+          
+        <p>Quartum etiam videtur esse dubium. Primo (b), quia ex 
+          quo ideae rerum sunt eius primum et (c) principale obiectum, 
+          oportebit quod propriam rationem uniuscuiusque ideae repraesentet 
+          haec (d) species per aliquam rationem propriam 
+          et distinctam. -- Secundo, quia secundum hoc posset argui 
+          quod omnes res sunt (e) unius simplicis naturae et speciei, 
+          quia omnes (f) principaliter et immediate repraesentant divinum 
+          exemplar (g) et immediate creantur ab eo; si igitur pro 
+          eo quod exemplar est unum, species (h) ipsum repraesentans 
+          est una: ergo eadem ratione omnes res ipsum principaliter 
+          repraesentantes erunt una res. -- Tertio, quia hoc verbum 
+          quo dicitur quod res sunt secundarium obiectum speciei 
+          gloriosae seu actualis visionis beatorum sane est accipiendum. 
+          Non est enim sic intelligendum quod sicut res absentes 
+          intellectui per species memoriales offeruntur, it quod 
+          intellectus non est aliquo modo realiter conversus super ipsas 
+          res, sed solum super species memoriae, in quantum sunt 
+          illarum rerum species: non est, inquam, intelligendum quod 
+          sic sit in proposito; quia tunc (i) non deberet dici quod beati 
+          vident res, sed potius quod cogitent eas vel recordentur earum. 
+          Unde longe aliter est accipiendum: visio enim illa qua 
+          Deus praesentialiter videt res futuras in tantum est praesens 
+          ipsis rebus quod intellectus videns eam et (k) qui est ei 
+          praesentialiter unitus, prout ipsa est visio talium rerum, eo 
+          ipso per quendam ineffabilem modum est praesentialiter 
+          conversus ad ipsas res. -- Quarto, quia (l) si propter hoc 
+          potest absque sui distinctione videre plures res, quia videt 
+          eas (m) per unum principale obiectum: tunc quaero quare per 
+          hoc (n) principale obiectum videt potius illas res quam alias, 
+          cum illud principale obiectum aeque bene repraesentet res 
+          alias sicut et illas. Et utique oportebit dicere quod hoc ideo 
+          est, quia illa (o) species non repraesentat illud obiectum secundum 
+          hoc quod ipsum est propria idea et propria ratio alia<pb n="626"/>rum 
+          rerum, sed solum secundum (a) hoc quod (b) est propria 
+          ideo vel ratio illarum rerum (c). Si igitur visio (d) illarum 
+          rerum et nescientia (e) aliarum non sumitur simpliciter ex 
+          principali obiecto, sed  potius ex eo quod species aliter se 
+          habet ad principale obiectum respectu istarum rerum quae 
+          in eo videntur et aliter respectu aliarum (f) quae in eo non 
+          videntur: patet quod distinctio vel indistinctio speciei non 
+          est sumenda simpliciter et absolute ex indistinctione principalis 
+          obiecti, sed potius ex propriis rationibus ipsius speciei 
+          secundum quas diversimode se habet ad principale obiectum, 
+          prout ipsum est propria ratio ipsarum rerum (g).</p>
+          
+          <p>Ex omnibus igitur praedictis credo quod 
+            magis sit assentiendum primo modo qui tenet 
+            quod species sit particularis et quod plures 
+            ideas et res per plures species vieamus aut 
+            per unam ex pluribus aggregatam.</p>
+        
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

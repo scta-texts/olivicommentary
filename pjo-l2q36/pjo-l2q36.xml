@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Quaestio 36</title>
+        <author xml:id="PJO">Peter John Olivi</author>
+        <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.05">
+          <title>Librum II, Quaestio 36</title>
+          <date when="2015-05-24">May 24, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Ad Claras Aquas</publisher>
+        <pubPlace>Quaracchi</pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="1922">1922</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Quaestions In Secundum Librum Sententiarum, ed. Bernardus Jansent, S.I, Ad Claras Aquas, 1922</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-05-24" who="#JW" status="draft" n="2015.05">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pjo-l2q36">
+        <head>Librum II, Quaestio 36</head>
+        <p>Quinto quaeritur (a) an intelligat et videat 
+        omnia per species innatas.</p>
+        
+        <p>Ad quod quidam magni dixerunt et dicunt 
+        quod sic. Quorum ratio praecipua fuisse viaetur: 
+        Quia pro impossibili habuerunt quod res, 
+        et maxime corporales, possent aggenerare suas 
+        species in eis (b) aut quod ipsi possent subici 
+        passionibus seu actionibus factis ab obiectis, 
+        saltem corporalibus.</p>
+        
+        <p>Est autem apud eos duplex modus dicendi: 
+        Quidam enim eorum dicunt quod angelus habet 
+        in se species omnium locorum et generum et
+        specierum creatarum et forte illarum omnium 
+        quas Deus facere disposuit. Habent etiam species 
+        illorum individuorum quae in primordio 
+        conditionis fuerunt de principali constituione 
+        universi. Volunt igitur isti quod angelus possit 
+        huiusmodi species in suo intellectu diversimode 
+        componere et compositas possit ad res 
+        exteriores applicare et suum intellectum eis 
+        informatum ad res exteriores convertere, convertendo 
+        scilicet ipsum ad diversa loca in quibus res 
+        habent existere. Et sic per hoc potest 
+        res videre et earum particulares conditiones, 
+        quia huiusmodi species per compositionem et 
+        applicationem possunt uic vel illi rei sic applicari 
+        quod eas proprie et singulariter repraesentabunt. 
+        -- Alii vero dicunt quod Deus ab initio 
+        concreavit in eis (c) species tam formae quam 
+        materiae. Et quoniam secundum eos per materiam 
+        est in rebus individuatio: idcirco per hoc 
+        quod habent species non solum formarum sed 
+        etiam (d) materiarum suarum possunt sufficien<pb n="630"/>ter 
+          res videre non solum in universali, sed etiam 
+          in particulari.</p>
+        <p>Contra primum videtur posse multipliciter
+        argui: Et primo, ex conditione (a) specierum innatarum. 
+        Constat enim (b) secundum <name ref="#Augustine">Augustinum</name>(1) quod
+        species illae quae manent in abs_entia actuum non existunt in
+        acie intelligentiae, sed potius in memoria; sed tales non applicantur
+        ad res exteriores, quin potius, quando per tales
+        species aliquid intelligimus, tunc intellectus convertitur ad
+        eas tanquam ad prima sui obiecta, ita quod tunc nullo modo
+        est praesentialiter conversus ad res exteriores; ergo per
+        species istas non poterit intellectus converti et applicari ad
+        res, sicut ponebatur. Praeterea., per species huiusmodi non
+        videntur res ut (c) praesentes, cum sint species memoriales;
+        ergo oportet alium modum dare per quem res praesentialiter
+        videantur.</p>
+        <p>Secundo, ex praedictarum specierum nova
+        compositione. Constat enim quod ex speciebus universalium,
+        quantumcunque compositis, non potest repraesentari
+        nisi universale; si enim accipiam hominem in universali et
+        albedinem et dulcedinem et sic de aliis: totum quod ex eis
+        resultabit erit adhuc universale; ergo per compositionem specierum 
+        quas de rerum generibus et speciebus habemus non
+        poterimus devenire in cognitionem (d) rerum particularium seu
+        in cognitionem particularitatis earum. - Si dicatur quod ipsi
+        habent species aliquorum particularium, utpote loci et temporis,
+        et ratione istorum possunt species universalium ad
+        particularia repraesentanda appropriari: contra hoc est quod
+        per speciem unius particularis seu unius particularitatis non
+        possunt cognoscere aliud particulare, in quantum est aliud
+        individuum ab illo; non enim per speciem <name>Guilelmi</name> possum
+        cognoscere <name>Petrum,</name> prout est aliud individuum ab illo; ergo
+        nisi habeantur species omnium individuorum cuiuscunque generis,
+        prout habent individuationes a se invicem distinctas,
+        ita quod potest dici quod hoc non est illud: non poterunt (b)
+        cognoscere omnia (c) individua et omnes individuationes eorum;
+        sed ista per successionem temporum currunt in infini<pb n="631"/>tum 
+          aut currere possunt; ergo oporteret quod haberent infinitas 
+          species infinitorum particularium, utpote omnium accidentium 
+          et variationum particularium et consimiliter omnium 
+          substantiarum et suarum partium et principiorum individualium. 
+          - Praeterea, 
+          <ref>
+            <seg><name ref="#Augustine">Augustinus,</name> VIII <title ref="#deTrinitate">De Trinitate,</title> capitulo 
+          6,</seg>
+            <bibl>Augustine, De Trinitate, VIII, c. 6 (PL 42, 955)</bibl>
+          </ref> 
+          dicit quod si ille qui nunquam (a) vidit Alexandriam <!-- place name --> 
+          fingat seu formet (b) sibi imaginem eius, prout eius 
+          conditiones audire potuit, quamvis fortasse fieri posset quod 
+          imaginem ei similem fingeret: nunquam tamen posset scire 
+          ipsam esse veram imaginem (c) eius, nisi videret ipsam urbem, 
+          sed solummodo credit eis qui eam vidissent. 
+          Et similem sententiam dicit 
+          <ref>
+            <seg>supra, 4 capitulo et etiam 5,</seg>
+            <bibl>Augustine, De Trinitate, VIII, c. 6 (PL 42, 951sq.)</bibl>
+          </ref> ubi 
+          vult quod illorum particularium quae praesentialiter non 
+          vidimus nec apprehendimus nullo modo possumus scire an 
+          ita se habeant sicut nos ea apud nos fingimus et fingendo 
+          cogitamus, utpote an facies beatae Virginis vel Pauli fuerit 
+          tails vel talis; sed (d) secundum modum praedictum ponuntur 
+          angeli videntes per solam compositionem seu confictionem (e) 
+          specierum; ergo nihil per hoc de particulari statu 
+          rerum scire poterunt.</p> 
+        
+        <p>Praeterea, quando angelus componit species ad hoc ut 
+          per talem compositionem possit aliquam rem distincte et 
+          determinate videre: oportet quod primo velit huiusmodi compositionem 
+          facere; velle autem hoc non potest, nisi hoc 
+          praecogitet; ergo prius quam faciat huiusmodi compositionem, 
+          voluit et cogitavit eam facere. Et cum eam nollet (f) 
+          propter se, sed propter aliud, ad hoc scilicet ut per eam 
+          rem illam vel istam videret, hoc autem velle non poterat, 
+          nisi prius vellet seu intenderet ipsam rem in particulari videre, 
+          nec iterum hoc, nisi prius cogitaret ipsam rem quam 
+          videre intendebat et propter quam videndam species ex 
+          certa scientia componebat: ergo oportet quod ipse prius sciverit 
+          actualiter rem in particulari, antequam per species sic 
+          compositas eam sciret, et consimiliter oportet quod prius 
+          sciret illam compositionem quam eam fecisset. -- Praeterea, 
+          quandocunque de pluribus speciebus aliquae determinate accipiuntur 
+          ad aliquam compositionem formandam et ad aliquam 
+          rem per hoc videndam, oportet quod hoc fiat per cer<pb n="632"/>tam 
+          praeelectionem illarum specierum quae ad hoc assumuntur 
+          et per certam respuitionem (a) illarum quae scienter 
+          abiciuntur seu relinquuntur. Huiusmodi autem praeelectio 
+          et respuitio discrete et regulariter fieri non potest, nisi species 
+          inter se referantur et componantur, et hoc in relatione 
+          ad ipsam rem quam videre quaerimus et intendimus per 
+          huiusmodi compositionem. Oportet enim quod attendamus et 
+          discernamus quae earum sit melior ad rem sic vel sic repraesentandam 
+          et quae earum sit melior (b) et proportionalior 
+          ad huiusmodi compositionem debite faciendam. Ex his 
+          autem omnibus (c) sequitur quod angeli nullam rem in particulari 
+          possint videre, nisi prius actu praesciant et praecogitent 
+          (d) eam et eius particulares conditiones et nisi multiplices 
+          collationes habeant circa species comparandas et praeeligendas 
+          et componendas.</p> 
+        
+        <p>Tertio, ex praedictarum specierum applicatione 
+          ad ipsa obiecta seu ex intellectus conversione. 
+          Primo quidem, quia nulla erit necessitas convertendi 
+          intellectum ad res exteriores aut applicandi species 
+          ad ipsas res, quia ex quo (e) species sunt compositae (f) et 
+          in acie intellectus existentes, sufficienter habent repraesentare 
+          ipsi intellectui res quarum sunt similitudo. - Praeterea, 
+          <ref>
+            <seg>secundum <name ref="#Augustine">Augustinum</name></seg>
+            <bibl>Augustine, De Trinitate, XI, 2, 5, 7 (PL 42, 985sqq.)</bibl>
+          </ref> 
+          prius naturaliter est intellectus 
+          conversus ad sua obiecta quam sit species eorum in acie 
+          intellectus; ergo nihil est dicere quod postquam species 
+          sunt in ipsa acie compositae, quod postea intellectus cum 
+          eis convertatur ad res obiectas. - Praeterea, aut ex huiusmodi 
+          conversione et applicatione fit aliqua variatio in 
+          essentia specierum aut non. Si non: ergo non per hoc sunt 
+          magis appropriatae ipsi rei nec magis potentes repraesentare 
+          particulares conditiones ipsius quam prius. Si sic: hoc primo 
+          quidem est contra eosmet qui post compositionem earum nihil 
+          eis addi volunt nisi solum applicationem et conversionem. 
+          Et ultra hoc oportebit dicere unde causatur huiusmodi (g) 
+          variatio essentiae earum. Nulla etiam (h) variatio earum ad 
+          res videndas sufficiet, nisi ingignatur eis aliqua ratio seu 
+          similitudo repraesentans proprie et distincte particularitatem 
+          <pb n="633"/>rerum. Si (a) etiam species praedictae essentialiter variantur, 
+          antequam per eas res videantur: ergo per species innatas 
+          non videbuntur res (b), sed potius per species alias ex illarum 
+          variatione productas, quamvis quomodo (c) possint essentialiter 
+          variari nisi solum per augmentum et diminutionem vel 
+          per totalem corruptionem earum non est facile videre.</p>
+        <p>Praeterea, esto (d) quod huiusmodi compositione et applicatione 
+          uniformiter stante res de loco illo amoveatur et 
+          absentetur aut qualitercunque varietur(e): tunc nihilominus 
+          res uniformiter videbitur sicut prius. Si enim aliquid aliud 
+          in ea vel de ea videtur: ergo aliquid aliud de novo repraesentatur (f), 
+          et sic oportet quod sit ibi de novo facta aliqua 
+          alia species per quam illud (g) de novo repraesentetur. - 
+          Praeterea, si praesentia vel absentia rei (h) nihil penitus facit 
+          aut immutat in ipsis speciebus sic compositis et applicatis: 
+          ergo per praesentiam vel absentiam rerum in nullo iuvatur 
+          aut immutatur visio earum. Et tunc sequitur quod ita possunt 
+          videre (i) absentia sicut praesentia et remota sicut propinqua 
+          et contingentia futura sicut et necessaria vel sicut 
+          actu existentia et secretas cogitationes et voluntates cordium 
+          sicut earum signa exteriora. Sequetur etiam quod ita 
+          possint res videre (k) per praedictas species absque hoc quod 
+          convertantur (l) ad res sicut et si convertentur (m), quia conversio 
+          nihil faciet aut iuvabit, ex quo praesentia rerum in 
+          nullo iuvat nec absentia nocet. Praeterea, esto quod angelus 
+          existens in caelo velit me videre qui sum <placeName>Narbone</placeName> <!-- place name --> 
+          et ipse hoc nescit: tunc non poterit me videre nisi prius 
+          applicet species ad locum <placeName>Narbone;</placeName> et cum ipse nesciat 
+          plus me ibi esse quam <placeName>Parisius</placeName> vel <placeName>Romae</placeName> aut quam in 
+          quocunque alio loco: ergo nesciet ad quem locum debeat 
+          species applicare; ex quo poterit frequenter contingere quod 
+          primo applicabit species ad omnia alia loca quam ad locum 
+          <placeName>Narbone</placeName> in quo ego sum. Et iterum poterit contingere quod 
+          quando applicabit species ad locum <placeName>Narbone,</placeName> quod ego prius 
+          recesserim inde (n) et iverim <placeName>Romam</placeName> vel alibi, et sic continget 
+          <pb n="634"/>quod tunc non poterit me videre ibi. Et iterum et iterum 
+          poterunt similia de aliis locis contingere. Ex quo quam absurda 
+          sequantur satis de se patet.</p>
+        
+        <p>Praeterea, sicut de compositione arguebatur, illae applicationes 
+          specierum erunt a voluntate intendente talem 
+          rem determinate videre et (a) in tali loco; ergo communiter 
+          nullam rem videbunt, nisi prius intenderent eam videre. 
+          Si dicatur quod simile poterit argui in nobis, quia nos non 
+          videmus res, nisi prius convertamus oculos nostros ad eas 
+          nec videmus ea quae sunt in memoria nostra, nisi prius 
+          convertamus intellectum nostrum ad ilia: quod hoc non sit 
+          simile patet; tum quia nos possumus convertere (b) oculos 
+          absque (c) hoc quod intenderimus determinate videre illas 
+          res quae tunc obiciuntur (d) coram oculis nostris, sic enim 
+          frequenter oculos convertimus, non intendentes videre hoc 
+          vel illud, sed solum intendentes videre illa quae tunc nostris 
+          aspectibus obiciuntur; tum quia quando (e) hoc intendimus 
+          vel praecogitamus, nunquam hoc praecogitamus per 
+          species per quas res videri possunt, sed solum per species 
+          memoriales per quas res absentes possumus imaginari vel 
+          rememorari vel recogitare. Et ita non oportet quod visio rei 
+          praecedat visionem rei, quia (f) aliquando hoc non intendimus 
+          nisi in generali seu in universali; utpote volens videre asinum 
+          vel emere (g) vinum non oportet quod praecogitem in 
+          particulari hunc vel illum asinum vel hoc vel illud vinum, 
+          sed sufficit quod in generali. Et per hanc intentionem possum 
+          convertere sensus meos; ad quorum conversionem sequentur 
+          aliae species per quas fiat visio, si tamen non sunt 
+          ipsa visio. Et ille modus cum primo possunt contingere in 
+          intellectu volente videre ea quae sunt in memoria, quamvis 
+          non (h) secundo modo (i). Nihil autem horum sufficit ad evadendum 
+          rationes factas contra modum praemissum.</p>
+        
+        <p>Quarto, ex certificatione intellectus angelici 
+          super esse et non esse illorum obiectorum (k) 
+          quae per praedictas species sibi repraesentatur. 
+          Cum enim secundum 
+          <ref>
+            <seg><name ref="#Anselm">Anselmum,</name> <title ref="#Proslogion">Proslogion,</title> 2 capitulo,</seg>
+            <bibl>Anselm, Proslogion, 2 (PL 158, 227)</bibl>
+          </ref> 
+          aliud sit cogitare rem, aliud cogitare rem esse, quam<pb n="635"/>vis 
+          per speciem repraesentetur res, non propter hoc per eam 
+          repraesentatur rem esse. Unde imago asini vel species humanitatis 
+          quae est in anima mea de se non repraesentat 
+          quod homo vel asinus sit actu. Esto etiam quod repraesentent 
+          rem esse: non propter hoc oportet quod vere et certitudinaliter 
+          repraesentent eam esse. Esto etiam quod hoc 
+          facerent: oporteret aliquid aliud addi ad species vel variari 
+          ad hoc quod eandem (a) rem repraesentarent non esse seu 
+          aliter se habere. Ergo per solas species innatas non videtur 
+          posse (b) haberi certitudo de rerum esse et non esse. - Praeterea, 
+          aliud est unum (c) praedicatum affirmare vel negare 
+          de aliquo subiecto sola simplici cogitatione absque alia assertione, 
+          aliud hoc facere cum certa scientia et assertione 
+          seu cum credulitate vel opinione. Ergo ultra illas species 
+          quae exiguntur ad affirmationem (d) vel negationem (e) factam 
+          absque scientiali certitudine vel absque credulitate oportet 
+          aliquid dare per quod intellectus certificetur vel per quod 
+          hoc credat vel opinetur. Unde praedictus modus est adhuc 
+          in hoc defectivus. - Praeterea, cum unus simplex actus intelligentiae (f) 
+          non exeat a speciebus oppositis vel disparatis, 
+          si quaeratur ab (g) istis, quando angelus intelligat album 
+          non esse nigrum vel hominem non esse asinum, a (h) quibus 
+          speciebus exeat ille (i) actus - non enim ab una sola, quia 
+          sola (k) species albedinis non sufficit ad cogitandum album 
+          non esse nigrum -: ergo una (l) non sufficit ad hoc sciendum. 
+          Nec (m) videtur quod possit exire ab ambabus; tum quia 
+          sunt oppositae (n); tum quia actus simplex non videtur immediate 
+          procedere a duabus causis effectivis quarum una 
+          non est alteri subordinata nec instrumentalis respectu alterius; 
+          tum quia stante in intellectu specie alibi vel nigri vel 
+          hominis et asini possum nescire praedictam negationem 
+          aut (o) eius contradictoriam credere. Quod non esset possibile, 
+          si (p) illae species essent (q) causa sufficiens (r) illius actus 
+          quo scio vel credo album non esse nigrum. Ergo ex speciebus 
+          innatis, quantumcunque in se componantur vel ad obiectum 
+          applicentur, non poterit exire actus scientiae vel credulitatis.</p>
+        <p><pb n="636"/>Contra secundum modum possunt adduci rationes 
+          primae et quartae viae contra praemissum modum factae et 
+          quarta et quinta ratio tertiae viae ibidem tactae. Constat 
+          enim quod species quas isti ponunt non sunt in acie (a) intelligentiae, 
+          sed in memoria; et ita contra eos est (b) prima 
+          via. - Constat etiam quod per eas non potest sufficienter repraesentari (c) 
+          esse et non esse rerum quas repraesentant nec 
+          ceterae variationes earum quibus innummerabiliter variari 
+          possunt, et nihilominus poterunt esse sufficientes ad eliciendum 
+          actum sciendi (d) el credendi; et ita contra (e) eos est 
+          quarta via. - Constat etiam quod speciebus illis uniformiter 
+          se habentibus uniformiter repraesentabuntur res quarum sunt 
+          species (f); et sic contra eos est quarta ratio tertiae viae -- 
+          Constat etiam quod obiecti praesentia vel absentia nihil innovabit 
+          vel immutabit in illis speciebus; et sic contra eos 
+          est quinta ratio tertiae viae, et tanto amplius, quanto ipsi 
+          non ponunt applicationem specierum ad res exteriores esse 
+          necessariam ad ipsas res videndas.</p>
+          <p>Verumtamen quidam moderniores respondent 
+            ad hoc quod sicut quilibet homo habet in se id per 
+            quod nullo sibi in se addito potest esse similis omnibus hominibus 
+            fiendis et possibilibus fieri et tamen non est eis 
+            actualiter similis, nisi cum ibi sunt actu: sic species intellectus 
+            angelici non sunt actu similes rebus, nisi dum sunt, 
+            quamvis ex (p) se habeant unde sint rebus similes, quando 
+            res erunt actu. Quia ergo huiusmodi species non ducunt intellectum 
+            in actualem considerationem rerum, nisi in quantum 
+            sunt eis actualiter similes: ideo eo ipso quo res non 
+            sunt cessat intellectus videre existentiam rerum illarum et 
+            eo ipso videt res illas non esse.</p>
+          <p>Sed contra hoc est: Primo, quia secus est est de similitudine 
+            quae essentialiter est imago alterius repraesentativa 
+            et secus de iis quae dicuntur similia, quia consimiliter 
+            habent aliquam quidditatem vel formam. Prima emim 
+            semper repraesentat id cuius est imago, sive id sit sive non 
+            unde <name ref="#JuliusCaesar">Caesaris</name> imago vel idolum non minus repraesentat 
+            eum, quando est quam quando non est. - Secundo, quia 
+            etiam in exemplo dato quo <name ref="#Peter">Petrus</name> <name ref="#Paul">Paulo</name> nondum existenti 
+            non dicatur actu similis non est sensus quod non possit eum 
+            <pb n="637"/>
+            repraesentare, alias patres praeteriti non repraesentassent (a)
+            Christum hominem et sanctos futuros; sed solum est sensus
+            quod <name>Petrus</name> non habet actu alium qui sibi assimiletur. -
+            Tertio, quia eadem ratione sequeretur quod species intellectus
+            angelici non repraesentarent quidditates (b) rerum, nisi
+            dum sunt; et ita de nulla re actu non existente possent intelligere
+            suum quod(c) quid est seu suam definitionem et 
+            saltem non quidditatem seu definitionem actualis existentiae
+            quam habere possent; non etiam possent cognoscere plures
+            figuras vel numeros quam essent actu (d) in rebus. - Quarto,
+            quia secundum hoc species nostrae memoriae nullum non
+            ens actu nobis repraesentarent; cuius contrarium continue
+            experimur. - Quinto, quia secundum hoc species rerum per
+            quas de rebus aliqua opinamur (e) facerent nos scire rerum
+            illarum esse, quando essent, et non esse, quando non essent,
+            sicut face rent species mentis angelicae; quia quando res
+            non essent, non essent eis (1) actu similes, sicut nec illae,
+            quando autem res essent, tunc ducerent in illarum notitiam
+            tanquam eis actu similes. - Sexto, quia aliud est non
+            videre rem esse et aliud videre quod non est, et iterum
+            aliud est visibiliter videre quod est vel non est et aliud
+            per quandam rationem vel consequentiam hoc tantummodo
+            scire; sicut faceret angelus qui ex hoc quod percipit se non
+            videre rem argumentatur eam non esse iuxta modum evasionis
+            praefatae. - Septimo, quia illud quod de se est plenum
+            et sufficiens principium alicuius actus semper potest
+            ilium facere, immo et necessaria faciet, si est naturale et
+            necessarium agens; sed intellectus angelorum praefatis speciebus 
+            informatus ponitur esse sufficientissimum principium
+            sciendi et videndi res, ita quod ad hoc non egent rerum
+            praesentia vel cooperatione; ergo quantumcunque res non
+            sint, facient et facere poterunt actum sciendi et videndi res
+            illas. -- Octavo, quia secundum hoc non plus scirent fuisse
+            praeterita quae viderunt quam fore futura quae non viderunt,
+            quia species ita parum possent esse actu similes rebus
+            praeteritis sicut et futuris. -- Nono, quia eadem ratione
+            Deus non videret nec posset videre res quae non sunt, quia
+            eius idea non esset actu similis nisi solis iis quae sunt actu.
+            -- Decimo, quia istimet ponunt species angelorum innatas
+            ab exemplari aeterno immediate fluxisse; ergo secundum 
+            <pb n="638"/>eos rationem suae similationis trahunt ab exemplari; ergo
+            sufficit quod sint actu similes illi, sicut et beatis ad videndum
+            res futuras in Deo sufficit assimilatio et <sic>contuitio</sic> rerum,
+            prout exprimuntur in Deo. - Igitur ex decem praedictis
+            patet quod praedicta evasio est omnino ridiculosa et nulla (a)</p>
+        
+        <p>Praeter hoc autem tripliciter potest argui 
+          contra secundum modum praefatum (b): Primo scilicet, 
+          ex efficacia et sufficientia et essentiali continentia (c) 
+          quam huiusmodi speciebus innatis attribuunt; secundo ex 
+          causa propter quam huiusmodi species tam in angelis quam 
+          in animabus separatis ponunt; tertio, ex parte potentiae intellectivae 
+          quam de se ad nihil (d) potentem innuunt.</p>
+        
+        <p>Ex primo quidem (e): Attribuunt enim speciebus angelorum
+        innatis universalitatem et talem quod simul in se
+        comprehendunt (f) rationem naturae specificae et proprias
+        rationes omnium individuornm suorum. Unde volunt quod 
+        per unam speciem cognoscant hominem in universali et (g)
+        omnes homines particulares. Quot autem inconvenientia in
+        hoc implicentur in quaestionibus praecedentibus sufficienter
+        est tactum. Nam praeter positionem universalitatis in qua
+        multa pericula fidei latent sequitur quod simul actu cognoscant
+        non solum omnes homines qui sunt, fuerunt et erunt,
+        sed etiam omnes quos Deus posset facere sub specie humana;
+        et idem erit de individuis aliarum specierum. Cognoscent
+        etiam omnia futura contingentia et cordium secreta quorum
+        genera (h) vel species in universali noverunt (t). Cognoscent
+        etiam totam potentiam materiae, ac per consequens totam
+        <sic>divibilitatem <!-- should this be divisibilitatem --></sic> continui intellectualiter distinguent, et maxime,
+        quia secundum eos in illis speciebus continetur ratio propriae
+        materiae cuiuslibet rei. - Praeterea, cum secundum
+        istos praesentia aut propinquitas rei non sit necessaria ad
+        hoc quod videatur ab angelis, pro eo quod species illae
+        sunt de se sufficientes ad repraesentandum eas (k): tunc
+        non indiget intellectus aliqua conversione ad hoc quod
+        res actualiter sciat et consideret. Et tunc iterum sequitur
+        quod semper intelligat actu omnia illa quae possunt repraesentari
+        per suas species innatas.</p>
+        <p>Si dicatur quod intellectus eorum non indiget converti ad
+        res ipsas, necesse est tamen quod convertatur ad ipsas species 
+          <pb n="639"/>innatas (a) ad hoc ut per eas videat ipsas res: tunc contra eos 
+          sequitur quod ipsi nunquam possint res videre, sed solum quod
+          possint (b) eas quasi ut absentes imaginari seu rememorari, quia
+          nunquam intuitus (c) eorum figitur in ipsa (d) veritate rei, sed
+          solum (e) in quadam intellectuali similitudine ipsius (f), ac 
+          per consequens sequitur (g) quod veritatem eius nude non
+          intueatur, sed solum intuetur eius similitudinem acsi in 
+          ea (h) esset ipsa res et acsi esset idem quod (t) ipsa. Ista
+          etiam (k) evasio contraria est dictis eorum, quia ipsi volunt
+          quod species huiusmodi sint in intellectu. Unde nec in (t)
+          nobis nec m angelis ponunt memoriam intellectualem seu
+          rerum intelligibilium, sed dicunt quod species est habitus
+          intellectus possibilis, ita quod per eam semper est in actu
+          primo, quamvis non (m) per eam sit semper in actu secundo.
+          Quod autem haec sit mens eorum (n) satis alibi est 
+          ostensum. Non enim in hac parte sequuntur viam 
+          <ref>
+            <seg><name ref="#Augustine">Augustini</name></seg>
+            <bibl>Augustine, De Trinitate, XI, 3, 4, 7, 9 (PL 42, 788sqq.).</bibl>
+          </ref> 
+          qui distinguit inter speciem quae est in memoria et
+          inter speciem quae est in acie intellectus seu inter speciem 
+          quae tenet locum obiecti quae et remanet in mente post
+          absentiam actualis cogitationis et inter speciem quae semper
+          est coniuncta actui et quae secundum <name ref="#Augustine">Augustinum</name>
+          est (o) idem quod cogitatio formata seu visio cogitationis; sed
+          potius sequuntur viam 
+          <ref>
+            <seg><name ref="#Aristotle">Aristotelis</name></seg>
+            <bibl>Aristotle, De anima, II, 5, 416b32sqq., 417b16sqq.; II, 7 424a17sqq.; III, 5, 430a15sqq.; III, 7, 431a4sqq. Loci indicati monstrant auctorem in explicando Stagiritam falsa veris miscere</bibl>
+          </ref> 
+          qui (p) non ponit speciem 
+          nisi in solo intellectu quae secundum eum semper,
+          quantum est de se, exiret in actum, nisi esset aliquod impediens, 
+          et tunc ad agendum non indiget nisi removente
+          proh1bens, unde secundum euri:t non est nisi in potentia
+          actuali respectu sui actus (q).</p>
+          <p>Praeterea, quomodo (r) per hanc viam angeli cognoscent
+          seu videbunt unum subiectum cum suis accidentibus? numquid
+          component (s) species accidentium cum specie huius
+          homini? Si enim non: non videtur quod aliter possint (t)
+          <pb n="64"/>
+            hoc cognoscere vel videre. Si sic: tunc sequitur quod non
+            solum istam particularem albedinem videant inesse huic
+            homini (a), sed etiam totam universalem albedinem cum
+            omnibus partibus (b) suis, quia species(c) illae quas ad invicem
+            componunt sunt universales rationes omnium particularium
+            suorum in se comprehendentes, et ideo oportet quod
+            videant totum inesse toti. - Quodsi dicas quod sic vident
+            totam albedinem inesse toti speciei (d) hominis quod tamen
+            hanc particularem albedinem vident inesse huic homini 
+            et non alteri: primo quidem, cum ipsi non videant hanc
+            inesse illi nisi per hoc quod(e) totam speciem applicant ad 
+            illum, necessario sequitur quod totam (f) videant inesse (g)
+            illi. Per quid etiam sciunt ipsi quod haec albedo plus insit
+            isti quam alteri aut quare illa (h) albeo plus alteri quam
+            isti? aut quomodo (i) per unicam simplicem speciem possunt
+            huiusmodi diversitates distincte discerni? Esto etiam quod
+            Deus amoveat istam albedinem ab isto subiecto et transferat
+            ad aliud et e contrario illam illius ad istud, aut esto
+            quod per agens creatum, sive naturale sive voluntarium,
+            mutetur ille (k) de hac albedine in nigredinem et iterum de
+            illa nigredine in aliam albedinem a priori et sic iterum saepius
+            semper in aliam et aliam: quomodo (l) per unam speciem
+            albedinis universalem cognoscet (m) istum secundum
+            diversa tempora diversas numero habere albedines? et (n)
+            utique non (o) videtur ad praedicta posse rationabilis responsio
+            dari (p). Esto etiam quod nunc sunt tot homines in hac domo
+            et alii tot vel plures in alia et quod (q) cras illi erunt in ista 
+            et isti in illa vel per (r) alios modos combinationum qui innumerabiliter
+            secundum loca et tempora et secundum alias
+            circumstantias possunt diversificari: quomodo (g) angelus per
+            unam speciem universalem hominis poterit infallibiliter scire
+            veritatem omnium combinationum istarum in tempore suo
+            determinato non videtur posse dari.</p>
+            <p>Ex secundo etiam (t) potest argui contra 
+              istum modum: Ipsi enim ponunt huiusmodi species inesse 
+              angelis et animabus separatis per naturam. Dicunt enim quod 
+              lumen intellectus angelici, et maxime superiorum ordinum, est
+            <pb n="641"/>tantum quod est potens se ipsum determinare ad obiecta
+              absque adiutorio obiectorum; inferiores vero angeli sunt (a)
+              ad hoc potentes partim per naturale (b) lumen suum, partim
+              per lumen superiorum, ad quorum lumen suscipiendum sunt
+              isti naturaliter subordinati et illi ad influendum naturaliter
+              praeordinati (c). Nec distantia locorum potest hic afferre impedimentum; 
+              tum (d) quia non ponunt substantias separatas 
+              esse in loco secundum suam substantiam, sed solum secundum
+              suam operationem, ac per consequens non ponunt eas
+              locis ad invicem distare; tum quia operationes eorum intellectuales
+              omnino sunt remotae et abstractae ab omni (e) ordine 
+              locali, ita quod nullam habent penitus relationem ad
+              corporalia loca nisi forte valde per accidens. Nihilominus 
+              etiam volunt, saltem de supremis angelis, quod (f) ad
+              huiusmodi species determinetur naturale lumen eorum per
+              lumen divini (g) exemplaris seu divinarum idearum, ita
+              quod supremi angeli immediate suscipiunt hanc influentiam
+              a divino exemplari, inferiores vero mediantibus superioribus.
+              Hanc autem influentiam potius ponunt in ordine naturali 
+              primae conditionis quam in ordine gratiae. Sicut enim
+              propriae passiones sunt naturales suis subiectis et sicut lumen 
+              datum soli vel stellis est eis naturale: sic dicunt huiusmodi
+              species eis esse naturales. Dicunt etiam quod quia 
+              directe manant a divino exemplari, idcirco habent in se 
+              rationem repraesentativam non solum formae sed etiam materiae, 
+              quia hoc habent ideae a quibus manant. Noster(h) vero
+              intellectus (i) qui secundum eos, dum est in corpore, non est
+              potens ad determinandum se, sed indiget adiutorio obiectorum,
+              recipiendo speciem ab eis per irradiationem intellectus
+              agentis eas (k) abstrahentis ex phantasmatibus, ad harum (l)
+              autem specierum generationem non possunt res per suam materiam:
+              idcirco species intellectus nostri non possunt per se
+              repraesentare (m) materiam, quia non fiunt in intellectu nisi
+              per abstractionem, idcirco secundum eos non possunt repraesentare
+              individuales conditiones (n) ipsius formae quas (o)
+              habet a materia et m materia. Secuti sunt autem in hoc
+              paganos philosophos qui ponunt quod intelligentiae sunt na<pb n="642"/>turaliter
+              plenae formis; in hoc tamen discordant ab eis, quia
+              philosophi illi volunt quod huiusmodi formae seu species
+              sint omnino idem quod (a) simplex essentia earum (b), nec
+              mirum (c), quia ponunt eas (d) esse deos, isti vero ponunt eas
+              esse diversas ab essentia earum (e).</p>
+              <p>Quod autem isti ponunt quod intellectus angeli determinat (f) 
+                se modo praedicto: quaero an velint dicere quod gignat 
+                in se species obiectorum absque adiutorio eorum, aut (g) an 
+                velint dicere quod ipse (h) intellectus sit species indeterminata 
+                omnium rerum et quod postea determinet se ita quod postmodum 
+                sit determinata species(i) earum, aut forte velint 
+                dicere quod sicut propria passio naturaliter sequitur formam 
+                specificam acsi resultans (k) ab ea, quod sic species naturaliter 
+                resultent ab intellectu angeli seu naturaliter consequantur (l) 
+                naturam intellectus eorum. Et quocunque horum 
+                (m) dato, multae absurditates (n) sequuntur; quia ex primo 
+                sequitur quod intellectus, ante etiam quam gignat (o) in se 
+                species, habeat in sua essentia similitudinem rerum etiam 
+                altiori modo (p) quam habeant in se (q) species ab eo genitae; 
+                quia omne influens speciem absque coadiutorio (r) obiecti 
+                seu terminativi habebat in se modo altiori rationem (s) similitudinis 
+                influxae, quia similitudo sic influxa totam rationem 
+                suae essentiae trahit a suo agente. Praeterea, tunc 
+                oporteret quod illae (t) species essent actiones ipsius intellectus 
+                aut quod per praevias actiones educerentur ab eo in 
+                esse. Ex secunda vero sequitur quod intellectus angeli (u) 
+                suam substantiam faceret esse similiorem unicuique rei; ac 
+                per consequens sequeretur quod educeret in se aliud substantiale 
+                substantialiter (v) completivum sui intellectus. Sequeretur 
+                etiam quod (x) ipse, in quantum esset causa efficiens 
+                suae determinationis absque coadiutorio obiecti seu 
+                determinativi, quod haberet in se prius naturaliter veritatem 
+                illius determinationis a se causatae, et hoc tanto altiori modo, 
+                quanto causa est altior suo effectu. Multaque (y) alia sequerentur, 
+                sicut satis (z) de se patet.</p>
+        
+        <p><pb n="643"/>Dicere autem iuxta modum tertium quod sint propriae 
+          passiones satis est de se absurdum, quia non videtur quod
+          magis essentialiter competant eis quam animae Christi aut
+          quam aliae species multorum creabilium quas (a) Deus posset
+          eis (b) a principia indidisse, sicut et istas quas nunc habent. 
+          Omnes etiam isti tres (c) modi sunt contra id (d) quod 
+          dicunt eas esse ab exemplari aeterno, nisi forte velint dicere 
+          quod non sunt (e) ab eo nisi sicut effectus aut propriae
+          passiones causarum secundarum sunt a causa prima. Dicere
+          etiam (f) quod superiores angeli ordine naturali et necessario
+          et nullo modo interpolabili semper influant in inferiores
+          huiusmodi species seu (U) aliquod lumen determinans
+          eos ad obiecta valde est absurdum et contra naturalem libertatem
+          eorum; et multo magis est hoc absurdum de animabus 
+          separatis et maxime (h) de reprobis et damnatis. Quis
+          enim ferat (i) audiens quod <name ref="#Lucifer">Lucifer</name> naturali ordine et necessaria 
+          influat in illos angelos quibus fuit praelatus ab initio
+          suae creationis aut quod angeli boni naturaliter et necessaria
+          influant lumina veritatis in daemones seu in animas
+          damnatas (k)? quamvis si quis (l) velit diligentius attendere
+          ad generales rationes influentium et influentiarum et ad speciales
+          rationes et quidditates huiusmodi specierum et ad
+          speciales rationes potentiarum intellectivarum (m) et actuum
+          suorum, plenius videre poterit quantae (n) absurditates in his
+          implicentur (o).</p>
+          <p>Ex ultimo autem membro principali potest
+          sic argui: Videtur enim in eorum positione (p) includi quod
+          si intellectus angelorum (q) non haberet in se huiusmodi species 
+          innatas, quod nihil penitus posset (r) intelligere aut videre
+          quantumcunque sibi esset praesens; quia si potest aliquid (s)
+          intelligere seu videre absque praedictis speciebus tunc illius 
+          rei poterit novam speciem acquirere, quia constat quod 
+          omnis rei (t) quam videt habet in se speciem; ergo iam illam
+          speciem de novo acquisivisset. Et tunc sequeretur quod non
+          videret omnia per species innatas seu inditas vel infusas; 
+          quod est directe contra positionem eorum (u). Sequeretur 
+          etiam quod posset videre per species ex praesentia obiecto<pb n="644"/>rum 
+            acquisitas; quod (a) est etiam contra positionem eorum.
+            Hac enim de causa dicunt quod in eis non est intellectus
+            agens, quia (b) nihil de novo abstrahunt (c); nec est proprie
+            in eis intellectus possibilis, quia nihil nisi (d) a Deo vel
+            aliis (e) superioribus recipiunt. Ex hoc sequitur quod intellectus
+            eorum sit multo (f) impotentior quam noster, immo
+            etiam multo impotentior quam oculi nostri. Praeterea, esto
+            quod Deus creet aliquam rem cuius speciem (g) eis ab initio
+            non dedit - hoc est enim possibile ac per consequens
+            ponibile (h) -: tunc ipsi non poterunt videre illam rem,
+            quantumcunque sit eis praesens, nisi infundatur eis de novo
+            similitudo illius; quod valde (i) absurdum est dicere. Praeterea,
+            dicere quod ipsi habuerunt ab initio species determinate
+            repraesentantes veritatem omnium futurarum (k) locutionum
+            et cogitationum quarumcunque personarum quae unquam (l) 
+            erunt est absurdum nec est secundum veram fidem.
+            Dato autem quod per species (m) eorum talia non possent (n)
+            sciri, tunc ex positione eorum sequetur quod nullo modo possunt (o) 
+            eas nunc videre, etiam quando aperte nobis omnibus
+            innotescunt, nisi (p) divina gratia eis de novo horum species
+            et scientia infundatur; quod est etiam valde absurdum.</p>
+            <p>Verumtamen a quibusdam modernioribus respondetur
+            ad hoc quod quia interni cogitatus et actus
+            liberi arbitrii includunt in se relationem intentionis ad suum
+            obiectum et ad suum finem ultimum, quae non est quid de
+            se visibile aut distinguibile nisi per divinam revelationem (q)
+            aut per effectum patentem: idcirco non possunt videri nisi
+            per visibilem effectum vel signum aut per revelationem.
+            Quod autem non sint quid de se visibile et distinguibile
+            probatur; tum quia etiam proprio cordi non plene patet an
+            illa quae facit faciat ex intentione recta et caritativa et solum
+            propter Deum; tum quia huiusmodi (r) relationes nihil addunt
+            ad absolutas essentias actuum et habituum in quibus
+            fundantur; tum quia notitia relationis dependet ex notitia
+            sui termini seu extremi in quod terminatur, terminatio autem
+            relativarum intentionum cordis, prout sunt in Deum 
+              <pb n="645"/>conversivae vel aversivae, non potest videri nisi a solis videntibus 
+              Deum. Ergo soli beati possunt videre intentiones
+              cordium.</p>
+              <p>Sed contra hanc evasionem est: Primo, quia
+              sicut angelus videt res, sic et videt multos respectus earum
+              quibus ad invicem referuntur, utpote multas convenientias
+              et contrarietates earum (a). Et eo ipso quo videt aliqua fieri
+              ab aliqua causa, videt ea ad invicem referri sicut causae
+              ad (b) causatum. Eo etiam ipso quo videt aliquam actionem
+              vel habitum videt respectus eorum sine quibus esse nec
+              intelligi possunt; respectus autem actuum et habituum mentis
+              ad sua formalia obiecta sunt sic eis essentiales quod trahunt
+              speciem suam ab eis nec possunt esse aut intellegi
+              sine eis. - Secundo, quia secundum hoc non plus posset
+              quis videre suas proprias intentiones et cogitatus quam aliorum.
+              -- Tertio, quia saltem secundum hoc possent videre
+              alienos cogitatus et affectus, quamvis non finales intentiones
+              eorum. - Quarto, quia si huiusmodi relationes (c) aliquid
+              addunt realiter diversum, tunc habent aliquam propriam
+              quidditatem ex se visibilem seu intelligibilem. Si vero nihil
+              addunt diversum ad actus vel habitus quorum sunt, tunc
+              angelus plene videns (d) totam entitatem illorum habituum
+              et actuum, videbit eo ipso illas relationes eorum quae sunt
+              cum eis omnino id ipsum.</p>
+              <p>Ad primum igitur quo probatur quod non sint quid angelis
+              visibile dice n dum primo quod quam vis nostrae propriae
+              intentiones non sint plene visibiles nobis ipsis, pro eo
+              quod oculus cordis nostri est lippus et quasi caecus ad sua
+              interiora videnda, angelis tamen suae propriae intentiones (e)
+              sunt clarissimae. Secundo dicendum quod multae nostrae sunt
+              nobis certissimae, saltem illae quae sunt aperte malae; propter
+              tamen multam mixturam vitiorum et vitiosarum intentionum
+              cum nostris bonis latet nos tota quantitas et condignitas meriti
+              (f) et bonitatis nostrarum et maxime respectu praemii
+              aeterni. Non igitur haec (g) latentia provenit ex eo quod
+              sunt relationes in finem, sed potius ex nostri oculi caecitate
+              et ex vitiorum mixtura. Ad secundum patet ex quarta
+              ratione contra illam evasionem facta. Ad tertium dicendum
+              primo quod secundum hoc diaboli non possent videre suas 
+              <pb n="646"/>pravas et finales intentiones quibus sunt aversi (a) a Deo, 
+                nisi viderent Deum, nec boni angeli suas, antequam essent
+                beati; quod non solum est falsum, sed etiam valde absurdum.
+                Sufficit enim quod terminus relationis, prout in ipsa
+                relatione includitur, sciatur seu videatur, sicut videnti se
+                cogitare <name ref="#Paul">Paulum</name> (b) absentem sufficit videre quomodo <name ref="#Paul">Paulus,</name>
+                ut est ab eo cogitatus, est obiectum sui cogitatus et
+                terminus sui respectus. Secundo dicendum quod realis ratiocinatio
+                et fixio (c) nostri interni aspectus est in eius primo
+                et immediato et praesentiali obiecto. Quando autem alicuius
+                cogitatio et intentio fertur in Deum ut in non visum (d) sive
+                absentem: tunc species memorialis Deum repraesentans est
+                primum et praesentiale obiectum illius cogitatus et intentionis,
+                et ideo hoc sufficit visibiliter seu praesentialiter videri
+                a vidente praefatam cogitationem et intentionem. Obiectum
+                vero earum absens sufficit videri seu sciri ut absens,
+                cum aliter non sit obiectum earum. Intentiones autem beatorum
+                immediate infixae in Deo ut ab eis facialiter (e) viso
+                non possunt videri nisi a vidente Deum, prout est praesentialis
+                et immediatus terminus earum (f). Unde de his solis
+                valet illud argumentum (g).</p>
+                <p>Ex praedictis igitur videtur quod sit eligenda 
+                  aliqua illarum trium opinionum. Quarum 
+                  una dicit quod per species ab obiectis receptas cognoscunt 
+                  ea, et hoc, sive eas recipiant per abstractionem factam a 
+                  lumine intellectuali quod est in eis intellectus agens, si tamen 
+                  est in eis, sive fiant in eis per solam actionem obiectorum. 
+                  Alia vero dicit quod partim per species (h) innatas, 
+                  partim per receptas, ita quod innatae species valent (i) 
+                  ad cognitionem rerum universalem, receptae vero ad cognitionem 
+                  earundem particularem. Tertia vero dicit quod per (k) 
+                  species ab intellectu genitas non simpliciter et absolute, sed 
+                  ad praesentiam obiecti et praevia (l) conversione et virtuali 
+                  <sic>defixione</sic> intellectus ad ipsum (m), ita quod obiectum cooperatur 
+                  (n) ibi per modum terminativi. Nisi forte (o) quis velit 
+                  quartam opinionem eligere quae dicit quod species sic genita 
+                  ab intellectu, sicut opinio immediate praecedens dicit, 
+                  <pb n="647"/>est idem quod actus cogitandi seu intelligendi, non quidem
+                  illa (a) species quae est in memoria, sed illa quae est in acie
+                  intelligentiae. Quas opiniones cum suis rationibus et improbationibus
+                  recitavi (b) in quaestione an voluntas sit potentia
+                  activa. - Et licet nullam curem (c) asserere ultima 
+                  tamen modicitati mei iudicii probabilior
+                  videtur et magis catholicae fidei consona, nisi
+                  esset contraria communi opinioni.</p>
+                  <p>Advertendum tamen in omnibus praedictis (d) quod non
+                  loquimur de notitia angelorum quam habent in Verbo, sed
+                  potius de notitia quae eis competit ex suo ordine naturali
+                  seu ex virtute suae naturae; quia de (e) illa quae est in Verbo
+                  constat quod per eam possunt videre simul (f) omnia quae
+                  eis (g) praesentantur in Verbo, sive sint contingentia sive
+                  absentia sive futura sive sint cordium secreta(h).</p> 
+      </div>
+      <div>
+        <head>Nota etiam</head>
+        <p>Quod praeter opiniones praemissas est cuiusdam 
+          moderni magistri positio quod angelus 
+          non intelligit per species innatas vel acquisitas, 
+          sed solum per habitus; per quos non solum 
+          universalis obiectum uniuscuiusque habitus 
+          intelligit, sed etiam omnia individua illius universalis 
+          obiecti, non tamen simul omnia sed solum 
+          illa ad quae illum habitum applicat seu convertit. 
+          Vultque quod huiusmodi habitus non sint 
+          proprie similitudines rerum et quod consequantur 
+          essentiale lumen sui intellectus sicut propriae 
+          passiones ipsius. - Nostrum etiam (i) intellectum 
+          dicit intelligere non per species sed 
+          Per habitus; quos, quando a principiis dilatantur 
+          ad conclusiones, non vult per aliquam superadditam 
+          compositionem augeri, sequens in 
+          hoc scripta(k) cuiusdam alterius magistri.- Quid 
+          autem sint huiusmodi habitus aut quomodo per 
+          eos res secundum suas rationes proprias exprimantur, 
+          ex quo non sunt earum species vel similitudines, 
+          aut non tradit aut valde confuse.</p>
+      </div>
+      <div>
+        <head>Arguatur tamen pro parte ipsius.</head>
+        <p><pb n="648"/>Primo, quia secundum 
+          <ref>
+            <name ref="#Augustine">Augustinum,</name> libro <title>De bono coniugali</title>,
+          </ref> 
+          <cit>
+            <quote>habitus est quo quis potest operari, cum opus est.</quote>
+            <bibl>Augustine, De bono coniugali, c. 21 (PL 40, 390)</bibl>
+          </cit> 
+          Et 
+          <ref>
+            <seg>secundum <name ref="#Aristotle">Aristotelem (2),</name></seg>
+            <bibl>Aristotle, De long. et brev. vitae, cap. 3, 465b sq.; Metaphysica, IX, 6, 1047b 31sqq.; Phys., VIII, 1, 251b1 sqq.</bibl>
+          </ref> 
+          quod est in actu primo, sicut 
+          est habens habitum scientiae vel formam caloris et ignis, potest 
+          ex se in actum secundum, nisi sit prohibens; et si hoc sit, 
+          non indiget nisi removente prohibens. Ergo omnis habens (a) 
+          habitum alicuius scientiae potest absque omni alia specie 
+          intelligere omnia obiecta illius scientiae.</p>
+        <p>Secundo, quia qua ratione species memorialis ponitur 
+          repraesentare obiectum quod non est actu aut quod non est 
+          intellectui praesens et ducere intellectum in illud actualiter 
+          considerandum absque hoc quod ab illo et in illo (b) realiter 
+          terminetur: eadem ratione videtur hoc posse fieri per solos 
+          habitus intellectus.</p>
+        <p>Tertio, quia affirmativa vel negativa compositio contrariorum 
+          aut diversorum terminorum non videtur posse 
+          exprimi per aliquam (c) speciem, saltem per unicam; sed 
+          hoc fit a sciente vel opinante per habitum scientiae vel opinionis; 
+          ergo et cetera.</p>
+      </div>
+      <div>
+        <head><supplied>Respondeo</supplied></head>
+        <p>Sed videtur quod praedicta positio deficiat 
+          ad minus in quatuor: Primo scilicet, in hoc quod ponit 
+          angelos omnia naturaliter vidisse aut visibiliter scivisse per 
+          solos habitus praefatos. - Secundo, in hoc quod ponit per 
+          illos non omnia sub ipso contenta (d) simul videri, sed successive, 
+          per voluntarias scilicet et successivas applicationes ipsius. 
+          - Tertio, in hoc quod ponit omnia per solos ipsos sciri 
+          et exprimi et tamen non esse species ipsorum scibilium vel 
+          scitorum. - Quarto, in hoc quod in angelis ponit eos 
+          suum bonum (e) consequi tanquam proprias passiones ipsius.</p>
+        
+        <p>Contra primum enim et contra secundum potest 
+          argui fere per omnia argumenta superius facta contra 
+          positionem quae ponit angelos per solas species innatas et
+        <pb n="649"/>praecipue per universales omnia naturalia, quantumcunque
+          absentia, certitudinaliter vidisse et omnes eorum naturales 
+          variationes videre.</p>
+        
+        <p>Sed ultra illa arguatur primo breviter contra
+          primum: Proprius enim et specificus actus alicuius
+          habitus semper pro tanto eandem speciem participat (a), pro 
+          quanto, si actus est scitivus, et habitus a quo exit est neccessario 
+          scitivus, et si actus est opinativus vel creditivus,
+          erit etiam et habitus; ergo si actus eius non solum est 
+          scitivus, sed etiam visivus, et habitus similiter erit visivus, 
+          id est, erit habitualis visio rerum; sed de essentia visionis 
+          est quod sit immediate praesens rebus visis; ergo angelicus
+          intellectus et eius habitus et actus haberent immediatam
+          praesentiam ad omnia sibi naturaliter scibilia; sed
+          talis praesentia com petit soli intellectui aeterno et increato;
+          ergo in hoc ipso attribuitur (b) intellectui creato increata
+          et immensa proprietas, competens soli Deo. - Item, qua
+          ratione potest praesentialiter videre naturalia sibi absentia
+          vel nondum existentia: eadem ratione potest et contingentia 
+          et cordium quorumcunque arcana; quia talis intellectus
+          est necessario praesens omnibus locis et rebus in quibus
+          aut intra quae sunt sua (c) visa. - Item, eorum visivus 
+          habitus potius erit actualis visio quam habitualis; quia ex 
+          quo est praesentissimus suis obiectis et hoc per modum visivum,
+          videtur quod sit ultimata et actualissima unione eis 
+          unitus. - Item, sicut Dei scientia seu visio nullo sibi addito 
+          vel ablato potest disiunctive in obiecta opposita, prout
+          contingit aut contingere potest illa diversimode verificari: 
+          sic et angelorum habitualis scientia seu visio nullo sibi addito
+          vel ablato erit disiunctive potens in opposita, ita quod 
+          absque sui variatione repraesentabit et videbit nunc unum 
+          oppositorum, nunc aliud; sed, hoc includit quandam immensitatem
+          et simplicitatem soli Deo propriam; ergo et cetera.</p>
+          <p>Contra secundum autem arguitur: Primo, quia 
+            omnis applicatio et conversio fit primo et immediate ad aliquid 
+            praesens et immediatum (d); ad absens enim et mediatum 
+            non potest fieri nisi per aliud intermedium. Sed hic (e) 
+            inter habitum et eius obiecta nullum obiectum intermedium 
+            ponitur ad quod huiusmodi applicatio seu conversio fiat primo 
+            immediate; nulla enim ponitur hic species rerum quae teneat 
+            <pb n="650"/>vicem obiecti pro eis. - Item, si huiusmodi habitus sunt praesentes
+            omnibus obiectis suis sicut et visio actualis et habitualis: 
+            nulla eget applicatione aut conversione sui ad illa 
+            Si enim dicas quod immo, sicut et nostra habitualis scientia 
+            eget applicari ad species quae sunt in memoria, quamvis 
+            prius essent sibi realiter praesentes, quia intellectus actualiter 
+            non intendebat in eas, habitus autem non sufficit absque 
+            actuali intentione intellectus: patet quod non est simile, 
+            quia praefata positio ponit habitus angelicos nulla specie 
+            intermedia et vicem obiecti tenente egere, immo nec aliqua 
+            reali praesentia rerum ab eis visarum; intentio autem intellectus 
+            addita habitui non est (a) aliud quam actualis aspectus 
+            in aliquod primum (b) obiectum conversus atque defixus; et 
+            si illud est ipsa res, tunc ad hunc aspectum sequitur actus 
+            qui proprie dicitur visio, si vero illud sit aliqua rei similitudo 
+            tenet locum obiecti, et (c) tunc aspectum illum sequitur 
+            actus qui dicitur recordatio vel absentium intellectio seu 
+            cogitatio. - Item, huiusmodi habitus ponuntur esse ab istis 
+            indivisibiles et ex nullis partibus compositi et ad suum universale 
+            obiectum cum omnibus suis individuis actu entibus 
+            vel possibilibus aequaliter et uniformiter se habere; ergo 
+            quandocunque applicabitur, totus et totaliter et ad totum 
+            seu ad omnia sua obiecta applicabitur. - Item, huiusmodi 
+            habitus erunt utique in acie intellectus angelici, et quamvis 
+            ab istis non dicantur esse species rerum, ex dictis tamen 
+            eorum sequitur quod habeant vim expressivam et repraesentativam
+            rerum et hoc sufficientissime; ergo hoc non est 
+            ponere aliud quam sufficientissimam expressionem et repraesentationem 
+            obiectorum in acie intellectus; sed hoc vel est 
+            actualis visio aut id ad quod necessario et immediate sequitur 
+            actualis visio omnium quae aciei per illam expressionem 
+            exprimuntur et repraesentantur; ergo et cetera</p>
+            <p>Contra tertium etiam arguitur: Quia cuicunque
+            competit definitio, competit et definitum; sed praedictis habitibus
+            competit definitio intentionalium specierum; ergo vere
+            erunt species seu similitudines obiectorum (d) suorum. Probatio
+            minoris: quia ratio seu definitio huiusmodi specierum
+            est quod sunt similitudo rerum expressiva et repraesentativa;
+            sed hoc ponitur sufficientissime fieri per solos habitus
+            istos; ergo in simul cum hoc dicere quod non sunt rerum
+            species est ponere in eis contradictionem expressam. -- Item,
+            <pb n="651"/>quantum in nobis experimur, scientialis aut creditivus vel
+              opinativus habitus in nobis sunt idem quod habitualis affirmatio
+              vel negatio seu habitualis assensus vel dissensus intellectus
+              de veritate vel falsitate obiectorum suorum nisi per nomen habitus intelligas habituale (a) acumen ingenii 
+              perspicacis vel oppositum eius, scilicet habitualem tarditatem
+              et hebetudinem ingenii rudis et grossi. Habitualis (b) autem
+              assensus, quando est scitivus, dicitur habitus scientiae; quando
+              autem est creditivus vel opinativus, dicitur habitualis credulitas 
+              vel opinio. Quilibet autem horum assensuum exigit 
+              simplicem et habitualem seu memorialem notitiam terminorum
+              super quorum affirmativam vel negativam compositionem 
+              fertur praedictus assensus. Quod autem simplex et memorialis
+              notitia terminorum differat realiter a praedicto assensu (c),
+              saltem sicut formae elementares differunt (d) ab ultima forma 
+              mixti, probatur tripliciter: Primo scilicet, quia saepe sciuntur
+              huiusmodi termini absque hoc quod sciamus vel credamus 
+              affirmativam vel negativam compositionem ipsorum (e), sicut
+              patet de eo qui scit quid est mulier et quid virgo et quid parere,
+              et tamen nondum scit vel credit mulierem virginem peperisse.
+              Secundo, quia de eisdem terminis nobis notis possumus 
+              nunc unam scientiam vel opinionem habere, nunc vero 
+              contrariam, et nunc veram, nunc erroneam, nunc probabilem, 
+              nunc improbabilem, et hoc per successionem temporum potest 
+              sic in infinitum variari. Tertio, quia sicut compositio
+              differt a suis componibilibus, sic scientia vel opinio compositionis
+              differt (f) a simplici et absoluta apprehensione suorum 
+              componibilium. Sicut etiam actualis consideratio unius
+              vel alterius termini differt ab actuali consideratione compositionis 
+              vel mutuae correlationis eorum: sic et habitualis 
+              notitia huius vel illius termini ab habituali notitia compositionis 
+              eorum. Nec mirum, quia etiam repraesentatio speciei 
+              memorialis differt ab illo actu vel habitu intellectus quo 
+              simplices quidditates vel rationes terminorum cum quodam 
+              habituali assensu novimus et tenemus et aliquando cum
+              actuali assensu cogitamus et consideramus.</p>
+        
+              <p>Contra quartum etiam arguitur: Primo, quia
+              causa a qua suus effectus totam suam essentiam et esse absolute
+              et totaliter trahit habet longe praecellentius et plenius 
+              quicquid nobilitatis est in suo effectu, ita quod talis effectus se 
+              habet ad suam causam sicut analogum ad suum principale.
+              <pb n="652"/>Sed si praedicit habitus se (a) habent ad intellectum agnelicum 
+                sicut propriae passiones ipsius ab eius essentia fluentes 
+                seu resultantes: tunc se habent modo praedicto ad eum et 
+                ipse ad eos; ergo quicquid sapientialis actualitatis et nobilitatis 
+                est in habitibus erit principalius et praecellentius in 
+                essentia eius, et sic esset essentialiter scientia omnium scitorum 
+                suorum; quod est proprium solius Dei. -- Secundo, 
+                quia habitus determinant potentiam ad certos actus et ad 
+                sua propria obiecta; ergo respectu talis determinationis est 
+                potentia secundum suam essentiam indeterminata; sed indeterminati 
+                non est (b) se ipsum ex solo se ipso ad haec vel 
+                illa determinare, et maxime si non sit potentia se ipsam 
+                movens, et saltem illam determinationem non posset in se 
+                efficere nisi per aliquam primam et intermediam actionem 
+                quam hic non est dare; ergo et cetera. -- Tertio, quia 
+                ceterorum entium creatio et existentia non dependet ab essentia 
+                et existentia intellectus angelici nisi apud illos qui 
+                erronee ponunt eos esse deos et creatores rerum. Detur ergo 
+                unum solum angelum absque ceteris angelis et entibus fuisse 
+                creatum: tunc secundum positionem praedictam oportebit 
+                quod adhuc necessario habeat totam scientiam essentiae et 
+                existentiae ceterorum angelorum et entium, sicut et si essent 
+                creata; quod nemo sanae mentis credet. -- Quarto, quia 
+                omnis intellectus qui non est (c) essentialiter sua scientia 
+                tanto est altioris et latioris ambitus, quanto latius et universalius 
+                respicit totum ambitum et possibilitatem entis et 
+                non entis; ergo ille qui per oppositos actus et habitus potest 
+                diversimode determinari ad scibilia et opinabilia est latioris 
+                ambitus quam ille qui non potest (d) nisi solum uno genere 
+                illorum modorum; ergo illi qui ponunt omnem intellectum 
+                creatum, quantum est ex sua essentia, posse determinari per 
+                habitus et actus oppositos, utpote per certos et (e) dubios 
+                aut veros et erroneos ac scientificos et opinativos ac visivos 
+                praesentium et eorundem absentium memorativos, latiorem 
+                et universaliorem ambitum sibi attribuunt quam illi qui 
+                omnes scientiales habitus sibi determinant tanquam proprias 
+                et inseparabiles passiones. -- Quinto, quia cum voluntas 
+                sit altior aut saltem aeque alta potentia sicut intellectus: 
+                ergo ita nobiles habitus respectu omnium debent sibi affigere 
+                quasi (f) proprias passiones sicut faciunt intellectui.</p>
+      </div>
+      <div>
+        <head>[Solutio Obiectorum]</head>
+        <p><pb n="653"/>Ad primum igitur (a) in contrarium dicendum quod
+        aliquando nomine habitus intelligitur non solum id quod est
+        in eo principale, sed etiam omnis dispositio sibi annexa per
+        quam iuvatur ad opus et sine qua non potest in (b) opus. Et
+        hoc modo sumit <name ref="#Augustine">Augustinus</name> habitum in libro illo. Hoc
+        etiam modo sumitur primus actus ab <name ref="#Aristotle">Aristotele</name> in locis
+        ubi dicit verba illa. Et hoc modo sub habitu scientiali includitur 
+        non solum habitualis notitia vel assensus, sed etiam
+        species memoriales sine quibus non potest absentia scire vel
+        cogitare. Praeterea <name ref="#Augustine">Augustinus</name> semper subintelligit debitam
+        praesentium alicuius primi obiecti, quia sine illa nullus
+        habitus intellectivus potest exire in actum.</p>
+        <p>Ad secundum dicendum quod pro quanto habitus includit
+        in se similitudinem suorum obiectorum repraesentativam,
+        pro tanto habet illa repraesentare; pro quanto autem
+        habet elicere actum defixum et terminatum in aliquod obiectum
+        et hoc per praevium aspectum per quem est actualiter
+        ad illud conversus et applicatus, indiget aut reali obiecto
+        aut memoriali gerente vicem illius, et ideo in rerum
+        absentia eget speciebus memorialibus, non pro habitu actus
+        elicitivo, sed potius pro obiecto immediato et in aliud absens
+        manuductivo; species autem memorialis non eget praesentia
+        sui obiecti, quia non dicit actum vel aspectum actualiter
+        conversum et defixum in id cuius est species, sed solum
+        est quaedam repraesentatio seu imago ipsius et talis quod
+        videre eam, in quantum est illius imago, est quasi videre
+        rem cuius est imago.</p>
+        <p>Ad tertium dicendum quod dato quod per species
+        memoriales non posset repraesentari compositio terminorum,
+        nihilominus sunt necessariae ad repraesentationem ipsorum
+        terminorum. Potest etiam dici quod compositio repraesentatur (c) 
+        per coordinationes specierum memorialium (d) aut per
+        quandam speciem memorialem specialem ipsius et speciebus
+        suorum extremorum necessario annexam tanquam illis
+        essentialiter indigentem, verumtamen absque assensu (e); habitus
+        vero scitivus vel opinativus dicit illam cum assensu,
+        quia est quidam habitualis assensus illius.</p>
+                
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Librum II, Quaestio 14</title>
+                <author xml:id="PJO">Peter John Olivi</author>
+                <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2015.05">
+                    <title>Librum II, Quaestio 14</title>
+                    <date when="2015-05-09">May 09, 2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Ad Claras Aquas</publisher>
+                <pubPlace>Quaracchi</pubPlace>
+                <availability status="free">
+                    <p>Public Domain</p>
+                </availability>
+                <date when="1922">1922</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Quaestiones In Secundum Librum Sententiarum, ed. Bernardus Jansen, S.I, Ad Claras Aquas, 1922</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2015-04-27" who="#JW" status="draft" n="2015.05">
+                    <p>Created file for the first time.</p>
+                    <note type="status">
+                        <note type="collabaration">Yes</note>
+                        <note type="validating-schema">lbp-0.0.1</note>
+                        <note type="transcription-type">critical</note>
+                    </note>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div xml:id="includeList">
+                <xi:include
+                    href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+                    xpointer="worksCited"/>
+                <xi:include
+                    href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+                    xpointer="prosopography"/>
+            </div>
+        </front>
+        <body>
+            <div xml:id="pjo-l2q14">
+                <head>QUAESTIO XIV.</head>
+                <p>Octavo (a) iuxta hoc quaeritur an unitas addat aliquid
+                    ad ens et maxime an (b) aliquid accidentale,
+                    et gratia huius quaeratur idem de veritate et
+                    bonitate. </p>
+                <div>
+                    <head>Et quod addatur videtur.</head>
+                    
+                    <p>1. Partes accidentium sunt accidentia, quia nullum accidens
+                        potest constitui nisi ex accidentibus; sed numerus et
+                        omnis quantitas discreta est accidens; omnis autem unitas
+                        est pars constitutiva numeri, quia omnis unitas cum alia
+                        unitate constituit dualitatem et cum duabus ternarium et sic
+                        deinceps per ordinem; ergo omnis unitas est accidens.</p>
+                    
+                    <p>2. Item, quod sequitur ad aliud et non intrat rationem,
+                        ipsius videtur esse accidens eius; sed unitas sequitur ens et
+                        non intrat rationem eius; ergo est accidens.</p>
+                    
+                    <p>3. Item, ens est commune unitati et multitudini, quoniam
+                        dividitur in unum et multa, et multitudo opponitur
+                        unitati quae non opponitur enti; sed hoc non potest esse,
+                        nihil addit ad ens; ergo et cetera.</p>
+                    
+                    <p>4 Item, si unitas nihil addit ad ens, ergo idem signficabitur
+                        per utrumque, et tunc idem erit dicere <quote>ens est
+                        unum</quote> quod <quote>ens est ens</quote>, et ita est (c) sermo nugatorius.
+                        Tunc etiam ita potero significare per modum inhaerentiae et
+                        adiacentiae ens de unitate, sicut et unitatem de ente; sed
+                        haec sunt falsa; ergo et cetera.</p>
+                    
+                    <p>5 Item, per solam divisionem continui unum efficitur
+                        multa et e contrario multa unum per solam continuationem;
+                        sed continuum est accidens et eius divisio; ergo id (d) quod
+                        ab eis est factum et constitutum.</p>
+                    
+                    <p>6. Item, si unum nihil addit ad ens, tunc optime sequitur:
+                        <quote>tantum ens est, ergo tantum unum est</quote>; sed hoc est
+                        falsum; ergo et primum.</p>
+                    
+                    <p>Quod etiam veritas et bonitas addant aliquid ad ens,
+                        etiam accidentale, videtur; quoniam ens secundum solam
+                        opinionem et apparentiam cadit sub ente, dividitur enim ens
+                        in ens (a) secundum rem et secundum opinionem; sed ens
+                        secundum opinionem non cadit sub vero, sed ei opponitur;
+                        ergo et cetera.</p>
+                    
+                    <p>8. Item, enti nihil opponitur nisi contradictorie, falsum
+                        autem opponitur vero aut privative aut contrarie quarum
+                        utraque non videtur esse nisi inter accidentia; ergo et cetera.
+                        Ens etiam secundum opinionem quod opponitur enti
+                        vero, est accidens; accidens autem non potest opponi (b) nisi
+                        accidenti; ergo et cetera. Et idem potest argui de bono ex
+                        oppositione mali ad ipsum.</p>
+                    
+                    <p>9. Item, nullum ens videtur referri ad aliud secundum
+                        suam substantiam, cum substantia uniuscuiusque sit ens absolutum;
+                        sed secundum veritatem et bonitatem referuntur
+                        entia ad intellectum et appetitum divinum et creatum; ergo
+                        et cetera.</p>
+                    
+                    <p>10. Item, <ref><name ref="#Boethius">Boethius</name> dicit, libro <title ref="#DeHebdomadibus">De hebdomadibus</title></ref> (1),
+                        quod si per impossibile intelligeremus Deum esse non bonum,
+                        tunc entia quidem essent entia colorata et quanta, non tamen
+                        essent bona; sed hoc est impossibile si bonum nihil addit
+                        ad ens et si id quod addit non est accidentale; ergo et cetera.</p>
+                    
+                    <p>1. Contra: Ens comprehendit directe omnia quae cadunt
+                        infra ens; haec est enim una de causis quare ens non
+                        potest esse genus, quia nihil potest addere ad ens, sicut
+                        differentia addit ad genus; ergo nec ista aliquid addent.</p>
+                    
+                    <p>2. Item, si aliquid addunt, illud additum oportet quod
+                        sit aliqua essentia, alias est nihil; et oportet quod per se sit
+                        ens, alias est per se non ens; et tunc eadem ratione addent
+                        ad essentiam suam rationem unitatis, bonitatis, veritatis et
+                        ad ens quod sunt et sic in infinitum.</p>
+                    
+                    <p>3. Item, nobiliori enti et essentiae videntur nobiliores
+                        conditiones, entitatis magis per se inesse; sed rationes unitatis
+                        et aliae sunt nobilissimae conditiones entis; ergo videtur
+                        quod magis per se inhaerent (c) substantiae quam accidenti;
+                        sed si istae conditiones dicunt aliquid accidentale, illi
+                        accidenti magis per se inerunt (d) istae conditiones quam suo
+                        subiecto et habebunt huiusmodi accidentia principalius unitatem,
+                        veritatem, bonitatem quam ipsae substantiae.</p>
+                    
+                    <p>4. Item, omne subiectum prius est naturaliter quam suum
+                        accidens, quoniam accidens originatur ab eo et dependet ab
+                        eo quantum ad esse et non e contrario; si ergo ista addunt
+                        aliquid accidentale; ergo omnia ilia quorum sunt et quibus
+                        addunt prius naturaliter erunt actu quam sint una, vera
+                        et bona.</p>
+                    
+                    <p>5. Item, forma in quantum forma habet rationem perfectivi,
+                        unitivi (a) et constitutivi; non (b) enim per aliud quam
+                        per formam substantialem perficitur materia, nec per aliud
+                        constituitur ens in veritate suae speciei, nec per aliud (c)
+                        materia unitur quam per ipsam; sed bonum et ratio perfectivi
+                        idem sunt et sic de aliis.</p>
+                    
+                    <p>6. Item, omnis effectus immediatus est similitudo suae
+                        causae per analogiam ad ipsam (d) se habens; participat
+                        enim analogice rationem suae essentiae; si ergo unum, verum
+                        et bonum sunt accidentia aut alia quaecunque originata
+                        ab ente, ergo erunt similitudo analoga ipsius; et ita
+                        ipsum habebit unitatem, veritatem et bonitatem causativas
+                        istorum et nobiliores quam ista.</p>
+                    
+                    <p>7. Item, solum illud quod per se recipit aliquas formas
+                        per se informatur ab eis et solum per se denominatur ab
+                        eis; si ergo ista sunt accidentia seu qualitercunque aliquid (e)
+                        addentia, solum per se informabunt et denominabunt illud
+                        in quo per se recipientur; sed materia est solum per se receptiva
+                        formarum; forma enim non est receptiva vel passiva
+                        per se, formae enim non est forma; ergo materia esset solum
+                        per se (f) una, vera et bona, formae autem omnino per
+                        accidens.</p>
+                    
+                    <p>8. Item, cum in corporalibus et extensis non sit dare
+                        formam sine extensione, unitas et veritas et bonitas corporum
+                        essent secundum hoc quaedam formae aut quaedam
+                        accidentia extensa.</p>
+                    
+                    <p>9. Item, veritas est per se et primum obiectum intellectus
+                        et bonitas appetitus; sed entitas et quidditas entium est
+                        primum intelligibile et primum quod cadit in apprehensione,
+                        et esse est primum diligibile; ergo et cetera.</p>
+                    
+                    <p>10. Item, ratio bonitatis, in quantum est distincta a veritate,
+                        apprehenditur ab intellectu, et unitas eodem modo;
+                        quoniam intellectus apprehendit distinctionem earum (a); appetitus
+                        etiam diligit ipsam rationem unitatis et veritatis (b),
+                        secundum quod distincte sibi praesentantur ab intellectu;
+                        immo et duae potentiae attingunt per se ad totum ens et ad
+                        omnes rationes entis (c); ergo una ratio penitus videtur esse
+                        idem quod altera. — Ad hoc etiam facit quod communiter
+                        dicitur quod illud est per se obiectum potentiarum quod per
+                        se movet eas (d); ergo illud quod per se generat speciem
+                        in intellectu et per se movet affectum erit in quantum tale
+                        veritas et bonitas; sed hoc potest omnis substantia et essentia
+                        per hoc quod est substantia vel (e) essentia; ergo et
+                        cetera.</p>
+                    
+                    <p>11. Item, <ref><name ref="#Augustine">Augustinus</name>, libro <title ref="#Soliloquies">Soliloquiorum</title></ref>, definiens
+                        veritatem dicit (1) quod <quote>veritas est id quod est </quote>; sed definitio
+                        et definitum seu ratio et id cuius est ratio (f) penitus
+                        sunt idem; ergo et cetera.</p>
+                    
+                    <p>12. Item, <ref><name ref="#Augustine">Augustinus</name>, in <title ref="#Enchiridion">Enchiridion</title>, (2) et libro <title ref="#deLiberoArbitrio">De
+                        libero arbitrio</title> (3),</ref> et pluribus aliis locis (4), volens ostendere
+                        contra errorem Manichaeorum qui dicunt aliquod ens totaliter
+                        esse malum quod ipsum ens seu esse est per se bonum
+                        et (g) per se diligibile, ita quod malum eo ipso quod (h) dicit
+                        privationem boni dicit privationem ipsius esse, dicit in eisdem
+                        (i) libris quod entia, in quantum sunt, bona sunt (k) et
+                        quod, eo quo sunt, bona sunt. Et <ref><name ref="#Dionysius">Dionysius</name>, IV <title ref="#deDivinisNominibus">De divinis
+                        nominibus</title></ref>, ubi et vult (5) quod bonum et lumen intelligibile
+                        et pulchrum sint idem et quod bonitas sit ratio aliquo modo
+                        communior ente et comprehendens omnes participationes
+                        divinas quae sunt in entibus; ergo et cetera.</p>
+                    
+                </div>
+                <div>
+                    <head>[Respondeo]</head>
+                    
+                    <p>Circa quaestionem istam sunt variae opiniones,
+                        sicut circa illam de individuatione. Quidam enim
+                        volunt quod unum addat aliquid essentiale; quidam quod
+                        accidentale inter quos est <name ref="#Avicenna">Avicenna</name> (1); quidam vero quod
+                        nihil addat secundum rem, sed solum secundum rationem;
+                        et horum quidam quod addat rationem negativam seu negationis
+                        tantum; alii vero quod positivam seu per modum
+                        positionis; et istorum quidam volunt quod unitas quae convertitur
+                        cum ente non sit idem cum ea quae est principium
+                        numeri; numerum enim dicunt causari a divisione continui,
+                        unde numerum, prout est species quantitatis, non ponunt nisi
+                        in corporalibus, et isti ponunt unitatem istam quae est principium
+                        numeri esse accidens, aliam vero quae convertitur cum
+                        ente dicunt nihil addere ad ens. - Summa igitur istarum
+                        diversitatum est: quod quidam ponunt quod addat; quidam
+                        quod nihil nisi solam rationem, in re tamen fundatam seu
+                        realem.</p>
+                    
+                    <p>De bonitate autem et veritate fere eisdem
+                        modis diversificantur opinantes. Quidam enim volunt
+                        quod dicant relationes quasdam accidentales, ita quod
+                        unum dicat relationem ad primum efficiens, veritas ad summum
+                        exemplar, bonitas ad ultimum finem; et quod unitas dicat
+                        cum hoc modum essendi ipsius entis per respectum ad se, veritas
+                        per comparationem ad intellectum nostrum, bonitas per
+                        comparationem (a) ad affectum (b). Alii vero volunt quod dicant
+                        huiusmodi relationes, sed tamen volunt quod addant
+                        aliquid diversum realiter ad ens. Alii vero quod non dicant
+                        rationes respectuum, sed potius rationes absolutas super
+                        quas possint fundari tales respectus, sive secundum rem sive
+                        tantum secundum (c) intellectum, pro eo quod si dicerent
+                        relationes vel (d) rationes relativas, tunc prima et per se
+                        obiecta intelligentiae et voluntatis (e) essent purae relationes
+                        et solae; et (f) quia etiam secundum <name ref="#Aristotle">Aristotelem</name> (2) scibile
+                        seu scitum non dicit relationem ad scientiam, etiam in quantum
+                        scibile, nisi secundum dici; id autem quod est scibile,
+                        secundum id quod est, nullo modo et eodem modo est (g) de
+                        diligibili seu dilecto (h), ratio igitur intelligibilis seu (i) scibilis
+                        et ratio ipsius appetibilis seu diligibilis, in quantum talia,
+                        dicunt relationes secundum dici solum; veritas vero et bonitas
+                        non dicunt ipsam rationem intelligibilitatis et appetibilitatis,
+                        sed id quod est diligibile et intelligibile (a) et id
+                        quod est quasi substratum istis relationibus; quoniam verum
+                        et bonum dicunt aliquid reale de re, amoto etiam omni intellectu;
+                        relationes vero praedictae nihil dicunt in quantum
+                        tales, nisi secundum intellectum; posito etiam per impossibile
+                        quod creatura esset Deo non existente aut absque hoc
+                        quod non esset facta a Deo: ita esset una, vera et bona sicut
+                        et ens et eo ipso quo et ens, ut isti dicunt. Et isti nituntur
+                        probare quod nihil addat essentiale realiter diversum consimilibus
+                        rationibus illis per quas probant hoc de individuatione,
+                        et quod nihil addat accidentale consimilibus rationibus
+                        illis per quas probant quod individuatio nihil tale addat. Qui
+                        autem volunt quod addat innituntur aliquibus rationibus
+                        tactis in opponendo et aliquibus rationibus consimilibus illis
+                        per quas probant idem de individuatione.</p>
+                    
+                    
+                </div>
+                <div>
+                    <head>[Solutio Obiectorum]</head>
+                    
+                    <p>Et isti respondent rationibus factis in oppositum hoc modo.</p>
+                    
+                    <p>Ad primum enim dicunt quod licet ens non sit genus,
+                        quaedam se habent ad eum ac si essent (b) eius species, et
+                        haec recipiunt directe praedicationem eius, quaedam vero
+                        quasi differentiae, et de ipsis praedicatur eo modo quo subiectum
+                        de accidente aut sicut genus de differentia, scilicet
+                        in concretione. Prima vocantur genera et species entium et
+                        principia constitutiva eorum, secunda vero sunt unitas, veritas,
+                        bonitas et consimilia. Et ista proprie secundum eos
+                        non praedicantur de ente in abstracto, nec ens de eis. Ista
+                        autem non possunt habere naturam differentiae, ut dicunt:
+                        tum quia non dicunt principia constitutiva entium, quia tunc
+                        praecederent intellectum eorum, nunc autem videmus quod
+                        unitas cuiuslibet entis consequitur ipsum; tum etiam quia
+                        tantum ambitura habent quantum et ens, nulla autem differentia
+                        tantum ambitum habet quantum suum genus, saltem
+                        in potentia. Et ideo, ut dicunt, potius se habent ad ens tanquam
+                        propriae passiones eius consequentes ipsum universaliter
+                        et convertibiliter in suis suppositis (c).</p>
+                    
+                    <p>Ad secundum dicunt quod illud quod addunt non est
+                        proprie essentia, sed aliquid eius; unde essentia (a) non cadit
+                        in ratione eius nisi oblique, sicut nec subiectum in ratione
+                        accidentis. Illi tamen qui volunt quod illud quod addit non
+                        sit alterius generis, nescio an (b) consimiliter responderent
+                        vel forte quod essentia bene posset praedicari de eis, licet
+                        aliquid addant ad eam; quia illud quod addit est forte quoddam
+                        complementum essentiae habens (c) intra se totam rationem
+                        essentiae (d); sicut et potentiis animae videtur adesse
+                        tota substantia animae.</p>
+                    
+                    <p>Ad tertium dicunt quod secundum aliquem modum
+                        accidentia aliqua possunt habere aliquam rationem maiorem
+                        unitatis, veritatis, bonitatis quam sua subiecta, sicut caritas
+                        plus de ratione bonitatis et habitus intellectus plus de ratione
+                        veritatis. Praeterea dicunt quod cum ista accidentia sint
+                        potius istorum subiectorum quam sui, quod magis attribuunt
+                        suas rationes denominative suis subiectis quam sibi. Licet
+                        <ref>4 capitulo, <title ref="#deDivinisNominibus">De divinis nominibus</title>, <name ref="#Dionysius"></name>Dionisyus</ref> dicat (1) quod
+                        denominationes subiectorum insunt formis a quibus descendunt
+                        altiori modo quam ipsis et magis per analogiam quam
+                        per univocationem, dans ibi exemplum de delectatione et
+                        tristitia: isti tamen dicunt pro tanto contrarium, quia accidentia
+                        potius sunt subiectorum quam sui ipsorum, secundum
+                        ultimum modum tamen respondendi.</p>
+                    
+                    <p>Ad quartum dicunt quod prima propositio (e) non est
+                        vera nisi de accidentibus quae sequuntur esse subiecti; quia
+                        secundum eos quaedam sunt accidentia quae sic sequuntur
+                        essentiam subiectorum quod non sequuntur esse eorum, sicut
+                        ipsummet esse quod secundum multos eorum est accidens.
+                        Si autem dicatur quod ista non solum sequuntur essentiam,
+                        sed etiam ipsum esse; tunc dicunt quod non est inconveniens,
+                        si natura praecedant ea, sicut et videntur praecedere
+                        intellectu (f); esset tamen inconveniens, si praecederent tempore
+                        vel mensura.</p>
+                    
+                    <p>Ad quintum dicunt quod forma habet illas rationes
+                        non per identitatem, sed sicut subiectum habet proprias passiones
+                        et quod illi effectus competunt illi per se, aut quia
+                        facit eas per passiones quae per se sibi competunt, aut quia
+                        illi effectus non sunt aliud quam unitas, veritas, bonitas
+                        causatae a formis entium.</p>
+                    
+                    <p>Ad sextum dicunt quod ilia propositio habet locum in
+                        causis efficientibus, non in causis formaliter originantibus;
+                        dicunt enim quod originari ab aliquo ut a forma non est
+                        omnino idem quod fieri ab aliquo ut a causa efficiente.</p>
+                    
+                    <p>Ad septimum dicunt quod non est inconveniens formam
+                        unam (a) ab alia informari et denominari, licet hoc
+                        magis primo et per se competat materiae; dicunt etiam
+                        quod totum compositum potest denominari ab unitate recepta
+                        in materia sua, forma autem denominabitur ab eadem sicut (b)
+                        causa a suo effectu, denominatur enim agens a sua actione
+                        et a suo effectu.</p>
+                    
+                    <p>Ad octavum vero quod dicunt patebit alibi ubi de
+                        extensione corporalium quaeritur.</p>
+                    
+                    <p>Ad nonum dicunt quod ens est primum obiectum materiale,
+                        sed veritas primum obiectum formale (c); ens enim
+                        secundum eos est illud quod primo apprehenditur, sed veritas
+                        illud per quod apprehenditur seu ratio apprehensibilitatis
+                        eius. Et idem dicunt de bonitate respectu appetitus.</p>
+                    
+                    <p>Ad decimum dicunt quod veritas non tantum est ratio
+                        movens ad apprehendendum se, sed etiam ad apprehendendum
+                        omnes proprietates entis, et ideo licet distinctio (d)
+                        earum inter se apprehendatur ab intellectu, hoc tamen est,
+                        ut dicunt, per eandem rationem, scilicet per rationem veritatis.
+                        Et idem est de bonitate respectu appetitus. — Ad id
+                        autem quod additur quod essentia entium potest generare
+                        sui speciem et ita per se et primo movere intellectum; dicunt
+                        quod sicut quantum non movet visum nisi sub ratione
+                        colorati, sic nec essentia nisi sub ratione veri. Et tamen
+                        quantum dicitur per se movere (e) visum, licet non primo;
+                        nec dicitur esse materiale obiectum visus sicut Sortes, quia
+                        istud est obiectum materiale per accidens et non per se,
+                        quoniam Sortes non est subiectum primum et immediatum
+                        coloris, sicut ens est veritatis.</p>
+                    
+                    <p>Ad undecimum dicunt quod definitio <name ref="#Augustine">Augustini</name>
+                        potius est materialis quam formalis et tamen valde bona,
+                        quia propriae passiones habent definiri per sua subiecta et
+                        definitio debet dari per priora; et ita est hic.</p>
+                    
+                    <p>Ad duodecimum dicunt quod sicut haec est vera
+                        <quote>homo, in quantum homo, est risibilis (f)</quote> et tamen humanitas
+                        non est risibilitas; sic et ista <quote>entia, in quantum sunt, bona
+                        sunt</quote>; et tamen non propter hoc oportet quod entitas sit bonitas.
+                        Quod autem dicitur quod (a) malitia, pro quanto est privatio
+                        boni, pro tanto est privatio entitatis: dicunt quod hoc non
+                        est verum per identitatem, sed per concomitantiam (b); quia
+                        privatio boni inseparabiliter concomitatur privationem entis
+                        et e contrario. Ad illud autem <name ref="#Dionysius">Dionysii</name> dicunt quod bonum
+                        et pulchrum et lumen intelligibile seu verum non (c) sunt idem
+                        formaliter, sed subiecto.</p>
+                    
+                    <p>Illi vero qui volunt quod nihil addant realiter
+                        diversum ad primum quod est contra eos
+                        dicunt quod numerus non est accidens nisi sicut unitas
+                        ipsum constituens; unitates (d) enim accidentium erunt accidentia,
+                        sed non ipsorum accidentium quorum (e) sunt unitates,
+                        sicut et omne accidens sibi ipsi est essentiale.</p>
+                    
+                    <p>Quod autem ab <name ref="#Aristotle">Aristotele</name> (1) et aliis philosophis dicitur
+                        esse accidens et in praedicamento quantitatis: dicunt quod
+                        distinctio praedicamentorum non fuit facta secundum diversitatem
+                        essentialem nec secundum solam diversitatem intellectus
+                        seu modi intelligendi, sed secundum diversitatem rationum
+                        realium; relatio enim ponitur pro praedicamento, quae
+                        tamen videtur esse essentialis secundum eos actioni et passioni
+                        et qualitatibus primae speciei et secundae et materiae
+                        et formae et parti et toti et praedicamento positionis et situs
+                        et ubi et quando et omni accidenti videtur essentiale referri
+                        ad suum subiectum. Quorum rationes alibi recitavi. Haec
+                        autem distinctio conveniens (f) esse potuit secundum modum
+                        logicalem qui plus considerat rationes rerum et intentiones
+                        quam res; et ideo rationes quae secundum modum intelligendi
+                        habebant se ad alias per modum accidentium convenienter
+                        potuerunt ponere inter praedicamenta accidentium.
+                        Aut si hoc non movit (g) eos, dicunt quod <name ref="#Aristotle">Aristoteles</name> fuit
+                        deceptus arguens ex pluralitate rationum realium diversitatem
+                        essentialem, quam deceptionem dicunt fuisse in multis
+                        antiquis philosophis. Aut in proposito forte magis fuit
+                        causa: quia posuerunt numerum causari tantum ex divisione
+                        continui; non enim in substantiis separatis posuerunt numerum
+                        qui ab eis ponitur species quantitatis, sed solum multitudinem
+                        quae cum uno dividit ens; continuum autem posuerunt
+                        esse accidens, et ita unitatem quae est per continuitatem
+                        dixerunt esse accidens et per consequens numerum
+                        ex talibus unitatibus constitutum. Et hanc sententiam videtur
+                        (a) <ref><name ref="#Aristotle">Aristoteles</name> innuere in III <title ref="#Physics">Physicorum</title> suorum</ref> (1).</p>
+                    
+                    <p>Dicunt autem isti quod si hoc tenuerunt, quod in hoc
+                        videntur notanter fuisse decepti; quia si numerus est accidens,
+                        tunc oportet quod sit aliqua una forma habens aliquod
+                        unum subiectum numerus autem non potest poni esse una
+                        forma, quia cum plures habeat partes ad hoc quod ex eis
+                        efficeretur unum, oporteret quod ad se invicem unirentur (b)
+                        partes autem numeri, etiam in quantum partes eius, magis
+                        sunt a se invicem discretae quam unitae et etiam si essent
+                        unitae, tunc unio earum et unitas ex hac unione consurgens
+                        essent aliae unitates ab eis et alterius rationis. — Oporteret
+                        etiam quod aut una unitatum constituentium numerum
+                        esset materialis alteri, ita quod vere reciperet eam intra
+                        se et vere informaretur ab (d) ipsa; aut quod (e) ambae essent
+                        materiales respectu alicuius formae tertiae unientis eas; aut
+                        quod essent in eadem materia; quorum nullum videtur esse,
+                        intelligibile. — Oporteret etiam quod unitates constituentes
+                        numerum haberent rationem partis respectu sui generis et
+                        nullo modo rationem totius; partes enim alicuius formae non
+                        habent rationem formae totalis, quamdiu sunt partes illius
+                        formae, sicut nec partes substantiae rationem substantiae
+                        seu suppositi, quamdiu sunt partes alicuius suppositi; et tunc
+                        unitas non haberet (f) rationem formae totalis respectu entium
+                        quae per eam sunt unum; et tunc perfectius et venius tres
+                        homines dicerentur unum quam quilibet eorum, quamdiu essent
+                        sub tali numero aggregati.</p>
+                    
+                    <p>Unum etiam subiectum non potest dari numero, quoniam
+                        omnis numerus, in quantum talis, requirit plura entia
+                        et exigit ea, in quantum plura, non in quantum unum. Nec
+                        in huiusmodi subiectis est dare aliquam potentiam receptivam
+                        unam numero per quam et in qua reciperent formam
+                        numeralem, et si haberent, ilia potius diceretur numerata et
+                        forma numerali denominata quam huiusmodi entia (a). Et
+                        idem erit de quacumque una ratione subiectiva per quam ei
+                        subiciantur. — Nec valet secundum istos quod ab aliquibus
+                        dicitur, scilicet quod huiusmodi entia numerata sunt unum
+                        subiectum in tali accidente; quia subiectum prius naturaliter
+                        oportet habere unitatem. per quam subiciatur ut (b) unum
+                        tali accidenti quam quod ex hoc dicatur esse unum, quia
+                        habet tale accidens, scilicet numerum; oportet enim (c) dari
+                        subiecto (d) unam existentiam a qua et in qua accidens recipiat
+                        suam unam existentiam, et non e contrario. — Mirabile
+                        etiam erit, ut dicunt isti, quomodo ista dicentur esse
+                        unum in eo quod habent numerum seu in eo quod sunt
+                        numerata, cum secundum rem videatur ibi (e) esse oppositio
+                        in adiecto. — Item, si forma numeralis est in eis, aut
+                        tota est in quolibet aut una pars eius in uno et alia in alio;
+                        una enim forma non potest per aliam viam esse tota in aliquibus
+                        (f) simul aggregatis. Si autem tota est in quolibet,
+                        ergo quilibet est plures et plures habens unitates. Si autem
+                        una pars in uno et alia in alio, tunc partes sunt in diversis
+                        subiectis et ad se invicem nullo modo unitae. — Et est mirabile,
+                        ut isti dicunt, quomodo partes formales in diversis entibus
+                        existentes constituent unam essentiam et unam formam,
+                        unam, inquam, numero, non solum specie, et quomodo tres
+                        unitates numerales constituent (g) unam unitatem individualem
+                        et unam numero, utpote unitatem istius ternarii vel
+                        illius, et maxime quomodo ex solo concursu plurium hominurn
+                        vel (h) plurium entium in uno loco generabitur una
+                        forma numeralis in eis; oportebit enim sibi dare causam efficientem,
+                        et cum sit forma dependens a suo subiecto et non
+                        solum delata super ipsum, sicut sunt primae influentiae,
+                        oportebit quod educatur de potentia materiae et tunc oportebit
+                        etiam quod per motum ipsius materiae.</p>
+                    
+                    <p>Non etiam est maior ratio quare ex divisione continui
+                        resultet talis forma quam ex discretione facta per formas
+                        substantiales, cum ita (i) sint diversae et separatae a se invicem
+                        unitates continui divisi sicut et unitates duorum entium
+                        quas habent per suas formas substantiales, et maxime
+                        cum continuum divisum sit factum duo entia, quod non potest
+                        esse factum, nisi unitas quae consequitur ens sit multiplicata;
+                        quaelibet enim pars alicuius continui divisi est
+                        facta de novo unum ens et unum suppositum substantiae,
+                        quod non potuit fieri nisi per formam substantialem aliam
+                        et aliam." Ita igitur, ut dicunt isti, est numerus in aliis rebus
+                        qui non est aliud quam multitudo unitatum sicut et in (a)
+                        corporalibus vel continuis; et ita fit numerus in corporalibus
+                        et unitatibus (b) consequentibus ens sicut et in spiritualibus.
+                        — Non etiam valet, ut dicunt, quod ab aliquibus dicitur
+                        quod ultima unitas est constitutiva numeri et quod se
+                        habet ad alias sicut ultima differentia ad priores formas;
+                        quia ultima forma vel differentia non est eiusdem rationis
+                        et ambitus cum prioribus, unitas autem est eiusdem speciei
+                        cum alia unitate; tum quia frequenter contingit et potest
+                        contingere quod simul tempore et natura tria concurrant in
+                        unum, ut quando tria simul creantur, et tunc nulla (c) illarum
+                        trium unitatum erit secundum rem ultima (d) respectu alterius.
+                        — Si autem dicatur quod numerus est aliquid in anima,
+                        hoc secundum istos non iuvat eos, sed potius destruit; quia
+                        secundum hoc numerus non erit vere quantitas nec species
+                        quantitatis nec vere accidens rerum numeratarum ex earum
+                        unitatibus constitutum. — Dicunt igitur isti quod numerus et
+                        multitudo veraciter est in rebus et non solum in intellectu;
+                        sed tamen non est aliquid unum in rebus, sed vere plura et
+                        vere plures unitates, in intellectu tamen seu secundum intellectum
+                        habet quandam rationem unitatis. — Sic igitur respondent
+                        ad primum.</p>
+                    
+                    <p>Ad secundum dicunt quod etsi (e) omne quod realiter
+                        sequitur ad aliud non intrans rationem eius secundum rem
+                        sit accidens eius, non tamen illud quod sequitur ad aliud
+                        tantum secundum modum intelligendi et quod intrat alterius
+                        (f) rationem secundum rem seu secundum identitatem
+                        realem, etsi non secundum propriam rationem. Sic autem,
+                        ut dicunt, se habet unitas ad ens: si enim in una ratione
+                        entis posset ab intellectu nostro comprehendi omnis ratio
+                        per identitatem realem, ilia ratio haberet rationem entis et
+                        unitatis aequaliter.</p>
+                    
+                    <p>Ad tertium dicunt quod ens est eo modo comune unitati
+                        et multitudini sicut et unum est eis commune, et non
+                        aliter; non enim multitudo dicitur ens, nisi sicut dicitur una,
+                        nec multa dicuntur proprie ens sed entia; et sicut dicuntur
+                        entia, sic dicuntur plura seu plures unitates habentia, et ut
+                        sic liceat loqui, sic dicuntur una (a) sicut et entia. Multitudo
+                        etiam non opponitur illi unitati quae est pars eius nisi sicut
+                        totum suae parti, relative scilicet. Prout autem unitas sumitur
+                        per se cum exclusione multitudinis, se habet ad multitudinem
+                        secundum habitudinem disparatam seu disparationis,
+                        quam aliqui vocant habitudinem contrarietatis quae in
+                        quolibet extremo includit privationem alterius extremi; licet
+                        improprie hic sumatur contrarietas nec disparatio hic sumatur
+                        secundum speciem, sed potius quasi numeralis, eo
+                        modo quo unum individuum est ab altero (b) disparatum, quod
+                        usitatius (c) discretio nominatur.</p>
+                    
+                    <p>Ad quartum dicunt quod licet unitas non addat aliam
+                        rem ad ens, addit tamen aliam rationem ad rationem entis; et
+                        ideo dicere <quote>ens est unum</quote> non est idem secundum rationem
+                        quod dicere <quote>ens est ens</quote>, nec ita sermo nugatorius. Quia
+                        autem res in qua fundantur huiusmodi rationes prius (d) apta
+                        nata est intelligi secundum rationem entis quam secundum
+                        rationem unitatis, seu intellectus prius aptus natus est intelligere
+                        unam quam alteram, quia una implicat aliam in sua
+                        ratione et non e contrario: ideo unitas magis (e) potest significari
+                        per modum inhaerentiae et adiacentiae ad ens quam
+                        e contrario; sicut et in Deo sapientia respectu substantiae
+                        potius quam (f) e contrario et voluntas in eo potest significari
+                        posterior intellectu potius quam e contrario.</p>
+                    
+                    <p>Ad quintum dicunt quod si (g) continuum est omnino
+                        accidens, tunc per solani divisionem continui unum non efficitur
+                        multa, immo oportet quod ibi flat divisio formae substantialis
+                        et materiae.</p>
+                    
+                    <p>Ad sextum dicunt quod quia ens (h) secundum rationem
+                        suam non ita opponitur multitudini sicut unum nec
+                        unum ita non enti sicut ens; ideo dictio (i) exclusiva addita
+                        enti secundum communem usum loquendi qui plus sequitur
+                        diversitatem rationum quam rerum non excludit nisi non ens,
+                        addita vero uni non excludit nisi multitudinem; licet in uno
+                        sensu haec propositio <quote>tantum unum est</quote> possit esse vera
+                        et haec propositio <quote>tantum ens est</quote> possit esse falsa; quia
+                        si li (k) <quote>unum</quote> significet absolute formam unitatis, sic (l) est</p>
+                    
+                    <!-- This is where the missing page 269 would go -->
+                    
+                    <p>Potest etiam dici quod ens secundum opinionem non est
+                        aliud realiter quam ipsa opinio; et opinio huiusmodi opponitur
+                        opinioni, non autem ipsis obiectis.</p>
+                    
+                    <p>Ad nonum dicunt quod licet substantia non referatur
+                        ad aliud secundum rationem essentiae vel substantiae, refertur
+                        (a) tamen secundum substantiam; essentiale est enim,
+                        ut dicunt, unicuique substantiae referri ad creatorem et materiae
+                        ad formam. Quod autem pro ratione affertur, quod
+                        unumquodque secundum suam substantiam est absolutum (b):
+                        dicunt quod utraque istarum est vera, et quod secundum
+                        suam substantiam sit absolutum et quod sit relatum; quia
+                        potest considerari absolute et in relatione ad aliud (c), pro eo
+                        quod non secundum omnem rationem suam est absoluta nec
+                        secundum omnem relata. Aliqui tamen simpliciter negant
+                        quod creatura habeat esse absolutum ab omni relatione nisi
+                        solum ab aliquibus, utpote a relatione inhaerentiae accidentalis
+                        vel (d) a relatione essendi in alio ut in supposito et ab
+                        aliis consimilibus quae repugnant substantiae. Non etiam
+                        concedunt quod secundum veritatem et bonitatem referantur
+                        res realiter ad intellectum et appetitum, sed solum secundum
+                        rationem intelligibilitatis et appetibilitatis; quae tamen non
+                        dicunt relationes secundum rem, sed solum secundum dici.</p>
+                    
+                    <p>Ad decimum dicunt quod <name ref="#Boethius">Boethius</name> aliter videtur
+                        accepisse rationem boni quam communiter a sanctis et ab
+                        aliis accipiatur; videtur enim in praedicto libro bonitatem
+                        enti attribuere, ita quod idcirco dicatur bonum, quia est a
+                        bono principio factum et ad optimum finem ordinatum, scilicet
+                        ad Deum. Sancti autem bonum vocant idem quod perfectum
+                        vel perfectivum (e). Et secundum ilium modum accipiendi
+                        dicunt quod verum est quod dicit <name ref="#Boethius">Boethius</name>, secundum
+                        vero alium quod dicit <name ref="#Augustine">Augustinus</name> et <name ref="#Dionysius">Dionysius</name>.
+                        Et hic modus, ut dicunt, est magis proprius et magis verus
+                        omnis enim communiter intellectus (f) dicet quod si per impossibile
+                        ens creatum esset sine Deo, quod quantum haberet
+                        de perfectione et entitate, tantum et de bonitate. Praeterea dicunt
+                        quod dictum <name ref="#Boethius">Boethii</name> tantum est contra alios quantum
+                        est contra eos; licet enim alii velint quod bonitas addat ad
+                        ens aliquid realiter diversum, volunt tamen omnes communiter
+                        quod tam bonitas quam unitas et veritas sint ita in
+                        separabiles ab ente quod nec Deus (g) posset eas separare ab
+                        eo nec ipsum ab eis.</p>
+                    
+                    <p>Hae igitur sunt diversitates opinantium. — Quid autem
+                        hic sit veritatis meliorum iudicio derelinquo;
+                        si tamen aliquam haberem tenere, illam quae
+                        ponit quod aliquid addat tenerem, quia solemnior
+                        et communior est, licet neutram ob materiae
+                        profunditatem scirem sustinere ad plenum.</p>
+                    
+                    <p>Quicquid tamen sit de (a) lis, illud saltem amplius credo
+                        esse (b) verum, scilicet quod ratio unius secundum
+                        rem dicat aliquid positivum quam quod tantummodo
+                        negativum. Et idem credo de ratione simplicis.
+                        Licet enim a nobis (c) describantur per quasdam negationes,
+                        nihilominus tamen per illas intendimus circumloqui illud
+                        positivum quod realiter dicunt (d). Si enim dicerent tantum
+                        rationem negativam, non comprehenderent secundum rationem
+                        sui nominis tantam perfectionem et nobilitatem quantam
+                        dicunt. Maxima enim perfectio est esse complete unum (e)
+                        et simplex; significant enim aut perfectionem identitatis aut
+                        rationem perfectae adhaesionis componentium ad se invicem
+                        aut rationem indistantis mansionis in se ipso aut aliquid aequivalens.
+                        — Nec valet contra hoc quod cum multitudo dicatur
+                        positive, quod oportet quod unitas quae ei opponitur dicat
+                        privationem (f) ipsius; quia et in contrarie oppositis seu (g)
+                        disparatis et in relative oppositis unumquodque oppositorum
+                        implicat negationem sui oppositi respectu subiecti quod denominat
+                        (h); et tamen utrumque praeter hoc dicit aliquid positivum;
+                        sic autem est de multitudine et unitate ei opposita
+                        relative uno modo et alio modo disparate.</p>
+                    
+                    <p>Ratio autem veri, prout credo, dicit rationem
+                        cuiusdam confirmativae affirmationis. Unde
+                        quando dicimus <quote>iste lapis est verus lapis</quote> aut <quote>hoc est
+                        verum aurum</quote>, per appositionem veri intendimus confirmare
+                        id quod per aurum affirmative significaveramus et per ipsum
+                        affirmationem factam quasi ingeminare; ut sit quasi sensus
+                        <quote>hoc est verum aurum</quote>, id est, <quote>vere ita est quod hoc est
+                        aurum</quote>. Aut potius verum non plus addit ad ens quam reale;
+                        ens enim est commune ad ens secundum solam apparentiam
+                        et opinionem et ad ens reale seu ad ens secundum rem; et per
+                        verum intendimus specificare ens ad ens secundum rem, sicut
+                        et per hoc quod dico <quote>per se</quote> specificamus ens ad genus
+                        substantiae. Bonum autem, ut dictum est, dicit rationem perfecti
+                        vel perfectivi. Et forte haec est causa quare verum
+                        magis dicitur obiectum intellectus quam bonum et e contrario
+                        respectu voluntatis; quia ad intellectum spectat affirmare
+                        realia et negare non realia et rem, prout est, apprehendere
+                        ad hoc quod sit verus, appetitus autem quaerit perfici a suo
+                        obiecto seu in suo obiecto. Aut fortassis ideo factum est,
+                        quia proprietas est habitus et actus intellectualis potentiae
+                        quod sit verus vel falsus, voluntatis vero quod sit bonus vel
+                        malus. Et quia (a) rationes proprias potentiarum attribuimus
+                        et appropriamus obiectis frequenter; ideo intellectus dicitur
+                        habere veritatem pro obiecto; quia tunc apprehendit quidditatem
+                        entium quae est verum (b) eius obiectum, quando
+                        apprehendit vere; etsi enim apprehendat vere non entia, hoc
+                        non potest sine apprehensione entis et nisi per ipsum.</p>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

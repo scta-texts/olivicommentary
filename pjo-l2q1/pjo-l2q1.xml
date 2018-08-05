@@ -1,0 +1,1793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Quaestio 1</title>
+        <author xml:id="PJO">Peter John Olivi</author>
+        <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.05">
+          <title>Librum II, Quaestio 1</title>
+          <date when="2015-05-09">May 09, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Ad Claras Aquas</publisher>
+        <pubPlace>Quaracchi</pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="1922">1922</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Quaestions In Secundum Librum Sententiarum, ed. Bernardus Jansent, S.I, Ad Claras Aquas, 1922</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-04-27" who="#JW" status="draft" n="2015.05">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pjo-l2q1">
+        <head>QUAESTIO I.</head>
+        <p>Primo quaeritur an Deus alicui creato vel creabili possit communicare potentiam creandi.</p>
+        <div>
+        <head>Et videtur quod sic.</head>
+        
+        <p>Et primo ex parte termini ad quem:</p>
+        
+        <p>1. Omnis effectus finitus potest fieri ab aliqua causa finita, tum quia talis effectus 
+          <app>
+            <lem>finitus</lem>
+            <rdg wit="#B4" type="om."/>
+          </app> 
+          non excedit in infinitum
+effectus causarum 
+          <app>
+            <lem>finitarum,</lem>
+            <rdg wit="#B4">secundarum</rdg>
+          </app> 
+          tum quia causa 
+          <app>
+            <lem>quae</lem>
+            <rdg wit="#B4">qua</rdg>
+          </app> 
+          sic potest in illud finitum quod non potest in maius est necessario finita; sed non solum unus, 
+          immo et unusquisque effectus creatus est finitus; ergo unusquisque eorum potest 
+          creari a causa finita. - Dicebatur quod licet effectus sit finitus, modus tamen faciendi est infinitus. 
+          - Contra: aut ille modus est aliquid factum seu aliquid ponens in ipso effectu aut non. 
+          Si sic, ergo aliquod infinitum est creatum, et sic omnis creatura esset infinita. Si non, ergo adhuc stat 
+          argumentum, quia quicquid est in effectu est finitum.</p>
+        
+        <p>2. Item, quod in infinitum exceditur a potentia alicuius 
+          agentis, nihil inconveniens si ·fiat ab illo, saltem per 
+          <app>
+            <lem>speciale</lem>
+            <rdg type="corrReplace">
+              <!-- not sure what witness this is; probably vat witness -->
+              <corr>
+                <add>speciale</add>
+                <del>specialem</del>
+              </corr>
+            </rdg>
+          </app> 
+          donum Dei; sed quicquid est in corporalibus terminus 
+          seu per se effectus creationis est in infinitum minus 
+          quacunque substantia et potentia 
+          <app>
+            <lem>intellectuali</lem>
+            <rdg wit="#B4">spirituali</rdg>
+          </app>; 
+          ergo et cetera.</p>
+        
+        <p><pb n="2"/>Secundo, ex parte termini a quo, scilicet de nihilo:</p>
+        
+        <p>3. Ubi enim nulla est distantia nec resistentia, nulla est 
+          realis magnitudo aut infinitas distantiae et resistentiae; sed 
+          inter <sic>nihilitatem</sic> praecedentem rem creatam et inter eius 
+          entitatem vel esse nulla est realis distantia intermedia, nec 
+          praefata nihilitas potest realiter resistere causae activae illius 
+          esse; ergo videtur quod longe minoris potentiae sit facere 
+          <app>
+            <lem>rem</lem>
+            <rdg wit="#B4">aliquid</rdg>
+          </app> 
+          de nihilo quam facere illud de contrario seu de subiecto 
+          eius contrarium in se habente.</p>
+        
+        <p>Tertio, ex parte subiecti passi vi actionum creatarum:</p>
+        
+        <p>4. Patiens enim, in quantum patiens, nihil agit; ergo, in 
+          quantum tale, in nullo coadiuvat actionem potentiae activae, in 
+          quantum est agens; ergo absque omni 
+          <app>
+            <lem>patiente</lem>
+            <rdg type="corrReplace">
+              <!-- not sure what witness this is that makes the correction, probably vatican text -->
+              <corr>
+                <add>patiente</add>
+                <del>pastiente</del>
+              </corr>
+            </rdg>
+          </app> 
+          et absque omni ordine ad patiens potentia activa creata poterit suam 
+          actionem 
+          <app>
+            <lem>agere</lem>
+            <rdg wit="#B4">facere</rdg>
+          </app> 
+          et maxime cum supernaturali dono vel 
+          auxilio Dei; sed hoc non est aliud quam de nihilo creare; 
+          ergo et cetera.</p>
+        
+        <p>Quarto, ex praecellentia formae ad materiam:</p>
+        
+        <p>5. Ex qua videtur quod maius sit facere formam quam 
+          materiam; sed multa agentia efficiunt formas; ergo multo 
+          magis possunt efficere essentiam materiae, saltem per singulare 
+          donum Dei; sed hoc est creare; ergo et cetera.</p>
+        
+        <p>Quinto, ex factione primarum influentiarum cuiuscunque 
+          agentis:</p>
+        
+        <p>6. Quae, ut videtur, necessario fiunt de nihilo, cum naturaliter 
+          praecedant eductionem quae fit de materia seu de aliquo.</p>
+        
+        <p>Sexto, ex parte divini posse et sui possibilis:</p>
+        
+        <p>7. Deus enim potest omne illud in quo non 
+          <app>
+            <lem>cadit</lem>
+            <rdg wit="#B4">includitur</rdg>
+          </app> 
+          contradictio; sed in hoc quod creatura creet non includitur 
+          contradictio, tum quia ex hoc creatura non ponitur esse infinita, 
+          immo potius limitata a Deo ad certa creabilia et ad 
+          terminatum modum sic vel sic creandi - utpote dato quod 
+          non possit creare nisi capras, et hoc nisi centum, et hoc 
+          tantum per decem dies -; tum quia ex hoc 
+          <app>
+            <lem>multo minus</lem>
+            <rdg wit="#B4">non</rdg>
+          </app> 
+          ponitur esse Deo aequalis, immo ponitur esse sub Deo, et in 
+          hoc ipso est dependens a Deo, et hoc ipsum accipiens a Deo; 
+          tum quia ex hoc creaturae sic creanti non debetur illud genus 
+          latriae seu adorationis quod 
+          <app>
+            <lem>competit</lem>
+            <rdg wit="#B4">debetur</rdg>
+          </app> 
+          soli uni et summo 
+          <pb n="3"/> Deo, quia ex hoc non habet nec dicitur habere rationem 
+          summi creatoris, sed solum 
+          <app>
+            <lem>subsecundarii</lem>
+            <rdg wit="#B4">subsidiarii</rdg>
+          </app> 
+          et instrumentalis.</p>
+        
+        <p>Septimo, ex praecellentia actuum liberorum seu libertatis creatae:</p>
+        
+        <p>8. Si enim naturae corporales vel naturae non liberae potuerunt 
+          hanc potestatem a Deo accipere quod ad earum actus 
+          sequantur in rebus aliis mirabiles effectus, utpote quod de 
+          <app>
+            <lem>aere</lem>
+            <rdg type="corrReplace">
+              <!-- witness unclear probably vat -->
+              <corr>
+                <del>aree</del>
+                <add>aere</add>
+              </corr>
+            </rdg>
+          </app> 
+          fiat ignis vel productiones arborum 
+          <app>
+            <lem>et</lem>
+            <rdg wit="#B4">vel</rdg>
+          </app> 
+          animalium: multo magis, ut videtur, potuit ipsam a Deo 
+          <app>
+            <lem wit="#B4">accipere</lem>
+            <rdg wit="#V">recipere</rdg>
+          </app> 
+          voluntas angelica et eius imperiosum velle; sed 
+          <app>
+            <lem>perinde</lem>
+            <rdg wit="#B4">idem</rdg>
+          </app> 
+          est quod ad solum imperium sui velle arbor vel animal de 
+          nihilo producatur sicut et si de aliquo producatur, quia illud 
+          de quo educeretur in nullo iuvat velle, et quia ita 
+          <app>
+            <lem>fit</lem>
+            <rdg type="corrReplace">
+              <corr>
+                <del>fuit</del>
+                <add>fit</add>
+              </corr>
+            </rdg>
+          </app> 
+          in instanti, et quia illud velle non oportet quod plus contingat 
+          illam materiam de qua 
+          <app>
+            <lem>fiet</lem>
+            <rdg wit="#B4" type="intextu">illa</rdg>
+          </app> 
+          arbor quam ipsum nihil de quo fieri dicitur; unde et videmus quod apud Deum aequalia 
+          sunt suo solo velle facere aliquid de aliquo et facere aliquid 
+          de nihilo.</p>
+        
+        <p>9. Item, ratio cui quidam innituntur 
+          <app>
+            <lem>non</lem>
+            <rdg wit="#B4">nihil</rdg>
+          </app> 
+          videtur valere. 
+          Dicunt enim quod si aliqua creatura crearet aliquod ens, 
+          tunc eo ipso posset creare omne ens; quia creans non dat 
+          solum esse in hoc particulari, sed etiam dat seu facit ipsum 
+          esse absolute. - Contra hoc 
+          <app>
+            <lem>enim</lem>
+            <rdg wit="#B4">autem</rdg>
+          </app> 
+          arguo: quia videmus quod lux generans radium dat sibi totam essentiam et tamen 
+          non propter hoc potest generare omnem radium eiusdem 
+          generis nec etiam eiusdem speciei, quia non potest generare 
+          radium genitum vel generabilem ab 
+          <app>
+            <lem>alia</lem>
+            <rdg type="corrReplace">
+              <corr>
+                <del>aliqua</del>
+                <add>alia</add>
+              </corr>
+            </rdg>
+          </app> 
+          luce sibi consimili. 
+          - Praeterea, unde sequitur: potest creare hoc esse vel 
+          esse in hoc, ergo potest creare omne esse? hic enim ex singulari 
+          infertur universalis; et ita est ibi, ut videtur, fallacia 
+          consequentis.</p>
+        
+        <p>10. Item, non videtur valere quaedam alia ratio qua dicitur 
+          quod illud quod non agit se toto non potest facere 
+          totum; non enim agit per id quod est in eo materiale seu 
+          passivum vel potentiale, sed solum per 
+          <app>
+            <lem>id</lem>
+            <rdg wit="#B4">illud</rdg>
+          </app> 
+          quod est in eo activum et formale. Ex quo videtur quod non possit agere 
+          nisi formam, non autem materiam, et praecipue quia nihil 
+          agit nisi sibi simile. - Contra hanc enim rationem arguitur:
+          <pb n="4"/> primo, quia dato quod forma miraculose, fiat sine materia, 
+          sicut de formis accidentium fit in sacramento altaris, tunc 
+          ad minus forma illa aget se tota; ergo saltem tunc poterit 
+          creare; constat autem quod forma non est minus potens in 
+          sua materia quam existens extra suam materiam; ergo et cetera. 
+          - Secundo, quia ex hoc non probatur quin saltem forma 
+          possit creare formam, sicut creatur forma gratiae a Deo in 
+          mentibus nostris. - Tertio, quia non omnibus constat quin a 
+          Deo possit fieri aliqua 
+          <app>
+            <lem>pura</lem>
+            <rdg wit="#B4" type="om."/>
+          </app> 
+          forma, nulla egens materia; 
+          et tunc 
+          <app>
+            <lem>videtur</lem>
+            <rdg wit="#B4">videtur</rdg>
+          </app> 
+          quod videtur quod illa ageret se 
+          <app>
+            <lem>tota.</lem>
+            <rdg type="corrReplace">
+              <corr>
+                <del>totam</del>
+                <add>tota</add>
+              </corr>
+            </rdg>
+          </app> 
+          - Quarto, quia nullum agens agit se toto, id est, secundum 
+          totalem ambitum suae virtutis, nisi quando in uno actu facit 
+          totum illud quod facere potest; sicut dicimus quod 
+          <app>
+            <lem wit="#B4">fit</lem>
+            <rdg wit="#V">fuit</rdg>
+          </app> 
+          in productionibus Dei personalibus; unde Deus in creando hanc 
+          vel illam rem non explicat totum ambitum sui posse; 
+          <app>
+            <lem>non</lem>
+            <rdg wit="#B4">unde</rdg>
+          </app> 
+          videtur ergo quod ad actum creandi exigatur quod creans 
+          agat se toto.</p>
+        
+        <p>11. Item, actio quae fit in speciebus sacramenti altaris 
+          nullum penitus habet recipiens, quia nulla est ibi materia ac per 
+          consequens nec potentia materialis; ergo illa fit penitus 
+          de nihilo et per modum creationis; sed illa fit ab 
+          agente creato; ergo et cetera. - Dicebatur quod agens 
+          <app>
+            <lem>illud</lem>
+            <rdg wit="#B4">ita</rdg>
+          </app> 
+          exigit certum aspectum ad locum specierum et ad species ipsas et quod aspiciendo eas quodam modo habet aspectum ad 
+          materiam speciebus debitam. - Contra: quia quod non eget 
+          patiente propter receptionem suae actionis non eget loco vel 
+          forma patientis, in quantum est patiens; cum etiam materia 
+          specierum sacramentalium non sit ibi secundum 
+          <app>
+            <lem>se,</lem>
+            <rdg wit="#B4">esse</rdg>
+          </app> 
+          idem est aspicere ad eam quod aspicere ad omnino nihil. - Praeterea, 
+          ad quid oportet quod aspiciat species, nisi dicatur quod 
+          ipsae recipiunt actionem eius et ita quod vere habeant rationem 
+          materiae et subiecti primi?</p>
+        
+        <p>12. Item, quicquid potest Deus velle potest facere; sed 
+          potest velle dari alieni potentiam creandi, immo 
+          <app>
+            <lem>et</lem>
+            <rdg wit="#B4" type="om."/>
+          </app> 
+          potest velle quaecumque contradictoria, ut probabo; ergo et cetera. 
+          - Probatio minoris: quia Dei velle est tanti ambitus quanti 
+          est suum scire seu cogitare; sed ipse cogitat omnes contradictiones 
+          et optime novit eas et earum compositiones; ergo 
+          non solum potest eas velle, sed et vult eas. - Dicebatur 
+          quod Dei velle et scire sunt aequalis ambitus respectu eius
+          <pb n="5"/> in quo sunt seu respectu suae essentiae, non autem respectu 
+          eius ad quod sunt seu respectu obiectorum suorum. - Contra: 
+          maius est illud quod respectu sui et respectu obiecti est 
+          maioris ambitus quam illud quod altero modo solum. - 
+          Praeterea; infinitum non potest excedi, quia eo ipso esset 
+          finitum; si ergo Dei voluntas habet obiecta infinita, ergo 
+          non potest excedi ab obiecto scientiae Dei. - Dicebatur 
+          aliter ad primum, scilicet quod Dei scientia respicit quaedam 
+          per modum quidditatis, sciendo scilicet rationes seu 
+          quidditates eorum, in quibusdam vero ultra hoc scit eorum 
+          existere, utpote scit quod sunt vel 
+          <app>
+            <lem>erunt</lem>
+            <rdg wit="#B4">essent</rdg>
+          </app> 
+          seu fient vel fuerunt et quod consimiliter divinum velle se habet ita quod illa 
+          quae Deus scit ut quidditates solum, non autem eorum existere 
+          nec eorum fieri vult solum ut quidditates, quorum autem 
+          scit existentiam vult et eam. - Contra: Deus scit peccatum 
+          aliquod esse futurum et fiendum 
+          <app>
+            <lem>vel</lem>
+            <rdg wit="#B4">et</rdg>
+          </app> 
+          factum et tamen 
+          non vult nec potest velle quod illud fiat vel sit vel fuerit. 
+          - Dicebatur et aliter quod illa quae Deus cogitat ut vera 
+          potest velle, quia illa sola cogitat cum assensu, ilia vero 
+          quae cogitat ut falsa et cum dissensu non potest velle. - 
+          Contra: Nulla Deus cogitat ut falsa, quin apud se cernat 
+          compositionem praedicati cum subiecto, utpote cum cogitat 
+          falsum esse vel a me dictum esse quod homo non est homo; 
+          sed quoscunque terminos potest divinus intellectus componere 
+          tot potest et suum velle; ergo et cetera.</p>
+        </div>
+        <div>
+        <head>[Respondeo]</head>
+        <p>Circa quaestionem hanc fuit opinio <name ref="#Lombard">Magistri Sententiarum</name> 
+          quod Deus posset ali cui communicare potentiam 
+          creandi, non tamen suam propriam quae est increata, sed 
+          aliam factam ab eo. Unde 
+          <ref>
+            <seg>libro IV, distinctione V,</seg>
+            <bibl>Cap. 3 (II:776)</bibl>
+          </ref> ubi quaerit an Christus potestatem remittendi peccata interius, 
+          scilicet emundando vitia a cordibus, potuerit dare alieni, dicit 
+          quod 
+          <cit>
+            <quote>potuit, non quidem ipsam eandem qua ipse potens 
+              est, sed creatam, ita quod quicquid operaretur faceret 
+              Deo 
+              <app>
+                <lem>auctore.<!-- some correction here --></lem>
+              </app>
+            </quote>
+          </cit> 
+          Et subdit: 
+          <cit>
+            <quote>Quod ita etiam posset Deus 
+              per aliquem creare 
+              <app>
+                <lem>aliqua,</lem>
+                <rdg wit="#B4">alicam</rdg>
+              </app> 
+              non tanquam per auctorem 
+              <pb n="6"/> principalem, sed tanquam per ministrum cum quo et in quo 
+              operaretur.</quote></cit> Subdit tamen quod 
+          <cit>
+            <quote>si quis melius aperire possit, non invideo.</quote>
+          </cit>
+        </p>
+        
+          <p>Haec autem opinio communiter non tenetur nec est, ut 
+            credo, aliquo modo tenenda. Unde 
+            <ref>
+              <name ref="#JohnDamascenus">Damascenus,</name> libro II, capitulo De Angelis,
+            </ref> 
+            dicit e): 
+            <cit>
+              <quote>Quicunque aiunt angelos conditores cuiuscunque 
+                <app>
+                  <lem>esse</lem>
+                  <rdg wit="#B4" type="om."/>
+                </app> 
+                substantiae, hi sunt patris sui 
+                diaboli; creaturae 
+                <app>
+                  <lem>enim</lem>
+                  <rdg wit="#B4" type="om."/>
+                </app> 
+                existentes non sunt conditores.</quote>
+              <bibl>De fide orth., II, 3 (PG 94, 874)</bibl>
+            </cit> 
+            Item 
+            <ref>
+              <name ref="#Augustine">Augustinus,</name> libro III <title ref="#deTrinitate">De Trinitate,</title> capitulo 7,
+            </ref> 
+            dicit: 
+            <cit>
+              <quote>Nec sane illi mali angeli dicendi sunt creatores, 
+                quia per illos magi ranas et serpentes fecerunt; non enim 
+                eos 
+                <app>
+                  <lem>ipsi</lem>
+                  <rdg wit="#B4">ipsos</rdg>
+                </app> 
+                creaverunt, sed ex occultis seminibus rebus a creatore
+inditis illos eduxerunt.</quote>
+              <bibl>Augustine, De Trinitate (PL 42: 875)</bibl>
+            </cit> 
+            Et post hoc subdit: 
+            <cit>
+              <quote>Sicut ergo nec parentes dicimus creatores hominum nec agricolas 
+                creatores frugum, ita non solum malos sed nec bonos angelos 
+                fas est putare creatores.</quote>
+              <bibl>Augustine, De Trinitate, L. c. (PL 42: 876)</bibl>
+            </cit> 
+            Et post: 
+            <cit>
+              <quote>Itaque <name ref="#Paul">Apostolus</name> 
+                discernens interius Deum creatorem atque formantem ab 
+                operibus creaturae quae admoventur extrinsecus et de agricultura 
+                similitudinem 
+              <app>
+                <lem>assumens</lem>
+                <rdg wit="#B4" type="om."/>
+              </app> ait: 
+              <cit>
+                <quote ana="#Icor3_6">Ego plantavi, <name>Apollo</name> rigavit, 
+                  <app>
+                    <lem>sed</lem>
+                    <rdg wit="#B4">autem</rdg>
+                  </app> 
+                  Deus incrementum dedit.</quote>
+                <bibl>I Ad Corinthios 3:6</bibl>
+              </cit> 
+                Sicut ergo mentem nostram iustificando formare non potest nisi Deus, 
+                praedicare autem extrinsecus evangelium et homines possunt, 
+                ita creationem rerum visibilium Deus interius operatur, 
+                exteriores autem operationes per alios revera adhibet. 
+                Quapropter ita non 
+                <app>
+                  <lem>possum</lem>
+                  <rdg wit="#B4">possumus</rdg>
+                </app> dicere angelos malos creatores 
+                fuisse ranarum, sicut non possum dicere homines malos esse creatores segetum.<!-- edition does not identify end of quote, but it is likely here -->
+              </quote>
+              <bibl>Augustine, L. C. (PL 42:876 sq.</bibl>
+            </cit>
+            Et plura de hoc dicit per totum capitulum 
+            illud et sequens. Ubi 
+            <app>
+              <lem>notandum</lem>
+              <rdg wit="#B4">notatur</rdg>
+            </app> 
+            quod utramque opinionem <name ref="#Lombard">Magistri</name>, de creatione scilicet et de iustificatione, 
+            simpliciter negat.</p>
+          
+          <p>Ad videndum autem, quare in creatura 
+            <app>
+              <lem>nullo modo</lem>
+              <rdg wit="#B4">non</rdg>
+            </app> 
+            possit talis potentia recipi nec esse, ex actione actus creationis 
+            et concomitantium aut consequentium ipsam portet 
+            nos deduci seu manuduci. Creatio enim proprie sumpta, 
+            quantum est 
+            <app>
+              <lem>ex</lem>
+              <rdg wit="#B4">de</rdg>
+            </app> 
+            se et ex parte creantis, non eget aliquo 
+            recipiente aut sustentante vel terminante actionem eius; et 
+            <pb n="7"/> multo minus, quantum est ex se, eget aliqua materia de 
+            qua vel ex qua faciat illud quod facit. De ratione etiam 
+            eius est quod creans possit in totum esse et existere sive 
+            in totam essentiam, existentiam et subsistentiam eius quod 
+            creatur.</p>
+        
+          <p>Ex his autem probatur quod orime creans habet perfectiones 
+            soli summo Deo competentes ac per consequens 
+            quod est summus Deus. Constat autem quod Deus nulli alii 
+            a se potest dare aliquid in quo includatur quod faciat eum 
+            summum Deum et idem quod ipsum.</p>
+        
+          <p>Quod autem omne creans habeat huiusmodi 
+            perfectiones divinas, utpote, summam absolutionem, 
+            summam immensitatem et <corr>illimitationem<!-- not sure how it is corrected --></corr>, 
+            omnipotentiam, simplicitatem, summam 
+            dominationem et imperiositatem, summam independentiam et causalissimam ac radicalissimam 
+            in omnibus intimitatem et consimilia 
+            sic probo.</p>
+        
+          <p>Et primo de summa absolutione: 
+            Quod enim nullo patiente aut obiecto terminante nec 
+            aliquo materiali ad suam actionem eget potest agere et agit 
+            absque omni aspectu, id est, absque virtuali protensione et 
+            conversione seu 
+            <app>
+              <lem>determinata</lem>
+              <rdg wit="#B4">determinate</rdg>
+            </app> 
+            sui applicatione ad quemcunque 
+            locum vel ad quodcunque forinsecum vel ad quemcunque 
+            realem terminum sui virtualis aspectus 
+            <app>
+              <lem>terminativum.</lem>
+              <rdg wit="#B4">terminatum</rdg>
+            </app> 
+            Patens est autem quod iste est modus 
+            <app>
+              <lem>absolutissimus,</lem>
+              <rdg type="corrReplace">
+                <corr>
+                  <del>solutissimus</del>
+                  <add>absolutissimus</add>
+                </corr>
+              </rdg>
+            </app> 
+            ita quod ex parte obiecti vel effectus non potest 
+            absolutior dari. Constat autem 
+            <app>
+              <lem>quod</lem>
+              <rdg type="corrAddition">
+                <corr>
+                  <add place="margin">quod</add>
+                </corr>
+              </rdg>
+            </app> 
+            absolutissimus modus 
+            agendi et virtutis activae respectu eius exigit absolutissimum 
+            modum existendi ac per consequens et absolutissimam 
+            essentiam. - Rursus, quod est absolutum ab omni aspectu 
+            ad quodcunque extrinsecum nullam habet partialem colligantiam 
+            cum aliqua parte universi, sed potius ad omnia se 
+            habet, quantum est ex se, uniformiter et absolutissime; ergo 
+            oportet quod vel ad ipsa se habeat ut omnia modo divino 
+            absolutissime circumplectens aut quod nec per modum totius 
+            nec 
+            <app>
+              <lem>per modum partis</lem>
+              <rdg type="corrReplace">
+                <corr>
+                  <del>partis per modum</del>
+                  <add>per modum partis</add>
+                </corr>
+              </rdg>
+            </app> 
+            aliquam coordinationem habeat cum partibus universi. Quocunque autem horum dato, licet
+            <pb n="8"/> utrumque sit impossibile, oportet quod sit 
+            <app>
+              <lem>abstractissimum</lem>
+              <rdg wit="#B4">absolutissimum</rdg>
+            </app> 
+            ab omni conditione particulari seu partiali ac per consequens 
+            quod sit universalissimum ac per consequens 
+            <app>
+              <lem>et</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            imparticipatum.</p>
+        
+          <p>De immensitate etiam, 
+            <app>
+              <lem wit="#B4">praeter</lem>
+              <rdg wit="#V">principaliter</rdg>
+            </app> 
+            hoc quod iam dictum est, secundario probo:</p>
+        
+          <p>Quod enim in agendo ad nullum locum est conversum 
+            seu applicatum ita potest agere in uno sicut in alio, 
+            et qua ratione in uno eadem ratione in omnibus, et qua ratione 
+            in locis actu existentibus eadem ratione in cunctis 
+            locis possibilibus; ergo eius potentia actu se extendit ad 
+            omnem locum possibilem esse et ita habet potentiam immensam. 
+            - Praeterea, cum omne agens sit immediate praesens 
+            suo effectui immediato et omni suo effectui, dum fit, 
+            <app>
+              <lem>sit</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            praesens mediate vel immediate: oportet quod omne 
+            agens, absolutissime potens in omnia loca actualia et possibilia, 
+            omnibus absolutissime sit praesens et in illo nunc in quo 
+            potest in quolibet immediate agere oportet quod sit immediate; 
+            et cum nulli possit adesse mediate, nisi ipsum determinate 
+            aspiciat per aliqua intermedia - cuius contrarium 
+            datur in proposito -: 
+            <app>
+              <lem>praedictum</lem>
+              <!-- unclear corrections; text says B4 praemittit si -->
+            </app> 
+            agens seu creans oportet 
+            quod omnibus quibus est praesens sit praesens immediate. 
+            - Rursus, cum agens prius naturaliter sit quam suus 
+            effectus: qua ratione oportet quod agens sit praesens loco 
+            in quo aliquid creat oportet quod prius naturaliter sit ibi 
+            praesens quam ibi aliquid ab eo fiat. Ex hoc autem sequitur 
+            quod creans praefatum sit in omnibus locis possibilibus, antequam 
+            aliquid sit actu factum in eis ac per consequens 
+            et antequam ipsa sint actu, quia ipsa loca nihil reale ponunt 
+            praeter illa quae sunt in eis. Quis autem dubitet quin talis 
+            modus praesentialitatis et immensitatis competat soli Deo? 
+            - Amplius, effectus totam suam essentiam et existentiam 
+            praedicto modo accipiens a sua causa semper eget praesentia 
+            suae causae; ergo quocunque transferatur, habet suam 
+            causam immediate praesentem nec ex ratione suae localis 
+            <app>
+              <lem>translationis</lem>
+              <rdg wit="#B4">transitionis</rdg>
+            </app> 
+            variabitur habitudo eius ad praefatam causam 
+            essentiae suae; ergo, nulla locali mutatione facta in creante, 
+            oportet ipsum esse ubicunque sua creatura 
+            <app>
+              <lem>feretur</lem>
+              <rdg wit="#B4">fertur</rdg>
+            </app> 
+            aut poterit ferri. Ex quo iterum sequitur quod creans sit simul 
+            ubique, non solum in locis actualibus, sed in omnibus ad
+            <pb n="9"/> quae sua creatura poterit quomodocunque transferri. Et 
+            ultra hoc sequitur quod non solum aspectus eius ad creaturam 
+            suam sit abstractus ab omni respectu situali et locali, 
+            sed etiam quod eius effectus ad ipsum habeat respectum 
+            abstractum ab omni lege situali et locali. - Praeterea, 
+            omne quod dat totam essentiam et existentiam sui 
+            effectus et quicquid est reale in ipso oportet quod det sibi 
+            omnes reales respectus qui in ipso inveniri possunt; sed 
+            omne dans respectus reales oportet quod attingat terminos 
+            illorum respectuum; ergo omne creans oportet quod attingat 
+            omnes illos terminos qui realiter possunt inesse suo effectui; 
+            sed illi sunt infiniti; si enim creat materiam vel quamcunque 
+            potentiam passivam, tunc oportet quod attingat ad omnes 
+            formas modosque formales quos illa potest recipere. Et multo 
+            fortius oportet quod non solum praesentialiter sed etiam 
+            <app>
+              <lem>causaliter attingat omnia quae ex ipsa possunt educi, ac per 
+            consequens quod</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            causaliter attingat omnem virtutem activam 
+            cuiuscunque agentis 
+            <app>
+              <lem wit="#B4">quod</lem>
+              <rdg wit="#V">qui</rdg>
+            </app> 
+            de re ab ipso creata potest 
+            <app>
+              <lem>aliquid</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            educere. Si autem creat formam, tunc oportet quod 
+            attingat omnes materias quas illa quomodocunque posset 
+            informare; et cum forma sit causa formalis suae materiae 
+            et materia sit causa materialis seu 
+            <app>
+              <lem>supportativa</lem>
+              <rdg wit="#B4">subpositiva</rdg>
+            </app> 
+            suae formae, tunc oportet quod non solum praesentialiter sed etiam 
+            causaliter attingat omnes materias donabiles suo formali 
+            effectui et omnes formas donabiles suo materiali effectui. 
+            Constat autem quod omne tale est immensae causalitatis 
+            ac immensae potentiae et essentiae. - Praeterea, si creans, 
+            sicut iam probatum est, potest in omni loco creare, ergo 
+            quando creat aliquid in hoc loco, potest 
+            <app>
+              <lem>simul</lem>
+              <rdg type="corrReplace">
+                <corr>
+                  <del>similis</del>
+                  <add>simul</add>
+                </corr>
+              </rdg>
+            </app> 
+            aliquid eiusdem speciei facere in· alio, et ita in infinitis locis possibilibus 
+            potest facere infinita eiusdem speciei; nec curo 
+            quod fiant simul, sed 
+            <app>
+              <lem>quod</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            ipse habet simul totum illud 
+            posse. Videtur ergo quod non solum habet potentiam infinitam 
+            ad individua eiusdem speciei, sed etiam quod habet 
+            posse super totam speciem, quia sub specie illa non possunt 
+            plura dari aut intelligi quam illa quae ponuntur ab isto posse 
+            fieri. Ex hoc autem ulterius arguo: quia secundum hoc totam 
+            speciem cuiuscunque materiae vel formae ab ipso 
+            <app>
+              <lem>creabilis vel creatae</lem>
+              <rdg wit="#B4">creabili vel creante</rdg>
+            </app> 
+            habet sub sua potentia et causalitate; 
+            <pb n="10"/> sed species primae materiae vel priorum formarum continet 
+            sub se innumeras species formarum seu differentiarum sequentium; 
+            ergo et creator eius continebit sub sua potentia 
+            omnia illa. Loquor 
+            <app>
+              <lem>autem</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            hic de specie quae competit 
+            materiae vel prioribus formis ex sola ratione suae simplicis 
+            essentiae per quam essentialiter et realiter differt ab omni 
+            essentia aliarum formarum sibi annexa. - Praeterea, creans 
+            secundum praedicta non limitatur in agendo ex parte patientis 
+            aut alicuius forinseci nec ex effectu quem fecerit limitatur 
+            ad simile peragendum, cum eadem potentia creativa 
+            remaneat sibi nec illa quae facit in se recipiat tanquam in 
+            materiam vel subiecto ipsorum, et ita nunquam plus vel 
+            minus in se repleatur per plurificationem illorum; ergo 
+            stante primo effectu ut iam facto potest in secundum; ambobusque 
+            stantibus potest in tertium; tribusque stantibus 
+            potest in quartum et sic infinitum; ergo 
+            <app>
+              <lem>omne</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            creans habet potentiam infinitam. - Praeterea, omne creans est exemplar 
+            sui effectus, non enim potest facere nisi sibi simile; si ergo 
+            creat materiam et formam et varias proprietates sui effectus, 
+            oportet quod omnium sit exemplar; sed constat quod materia 
+            non potuit creari a materia aut a potentia passiva, in quantum 
+            passiva, ergo oportet quod forma seu potentia creativa ipsius 
+            creantis sit talis et tanta quod possit esse exemplar materiae 
+            et omnium proprietatum materialium et universaliter omnium 
+            quae sunt in effectu; sed talis forma est immensa et supra 
+            <app>
+              <lem>omne</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            genus et ad nullam speciem determinati generis 
+            limitata; ergo et cetera. Intellige autem quod ipsa potentia 
+            creativa erit necessario hoc exemplar, quia ipsa est principium 
+            formale et activum creandorum vel creatorum ab ea. 
+            - Praeterea, nullum creans potest creare aliquid sibi univocum, 
+            quia nulla essentia ab altero 
+            <app>
+              <lem>totaliter</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            exiens et dependens est eiusdem speciei aut generis cum illa, cum in 
+            infinitum transcendatur ab illa et cum sit quaedam participatio 
+            et quaedam influentia 
+            <app>
+              <lem>seu</lem>
+              <rdg wit="#B4" type="om."/> <!-- edition reads "B4 om. i. s." not exactly sure what i.s. means -->
+            </app> influxa similitudo illius, ita quod 
+            <app>
+              <lem>eius</lem>
+              <rdg type="corrReplace">
+                <corr>
+                  <del>est</del>
+                  <add>eius</add>
+                </corr>
+              </rdg>
+            </app> 
+            esse est umbratile et volatile respectu esse 
+            suae causae; ergo creans habet transcendentiam analogam 
+            super omnia genera en tis ab eo creati vel creabilis; sed omne 
+            tale est immensissimum et omnipotentissimum et ens summe 
+            supremum; ergo et cetera. - Rursus, cum naturaliter non
+            <pb n="11"/> 
+            <app>
+              <lem>determinetur</lem>
+              <rdg wit="#B4">determinentur</rdg>
+            </app> 
+            ad illud genus creandum plus quam ad aliud 
+            ergo sicut 
+            <app>
+              <lem>potest</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            in illud analogum, sic et 
+            <app>
+              <lem>in</lem> <!-- some sort of correction here -->
+            </app> 
+            alia.</p>
+        
+          <p>Tertio probo hoc ipsum de omnipotentia:</p> 
+          
+          <p>Omne enim agens naturale seu naturaliter et necessario 
+            est ab altero applicatum et inclinatum et, ut ita dicam, impulsum 
+            ad agendum suos effectus; sed, ut iam dictum 
+            <app>
+              <lem>est,</lem>
+              <rdg wit="#B4" type="om."/>
+            </app>
+            talis modus agendi differt a creatione et a modo creandi; ergo 
+            impossibile est actum creationis esse ab aliquo naturaliter et 
+            necessario suum effectum agente; ergo oportet quod sit a solo 
+            imperio alicuius liberae voluntatis; ergo omne creans n creat 
+            per solum liberum imperium sui velle; sed omne tale potest 
+            creare quaecunque potest velle creare et quaecunque potest 
+            libere disponere et cogitare creanda potest etiam illa facere 
+            sub omni mensura et modo quam eis taxare voluerit; omne 
+            autem tale est omnipotentissimum; ergo et cetera. - Praeterea, 
+            potentia quae omnino eadem manens potest in 
+            <app>
+              <lem>opposita</lem>
+              <rdg wit="#B4">oppositis</rdg>
+            </app> 
+            est potentia liberrima; sed omnis potentia creans est 
+            huiusmodi, quia absque sui variatione potest effectum quem 
+            creat annihilare : alias nihil posset creare nisi sibi coaevum et 
+            etiam vehementer esset arctata ad agendum, si nunquam posset 
+            illud non agere; constat autem quod non potest fieri potens 
+            ad agere et non agere per successivam variationem sui 
+            aspectus, cum ponatur agere sine omni protensivo 
+            <app>
+              <lem>et</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            applicativo aspectu. - Praeterea, potentia creans non potest 
+            esse mota aut applicata ab aliqua potentia superiori sicut 
+            nostrae potentiae inferiores moventur et applicantur a voluntate, 
+            quia omnis talis potentia agit sub determinato aspectu 
+            et impulsu sibi ab altero dato; ergo omnis potentia creans 
+            est necessario potentia libera et suprema et nulli alii potentiae 
+            subiectibilis vel subiecta. - Praeterea, quod creat 
+            et conservat in aliis per se existentiam summam et firmissimam 
+            debet in se habere per 
+            <app>
+              <lem>se</lem>
+              <rdg wit="#B4" type="om."/> <!-- edition says "B4 om. p. s"; unclear what p.s. means -->
+            </app> 
+            existentiam tanquam 
+            causalem et exemplarem illarum 
+            <app>
+              <lem wit="#B4">rerum</lem>
+              <rdg wit="#V" type="om."/>
+            </app>
+            quas facit et facere potest; sed omnis existentia non libera nec personalis 
+            est incomparabiliter minor quacumque libera vel personali 
+            et omnis libera quae non potest alteri dare vel dare per se 
+            existentiam est incomparabiliter minor illa quae hoc potest; 
+            ergo omnis potentia creans est quaedam personalis et libera per se 
+            <app>
+              <lem>existentia</lem>
+              <rdg wit="#B4">existentis</rdg>
+            </app> 
+            in infinitum transcendens nostram perso<pb n="12"/>nalitatem 
+            et libertatem. - Praeterea, constat quod omnis 
+            forma corporalis aut sequens leges corporis nihil potest agere 
+            nisi sub certo aspectu, aliquo modo respiciendo determinatum 
+            situm et locum; ergo impossibile est quod potentia creans sit 
+            aliqua talis aut quod insit alicui tali formae; ergo potentia 
+            creans est necessaria potentia intellectiva et libera. Ex quo 
+            ulterius arguo: Omnis potentia intellectiva vel volitiva cuius 
+            actus differt ab ipsa nunquam potest operari suos actus nisi 
+            sub determinato aspectu ad immediata obiecta suorum actuum; 
+            oportet enim quod tam potentia quam eius actus fortissime 
+            applicentur alicui rationi obiectivae; si autem respectu actus 
+            intrinseci oportet earn per certos aspectus protendi, ergo 
+            multo magis hoc oportebit respectu vel effectus extrinseci; 
+            sed talis modus repugnat modo creationis et rationi eius; ergo 
+            oportet quod omnis potentia creativa sit talis potentia intellectualis 
+            quod ipsa sit suus actus, ita quod sit suum intelligere 
+            et suum velle; sed sicut alibi est probatum, omne tale est 
+            summus Deus; talis etiam potentia nihil operatur extra nisi 
+            per suum liberum velle et per suam liberam excogitationem 
+            et dispositionem fiendorum seu creandorum; ergo et cetera. 
+            - Praeterea, 
+            <app>
+              <lem>potentia</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            creans est in infinitum altior quacunque 
+            potentia quae eget patiente vel obiecto terminante 
+            ad hoc quod aliquid agat; ergo omnis potentia creans est 
+            in infinitum altior omni intelligentia et voluntate creata 
+            quae utique eget tam obiecto terminante quam intrinseco 
+            patiente, in quo scilicet sua actio recipiatur; sed nulla potest 
+            has potentias in infinitum excedere nisi sola potentia 
+            omnipotens quae est Deus; ergo et cetera.</p>
+        
+          <p>Quarto 
+            <app>
+              <lem>de</lem>
+              <rdg wit="#B4">ex</rdg>
+            </app> 
+            summa simplicitate hoc probo:</p>
+        
+          <p>Primo, quia omne compositum ex partibus est limitatum 
+            ad certum locum et 
+            <app>
+              <lem>agit</lem>
+              <!-- ed. says "in rasura" -->
+            </app> 
+            sub certo aspectu, quia si partes intra se per aspectus mutuos sibi invicem applicantur, 
+            multo magis ad exteriora ferri non possunt sine determinato 
+            <app>
+              <lem>et</lem>
+              <rdg type="corrReplace">
+                <corr>
+                  <del>in</del>
+                  <add>et</add>
+                </corr>
+              </rdg>
+            </app> 
+            speciali aspectu. - Secundo, quia omnis potentia habens 
+            partes aliam partem sui effectus agit per unam partem 
+            et aliam per aliam et alium aspectum habet una quam 
+            <app>
+              <lem>alia</lem>
+              <!-- ed says al. m. marg -->
+            </app> 
+            quae omnia repugnant modo creationis et potentiae creantis. 
+            - Tertio, quia quod omnibus locis et suis effectibus simul ad est 
+            et cuilibet 
+            <app>
+              <lem wit="#B4">parti</lem>
+              <rdg wit="#V" type="om."/>
+            </app> 
+            eorum oportet quod sit simplicissimum. 
+            - Quarto, quia potentia creandi est necessario idem quod 
+            <pb n="13"/> tota essentia creantis: si enim esset eius pars 
+            <app>
+              <lem>formalis</lem>
+              <rdg wit="#B4">corporalis</rdg>
+            </app> 
+            aut eius accidens, tunc necessaria haberet respectum partialem 
+            ad alias partes vel accidentalem ad principalem existentiam 
+            seu subsistentiam sui subiecti; et tunc non posset 
+            operari modo absolutissimo; tunc etiam non posset creare 
+            aliquam per se existentiam, ex quo ipsa per se et in se 
+            non haberet eam; tunc etiam non posset creare materiam 
+            nec aliquid quod non esset similitudo suae partialis vel accidentalis 
+            quidditatis. Ex hoc autem et etiam ex omnibus 
+            praecedentibus potes videre qualiter et quare est verum 
+            verbum dicentium quod omne creans agit per se toto et 
+            quod illud quod non agit se toto non potest creare.</p>
+        
+          <p>Quinto de summa dominatione hoc probo, licet ex praemrssis 
+            de omnipotentia et immensitate hoc satis elucescat:</p> 
+          
+          <p>Summum enim dominium super res est 
+            <app>
+              <lem>solo nutu eas</lem>
+              <rdg wit="#V">solo nutu ea</rdg>
+              <rdg wit="#B4">solo eas</rdg>
+            </app> 
+            facere et annihilare et in quodcunque res est vertibilis 
+            subito eam vertere; tale autem est creans super suum effectum; 
+            quod ex praemissis diligenter animadversis aperte 
+            probari potest: omnis enim variatio et variabilitas possibilis 
+            in esse creaturae subiacet plenarie potentiae ipsius creantis, 
+            et 
+            <app>
+              <lem>si</lem>
+              <rdg wit="#B4">sic</rdg>
+            </app> 
+            potuit facere eam de nihilo absque alicuius materia 
+            auxilio, multo magis de ipsa iam facta poterit facere omnia 
+            illa quorum ipsa est quomodocunque susceptibilis. - Rursus, 
+            si omne creans, ut iam dictum est, est necessaria ens intellectuale 
+            <app>
+              <lem wit="#B4">et</lem>
+              <rdg wit="#V" type="om."/>
+            </app> 
+            liberum, multo magis aut saltem aeque poterit 
+            creare entia participantia suam intellectualitatem et libertatem 
+            sicut et corporalia; et tunc habebit omnipotens dominium 
+            in illa. Cum enim formalis et finalis perfectio creaturarum 
+            dependeat a suo creante, non solum sub ratione 
+            causae efficientis sed etiam sub ratione causae exemplaris 
+            et finalis, quia omne totaliter originatum et substantificatum 
+            ab altero perficitur in continuatione et immediata coniunctione 
+            sui ad illud, ut, sicut ab illo totaliter exit sic 
+            illi totaliter cohaereat et in ilium totaliter redeat: oportebit 
+            quod illorum finalis et totalis perfectio sit in unione 
+            immediata sui ad ilium et ita eorum finalis beatitudo et 
+            formalis iustificatio erit illi subiecta sub ratione triplicis 
+            causae. Et si 
+            <app>
+              <lem>dicatur</lem>
+              <rdg wit="#B4" type="intextu">hoc</rdg>
+            </app> 
+            quod per hoc uniuntur illi, 
+            <app>
+              <lem>scilicet creanti, secundum quod uniuntur</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            et Deo: nihilominus 
+            <pb n="14"/> tanta dominatio cuiuscunque creaturae super quamcunque 
+            naturam vel personam intellectualem nullatenus est ponenda, 
+            et maxime quia soli illi essentiae quam ponet eius 
+            potentia creativa competet totaliter praedicta dominatio et 
+            dominativa perfectio et triplex causalis habitudo paulo ante 
+            praemissa. Et tunc oportebit quod essentia suae potentiae 
+            creativae sit caritas et iustitia et gloria talis ac tanta 
+            quod suae 
+            <app>
+              <lem>creaturae</lem>
+              <rdg type="corrReplace">
+                <corr>
+                  <del><unclear>creatus</unclear></del>
+                  <add>creaturae</add>
+                </corr>
+              </rdg>
+            </app> 
+            possint per eam iustificari et beatificari 
+            et summo Deo tanquam obiecto beatifico uniri; quae 
+            nullatenus stare possunt.</p>
+          
+        <p>Ulterius quaero an 
+          <app>
+            <lem>aliquod</lem>
+            <rdg wit="#B4">aliquid</rdg>
+          </app> 
+          aliud creatum poterit aliquid 
+          agere vel destruere in re creata ab illo. Si non, ergo 
+          omnis eius effectus est sibi in tantum summe subiectus quod 
+          nullum creatum praeter ipsum potest aliquid in illud; et 
+          praeter hoc sequitur quod res ab eo creatae nullam penitus 
+          connexionem habeant cum aliis rebus. Si sic, tunc duo inconvenientia 
+          sequuntur. Quorum primum est superius tactum, 
+          scilicet quod omnia quae agent in rem ab ipso creatam 
+          erunt eo ipso subiecta potentiae illius creantis, ita quod erunt 
+          tanquam illius instrumenta ab ipso intime possessa et mota. 
+          Secundum est quod potentia omnium talium agentium erit 
+          in infinitum minor potentia illius creantis, quia illa in agendo 
+          super rem ab illo creatam egent patiente et determinato 
+          aspectu super rem illam et immutando illam invenient aliquam 
+          contrarietatem et resistentiam; quorum nullum potest 
+          dari in creante respectu suae creaturae, unde nec ab ea 
+          nec ab aliquo altero potest vel ad modicum impediri quin 
+          facillime de ea faciat quicquid vult aut quicquid inde quomodocunque 
+          facere potest; si autem habet potentiam in infinitum 
+          maiorem potentiis aliorum agentium, tunc non solum 
+          est infinitum, sed 
+          <app>
+            <lem>
+              <app>
+                <lem>in</lem>
+                <!-- some kind of correction -->
+              </app> 
+          infinitum praevalens</lem>
+            <rdg wit="#B4">infinita praevalent</rdg>
+          </app> 
+          super illa. - 
+          Praeterea, si res ab eo creatae possunt agere in alia quaevis 
+          non creata ab illo, eo ipso sequitur quod sint ea subiecta, 
+          ita quod longe altiori modo potest in illa quam 
+          <app>
+            <lem>possint</lem>
+            <rdg wit="#B4">faciant</rdg>
+          </app> 
+          res ab eo creatae, quia illae nihil agunt aut agere possunt 
+          nisi ut instrumenta illius ab ipso intime possessa et acta.</p>
+        
+          <p>Sexto de summa independentia hoc ipsum probo:</p>
+        
+          <p>Omne enim cuius esse est essentialiter purum et summum 
+            <app>
+              <lem>necesse</lem>
+              <rdg wit="#B4">necessario</rdg>
+            </app> 
+            et summe indefectibile et invariabile nullo
+            <pb n="15"/>modo potest ab aliquo alio dependere, saltem sicut a creante 
+            vel conservante; sed omne creans est huiusmodi, cuius probatio 
+            ex 
+            <app>
+              <lem>omnibus</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            praecedentibus patet: quia omne cuius 
+            esse est immensum et imparticipatum et absolutissimum 
+            <app>
+              <lem>et omnipotentissimum</lem>
+              <rdg type="corrAddition">
+                <corr>
+                  <add place="margin">et omnipotentissimum</add>
+                </corr>
+              </rdg>
+            </app> 
+            oportet quod sit in 
+            <app>
+              <lem>agendo</lem>
+            </app> actualissimum 
+            et validissimum. - Praeterea, cuius essentia et 
+            esse habet firmitatem in infinitum stabiliorem esse creato 
+            oportet quod sit in infinitum distans a possibilitate non essendi; 
+            constat a utero quod esse creantis est in infinitum firmius 
+            quam esse cuiuscunque rei ab eo creatae vel 
+            <app>
+              <lem>creabilis</lem>
+              <rdg wit="#B4">creabilis</rdg>
+            </app>
+            ac per consequens et quam esse cuiuscumque rei 
+            eiusdem generis praedicamenti cum rebus ab eo creabilibus 
+            vel creatis aut quam quodcumque 
+            <app>
+              <lem>esse 
+                <app>
+                  <lem>quod</lem>
+                  <!-- corr intl somehow -->
+                </app>
+                non est in infinitum firimius quam sit</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            esse rerum ab eo creatarum; ergo et cetera. - Praeterea, cuius essentia et esse 
+            et posse simul et praesentialiter attingit omnia praeterita et  
+            futura, praesentia et totam possibilitatem temporum in ante 
+            et post ipsum est essentialiter aeternum ac per consequens 
+            et essentialiter increabile et increatum et est in essendo 
+            summe necessarium; sed ut ex praedictis et specialiter ex 
+            dictis de immensitate et de omnipotentia et praedominatione 
+            patet: omne creans est huiusmodi; non enim eius potentia 
+            aliter est 
+            <app>
+              <lem>omnipotenter</lem>
+              <rdg wit="#B4">omnipotens</rdg>
+            </app> 
+            et in immensum potens super 
+            omnia eiusdem genens vel speciei cum suis creatis nec aliter 
+            posset in immensum super omnem locum possibilem fore. 
+            - Praeterea, detur quod Deus iam diu ante creaverit aliquam 
+            rem cuius species est subiecta potentiae huius secundi 
+            creantis: constat quod eo ipso quod habet nunc talem creatricem 
+            potentiam potest in creationem et conservationem 
+            illius rei a Deo iam 
+            <app>
+              <lem wit="#B5">diu</lem>
+              <rdg wit="#B4 #V" type="intextu">et</rdg>
+            </app> 
+            creatae; sed hoc est impossibile, 
+            nisi eius 
+            <app>
+              <lem>praesentia</lem>
+            </app> 
+            praesentialiter attigerit eam in praeterito 
+            tempore quo fuit creata; ergo et cetera. - Praeterea, 
+            si omne creans, ut probatum est, creat per solum imperium 
+            sui 
+            <app>
+              <lem>velle, constat autem quod suum</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            velle ita libere potest 
+            ferri super praeterita et futura sicut 
+            <app>
+              <lem>et</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            super praesentia: 
+            ergo eius creatrix potentia ita praesentialiter attingit praeterita 
+            et futura sicut et praesentia.</p>
+        
+          <p><pb n="16"/>Septimo 
+            <app>
+              <lem>probo hoc</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            de causalissimo et radicalissimo 
+            <app>
+              <lem>et</lem>
+              <rdg type="corrAddition">
+                <corr>
+                  <add place="aboveLine">et</add>
+                </corr>
+              </rdg>
+            </app> 
+            intimissimo illapsu eius in omnia:</p>
+          
+        <p>Et primo patet hoc de his quae ponuntur ab eo creata; 
+          cum enim ab eo fiant absque omni protensione ad extra, oportet 
+          <app>
+            <lem>quod</lem>
+            <!-- some sort of correction here -->
+          </app> 
+          absolutissime faciat omnia intra se; sicut facit 
+          Deus; oportet etiam quod absolutissime adsit toti suo effectui 
+          et cuilibet parti eius et quod adsit ei tanquam causa statuens 
+          et intime tenens totam radicem suae essentiae et sui 
+          esse et suae per se 
+          <app>
+            <lem>existentiae</lem>
+            <!-- ed also says "al. m. mg. add. suae existentiae"  -->
+            <rdg wit="#B4">existenti</rdg>
+          </app> 
+          <app>
+            <lem>sive subsistentiae.</lem>
+            <rdg wit="#B4" type="corrAddition">
+              <corr>
+                <add>sive subsistentiae</add>
+              </corr>
+            </rdg>
+          </app> 
+          Ex praedictis autem de immensitate et omnipotentia patet quod 
+          <app>
+            <lem>etiam</lem>
+            <rdg wit="#B4">et in modo</rdg>
+          </app> 
+          praedicto illapsu sit praesens universaliter omnibus.</p>
+          
+        <p>Ex praedictis igitur satis, ut puto, patet et, si ab aliquo 
+          plenius pertractentur, poterit copiosius apparere quam impossibilis 
+          est positio praedicta et quantum derogat honori 
+          divino et omnium creaturarum quae potentiae secundi creantis 
+          subicerentur. Praeiudicat etiam omnibus quae secundum 
+          fidem tenentur de causalitate gratiae et gloriae, quod ad 
+          praesens in speciali pertranseo, quia ex tactis in materiis 
+          de gratia et gloria faciliter patere potest impugnatio praedictae 
+          positionis quoad hoc quod ponit potentiam iustificativam 
+          <app>
+            <lem>mentium,</lem>
+            <!--  some sort of lacunae here  -->
+          </app> 
+          id est, potentiam infusivam internae iustitiae 
+          mentium, 
+          <app>
+            <lem>posse</lem>
+            <!-- ita al. m. mg. -->
+          </app> 
+          communicari creaturae.</p>
+        </div>
+        <div>
+          <head>Solutio Obiectorum</head>
+          <p>1. Ad primum igitur in contrarium dicendum quod 
+            <app>
+              <lem>prima</lem>
+              <rdg wit="#B4" type="intextu">propositio</rdg>
+            </app> 
+            est falsa. Ad id ergo quod in eius probatione primo 
+            affertur, scilicet quod nullus effectus finitus excedit in infinitum 
+            effectus causarum finitarum, patet: quia hoc dupliciter 
+            est falsum, primo, loquendo de effectu non secundum id quod 
+            ponit in se, sed secundum hoc quod necessario exigit fieri a 
+            sola causa infinita et per modum agendi infinitum; secundo, quia 
+            <app>
+              <lem>plura</lem>
+              <rdg wit="#B7" type="om."/>
+            </app> 
+            sunt finita quae excedunt in infinitum plura 
+            <app>
+              <lem>finita,</lem>
+              <rdg type="corrReplace">
+                <corr>
+                  <del>infinita</del>
+                  <add>finita</add>
+                </corr>
+              </rdg>
+            </app> 
+            ut linea cubitalis est 
+            <app>
+              <lem>in</lem>
+              <rdg type="corrAddition">
+                <corr>
+                  <add place="margin">in</add>
+                </corr>
+              </rdg>
+            </app> 
+            infinitum maior puncto et punctus 
+            in infinitum simplicior ipsa et substantia intellectualis est in 
+            infinitum nobilior omni corpore. Sic etiam creatio passio et 
+            omnis creatura, in quantum est terminus creationis, excedit 
+            <pb n="17"/> in infinitum omnem effectum agentis creati quantum ad suum 
+            fieri, in quantum illud accipit ab agente creato. - Ad id 
+            etiam quod secundo affertur patet: quia licet potentia creans 
+            non possit in aliquem unum effectum infinitum propter contradictionem 
+            <app>
+              <lem>implicatam</lem>
+              <rdg wit="#B4">implicitam</rdg>
+            </app> 
+            ex parte talis effectus, potest tamen 
+            in infinita numero. Et licet illa infinita non possint 
+            fieri simul, Dei tamen posse quo in illa potest est totum 
+            simul. - Ad minorem etiam potest dici quod licet uno modo 
+            <app>
+              <lem>sit</lem>
+              <rdg wit="#B4">si</rdg>
+            </app> 
+            vera, loquendo scilicet de absoluta entitate creaturae, 
+            non tamen loquendo de ea in respectu ad causam et ad 
+            modum agendi suae causae. Sicut enim dicimus culpam esse 
+            infinitam, non quia habet essentiam infinitam, sed quia meretur 
+            poenam infinitam et quia offendit infinitum bonum 
+            scilicet Deum: sic effectus creationis potest dici infinitus, 
+            pro quanto non potest fieri nisi per causam infinitam et per 
+            modum agendi infinitum. Et pro tanto potest concedi ille 
+            modus respondendi qui subdebatur; quamvis enim modus faciendi 
+            nihil 
+            <app>
+              <lem>ponat</lem>
+              <rdg wit="#B4">ponit</rdg>
+            </app> 
+            absolute 
+            <app> <!-- dbcheck -->
+              <lem>infinitum</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            in creatura nihilominus 
+            ponit ibi quendam respectivum ordinem ad causam infinitam, scilicet ad ipsum creans et ad suum modum agendi 
+            infinitum, qui pro tanto potest dici et dicitur infinitus, pro 
+            quanto ex parte termini a quo non potest habere nisi terminum 
+            infinitum.</p>
+        
+          <p>2. Ad secundum dicendum quod prima 
+            <app>
+              <lem>propositio</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            non est universaliter vera, quia ad hoc ut aliquid possit fieri 
+            ab altero et maxime per modum creationis non sufficit quod 
+            illud excedat eum, sed oportet quod hoc sit 
+            <app>
+              <lem>aptum</lem>
+              <rdg wit="#B4" type="intextu">natum</rdg>
+            </app> 
+            fieri ab illo et tali vel tali modo; unde licet corpus brutale vel 
+            lapideum sit incomparabiliter vilius angelo vel anima rationali, 
+            non tamen potest informari ab eis nec voluntas posset 
+            in se generare actum oculi nec illum immediate elicere, 
+            quamvis sit incomparabiliter dignior oculo et eius visu.</p>
+        
+          <p>3. Ad tertium dicendum quod quando dicitur quod inter 
+            ens et omnino nihil est infinita distantia, 
+            <app>
+              <lem>non</lem>
+              <rdg wit="#B4" type="intextu" cause="repetitio">non</rdg>
+            </app> 
+            est intellectus 
+            quod inter illa sit aliqua quantitas infinita, sed quod 
+            per nullum 
+            <app>
+              <lem>gradatum ascensum</lem>
+              <rdg wit="#B4">graduum accesum</rdg>
+            </app> 
+            agentium creatorum vel 
+            finitorum potest uterque terminus sic attingi quod ens de 
+            omnino nihilo educere possit. Unde nulla magnitudo potentiae 
+            finitae attingit ens vel factibile in relatione ad omnino 
+            <pb n="18"/> nihil nec e contrario. - Rursus, falsum est quod subditur, 
+            scilicet quod facilius est facere rem de termino realiter non 
+            distanti nec repugnanti quam de termino realiter non distanti 
+            et repugnanti, nisi hoc intelligatur ceteris paribus. Plus enim 
+            importat subsidii sola praesentia passiva vel mobilis quam 
+            afferat impedimenti contraria forma vel dispositio 
+            <app>
+              <lem>ipsius mobilis. Plus etiam est nullo egere passivo</lem>
+              <rdg wit="#B4" type="om."/>
+            </app> 
+            subiecto nec 
+            posse habere aliquod vel modice resistens quam posse vincere 
+            sibi resistens; unde Dei omnipotentia tanta est quod 
+            nihil eam impedire vel sibi difficultatem resistentiae aut 
+            violentiae dare potest. Licet enim dicamus quod voluntas 
+            mala sibi resistit, hoc non est per hoc quod Dei potentiam 
+            retundat aut quod in iis quae illa in omnem eventum vult 
+            fieri sibi aliquo modo resistere possit.</p>
+        
+          <p>4. Ad quartum dicendum quod licet patiens, in quantum patiens, 
+            nihil agat, proprie sumendo agere, scilicet pro 
+            efficere: nihilominus vere cooperatur seu coadiuvat, et hoc 
+            in tantum quod agens creatum nullo modo est potens vel 
+            aptum agere nisi cum aliquo et in aliquo patiente quod terminet 
+            aspectum virtutis activae ipsius agentis et recipiat ac 
+            substantificet influxum ipsius.</p>
+        
+          <p>5. Ad quintum dicendum quod agens creatum nullam 
+            formam potest de materia facere seu educere tanquam de 
+            omnino nihilo nec eo modo quo fit, quando creatur a Deo 
+            de omnino nihilo. Et hoc duplici ex causa: primo scilicet, 
+            quia magnum subsidium dat materia agenti ex hoc solo 
+            quod terminat eius aspectum et suscipit ac supportat eius 
+            influxum; secundo, quia formae de materia educibiles pro 
+            tanto sunt a Deo in creatione materiae concreatae, pro 
+            quanto ipsa est creata mobilis ad illas. Unde agens creatum 
+            nihil facit in eductione huiusmodi formarum nisi solum quod 
+            movet materiam ad illas, ipsam autem movere non posset, 
+            nisi ipsa esset mobilis ad illas. Et ideo 
+            <ref>
+              <seg><name ref="#Augustine">Augustinus</name>, III <title ref="#deTrinitate">De 
+              Trinitate</title>, capitulo 7,</seg>
+              <bibl>Capp. 8 et 9 (PL 42, 875 sqq)</bibl>
+            </ref> 
+            optime dicit quod creationem rerum 
+            visibilium Deus interius operatur, exteriores autem operationes 
+            ceterorum agentium rerum natura adhibet, quemadmodum 
+            agriculturam agri vel terrae. Ideo etiam praemisit 
+            quod 
+            <cit>
+              <quote><name ref="#Paul">Apostolus</name> Deum interius creantem atque formantem 
+                discernens ab operibus creaturae quae admoventur extrin<pb n="19"/>secus 
+                assumpsit similitudinem de agricultura, quando ait 
+                <cit>
+                  <quote ana="#Icor3_6">Ego plantavi, et cetera</quote>
+                  <bibl>I Ad Corinthios 3:6</bibl>
+                </cit>
+              </quote>
+              <bibl>L. C. n. 14 (PL 42, 876</bibl>
+            </cit> 
+            <app>
+              <lem>Et tamen</lem>
+              <rdg type="corrAddition">
+                <corr>
+                  <add place="margin">Et tamen</add>
+                </corr>
+              </rdg>
+            </app> rationabiliter tenetur 
+            quod formas naturales Deus facit utens ad hoc natura creata 
+            tanquam instrumento; et sic facit naturale incrementum plantarum. 
+            -- Rursus, sciendum quod licet forma quantum ad 
+            determinatum modum entis et esse sit nobilior materia non 
+            tamen quantum ad esse radicale seu quantum ad subsistentiam 
+            et continentiam potentialem. Ex quo ulterius sequitur 
+            quod factio materiae non potuit aliquo modo includi in aliqua 
+            potentia 
+            <app>
+              <lem>praeiacenti,</lem>
+              <rdg wit="#B4">patienti</rdg>
+            </app> sicut potuit forma. Non est etiam 
+            universaliter verum quod omne vilius 
+            <app>
+              <lem>possit fieri</lem>
+              <rdg wit="#B5">fieri possit</rdg>
+            </app> 
+            a viliori vel aeque ignobili causa, utpote quando illud vilius in se 
+            includit defectum omnis subsidii vel auxili creati aut cuiuscunque 
+            subsidii necessarii ad agendum talem vel talem effectum.</p>
+        
+          <p>6. Ad sextum dicendum quod illae influentiae non 
+            fiunt simpliciter de nihilo nec unquam agens 
+            <app>
+              <lem>intendit</lem>
+              <rdg wit="#B4" type="intextu">aut insistit</rdg>
+            </app> 
+            earum factionem absolutam, ut scilicet det eis esse in se ipsis; 
+            sed potius intendit suum patiens afficere et afficiendo sibi 
+            assimilare; unde lux proprie non facit lucem, sed potius 
+            ipsam patiens facit esse lucidum. Et intellige quod non sufficeret 
+            quod patiens solum se haberet ut locus influentiae 
+            fiendae, immo oportet quod se habeat ut formabile et quod 
+            tandem sit ut formattum. Et pro tanto potest vere dici quod 
+            lux fit de ipso illuminabili, sicut et vere dicimus quod de non 
+            lucido fit lucidum et de illuminabili 
+            <app>
+              <lem>illuminatum.</lem>
+              <rdg wit="#B4 #B5">luminatum</rdg>
+            </app> 
+            Unde et <name ref="#Augustine">Augustinus</name> vult formas primas, in primo nunc creationis 
+            mundi materiae datas, factas fuisse de materia. Ait enim, 
+            <ref>
+              libro XIII <title ref="#Confessions">Confessionum,</title> capitulo ultimo:
+            </ref> 
+            <cit>
+              <quote>Opera tua a 
+                te 
+                <app>
+                  <lem>facta</lem>
+                  <rdg type="corrReplace">
+                    <corr>
+                      <del>factas</del>
+                      <add>facta</add>
+                    </corr>
+                  </rdg>
+                </app>
+                <app>
+                  <lem>sunt</lem>
+                  <rdg wit="#B5" type="om."/>
+                </app> 
+                de concreata, id est, simul a te creata materia; quia eius 
+                <app>
+                  <lem>informitatem</lem>
+                  <rdg type="corrReplace">
+                    <corr>
+                      <del>infirmitatem</del>
+                      <add>informitatem</add>
+                    </corr>
+                  </rdg>
+                </app> 
+                sine ulla temporis interpositione formasti. Nam cum aliud sit caeli et terrae materies 
+                aliud caeli et terrae species: materiem quidem 
+                <app>
+                  <lem>de</lem>
+                  <rdg type="corrAddition">
+                    <corr>
+                      <add place="aboveLine">de</add>
+                    </corr>
+                  </rdg>
+                </app> omnino 
+                nihilo, mundi autem speciem de informi materia simul tamen 
+                utramque fecisti, ut materiam 
+                <app>
+                  <lem>forma</lem>
+                  <rdg wit="#B4" type="corrAddition">
+                    <corr>
+                      <add place="margin">forma</add>
+                    </corr>
+                  </rdg>
+                </app> 
+                nulla morae intercapedine 
+                sequeretur.
+              </quote>
+              <bibl>Augustinus, Confessionum, XIII, 33 (PL 32:866)</bibl>
+            </cit>
+          </p>
+        <p><pb n="20"/>7. Ad septimum patet ex praedictis in quibus ostensum 
+          est quam multiplex contradictio et in Deum contumelia 
+          et contumeliosa aequalitas ibi includatur. Et patet etiam 
+          ex praemissis quod potentia creatrix non potest in aliquo 
+          poni ut limitata ad certum numerum vel ad certam speciem creandorum.</p>
+          
+        <p>8. Ad octavum dicendum quod velle nostrum alium 
+          habet ordinem ad obiectum seu ad volitum, in quantum volitum 
+          et 
+          <app>
+            <lem>alium</lem>
+            <rdg type="corrAddition">
+              <corr>
+                <add place="aboveLine">alium</add>
+              </corr>
+            </rdg>
+            <rdg wit="#B4 #B5">aliud</rdg>
+          </app> 
+          ad suum effectum; effec:tus enim sui non possunt 
+          ab eo fieri nisi suo determinato aspectu ad aliquod 
+          patiens, sive illud patiens sit extrinsecum 
+          <app>
+            <lem wit="#B4">sive</lem>
+            <rdg wit="#V #B5">aut</rdg>
+          </app> 
+          intrinsecum. Et tamen hi non possunt ab eo fieri quomodocunque 
+          vel 
+          <app>
+            <lem>quanticunque,</lem>
+            <rdg type="corrReplace">
+              <corr>
+                <del>quantique</del>
+                <add>quanticunque</add>
+              </corr>
+            </rdg>
+          </app> 
+          sed solum iuxta limitem suae naturalis 
+          seu formalis efficaciae. Et ideo, si vult obiecta sua fieri 
+          ultra mensuram suae naturalis efficaciae aut sine mediato vel 
+          immediato aspectu sui ad idoneum et determinatum patiens, 
+          nihil per hoc penitus efficiet aut efficere potest. Verumtamen 
+          praesupposito hoc ordine potest a Deo recipere longe 
+          maiores efficacias quam sol modo habeat. Unde voluntas 
+          Angelorum vel animae Christi per efficacem motum sui et 
+          suarum potentiarum motivarum mirabilia possunt in universo, 
+          plus quam nos comprehendere vel 
+          <app>
+            <lem>extimare</lem>
+            <!-- ed states "ita in ras" -->
+          </app> 
+          possemus. Recipere autem sub primo ordine esset idem quod 
+          recipere potentiam creatricem, quia tunc quicquid posset 
+          velle et quomodocunque, totum pro libitu posset mox efficere.</p>
+        
+          <p>9. Ad nonum dicendum quod illa quidem ratio realiter 
+            bona est, sed tamen vis suae consequentiae eget clarificatione 
+            ulteriori; quam pro posse tetigi in rationibus supra 
+            scriptis et specialiter in quibusdam de immensitate.</p>
+        
+          <p>10. Ad decimum consimiliter patet et specialiter per 
+            illud quod tactum est in rationibus de simplicitate. Cum 
+            enim dicitur quod creans agit se toto, sensus est quod agit 
+            per potentiam simplicissimam quae est ipsum totum et perfectum 
+            ens. Forma autem creata, quomodocunque ponatur 
+            in esse, non agit hoc modo se tota; quia nec ipsa est 
+            <app>
+              <lem>simplicissima</lem>
+              <rdg wit="#B4" type="intextu">quia</rdg>
+            </app> 
+            nec ipsa vel eius potentia est ens totum et 
+            perfectum, in se comprehendens totales rationes omnium 
+            factibilium et creandorum.</p>
+        
+          <p>11. Ad undecimum dicendum quod sicut tangebatur, 
+            agens creatum non potest agere nisi sub certo aspectu ad 
+            <pb n="21"/> aliquod determinatum obiectum et, quantum est ex parte 
+            sua, semper in agendo aspicit determinatum patiens; quod 
+            vero eius aspectui et actioni aliquando de facto non subsit 
+            <app>
+              <lem>fit</lem>
+              <rdg wit="#B4" type="intextu">sic</rdg>
+            </app> 
+            per supernaturalem potentiam Dei. - Quod vero subinducitur 
+            quod si potest agere sine patiente, multo magis sine 
+            aspectu ad locum vel ad species vini vel panis quae per 
+            actiones huiusmodi vanantur: dicendum quod duplici ex 
+            causa potius eget loco vel speciebus quam patiente. Prima 
+            est, quia ablato omni loco eo ipso aufertur aspectus ad 
+            quodcunque locale obiectum; ablato autem patiente, remanente 
+            tamen loco vel aliquo quod possit obici aspectui agentis 
+            non aufertur aspectus ad locum vel ad obiectum. Secunda 
+            est, quia in actionibus 
+            <app>
+              <lem>variativis</lem>
+              <rdg wit="#B4">variatis</rdg>
+            </app> 
+            transmutationi formarum 
+            coniunctis 
+            <app>
+              <lem>praeexigitur</lem>
+              <rdg wit="#B4">praeexigit</rdg>
+            </app> 
+            necessaria forma quae corrumpitur 
+            seu variatur et cum hoc subexigitur forma quae per 
+            actionem huiusmodi generatur; et ideo quando per actionem 
+            ignis sacramentales species variantur, oportet ipsas species 
+            ibi adesse. Potest etiam dici quod licet forma non habeat 
+            proprie rationem patientis, ut scilicet tanquam materia ab eo 
+            quod 
+            <app>
+              <lem>recipit</lem>
+              <rdg wit="#B5">recipitur</rdg>
+            </app> 
+            informetur, quasi prius esset informis: pro 
+            tanto tamen potest esse patiens, pro quanto quaedam formae 
+            vel accidentia non possunt in 
+            <app>
+              <lem>materiam</lem>
+              <rdg wit="#B4">materia</rdg>
+            </app> 
+            recipi aut fieri, 
+            nisi convertantur ad quasdam formas priores, tanquam ad 
+            sibi quodam ordine formali substratas et substernendas. Non 
+            est etiam verum quod idem sit referri ad materiam quae 
+            actu non subest quod referri ad nihil, quia ex parte eius 
+            quod refertur ad illam est quasi subsistens. Unde et per 
+            miraculum posset Deus facere quod ignis ageret in loca 
+            quae sunt post se, quamquam essent omnino annihilata, 
+            <app>
+              <lem>ita</lem>
+              <rdg wit="#B4">et</rdg>
+            </app> 
+            quod nihil esset ibi nisi sol us influxus ignis; sicut et Deus 
+            posset movere supremum caelum supra vel infra ac si esset 
+            ibi ulterior locus; quia tunc as pectus agentium et mobilium 
+            ita dirigitur ad extra sicut si 
+            <app> <!-- unclear dbcheck -->
+              <lem>ibi</lem>
+              <rdg wit="#B4" type="intextu">esset</rdg>
+            </app> 
+            essent determinata patientia 
+            et obiecta.</p>
+          
+        <p>12. Ad duodecimum dicendum quod in Dei voluntate 
+          non solum includitur velle sed etiam nolle, id est, velle 
+          affirmationis unius et negationis alterius. Et iterum haec duo 
+          includunt in se alia duo, quia est velle simplicis approbationis 
+          et nolle simplicis odii, quod tamen non obsistit existentiae 
+          <app>
+            <lem>aut</lem>
+            <rdg wit="#B4">vel</rdg>
+          </app> 
+          factioni eius quod odit. Et potest sumi sic 
+          <pb n="22"/>quod obsistat ei quod non vult et quod omnino esse faciat 
+          id quod vult. Voluntas igitur Dei, prout haec omnia in se 
+          includit, aequatur suae scientiae, non solum in 
+          <app>
+            <lem>essentia</lem>
+            <rdg type="corrReplace">
+              <corr>
+                <del>scientia</del>
+                <add>essentia</add>
+              </corr>
+            </rdg>
+            <rdg wit="#B4 #B5">scientia</rdg>
+          </app> 
+          sed etiam in obiectis. -- Ulterius, sciendum quod quando 
+          paucitas obiectorum non provenit ex aliquo defectu aut 
+          coarctatione actus vel potentiae, tunc nullam minoritatem 
+          ponit in actu vel potentia, sed solum in ipsis obiectis. Quod 
+          ergo Dei velle, prout fertur super affirmationem, non habet 
+          tot obiecta sicut Dei scire, quia hoc non pro venit ex coarctatione 
+          divini velle, sed 
+          <app>
+            <lem>potius</lem>
+            <rdg wit="#B4">solum</rdg>
+          </app> 
+          ex eius amplissima libertate 
+          et 
+          <app>
+            <lem>bonitate:</lem>
+            <rdg type="corrAddition">
+              <corr>
+                <add place="margin">bonitate</add>
+              </corr>
+            </rdg>
+          </app> idcirco suorum obiectorum paucitas non 
+          minus attestatur eius 
+          <app>
+            <lem>magnitudini quam pluralitas obiectorum 
+          attestetur</lem>
+            <rdg wit="#B4" type="om."/>
+          </app> 
+          magnitudini scientia Dei. - Amplius, 
+          sciendum quod licet infinitum non sit maius infinito, secundum 
+          quod est infinitum, est tamen secundum quod est finitum. 
+          Obiecta autem divini velle sunt finita secundum illum 
+          respectum secundum quem exceduntur ab obiectis scientiae 
+          Dei, eo modo quo et dicimus quod infiniti binarii respectu latitudinis 
+          secundum quam possent excrescere in ternarios 
+          <app>
+            <lem>vel quaternarios</lem>
+            <rdg type="corrAddition">
+              <corr>
+                <add place="margin">vel quaternarios</add>
+              </corr>
+            </rdg>
+          </app> 
+          exceduntur ab infinitis ternariis, quamvis 
+          non excedantur ab eis secundum linearem sui protensionem 
+          in longum. - Quarto, sciendum quod quaedam compositio 
+          terminorum potest in ratione divinae scientiae includi quae 
+          non posset in divino velle, nisi pro quanto Deus vult illam compositionem 
+          esse per modum obiecti in scientia sua; scire 
+          enim istum peccare est verum et bonum et tamen velle 
+          ipsum peccare est malum. Si tamen compositio terminorum 
+          sumatur sive sub negatione sive sub affirmatione, sio in tot 
+          potest Dei voluntas per suum velle et nolle sicut potest scientia 
+          Dei per scire compositiones terminorum esse veras vel 
+          falsas.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

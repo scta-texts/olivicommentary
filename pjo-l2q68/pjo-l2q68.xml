@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Quaestio 68</title>
+        <author xml:id="PJO">Peter John Olivi</author>
+        <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.05">
+          <title>Librum II, Quaestio 68</title>
+          <date when="2015-05-17">May 17, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Ad Claras Aquas</publisher>
+        <pubPlace>Quaracchi</pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="1922">1922</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Quaestions In Secundum Librum Sententiarum, ed. Bernardus Jansent, S.I, Ad Claras Aquas, 1922</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-05-17" who="#JW" status="draft" n="2015.05">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pjo-l2q68">
+        <head>Librum II, Quaestio 68</head>
+        <p>Quantum autem ad nonum, an scilicet appetitus sensualis
+        (b) sit alia potentia (c) ab appetitu intellectivo.</p>
+        <p>Est simpliciter (d) omnium sapientum una
+        sententia quod sic.</p>
+        <p>Et potest ad hoc dari ratio triplex (e).</p>
+        <p>Prima est ex essentiali ordine appetitus ad cognitionem,
+        ex quo habet quod non possit amare vel odire nisi cognitum
+        nec absque praevia notitia ferri in illud, in quo
+        quidem ordine sic se habet quod est superior ac motiva et
+        imperativa. Ex hoc autem tria sequuntur. Primum est quod
+        appetitus immediate conradicatus potentiis sensitivis et earum (f) 
+        potentiae sensuali non transcendit obiecta earum (g) 
+        nec potest ferri in aliquid intellectuale. Secundum est quod 
+        est organo sensuali affixus et incorporatus (h) sicut et notitia
+        cui est essentialiter (i) connexus. Tertium est quod appetitus
+        intellectui conradicatus est superior et liberior eo. Ergo est
+        longe superior omni appetitu sensuali et non minus ab omni
+        organo et aspectu organico sequestratus quam intellectus.</p>
+        <p>Secunda ratio est(k): Quia sicut in brutis reperiuntur
+        sensitivae potentiae absque intellectu, sic et appetitus (l) et 
+        appetitivus motus absque libertate; ergo non minus differt appetitus
+        sensualis a libero quam sensus ab intellectu.</p>
+        <p>Tertia est: Quia si in nobis essent eadem potentia,
+        tunc posset ferri in sua obiecta. tam per notitiam intellectivam
+        quam per sensitivam. Ergo quando per sensitivam ferretur
+        (m) in obiecta et moveretur, tunc absque omni notitia
+        intellectiva posset tota secundum suum totum (n) affectum
+        ferri in illa obiecta (o). Ergo posset habere actus liberos
+        absque (p) notitia intellectiva. Cuius impossibilitatem non
+        <pb n="626"/> solum ratio, immo et (a) experientia clamat. Sequeretur
+        etiam quod eius sensualis appetitus posset moveri ad actum
+        per redundantiam superioris absque omni notitia sensuali 
+        per solam notitiam intellectivam. Cuius impossibilitatem experientia docet.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

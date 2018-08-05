@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- <?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Librum II, Quaestio 15</title>
+                <author xml:id="PJO">Peter John Olivi</author>
+                <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2015.05">
+                    <title>Librum II, Quaestio 15</title>
+                    <date when="2015-05-09">May 09, 2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Ad Claras Aquas</publisher>
+                <pubPlace>Quaracchi</pubPlace>
+                <availability status="free">
+                    <p>Public Domain</p>
+                </availability>
+                <date when="1922">1922</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Quaestiones In Secundum Librum Sententiarum, ed. Bernardus Jansen, S.I, Ad Claras Aquas, 1922</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2015-04-27" who="#JW" status="draft" n="2015.05">
+                    <p>Created file for the first time.</p>
+                    <note type="status">
+                        <note type="collabaration">Yes</note>
+                        <note type="validating-schema">lbp-0.0.1</note>
+                        <note type="transcription-type">critical</note>
+                    </note>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div xml:id="includeList">
+                <xi:include
+                    href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+                    xpointer="worksCited"/>
+                <xi:include
+                    href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+                    xpointer="prosopography"/>
+            </div>
+        </front>
+        <body>
+            <div xml:id="pjo-l2q15">
+                <head>QUAESTIO XV.</head>
+                <p>Nono quaeritur an suppositum seu persona addant aliquid ad naturam in qua et per quam subsistunt.</p>
+                
+                <div>
+                    <head>Et quod sic videtur.</head>
+                    
+                    <p>1. Omne quod potest aliquibus advenire et deperire ipsis 
+                        manentibus addit aliquid realiter differens ad ipsa, et maxime
+                        si secundum rationem suam dicat aliquid positivum; sed ratio
+                        suppositi et personae potest pluribus naturis (c) advenire et
+                        deperire; partes enim integrales  substantiarum, si separentur
+                        a suis totis, accipiunt rationem suppositi; multaeque (d) substantiae,
+                        si uniantur aliquibus totis aut partibus, amittunt rationem
+                        suppositi, suppositum etiam secundum rationem suam
+                        dicit quid positivum, cum dicat rationem per se entis et singularis,
+                        et persona multo magis, cum ultra hoc dicat completum
+                        modum per se et in se existendi; ergo et cetera.</p>
+                    
+                    <p>2. Item, existere in se seu per se opponitur ei quod est
+                        existere in alio, mutuo enim se expellunt in eadem natura;
+                        sed existere in alio addit aliquid ad naturam cuius est; ergo
+                        multo magis existere in se, cum magis sit positivum.</p>
+                    
+                    <p>3. Item, idem vere et proprie potest praedicari de se;
+                        sed (a) natura non praedicatur vere et proprie de supposito nec
+                        e contrario, non enim bene dicitur <quote>humanitas est homo</quote> 
+                        nec e contrario; ergo et cetera.</p>
+                    
+                    <p>4. Item, omne totum addit aliquid ad suam partem; sed
+                        natura se habet ad suum suppositum sicut pars ad suum
+                        totum; si enim diceret totum quod dicit suppositum: tunc
+                        posset praedicari de eo, sicut species et genera praedicantur
+                        de suis suppositis, idcirco enim Sortes potest dici homo et
+                        animal, quia ista non dicunt partes eius sed totum; quod ergo
+                        humanitas non possit (b) praedicari de Sorte, hoc non est nisi
+                        quia dicit partem eius et non totum.</p>
+                    
+                    <p>5. Item, omnis natura non participata nec recepta (c) in
+                        aliquo sed in se et per se absolute existens videtur habere
+                        in se rationem summae naturae et summi entis, cum istae
+                        conditiones videantur convenire soli Deo; ergo omnis natura
+                        diversa a natura Dei erit participata et recepta in aliquo; sed
+                        hoc est impossibile, nisi illud in quo recipitur et a quo participatur
+                        differat ab ea sicut recipiens a recepto et sicut participans
+                        a participato et sicut existens in alio differt ab eo
+                        in (d) quo existit; sed illud in quo natura existit est eius suppositum
+                        nec potest recipi nisi in supposito; ergo et cetera.</p>
+                        
+                    <p>6. Item, omnis forma differt ab eo cuius est forma, sicut
+                        causa a causato aut sicut pars a toto, et omne causatum
+                        addit (e) aliquid ad suam causam et totum ad partem; sed
+                        natura est forma sui suppositi, illud enim est forma alicuius
+                        per quod ipsum est ens et per quod reponitur in specie seu
+                        genere; sed suppositum est ens per suam naturam et per
+                        illam reponitur in specie; ergo et cetera.</p>
+                        
+                    <p>7. Item, omne dependens differt ab eo in quo figitur et
+                        terminatur sua dependentia; sed omnis natura creata est natura
+                        dependens figiturque et terminatur eius dependentia in (f)
+                        supposito; ergo et cetera.</p>
+                    
+                    <p>8. Item, omnis habitudo realis exigit realiter extrema
+                        diversa aut simpliciter aut secundum quid; sed esse in dicit
+                        quandam habitudinem; ergo omne quod realiter est in se
+                        habet habitudinem essendi in realem; ergo oportebit dare
+                        in omni realiter existente in se duo extrema, saltem secundum
+                        quid diversa; sed respectu huius habitudinis non possunt
+                        dari nisi natura et suppositum; ergo ipsa saltem sunt secundum
+                        quid inter se diversa; sed hoc non potest esse, si unum
+                        non addit ad alterum aliquid realiter differens; ergo et cetera.</p>
+                    
+                    <p>9. Item, illud secundum (a) quod aliquid potest subici et
+                        subsistere accidentibus differt realiter ab eo secundum quod
+                        non potest subsistere seu illud quod potest subici eis differt
+                        ab eo quod non potest eis subici; sed natura non potest subici
+                        nec subsistere accidentibus, suppositum autem potest,
+                        nec aliquid subicitur eis per rationem naturae sed per rationem
+                        suppositi; si enim natura subiceretur et subsisteret eis,
+                        ita bene diceretur humanitas alba, calida et tricubita, sicut
+                        homo dicitur albus et tricubitus et consimilia.</p>
+                        
+                    <p>10. Item, omne contentum differt aliquo modo a suo continente;
+                        sed natura continetur a suo supposito; alias enim non
+                        bene diceretur quod haec natura est huius vel huius (b) suppositi,
+                        cum in proposito non videatur significari alia habitudo
+                        per hoc <quote>esse huius</quote> nisi contenti ad continens (c) aut aliqua
+                        alia aequivalens.</p>
+                    
+                    <p>Contra: 1. Non potest aliquid addere accidentale nec
+                        essentiale; ergo nihil. Probatio antecedentis: si enim addit
+                        aliquid essentiale, aut formam aut materiam; neutrum autem
+                        horum potest addere, quia utrumque est pars naturae compositae.
+                        Praeterea, natura dicit totam essentiam suppositi, cum
+                        natura et essentia sint idem; sed extra essentiam rei non potest
+                        e se aliquod essentiale, cum omne essentiale sit aliquod
+                        de principiis constitutivis essentiae. Praeterea, omne essentiale
+                        additum alii essentiali constituit tertiam naturam; si
+                        ergo suppositum addit aliquid essentiale ad suam naturam:
+                        ergo ex illo et natura constitueretur quaedam tertia natura, et
+                        sic in infinitum. Praeterea, unum essentiale sine aliis non
+                        potest dicere totum ens; sed (d) suppositum dicit ipsum totum
+                        ens; ergo non dicit aliquod essentiale additum naturae, cum
+                        natura dicat saltem magnam partem  essentialium  rei. — Non
+                        etiam potest addere aliquid accidentale, quoniam omne accidens
+                        subsistit in alio et non alia in ipso; si ergo adderet
+                        aliquid (e) accidentale, ipsum non esset suppositum
+                        naturae suae nec suorum accidentium, sed potius natura (f) esset suppositum
+                        eius. Praeterea, nullus sane intelligens dicet quod
+                        ens sit sibi ipsi accidentale; sed suppositum dicit ipsum ens et
+                        ratio suppositi dicit rationem totius et entis; ergo impossibile
+                        est quod sit accidentale ipsi enti; sed omne accidens est accidens
+                        (a) alicuius entis et alicuius suppositi; ergo si diceret
+                        accidens, oporteret quod esset accidens alicuius alterius entis
+                        et alicuius alterius suppositi. Praeterea, per se esse est
+                        differentia substantiae; sed hanc solam addit suppositum ad
+                        naturam; ergo et cetera. Praeterea, nihil directe et per se
+                        includitur in generibus et speciebus (b) substantiae quod sit
+                        accidentale aut sub praedicamentis accidentium; sed ratio
+                        suppositi includitur directe et per se in generibus et speciebus
+                        substantiae, omnia enim oportet quod dicant rationem per
+                        se entis, sicut utique dicunt (c) substantia et animal et homo.
+                        Si etiam non iucluderent rationem suppositi (d), tunc naturae (e)
+                        substantiarum essent genera et species substantiae, et tunc
+                        humanitas esset species hominis et animalitas genus eius;
+                        non enim potest inveniri quid (f) aliud addat homo ad humanitatem
+                        aut animal ad animalitatem nisi rationem (g) suppositi;
+                        et ideo si in se rationem suppositi non includunt, tunc
+                        secundum rem et rationem omnino idem erunt homo et humanitas
+                        et consimilia.</p>
+                    
+                    <p>Item ad principale: omne quod non est in alio a se,
+                        in quantum tale, est existens in se; sed natura completa substantiae
+                        seu suppositi cuiuscunque, in quantum talis, non est
+                        in alio a se; ergo, in quantum talis, erit existens in se et ita,
+                        in quantum talis, erit (h) suppositum. Probatio minoris: omne
+                        enim quod est in alio a se est vere receptum in ipso et in
+                        aliqua eius potentia passiva; si ergo natura completa substantiae
+                        esset in alio a se, tunc illud in quo esset haberet
+                        quandam potentiam passivam in se, aliam a tota natura et
+                        partibus eius, et per consequens aliam materiam ab illa materia
+                        quae est pars naturae; hoc autem est impossibile. Illud
+                        etiam in quo esset aut esset ens completum et actuale absque
+                        natura recepta aut non. Si sic, ergo haberet aliam naturam
+                        et essentiam praeter illam; quod est contra positum. Si non,
+                        tunc illud esset tantum ens in potentia, informatum et factum
+                        in actu a tota natura, et ita tota natura haberet se ad illud
+                        sicut forma ad suam materiam et non sicut natura ad suum
+                        suppositum.</p>
+                    
+                </div>
+                <div>
+                    <head>[Respondeo]</head>
+                    
+                    <p>Ad quaestionem istam dixerunt quidam quod
+                        suppositum addit ad naturam suam etiam individualiter
+                        acceptam seu individualem (a) aliquid
+                        realiter differens ab ipsa; quid autem esset illud
+                        additum et qua ex causa oporteret ipsum
+                        realiter differre ab ea diversi mode senserunt.
+                        Quidam enim dixerunt (b) quod addit quendam modum existendi;
+                        addit enim ad esse hunc modum qui est per se. Idcirco
+                        autem illud quod addit dixerunt (c) realiter differre a natura:
+                        quia omne quod habet aliam rationem realem ab aliquo dixerunt
+                        in creatis realiter differre (d) ab illo; modus autem iste qui
+                        additur dicit aliquam rationem realem aliam a ratione ipsius
+                        naturae. Secunda causa fuit: quia esse secundum eos addit
+                        aliquid realiter differens ad naturam; esse autem cum speciali
+                        modo essendi qui (e) est esse per se cadit in ratione
+                        suppositi; et hoc est quod secundum eos addit suppositum
+                        ad naturam suam. — Alii vero aliter senserunt, dixerunt
+                        enim quod suppositum non praescindit a se accidentia nec susceptibilitatem
+                        eorum, natura vero praescindit a suo intellectu
+                        tam accidentia quam susceptibilitatem eorum; suppositum
+                        enim continet in se tam naturam quam accidentia, quod non
+                        posset, si in suo intellectu includeretur praecisio seu exclusio
+                        eorum; natura vero, in quantum talis, nec est nec esse potest
+                        subiectum accidentium, non enim est informabilis ab
+                        accidentibus. Et ideo dixerunt quod suppositum se habebat
+                        ad naturam sicut totum ad partem, huiusque simile donant
+                        in genere et natura generis. Dicunt enim quod corpus, quando
+                        sumitur ut pars, non est genus hominis vel animalis, sed
+                        quando sumitur ut (f) totum; tunc autem secundum eos assumitur
+                        ut totum, quando non praescindit a se intellectum differentiarum
+                        sequentium, sed potius comprehendit eas in generali
+                        et indistincte et in potentia; ut pars vero sumitur,
+                        quando praescindit a se intellectum differentiarum sequentium,
+                        et tunc non dicit nisi naturam generis a qua et secundum
+                        quam sumptum est ipsum genus.</p>
+                                
+                    <p>A1ii vero istis contrarium senserunt, dixerunt
+                        enim quod suppositum nihil addit tale quod
+                        rea1iter differat a natura comp1eta seu tota1i
+                        ipsius suppositi; in modo tamen ponendi etiam,
+                        isti diversificati sunt. Quidam enim istud posuerunt,
+                        quia dixerunt quod non addit nisi quandam rationem negativam
+                        seu privativam, scilicet negationem existendi in alio;
+                        voluerunt enim quod per se esse seu per se ex1stere nihil
+                        positivum addat ad ipsum esse seu ad existere absolute et sine
+                        alio acceptum. — Alii autem dixerunt quod licet dicat aliquid
+                        positivum, illud tamen non dicit aliam rem ab ipsa natura, sed
+                        solum aliam rationem eiusdem naturae.</p>
+                    
+                    <p>Utrique autem istorum moti sunt ad dicendum quod nihil
+                        diversum adderet (a) propter rationes factas ad oppositum et
+                        ultra hoc moti sunt ex dictis opinionum contrariarum. — Ratio
+                        enim primae opinionis non fuit eis visa sufficiens nec universaliter
+                        vera, quod scilicet diversitas rationum in re contentarum
+                        seu rationum realium concluderet necessario et semper diversitatem
+                        realem in creatis. — Item (b), quia si propter hoc
+                        differt suppositum a natura, quoniam esse et per se esse cadunt
+                        in ratione suppositi et hoc est illud quod per suppositum additur
+                        ad naturam et non aliud: tunc in divinis non possent
+                        esse plura supposita, quoniam actus essendi et per se existendi
+                        includitur in perfecta actualitate essentiae divinae; dicunt
+                        enim quandam perfectionem nobilem actualitatis eius. —
+                        Item (c), quia si nihil aliud addit, tunc non addit rationem
+                        suppositi; ipsum enim esse vel per se esse non erit ipsum
+                        suppositum, maxime si est accidens; immo potius oportebit
+                        quod sit in aliquo alio (d) a se, non solum sicut in supposito,
+                        sed etiam sicut in subiecto; et potissime hoc erit verum, si
+                        est actus ab aliquo exiens, omnis enim actus exit a supposito
+                        et est actus alicuius suppositi. — Nec poterit dici quod
+                        ipsa natura per actum per se essendi facta per se existens
+                        sit ipsum suppositum, quia tunc ad minus ipsum suppositum
+                        praedicaretur in recto de ipsa natura et praedicaretur de ea
+                        adiective et denominative; sicut enim (e) per albedinem homo
+                        dicitur albus, sic per actum per se existendi ipsa diceretur
+                        per se existens seu suppositum; praedicatio autem adiectiva
+                        et denominativa est contrariissima supposito et rationi suppositi:
+                        — Non etiam secundum istos poterit dici quod ex
+                        natura et per se esse constituatur unum tertium, quod tertium
+                        non sit tertia natura, sed solum sit suppositum eorum;
+                        quia cum suppositum sit radix et fundamentum (a) omnium
+                        eorum quae in ipso sunt, oporteret (b) quod ipsum, in quantum
+                        tertium, esset aliquid tale quod in eo posset figi et firmari
+                        tam natura quam ipsum esse et quam ipsa accidentia;
+                        quod non videtur posse fieri, si non dicit aliquam solidam essentiam
+                        praeter essentias eorum. Si etiam ex eis constituitur,
+                        tunc ipsum esse erit pars eius essentialis, quod est contra
+                        ipsos aut contra multos ipsorum; tunc etiam accidentale cum
+                        essentiali constitueret (c) substantiam; prima enim substantia,
+                        in quantum prima, quae idem est quod suppositum, est in praedicamento
+                        substantiae (d) solum.</p>
+                    
+                    <p>Dictum vero secundae opinionis multo minus placuit eis,
+                        quia si suppositum dicit susceptibilitatem accidentium et non
+                        natura: tunc oportet quod addat aliquam potentiam susceptivam
+                        accidentium et sic per consequens materiam seu aliquid quodcunque
+                        in quo fundetur huiusmodi potentia. Si etiam suppositum
+                        se habet ad naturam sicut totum ad partem: tunc oportebit
+                        quod habeat aliam partem praeter ipsam naturam ex qua
+                        cum ipsa natura constituatur; nullum enim totum constituitur
+                        ex sola una parte, quia nec tunc esset maius illa, immo
+                        ipsa esset ipsum totum. — Non potest autem dici quod alia (e)
+                        pars sint ipsa accidentia (f); quia tunc ex accidentibus constitueretur
+                        substantia, et quia tunc substantialia cum accidentalibus
+                        (g) vere constituerent aliquid vere unum (h), quod est
+                        contra <ref>Philosophum, VII <title ref="#Metaphysics">Metaphysicae</title></ref> (1); tunc enim non
+                        fundarentur in ipso supposito, sicut accidentia in suo subiecto,
+                        sed potius sicut partes in suo toto. Et hoc idem sequeretur,
+                        si verum esset quod suppositum comprehenderet in se accidentia,
+                        sicut suo modo genus differentias; et tunc ita deberent
+                        dici natura eius sicut et ipsa natura substantialis aut
+                        potius nec natura substantialis nec ipsa deberent dici natura
+                        eius, sed solum partes constitutivae naturae eius. Si etiam
+                        verum est quod suppositum sit informabile ab accidentibus,
+                        non autem natura eius, sicut praedicta positio dicit: tunc
+                        suppositum addit ad naturam aliquod ens informabile quod
+                        informatur ab accidentibus.</p>
+                    
+                    <p>Ultimi autem moti sunt ad dicendum quod non adderet
+                        solam privationem, quia cum per se esse sit nobilior et
+                        actualior modus essendi quam esse in alio, oportet quod sit
+                        magis positivus. Cum etiam ablata ratione suppositi auferatur
+                        ratio entis et ratio totius et ista dicant quid vere positivum:
+                        oportet quod ratio suppositi addat quid vere (a) positivum.
+                        Si etiam non diceret nisi privationem nec adderet
+                        ad naturam (b) nisi rationem negativam: ergo in divinis non
+                        diceret suppositum nisi rationem negativam solum nec adderet
+                        (c) aliquam rationem positivam ad essentiam; et sic ita
+                        parum esset plurificabile in divinis sicut et essentia, nec plurificatio
+                        eius esset ibi plurificatio alicuius positivi, sed solum
+                        quarundam (d) negationum. — Dixerunt igitur isti (e) quod
+                        supra naturam individualem addit rationem per se entis, ita
+                        quod nec per se ens dicit totam rationem suppositi, sed per
+                        se ens cum individuatione acceptum. Ratio autem quam addit
+                        per se ens ad naturam non est ratio formalis aut essentialis;
+                        non enim dicit id quod dicit per modum formae aut
+                        essentiae, sed potius per modum entis; unde se habet ad
+                        rationem naturae sicut suo modo se habet ratio concreti ad
+                        rationem abstracti. Unde non dicit rationem disparatam a
+                        ratione naturae, sed dicit ipsam naturam non solum per modum
+                        naturae, sed etiam per modum entis; unde ens secundum
+                        eos est idem quod essentia sumpta per modum entis.</p>
+                    
+                    <p>Hae igitur sunt opiniones quas legere vel
+                        audire potui et forte sunt aliquae aliae quas
+                        nec audivi nec legi. Quae autem istarum sit verior
+                        sapientium iudicio derelinquo.</p>
+                    
+                </div>
+                <div>
+                    <head>[Solutio Obiectorum]</head>
+                    
+                    <p>Ad argumenta tamen utriusque partis, prout
+                        potero (f), respondebo.</p>
+                    
+                    <p>Ad primum igitur primae partis dicendum quod ratio
+                        suppositi non fundatur in natura qualicunque, sed solum in
+                        natura quae est sufficienter et actualiter actualis ad subsistendum;
+                        complementum autem huius actualitatis potest multis
+                        naturis creatis advenire et deperire; sed in eius adventu
+                        non additur sola ratio suppositi, sed additur vera actualitas
+                        quae est aliquid ipsius naturae. Et eodem modo, quando
+                        tollitur, non tollitur sola ratio suppositi, sed etiam complementum
+                        actualitatis ipsius naturae qua erat actualis ad
+                        existendum et hoc actualiter. — Si autem dicatur quod
+                        tunc illud complementum actualitatis esset accidens et sic
+                        per consequens ratio suppositi: dicendum quod non omne
+                        quod advenit et deperit alicui ipso manente est accidens
+                        seu accidentale illi cui advenit; quia sic multae formae substantiales
+                        essent accidentales suae materiae et multae differentiae
+                        suis generibus et existere (a) in alio, sicut existunt partes
+                        in suo toto, esset accidentale multis partibus substantialibus,
+                        cum illud esse in seu (b) illa unio possit eis advenire et deperire.
+                        Non est igitur verum simpliciter, sed solum quando
+                        illud cui advenit manet aeque substantialiter completum in
+                        illius adventu  et in illius recessu; illud enim solum vocamus
+                        accidens quod non facit ad substantiale complementum rei.
+                        Hoc igitur complementum actualitatis est complementum (c)
+                        naturae substantiale, quoniam per ipsum completur in esse
+                        substantiali et per ipsum assumit rationem entis et totalis
+                        substantiae.</p>
+                    
+                    <p>Ad secundum dicendum quod non nego quin existere
+                        in se addat aliquid ad naturam cuius est, non tamen addit
+                        aliquid ad naturam completam et actualem ad per se existendum;
+                        quia nec existere in alio addit aliquid ad naturam,
+                        prout est sufficienter impendens alteri ut (d) supposito; illud
+                        enim esse in est aliquid ei substantiale.</p>
+                    
+                    <p>Ad tertium dicendum quod naturam (e) aliquando accipimus
+                        pro illa essentia quae est communis ad existere in
+                        se et ad existere in alio, ita quod, in quantum talis, non dicit
+                        quid existens in se vel in alio, sed solum quid possibile existere
+                        in se vel in alio, ita quod per actualem impendentiam
+                        et unionem ad aliud efficitur actualiter existens in alio et
+                        per adventum absolutae actualitatis efficitur existens in se;
+                        natura igitur sic sumpta non potest praedicari de supposito.
+                        Prout autem natura sumitur cum complemento illius actualitatis
+                        quo existente necessario existit ratio suppositi, sic,
+                        quantum est de vi realis identitatis, potest praedicari de
+                        supposito et e contrario; et sic praedicatur suppositum de
+                        natura divina quae non potest non (f) habere huiusmodi
+                        complementum. Sed quantum est de diversitate rationis, non
+                        proprie praedicatur unum de altero; ratio enim naturae, in
+                        quantum talis, non est ratio suppositi nec e contrario. Licet
+                        igitur id ipsum quod est (a) natura sit suppositum: non tamen,
+                        in quantum est natura, est suppositum (b), sumendo reduplicationem
+                        ratione diversitatis rationum et non ratione
+                        identitatis realis. — Si quis tamen instaret (c) contra tres
+                        praemissas responsiones (d) trium praedictorum argumentorum
+                        dicendo quod quando per agens violentum pars aquae
+                        vel cuiuscunque totius homogenei praescinditur a toto in
+                        quo prius erat, tunc oportet secundum praedicta quod a
+                        praedicto agente violento aggeneretur eidem parti aliquod
+                        complementum actualitatis essendi per quod fiat quoddam
+                        suppositum seu quoddam per se ens; et tunc cum (e) hoc sequetur
+                        quod illud complementum educat de potentia materiali
+                        illius partis ac per consequens quod sit naturale agens
+                        et quod eius actio per quam hoc adducet (f) sit naturalis et
+                        non violenta; sequetur etiam quod in morte hominis naturali
+                        vel violenta corpus eius acquirat quoddam complementum
+                        essendi; et tunc tam de ipso quam de praedictis partibus sequetur
+                        quod nobilius esse et plus de actualitate habeat extra
+                        sua tota quam quando erat eis unita; et hoc ipsum sequeretur
+                        de natura Christi (g) humana; sequeretur etiam tam de natura
+                        Christi humana quam de aliis praedictis quod non haberent
+                        in se unde possent per se subsistere, si separarentur a
+                        suo priori toto vel supposito; et tunc videretur quod perfecta
+                        forma substantialis cum perfecta materia non sufficerent ad
+                        complendum substantiam et rationem substantiae; si quis
+                        igitur ex hoc dicere vellet quod praedicta nullo alio (h) indigent
+                        ad per se essendum nisi solum quod auferatur eis illa inclinatio
+                        et unio qua suis totis et eorum partibus sunt unita
+                        et inclinata seu illud esse in per quod in suo toto existunt
+                        quod idem est: non clare mihi occurrit ratio bona. Nihilominus
+                        tamen adhuc non oporteret quod suppositum seu ratio
+                        suppositi nihil diceret positivum, sed (i) solam negationem
+                        huiusmodi  esse in; quia semper in sua (k) ratione includeret
+                        totam naturam, ut est sufficienter actualis ad per se existere,
+                        et ultra hoc huiusmodi negationem; et primum diceret directe,
+                        hanc autem (l) negationem non diceret nisi (m) oblique
+                        et quasi per modum  differentiae. Posset etiam fortassis dici
+                        quod licet (a) generaliter loquendo per se esse sit nobilius
+                        quam esse in: tamen tale esse in quale habent illa in suis
+                        totis est nobilius quam illud per se esse quod habent extra
+                        sua tota.</p>
+                    
+                    <p>Ad quartum dicendum quod natura primo modo accepta
+                        se habet (b) ad suum suppositum sicut pars ad totum;
+                        addit enim tunc suppositum ad naturam sic acceptam complementum
+                        actualitatis absolutae et independentis. Sed natura
+                        secundo modo accepta non se habet secundum rem ad suum
+                        suppositum sicut pars ad totum, sed solum secundum modum
+                        intelligendi. Suppositum enim dicit id quod dicit per modum
+                        totius et entis, natura vero secundo modo accepta dicit id
+                        ipsum non per modum entis, sed per modum essentiae; ratio
+                        autem entis se habet ad rationem essentiae, etiam completae,
+                        per quandam additionem, non quod addat aliam essentiam,
+                        sed solum rationem realem. Et ideo intellectus accipit eam
+                        respectu eius quasi per modum partis fundamentumque suae
+                        veritatis habet in diversitate rationum realium et in diverso
+                        modo earum. Quia autem modus et proprietas praedicationum
+                        sequitur modum intelligendi et rationum realium, licet veritas
+                        praedicationum sequatur potius veram entitatem rei: ideo etsi
+                        vera sit praedicatio suppositi de natura et e contrario, non
+                        tamen est omnino propria.</p>
+                    
+                    <p>Ad quintum dicendum quod prima non est vera, nisi
+                        ei (c) aliquid addatur sic dicendo: omnis natura non participata
+                        nec participans nec ex participante et participato composita
+                        habet rationem naturae divinae; alias enim materia
+                        prima et omne primum participans et omne suppositum esset
+                        Deus, cum talia non possint ab aliis participari nec in
+                        aliis recipi. Naturae igitur creatae non sunt Deus, quia aut
+                        sunt participatae aut participantes aut compositae ex participante
+                        et participato. — Alia etiam pars propositionis sic debet
+                        compleri: omne in se et per se absolute existens et ita per
+                        se quod non (d) per partes et ita absolute quod nullam habet
+                        impendentiam in se nec in aliquo sui habet rationem divinae
+                        naturae; sine istis autem additionibus praedicta propositio
+                        non est vera. Sic autem non est (e) verificabilis in natura
+                        creata, quamvis sit idem quod suum suppositum quod
+                        adhuc habet partes ex quibus existit, quae partes non sunt
+                        in se, sed in suo toto existentes.</p>
+                    
+                    <p>Ad sextum dicendum quod natura non potest dici
+                        forma sui suppositi, sumendo naturam pro totali (a) essentia
+                        sui suppositi, sicut in quaestione ista communiter sumitur.
+                        Licet enim forma et materia dicantur esse natura (b) in
+                        <ref>II <title ref="#Physics">Physicorum</title></ref> (1), communiter tamen in proposito accipitur
+                        nomine naturae tota essentia et quidditas suppositi. Nec
+                        forma etiam partialis dicitur esse forma sui suppositi, quasi
+                        informet ipsum sicut materiam suam, sed solum quia (c) est
+                        eius pars formalis; sic enim et materia dicitur materia
+                        sui suppositi, non quasi recipiat ipsum in se, sed quia est
+                        pars eius materialis. Natura autem, prout stat pro tota essentia,
+                        multo minus potest se habere ad suum suppositum
+                        sicut forma ad informabile seu ad materiam; quia tunc
+                        omnes partes essentiae seu naturae oporteret esse formales;
+                        nec tunc suppositum esset aliud quam materia suae naturae;
+                        et tunc ex natura et supposito fieret tertia natura, sicut fit
+                        ex materia et forma. Forma igitur hic sumitur aequivoce
+                        seu analogice, quia enim materia habet rationem sustinentis
+                        respectu suae formae et forma rationem actus respectu (d) suae
+                        materiae, suppositum autem in eo quod dicit rationem totius
+                        et entis dicat secundum modum intelligendi rationem sustinentis
+                        et secundum rem habeat rationem sustinentis respectu
+                        aliarum essentiarum quae in se et in sua essentia firmantur,
+                        natura vero dicat rationem quidditatis et entitatis sui suppositi:
+                        inde est quod intellectus attribuit (e) naturae totali
+                        nomen formae. Et ex hoc exivit divisio illa quod alia est
+                        forma partis, alia est forma totius, licet quidam dixerint
+                        aliter, formam totius vocantes universalia (f) quae realiter, in
+                        quantum talia, ponebant in (g) individuis, sicut in praecedentibus
+                        est tactum. Illud igitur quod ad probationem minoris
+                        assumitur non est simpliciter verum; aliter enim est ens
+                        materia per formam, aliter suppositum per suam naturam;
+                        ibi enim est per receptionem entitatis formalis, hic autem
+                        per veram identitatem ad totalem suam entitatem.</p>
+                    
+                    <p>Ad septimum dicendum quod omnis natura creata est
+                        dependens a creatore et secundum hoc oportet quod figatur
+                        (h) et stabiliatur a Deo; sed non omnis natura creata est
+                        dependens ab alio sicut a suo supposito; alias nihil esset
+                        dare in creatis per se existens; quicquid enim daretur, eadem
+                        ratione esset dependens et non per se existens qua ratione
+                        hoc poneretur de omni natura creata. — Si autem dicatur
+                        quod ad minus oportebit quod suppositum dicat aliquid realiter
+                        differens ab omnibus partibus suis, utpote a materia et
+                        a forma, quia oportet dare aliquid fixum in quo tanquam in
+                        suo supposito partes omnes firmentur: dicendum quod non
+                        oportet quod dicat aliquid realiter differens ab omnibus partibus
+                        simul sumptis, sed solum a qualibet per se sumpta;
+                        quaelibet enim pars (a), saltem de principalibus, habet aliquid
+                        firmitatis per quod potest firmare aliam et quaelibet
+                        habet aliquid dependentiae secundum quam firmatur in altera
+                        parte, ut verbi gratia materia secundum potestatem receptivam
+                        habet figere impendentiam formae, forma vero secundum
+                        actualitatem unitivam habet figere fluxibilitatem (b)
+                        materiae. Pro tanto igitur quaelibet firmatur in supposito,
+                        quia firmatur in aliqua parte suppositi et quia constituendo
+                        unum suppositum firmum in se et fixum firmitatem suppositi
+                        quod constituunt obtinent; non autem firmantur partes in
+                        ipso supposito, quasi in ipso sicut in quodam recipiente plantentur,
+                        cum suppositum non dicat rationem recipientis vel
+                        subiecti respectu suarum (c) partium, sed solum respectu suorum
+                        accidentium.</p>
+                   
+                    <p>Ad octavum dicendum quod esse in quo natura subsistens
+                        dicitur esse in se non dicit habitudinem realem, sed
+                        solum secundum modum intelligendi; quoniam nec ibi sumitur
+                        realiter esse in, cum omne esse in importet realem
+                        inhaerentiam aut impendentiam aut saltem unitivam assistentiam.
+                        Unde per esse in in proposito non significatur aliud
+                        quam absoluta actualitas existendi nulli alteri a (d) se impendens;
+                        alias eadem ratione oporteret quod suppositum differret
+                        realiter a se ipso, quia multo magis dicitur hoc de supposito
+                        quod sit in se ipso; nec enim natura dicitur esse in se ipsa,
+                        nisi in quantum dicitur habere rationem suppositi.</p>
+                    
+                    <p>Ad nonum dicendum quod suppositum non subicitur
+                        proprie et per se accidentibus nisi per materiam seu per
+                        aliquid quodcunque quod est in eo potentiale et passivum;
+                        firmantur tamen in materia et in suo esse non solum per
+                        materiam eius, sed etiam per formam firmantem eorum materiam
+                        et ipsa aliquo modo originantem et causantem, cum
+                        materia et forma sint partes naturae sicut et suppositi; natura
+                        etiam talis suppositi subicietur et subsistet (a) accidentibus.
+                        Non tamen bene dicetur quod humanitas sit alba aut
+                        calida aut tricubita; quia cum intellectus accipit naturas per
+                        modum quidditatis abstrahendo ab eis rationem suppositi:
+                        tunc quicquid eis attribuitur intelligitur eis attribui sicut
+                        quidditati et non sicut supposito aut subiecto; partes autem
+                        quidditatis possunt solum attribui quidditati ut quidditati (b)
+                        et non aliquod accidens immo nec aliqua alia ratio realis,
+                        quamvis esset (c) essentialis et realiter eadem. Non igitur
+                        causatur haec ex diversitate reali, sed potius a diverso modo
+                        intelligendi et ex veritate diversarum rationum realium.
+                        Alias secundum rem ita est verum quod natura huius corporis
+                        est extensa sicut quod corpus est extensum; quamvis
+                        in humanitate et animalitate hoc non possit plene dici ratione
+                        omnium partium, sed solum ratione alterius partis,
+                        quoniam anima quae est altera pars earum non est calida
+                        vel tricubita seu extensa.</p>
+                   
+                    <p>Ad decimum dicendum quod licet suppositum realiter
+                        non contineat suam naturam, pro eo tamen quod dicit id
+                        quod dicit per modum entis et totius, natura autem per modum
+                        essentiae et quasi per modum partis formalis: inde est
+                        quod bene dicitur quod haec natura est huius suppositi; secundum
+                        enim modum intelligendi le <quote>huius</quote> dicit ibi habitudinem
+                        quasi continentis et quasi totius.</p>
+                    
+                    <p>Ad primum autem (d) alterius partis dicendum
+                        quod secundum illos qui ponunt quod esse et per se esse
+                        sint substantialia, consequentia tamen ipsam essentiam seu
+                        naturam  suppositum addit  ad naturam  aliquid essentiale;
+                        secundum illos vero (e) qui ponunt ea esse accidentia addit
+                        aliquid accidentale.</p>
+                   
+                    <p>Ad primam igitur probationem primae partis antecedentis
+                        dicendum quod quamvis suppositum (f) non addat
+                        ad naturam formam aut materiam, addit tamen actum essendi
+                        et modum essendi (g) qui est per se esse. — Ad secundam
+                        vero dicendum quod extra essentiam rei potest aliquid
+                        esse dupliciter: aut quia degenerat in (h) aliud genus,
+                        ut dicatur esse extra essentiam, quod est, extra suum genus
+                        seu extra suam speciem; alio modo potest dici esse extra
+                        suam essentiam, quia est extra constitutionem essentiae, ita
+                        quod non est de principiis intrinsecis intrantibus (a) constitutionem
+                        essentiae. Et hoc modo a multis negatur minor propositio
+                        qua dicitur quod extra essentiam rei non potest esse
+                        aliquod (b) essentiale et quod omne essentiale sit aliquod de
+                        principiis constitutivis essentiae; et hoc modo suppositum addet
+                        esse et modum essendi. — Ad tertiam patet per hoc idem,
+                        quia secundum praedictos prima propositio non erit vera nisi
+                        de essentiali quod intrat constitutionem essentiae, quamvis
+                        nec de omni tali simpliciter sit verum; gradus enim albedinis
+                        secundum quem album sit magis album non constituit cum
+                        priori naturam tertiam, ad minus ita quod sit alterius speciei,
+                        nec inclinatio quae datur multis naturis, quando amittunt
+                        esse per se et incipiunt existere in alio supposito, 
+                        quamvis sit eis substantialis, tamen non (c) constituit cum eis                      
+                        proprie tertiam naturam nec facit eam esse alterius speciei,
+                        sed solum facit eam esse alterius entis seu suppositi. Quando
+                        enim essentiale quod additur est eiusdem speciei, tunc nunquam
+                        mutat speciem, aut quando est tale quod circuit omnes
+                        differentias specificas et omnes naturas generum  et specierum
+                        praedicamenti sui, impossibile est (d) quod tale essentiale
+                        sit aliqua differentia specifica contrahens ad determinatam
+                        speciem. Tale autem est in substantiis esse in alio et esse
+                        per se; respiciunt enim omnem essentiam substantiae creatae
+                        et in quantum talem. Hoc autem amplius tangetur in
+                        quaestione de humanitate Christi. — Ad quartam dicendum
+                        quod suppositum non dicit tantummodo illud quod addit ad
+                        naturam (e), sed utrumque simul.</p>
+                    
+                    <p>Ad primam autem probationem secundae partis praedicti
+                        antecedentis dicendum sustinendo illos qui ponunt quod
+                        suppositum (f) addat ad naturam aliquid accidentale: illud
+                        enim accidentale (g) quod addet non erit ipsum suppositum,
+                        sed potius illud quod constituetur ex eis. — Ad secundam dicendum
+                        quod sicut album dicit aliquod accidens et tamen
+                        nihil dicit sibi accidentale: ita poterit dici de
+                        supposito et de ipso particulari ente. — Ad tertiam dicendum quod secundum
+                        illos qui ponunt quod per se esse (h) sit accidens per se
+                        esse non erit differentia substantiae, nisi prout per hunc
+                        actum significare intendimus aptitudinem et potestatem per
+                        se essendi et non ipsum actuale existere; quamvis et possit
+                        dici quod suppositum non addit ad naturam communiter acceptam
+                        solum per se esse, immo ad ipsam addit ultra hoc
+                        singularitatem, sed ad naturam individualiter acceptam non
+                        addit (a) nisi rationem per se essendi. — Ad quartam dicendum
+                        quod uno modo potest dici quod per se esse non includitur in
+                        generibus et speciebus substantiae directe et per se, prout
+                        dicit actualem existentiam et actualem modum essendi (b),
+                        sed solum prout dicit aptitudinem et potestatem per se essendi.
+                        Alio modo potest dici quod per se ens potest accipi
+                        dupliciter: aut scilicet generaliter aut determinate. Determinate
+                        autem accipi voco, quando in quantum tale potest
+                        actualiter per se esse; et hoc modo sola supposita seu primae
+                        substantiae habent rationem per se entis, secundae enim
+                        substantiae, in quantum tales, non possunt per se esse, ut
+                        scilicet existant per se in sua universalitate absque aliquo
+                        individuo; quia tunc veraciter, in quantum  talia, essent quaedam
+                        supposita et primae substantiae; et (c) pro tanto ab <name ref="#Aristotle">Aristotele</name> (1)
+                        primae substantiae dicuntur (d) magis esse substantiae,
+                        quia magis primo et per se subsistunt et existunt.
+                        Generaliter autem accipi voco, quando generaliter per hoc
+                        intendimus significare ipsas substantias per modum entis et
+                        totius non cointelligendo ibi hoc vel illud (e) seu aliquam individuationem;
+                        sicut suo modo facimus, quando dicimus quod
+                        non solum tres personae sunt una essentia et divinitas, sed
+                        etiam unum ens et unus Deus. Et hoc modo sumimus (f) per
+                        se ens quasi neutraliter, alio modo non solum neutraliter, sed
+                        etiam quasi masculine; per masculinum enim significatur (g)
+                        quis seu aliquis seu hic vel ille. Primus autem modus accipitur
+                        secundum rem in praedicamento substantiae et ideo naturae ibi
+                        in abstracto acceptae non habent rationem generis aut speciei;
+                        unde non vere dicitur <quote>humanitas est animalitas</quote>, ad minus secundum
+                        communem opinionem. In praedicamentis autem accidentium
+                        accipitur secundum modum intelligendi; unde quando
+                        dicitur quod albedo est color, color non stat ibi tantum pro
+                        ipsa quidditate coloris, sed pro ente quod secundum modum
+                        intelligendi habet talem quidditatem; alias enim non posset
+                        dicere totum respectu albedinis et aliarum specierum suarum,
+                        sicut debet dicere genus respectu specierum suarum.</p>
+                    
+                    <p>Ad secundum principale dicendum (a) quod illud
+                        quod non est actu existens multo minus est actu existens in
+                        se; si ergo natura, in quantum talis, non est actu existens
+                        secundum illos qui volunt quod actus essendi per quem existit
+                        non sit omnino idem quod ipsa: tunc ipsa, in quantum
+                        talis, non erit existens in se, sed solum in quantum sumitur
+                        cum actu et modo per se essendi (b).</p>
+                    
+                    <p>Quoniam autem quidam aliquando importune quaerunt (c)
+                        quae praedictarum positionum verisimilior videatur, dico
+                        secure quod suppositum, in quantum tale, non
+                        potest proprie et realiter esse in genere accidentis,
+                        cum directa ratio eius sit ratio primae substantiae
+                        seu primi et totius subsistentis in quo omnia accidentia subsistunt
+                        sive potius insistunt. Puto autem in theologicis tutius
+                        esse uti utraque illarum duarum, quarum una dicit quod ad
+                        naturam nihil addit realiter diversum, altera vero quod immo,
+                        et monstrare (d) quomodo utraque istarum veritati nostrae
+                        fidei non obest, sed potius famulatur (e).</p>
+                    
+                    <p>Alias tamen quibusdam, inter quos et mihi, verisimilius
+                        esse videtur quod (f) nihil addat realiter
+                        diversum. Cuius prima ratio est: quia amota a tali
+                        natura omni impendentia et insistentia ad suppositum alterius
+                        naturae nulloque (g) alio suae essentiae addito, constat quod
+                        talis natura adhuc erit actu et constat quod non in alio, sed
+                        solum in se ipsa. — Secunda ratio est: quia quicquid sit illud
+                        quod adderet, posito quod (h) a Deo auferetur nullo alio addito,
+                        constat quod illa essentia adhuc erit, et utique non in altero,
+                        cum nullum esse in sit sibi adiectum. — Tertia est: quia prima
+                        ratio subsistendi seu subsistentis est in materia, omnia enim
+                        fundantur in ipsa sicut in primo recipiente; ad subsistendum
+                        autem et ad recipiendum non eget alio praeter se ipsam,
+                        et, si eget, hoc non est nisi formalis dispositio priorum formarum
+                        (i) respectu posteriorum. — Quarta est: quia cum dico
+                        <quote>esse per se</quote> vel <quote>esse in se ipso</quote>, hoc quod dico <quote>in
+                        se</quote> vel <quote>per se</quote> nihil addit ad esse cui adiungitur (a)
+                        nisi solum <quote>id ipsum</quote>, sicut ex ipsa ratione pronominis patet, quod
+                        est relativum reciprocae identitatis (b). — Quinta est: quia illud
+                        quod addet suppositum ad naturam oportet quod sit receptum
+                        et sustentatum in materia seu in passiva potentia ipsius naturae
+                        et per consequens quod ipsa natura sit quodam modo
+                        suppositum illius additi. — Sexta est: quia illud additum non
+                        erit aliqua forma seu formalis differentia nova, quia tunc
+                        novam et differentem speciem faceret. Non etiam erit novus
+                        gradus alicuius formae prioris, tum quia tunc formas illas
+                        intenderet seu intensive augeret, tum quia gradus formae
+                        posterior non alia ratione spectat ad per se existere quam
+                        gradus priores (c). Non etiam est reflexio sui super se seu
+                        inhaesio vel impendentia sui ad se, tum quia talis reflexio
+                        esset habitus vel operatio vel aliqua essentia intermedia inter
+                        rem et inter rem eandem, tum quia res non unitur sibi
+                        ipsi (a) ad constituendum aliquod tertium compositum ex se
+                        ipsa et se ipsa tanquam ex duobus extremis, tum quia illud
+                        super quod terminabitur reflexio illa erit ipsum suppositum.</p>
+                    
+                    <p>Forte dicetur quod illud quod addit est absolutus modus
+                        existendi; qui modus dicit aliquid (e) magis positivum
+                        quam faciat (f) modus essendi respectivus qui dicitur esse in
+                        alio. — Sed contra hoc arguitur quod huiusmodi absolutio nihil
+                        reale addit ad essentiam naturae cuius est, sed solum dicit
+                        ipsam nihil ad aliud suppositum impendentem nec per modum
+                        talis (g) impendentiae ad aliud relatam. Praeterea, si
+                        dicit aliud, tunc illud solum habebit rationem per se existentiae
+                        (h) et absoluti esse, et tunc totum essentiale esse
+                        ipsius naturae quod est omnino id ipsum quod ipsa erit
+                        omnino alienum a per (i) se esse sive a per - se - existentia
+                        sua et suae naturae. Praeterea, cum illud additum inhaereat
+                        et impendeat naturae cui additur et (k) partibus eius: quomodo
+                        illud est absolutius quam ipsa natura vel eius esse,
+                        quod non dicit aliud quam actualitatem suae essentiae concretive
+                        sumptam?</p>
+                  
+                    <p>Quod autem supra obicitur quod absolutus modus essendi
+                        dicit quid non minus positivum quam modus essendi
+                        alteri relative impendens: dicendum quod licet dicat quid
+                        non minus positivum, non propter hoc sequitur quod illud
+                        quod ponit sit realiter aliud ab ipsa natura; sicut et personale
+                        existere Dei, quamvis sit maius positivum quam quodcunque
+                        esse creatum, non propter hoc sequitur quod dicat
+                        aliud realiter differens ab essentia sua.</p>
+                    
+                    <p>Si vero iterum instetur quod si suppositum nihil reale
+                        addit ad naturam suam, tunc quamdiu illa natura erit actu,
+                        semper necessario erit suppositum in se ipsa per se existens,
+                        ex quo sequeretur (a) quod humanitatis Christi esset
+                        quaedam persona creata: dicendum quod hoc quidem sequeretur,
+                        si suppositum ultra positivam rationem naturae realiter
+                        in se non includeret negationem (b) et praecisionem omnis
+                        modi essendi in alio ut in supposito; haec (c) autem negatio
+                        (d) seu ratio negativa tollitur (e) per solam additionem talis
+                        modi esse in, factam ad naturam.</p>
+                  
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

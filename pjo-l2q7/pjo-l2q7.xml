@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- <?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Librum II, Quaestio 7</title>
+                <author xml:id="PJO">Peter John Olivi</author>
+                <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2015.06">
+                    <title>Librum II, Quaestio 7</title>
+                    <date when="2015-06-15">June 15, 2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Ad Claras Aquas</publisher>
+                <pubPlace>Quaracchi</pubPlace>
+                <availability status="free">
+                    <p>Public Domain</p>
+                </availability>
+                <date when="1922">1922</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Quaestions In Secundum Librum Sententiarum, ed. Bernardus Jansent, S.I, Ad Claras Aquas, 1922</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2015-06-15" who="#CO" status="draft" n="2015.06">
+                    <p>Created file for the first time.</p>
+                    <note type="status">
+                        <note type="collobaration">Yes</note>
+                        <note type="validating-schema">lbp-0.0.1</note>
+                        <note type="transcription-type">critical</note>
+                    </note>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div xml:id="includeList">
+                <xi:include
+                    href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+                    xpointer="worksCited"/>
+                <xi:include
+                    href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+                    xpointer="prosopography"/>
+            </div>
+        </front>
+        <body>
+            <div xml:id="pjo-l2q7">
+                <head>Librum II, Quaestio 7</head>
+                
+                <p>Primo (a) quaeritur utrum in aliquo ente (b) sint diversae
+                rationes reales nullam habentes inter se
+                differentiam realem.</p>
+                
+                <p>Et (c) quod non videtur.</p><!-- Is this some kind of sub header? -->
+                
+                <p>1. Pluralitas et diversitas vel quaecunque distinctio non
+                possunt alicui vel aliquibus realiter convenire, quin (d) ibi sit
+                aliqua distinctio vel pluralitas essentiarum vel personarum;
+                si in quocunque ponuntur diversae rationes reales, ibi eo ipso
+                ponitur diversitas realiter aliquibus convenire; ergo et cetera.</p>
+                
+                <p>2. Item, quaecunque res vel rationes (e) nullam habent
+                inter (f) se penitus diversitatem realem (g), ipsae sunt necessario 
+                unius et eiusdem rationis omnino, cum idem (h) et diversum
+                dividant totum ens per immediata et consimiliter
+                unum et multa; si ergo huiusmodi rationes nullam habent inter
+                se differentiam realem, ergo sunt omnino unius et eiusdem
+                rationis et ita non sunt plures rationes, sed solum una ratio.</p>
+                
+                <p>3. Item, istae rationes, in quantum sunt tales rationes (i)
+                seu in quantum ponuntur (k) esse rationes diversae, aut dicunt
+                aliquid aut nihil. Si aliquid, ergo ibi est dare aliqua plura
+                et diversa, et ita (l) non solum erunt ibi rationes diversae, sed
+                etiam essentiae diversae (m); si nihil, ergo de nihilo fit quaestio,
+                et (n) quando dicitur quod ibi sunt plures rationes, non
+                est (o) aliud dictu quam ibi sunt plura nihil.</p>
+                
+                <p>4. Item, ratio in quantum ratio non (p) dicit aliud quam
+                essentia (q), et si aliud diceret, tunc diceret omnino nihil;
+                ergo impossibile est dare plures rationes reales, quin eo ipso
+                dentur (r) plures essentiae.<pb n="133"/></p>
+                
+                <p>5. Item, ratio et definitio idem sunt, et unius rei non
+                potest esse nisi una definitio; ergo et cetera.</p>
+                
+                <p>6. Item, impossibile est aliquam essentiam creatam aequari
+                (a) divinae essentiae (b) in aliqua proprietate; sed si
+                essentia creata potest habere realiter (c) plures rationes absque
+                omni differentia, aequabitur (d) in hoc simplicitati et unitati
+                divinae essentiae, cum hoc videatur solius divinae essentiae
+                proprium; ergo et cetera.</p>
+                
+                <p>7. Item, qua ratione possunt ibi esse duae rationes sine
+                differentia reali, eadem ratione et infinitae secundum modum
+                quo arguit <name ref="#Aristotle">Aristoteles</name> (1) quod si plura corpora possunt
+                esse in eodem loco (e), eadem, ratione et infinita; non enim
+                per aliam rationem repugnat unitas essentiae (f) infinitis rationibus
+                quam solis duabus; sed impossibile est infinitas rationes
+                reales esse in aliqua essentia creata absque omni differentia
+                reali, quia talis essentia esset infinitae simplicitatis et
+                immensitatis ergo et cetera.</p>
+                
+                <p><supplied>Respondeo</supplied></p> <!-- some kind of subheader -->
+                
+                <p>Ad quaestionem istam fuit quorundam (g) excogitatio 
+                potius quam opinio qui, propter varios modos
+                defensionum (h) fidei et subtilitatum circumstantium articulos
+                eius, varios modos in arduis difficultatibus absque
+                assertione temeraria consueverunt excogitare; qui dicebant
+                quod non solum in Deo, sed etiam (i) in rebus 
+                creatis videntur esse plures rationes reales
+                absque omni differentia. Vocant autem rationem
+                realem ad differentiam rationum quae in solis modis intelligendi
+                consistunt, sicut est ratio universalitatis quam intellectus
+                attribuit naturis rerum absque earum individuatione (k)
+                apprehensis et sicut sunt (l) relationes secundum dici quae
+                in neutro extremorum aut saltem in altero eorum nihil ponunt,
+                ut laudari et amari passive accepta nihil ponunt in (m)<pb n="134"/>
+                ipso laudato et (a) amato. Ad differentiam igitur istarum vocant
+                rationes reales illas (b) quarum veritas plenarie (c) est
+                in re, ita quod ex modo intelligendi vario non attribuuntur
+                (d) rebus, sed potius ex ipsa natura et veritate reali, ut
+                verbi gratia rationale habet rationem entis et rationem formae
+                et rationem talis formae per quam differt ab irrationali et
+                habet in se rationem veri et boni et rationem partis; et
+                omnes hae rationes essentialiter sibi competunt et in ipso
+                esse naturaliter consistunt. — Quia autem iste modus excogitandi
+                in diversis difficultatibus locum habet, utpote in divinis,
+                in materia de ideis; et in materia de pluribus perfectionibus
+                attributis divinae essentiae, utpote quomodo sit simul
+                simplex et infinitis perfectionibus plena; et in materia de
+                pluralitate personarum, originum (e) et relationum in essentia;
+                et in materia de Dei (f) aeternitate, quomodo scilicet simul
+                attingat praeterita, praesentia et futura; et in materia de
+                voluntate, quomodo scilicet potuit velle quod non vult et e
+                contrario; et in materia de Dei visibilitate, quomodo scilicet
+                (g) Deus totus videatur a beatis et non totaliter et quomodo
+                plus ab uno quam ab alio, et ita fere in omnibus materiis
+                divinis. — In creatis vero (h) locum habet in materia de
+                proprietatibus annexis enti, ut sunt individuatio, unum, verum,
+                bonum et consimilia; et in materia de distinctione praedicamentorum,
+                an scilicet necessario dicant semper essentias
+                diversas, an aliquando sufficiat (i) quod dicant solum diversas
+                rationes reales; et in materia de unitate vel (k) diversitate
+                formarum, an scilicet ratio seu natura generis et ratio
+                differentiae sint semper diversae formae vel essentiae formales;
+                et in materia de speciebus accidentium, an videlicet
+                essentiae eorum (l) sint semper compositae ex natura generis
+                et ex natura differentiae vel universaliter sint quantum ad
+                hoc simplices; et in materia de aevo, an scilicet possit ibi
+                esse successio (m) absque innovatione; et in materia de motu,
+                an scilicet motus sit idem quod forma quae per motum
+                dicitur educi et an actio et passio sint idem vel diversa
+                secundum rem; et in materia de natura et supposito et
+                de essentia et esse, quomodo scilicet inter se differant et
+                quomodo non; et de forma et eius inhaerentia, an scilicet<pb n="135"/>
+                eius inhaerentia vel informatio sit idem penitus cum ipsa
+                vel non: et in materia de potentiis animae, an scilicet sint
+                omnino eaedem inter se et cum essentia animae vel omnino
+                diversae vel partim sint (a) partim non; et consimiliter in
+                quaestione de potentia materiae, an scilicet potentiae eius
+                sint omnino eaedem cum (b) ipsa; et in quaestione, an materia
+                habeat diversas species et differentias vel sit eiusdem speciei
+                et eadem numero in omnibus; et in materia de actibus
+                intellectus et aliarum cognitivarum, an scilicet actus sit idem
+                quod species vel non; et in materia de habitibus virtutum
+                et gloriae, an scilicet idem habitus simplex possit secundum
+                idem sui se extendere ad plura et pauciora (c), sicut a multis
+                communiter dicitur quod per unam speciem gloriosam habentem
+                in se vim plurium specierum videntur omnia quae
+                videntur (d) in Verbo. — Habet etiam locum in omnibus operationibus
+                seu effectibus Dei, ut in materia de creatione, an
+                creatio passio sit idem quod creatura; et an conservatio sit
+                idem quod creationis sive factionis continuatio seu reiteratio;
+                et universaliter an dependentia qua omnis creatura dependet
+                a creatore et tendentia quam habet (e) ad ipsum ut
+                ad finem ultimum et similitudo qua ipsum imitantur addant
+                aliquid super essentias creaturarum; et in materia de transubstantiatione,
+                an scilicet conversio panis in corpus Christi
+                addat aliquid realiter ad corpus Christi; et in materia de efficacia 
+                et (f) significatione sacramentorum, quid (g) scilicet sit
+                actualis significatio et actualis virtus eorum. — Et consimiliter
+                habet locum in materia de signis a beneplacito hominis
+                institutis, an scilicet actualis significatio addat aliquid ad
+                substantiam ipsorum signorum (h) vel non. — Et consimiliter
+                habet locum in tota materia iuris, an scilicet iurisdictio regalis
+                vel sacerdotalis vel iurisdictio cuiuscunque dominii vel
+                proprietatis addat aliquid ad personas in quibus est huiusmodi
+                iurisdictio vel ad res super quas habetur. — Habet etiam
+                locum in materia de negationibus et privationibus quae
+                quamvis de se et secundum se nihil ponant, sunt tamen aliquo
+                modo realiter in propriis (i) substantiis; unde et videntur
+                tenere locum medium inter rationes quae solum sunt in
+                intellectu et inter rationes reales (k) quae dicunt aliquid positivum<pb n="136"/>
+                reale. Valet ergo (a) hic modus ad videndum quomodo
+                istae negationes in suis substantiis realiter fundentur,
+                quamvis nihil essentialiter diversum addant ab ipsa; unde
+                in quaestione, an expulsio culpae praecedat naturaliter infusionem
+                gratiae vel (b) e contrario vel an sint (e) penitus
+                idem et naturaliter simul sola ratione differentia; et in quaestione,
+                an generatio unius formae sit idem quod corruptio alterius
+                et e contrario et an corruptio (d) prioris formae sit prior
+                naturaliter generatione formae sequentis vel e contrario.</p>
+               
+                <p>Non modicum valet perscrutatio (e) modi praesentis, quia,
+                inquam, in tot materiis locum habet. Idcirco qui vult istum
+                modum plenius, videre, oportet eum in speciali attendere ad
+                omnes materias praedictas; unde et ego sparsim (f) in qualibet
+                istarum materiarum aliquid de isto modo tetigi seu recitavi.
+                Et quamvis in nullo praedictorum locorum ipsum asseram
+                aut asserere intendam, sed solum occasionem (g) dare
+                animadvertendi an iste modus possit aliquid valere ad defensionem
+                et explicationem subtilitatum nostrae fidei: non
+                est tamen inutile recitare aliquas ratiunculas quae videntur
+                facere pro ipso; posito enim quod modus iste sit falsus, eius
+                tamen plenior inspectio multum iuvare poterit ad inspiciendum
+                opinionem de hoc communem quam postea recitabo.</p>
+                
+                <p>Potest igitur argui ad istum modum.</p> <!-- some kind of subheader -->
+                
+                <p>Primo ex istarum rationum factione et destructione
+                seu ex earum ad ditione et separatione.
+                Si enim inter se essentialiter differunt, impossibile
+                est quod factio unius sit per se idem quod factio alterius
+                aut quod destructio unius sit per se (h) destructio alterius.
+                Posito autem (i) quod a Deo non fiat aliud nisi ratio unitatis
+                et (k) veritatis et consimilium: eo ipso facta est aliqua essentia,
+                alias nihil penitus esset factum. Et patentissimum est (l)
+                cuivis intuenti (m) quod impossibile est fieri quamcunque huiusmodi
+                rationum, quin eo ipso fiant omnes, ita quod factio
+                unius est idem quod factio omnium aliarum (n) et destructio
+                unius est destructio omnium; facere enim unitatem est facere
+                bonitatem et veritatem (o) et entitatem, et consimiliter
+                facere entitatem erit (p) facere praedicta et sic de aliis. Et<pb n="137"/>
+                idem est de ratione formae generali et absoluta et de ratione
+                suae individuationis per quam est haec forma; facere enim
+                naturam formae est idem quod facere eam individuam. Et
+                breviter, detur quaecunque forma simplex, utpote differentia
+                rationalis: facere eam est facere omnes rationes quae de
+                ea essentialiter praedicantur. Quando enim fit rationalitas,
+                fit ratio formae per quam differt a materia et ratio substantialis
+                per quam differt ab accidente et (a) ratio talis
+                formae per quam huiusmodi forma (b) differt ab irrationabilitate
+                et ratio suae individuationis per quam differt (c) a quacunque
+                alia rationalitate; et tamen in factione eius non est
+                dare plures factiones integrantes unam totalem factionem
+                eius. In factione etiam eius fit ratio entis per quam differt
+                a non ente et ratio unius per quam differt a multo vel a
+                non uno et ratio veri per quam differt a falso vel a non
+                vero et sic de aliis: et tamen nemo dicet quod dare sibi
+                rationem entis sit aliud quam dare sibi se ipsam; facere
+                enim (d) relationes non est aliud quam facere illa in quibus
+                fundantur, sicut suo loco plenius est (e) ostensum. — Praeterea,
+                si huiusmodi rationes dicunt essentias diversas, tunc Deus
+                poterit separare unam ab altera saltem dando consimilem,
+                sicut potest separare formam a materia dando sibi aliam (f);
+                ergo ab hac vel (g) illa forma posset tollere (h) suam individuationem
+                et unitatem et (i) suam veritatem, ita quod illi eidem
+                naturae (k) formali daret seu apponeret aliam individuationem
+                et aliam veritatem; quod manifeste apparet impossibile.</p>
+                
+                <p>Secundo potest ad (l) hoc argui ex earum mutua 
+                convenientia. Impossibile est enim aliquas essentias
+                sic differre quin in aliquo communi (m) conveniant, et manifeste
+                apparet quod conveniunt in ente vel entitate; entitas
+                enim vel quidditas non denominative sed directe praedicatur
+                de omnibus. Si ergo huiusmodi rationes dicunt semper
+                diversas essentias, tunc sequuntur ad minus duo inconvenientia.
+                Quorum primum est quod omnes (n) erunt compositae
+                ex diversis essentiis, scilicet ex eo in quo conveniunt
+                et ex eo in quo differunt; et iterum ilia in quibus differunt
+                erunt eadem ratione composita, quia non possunt esse ita
+                diversa quin in aliquo conveniant, et sic in infinitum.<pb n="138"/>
+                Secundum est quod simul erunt eaedem et diversae et simul
+                erunt ens et non ens; si enim unitas dicit essentiam diversam
+                ab essentia cuius est unitas, tunc sequitur quod ilia
+                essentia diversa quam addit sit omnino eadem cum ratione
+                ipsius unitatis; aut oportebit dare quod ipsa ratio unitatis
+                non sit aliqua essentia et ita quod sit purum (a) non ens.
+                Quomodocunque etiam ponatur quod ipsa non sit per se et
+                directe aliqua essentia, semper sequitur quod non addit (b)
+                aliquam diversam essentiam ad illam principalem essentiam
+                in qua fundatur et cuius ipsa est unitas; si autem non addit
+                diversam essentiam, impossibile est quod differat ab ea realiter
+                seu essentialiter (c). Consimilia autem (d) argumenta possunt
+                formari ex omnibus aliis in quibus communiter conveniunt.</p>
+                
+                <p>Tertio potest argui ex earum generalitate.
+                Si enim omnes huiusmodi rationes dicunt essentias diversas:
+                tunc ratio materiae et ratio formae et ratio substantiae et
+                ratio entis et ratio quantitatis (e) et qualitatis (f) generalissime
+                acceptae dicerent (g) diversas essentias ab omnibus aliis
+                rationibus quae cum eis in rebus simul coexistunt. Si autem
+                hoc ita est, tunc multa sequuntur inconvenientia: erit enim
+                dare unam primam formam et unam primam substantiam
+                communem corporalibus et spiritualibus et vivis, et non vivis,
+                quae de se non erit spiritualis aut corporalis nec erit actus
+                vitalis vel (h) non vitalis nec de se erit quanta nec non(i) quanta.
+                — Tunc etiam sequetur (k) quod in corporalibus sit aliqua
+                prima forma quae non est corporalis nec extensa (l) et quod
+                in angelis est una prima forma quae non est spiritualis nec
+                simplex nec actus vitae; formae etiam (m) corporalitatis vel
+                spiritualitatis quae postea sibi addentur non poterunt(n) facere
+                quod ipsa secundum suam essentiam sit spiritualis vel
+                corporalis; sed sicut homo qui non est albus per suam essentiam
+                dicitur albus (o) per accidens sibi adiunctum, sic erit
+                quasi in proposito. — Tunc etiam sequetur (p) quod erit una
+                essentia quantitatis et qualitatis quae de se non erit aliqua
+                specialis quantitas vel qualitas, ita quod in (q) omni corpore (r)
+                vel superficie erit realiter quaedam forma quantitatis<pb n="139"/>
+                quae secundum suam essentiam non erit lata vel longa
+                nec (a) profunda nec erit unum nec multa; et in quolibet habitu
+                scientiae et in qualibet specie qualitatis erit quaedam
+                generalis essentia qualitatis essentialiter distincta ab
+                omnibus differentiis eius quae (b) secundum se nullam habebit
+                determinationem qualitativam (c), ita quod per se non
+                possit esse (d) aut dici talis vel talis qualitas: unde eius
+                essentia non erit simplex nec extensa nec spiritualis nec
+                corporalis, et idem erit de omnibus praedicamentis. — Tunc
+                etiam sequetur quod ens erit vere genus ad omnia (e) praedicamenta;
+                dicet enim quandam essentiam realiter inclusam
+                in eis et realiter distinctam ab illis rationibus per
+                quas praedicamenta inter se differunt et (f) per quas ratio
+                entis est limitata in eis. — Tunc etiam sequetur quod omnis
+                materia habeat suam essentiam compositam ex materia et
+                forma, quia ratio materiae absolute sumpta erit essentialiter
+                differens a ratione suae individuationis; et ita oportebit quod
+                una sit in altera tanquam in subiecto et (g) sicut actus in
+                suo possibili; et consimiliter ilia simplicitas quae est essentialis
+                materiae angelorum et divisibilitas (h) quae est essentialis
+                materiae corporali erunt quasi quaedam formae superadditae
+                ad essentiam materiae communem. — Praeterea, cum
+                omnis forma substantialis (i) quae per se est ab omnibus
+                aliis formis distincta sit actus de se determinatus (k) ad esse
+                et de se potens materiam determinare ad esse: tunc sequitur
+                quod poterit esse saltem per Dei miraculum aliqua
+                substantia composita ex sola prima et (l) absolutissima ratione
+                materiae et ex sola prima ratione formae, ita quod illa
+                substantia non erit spiritualis vel corporalis; nec eiusC(m)
+                forma poterit dici talis vel talis forma; non enim habebit in
+                se aliquam rationem nisi solum rationem formae et rationem
+                substantialis; nec eius materia poterit dici talis (n) vel talis
+                materia aut haec vel illa; non enim habebit in se rationem
+                huius vel (o) illius vel talis vel talis, sed (p) solum rationem (q)
+                materiae. — Sequetur etiam quod Deus poterit facere aliquod
+                corpus nullam habens rationem corporeitatis specialem, sed
+                solum formam corporeitatis absque aliqua alia ratione sibi <pb n="140"/>
+                annexa; et consimile sequetur de substantia spirituali et sic
+                de aliis. — Indeterminabilitas igitur quam de se habent huiusmodi
+                generales rationes in rebus essentialiter et realiter existentes
+                videtur clamare quod non dicant essentias distinctas
+                ab aliis rationibus cum quibus determinantur ad esse.</p>
+                <p>Quarto potest argui ex earum naturali consequentia (a). 
+                Certum est enim quod una necessario sequetur (b)
+                ad alteram; unde ad positionem (c) entitatis sequitur
+                necessario positio unitatis et veritatis et ad positionem
+                scientiae sequitur necessario positio multiplicium relationum
+                eius, scilicet ad subiectum et ad obiectum et ad suum actum
+                et ad suum contrarium et ad esse sibi consimile. Si igitur
+                istae rationes consequentes sunt essentialiter diversae a
+                primis, oportebit necessario quod originentur et causentur
+                ab eis; non enim erit (d) dare aliam causam huius consequentiae
+                sic (e) necessariae, non enim poterit dici quod consequantur (f)
+                ad primas, sicut ad positionem materiae sequitur
+                positio formae et e contrario; istae enim sese consequuntur,
+                quia una est alteri causa existendi (g); materia enim est
+                causa materialis existentiae ipsi formae et forma est causa
+                formalis existentiae ipsi materiae. Haec autem non possunt
+                dari in (h) proposito, quia tunc rationes consequentes essent (i)
+                formae substantiales praecedentium et primae (k) essent materiae
+                sequentium; si autem secundae causarentur et fiant (l)
+                a primis; ergo omnis essentia creata est causa efficiens suae
+                unitatis et veritatis et omnis habitus erit causa efficiens
+                suorum respectuum; quae manifeste videntur (m) impossibilia.</p>
+                
+                <p>Quinto potest argui ex earum finitate. Si enim
+                omnes huiusmodi rationes sunt inter se diversae per essentiam,
+                tunc necessario erunt in qualibet re infinitae essentiae
+                non solum diversorum generum sed etiam eiusdem speciei;
+                nam si unitas habet essentiam diversam ab essentia rei cuius
+                est, tunc iterum in ipsa unitate erit dare tot essentias quot
+                rationes; et sic in ea ratio suae essentiae erit diversa iterum
+                per essentiam a ratione suae unitatis, et sic in infinitum,
+                et ita erunt ibi infinitae unitates et veritates et sic do aliis.
+                Simile etiam potest argui de omnibus rationibus relativis,
+                sicut in suis locis satis est tactum; quia si relatio habet<pb n="141"/>
+                essentiam differentem a subiecto in quo immediate fundatur,
+                tunc iterum in ipsa erit dare respectum inhaerentiae ad
+                subiectum praeter illum quem habebat ad exterius extremum
+                seu obiectum. Et iterum si quaelibet illarum habet diversas
+                essentias (a), iterum dividetur (b) in essentias et (c) respectus
+                inhaerentiae (d), et sic in infinitum.</p>
+               
+                <p>Sexto potest argui ex modo intelligibilitatis
+                earum. Videmus enim quod multae earum sunt partes
+                rationis et intellectus aliarum, ut ratio entis est pars rationis
+                omnium aliarum non solum per modum subiecti sed
+                etiam per modum communis praedicati, et relatio pars est
+                rationis (e) omnium habituum et actuum et passionum materiae
+                et formae et positionis et ubi; sic (f) enim in ratione
+                habituum cadit eius relatio ad obiectum quod sine hac apprehendi
+                non (g) potest, et in relatione actionis sic cadit relatio
+                eius ad agens et etiam ad patiens quod sine hac apprehendi
+                non potest; et sic de aliis. Unde huiusmodi relationes
+                manifeste videntur eis (h) esse consubstantiales, satis plus
+                quam forma sit consubstantialis materiae suae.</p>
+                
+                <p>Septimo potest argui ex omnium praedictarum 
+                materiarum et difficultatum speciali et
+                propria veritate. Si enim posset constare (i) quod sine
+                isto modo non possunt vitari specialia inconvenientia uniuscuiusque
+                earum, per istum autem non solum possunt vitari,
+                sed etiam multa difficilia in eis faciliter explicari: tunc ex
+                quolibet praedictorum malorum possent sumi specialia argumenta
+                ad probationem istius, et ideo rationes speciales
+                quae ad hoc possent adduci (k) non possunt plene tangi nisi
+                in specialibus materiis in quibus etiam istae generales viae
+                arguendi possunt plenius explicari. Qui igitur vult illa videre,
+                ea (l) quae de hoc recitavi in specialibus materiis intueatur.</p>
+                
+                <p><supplied>Solutio Obiectorum</supplied></p> <!-- some kind of subheader -->
+                
+                <p>Ad argumenta igitur in contrarium facta isti
+                sic respondent.</p> <!-- sub-subheader? -->
+                
+                <p>Ad primum enim dicunt quod sicut in Deo est Vveritas
+                plurium rationum, non tamen est ibi pluralitas earum<pb n="142"/>
+                seu non sunt ibi sub pluralitate, sic est et (a) in proposito;
+                unde non debet dici quod distinctio et diversitas huiusmodi
+                rationum sit realiter in ipsis rebus, sed solum ipsae rationes
+                seu Veritas earum; neganda igitur est minor praedicti argumenti.</p>
+               
+                <p>Ad secundum dicunt quod maior est falsa, nisi per
+                unitatem rationis intelligatur solum unitas essentiae; si autem
+                per unitatem rationis significetur limitatio essentiae ad
+                veritatem et continentiam (b) unius solius rationis specialis,
+                sic est falsa. Quando autem dicitur quod idem et diversum
+                dividunt (c) totum ens et ideo oportet quod istae rationes
+                sint realiter una ratio vel diversae: respondent quod consequens
+                non sequitur ex antecedente, sed bene sequitur ex
+                ipso quod istae rationes sint (d) necessario idem ens (e) vel diversum
+                seu unum ens vel plura; quamquam si per le (f) <quote>diversae
+                rationes</quote> non significetur (g) diversitas realis, sed
+                solum exclusio limitationis ad unam solam rationem et ambitus
+                veritatis aequivalentis diversis, bene potest concedis
+                quod hoc modo sint ibi rationes diversae.</p>
+                
+                <p>Ad tertium dicunt quod istae rationes in quantum
+                tales rationes (h) dicunt aliquid, quia unaquaeque dicit eandem
+                essentiam, non tamen secundum totam plenitudinem
+                essentiae, sed solum secundum quod, est contentiva (i) huius
+                vel illius rationis. — Quod autem infertur quod si rationes in
+                quantum tales dicunt aliquid, ergo dicere diversas rationes
+                est idem quod dicere diversa aliqua et hoc iterum est idem
+                quod dicere diversas essentias: respondent quod verum esset,
+                si per nomen diversitatis intenderent significare diversitatem
+                realem, nunc autem per hoc non intendunt significare
+                nisi solum aequivalentiam seu praevalentiam diversitatis
+                realis; intendunt etiam per hoc significare quod una ratio
+                non significat essentiam totaliter, unde ipsa secundum quod
+                significatur per unam, non signiflcatur per aliam; et hoc
+                solum volumus significare per modum diversitatis, quia per
+                hoc ita (k) pariunt diversos intellectus et diversas consequentias
+                (l) sicut si essent (m) realiter diversae.</p>
+                
+                <p>Ad quartum dicunt quod quamvis quaelibet ratio dicat 
+                essentiam, nulla tamen earum eam dicit totaliter, quia <pb n="143"/>
+                nulla earum (a) dicit eam secundum quod est contentiva (b)
+                aliarum rationum, nisi forte quando una ratio est pars alterius
+                rationis; et ideo ad pluralitatem rationum non sequitur
+                pluralitas essentiae, et maxime cum per pluralitatem rationum
+                non intendant significare aliquam pluralitatem realem (c)
+                sed solum aequivalentiam eius.</p>
+                
+                <p>Ad quintum dicunt quod si definitio sumatur secundum
+                modum logicum qui sequitur modum nostri intellectus
+                potius quam modum ipsius rei, tunc minor est falsa, quia
+                sic, sicut possumus rem diversimode intelligere, sic et diversimode
+                definire. Si tamen daretur una ratio includens in se
+                totam plenitudinem essentiae et omnes modos intelligibilitatis
+                eius, talis ratio non posset (d) plurificari; nihilominus tamen
+                haberet intra (e) se plures rationes partiales, quia continet (f)
+                in se omnes rationes rei; de sola autem tali potest
+                verificari quod unius (g) rei non est nisi unica definitio, quamvis
+                tali definitioni non conveniret omnino ars definitionum
+                quae datur ab <ref><name ref="#Aristotle">Aristotele</name>, VI <title ref="#Topics">Topicorum</title></ref> (1).</p>
+                
+                <p>Ad sextum dicunt quod in multis convenit creatura
+                cum creatore, et tamen non propter hoc aequatur ipsa creatori,
+                etiam in iis in quibus convenit cum Deo (h). Convenit
+                enim ipsa cum creatore in entitate, veritate (i), bonitate et
+                consimilibus; quia tamen non habet entitatem simplicem et
+                infinitam et imparticipatam et independentem et invariabilem,
+                non aequatur ei sed potius analogatur. Sic autem est
+                in proposito; duplici enim ex causa potest patere quod licet
+                in hoc conveniat cum Deo, non tamen in hoc ei aequatur:
+                primo, quia huiusmodi rationes, prout sunt in creatura, habent (k)
+                conditiones defectivas et tales quae non possunt competere
+                nisi creaturae, sunt enim annihilabiles et de nihilo
+                factae et sunt finitae; unde ex eis, non potest constitui aliquid (l)
+                infinitum; et sic de aliis conditionibus defectivis. Secundo,
+                quia rationes illae quae in creatura possunt esse idem
+                non sunt tales quae per se possint (m) esse in actu, non enim
+                per se sine aliis rationibus sumptae dicunt entitatem sufficienter<pb n="144"/>
+                actualem ad hoc ut per se sine aliis possint actu
+                existere; unde omnes insimul acceptae non dicunt plus
+                quam unam integram actualitatem necessariam essentiae
+                creaturae (a) ad hoc ut possit existere actu; in Deo autem
+                est ultra hoc dare veritatem quarundam nobilissimarum et
+                actualissimarum perfectionum, ut est perfectissima sapientia
+                et intellectus et perfectissima voluntas et amor et ut sunt
+                perfectissimae proprietates personales, et tamen istae sunt
+                in eo omnino idipsum. Quare autem hoc non possit esse in
+                creatura, in quaestione de unitate formarum et (b) in quaestione
+                de identitate potentiarum animae et in quaestione <quote>an
+                omnia videantur in Deo per unam simplicem speciem</quote> est
+                ostensum.</p>
+                
+                <p>Ad septimum dicunt quod ille modus arguendi non
+                valet, nisi quando causa, quae repugnat infinitati, aequaliter
+                et eodem modo repugnat dualitati et cuicunque pluralitati
+                et quando (c) coexistentia infinitorum non includit in se maiorem
+                repugnantiam quam coexistentia (d) duorum vel trium.
+                Hoc autem non est dare in proposito, quia coexistentia infinitarum
+                rationum repugnat limitationi creaturae, non autem
+                coexistentia (e) duarum vel trium.</p>
+                
+                <p>Haec igitur est excogitatio praedictorum.</p>
+                
+                <p>Communis autem opinio quae <name ref="#Avicenna">Avicennam</name> (1)
+                et philosophos (f) sequi videtur tenet quod ubi (g)est
+                dare plures rationes reales, ibi est dare aliquo
+                modo plures essentias. Probationes autem C) ad
+                hoc adducere non videntur curasse, quia hoc pro primo principio
+                videntur fere ubique supposuisse; unde nec de hoc quaestionem
+                fecerunt, sed utuntur isto (i) tanquam primo principio
+                ad probandum quod unitas seu Veritas differt realiter
+                ab ente; et sic (k) de multis aliis rationibus supra positis. —
+                Sciendum tamen est (l) quod haec opinio a diversis et magnis<pb n="145"/>
+                diversimode tenetur. Quidam enim volunt quod omnes
+                huiusmodi rationes sint accidentales substantiae in qua fundantur;
+                et propterea (a) potentias animae dicunt esse accidentia
+                eius et esse dicunt esse accidens essentiae et unitatem
+                et veritatem et sic de aliis. Alii vero volunt quod aliquae
+                earum sint accidentales, aliquas vero volunt esse consubstantiales;
+                non tamen pro eo quod sint constitutivae rei(b),
+                sed quia sic sequuntur essentiam rei quod non transeunt in
+                aliud genus, et ita volunt de essentia et esse, unitate et veritate
+                et de creatione passiva et de potentiis animae. et sic (c)
+                de multis consimilibus.</p>
+                
+                <p>Quilibet igitur eligat quod sibi utilius pro
+                fide videtur.<pb n="146"/></p>
+            </div>
+        </body>
+    </text>
+</TEI>    
+

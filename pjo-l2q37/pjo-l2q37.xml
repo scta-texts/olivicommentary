@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Quaestio 37</title>
+        <author xml:id="PJO">Peter John Olivi</author>
+        <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.05">
+          <title>Librum II, Quaestio 37</title>
+          <date when="2015-05-26">May 26, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Ad Claras Aquas</publisher>
+        <pubPlace>Quaracchi</pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="1922">1922</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Quaestions In Secundum Librum Sententiarum, ed. Bernardus Jansent, S.I, Ad Claras Aquas, 1922</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-05-26" who="#JW" status="draft" n="2015.05">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pjo-l2q37">
+        <head>Librum II, Quaestio 37</head>
+        <p>Sexto quaeritur an intellectus angeli possit
+        per virtutem suae naturae simul cognoscere plura.</p>
+        <div>
+          <head>
+          <supplied>Et quod non videtur</supplied>
+          </head>
+        <p>Ad quod quidam dixerunt(a) quod nullo modo 
+          potest simul cognoscere plura, nisi solum quando 
+          cognoscit res (b) in Verbo seu in rationibus 
+          aeternis sumentes rationem ex quatuor: primo 
+          scilicet, ex configuratione seu assimilatione (c) 
+          quae fit per species; secundo, ex conversione 
+          potentiae ad res (d); tertio, ex certificatione iudicii 
+          quo finaliter certam sententiam damus de 
+          obiectis apprehensis; quarto, ex iis quae experimur 
+          in nobis (e) ipsis.</p>
+          <p>Ex primo, scilicet ex configuratione, sic:</p>
+          <p>1. Omnis materia et (f) potentia simplex, a quacunque
+        forma attingitur, tota attingitur (g), alias haberet partem et 
+        partem; ergo a formis seu speciebus disparatis vel oppositis 
+        non poterit simul figurari seu informari; sed non possunt 
+        plura simul (h) intelligi, quin potentia intellectiva quae est 
+        simplex et indivisibilis (i) diversis speciebus plurium obiectorum
+        configuretur et (k) informetur; ergo et cetera.</p>
+        <p>2. Praeterea, species sic se habet in oppositione ad alteram
+        speciem sicut et obiecta quorum (l) sunt; tum quia causae
+        contrariae in quantum tales, contraria gignunt, et ita (m) album
+        et nigrum, in quantum sunt sibi contraria, contrarias(n)
+        species gignent (o); tum quia sic videmus esse in affectibus 
+        et habitibus affectiones (p) enim contrariorum obiectorum 
+        sunt contrariae et habitus opinionis affirmativae contrariatur (q) 
+        habitui opinionis negantis quod affirmativa opinio affirmabat; 
+        sed formae obiectorum contrariae seu disparatae non
+        <pb n="655"/>possunt esse simul in eodem subiecto et praecipue in eodem 
+          subiecto simplici; ergo nec eorum species (a).</p>
+        <p>3. Praeterea, sicut figura corporalis se habet ad materiam
+        corporalem, sic figura spiritualis videtur se habere ad
+        materiam spiritualem; sed materia (b) corporalis non potest
+        simul (c) figurari duabus figuris corporalibus, et si quis ad
+        hoc conetur faciendo secundam figuram, confundit priorem; 
+        ergo sic erit in materia intellectus (d) spirituali; sed species 
+        sunt quaedam configurationes intellectus; ergo (e) et cetera.</p>
+        <p>4. Praeterea, qua ratione duae figurae possent simul (f) 
+          esse in eadem materia, eadem ratione infinitae sicut (g) et 
+          <ref>
+            <seg><name ref="#Aristotle">Aristoteles</name></seg>
+            <bibl>Aristoteles nullibi hoc dicere videtur <!-- note has a bit more here suggesting a possible reference --></bibl>
+          </ref> 
+          arguit contra ponentes duo corpora in eodem 
+          loco; sed constat quod intellectus non potet simul figurari (h) 
+          infinitis speciebus, ergo nec duabus; ex omnibus autem praedictis 
+          rationibus sequitur quod non possunt plura simul intelligi, 
+          cum hoc non possit (i) fieri nisi per(k) plures species 
+          simul in acie intellectus existentes.</p>
+        <p>5. Item, quando visus transit per vitrum viride vel rubrum, 
+          tunc ilia quae sunt ultra vitrum videntur quasi viridia 
+          vel rubra; cuius ratio, ut dicitur, est: quia pupilla primo 
+          fortiter intincta a colore (l) vitri non potest pure et incommixte 
+          seu inconfuse suscipere species colorum subsequentium 
+          obiectorum, ex quo videtur quod species prima (m) impedit 
+          sequentem; sed in intellectu, cum sit simplex, non 
+          possunt plures species simul recipi, nisi una sit alteri superposita; 
+          ergo una impediet ibi reliquam (n).</p>
+        <p>Ex secundo, scilicet ex conversione potentiae, sic:</p>
+        <p>6. Nullum mobile potest simul terminari ad plures terminos, 
+          saltem eiusdem generis, nec simul potest moveri pluribus 
+          motibus eiusdem speciei aut pluribus motibus contrariis; 
+          sed plures conversiones ipsius intellectus habent diversos 
+          terminos et sunt quaedam motiones intellectus aut eiusdem 
+          speciei aut inter se contrariae; ergo intellectus non 
+          <pb n="656"/>potest simul diversas conversiones habere; sed aliter non 
+          potest simul ad plura obiecta converti, cum quodlibet obiectum 
+          sit per se terminus conversionis ipsius intellectus (a), 
+          figitur enim conversio seu aspectus eius in ipso obiecto; nisi 
+          autem simul ad plura obiecta convertitur, non potest simul 
+          intelligere plura; ergo et cetera.</p>
+        <p>7. Praeterea, simplex, ad quodcunque se convertit, totaliter
+        se convertit; sed potentia intellectus est simplex; ergo 
+        totaliter convertitur ad unum (b); ex quo sequitur quod non 
+        possit simul converti ad plura.</p>
+        <p>8. Item, sicut se habet res ad esse, sic et ad operari; ergo 
+          sicut se habet ad unum esse, sic et ad unum operari; non 
+          enim videtur res maiorem ambitum liabere ad operari quam 
+          ad esse (c).</p>
+        <p>Ex terti o, scilicet ex iudicii certificatione, sic:</p>
+        <p>9. Indicium certum requirit fixionem firmam et stabilem
+        super eo de quo indicium habet ferri (a), et oportet quod illud
+        quod (e) per indicium ab aliis discernitur et distinguitur (f)
+        distincte et discrete aspiciatur et apprehendatur; sed haec
+        esse non possunt (g), si pluribus obiectis simul et (h) confuse
+        intendatur.</p>
+        <p>10. Praeterea, iudicium de pluribus non potest solide (i) 
+          et infallibiliter dari nisi comparando illa ad aliquod unum 
+          seu ad aliquam communem regulam per (k) quam de eis unum 
+          commune iudicium dari possit; ergo iudicii certificatio exigit 
+          recollectionem intellectualis considerationis ad aliquid unum; 
+          sed hoc non potest fieri diffundendo (l) se simul ad plura; 
+          ergo et cetera.</p>
+        <p>11. Praeterea, quanto potentia est magis ad unum intenta 
+          et recollecta, tanto perfectius potest intelligere illud 
+          et iudicare de illo, unde commune proverbium est (m), <quote>"pluribus 
+            intentus minor est ad singula sensus</quote> et communis conceptio 
+          est quod omnis virtus unita potentior est se ipsa multiplicata; 
+          ergo intellectus nunquam secundum suum posse 
+          poterit perfecte intelligere seu diiudicare aliquid, nisi illi 
+          soli totaliter intendat.</p>
+          <p>Ex quarto, scilicet ex interno experimento, sic:</p>
+        <p>12. Oommuniter enim in nobis experimur quod nos non
+        possumus fixe cogitare de aliquo aut solide et clare diiudicare
+        <pb n="657"/>et discernere aliquid nisi sequestrando et recolligendo aciem 
+          intellectus nostri ab omni alio cogitatu et aspectu, unde 
+          quando pluribus cogitationibus importune sollicitamur, turbatur 
+          soliditas nostri iudicii et nostrae inquisitionis; et huic 
+          consonat 
+          <ref><name ref="#Aristotle"><sic>Aristoteles <!-- edition actually has Aristoles --></sic></name>, in <title ref="#Topics">Topicis</title>,</ref> 
+          dicens quod 
+          <cit>
+            <quote>contingit 
+              plura scire, sed intelligere non nisi unum solum;</quote>
+            <bibl>Aristoteles, Topica, II, 10, 114b34sq.</bibl>
+          </cit>
+          sed si 
+          intellectus angelicus potest per naturam simul plura, nulla 
+          est ratio quare noster (a) non possit simul aliqua plura, saltem 
+          pauciora; et cetera.</p>
+          <p>13. Praeterea, animus noster secundum <name ref="#Augustine">Augustinum</name>, 
+            libro <title ref="#deTrinitate">De Trinitate</title>, ibi est ubi intentionem suam figit, unde, 
+            IV libro <title ref="#deTrinitate">De Trinitate</title>, capitulo 20 (b), dicit (2) quod 
+            <cit>
+              <quote>cum intelligimus 
+                aliquid supermundanum (c), quod tunc non sumus 
+                in hoc mundo.</quote>
+              <bibl>Augustine, De Trinitate, IV, 20 (PL 42, 907sq)</bibl>
+            </cit>
+            Et Christus dicit (3) quod 
+            <cit>
+              <quote ana="#mt6_21">ubi est thesaurus 
+              tuus (d), ibi est et cor tuum.</quote>
+              <bibl>Matth. 6, 21; Luc. 12, 34 <!-- look ref needs to be added as part of "ana" tag --></bibl>
+            </cit>
+            Et <title>Bernardus</title> dici (4) quod 
+            <cit>
+              <quote>anima verius est, ubi amat quam ubi animat;</quote>
+              <bibl>Bernardus, De praecept. et dispens., cap. 20 (PL 182, 892)</bibl>
+            </cit>
+            sed animus 
+            noster non potest per naturam esse simul in pluribus locis, 
+            ergo nec intendere simul pluribus obiectis.</p>
+        </div>
+        <div>
+          <head>
+            <supplied>Respondeo</supplied>
+          </head>
+        <p>Alii vero dicunt quod intellectus tam angelicus 
+          quam humanus potest simul plura videre, 
+          sub aliqua tamen unitate alicuius correlationis 
+          seu coordinationis (e).</p>
+          <p>Quod secundum eos ostendit primo (f) diversitas terminorum 
+            propositionis: Veritas enim huius negationis <mentioned>homo 
+            non est asinus</mentioned> non potest ab intellectu sciri, quin simul 
+            apprehendam rationes (g) duorum terminorum, hominis scilicet 
+            et asini; et idem est de omnibus aliis compositionibus sive 
+            negationibus diversorum terminorum.</p>
+          <p>Secundo, ostendit hoc (h) apprehensio conclusionis et 
+          principiorum. Non enim potest sciri conclusio, in quantum 
+          talis, nisi simul sciantur (i) sua principia et habitudo necessaria 
+          huius ad ipsa, non enim est aliud scire conclusio<pb n="658"/>nem 
+            in quantum talem, quam videre necessitatem huius habitudinis; 
+            hoc autem non potest apprehendi, nisi simul ad 
+            invicem comparentur sua extrema ac per consequens nisi 
+            simul apprehendantur; sed conclusio cum suis principiis non 
+            potest simul apprehendi, quin (a) simul apprehendantur omnes 
+            termini ex quibus constituuntur.</p>
+          
+          <p>Tertio, ostendit hoc apprehensio relationis (b) et correlativorum. 
+            Nulla enim relatio(c) potest videri aut (d) cogitari, 
+            quin simul cogitentur sua extrema, nec unum correlativorum(e), 
+            in quantum tale, potest apprehendi seu cogitari, quin 
+            simul cogitetur alterum correlativum ad quod essentialiter 
+            refertur (f); unde nullus potest cogitare patrem, in quantum 
+            pater est, quin (g) cogitet filium, et e contrario (h).</p>
+          
+          <p>Quarto, ostendit hoc apprehensio (i) partium cuiuscunque 
+            totius seu ipsius totius (k), in quantum est constitutum 
+            ex eis, sive sint partes essentiales sive integrales sive (l) 
+            connaturales sive quantitativae (m). Impossibile est enim intelligere 
+            numerum mille(n) hominum seu. millenarium seu 
+            denarium absolute, quin aliquo modo apprehendatur pluralitas 
+            et numeralis diversitas partium ipsius numeri. Quis 
+            etiam cogitat(o) duo, non cogitando duas unitates (p)? aut quis 
+            cogitat domum vel arborem vel asinum, nullam partium diversitatem 
+            in eis (q) cogitando? Quomodo etiam videt homo 
+            hanc vel illam lineam totam, si suarum partium nullam 
+            habet homo speciem? quomodo (r) enim videbitur ordinata 
+            continuatio et protensio earum, si (s) nulla multitudo partium 
+            ibi animadvertitur (t)? Idem argui potest de partibus definitionis (u) 
+            quarumcunque specierum seu de diversis rationibus 
+            generum et differentiarum ex quibus constituuntur; quomodo (v) 
+            enim poterit definitio asinae videri, quiu simul videam rationes (x) generis et differentiae? 
+            Quinto, ostendit hoc apprehensio et diiudicatio actuum 
+            interiorum (y). Constat enim quod ego nescio me actu vi<pb n="659"/>dere 
+            vel audire vel velle vel cogitare, nisi quando huiusmodi 
+            actus praesentialiter existunt; constat etiam quod 
+            quando existunt, tunc ego per intellectum scio me videre et  
+            audire et sic de aliis; sed saepisime et quasi semper (a)
+            sunt omnes vel plures potentiae in suis actibus (b), saepe 
+            enim simul (c) cum video, audio, odoro (d), tango et gusto, 
+            simul etiam cum quolibet horum currit sensus communis 
+            diiudicans quemlibet (c) horum et eorum obiecta ; ergo tunc 
+            simul per intellectum advertam omnes huiusmodi actus et 
+            eorum obiecta, et tunc iterum (F) advertam et advertere possum 
+            me intelligere ea (g), tunc etiam simul (h) possum velle 
+            ea et delectari vel offendi in eis, ex quo (i) iterum sciam 
+            tunc vel scire possum me velle vel nolle illa; in omnibus 
+            etiam istis semper advertam illos actus esse meos ac per 
+            consequens semper apprehendam me esse suppositum illorum 
+            actuum; omnem igitur pluralitatem (k) actuum et obiectorum 
+            suorum apprehendit simul intellectus.</p>
+            <p>Sexto, ostendit hoc actus electionis et deliberationis (l) 
+              et actus intentionis seu quicunque actus voluntatis (m) quo 
+              volo unum propter aliud. Quando enim aliqua alii praeeligimus, 
+              tunc eligendo (n) illa simul respuo et abicio alia; ergo 
+              tunc voluntas fertur (o) simul super illa; sed hoc non potest, 
+              nisi intellectus simul cogitet illa. Quando etiam intendimus 
+              seu volumus unum propter alterum, tunc semper fertur voluntas 
+              simul super duo, scilicet super finem et super illud 
+              quod est ad finem. Quando angelus primitus peccavit, constat 
+              quod pro (p) primo nunc (q) quo peccavit fuit naturaliter 
+              prius potens non (r) peccare, ita quod in eodem nunc fuit 
+              potens facere bonum et malum; sed hoc non est verum, si 
+              intellectus non praesentabat (s) sibi simul bona et mala aut 
+              saltem si simul ea praesentare (t) non poterat. Et universaliter 
+              considerando quoscunque (u) actus voluntatis in se habentis 
+              aspectum ad plura obiecta: semper oportet dare actus 
+              intellectus naturaliter praevios (v) et praesentialiter concomitantes (x), qui consimiliter habeant simul plura obiecta. 
+              Quando etiam deliberamus vel consiliamur vel qualitercun<pb n="660"/>que 
+              conferendo aliquid inquirimus: tunc oportet plura simul 
+              ad invicem comparare ac per consequens plura apprehendere. 
+              Positio igitur contraria tollit omnes actus praedictos et 
+              potestatem eorum ac per consequens tollit libertatem eligendi 
+              et deliberandi, conferendi, intendendi, demerendi et 
+              merendi (a).</p>
+          <p>Septimo, ostendit hoc potestas (b) sensus communis et 
+            sensuum particularium. Constat enim quod ego possum simul 
+            tangere duos lapides (c), unum una manu et alium (d) altera; 
+            et iterum (e) simul cum hoc (f) alios duos, unum uno pede, 
+            alium altero; quin potius quot acumina acuum (g) possunt 
+            simul percuti vel tangi, tot possum simul sentire. Constat 
+            etiam quod auditus non audit (h) voces, nisi dum sunt actu, 
+            aliter audiret (i) non entia; illas ergo voces quae totaliter 
+            simul sunt (k) et fiunt (l) non potest auris omnes audire, nisi 
+            simul audiat illas. Visus etiam (m) impossibile est quod unquam 
+            videat (n) aliquid indivisibile, quin potius ita parvae quantitatis 
+            posset esse suum obiectum quod non posset illud videre; 
+            aut igitur nihil (o) unquam videt (p) aut est dare quod 
+            simul videat aliquod continuum divisibile, multas habens 
+            partes. Unde illi (q) qui dicunt quod nihil videt fixe et certitudinaliter, 
+            nisi solum illud (r) super quod figitur axis speciei 
+            radiosae aut ipsius visualis aspectus: non potest stare, 
+            sumendo (s) axem pro linea seu radio lineari et indivisibili 
+            quia tunc sequeretur quod non posset fixe videre nisi solum 
+            aliquod indivisibile (t), quia acies lineae non potest actu figi 
+            nisi super indivisibile. Oportet igitur dare aliquam certam (u) 
+            quantitatem super quam visualis aspectus potest (x) simul in 
+            uno nunc figi. Detur ergo quod illa quantitas dividatur in 
+            duas partes sibi contiguas: adhuc poterit illam simul videre, 
+            quia hoc quoad potestatem visus nihil refert. Ergo tunc videbit 
+            plura simul, utpote si potest unum lapillulum (x) integrum 
+            simul videre, potest et fractum, si (y) solum fracturae sint 
+            contiguae, quia non plus occupant de spatio (x), saltem sensibiliter. 
+            Constat etiam nos videre distantias et discontinua<pb n="661"/>tiones (a) 
+            corporum; hoc autem est impossibile, nisi simul (b) 
+            cum hoc videantur extrema (c). Sensus etiam communis non 
+            apprehendit actus sensuum (d) particularium, nisi dum sunt 
+            actu; nec potest iudicare de obiectis diversorum sensuum 
+            discernendo diversitatem eorum nec de contrariis obiectis 
+            eiusdem sensus (e), nisi tunc simul apprehendantur, etiam secundum 
+            <ref>
+              <seg><name ref="#Aristotle">Aristotelem,</name> II (f) <title ref="#deAnima">De anima</title>(1);</seg>
+              <bibl>Aristotle, De Anima, III, 2, 426b8sqq</bibl>
+            </ref> 
+            ergo simul apprehendit 
+            actus sensuum particularium simul coexistentes et 
+            obiecta eorum. Si igitur in potentiis sensitivis est hoc dare, 
+            multo magis in (g) altissimis potentiis quarum aspectus est 
+            altioris et latioris (h) ambitus.</p>
+          <p>0ctavo, ostendit hoc efficacia virtutum corporalium, 
+            utpote lucis vel coloris et consimilium. Videmus enim (i) quod 
+            unus punctus lucis solaris simul diffundit suos radios per 
+            totum hemisphaerium (k), ita quod simul illuminat omnia corpora, 
+            quamvis sint (l) numero valde plura. Nec est vis, si 
+            punctus ille non est (m) omnino indivisibilis, quia illi plures 
+            radii a toto ipso egrediuntur; non enim per unam partem 
+            sui facit unum illorum radiorum et per aliam alium, sed 
+            potius quilibet egreditur a toto; sunt enim ei proportionales, 
+            et in (n) loco contactus ubi ei continuantur est quilibet eorum 
+            aequalis (o) quantitatis cum ipso. Si igitur aspectus virtutum 
+            corporalium, etiam in suis (p) partibus quasi <sic>punctalibus,</sic> est 
+            tanti ambitus simul: (q) multo magis virtutes intellectuales 
+            debent esse altioris (r) ambitus. Videmus etiam quod diversi 
+            radii plurium luminum et diversae species colorum, odorum 
+            et sonorum et saporum possunt simul concurrere in eodem 
+            puncto seu in eadem parte aeris absque sui confusione, secundum 
+            quod vult 
+            <ref>
+              <seg><name ref="#Dionysius">Dionysius,</name> capitulo (s) <title>De divinis nominibus</title> (2).</seg>
+              <bibl>Pseudo-Dionysius, De div. nom., II, sect. 4 (PG 3, 642)</bibl>
+            </ref> 
+            Si ergo potentia receptiva quae est (t) in aere seu 
+            in quocunque medio corporali est tanti ambitus, multo magis 
+            hoc esse debet in potentia receptiva potentiarum intellectualium.</p>
+          
+          <p>Nono, ostendit hoc modus simplicitatis intellectualis, 
+            quae non est simplicitas punctalis nec simplicitas parvita<pb n="662"/>tis 
+            seu ex parvitate proveniens, quin potius quanto (a) simplicior, 
+            tanto est potentior et maioris ambitus. Unde videmus 
+            quod licet anima sit simplex, potest tamen (b) simul informare 
+            omnes partes corporis sui. Et consimiliter angelus, 
+            quamvis sit simplex, potest simul esse in qualibet parte loci 
+            sui. Sic (c) etiam memoria, quamvis sit simplex, potest in se 
+            simul continere multitudinem specierum quasi innumerabilem 
+            (d), ita quod una in nullo impedit alteram, immo frequenter 
+            una iuvat alteram. Sic etiam videmus quod voluntas 
+            potest multos simul capere habitus; et etiam ipsemet intellectus 
+            multos habitus scientiarum et opinionum seu credulitatum 
+            potest simul habere. Non ergo ex parte suae (e) simplicitatis 
+            potest (f) argui quod nullo modo possit simul (g) in 
+            plura obiecta, immo potius deberet oppositum argui.</p>
+          
+          <p>Decimo, ostendit hoc multitudo visionum et rerum visarum 
+            quae competit beatis (h) secundum statum gloriae et 
+            multitudo visorum quae damnatis competit ad (i) consummationem 
+            divinae iustitiae et suae poenae. Si enim simul actu 
+            intelligi (k) plura est omnino repugnans naturae et essentiae 
+            intellectus creati: tunc (l) in nullo statu posset sibi competere. 
+            Sed communiter tenetur a sapientibus quod beati non 
+            solum simul (m) videbunt plures rationes et ideas in Deo, sed 
+            etiam simul cum hoc quadam inferiori (n) scientia videbunt 
+            res creatas in se ipsis. Et secundum 
+            <ref>
+              <seg><name ref="#Augustine">Augustinum,</name> XV <title ref="#deTrinitate">De Trinitate,</title> capitulo 16 (1),</seg>
+              <bibl>Augustine, De Trinitate, XV, c. 16 (PL 42:179)</bibl>
+            </ref> 
+            secundum illam inferiorem scientiam fortasse (o) uno aspectu videbunt totum quod in eorum 
+            memoria continetur, ita quod acies intellectus erit simul formata 
+            tot speciebus quot sunt species in memoria ex quibus 
+            illae sunt genitae. 
+            <ref>XX etiam <title>De civitate,</title> capitulo 14(p)</ref>, 
+            loquens de finali omnium (q) iudicio et de apertione libri vitae 
+            secundum quem (r) omnium vitae iudicabuntur dicit (2): 
+            <cit>
+              <quote>Quaedam 
+                igitur vis est intelligenda divina qua fiet ut cuique 
+                opera sua vel bona vel mala cuncta in memoriam revocentur 
+                et mentis intuitu mira celeritate cernantur, ut accuset 
+                vel excuset (s) scientia conscientiam, atque ita simul et omnes 
+                <pb n="663"/> 
+                et singuli iudicentur. Quae vis divina libri nomen accepit, 
+                quia in ea quodam modo leg1tur (a) quicquid ea faciente recolitur;</quote>
+              <bibl>Augustine, De civitate Dei, XX, 14 (PL 41, 680)</bibl>
+            </cit> 
+            haec <name ref="#Augustine">Augustinus.</name> - Si dicatur quod per virtutem 
+            supernaturalem potest hoc intellectus quasi miraculose 
+            non autem per naturam propriam, sicut et verba <name ref="#Augustine">Augustini</name> 
+            expresse innuunt, tunc adhuc ex hoc ipso arguitur: quia 
+            quomodocunque (b) hoc fiat, oportet quod intellectus tunc 
+            habeat potestatem per quam possit attingere plura; quae 
+            potestas (c), quamvis non fuerit sibi a principio indita, nihilominus 
+            tamen erit creata. Oportet etiam quod tunc eius 
+            aspectu feratur simul super omnia illa obiecta et quod 
+            simul eius acies informetur pluribus speciebus et quod una 
+            visione aut pluribus simul videat omnia illa. Si igitur potestati 
+            creatae et aspectui creato haec competere possunt (d), 
+            quamvis illa potestas et ille aspectus sint quasi miraculose 
+            creati: unde potest contradictio reperiri, si etiam Deus aliquam 
+            naturalem potestatem dederit intellectui per quam (e) 
+            posset in alia plura, etsi non in tot? - Si autem contra ultimam auctoritatem <name ref="#Augustine">Augustini</name> importune instetur quod 
+            ad eius verificationem sufficit quod hoc fiat (f) in tempore celerrimo seu brevissimo, non autem in instanti: tunc contra 
+            istud est primo illud unde ipse est motus ad illa (g) sic exponenda (h); quia si nomine libri intelligeretur ad litteram 
+            aliquis liber creatus in quo omnium hominum merita et demerita 
+            essent scripta et in quo omnia perlegerentur, tunc <name ref="#Augustine">Augustinus</name> arguit quod maxima mora temporis esset ad hoc 
+            necessaria, et tamen certe Deus posset dare homini intellectum 
+            ita vivacem qui citissime ea percurreret (i), nec enim 
+            cogitur intellectus stare in aliquo eorum plus (k) quam per 
+            unum nunc, nec potest fieri quod minus stet, quare etiam 
+            non posset ita cito percurrere librum sicut et decursum 
+            operum bonorum et malorum omnium iudicandorum? Secundo 
+            est contra hoc: quia verisimile est quod ab hora 
+            iudicii usque in aeternum semper durabit illa universalis cogitatio 
+            omnium demeritorum; qua enim ratione in hora iudici 
+            hoc fit (l) ad iustitiam Dei plenius revelandam et culpam 
+            reproborum magis exaggerandam et ad poenam (m) eorum 
+            maiorem, eadem ratione et (n) ex tunc semper hoc fiet.</p>
+          <p><pb n="664"/>Huic igitur secundae opinioni magis assent 
+            iudico; prima enim non solum est irrationalis, 
+            sed etiam (a) in fide periculosa, sicut 
+            ex praedictis satis patere potest.</p>
+        <p>Si autem quaeratur (b) quae est illa unitas 
+          quae ad hoc exigitur aut quare(c) exigitur: dici 
+          potest quod quandocunque aliqua plura simul apprehenduntur 
+          sub aliqua coordinatione (d) unius totalis numeri vel 
+          unius loci vel unius temporis vel unius totius compositi 
+          ex eis (e) constituti vel unius correlationis secundum quam 
+          ad se invicem vel ad aliquod (f) tertium comparantur, tunc 
+          oportet in eis esse unitatem coordinationis vel simultatis 
+          vel compositionis vel correlationis. Cum etiam nulla potentia 
+          creata possit aliquid apprehendere, nisi actualiter 
+          aspiciat illud (g), totalis autem aspectus unius potentiae oportet 
+          quod habeat aliquam unitatem (h). Unde et videmus quod 
+          totalis aspectus lucis solaris habet in se unitatem continuitatis 
+          sicut et ipsa lux, et non loquor hic de luce vel aspectu 
+          radiorum, sed solum de illa (i) quae est in corpore solis. 
+          Sic etiam dicimus quod unus angelus oportet quod sit in 
+          pluribus partibus sui loci secundum unum totalem aspectum 
+          suae substantiae seu (k) secundum unam totalem coexistentiam; 
+          unde non posset existere simul in (l) pluribus locis, ita 
+          quod in uno haberet totalem existentiam (m) et in alio (n)
+          aliam totalem aut ita quod ilia loca nullam habeant inter 
+          se continuitatem vel contiguitatem vel coordinationem. Sic (d) 
+          etiam sensibiliter experimur quod quamvis oculus plura 
+          simul (p) aspiciat, nunquam tamen hoc facit (q) nisi sub uno 
+          totali aspectu; unde oportet quod omnia quae simul videt 
+          sic se habeant quod sub illo (r) uno totali aspectu possint 
+          conspici et apprehendi. Et etiam in sensu tactus de quo 
+          minus videtur oportet hanc unitatem assignare secundum 
+          correspondentiam (s) unius continuitatis totius (l) sui organi 
+          Haec (u) est igitur unitas sine qua nec naturaliter nec (v) supernaturaliter 
+          seu miraculose potest intellectus creatus aliqua 
+          plura simul videre; semper enim oportet quod sub uno to<pb n="665"/>tali 
+          aspectu ea (a) videat. Hoc autem in Deo non oportet, 
+          quia (b) Deus non videt per protensionem (c) aspectus, sicut 
+          nec est in pluribus locis per applicationem suae substantiae 
+          sed suum videre est sua essentia; et hinc est quod Deus 
+          potest simul infinita finita (d) videre, sicut in quaestione an 
+          Deus possit vel sciat (e) actu infinita ostensum est. Totalem 
+          autem aspectum idcirco superius dixi, quia (f) quamvis in 
+          se sit unus et simplex per carentiam corporalis quantitatis
+          nihilominus (g) intra se habet virtualiter et spiritualiter magnitudinem (h) 
+          proportionalem magnitudini et pluralitati (i) 
+          suorum obiectorum. Si quis vero contra hoc instet quia 
+          aspectus visionis matutinae quo beati vident res in Deo
+          non videtur aliquam unitatem habere cum aspectu visionis
+          vespertinae quo vident res in se ipsis: dici potest quod(k) 
+          pro tanto habent unitatem, pro quanto sunt unius et eiusdem
+          potentiae et pro quanto unus ad alterum coordinatur sicut 
+          inferior ad superiorem (l).</p>
+        </div>
+        <div>
+          <head>[Solutio Obiectorum]</head>
+          <p>Ad primum igitur quod pro prima positione adducebatur 
+            dicendum quod maior est falsa. Materia enim simplex,
+            quamvis pro tanto tota attingatur quod (m) non habet more 
+            corporum partem et partem, non tamen propter hoc secundum 
+            totalitatem suae capacitatis attingitur.</p>
+          <p>Ad secundum dicendum quod non oportet quod species 
+            sic opponantur sicut et earum obiecta; unde et scientiae 
+            contrariorum non sunt sibi contrariae, immo sunt sese 
+            invicem consequentes (n) et sibi mutuo connexae et quasi 
+            eaedem (o). Ad contrarietatem enim (P) actuum et habituum 
+            intellectualium exigitur quod habeant respectum ad idem 
+            obiectum et pro (q) eodem tempore; non enim scire <name ref="#Sortes">Sortem</name> 
+            esse nigrum et <name ref="#Plato">Platonem</name> esse album sunt contraria, aut scire 
+            hoc de <name ref="#Sortes">Sorte</name> pro diversis temporibus, sed solum scire hoc 
+            de eodem pro eodem tempore. Nec isti habitus aut (r) actus 
+            sic gignuntur ab obiectis quod in identitate et contrarie<pb n="666"/>tate (a) 
+            eis omnino proportionentur. -- Quod autem dicitur 
+            quod habitus contrariorum sunt contrarii non est simpliciter (b) 
+            verum. Amor enim dulcis et odium amari non sibi 
+            contrariantur, immo secundum fundatur in primo. Sed si 
+            amarum simul cum dulci diligeretur, et hoc (c), prout sunt 
+            inter se contraria, tunc amor dulcis esset contrarius amori 
+            ipsius amaritudinis. Si tamen diligerentur (d) secundum aliquam 
+            unam rationem, utpote in quantum utrumque est utile, 
+            aut si unum diligeretur secundum appetitum (e) vel habitum 
+            superiorem et aliud secundum appetitum (f) vel habitum 
+            inferiorem: non esset (g) necesse quod ibi esset (h) contrarietas. 
+            Sciendum etiam quod subiectum spirituale et simplex 
+            habet tantum ambitum quod (i), sicut unum corpus quantum 
+            potest absque repugnantia contrarietatis in una parte esse 
+            album (h) et frigidum et in alia nigrum et calidum, sic subiectum (l) 
+            spirituale, utpote memoria (m) vel intellectus, potest 
+            secundum unam partem sui virtualem capere unam speciem 
+            et (n) secundum aliam <sic>aliam, <!-- this might be a mistake in the edited text --></sic> sive sit disparata sive contraria. 
+            Sicut etiam materia corporalis in eadem parte sui potest 
+            recipere duas (o) formas inter se naturalem ordinem habentes; 
+            sic nihil (p) inconveniens, si memoria vel intellectus recipiunt 
+            in se duas species inter se (q) ordinem habentes, sicut 
+            habent species generis et differentiae aut species subiecti 
+            et accidentis, prout(r) sibi inhaerent, et consimilium; quia 
+            sicut illae duae formae concurrunt ad unam formam completam 
+            constituendam, sic et illae (s) ad unam repraesentationem 
+            completam (t) constituendam.</p>
+          <p>Ad tertium dicendum quod duae figurae corpoales 
+          quarum quaelibet occupat totum subiectum non possunt simul 
+          stare in eodem subiecto, figurae tamen diversarum partium 
+          eiusdem subiecti bene possunt simul esse in eodem 
+          subiecto, quamvis non in eadem (u) parte. Species autem non 
+          occupant totam (v) magnitudinem virtualem potentiarum intellectualium, 
+          sed subiciuntur (x) uni speciei secundum unam 
+          sui partem seu rationem virtualem et alteri secundum aliam.
+          <pb n="667"/>
+          Huiusmodi etiam (a) species non habent omnino talem (b) rationem
+          figurationis sicut figurae corporales, quia illae non
+          videntur aliud dicere quam modum finalium terminationum (c) 
+          quantitatis alicuius rei, istae vero species habent potius 
+          rationem luminum seu radiosarum (d) imaginum seu potius 
+          nec hoc nec illud proprie et totaliter, sed quoad quid 
+          conveniunt cum uno istorum, quoad quid cum (e) altero et 
+          quoad multa disconveniunt ab omni forma et specie corporali.
+          Et ideo argumentum a simili non multum hic valet (f),
+          quia non sunt omnino similia, immo in multis valde dissimilia.</p>
+          <p>Ad quartum dicendum quod illa consequentia non 
+            valet, nisi solum quando aeque impossibile est de duobus
+          sicut et de mille vel sicut (g) de infinitis. Non enim sequitur
+          quod si domus potest capere (h) centum vasa, quod idcirco
+          possit mille vel infinita; nec valet(i) quod si una materia
+          potest capere duas formas substantiales et duas accidentales,
+          quod idcirco possit mille vel (k) infinitas.</p>
+          <p>Ad quintum dicendum quod dato quod illa causa sive 
+            ratio sit vera in visu, non propter hoc oportet quod sit vera 
+            in intellectu, quia intellectus non est potentia organica, sicut 
+            est visus; et ideo non oportet ibi huiusmodi (l) intinctiones
+            vel permixtiones specierum dari. Quibusdam autem videtur
+            quod alia sit causa quare visio coloris vitri impedit puram
+            visionem colorum subsequentium. Quae, ut dicunt, consurgit
+            ex duobus in simul concurrentibus: primum est fortis infixio
+            visionis et visualis aspectus super intensum colorem vitri; 
+            secundum est debilitas potentiae visivae ad habendum simul
+            duos a pectus fixos secundum eandem lineam. Quem defectum,
+            ut dicunt, non habet oculus gloriosus, quia oculus Christi 
+            post vitrum coloratissimum videt pure ulteriores colores
+            sicut et colorem vitri, potest etiam facere quod feratur libere
+            in ulteriores absque hoc quod figatur in colore vitri (m).</p>
+          <p>Ad sextum(n) dicendum quod_ licet unum(0)mobile
+            non possit terminari ad plures terminos quorum quilibet sit
+            totali et toti mobili proportionalis, potest tamen secundum
+            diversas sui partes terminari ad plures terminos partial
+            <pb n="668"/>
+            seu partibus suis (a) correspondentes; una enim pars potest 
+            simul moveri ad unum totalem locum, cuius loci una pars 
+            erit (b) terra, alia aqua, alia aer, alia ignis. Quia igitur mobile 
+            spirituale (c) habet magnitudinem spiritualem quae non 
+            minoris est virtutis quam magnitudo mobilis: idcirco, quando 
+            unus angelus movetur de loco ad locum, potest unus motus 
+            eius terminari ad unum locum, cuius loci partes erunt plures (d) 
+            et diversorum corporum. Et consimiliter est in aspectibus seu 
+            conversionibus potentiarum. Quamvis enim aspectus 
+            visualis non sit quantus quantitate corporali: nihilominus 
+            tamen habet intra se quandam (e) magnitudinem per 
+            quam quasi commetitur (f) se magnitudini sui obiecti in qua 
+            in uno nunc (g) figitur. Omnia igitur obiecta quae simul cadunt 
+            sub uno magno et alto (h) aspectu unius potentiae habent 
+            rationem unius totalis termini (i) illius totalis aspectus 
+            seu illius (k) totalis conversionis; diversa vero obiecta seu 
+            diversae partes obiectorum correspondent diversis partibus 
+            illius aspectus et sunt partiales termini earum. Non est etiam (l) 
+            necesse quod omnes motiones intellectus (m) sint eiusdem speciei 
+            aut quod semper sint sibi (n) contrariae, sicut ibi falso 
+            dicebatur.</p>
+          <p>Ad septimum dicendum (o) quod licet illa propositio 
+          apud plures sit vulgata, aperte tamen est falsa, etiam quasi 
+          in omni genere simplicium, utpote in Deo, in angelis et etiam 
+          in puncto qui non secundum totalem ambitus (p) est terminus 
+          unius lineae, immo sic est conversus ad unam terminandam quod 
+          simul cum hoc potest terminare omnes lineas 
+          a tota circumferentia ad ipsum concurrentes.</p>
+          <p>Ad octavum dicendum quod prima non est secundum 
+          omnem modum vera, non enim omni modo quo res se habet 
+          ad esse se habet (q) ad operari; sed pro tanto est vera, quia 
+          perfectio essendi facit ad perfectionem operandi et imperfectio 
+          ad imperfectionem et specifica diversitas essendi exigit 
+          diversitatem actionis. Unde alia est actio formae habentis 
+          esse spirituale et alia habentis esse corporale. non autem 
+          oportet quod si esse est permanens et unum et simplex aut 
+          compositum, quod consimiliter operatio sit permanens aut 
+          una vel simplex vel ex pluribus actionibus composita (r).</p>
+          <p><pb n="669"/>
+            Ad nonum (a) dicendum quod minor est falsa, quin potius
+          nunquam potest iudicium completum de alicuius (b) distinctione
+          dari (c) nec complete ab aliis discerni, nisi simul
+          videantur et diiudicentur (a) illa a quibus distinguitur. Aspectus
+          enim iudiciarius (e) non est ita parvae virtutis quin secundum
+          diversas sui partes seu rationes possit simul in pluribus (f) figi. 
+          - Quod autem dicitur quod oportet illud distincte
+          et discrete (g) aspici, hoc potest dupliciter intelligi: aut quod
+          oportet eius distinctionem aspicere et videre aut quod oportet
+          ipsum aspectu distineto (h) videri sic quod tunc (i) nihil aliud
+          aspiciatur. Primo modo est verum, secundo est falsum.</p>
+          <p>Ad decimum (k) dicendum quod dato quod semper
+          oporteat diiudicanda comparare ad aliquod unum, tunc magis
+          sequitur quod illud unum cum illis iudicandis oporteat simul
+          videre quam quod alterum ipsorum solum. - Et ideo etiam
+          tunc minor est fa1sa qua (i) dicitur quod intellectus non
+          potest illud (m) unum complete videre, nisi sic recolligat (n) se
+          ad illud quod ad nullum aliud se diffundat (o); quamvis,
+          quando iudico (p) hominem non esse asinum aut(q) quod ens
+          est divisum a non ente, non oportet aspicere aliquod tertium
+          per quod hoc diiudicem (r). Et idem est de aliis pluribus.</p>
+          <p>Ad undecimum (s) dicendum quod 
+            <cit>
+              <quote>omnium natura 
+                constantium est praefixus (t) terminus et determinata (u) mensura</quote>
+              <bibl>Aristotle, De Anima, II, c. 4, 416a16sq</bibl>
+            </cit>
+            prout <ref><name>Aristoteles</name> (v) ait, libro suo II <title ref="#deAnima">De anima</title>.</ref> 
+            Non igitur oportet quod (x) una nobilis potentia pro quocunque 
+            obiecto etiam perfecte videndo totalitatem suae virtutis 
+            suique aspectus (y) ad ipsum solum dirigat, sed sufficit quod 
+            sub tanta et (z) tali mensura hoc faciat, quantum exigit natura 
+            illius potentiae et perfectio sui actus et conditio sui 
+            obiecti. Numquid enim sol omnes (a) radios suos recolligit ad 
+            unum colorem perfecte illustrandum (b) aut ad unam arbo<pb n="670"/>rem 
+            perfecte producendam? non, nec oportet (a), immo superflueret (b), 
+            et forte noceret. Sicque (c) videmus quod (d) licet visualem 
+            aspectum acuere et figere et approximare sit bonum 
+            ad perfectius videndum, si fiat sub debita (e) proportione: 
+            sic e contrario nocet, si fiat sub immoderata mensura. Propositiones 
+            igitur ibi positae sunt intelligendae sub, certa (f) 
+            proportione quam natura rei et suae unitatis et suae perfectionis 
+            exigit. Unde pluribus intentus (g) plus quam ratio 
+            perfectae apprehensionis uniuscuiusque exigeret (h) minorem 
+            sensum habet ad singula; alias, si sub debita proportione hoc 
+            fiat, apprehensio unius iuvat ad pleniorem (i) diiudicationem 
+            aliorum (k) potius quam noceat, et e contrario. Sic etiam tantum 
+            posset uniri seu (l) constringi in se ipso organum visus 
+            quod potius sonaret (m) in coarctationem aut in corruptionem 
+            virtutis in eo existentis quam in fortificationem. Rursus (n), 
+            praeter hoc sciendum quod sic (o) suscipere in se unam formam 
+            quantum inde capi potest in nullo impedit capacitatem 
+            materiae ad suscipiendum alteram subsequentem; et 
+            maxime, quando prior, quanto est maior, tanto magis disponit 
+            materiam ad suscipiendum sequentem; et potissime (p), 
+            quando cum hoc sequens forma fortificat priorem et regit et 
+            tanquam instrumentum suum ad suas operationes plenius 
+            deducit, sicut videmus in formis corporis humani respectu 
+            animae rationalis. Tunc (q) quidem toto posse unam illarum 
+            capere in nullo impedit susceptionem alterius, sed potius (r) 
+            iuvat, non solum propter rationem immediate tactam (s), sed 
+            etiam quia (t) una nihil occupat aut occupare potest de illa 
+            capacitate materiae secundum quam est alterius capax.</p>
+          
+          <p>Et haec, prout credo, est causa quare visio Dei et rerum 
+            in Deo in nullo impedit visionem rerum in se ipsis aut notitiam (u) 
+            rerum in sua memoria (v), sed potius fortificat eas (x) 
+            et regit; quia aspectus mentis secundum quem (y) est capax 
+            visionis divinae, quantumcunque sit magnus et intensus, 
+            nihil (z) penitus occupat de illo aspectu seu de illa capacitate 
+            mentis secundum quam est capax aliarum scientiarum 
+            seu visionum, et praeter hoc una visio se habet ad alteram 
+            sicut superior ad inferiorem.</p>
+            <p><pb n="671"/>Si tamen aliquis quaerat quare (a) nunc in statu viae 
+              perfecta contemplatio Dei (b) abstrahit ab omni sensu et ab 
+              omni alio (c) cogitatu et quare hanc abstractionem exigit: 
+              sciendum quod hoc est (d) tam ex parte modi nostrae contemplationis 
+              quam ex parte sensuum et aliorum actuum; 
+              quia in hac vita nos non possumus Deum contemplari nisi 
+              per speculum creaturae et in aenigmate. 
+              <ref>
+                <seg>Secundum enim <name ref="#HughOfStVictor">Hugonem</name></seg>
+                <bibl>Hugo de S. Victore, De praep. animae ad contempl. (Beniamin minor)), cc. 2-5, 14, 18, 19 (PL 196, 2sqq.)</bibl>
+              </ref> 
+              oculus contemplationis est in nobis quasi caecus, 
+              oculus vero rationis quasi lippus, oculus autem carnis (e) apertus; 
+              et ideo aspectus per quem (f) in vita ista aspicimus 
+              Deum non est omnino (g) alterius rationis ab illo quo aspicimus 
+              res creatas in se ipsis vel in nobis ac per consequens 
+              alquid occupat de eo (h) quod spectat ad capacitatem illorum 
+              et ideo multa istius (i) intensio et augmentatio impedit 
+              plenitudinem aliorum. Rursus, sicut aspectum figi in ipso (k) 
+              speculo et eundem transire per speculum ad res alias contuendas (l) 
+              sibi quodam modo opponuntur ac per hoc simul 
+              bono modo esse non possunt, quin se mutuo impediant: sic 
+              suo modo aspectum intellectualem terminari in notitia creaturae 
+              et eundem transire per eam tanquam per (m) speculum 
+              ad Deum contemplandum sibi quodam modo opponuntur et 
+              ideo se impediunt; si autem transire eidem opponitur, multo 
+              magis iam, ut (n) ita dicam, pertransiisse et in termino contemplationis 
+              fixum esse ei opponitur. Sicut enim aspectus 
+              visualis, quando (o) est bene fixus in re quam per speculum 
+              videt, utitur quidem speculo - unde praesentia speculi est 
+              sibi (p) necessaria ad perseverantiam (q) illius visionis suae --, 
+              sed tamen eius intentio (r) ita in rem pertransiit (k) quod quasi 
+              speculum non advertit nisi valde latenter (t): sic est de actu 
+              nostrae contemplationis, quando est in termino suo. Quia 
+              etiam nostri sensus et nostrae affectiones et cogitationes inferiores 
+              sunt valde adhaerentes suis obfectis, et potentiae nostrae 
+              currunt cum multo pondere et cum multa inclinatione 
+              et impetu ad huiusmodi actus, actus vero contemplationis 
+              non quaerit figi in speculo creaturae, sed potius celerrime 
+              transire per ipsum et transvolare ab ipso: idcirco in vita 
+              <pb n="672"/>ista mutuo se impediunt, in patria vero utemur creatura 
+              tanquam via distanti a Deo nec tamquam speculo aenigmatico, 
+              immo unumquodque videbitur per se (a) ipsum et 
+              nihilominus unum in altero. Rursus, quod (b) potentia intellectiva 
+              convertat (c) se ipsam simul totis viribus ad superiora 
+              et ad inferiora (d) non est ita (e) possibile sicut quod 
+              sit (f) a Deo conversa ad utrumque. In vita ista autem non 
+              potest contemplari Deum, nisi mens convertat se ipsam ad 
+              superiora nec etiam aliter vadit communiter ad inferioria; 
+              in patria vero conversio illa seu ille aspectus qui est praevius 
+              actui visionis non est a mente factus (b) nec esse potest, 
+              sed solum a Deo. Si enim mens creata (h) posset huiusmodi 
+              aspectum seu conversionem in se causare (t), posset se facere 
+              de non viente videntem ac per consequens de non beato 
+              beatum (k). Et forte idem est de aliquo aspectu quo erit ad 
+              inferiora conversa (l), saltem quoad aliquam dilatationem 
+              ipsius aut quoad aliquam potestatem liberius aspiciendi. Et 
+              ideo non oportet quod ibi ita se impediant sicut hic.</p>
+          <p>Ad duodecimum (m) dicendum quod non omnis multiplicatio 
+            cogitatuum perturbat nos ab aliquo plene diiudicando. 
+            Cogitatus enim principiorum demonstrativorum et 
+            probabilium rationum non impediunt plenum iudicium conclusionis, 
+            sed potius iuvant. Fateor tamen quod nos in vita 
+            ista faciliter impedimur, pro eo quod intellectus noster et 
+            eius intellectualis aspectus est in nobis valde depressus et 
+            coarctatus et valde obscurus et confusus nec est potens sufficienter 
+            regulare et frenare varios et confusos motus phantasmatum 
+            et idcirco ad pauca simul perfecte potest nec hoc 
+            ipsum sine multo conatu et labore. Aliter tamen fuit in statu 
+            innocentiae et multo magis in primo statu angelorum.</p>
+          
+          <p>Ad decimum tertium (n) dicendum quod verba illa 
+          metaphorica sunt. Non enim sumus ibi realiter seu substantialiter, 
+          sed solum virtualiter seu intentionaliter. Qui quidem 
+          modus essendi (o) aliquas efficacias unionis habet quoad quid 
+          maiores quam habeat unio substantiae intellectualis ad suum 
+          locum. Et haec est intentio illarum auctoritatum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

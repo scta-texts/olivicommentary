@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- <?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Librum II, Quaestio 13</title>
+                <author xml:id="PJO">Peter John Olivi</author>
+                <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2015.05">
+                    <title>Librum II, Quaestio 13</title>
+                    <date when="2015-05-09">May 09, 2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Ad Claras Aquas</publisher>
+                <pubPlace>Quaracchi</pubPlace>
+                <availability status="free">
+                    <p>Public Domain</p>
+                </availability>
+                <date when="1922">1922</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Quaestiones In Secundum Librum Sententiarum, ed. Bernardus Jansen, S.I, Ad Claras Aquas, 1922</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2015-04-27" who="#JW" status="draft" n="2015.05">
+                    <p>Created file for the first time.</p>
+                    <note type="status">
+                        <note type="collabaration">Yes</note>
+                        <note type="validating-schema">lbp-0.0.1</note>
+                        <note type="transcription-type">critical</note>
+                    </note>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div xml:id="includeList">
+                <xi:include
+                    href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+                    xpointer="worksCited"/>
+                <xi:include
+                    href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+                    xpointer="prosopography"/>
+            </div>
+        </front>
+        <body>
+            <div xml:id="pjo-l2q13">
+                <head>QUAESTIO XIII.</head>
+                <p>Septimo quaeritur an universalia sint in individuis (b)
+                    suis secundum suam universalitatem an tantum
+                    in intellectu (c).</p>
+                <div>
+                    <head>Et quod sic videtur.</head>
+                    
+                    <p>1. Quaecunque sunt sibi similia in aliquo sibi assimilantur;
+                        sed amoto omni intellectu duo individua eiusdem
+                        speciei essent similia secundum speciem seu substantialiter;
+                        sed non essent sibi similia (d) in substantia vel natura propria
+                        (e), quoniam per illam a se invicem distinguuntur; ergo
+                        in natura communi; sed hoc non posset esse, nisi in quantum
+                        talis esset in eis; ergo et cetera.</p>
+                    
+                    <p>2. Item, quandocunque res intelligitur aliter quam sit,
+                        falsus est intellectus; sed si in rebus non est universalitas,
+                        quandocunque res intelliguntur esse universales, res (f) intelliguntur
+                        aliter (g) quam sint (h); ergo intellectus sic intelligens
+                        esset falsus; hoc autem non est verum; ergo nec illud
+                        ex quo sequitur.</p>
+                    
+                    <p>3. Item, illud quod competit alicui rei secundum rationem
+                        seu definitionem suam verissime sibi competit; sed rebus
+                        ipsis quibus intellectus attribuit universalitatem convenit
+                        secundum rationem suam non differre, sed esse unum et
+                        idem in pluribus; non enim iste (a), in quantum homo, differt
+                        ab illo, nec homo secundum rationem suam differt in hoc
+                        et in illo, immo est omnino una et eadem ratio hominis et
+                        humanitatis in hoc et in illo existentis; ergo verissime sibi
+                        convenit quod sit unum et idem in pluribus; sed hoc est
+                        esse universale; non enim est aliud universale quam (b) unum
+                        in pluribus (c) individuis vel inferioribus; ergo et cetera.</p>
+                    
+                    <p>4. Item, si dicam <quote>Sortes est, ergo Sortes est</quote> nugatio
+                        est aut petitio principii aut habitudo convertibilitatis (d)
+                        seu totalis identitas et non alia; sed si (e) in rebus nihil
+                        est nisi individuum vel individuatum, omnes consequentiae
+                        ab inferioribus ad superiora (f) secundum rem et veritatem
+                        erunt tales; idem enim erit (g) <quote>Sortes est (h), ergo homo est</quote>
+                        quod <quote>Sortes est, ergo Sortes est</quote>, si ita est (i) individuum
+                        le <quote>homo</quote> sicut le <quote>Sortes</quote>. Et ita bene sequetur secundum
+                        rem <quote>homo est, ergo Sortes est (k)</quote>, sicut si <quote>Sortes
+                        est, ergo Sortes est</quote>, et ita cessabit omnis locus ab inferiori
+                        ad superius (l) et e contrario et omnes habitudines in
+                        eis fundatae; sed hoc videtur absurdum; ergo et cetera.</p>
+                    
+                    <p>5. Item, secundum <name ref="#Augustine">Augustinum</name> (m), in <title ref="#EpistolaadNebridium">Epistola ad Nebridium</title>
+                        (1), alia est idea hominis et alia huius hominis (n); sed
+                        diversis ideis correspondent in re diversa ideata; non enim
+                        in ideis est diversitas nisi (o) ratione convocationis ideatorum;
+                        ergo secundum rem aliud erit homo et aliud hic homo;
+                        sed hoc non potest esse, si homo est quid individuum, quia
+                        homo individuus et hic homo idem sunt; ergo et cetera.</p>
+                    
+                    <p>6. Item, <name>Augustinus</name> vult ibidem (2) quod omnes homines
+                        habent unam ideam, in quantum sunt homo, aliam vero
+                        et aliam, in quantum hic vel ille homo; sed non possunt
+                        habere unam ideam, nisi repraesentatum ab idea seu ideatum
+                        (p) sit in eis (q) unum et idem; ergo et cetera.</p>
+                    
+                    <p>7. Item, cum praedico hominem de Sorte dicendo <quote>Sortes
+                        est horno</quote>, aut praedico omnino idem aut diversum (r);
+                        si omnino idem (a), ergo eadem est praedicatio secundum rem
+                        <quote>Sortes est homo</quote> et <quote>Sortes est hic homo</quote>; si non (b) omnino
+                        idem, hoc non est, nisi differant sicut universale et
+                        particulare; ergo et cetera.</p>
+                    
+                    <p>8. Item, universalia sunt ubique et semper secundum
+                        <name ref="#Aristotle">Aristotelem</name> (1) et de eis solis est scientia secundum eundem
+                        (2) et ipsa sunt potissima (c) obiecta intellectus; sed hoc
+                        non est possibile, nisi secundum suam universalitatem sint
+                        in rebus; ergo et cetera.</p>
+                    
+                    <p>9. Item, Aristoteles distinguit (3) primam substantiam
+                        et secundam; sed ista distinctio est fictitia, si secunda substantia
+                        nihil distinctum secundum rem ponit (d) a prima, et
+                        si in quantum secunda, est secundum rem nihil, sed solum
+                        in intellectu; ergo et cetera.</p>
+                    
+                    <p>10. Item, quibus est assignare in re diversas proprietatates
+                        et effectus ipsa, in quantum talia, sunt vere in re; sed
+                        propriae passiones sequuntur naturas specificas et universales
+                        (e), ita quod non insunt (f) individuis nisi per illas,
+                        accidentia vero communia sequuntur individua nec insunt
+                        superioribus nisi per ipsa; ergo et cetera.</p>
+                    
+                    <p>11. Item, secundum <ref><name ref="#Aristotle">Aristotelem</name> (g), XI <title ref="#Metaphysics">Metaphysicae</title></ref> (4)
+                        sicut particularium sunt principia particularia, ita (h)
+                        universalium universalia; sed si nihil sunt in re nisi ut particulata,
+                        non habebunt (i) principia universalia, sed solum
+                        particularia; ergo et cetera.</p>
+                    
+                    <p>12. Item, illud quod per aliud et non per se exit in esse
+                        differt realiter ab eo (k) quod per se exit in esse; sed universalia
+                        exeunt in esse per generationem particularium et
+                        non per se; per se enim sunt ingenerabilia (l) et incorruptibilia
+                        secundum <name ref="#Aristotle">Aristotelem</name> (5) per individua autem
+                        moventur et generantur, quia secundum eundem (6) moventibus
+                        nobis moventur ea (m) quae in nobis sunt, nec secundum
+                        eundem (1) generatur homo, nisi quia generatur hic homo;
+                        ergo et cetera.</p>
+                    
+                    <p>Contra: Avicenna (a2) et Commentator Aristotelis
+                        (3) dicunt quod solus intellectus facit (b) universalitatem
+                        in rebus et quod in rebus nihil est nisi particulare et
+                        individuatum. </p>
+                    
+                </div>
+                <div>
+                    <head>[Respondeo]</head>
+                    
+                    <p>Ad quaestionem istam dicendum (c) quod circa
+                        eam sunt variae opiniones. Quidam enim volunt
+                        (d) quod universalia secundum universalitatem
+                        suam sint (e) in rebus distincta a suis individuis,
+                        ita quod sicut individuum habet suam propriam
+                        essentiam (f) individualem et (g) habet sua propria principia
+                        particularia, ita universalia habent suam essentiam universalem
+                        et sua principia universalia; voluntque (h) quod universalia
+                        sint in individuis non sicut forma in materia nec
+                        sicut accidens in subiecto nec sicut pars constitutiva in suo
+                        toto nec secundum aliquem modum essendi in (i) nisi solum
+                        secundum illum modum quo (k) superius est (l) in suo inferiori
+                        et (m) totum universale in sua parte subiectiva. Dicunt
+                        etiam quod individua et inferiora in suis universalibus sunt
+                        sibi substantialiter similia et solum (n) ita quod ipsa universalia
+                        sunt quaedam similitudo ipsorum individuorum; voluntque
+                        quod causentur a suis individuis seu inferioribus per
+                        quandam resultationem et quod corrumpantur ipsis corruptis,
+                        ita quod non possunt actu esse sine eis (o) aut nisi in eis.</p>
+                    
+                    <p>Alii vero dicunt quod universalia habent
+                        quoddam esse habitudinale seu potentiale in se
+                        ipsis quod vocant esse essentiae et secundum hoc esse manent
+                        (p) ipsis individuis destructis, aliud vero (q) habent in
+                        suis individuis, quod vocant esse actuale; et secundum hoc
+                        esse non manent (a) individuis destructis nec secundum hoc
+                        esse habent universalitatem, immo sunt particulata et multiplicata
+                        (b) in suis individuis; secundum vero primum esse
+                        habent veram universalitatem sine aliqua individuatione.</p>
+                    
+                    <p>Tertii sunt qui volunt quod universalia nullam
+                        habeant universalitatem nisi solum in intellectu
+                        et secundum intellectum, ita quod nihil
+                        sit in rebus extra intellectum aliquo modo nisi particulare et
+                        individuatum; et isti negant omnia supradicta quae praedicti
+                        modi ponunt. Iste autem modus dicendi (c) solemnior
+                        est et communior et verior, prout credo.</p>
+                    
+                    <p>Primus enim modus non videtur esse verus (d),
+                        quinque enim ponit impossibilia, prout credo.
+                        Quorum primum est quod universalitas sit in actu et hoc distincta
+                        ab essentia particularium; secundum vero est quod
+                        aliquid sit compositum ex principiis universalibus; tertium
+                        vero (e) quod huiusmodi universalia (f) sint in particularibus
+                        et hoc solum (g) illo modo essendi in quo (h) superiora dicuntur
+                        esse in inferioribus; quartum autem (i) quod universale
+                        hoc (k) sit similitudo individuorum in qua sibi (l) assimilentur;
+                        quintum vero quod generetur (m) ad generationem
+                        individuorum et hoc resultando ex eis et quod corrumpatur (n)
+                        ipsis corruptis.</p>
+                    
+                    <p>Primum quidem est impossibile, ut (o) videtur. Si enim
+                        universale est in actu, oportet quod cadat sub generalibus
+                        divisionibus entis; quod enim non cadit sub generalibus
+                        divisionibus (p) entis nullo modo (q) est sub ente, quia membra
+                        divisionis sufficienter accepta convertuntur cum ente
+                        diviso. Inter alias autem divisiones entis hae dividunt ens
+                        generalissime acceptum (r): scilicet finitum et infinitum, causatum
+                        et non causatum (s), dependens et independens, aeternum
+                        et non aeternum, corruptibile et incorruptibile, simplex
+                        et compositum, vivens et non vivens, potentia et actus, operans
+                        et non operans seu potens (t) operari et non potens,
+                        spirituale et corporale seu extensum et non extensum, simpliciter
+                        et secundum quid, ens per se et ens in alio, substantia
+                        et accidens seu substantiale et accidentale, idem et diversum,
+                        unum et multa.</p>
+                    
+                    <p>Oportet igitur quod universale, si est actu (a), sit finitum
+                        aut infinitum (b). Si autem (c) est finitum, tunc non est universale;
+                        quia universalis ratio est quod, quantum est de se, possit
+                        esse actu in infinitis nec est defectus a parte eius. Si autem
+                        habet essentiam finitam, habebit et potestatem existendi (d)
+                        in aliis et continendi ea finitam; et tunc in tot poterit esse
+                        actu quod simul cum illis non poterit esse in pluribus; cum
+                        etiam universale abstrahat ab hic et nunc et ab omni limitatione
+                        omnis individuationis; necessario erit simpliciter infinitum;
+                        et tamen isti qui hoc ponunt volunt alibi quod praeter
+                        solum Deum nihil possit esse infinitum in actu; et credo quod
+                        vere, sicut suo loco alibi est ostensum.</p>
+                    
+                    <p>Erit etiam aeternum, quia (e) secundum rationem suam
+                        est abstractum ab omni tempore et ab omni (f) mensura durationis
+                        limitata, sive a parte ante (g) sive a parte post, et
+                        quia quantum erit (h) de se, posset esse in individuis (i) ab
+                        aeterno et praesentialiter attingere totam aeternitatem, quia
+                        per accidens omnino (k) respicit eius ratio prius et posterius
+                        nec est defectus a parte suae rationis quin habeat ista (l). Si
+                        autem non esset aeternum, nullo modo possent competere
+                        ista (m) sibi, et maxime secundum istos qui volunt alibi quod
+                        nihil praeter Deum possit esse aeternum et maxime sine
+                        successione; et credo quod vere, sicut alibi est ostensum ubi
+                        tam secundum istos quam secundum veritatem est probatum
+                        quod omne (n) tale est independens et increatum et omnino (o)
+                        incorruptibile.</p>
+                    
+                    <p>Erit etiam universale simplex aut compositum; et quidem
+                        ex praemissis (p) conditionibus sequitur quod sit simplicissimum
+                        (q), quia nulli composito praemissae conditiones convenire
+                        (r) possunt. Tamen (s) secundum eos ipsa sunt composita;
+                        et hoc ipsum oportet quod ponant, quia universale
+                        quod est species constituitur ex genere et (t) differentiis et
+                        universale individuorum compositorum (u) habet intra se rationem
+                        universalem partium seu principiorum componentium
+                        ipsum individuum; unde universale substantiarum comprehendit
+                        materiam et formam universaliter accepta (a) et universale
+                        quantitatis vel continui (b) et discreti comprehendit
+                        necessario rationem partium illarum sine quibus non est
+                        intelligere continuum nec divisum nec divisibilitatem. Si
+                        autem in universalibus est dare compositionem per se et (c)
+                        secundum propriam rationem; ergo et dissolubilitatem erit
+                        dare in eis (d) secundum propriam rationem, et erit (e) ibi
+                        dare materiam infinitam informatam forma universali et infinita
+                        quae habebit omnem rationem per se convenientem
+                        materiae. Et ita conveniet ei quod per se sit mobilis a variis
+                        formis ad formas varias; et sic in universalibus per se
+                        et secundum se poterit esse motus, sicut et (f) in particularibus;
+                        et erit (g) dare in eis eandem naturam duplicatam (h),
+                        duas relationes oppositas respectu eiusdem habentem, nam
+                        animal (i) universale erit pars constitutiva hominis; et tunc
+                        erit in eo sicut pars constitutiva in suo toto et nihilominus
+                        erit ibi animal genus hominis, quod erit in homine solum
+                        sicut totum in parte subiectiva. Quomodo etiam idem animal
+                        universale erit simul pars hominis et asini simul contractum
+                        per plures differentias et cum hoc manens illimitatum?
+                        erit etiam dare in eis mutuas inclinationes et unibilitates
+                        et breviter omnia quae requiruntur ad huiusmodi
+                        compositiones.</p>
+                    
+                    <p>Universale etiam (k) rerum vivarum sensitivarum et intellectualium
+                        habebit vitam universalem et intellectum et
+                        voluntatem etiam liberam, sapientiam et amorem universalem
+                        et omnes habitus et operationes et passiones universales,
+                        omnibus enim (l) istis est dare species et genera; et erit
+                        amor universalis in voluntate universali sicut in subiecto
+                        et operationes universales quae sunt species et genera operationum
+                        particularium, ut (m) intelligere et sentire, nutrire (n),
+                        generare, augere, movere qualitercunque specificate accepta
+                        erunt a potentiis universalibus sicut a principiis operativis.</p>
+                    
+                    <p>Et ex omnibus istis sequitur quod vere erit ibi potentia
+                        et actus, licet ex divisione ipsa hoc ipsum necessario ponere
+                        cogantur (o); quia aut erunt actus purus aut potentia pura
+                        aut composita ex utroque.</p>
+                    
+                    <p>Ex praemissis etiam sequitur quod erunt operantia et
+                        potentia (a) operari et tamen nihilominus ratione coguntur
+                        ponere contrarium; quia operationes et passiones, actus (b)
+                        et habitus non possunt esse nisi circa singularia et in singularibus;
+                        et e (c) contrario ubi est dare veritatem plenam
+                        et actualitatem formarum et materiarum, ibi est necessario
+                        dare potestatem agendi et patiendi.</p>
+                    
+                    <p>Universale etiam hominum habebit corpus habens cor
+                        et cerebrum et ceteras partes cum perfecta organizatione
+                        et compositione partium sic ordinatarum (d) universaliter
+                        sicut in homine particulari particulariter; et illud corpus
+                        erit vere vegetatum, sensificatum, et (e) breviter, omnia habebit
+                        quaecunque corpori humano possunt attribui universaliter;
+                        unde habebit quantitates, continuitates, dilatationes,
+                        divisiones, diminutiones, aggregationes, rarefactiones,
+                        condensationes, asperitates, caliditates universales et breviter
+                        omnes corporales transmutationes et proprietates quorum
+                        particularia particulari corpori competere possunt; erit enim
+                        in huiusmodi universalibus compositio et aggregatio omnium
+                        praedicamentorum universaliter, sicut est in particularibus
+                        particulariter.</p>
+                    
+                    <p>Erit etiam universale (f) ens simpliciter aut secundum quid,
+                        et quidem (g) ex praemissis (h) conditionibus sequitur quod sint
+                        entia perfectissima et (i) magis quam particularia, quanto maiorem
+                        ambitum essentiae et potentiae habent et quanto magis
+                        sunt abstracta a (k) conditionibus limitantibus et contrahentibus
+                        et ab omni mobilitate (l), motu et successione.
+                        Quaecunque etiam habent actum seu formam simpliciter et
+                        non secundum quid ipsa sunt simpliciter entia (m). Sed universalia
+                        sunt huiusmodi, quia (n) tota ratio formae et totius (o)
+                        speciei et omnes definitiones entium ita perfecte et simpliciter
+                        conveniunt universalibus sicut et particularibus, immo
+                        principalius convenient eis et magis per se et primo.</p>
+                    
+                    <p>Et ex iis et (p) praemissis sequitur quod sint per se
+                        entia et non in (q) alio, saltem universalia substantiarum;
+                        cum enim materiae non competat esse in alio et ipsa per se
+                        habeant materiam universalem sibi propriam, cum etiam non
+                        vere sint substantiae, nisi sint per se entia et cum habeant
+                        omnia quae exiguntur (a) ad per se existendum (b), scilicet
+                        formam et materiam: non erit (c) dare quare non sint per
+                        se entia. Ex quo etiam non potest eis competere esse in
+                        alio nisi forte illo modo essendi in quo superius est in (d)
+                        inferiori: ergo irrefragabiliter (e) sequetur quod secundum
+                        omnes alios modos habeant per se et in se existere et (f)
+                        ita quod vere habeant rationem suppositi; quia non omnis
+                        modus essendi in aufert hanc rationem per se existendi, quia
+                        non esse in loco, sed solum esse in alio sicut pars in toto
+                        aut sicut accidens in subiecto, et ad (g) minus non aufert (h)
+                        esse in alio sicut totum in parte, sed potius, ut (i) videtur,
+                        concludit (k) quia suppositum quodammodo se habet tanquam
+                        totum ad ea quorum est suppositum; quamvis et (l) iste modus
+                        essendi in realiter (m) nihil ponat, sicut infra tangetur.</p>
+                    
+                    <p>Erit etiam ipsis individuis (n) substantiale aut (o) accidentale;
+                        alias se habebit ad ea sicut una substantia ab eis
+                        quantum ad esse et essentiam distincta et separata. Essentiale
+                        autem non potest esse, quin aliquo modo faciat ad
+                        constitutionem et complementum essentiae particularis; quod
+                        esse-non potest (p), nisi esset particulare, quia particulare
+                        non constituitur nisi ex particularibus; et quomodocunque
+                        esset eis (q) essentiale, tunc individuum non haberet totam
+                        suam essentiam distinctam ab essentia universali nec omnia
+                        principia constituentia essentiam individui (r) essent distincta
+                        a principiis constituentibus (s) essentiam universalem. Accidentale
+                        autem esse non potest, quin amittat (t) rationem universalis;
+                        tum quia superiora essentialiter et in quid praedicantur
+                        de inferioribus nec possunt intelligi sine eis; et (u) quia
+                        accidens non habet maiorem ambitum (v) quam suum subiectum,
+                        unde non potest esse extra ipsum.</p>
+                    
+                    <p>Erit etiam universale huiusmodi omnino idem cum suis
+                        individuis aut omnino diversum aut partim idem et partim
+                        diversum. Si autem est (a) omnino idem, tunc praedicta positio
+                        omnino (b) evacuatur. Si autem omnino (c) diversum, tunc
+                        universalia nihil facerent ad intellectum rerum individualium
+                        nec ad constitutionem earum (d) falsoque praedicabuntur
+                        de eis falsumque erit quod deflnitio hominis et huius
+                        hominis sit (e) eadem. Et tamen in dictis huius positionis includitur
+                        quod sint (f) omnino distinctae (g) aeque aut amplius
+                        quam accidens a subiecto aut quam essentia materiae ab
+                        essentia suae formae; ponit enim universalia habere (h) suam
+                        essentiam universalem et sua principia universalia (i) et
+                        essentiam individui singularem cum suis principiis; nec vult
+                        quod universalia intrent essentiam individui tanquam partes
+                        eius (k) constitutivae, immo potius quod ipsa causentur (l) et
+                        resultent ab ipsa (m) essentia individuali; et ita oportet quod
+                        distinguantur ab ea sicut effectus a sua causa. Ratio nihilominus
+                        ad hoc cogit quod si ponantur in actu, quod sint perfecte
+                        diversa a suis individuis; essentia enim et definitio
+                        aliqua habita universaliter et participata particulariter non
+                        est habita univoce sed analogice (n); sic autem se haberet
+                        universale ad suum singulare quod haberet rationem suae
+                        definitionis universaliter et secundum suum totum (o) ambitum
+                        et primo et per se, particulare autem particulariter et
+                        non secundum totum eius ambitum et secundario. Si etiam
+                        universale (p) est similitudo resultans ab individuis, tunc (q)
+                        different (r) analogice, modo tamen contrario (s); quia omnis
+                        similitudo resultans ab alio (t) participat rationem eius a
+                        quo resultat semiplene (u) et per posterius et omnino analogice,
+                        sicut alibi est ostensum. Et hoc vult <ref><name ref="#Dionysius">Dionysius</name>, libro
+                          <title ref="#deDivinisNominibus">De divinis nominibus</title>, capitulo 2 (v) circa finem (1).</ref> Et tamen
+                        posito quod essent univoca; oporteret quod haberent iterum
+                        aliquod universale commune utrique et superius ad utrumque
+                        et resultans ex eis. Si autem est partim idem et partim
+                        diversum, hoc non potest esse nisi tribus modis: aut quia
+                        habet (x) totam essentiam individualem et ultra hoc aliquid
+                        addit; aut quia non dicit totam essentiam individualem sed 
+                        aliquam partem eius, nihil tamen addendo; aut quia est compositum
+                        ex aliqua parte essentiae individui et ex aliquo alio
+                        addito quod non est de essentia individui. Et quidem (a)
+                        quantum ad illud quod habebit intra se de essentia individui,
+                        sive totam sive partem eius, semper habebimus propositum;
+                        quantum vero ad illud aliud quod erit alienum ab
+                        essentia individui nihil faciet ad intellectum vel scientiam
+                        eius nec ad constitutionem nec secundum illud poterit de (b)
+                        eo praedicari; et tamen certum est quod universalia nihil
+                        addunt ad essentiam individui secundum modum intelligendi
+                        nostrum (c), sed per hoc solum distinguuntur ab individuo
+                        quod non includunt in sua ratione conditiones individuales;
+                        non est (d) etiam possibile (e) in eis intelligere compositionem
+                        huiusmodi, sicut faciliter multis viis potest ostendi.</p>
+                    
+                    <p>Erit etiam universale simul unum et multa et etiam
+                        quodlibet individuum eius; erunt enim multi homines et
+                        multae humanitates in homine singulari et erit hic homo et
+                        praeter hoc erit homo; et secundum quodlibet istorum habebit
+                        aliam et aliam humanitatem et animalitatem et corporeitatem
+                        et aliam substantiam; homo etiam universalis
+                        habebit animalitatem partem sui, et ultra hoc erit aliud animal
+                        quod erit totum universale et ad ipsum et ad asinum;
+                        et fere omnia inconvenientia quae ostendit <name ref="#Aristotle">Aristoteles</name> (1)
+                        sequi de universalibus seu ideis videntur sequi ad positionem
+                        istam.</p>
+                    
+                    <p>Secundum etiam, scilicet quod universale
+                        sit compositum (f) ex principiis universalibus,
+                        ex prioribus divisionibus entis et specialiter ex ilia de simplici
+                        et composito apparet esse inconveniens; et hoc ipsum
+                        posset ostendi ex divisione unius et multi.</p>
+                    
+                    <p>Tertium autem, hoc scilicet quod universalia
+                        sint in particularibus, et hoc solo illo modo
+                        essendi in quo superiora dicuntur esse in inferioribus,
+                        licet ex praemissis satis apparere possit impossibile,
+                        nihilominus tamen sequitur quod infinitum erit in
+                        finito; et cum ratio universalis non sit maior in omnibus
+                        individuis simul acceptis quam in uno solo — ita enim perfecte
+                        est tota ratio hominis in homine isto sicut in omnibus
+                        simul, nihil enim additur ad rationem eius per hoc quod est
+                        in hoc et in illo, nec ambitus suae existentiae actualis qua
+                        actu existit in pluribus includitur in ratione eius, sed solum
+                        potestas existendi quam totam habet, ubicunque (a) sit —:
+                        oportet quod quicquid est eius contineatur perfecte et totaliter
+                        a quolibet individuo suo, ita quod sicut Deus totus est
+                        ubique, sic et ipsa sit (b) in suis individuis. Si etiam tota essentia
+                        universalis et totum quicquid est eius non esset in (c)
+                        hoc individuo, tunc aliquid de ipso universali deesset huic
+                        individuo; cum etiam universale de se sit abstractum ab hic
+                        et nunc, videtur quod non solum extendat se ad existendum
+                        in hoc vel in illo, sed (d) etiam erit in omnibus rebus; et ita
+                        humanitas esset in terra et in omnibus quae in terra sunt et
+                        in caelo et in omnibus caelestibus; licet enim possit dici quod
+                        non potest esse nisi in suis individuis nisi solum per accidens,
+                        quia alia loca non conveniunt ei nisi per sua individua:
+                        tamen qui considerat rationem universalis essentiae et naturae
+                        videbit ibi esse magnitudinem infinitam necessario attingentem
+                        omnia et impossibilem circumcludi a quocunque
+                        finito.</p>
+                    
+                    <p>Item quomodo illud quod est in me potest omnino idem
+                        esse in uno (e) alio qui nullam habet ad me contiguationem?
+                        erit enim unum et idem universale ut existens in hoc omnino
+                        distinctum et separatum a se ipso existente (f) in alio; nullam
+                        enim rem ponimus posse esse in pluribus rebus aut (g) in pluribus
+                        partibus loci, nisi ilia habeant inter se aliquam contiguationem
+                        aut aliquam coniunctionem contiguationi aequivalentem,
+                        sicut est in spiritualibus. — Item, omne quod vere
+                        est in aliquo oportet quod aliquo modo adhaereat (h) ei sive
+                        inhaerendo sive solum assistendo. Nullum autem istorum potest
+                        dari huic modo essendi in. Universale enim nulli parti
+                        sui individui assistit vel inhaeret et ita per consequens nec
+                        toti; non enim totum dicit ita aliud a suis partibus aut habet
+                        aliquam potentiam receptivam aliam a potentia partium quod
+                        aliquid possit ei (i) assistere vel inhaerere, ita quod nullo modo
+                        assistat vel inhaereat alicui partium suarum nec omnibus in
+                        simul aggregatis; universale enim hominis non poterit esse in
+                        manu vel in capite nec in anima nec in corpore nec in ambobus
+                        insimul acceptis; quia tunc aut totum esset in corpore
+                        aut totum esset in anima aut una pars eius in corpore et alia
+                        in anima. — Si etiam universale non inhaeret suis inferioribus,
+                        sed solum assistit eis: tunc ipsum est vere in se ipso existens,
+                        ita perfecte habens existentiam substantialem distinctam
+                        a suo individuo sicut locatum a loco et etiam perfectius;
+                        quia ista saltem in recipiendo se mutuo aliquid patiuntur.
+                        — Item, illud quod nullo modo inhaeret alteri ut subiecto
+                        aut ut materiae aut saltem ut patienti habet necessario
+                        in se ipso existentiam absolutam.</p>
+                    
+                    <p>Quartum autem, hoc scilicet quod universale
+                        sit similitudo suorum individuorum in qua
+                        sibi invicem assimilentur, aut (a) videtur nihil dictu
+                        aut impossibilia implicare. Secundum istos enim unum individuum
+                        non assimilatur alteri in sua essentia individuali nec
+                        secundum eam; ergo ex hoc solum sunt sibi similia, quia
+                        unum et idem universale est in eis; et hoc magis deberet dici
+                        identitas vere realis quam sunt sibi eadem in aliquo quod
+                        vere est in hoc et in illo idem numero eo modo saltem quo
+                        Deus dicitur esse in hoc et in illo idem numero. — Praeterea,
+                        cum res non assimilentur (b) sibi nisi in formis suis aut in
+                        materia, et (c) universale non sit forma nec materia individui
+                        nec aliquid inhaerens ei: non video quomodo in eo et
+                        per eum individua possint dici sibi similia. Non enim una
+                        creatura est alteri similis per hoc quia idem angelus vel
+                        Deus est in eis, nisi forte dicatur quod universale est forma
+                        universalis sui individui. Sed hoc nihil est dictu; sumitur
+                        enim hic nomen formae aequivoce, ita quod nomini formae
+                        in hoc loco nullum est dare intellectum proprium qui faciat
+                        ad propositum; non enim in materia universali erit vere
+                        forma informans et perficiens materiam particularem nec
+                        aliquod individuum erit vere materia informata a suo universali
+                        nec erit constitutum per ipsum in aliquo formali
+                        actu essendi. Et si esset, tunc ex ipso et suo universali constitueretur
+                        quaedam tertia natura, sicut vere constituitur ex
+                        materia et forma; tunc etiam universale vere inhaereret (d)
+                        individuo suo, sicut forma vere inhaeret materiae suae, et (e)
+                        adaequaretur eidem, sicut forma adaequatur suae materiae.</p>
+                    
+                    <p>Item, quaecunque assimilantur sibi in tertio prius oportet
+                        quod ipsa assimilentur et sint similia illi tertio; alias
+                        non sibi assimilantur in illo; ergo quodlibet individuorum erit
+                        simile suo universali et per eandem rationem erunt similia
+                        in tertio et sic in infinitum. — Item, si individua sunt sibi
+                        similia in suo universali, tunc posito quod per divinam virtutem
+                        impediatur quod ab individuis non generetur aliquod
+                        universale — quod, si est per resultationem ab eis, nullus sani
+                        intellectus negabit Deum posse hoc facere —; tunc, inquam,
+                        non essent individua eiusdem speciei sibi substantialiter similia
+                        nec eiusdem speciei, nec iste homo et ille posset tunc
+                        dici homo aut animal, ita quod homo simul et eodem modo
+                        de utroque praedicaretur. Cum etiam intellectus possit intelligere
+                        quodcunque sine illo a quo nullo modo dependet et
+                        sine illo quod non intrat essentiam eius; tunc intellectus
+                        posset intelligere omnia individua eiusdem speciei sine suis
+                        universalibus secundum suas proprias essentias individuales;
+                        et tunc secundum hanc intelligentiam non intelligeret ea
+                        sibi esse similia nec aliquam unam rationem intelligeret in
+                        eis: unde non intelligeret tunc unam rationem humanitatis in
+                        duobus hominibus. Quod unusquisque secum diligenter pertractans,
+                        sicut credo, inveniet esse falsum.</p>
+                    
+                    <p>Quintum vero, hoc scilicet quod generetur
+                        a suis individuis et hoc resultando ex eis et (a)
+                        quod corrumpatur ipsis corruptis, ostendit consummationem
+                        omnis impossibilitatis et contradictionis. Omne
+                        enim quod de novo generatur et exit (b) in esse prius non
+                        erat et maxime quando ipsa essentia generatur, sicut est in
+                        iis quae generantur per resultationem. Homo igitur universalis
+                        non erat in alio homine, ex quo de novo est generatus
+                        ex isto homine. — Forte dicetur quod ex nullo individuorum
+                        suorum generatur simpliciter, sed solum generatur in hoc.
+                        Sed hoc nihil est, quia generatio principalius respicit ipsum
+                        genitum quam locum suae generationis seu quam alias circumstantias
+                        eius; quod enim secundum se non generatur
+                        nullo modo generatur in hoc; non enim additio huius quod
+                        dico « in hoc » est additio distrahens vel diminuens a veritate
+                        generationis. Si etiam ipsum universale secundum se
+                        non generatur: tunc ipsum dici « generari in hoc » non erit
+                        aliud nisi quod adgeneratur sibi haec conditio quae est in
+                        hoc aut quia ipsum individuum efficitur sibi de novo praesens;
+                        per nullum autem istorum posset dici resultare a suis
+                        individuis nec esse similitudo eorum. Et idem sequitur de
+                        corruptione, contrario tamen modo; quia quod (a) corruptum
+                        est et maxime secundum essentiam suam ipsum est vere
+                        non ens; et ita corrupto uno homine annihilaretur simpliciter
+                        totus universalis homo.</p>
+                    
+                    <p>Item, nullus effectus potest esse latioris ambitus et altioris
+                        quam sua causa, maxime illi qui secundum essentiam et
+                        esse sunt a sua causa, sicut sunt similitudines resultantes. Ex
+                        particulari igitur non resultabit nisi similitudo particularis. —
+                        Item, omnis similitudo resultans est aliqua forma facta in certo
+                        patiente et subiecto (b); non enim aliquid potest fieri ab agente
+                        creato nisi in certo patiente et subiecto. Erit ergo materia
+                        universalis, et omne universale vere forma, vere inhaerens et
+                        informans patiens in quo est recepta et illi patienti erit accidentalis,
+                        quia nulla forma substantialis potest exire per resultationem
+                        ab agente creato, sicut alibi est probatum, quamvis
+                        sit similitudo formae substantialis; quia per illam non poterit
+                        subsistere in actu subiectum eam recipiens. — Item,
+                        illud a quo resultat similitudo est vere causa efficiens eius;
+                        et ita materia erit causa efficiens suae similitudinis. — Item,
+                        impossibile est quod ab agente creato generetur substantia
+                        secundum materiam suam et formam et hoc non (c) de aliquo;
+                        hoc enim esset vere creatio, sicut alibi est probatum. Secundum
+                        hoc autem ex individuis generabuntur substantiae universales
+                        tam secundum materiam suam quam secundum formam
+                        et non de aliquo materiali. — Item, nullum agens, in
+                        quantum agens, est patiens; sed totum individuum secundum
+                        omne quod habet particulare est generans universalia; ergo
+                        non poterunt esse in ipso, saltem in quantum ex eo resultant.
+                        — Item, impossibile est unum et idem secundum totam
+                        suam essentiam generari uno et eodem modo (d) et immediate
+                        a pluribus causis non sibi invicem coordinatis nec in eodem
+                        tempore existentibus; sed secundum hoc tota essentia
+                        universalium generabitur uno et eodem modo et immediate
+                        a quolibet suorum individuorum etiam non simul existentium.</p>
+                    
+                    <p>Item, nulla essentia creata potest habere plures substantificationes
+                        nec plura esse et ita nec plura supposita;
+                        secundum hoc autem una et eadem essentia universalis hoc
+                        habebit, quia in quolibet individuorum suorum habebit aliud
+                        esse et aliam substantificationem et (a) aliud suppositum. —
+                        Item, nullum agens creatum secundum unam et eamdem
+                        virtutem potest agere duos effectus immediatos omnino diversorum
+                        generum; sed secundum (b) hoc eadem lux et idem
+                        calor et quaelibet virtus activa particularis habebit effectus
+                        immediatos diversorum generum, scilicet similitudinem universalem
+                        et similitudinem (c) particularem per quam movent
+                        res particulares. — Item, nihil generat aliquid secundum illud
+                        quod est sibi dissimile et quasi oppositum; ergo (d) individualis
+                        essentia non generabit universalitatem secundum aliquid
+                        individuale. — Item, individuum magis est distinctum ab
+                        alio individuo quam idem seu simile; ergo magis debet generare
+                        dissimile quam simile; et cum per suam essentiam
+                        singularem nullo modo sit simile alteri individuo secundum
+                        istos: tunc secundum eam potius debebit generare universale
+                        dissimile quam simile. — Item, sicut ab isto et illo homine
+                        resultabit species, scilicet homo universalis: ita a specie hominis
+                        et asini resultabit genus, scilicet universale animal et
+                        ab illo suum genus et sic usque ad supremum; et ita Sortes
+                        erit homo per humanitatem individualem et ultra hoc erit homo
+                        universalis per humanitatem universalem et habebit intra se
+                        tres animalitates, scilicet individualem et animalitatem quae
+                        est pars hominis universalis et animalitatem quae resultabit
+                        ab homine universali, et habebit tot substantias quot sunt genera
+                        et species in praedicamento substantiae. — Haec et (e)
+                        alia inconvenientia videntur implicari in hac positione; quae
+                        si vere implicantur, haec positio non solum est falsa, sed et
+                        omnium principiorum metaphysicalium fere destructiva et
+                        naturalium et multa implicans fidei catholicae contraria.</p>
+                    
+                    <p>Secunda etiam positio consimilia implicare
+                        videtur. Si enim universalia extra sua (f) individua habent
+                        aliquod esse secundum quod et fuerunt antea et manent
+                        postea: secundum hoc esse nihil sunt de essentia individuorum
+                        nec praedicantur de eis nec aliquid valent ad cognitionem
+                        et constitutionem eorum, immo erunt omnino aliae
+                        essentiae nihil spectantes ad ista individua nec cum eis aliquam
+                        univocationem habentia nec aliquo modo aliquid quod
+                        sit in (g) individuis poterit esse idem cum illis universalibus
+                        quae sunt extra individua in illo esse habitudinali. — 
+                        Illud etiam esse habitudinale aut est aliquid creatum aut
+                        non et aut fundatur in aliquo ente creato aut non et aut
+                        sunt de ilia potentia seu de illo esse habitudinali educibilia
+                        in actum aut non et aut sunt infinita et aeterna aut non:
+                        et quamcunque partem divisionum istarum concesseris, inconvenientia
+                        magna sequuntur (a), sicut pertractanti faciliter
+                        patere potest, Et idem est (b) de aliis divisionibus superius
+                        nominatis. — Si etiam non sunt in actu, sed solum in
+                        potentia, tunc per tale esse non poterit veraciter dici homo
+                        esse animal omnibus individuis destructis, sed tantum hominem
+                        posse esse animal; et tamen (c) ratio huius positionis
+                        potissima fuit verificatio propositionum necessariarum, ut
+                        istius « homo est animal » et consimilium quae videntur
+                        esse verae omnibus individuis destructis sicut et ipsis existentibus
+                        et verificatio habitudinum generis ad speciem et
+                        superiorum ad inferiora super quibus fundantur consequentiae
+                        scientiae. Et tamen si ipsa non sunt actu, sed solum in
+                        potentia (d): tunc nec habitudines eorum et consequentiae
+                        erunt, actu, sed solum in potentia, nec propter talem existentiam
+                        poterunt esse causa et materia scientiarum in actu,
+                        sed solum in potentia. Et si propter hoc esse essent verae
+                        propositiones praedictae et habitudines, si Deus destrueret
+                        illud esse aut si non creasset — quod nullus catholicus nec
+                        sani intellectus negabit Deum posse —: tunc non essent verae
+                        (e) huiusmodi propositiones et habitudines nec intellectus
+                        earum. Cum etiam Deus posset facere individua non
+                        faciendo universalia in illo esse potentiali: tunc de individuis
+                        nulla talis praedicatio nec habitudo nec scientia esset vera,
+                        quamvis rationes ipsae quantum valeant in respondendo ad
+                        articula tangetur. Responsiones autem quae contra istam
+                        positionem (f) possunt fieri non amplius pertracto, quia ex (g)
+                        rationibus factis ad alteram positionem potest patere via et
+                        modus deductionis earum.</p>
+                    
+                    <p>Tertium igitur modum tanquam saniorem et
+                        magis catholicum concedo et quia conditiones eius
+                        ex responsione argumentorum patere possunt: ideo breviter
+                        respondendum ad argumenta.</p>
+                    
+                </div>
+                <div>
+                    <head>[Solutio Obiectorum]</head>
+                    
+                    <p>Ad primum igitur dicendum quod prima propositio est
+                        falsa. Non enim aliqua sibi assimilantur in aliquo tertio,
+                        nisi (a) illud tertium accipias secundum intellectum tantum aut
+                        per (b) modum exemplaris eo modo quo omnia ideata ab eadem
+                        idea possunt dici sibi esse similia in illa. — Quod autem dicitur
+                        post, quod individua non sunt sibi similia in natura propria;
+                        si sit sensus quod non assimilantur sibi in ea tanquam
+                        in alio tertio communiter ab eis participata, vera est. Sed
+                        similitudo non exigit tale tertium, immo potius contrarium.
+                        Unde individua possunt dici sibi similia in natura propria,
+                        quia natura propria (c) unius est talis qualis alterius, et amplius
+                        non exigitur ad rationem similitudinis; non enim exigitur
+                        quod similia participent aliquid idem secundum rem,
+                        sed quod unum participet vel sit tale (d) quale alteram est
+                        aut quale participat. Illud ergo in quo sunt similia potest
+                        et debet esse distinctum realiter in eis, sed tamen non difforme
+                        seu dissimile, sed (e) uniforme et simile. — Quodsi
+                        dicatur quod omne simile est simile alteri per aliquid quod
+                        participat et ita, si essentia unius est similis alteri, aliquid
+                        participat in quo est ei similis et sic in infinitum, si illud per
+                        quod sunt similia non debet esse idem in utroque secundum
+                        rem, sed (f) solum simile: dicendum quod non omne simile
+                        est simile per aliquid participatum, immo omnes formae sibi
+                        similes sunt sibi similes per se ipsas. Quod ex hoc apparet:
+                        quia ipsis solis intellectis, ita quod nihil aliud ab intellectu
+                        apprehendatur intelligentur sibi esse similes et uniformes;
+                        et omni alia similitudine seu essentia ab eis divina
+                        virtute vel per intellectum amota seu circumscripta, adhuc
+                        essent sibi similes et secundum rem et secundum intellectum
+                        et eiusdem speciei.</p>
+                    
+                    <p>Ad secundum dicendum quod quando res intelliguntur
+                        esse universales secundum modum intelligendi solum,
+                        res non intelliguntur aliter quam sint; sed bene intelligerentur
+                        aliter quam sint, si intelligerentur habere universalitatem,
+                        prout sunt extra intellectum; hoc autem intellectus
+                        non facit. Ut autem hoc clarius eluceat, sciendum quod intellectus
+                        non solum potest distinguere inter ea quae sunt
+                        subiecto, tempore et loco distincta, sed et inter ea quae
+                        sunt inseparabilia, et non solum inter ista, sed etiam inter
+                        duas rationes quae in re nullam habent distinctionem, licet
+                        utraque veraciter sit in re; sicut in Deo distinguit rationem
+                        intellectus a ratione voluntatis et in Patre (a) rationem productivam
+                        Filii a ratione productiva Spiritus Sancti. Sive igitur
+                        individuatio et individuantia sint inseparabilia ab essentia
+                        individuata, sive omnino sint eadem, diversas tamen rationes
+                        eiusdem rei dicentia: intellectus poterit distinguere inter
+                        rationem essentiae et inter rationem individuationis suae;
+                        non quod intelligat unum esse sine altero aut posse esse, sed
+                        per hoc quod intelliget unum non esse aliud aut unam rationem
+                        non esse aliam, licet sint eadem res, et per hoc quod
+                        intelliget unum non intelligendo aliud. Inter diversas enim rationes,
+                        quamvis sint idem secundum rem, potest cadere ordo
+                        secundum intellectum, sicut inter (b) rationem entis et substantiae
+                        et sicut in Deo inter rationem intellectus et voluntatis;
+                        unum enim cadit prius in intellectu quam reliquum,
+                        quia voluntas intelligitur se habere per additionem ad intellectum
+                        et per posterius; et talium primum potest intelligi
+                        ab intellectu absque hoc quod aliud apprehendatur.
+                        Sic autem se habet ratio individuationis ad rationem essentiae,
+                        sive sit eadem realiter cum ea sive differens. Et
+                        ideo ratio essentiae potest intelligi absolute non cointelligendo
+                        suam individuationem nec cointelligendo aliquem respectum
+                        eius ad hoc individuum vel ad hic et nunc. Et in
+                        tali ratione sic intellecta intellectus non apprehendit aliquam
+                        distinctionem et ideo, cum pluribus attribuit eam secundum
+                        hunc modum intelligendi, videtur unum et idem attributum
+                        esse pluribus, licet bene videat intellectus quod non propter
+                        hoc aliquid unum secundum (c) rem et veritatem est attributum
+                        pluribus. Et ideo vere potest eam dicere ut unam et
+                        indifferentem, in quantum est sic intellecta, et unitate tali
+                        quae non est aliud quam privatio distinctionis et individuationis
+                        in apprehensione eius seu privatio distinctionis et individuationis
+                        in ipsa respectu talis actus et talis modi intelligendi;
+                        intelligitur enim non (d) cointellecta distinctione et
+                        individuatione quam habet in re (e). Dicere autem eam sic
+                        unam et dicere eam universalem idem sunt omnino. Ex hoc
+                        autem non sequitur quod res secundum veritatem sit universalis
+                        aut quod intellectus intelligat eam realiter esse
+                        universalem, sed solum quod intelligat eam (a) esse universalem
+                        prout est sic intellecta et prout est intellectui tali modo
+                        obiecta. Unde etiam ex hoc non sequetur quod in intellectu
+                        sit aliqua vera universalitas, sed solum quod aliquid repraesentetur
+                        quasi universale (b) ab actu et specie intellectuali
+                        quasi universale et hoc modo dicto.</p>
+                    
+                    <p>Ad tertium dicendum quod aliud est dicere quod humanitati
+                        et consimilibus conveniat secundum rationem suam
+                        non differre in pluribus et aliud quod per eam non convenit
+                        ei differre in pluribus; sicut quamvis per humanitatem
+                        non conveniat mihi esse album, non tamen propter hoc per
+                        humanitatem convenit mihi non esse album aut esse non
+                        album (c); quia si sic, tunc nunquam posset aliquis homo
+                        esse albus. Minor igitur praedictae rationis est falsa, nisi
+                        forte dicatur quod convenit ei non differre, prout est sic intellecta.
+                        Non est etiam verum quod una et eadem ratio humanitatis
+                        secundum rem sit in hoc et in illo, sed solum secundum
+                        intellectum, et hoc non nisi modo praedicto. — Quod
+                        autem supposui quod secundum talem rationem non conveniat
+                        sibi differre, non ex hoc praeiudicatur illi opinioni quae
+                        vult rationem individuationis omnino esse idem realiter cum
+                        ilia, quia tunc diversis viis potest utrumque verificari, quod
+                        scilicet secundum se non conveniat sibi differre et quod secundum
+                        se conveniat ei; sicut et utraque istarum diversis
+                        rationibus vera est, ista scilicet « intelligere Dei, in quantum
+                        intelligere, est suum amare » et eius opposita, haec scilicet,
+                        « intelligere Dei, in quantum intelligere, non est suum amare » (d),
+                        sicut alibi est ostensum. Posito etiam quod secundum se non
+                        conveniat ei differre, non propter hoc sequitur quod ipsa
+                        non sit vere differens, sed solum quod differentia quam habet
+                        non convenit ei per talem rationem, sed si convenit ei, convenit
+                        ei per aliam.</p>
+                    
+                    <p>Ad quartum dicendum quod sicut intellectus distinguit
+                        inter duas rationes quae secundum rem non habent inter
+                        se diversitatem realem seu essentialem et sicut duae
+                        tales rationes possunt habere inter se ordinem prioritatis et
+                        posterioritatis per respectum ad intellectum quem non habent
+                        in re; ita et possunt ex tali modo intelligendi consimiles
+                        praedicationes, consequentiae et habitudines formari.
+                        Unde in Deo secundum modum intelligendi non sequitur « est
+                        ens, ergo est sapiens », sicut sequitur « est sapiens, ergo est
+                        ens », ratio enim sapientiae se habet ad rationem entis per
+                        modum addentis et contrahentis et ita per modum inferioris
+                        et posterioris. In nobis etiam nullus sani intellectus dicet
+                        quod sapientia secundum rem addat aliquid ad rationem essentiae
+                        (a), quia sic in ea esset compositio essentiae et sapientiae
+                        et in illo etiam quod adderetur; quia ipsum haberet
+                        rationem essentiae et ultra hoc rationem specialis essentiae,
+                        utpote talis vel talis, et sic esset processus in infinitum. Et
+                        idem est in omnibus aliis accidentibus et rebus. Et tamen intellectus
+                        intelligit rationem sapientiae et cuiuslibet specialis
+                        essentiae se habere per modum additionis inferioris et posterioris
+                        ad rationem essentiae communiter et absolute acceptae.^
+                        Unde non (b) sequitur, « istud est essentia, ergo est
+                        sapientia », et sic de aliis. Quamvis igitur in re non sint tales
+                        habitudines, est tamen ibi aliquid unde intellectus potest eas
+                        formare et intelligere; quia in re est pluralitas rationum
+                        quae etsi secundum se non habeant differentiam neque ordinem
+                        et ita nec realem habitudinem, habent tamen per respectum
+                        ad intellectum, hoc est dictu: etsi in se non habeant,
+                        aptae natae sunt sic intelligi, in tali scilicet habitudine
+                        et in tali ordine. Sunt igitur in rebus tales habitudines, ad
+                        minus secundum aptitudinem intelligibilitatis; quamvis aliquando,
+                        ubi est realis diversitas, sint secundum veritatem
+                        et plenam actualitatem. Non igitur erit in talibus nugatio,
+                        quia nugatio non fit ex identitate significati realis, sed ex
+                        identitate rationis significatae; alias omnes praedicationes
+                        de Deo factae essent nugatoriae. Sortes autem et Sortes non
+                        solum habent idem significatum secundum rem, sed etiam
+                        secundum rationem, quod non habent Sortes et homo. Non
+                        etiam erit ibi habitudo convertibilitatis secundum modum
+                        nitelligendi et secundum aptitudinem intelligibilitatis, quamquam,
+                        prout sunt in re, essent omnino idem et convertibilia,
+                        sicut ex supradictis patet; et ideo non oportet quod cessent
+                        loci et habitudines inferiorum ad superiora et e contrario.</p>
+                    
+                    <p>Et per hoc patet ad septimum. Licet enim cum dico
+                        « Sortes est homo », praedicem omnino idem secundum rem,
+                        non tamen omnino idem secundum rationem; et ideo non
+                        oportet quod eadem sit praedicatio « Sortes est homo » et
+                        « Sortes est hic homo », quia praedicatio plus respicit rationem
+                        quam realem identitatem; et quamquam esset eadem
+                        praedicatio, quantum ad rem, nihilominus tamen esset diversa
+                        secundum rationem. Si autem individuatio non realiter
+                        differt ab essentia individuata, tunc facilius patet quod
+                        dicitur.</p>
+                    
+                    <p>Ad quintum dicendum quod si noster intellectus potest
+                        distinguere et distincte apprehendere diversas rationes
+                        in una simplici essentia per omnimodam indifferentiam comprehensas,
+                        multo magis hoc potest divinus intellectus; et ideo
+                        alia potest esse idea hominis et huius hominis, ita tamen quod
+                        non intelligas eas sic distinctas sicut ideam hominis et lapidis.
+                        Sed sicut in intellectu nostro (a) ratio sapientiae se habet per
+                        additionem ad rationem entis seu essentiae: sic idea huius
+                        hominis ad ideam hominis; addit enim ad (b) ideam hominis
+                        rationem individuationis per quam iste homo et iste. Et ideo
+                        una est idea hominis et omnium hominum, in quantum homo;
+                        alia tamen et alia ipsorum, in quantum isti et individui,
+                        quamquam non totaliter alia et alia, sed solum quantum ad
+                        rationes individuationum additas ad rationem hominis. Nec
+                        intelligo per hoc quod in Deo sit alietas idearum secundum
+                        rem, sed solum eo modo quo (c) in eo ratio sapientiae dicitur
+                        alia a ratione amoris. — Ad id etiam quod dicitur quod
+                        in ideis non ponitur diversitas nisi ratione diversitatis convocatorum
+                        seu ideatorum: si loquaris de diversitate reali, non
+                        est verum; quia res antequam essent, nullam habebant (d)
+                        diversitatem realem, nec divinum intelligere et velle haberent
+                        diversas rationes respectu eiusdem, obiecti creati. Sufficit
+                        igitur in ideatis diversitas intelligibilis et diversitas rationis
+                        ad alietatem idearum, quia etiam in nobis ad diversificationem
+                        habituum et potentiarum sufficit frequenter diversitas
+                        solius rationis obiectivae; sicut apparet, quando intelligimus
+                        et amamus Deum, cum in obiecto divino nulla sit
+                        diversitas realis.</p>
+                    
+                    <p>Et per hoc patet ad sextum.</p>
+                    
+                    <p>Ad octavum dicendum quod eo modo quo universale
+                        dicitur esse unum in pluribus dicitur esse (e) ubique et semper,
+                        quia accipitur ab intellectu ratio eius, non cointellecta
+                        individuatione (f) nec conditionibus individualibus quae sunt
+                        hic et nunc. Et ideo ipsum, in quantum est sic intellectum,
+                        intelligitur ut potens esse ubique et semper, non tamen propter
+                        hoc intelligitur (a) quod ita sit secundum rem. Potest autem
+                        de eis esse scientia, quamvis non sit actu; quia ad
+                        existentiam scientiae non exigitur necessario quod ipsum
+                        scitum sit actu; alias Deus non habuisset scientiam rerum,
+                        antequam essent, nec multarum quae nunquam erunt nec
+                        fuerunt. Sed sufficit quod ipsa scita sint repraesentabilia a
+                        scientia per modum entis. Non tamen simpliciter concedo
+                        quod de eis solum sit scientia.</p>
+                    
+                    <p>Ad nonum dicendum quod <ref><name ref="#Aristotle">Aristoteles</name> in <title ref="#Categories">praedicamentis</title></ref>
+                        sicut et in omnibus logicalibus multa tradit modo logicali
+                        et intentionali sen secundum modum intelligendi et
+                        loquendi plus quam modo reali et metaphysicali. Et secundum
+                        hunc modum conveniens est distinctio primae substantiae
+                        et secundae; quia secunda fundamentum intelligibilitatis
+                        habet in re, complementum in intelligentis intentione, sicut
+                        est divisio entis in universale et particulare. Et ideo neutra
+                        earum est fictitia, immo vera quantum ad modum secundum
+                        quem datur. </p>
+                    
+                    <p>Ad decimum dicendum quod argumentum hoc fere
+                        tantum est contra illos qui ponunt quod individuatio addat
+                        ad essentiam speciei individuatam quam (b) contra illos qui
+                        ponunt quod nihil addat realiter differens; quia illi qui
+                        ponunt quod addat non ponunt quod addat tale quod possit
+                        esse causa omnium accidentium communium, quia cum
+                        accidentia communia in pluribus individuis et diversarum
+                        specierum inveniantur, oportet quod in eis habeant causam
+                        communem seu eiusdem rationis. Materia etiam per hoc
+                        quod est haec et individua non potest poni causa (c) essentiae
+                        specificae seu quidditatis accidentium communium, etiam
+                        posito quod hoc posset esse, in quantum materia. Dicendum
+                        igitur quod propriae passiones quae sunt in hoc individuo
+                        sunt individuales, sicut et accidentia communia quae
+                        sunt in eo; et ideo oportet utramque habere causas individuas
+                        quas credo esse diversas naturas formales et diversos
+                        informandi modos. Accidentia autem quae vere sunt communia
+                        oriuntur, ut credo, a vario informandi modo, propria
+                        vero ab ipsis naturis formalibus; quamvis omnia accidentia
+                        quae respectu aliquorum subiectorum sunt communia respectu
+                        aliquorum aliorum fortassis sint propria, ut album
+                        respectu hominis vel animalis est commune, respectu alicuius
+                        complexionis seu mixtionis elementalis (a) fortassis est proprium.
+                        Nec tamen dico quod sit necesse quod diversae passiones
+                        sint a diversis naturis, quia hoc aliquibus non placet.
+                        Sed hoc habet alibi discuti; non enim est contra propositum,
+                        sive sic sit sive sic.</p>
+                    
+                    <p>Ad undecimum dicendum quod non credo quod <name ref="#Aristotle">Aristoteles</name>
+                        velit (b) dicere quod universalium sint principia
+                        universalia nisi eo modo quo esse ponuntur. Unde voluit dicere
+                        quod sicut accipimus naturas sensibilium aliquando universaliter,
+                        aliquando particulariter: sic proportionaliter debemus
+                        accipere principia eorum; quia non minoris latitudinis
+                        sunt in rebus principia eorum quam res ab eis constitutae
+                        et ideo non minoris ambitus debent esse quantum ad intellectum.</p>
+                    
+                    <p>Ad duodecimum dicendum quod universalia secundum
+                        quod sunt in intellectu pro tanto exeunt a particularibus, quia
+                        ab eis fit ista abstractio; alias autem falsum est quod per ea
+                        exeant in esse nec per aliquid aliud. — Quod autem dicitur
+                        quod per se sunt ingenerabilia et incorruptibilia: eo modo
+                        est intelligendum et non aliter quo et dicuntur ubique esse
+                        et semper. — Quando autem dixit <name ref="#Aristotle">Aristoteles</name> quod non
+                        generatur homo, nisi quia generatur hic homo: non fuit eius
+                        intentio quod generatio hominis esset alia a generatione huius
+                        hominis (c) vel quod posterior esset ilia aut causata (d) ab ea;
+                        sed hoc solum intendit quod non est aliud dictu secundum rem
+                        generari hominem quam generari hunc hominem. Non enim
+                        secundum eum generatur homo universalis, sed solum homo
+                        particularis. Generari autem hunc hominem est vere generari
+                        (e) hominem, quia hic homo vere est homo, sicut et
+                        vere est hic seu iste. — Quod autem dicit <name ref="#Aristotle">Aristoteles</name> quod
+                        moventibus nobis moventur ea quae in nobis sunt: non ex
+                        hoc supponit universalia esse. Sed posito quod essent, sicut
+                        <name ref="#Plato">Plato</name> ponebat (1), adhuc mobilia essent. Quod erat contra
+                        opinionem <name ref="Plato">Platonis</name>. Aliquando enim <name ref="#Aristotle">Aristoteles</name> (2) arguit
+                        simpliciter contra propositionem universalium, aliquando vero
+                        ex datis a tenentibus positionem illam; et hic modus est
+                        eius alibi frequens. — Ad illud autem quod pro forti ratione
+                        assumitur (f) de veritate propositionum necessariarum quae
+                        sic semper sunt verae quod non possunt non esse verae,
+                        ut homo est animal et consimiles, et cum in eis praedicetur
+                        aliqua existentia praedicati in subiecto et aliqua habitudo
+                        quodam modo actualis oportet, ut videtur, ad hoc quod sint
+                        verae quod subsit veritas huiusmodi existentiae et habitudinis
+                        in re: sed ad hoc, inquam, dicendum quod si haec ratio
+                        bona esset, non solum sequeretur quod universalia et habitudines
+                        et existentiae eorum essent in potentia, sed quod
+                        essent verae in actu, sicut supra fuit tactum. Dicendum igitur
+                        quod istae propositiones eo modo quo semper verae
+                        dicuntur aut non praedicant actualem inhaerentiam seu cohaerentiam
+                        vel concomitantiam aut praedicant eam cum
+                        praesuppositione existentiae subiecti, ita quod secundum primum
+                        modum est sensus « homo est animal », id est, homo non
+                        potest esse quin animal sit et quin ipsum sit animal; secundum
+                        vero alium modum sensus est « homo est animal », id
+                        est, posito quod homo sit seu si homo est, ipse vere est animal.
+                        Et hoc sufficit ad significandum mutuam identitatem et inseparabilitatis
+                        necessitatem quam habent in rebus, quando
+                        sunt actu aut sine qua nunquam esse possunt in actu vel
+                        in re. Uterque autem istorum modorum in idem redit. Propositiones
+                        autem huiusmodi non sunt verae, nisi quando
+                        sunt; sed ideo dicuntur semper verae, quod nunquam possunt
+                        concipi vel formari, quin tunc sint verae. Ad earum
+                        tamen veritatem non exigitur quod aliqua veritas realis sit
+                        in re, sicut nec ad veritatem intellectus, sicut alibi est ostensum.
+                        — Si autem aliquis (a) vellet omnino quod istae propositiones
+                        aliter quam secundum dictos modos significent (b) existentiam
+                        praedicati de subiecto (c), ipse exprimat, si potest,
+                        quis est ille modus et sub qua divisione entis cadat et quomodo
+                        se habeat ad res particulares. Nescio enim quid sit
+                        dictu quod homo in esse essentiae sit animal nec cuiusmodi
+                        homo sit ille et cuiusmodi animal aut quomodo esse animal (d)
+                        non concludit esse simpliciter plus quam esse album,
+                        nisi sumantur propositiones modis praedictis. Sequitur enim:
+                        homo est albus, ergo, homo est; ex propositionibus tamen
+                        illis secundum modum accipiendi communem non sequitur:
+                        homo est animal, ergo homo est; et tamen si simpliciter
+                        fiat huiusmodi praedicatio, simpliciter sequitur et perfecte.</p>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+                    
+                    

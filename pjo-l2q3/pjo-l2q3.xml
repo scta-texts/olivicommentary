@@ -1,0 +1,4029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Quaestio 3</title>
+        <author xml:id="PJO">Peter John Olivi</author>
+        <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.05">
+          <title>Librum II, Quaestio 3</title>
+          <date when="2015-05-11">May 11, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Ad Claras Aquas</publisher>
+        <pubPlace>Quaracchi</pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="1922">1922</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Quaestions In Secundum Librum Sententiarum, ed. Bernardus Jansent, S.I, Ad Claras Aquas, 1922</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-05-11" who="#JW" status="draft" n="2015.05">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pjo-l2q3">
+        <head>QUAESTIO III.</head>
+        <p>Tertio quaeritur an Deus possit facere 
+          <app>
+            <lem>aliquod</lem>
+            <rdg wit="#B7" type="om."/>
+          </app> 
+          infinitum. Et loquor de infinito secundum dimensionem 
+          seu secundum infinitam partium quaruncunque 
+          aggregationem; infra enim quaeretur 
+          de alio genere infinitatis.</p>
+        <div>
+          <head>Quod autem possit videtur.</head>
+          
+          <p>1. Certum est secundum fidem et secundum 
+            <ref>
+              <seg>
+                <name ref="#Augustine">Augustinum,</name> XII <title ref="#CityOfGod">De civitate,</title> capitulo 18,
+              </seg>
+              <bibl>Augustine, City of God, XII, c. 18 (PL 41: 867sq)</bibl>
+            </ref> 
+            quod Deus scit actu 
+            infinita; sed nullum inconveniens sequitur ad positionem infinitorum 
+            in actu, quin sequatur ad positionem 
+            <app>
+              <lem>ipsorum</lem>
+              <rdg wit="#V" type="corrReplace">
+                <del>epsorum</del>
+                <add>ipsorum</add>
+              </rdg>
+            </app> 
+            in scientia Dei seu ad positionem scibilitatis eorum; ergo et 
+            cetera. -- Probatio minoris tam in infinitis mathematice acceptis 
+            quam in 
+            <app>
+              <lem>infinitis</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>finitis</del>
+                  <add>infinitis</add>
+                </corr>
+              </rdg>
+            </app> 
+            naturaliter acceptis. Si enim ponerentur 
+            numeri infiniti in actu, haec inconvenientia dicuntur 
+            sequi: scilicet quod pars erit aequalis suo toti et quod infiniti 
+            denarii non plus facient quam infiniti ternarii et ita quod si 
+            inaequalibus inaequalia addas aut numeris minoribus 
+            <app>
+              <lem>minores et</lem>
+              <rdg wit="#B7">maiores nec</rdg>
+            </app> 
+            maioribus maiores, totum quod 
+            <app>
+              <lem>resultabit</lem>
+              <rdg wit="#B7">resutabitur</rdg>
+            </app> 
+            non erit inaequale; 
+            <app>
+              <lem>et quod erit</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">et quod erit</add>
+                </corr>
+              </rdg>
+            </app> 
+            dare numerum qui non erit par nec
+        <pb n="30"/>impar et sic de aliis quae infra magis tangentur. Sed haec 
+            omnia eadem ratione sequentur ad actualem cognitionem 
+            numerorum infinitorum seu ex hoc quod ponuntur infiniti ut a 
+            Deo cogniti. Ponatur enim quod ipsemet Deus comparet per 
+            modum divisionis mediam partem 
+            <app>
+              <lem>aut plus quam mediam</lem>
+              <rdg wit="#B7" type="om."/>
+            </app> 
+            totius numeri a se cogniti ad totum numerum: ita videbit 
+            illam partem aequalem esse toti, sicut si extra se actualiter 
+            poneretur in re. Et idem est 
+            <app>
+              <lem>de</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add>de</add>
+                </corr>
+              </rdg>
+            </app> 
+            omnibus aliis inconvenientibus. - In infinito etiam naturali hoc idem sequitur. 
+            Si enim Deus potest intelligere unum elementum vel unum 
+            corpus naturale infinitum, tunc intelliget illud ut potens movere 
+            aliquid in instanti; et sic de omnibus aliis is inconvenientibus 
+            quae ad existentiam infiniti naturalis sequi videntur. 
+            Si igitur hoc non est inconveniens, 
+            <app>
+              <lem>ergo</lem>
+              <!-- in ras -->
+            </app> 
+            nec illud.</p> 
+            <p>2. Item, Deus potest facere actu omne illud in quo nulla
+        implicatur contradictio; 
+              <app>
+                <lem>sed in nullo scito vel scibili divino
+        actu implicatur contradictio,</lem>
+                <rdg wit="#B7" type="om."/>
+              </app> 
+              cum omne scitum a Deo, in 
+              quantum tale, sit verum; ergo Deus potest facere actu
+        quicquid scit, et sic per consequens omnia infinita quae novit.</p>
+          
+        <p>3. Item, Deus potest facere omne quod est sibi possibile;
+        si enim non 
+          <app>
+            <lem wit="#B7">posset</lem>
+            <rdg wit="#V">possit</rdg>
+          </app> 
+          illud agere, non esset possibile sibi. 
+          Unde praedicta propositio et omnes eius consimiles in tantum 
+          sunt verae quod omnis negatio earum includit in se 
+          manifestam contradictionem, pro eo quod in eis idem praedicatur 
+          de se ipso; sed Deus potest infinita possibilia; ergo 
+          potest ea facere.</p>
+        
+          <p>4. Item, posse in Deo non dicitur proprie nisi respectu 
+            alicuius actionis; et loquor de posse quo est potens super 
+            creaturas; unde super illam creaturam quam non posset facere 
+            non posset dici potens; si igitur non posset facere infinita, 
+            non esset potens super infinita nec haberet potestatem 
+            infinitorum.</p>
+        
+          <p>5. Item, quicquid Deus potest successive potest simul, 
+            saltem respectu illorum in quibus existentia unius non impedit 
+            existentiam alterius; sed Deus successive potest 
+            <app>
+              <lem wit="#B7">facere</lem>
+              <rdg wit="#V" type="om."/>
+            </app> (f) infinia; ergo potest simul facere.</p>
+        
+          <p>6. Item, omnem conditionem creatam seu  
+            <app>
+              <lem>in infinitum</lem>
+              <rdg wit="#B7">maiores nec</rdg>
+            </app> inferiorem Deo potest Deus dare et facere; sed huiusmodi 
+            infinitas, quae scilicet est per aggregationem partium, est 
+            <pb n="32"/>conditio in infinitum inferior Deo et manifeste apparet esse 
+            conditio creata, cum dicat quid compositum ex partibus et 
+            passionem quantitatis ex opposito condivisam contra proprietatem 
+            finitatis; ergo Deus potest earn facere.</p> 
+          <p>7. Item, quod rationaliter et scientialiter potest a nobis 
+            cogitari potest a Deo fieri; sed secundum scientiam mathematicam 
+            docemur cogitare infinita; unde et de quantitatibus 
+            traduntur regulae, etiamsi in infinitum protendantur; ergo 
+            et cetera.</p>
+        
+          <p>8. Item si infinitum non potest fieri, aut hoc est, quia 
+            infinitas repugnat factioni aut quia repugnat 
+            <app>
+              <lem>quidditati</lem>
+              <rdg wit="#B7">praedictae</rdg>
+            </app> 
+            creaturae aut quia repugnat actuali existentiae. Sed primum 
+            non potest esse, quia factio non contradicit nisi solum rei 
+            non factae; hic autem ponitur infinitum esse factum. - Secundum 
+            etiam non potest esse, quia multae sunt quidditates 
+            quae nullam certam sibi quantitatem determinant, sicut saltem 
+            ipsa quidditas quantitatum et materiae primae; si enim 
+            poneretur linea infinita vel etiam albedo, non propter hoc 
+            destrueretur quidditas eorum, sed potius augeretur. - Tertium 
+            etiam non potest esse, quia tunc infinitas Dei quae est 
+            summa omnium infinitatum repugnaret actualitati 
+            <app> <!-- unclear correction -->
+              <lem>existentiae,</lem>
+              <rdg wit="#V" type="corrDeletion">
+                <corr>
+                  <del>essentiae</del>
+                </corr>
+              </rdg>
+            </app> 
+            et sic impossibile esset Deum esse actu infinitum.</p>
+        
+          <p>9. Item, multa infinita actu sunt a Deo facta; ergo bene 
+            possunt a Deo fieri. - Probatio antecedentis: Potentiae enim 
+            mentis nostrae videntur esse actu infinitae; omne enim quod 
+            simul potest capere non tot quin plura, ita quod semper 
+            potest capere maius omni finito, habet potentiam et capacitatem 
+            actu infinitam; si enim haberet actu finitam, per aliquod 
+            finitum posset actu repleri; sed intellectus potest capere 
+            omnem numerum quantumcumque magnum et semper 
+            eius duplum vel mille duplum et voluntas per amorem vel 
+            odium potest hoc ipsum et memoria potest totum hoc retinere; 
+            ergo et cetera. - Si dicatur quod non possunt hoc 
+            distincte et explicite sed solum indistincte et implicite, non 
+            enim possent hoc modo apprehendere omnes partes cuiuscumque 
+            numeri distincte, sed solum ipsum totum: contra, 
+            nullus apprehendit totum aliquem numerum qui nullam apprehendit 
+            partium eius, prout ex eis constituitur ipsum totum; 
+            sicut nec aliquis potest videre domum nullas videndo 
+            partium eius, prout ex eis constituitur, immo si aliqua partium 
+            lateat, nondum videt totum; sed numerus constituitur 
+            <pb n="33"/>ex suis partibus, in quantum sunt ad invicem discretae, nec 
+            addit aliquid super suas partes nisi aggregationem earum; 
+            ergo oportet quod qui videt numerum videat partes 
+            eius 
+            <app>
+              <lem wit="#B7">ut</lem>
+              <rdg wit="#V" type="om."/>
+            </app> 
+            discretas. - Praeterea, nullus 
+            <app>
+              <lem>scit</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">scit</add>
+                </corr>
+              </rdg>
+            </app> 
+            speciem numeri, nisi sciat quot unitates sunt ibi. Unde et nomina numerorum 
+            ponuntur in plurali; numerus enim qui dicitur centum 
+            vel mille non est aliud quam centum vel mille unitates, nec 
+            species numerorum distinguuntur inter se nisi per continentiam 
+            plurium vel 
+            <app>
+              <lem>paucarum</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>paucorum</del>
+                  <add>paucarum</add>
+                </corr>
+              </rdg>
+            </app> 
+            unitatum; nullus autem intelligit 
+            aliquam speciem numeri, quin possit eam etiam statim discernere 
+            ab omni alia specie numerorum; ergo et cetera. - 
+            Praeterea, quod sint infinita adhuc aliter ostendo: memoria 
+            enim angelorum secundum magistros nihil obliviscitur, ita 
+            quod species deleantur, sed semper retinet omnia particularia 
+            cognita et actus cognitionis et actus mentis particulares 
+            <app>
+              <lem>quae</lem>
+              <rdg wit="#B7">qui</rdg>
+              <rdg wit="#V" type="intextu">in</rdg> <!-- not sure about this -->
+            </app> 
+            in infinitum, saltem in damnatis, semper succedunt; 
+            ergo non potest dari quot et quanta potest capere simul 
+            memoria eorum.</p>
+        
+          <p>10. Item, potentia continui est infinita, ut videtur; nam 
+            tantum habet de divisibilitate in actu quot divisiones potest 
+            successive habere; nec potest dici quod una divisibilitas seu 
+            potentia ad unam divisionem sit eadem cum alia divisibilitate 
+            seu cum potentia ad aliam divisionem, cum ipsae divisibilitates 
+            differant et distent secundum situm, sicut et ipsae divisiones. 
+            Unde duae divisiones vel duae divisibilitates non 
+            possunt esse in eodem situ. - Praeterea, quodlibet continuum 
+            est susceptivum simul non tot divisionum quin plurium; 
+            ergo simul potest recipere divisionem maiorem omni 
+            numero finito quantaruncunque divisionum; sed maius omni 
+            finito non est nisi infinitum; ergo potest simul suscipere infinitas 
+            divisiones; sed hoc non potest fieri, nisi ipsa habeat 
+            capacitatem actu infinitam et nisi divisio 
+            <app>
+              <lem>possit</lem>
+              <rdg wit="#B7">posset</rdg>
+            </app> 
+            esse actu 
+            infinita; ergo et cetera. - Praeterea, una divisio non impedit 
+            alteram nec repugnat alicui aliarum; ergo qua ratione possunt 
+            esse tot simul, eadem ratione et omnes. - Praeterea, 
+            nihil est divisibile nisi in partes quas iam habet actu; et 
+            sicut omnis pars post divisionem est quoddam totum actu 
+            distinctum a toto cuius primo erat pars, sic ante divisionem 
+            erat actualiter pars eius. Per divisionem etiam non datur 
+            nova essentia ipsi parti, sed solum novus modus essendi, 
+            <pb n="34"/>nec hoc fit nisi tollendo sibi alium modum essendi. Sicut
+            enim per divisionem accipiunt partes modum existendi per 
+            se seu 
+            <app>
+              <lem>separatim,</lem>
+              <rdg wit="#B7">separatum</rdg>
+            </app> 
+            sic primo habebant modum essendi in 
+            alio seu unitum et semper quaelibet divisio destruit aliquam 
+            unionem actualem; sed omne continuum est divisibile a Deo, 
+            etiam 
+            <app>
+              <lem>in</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="aboveLine">in</add>
+                </corr>
+              </rdg>
+            </app> 
+            infinitum; ergo habebat actu omnia illa infinita 
+            in quae poterat dividi et tot habebat partes actu quot tota 
+            possunt ex eo per infinitam successionem exire et totam essentiam 
+            eorum habebat actu et tot modos essendi partium 
+            <app>
+              <lem>unitarum</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>unitas</del>
+                  <add>unitarum</add>
+                </corr>
+              </rdg>
+            </app> 
+            totque uniones 
+            <app>
+              <lem>earum</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>eorum</del>
+                  <add>earum</add>
+                </corr>
+              </rdg>
+            </app> 
+            habebat actu quot modi 
+            essendi non uniti et quot divisiones possunt successive ex 
+            eo exire; ergo secundum hoc omne continuum habet actu 
+            infinitas partes 
+            <app>
+              <lem>et</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add>et</add>
+                </corr>
+              </rdg>
+            </app> 
+            infinitas essentias earum et infinitos 
+            modos essendi earum et infinitas uniones ipsarum. - Praeterea 
+            materia est possibilis ad infinitas formas successive 
+            recipiendas et, licet non possit 
+            <app>
+              <lem>eas</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">eas</add>
+                </corr>
+              </rdg>
+            </app> 
+            recipere simul, tota tamen 
+            potentia eius est simul et totus respectus quo per potentiam 
+            suam refertur ad omnes formas quarum est susceptibilis; 
+            ergo videtur quod habeat simul actu infinitam potentiam et 
+            infinitos respectus.</p>
+        
+          <p>11. Item, omne quantum non habens terminum est infinitum; 
+            sed Deus potest facere lineam et tempus sine terminis; 
+            posset enim separare puncta terminalia a linea ipsa in 
+            actu remanente; separatio enim unius essentiae ab altera 
+            nullum videtur includere contradictionem respectu divinae 
+            potentiae; ergo et cetera.</p>
+          
+        <p>12. Item, in omni tempore et aevo sunt actu infinita nunc 
+          et in omni motu infinita mutata seu infinitae mutationes, ut 
+          probabo; ergo et cetera. - Probatio, et primo de aevo: esse 
+          enim omnis aeviterni semper est totum simul et eius 
+          <app>
+            <lem>essentia</lem>
+            <rdg wit="#B7">existentia</rdg>
+          </app> 
+          semper tota fit seu conservatur a Deo; sed semper 
+          tota simul non potest esse nec semper tota simul fieri seu 
+          conservari a Deo, nisi semper sit in nunc; hoc autem esse 
+          non potest, nisi sit ibi continua et actualis successio ipsorum 
+          nunc; nec hoc esse potest, nisi fiant et succedant 
+          actu infinita nunc; ergo et cetera. - Praeterea, si aeviternum 
+          est in una parte aevi divisibili, hoc non potest esse, 
+          nisi totum fuerit actu in quolibet illius et sic quod omnes 
+          partes numeraverit actu; nec potuit simul esse in duabus 
+          partibus quantuncunque minimis et sic per consequens nec 
+          <pb n="35"/>in aliqua parte divisibili; ergo semper 
+          <app>
+            <lem>oportet</lem>
+            <rdg wit="#B7">oportuit</rdg>
+          </app> 
+          quod 
+          esset in parte indivisibili. - Praeterea, omne aeviternum 
+          non aliter se habet post sui exitum quam in initio sui exitus; 
+          sed in initio sui exitus non potuit esse nisi in 
+          <app>
+            <lem>nunc;</lem>
+            <rdg wit="#B7">tunc</rdg>
+          </app> 
+          ergo nec post; et ita semper sequitur quod aevum sit compositum 
+          ex solis nunc et sic per consequens quod ex nunc 
+          actu infinitis. - De motu etiam et tempore sic probo: Mobile 
+          enim in toto motu semper fuit actu in loco; nunquam 
+          autem fuit in loco maiori se, sed solum in loco sibi adaequato; 
+          nec unquam potuit esse in loco, quin semper actu 
+          terminaretur et includeretur infra suum locum, ita quod 
+          termini eius semper fuerunt in terminis suorum locorum; 
+          sed in toto motu continue mutavit locum; ergo continue 
+          <app>
+            <lem>succedebant</lem>
+            <rdg wit="#V" type="corrReplace">
+              <corr> <!-- not also says: "idem sub inde" -->
+                <del>sucedebant</del>
+                <add>succedebant</add>
+              </corr>
+            </rdg>
+          </app> 
+          sibi invicem loca ei 
+          <app>
+            <lem>adaequata</lem>
+            <rdg wit="#V" type="corrReplace">
+              <corr>
+                <del>adquata</del>
+                <add>adaequata</add>
+              </corr>
+            </rdg>
+          </app> 
+          et sic per 
+          consequens continue succedebant termini diversorum 
+          <app>
+            <lem>locorum</lem>
+            <rdg wit="#V" type="corrAddition">
+              <corr>
+                <add>locorum</add>
+              </corr>
+            </rdg>
+          </app> et sic per consequens actuales terminationes eorum 
+          quae non sunt aliud quam terminales mutationes mobilis; ergo 
+          ibi semper immediate succedebant diversae mutationes et 
+          diversi termini. - Praeterea, omne prius semper distinguitur 
+          a posteriori et omne praeteritum a praesenti et praesens 
+          a futuro, sicut non ens ab ente semper est actu distinctum; 
+          sed in toto tempore et motu sunt infinita priora et 
+          posteriora, saltem in potentia; ergo ibi sunt infinita actualiter 
+          a se invicem distincta.</p>
+        
+          <p>13. Item, 
+            <ref>
+              <title ref="#lc">Lucae</title> 1
+            </ref> 
+            dicitur quod 
+            <cit>
+              <quote ana="#lc1_37">non erit impossibile apud Deum omne verbum;</quote>
+            </cit> 
+            sed verbo possumus dicere et cogitare infinita esse actu; ergo et cetera.</p>
+        </div>
+        <div>
+          <head>Respondeo</head>
+          <p>Quod Deus non potest facere aliquod infinitum 
+            in actu; implicat enim in se hoc multiplices 
+            contradictiones tam ex parte rei factae 
+            quam ex parte divinae potentiae; ex parte quidem 
+            rei factae tam secundum rationes quantititatis 
+            seu mathematicas quam secundum rationes 
+            naturarum speciales se n physicas quam 
+            secundum rationes entis et causarum eius generales 
+            <app>
+              <lem wit="#B7">seu</lem>
+              <rdg wit="#V">et</rdg>
+            </app> 
+            <app>
+              <lem>metaphysicas.</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>mataphysicas</del>
+                  <add>metaphysicas</add>
+                </corr>
+              </rdg>
+            </app>
+          </p>
+        <p><pb n="36"/>Secundum rationes enim mathematicas occurrit 
+          primo una generalis 
+          <app>
+            <lem>contradictio:</lem>
+            <rdg wit="#V" type="corrReplace">
+              <corr>
+                <del>contraditio</del>
+                <add>contradictio</add>
+              </corr>
+            </rdg>
+          </app> 
+          <app>
+            <lem>aequale</lem>
+            <rdg wit="#V" type="corrReplace">
+              <corr>
+                <del>aequales</del>
+                <add>aequale</add>
+              </corr>
+            </rdg>
+          </app> 
+          <app>
+            <lem>scilicet</lem>
+            <rdg wit="#V" type="corrAddition">
+              <corr>
+                <add place="aboveLine">scilicet</add>
+              </corr>
+            </rdg>
+          </app> 
+          et non aequale; eadem enim erunt 
+          aequalia et non aequalia. Quod septiformiter ostendo. Primo 
+          scilicet in parte et toto: 
+          <app>
+            <lem>in</lem>
+            <rdg wit="#V" type="corrAddition">
+              <corr>
+                <add place="aboveLine">in</add>
+              </corr>
+            </rdg>
+          </app> 
+          infinito enim pars erit aequalis 
+          suo toti et non aequalis; nam si sumatur infinitum 
+          et dividatur in duas partes, necessaria oportet quod utraque 
+          illarum vel altera sit infinita ac per consequens quod sit aequalis 
+          suo toti; et cum hoc oportet quod tam ratione suae partialitatis 
+          quam ratione partis alterius per divisionem subtractae 
+          sit inaequalis. - Secunda patet hoc in diversis speciebus 
+          numerorum. Infiniti enim ternarii erunt aequales infinitis 
+          <app>
+            <lem>millenariis;</lem>
+            <rdg wit="#V" type="corrReplace">
+              <corr>
+                <del>mllariis</del>
+                <add>millenariis</add>
+              </corr>
+            </rdg>
+          </app> 
+          tot enim unitates erunt il1 uno quot in 
+          alio; et tamen cum hoc oportet quod sint inaequales, aut 
+          non est vera propositio. Quodsi inaequalibus 
+          <app>
+            <lem>inaequalia</lem>
+            <rdg wit="#B7">aequalia</rdg>
+          </app> 
+          addas, inaequalia debent esse; aut quodsi in maioribus maiora 
+          superaddas et minoribus minora, semper maiora superexcrescunt 
+          minoribus: hic enim ternario qui 
+          <app>
+            <lem>est</lem>
+            <rdg wit="#V" type="corrAddition">
+              <corr>
+                <add>est</add>
+              </corr>
+            </rdg>
+          </app> 
+          minor 
+          numerus semper adduntur ternarii et millenario qui est maior 
+          numerus semper adduntur millenarii. - Tertio patet hoc 
+          in passionibus numeri quae sunt par et impar, Omnis enim 
+          numerus de necessitate aut est 
+          <app>
+            <lem>par</lem> <!-- this entry is slightly unclear to me -->
+            <rdg wit="#V" type="corrDeletion">
+              <corr>
+                <del>par</del>
+              </corr>
+            </rdg>
+          </app> 
+          aut impar et necessaria 
+          est divisibilis in paria aut in imparia; ergo numerus infinitus 
+          quaruncunque partium alicuius totius de necessitate 
+          erit par aut impar et posito quod non esset, saltem per 
+          subtractionem unitatis, si non esset par, fieret par. - Praeterea, 
+          cum non possit negari quin esset compositus ex 
+          <app>
+            <lem wit="#B7">paribus et imparibus,</lem>
+            <rdg wit="#V">partibus</rdg>
+          </app> 
+          non posset negari quin ex 
+          <app>
+            <lem>earum</lem> <!-- ed not says "ex eorum, quod habet B7" -->
+            <rdg wit="#V" type="corrReplace">
+              <corr>
+                <del>eorum</del>
+                <add>earum</add>
+              </corr>
+            </rdg>
+          </app> 
+          aggregatione surgeret par vel impar; ex eo igitur quod esset 
+          numerus oporteret quod esset par vel impar et divisibilis 
+          in paria vel in imparia; ex eo vero quod infinitus 
+          neutrum horum esse posset. Si enim esset par, tunc uno 
+          subtracto vel addito fieret impar et e contrario; et quando 
+          hoc fieret per additionem, tunc esset in maiori specie numeri 
+          quam prius et sic prima species eius excedebatur ab 
+          isto sequenti in illo uno addito; et sic per consequens nor 
+          erat infinitus; et per oppositum contingeret, quando hoc 
+          fieret per subtractionem. - Quarto patet hoc in passionibus 
+          <pb n="37"/>propinqui et remoti: idem enim est magis propinquum et 
+          minus propinquum. Sumatur enim a centro in altum una 
+          linea infinita: pars quae est in centro erit aequaliter distans 
+          ab 
+          <app>
+            <lem>alia</lem>
+            <rdg wit="#B7">aliqua</rdg>
+          </app> 
+          parte infiniti, sicut et pars quae erit 
+          <app>
+            <lem>in</lem>
+            <rdg wit="#V" type="intextu">suprema</rdg>
+          </app> 
+          superficie 
+          terrae vel aeris; et simul cum hoc erit inaequaliter 
+          distans: ab aliqua enim distabit in infinitum illa sicut ista 
+          ac per consequens aequaliter; et cum sit illa remotior, nihilominus 
+          inaequaliter distabit ab omnibus quae post propinquiorem 
+          sequuntur. - Quinto posset hoc idem ostendi in passionibus 
+          prioris et posterioris: sequetur enim quod eadem sint simul 
+          et non simul; sumantur enim duae lineae infinitae vel 
+          duo motus, quarum una inchoetur a centro, alia a superficie 
+          terrae: et apparebit hoc ipsum. - Sexto patet hoc ex una 
+          <app>
+            <lem>passione</lem> <!-- text says alio manu here -->
+          </app> 
+          generali omni quantitati continuae quae est quod 
+          omne continuum est divisibile in duo media aequalia; et 
+          in numeris seu in quantitate discreta est aequivalens, quia 
+          omne quantum discretum est divisibile in duo media aequalia 
+          aut in duo sola unitate se excedentia: ex hoc enim oportebit 
+          quod infinitum sit hoc modo divisibile; ergo in infinito 
+          poterunt dari duae partes quarum utraque se habebit in 
+          certa proportione 
+          <app>
+            <lem>ad ipsum totum infinitum, scilicet in proportione</lem>
+            <rdg wit="#B7" type="om."/>
+          </app> 
+          dimidii ad duplum; in 
+          <app>
+            <lem>infinito</lem>
+            <rdg wit="#V" type="corrReplace">
+              <corr>
+                <del>finito</del>
+                <add>infinito</add>
+              </corr>
+            </rdg>
+          </app> 
+          vero numerali 
+          erit hoc ipsum, quamvis altera partium superexcedat in sola 
+          unitate rationem dimidii. Et hoc dico, si contingat ipsum 
+          non posse dividi in duo media aequalia, utpote si sit numerus 
+          impar; sed super omnem duplam proportionem potest 
+          addi proportio tripla et quadrupla et sic deinceps; 
+          <app>
+            <lem>ergo super 
+            totum infinitum potest addi tantum quod 
+            <app>
+              <lem>superexcedet</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>superexcedat</del>
+                  <add>superexcedet</add>
+                </corr>
+              </rdg>
+            </app> 
+            alteram 
+            partium in proportione tripla vel quadrupla et sic 
+            deinceps.
+            </lem>
+            <rdg wit="#B7" type="om."/>
+          </app> 
+          Et tunc non solum sequitur quod sit simul finitum 
+          et infinitum, sed etiam quod sit se ipso maius et non 
+          maius seu aequale et inaequale et quod post additionem 
+          proportio triplae vel quadruplae et sic deinceps adhuc sit 
+          divisibile in duo media aequalia duobus mediis prioribus et 
+          non maiora nec minora, quia tam illa media quam ista erunt 
+          infinita, etiam secundum eandem rationem seu per respectum 
+          ad eosdem terminos. Ponatur etiam quod una 
+          <app>
+            <lem>linea</lem> <!-- note reads "Al. m. mg. del. lina" -->
+            <rdg wit="#V" type="corrDeletion">
+              <corr>
+                <del>lina</del>
+              </corr>
+            </rdg>
+          </app> 
+          infinita mensuraret illud totum infinitum ante additionem et 
+          post: in utraque vice aequaretur rei; non 
+          <app>
+            <lem>enim</lem> <!-- note reads "Hic est ras" -->
+          </app> 
+          posset 
+          <pb n="38"/>
+          <app> <!-- dbcheck -->
+            <lem>sibi non aequari,</lem>
+            <rdg wit="#B7">non</rdg>
+          </app> 
+          nisi ipsa vel illud esset finitum, et tamen 
+          cum hoc sequeretur quod si ante additionem sibi adaequabatur, 
+          quod post additionem sibi non adaequatur. Item, etiam 
+          sequitur quod ubicunque infinitum ex omni parte in duas 
+          partes tantum divideretur, quod semper dividatur in duo 
+          media, ita quod quantuncunque in vario modo dividendi 
+          subtrahatur uni parti et detur alteri, semper erunt aequales 
+          et dimidium totius; et tam en subtractio hinc inde 
+          <app>
+            <lem>maior</lem>
+            <rdg wit="#V" type="corrReplace">
+              <corr>
+                <del>maio</del>
+                <add>maior</add>
+              </corr>
+            </rdg>
+          </app> 
+          et minor concludit eas esse inaequales et alteram illarum 
+          esse minus n quam dimidiam, alteram vero plus quam dimidiam. 
+          - Septimo patet hoc ex commensuratione 
+          <app>
+            <lem>mutua</lem>
+            <rdg wit="#V" type="corrReplace">
+              <corr>
+                <del>mutuato</del>
+                <add>mutua</add>
+              </corr>
+            </rdg>
+          </app> 
+          duorum 
+          <app>
+            <lem>infinitorum:</lem>
+            <rdg wit="#V" type="corrReplace">
+              <corr>
+                <del>finitorum</del>
+                <add>infinitorum</add>
+              </corr>
+            </rdg>
+          </app> 
+          ex eo enim quod mutuo non se excedunt 
+          sequitur quod sint aequalia, ex eo vero quod neutrum 
+          attingit totum alterum seu omnes partes alterius sequitur 
+          quod non sint aequalia. Si enim detur quod unum omnes 
+          partes alterius attingat, tunc sequitur quod non essent ibi 
+          partes infinitae, quia in toto uno infinito non potest esse 
+          aliqua pars
+          <app>
+            <lem>post quam</lem>
+            <rdg wit="#V" type="corrReplace">
+              <corr>
+                <del>post quasi</del>
+                <add>post quam</add>
+              </corr>
+            </rdg>
+          </app> 
+          in altero infinito non sequantur
+        infinitae. Si enim detur oppositum, quod scilicet sit in uno
+        aliqua pars 
+        <app>
+          <lem>post quam</lem>
+          <rdg wit="#V" type="corrReplace">
+            <corr>
+              <del>post quasi</del>
+              <add>post quam</add>
+            </corr>
+          </rdg>
+        </app> 
+          in altero nulla pars sequatur aut 
+          saltem non infinitae: tune illud alterum necessaria erit finitum: 
+          finitur enim circa illam partem aut in termino illarum 
+          finitarum quae post eam sequuntur; sed infinitum non potest 
+          attingere totum alterum nisi per partes suas; ergo sequitur 
+          quod neutrum attingat totum alterum ac per consequens 
+          quod non sibi aequantur.</p>
+        
+          <p>Forte dicetur ad praedicta quod de infinito possumus 
+            loqui 
+            <app>
+              <lem>dupliciter:</lem>
+                <rdg wit="#V" type="corrReplace">
+                  <corr>
+                    <del>dub</del>
+                    <add>dupliciter</add>
+                  </corr>
+                </rdg>
+            </app> 
+            aut materialiter et in particulari 
+            aut universaliter et in abstracto; et iterum, quod est infinitum 
+            per respectum ad omnes terminos vel terminabilitates suas, 
+            sicut linea vel superficies ex utraque parte infinita, et est 
+            infinitum secundum alteram viam termini, sicut linea infinita 
+            inchoans a centro quae est finita per respectum ad centrum 
+            ad quod terminatur, infinita autem per respectum secundum 
+            processum in altum; et iterum, quod de partibus infiniti possumus 
+            loqui materialiter, aut de partibus eius determinatis 
+            <app>
+              <lem>aut de partibus indeterminatis.</lem>
+              <rdg wit="#V" type="corrAddition">
+                <add place="margin">aut de partibus indeterminatis</add>
+              </rdg>
+            </app> 
+            Dicetur ergo quod praedictae 
+            contradictiones non habent locum in infinitis materialiter 
+            et in 
+            <app>
+              <lem>particulari</lem>
+              <!-- ed reads "In ras." -->
+            </app> 
+            sumptis et quae secundum unam 
+            <pb n="39"/>viam sunt finita, secundum alteram infinita; nec habent locum 
+            in infinitis respectu suarum partium indeterminatarum, 
+            sed solum respectu determinatarum. Dicetur enim quod licet 
+            altera partium infiniti sit infinita, non tamen propter hoc 
+            sequitur quod sit aequalis suo toti per respectum ad illum 
+            terminum secundum quem tam ipsa quam suum totum sunt 
+            finita, sed solum secundum illam viam secundum 
+            <app> <!-- this entry is unclear -->
+              <lem>quam</lem>
+              <rdg wit="#V" type="corrDeletion">
+                <corr>
+                  <del>quem</del>
+                </corr>
+              </rdg>
+            </app> 
+            utrumque est infinitum. Nec divisio totius infiniti in partes 
+            amplius exigit, cum non sit divisibile nisi solum secundum 
+            hoc quod potest habere terminum; quia omnis divisio fit 
+            in aliquo termino possibili 
+            <app>
+              <lem>vel</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="aboveLine">vel</add>
+                </corr>
+              </rdg>
+            </app> 
+            actuali. Solum autem quantum 
+            ad illam viam potest sibi fieri additio; et ideo proportio 
+            dupla qua infinitum excedit duas medietates suas non 
+            potest excrescere nisi solum ex illa parte secundum quam est 
+            finitum. Si autem et secundum illam iterum sit infinitum, 
+            sicut est, quando habet duo media infinita: tunc ex neutra 
+            parte 
+            <app>
+              <lem>poterit</lem>
+              <rdg wit="#B7" type="intextu">sibi</rdg>
+            </app> 
+            fieri additio et ita nec augeri proportio, nisi 
+            primo aliquae partes subtraherentur loco quarum aliae adderentur. 
+            - Et per hoc videntur tolli 
+            <app>
+              <lem>prima</lem>
+              <!-- "in ras" -->
+            </app> 
+            via et sexta 
+            et etiam quarta et quinta. Secundum enim illam viam secundum 
+            quam potest sibi fieri additio potest dari propinquius et 
+            remotius et prius et posterius, secundum hoc scilicet quod 
+            partes quae versus terminum finalem magis accedunt possunt 
+            dici priores et a posterioribus remotiores; secundum autem 
+            viam illam secundum quam non est ibi dare terminum aut 
+            additionem non est ibi propinquius vel remotius, quia tunc non 
+            comparantur partes priores ad 
+            <app>
+              <lem>aliam</lem>
+              <rdg wit="#B7">aliquam</rdg>
+            </app> 
+            partem posteriorem 
+            certam et determinatam, sed solum ad indeterminatas; respectu 
+            enim cuiuslibet partis determinatae semper est ibi dare 
+            prius et posterius et distantias maiores, minores et aequales. 
+            - Et per hoc ipsum videtur tolli septima via; quia semper 
+            respectu cuiuslibet partis determinatae aequantur sibi determinate 
+            duo infinita sibi invicem combinata, ita quod 
+            quodlibet infinitorum eas semper attingit; respectu vero indeterminatarum 
+            indeterminate sibi aequantur et indeterminate 
+            se tota attingunt, ita quod mutuo non se excedunt. 
+            - Secunda etiam via, scilicet de aequalitate infinitorum 
+            ternariorum et millenariorum, videtur tolli per distinctionem 
+            numeri in materialem seu particularem et 
+            <app>
+              <lem>formalem seu abstractum.</lem>
+              <rdg wit="#B7">informalem seu abstractam</rdg>
+            </app> 
+            Sicut enim superficies infinita non excedit 
+            se<pb n="40"/>cundum longum lineam infinitam, sed secundum latum et 
+            sicut duae lineae infinitae non plus faciunt secundum longum 
+            seu per modum continui in eadem serie, plus tamen faciunt 
+            per modum discreti, quia faciunt duas infinitas seu per modum 
+            continui in diversa serie, quia una est alibi situata ab 
+            alia. Sic potest dici de infinitis ternariis et millenariis quod 
+            per modum processus quasi in longum non se excedunt nec 
+            quasi in eadem serie situata, sed potius quasi secundum 
+            latum et prout unumquodque facit quasi diversas series, 
+            sicut mille lineae infinitae non plus faciunt secundum longum 
+            quam tres lineae infinitae, plus tamen faciunt secundum 
+            latum vel secundum pluralitatem discretam. - Tertia etiam 
+            via videtur tolli per hoc quod par et impar non videntur 
+            convenire numero nisi per respectum ad partes suas determinatas 
+            et ideo numerus infinitus non oportet quod sit par vel 
+            impar, prout est infinitus infinitas et indeterminatas partes 
+            habens, sed solum quantum ad partes suas determinatas. - 
+            Per hoc iterum potest tolli sexta via, quia infinitum in quantum 
+            tale non videtur posse dividi in duo media, quia hoc non 
+            est proprietas nisi solum quantitatis finitae.</p>
+        
+          <p>Sed instantiae istae inspicienti diligentius 
+            frivolae sunt et nullae. Cum enim aequale et inaequale 
+            semper sumantur hic respectu eiusdem, non sicut illud quod est 
+            parvum respectu maioris et magnum respectu minoris - semper 
+            enim comparabamus superius easdem partes eidem toti vel 
+            sibi ipsis secundum aequalitatem vel inaequalitatem -: dicere 
+            quod pars infinita sit aequalis toti secundum hoc quod est 
+            infinita et non secundum hoc quod est finita non est aliud quam 
+            dicere quod idem eidem rei sit simul aequale et inaequale. 
+            - Praeterea, aequalitas ab uniformitate quantitatis accipitur, 
+            non autem ex respectu ad ilium terminum vel ad ilium; aequale 
+            etiam secundum quantitatem sic dividitur contra inaequale 
+            quod non cadit inter ea medium quantum, etiam secundum 
+            quid; et ideo non pote~t dici quod aliqua quantitas sit 
+            secundum quid aequalis alteri et secundum quid inaequalis. - 
+            Praeterea, ponatur quod aliquis sive secundum rem sive secundum 
+            intellectum 
+            <app>
+              <lem>applicet</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>applicest</del>
+                  <add>applicet</add>
+                </corr>
+              </rdg>
+            </app> 
+            terminum partis finitae illi 
+            termino ultimo ad quem attingebat suum totum - constat 
+            enim, si hoc fiat, saltem per intellectum, quod ex hoc solo nihil 
+            inconveniens debet sequi; quia omnium quaruncunque duarum 
+            quantitatum termini, utpote duarum linearum, possunt 
+            <pb n="41"/>sibi invicem, saltem per intellectum, sic applicari quasi sint 
+            simul -: tunc igitur pars infinita 
+            <app>
+              <lem>omnino</lem>
+              <!-- edition just says "corr"; very unclear -->
+            </app> 
+            tantum spatium occupabit quantum et suum totum primitus occupabat aut 
+            ponetur necessario ex utraque parte finita. - Quod autem postea 
+            dicitur quod non potest infinito fieri additio secundum hoc 
+            quod est infinitum et ideo infinitum ex utraque parte non potest 
+            habere super duo media sua maiorem proportionem dupla: 
+            hoc nihil est; cum enim certum sit ex natura quantitatis continuae 
+            et discretae quod omne duplum potest excedi a triplo et 
+            ultra: indubitanter patet quod dupla proportio pro bat infinitum 
+            posse excrescere in tripla proportione super duo media 
+            sua. -- Quod autem impossibilitas additionis eidem contradicit 
+            hoc ipsum evidenter ostendit in positione infiniti contradictiones 
+            innumeras implicari. - Praeterea, additio et subtractio 
+            potest fieri omni quantitati secundum omnes partes 
+            suas aequaliter, quantum est de natura quanti; quoniam 
+            post omnem partem potest sequi alia pars et ab omni parte 
+            potest subtrahi pars immediate adiuncta; ergo ab infinito, 
+            secundum quod est infinitum, poterit fieri subtractio, ex quo 
+            ita bene habet partes secundum illam viam sicut et secundum 
+            viam secundum quam est finitum. - Quod etiam 
+            postea inferius dicitur quod regula ilia quod omne quantum 
+            est divisibile in duo media aequalia aut, si sit discretum, 
+            saltem in duo media sola unitate se excedentia, quod, inquam, 
+            dicitur quod hoc non habet locum in infinito: ita posset dici 
+            quod nec ratio quanti aut magnitudinis competit ei, quoniam 
+            partes huiusmodi erunt necessaria inter se aequales 
+            aut non aequales: de quolibet enim affirmatio vel negatio. 
+            Non possunt autem esse non aequales, nisi quia altera alteram 
+            superexcedit et tunc oportet quod altera duarum partium 
+            infiniti secundum utrumque terminum sit finita et quod 
+            altera sit plus quam dimidia, alia vero minus quam dimidia. 
+            - Praeterea, si infinitum huiusmodi dividatur in quatuor partes, 
+            plus excedit eas quam excederet solas duas, si tantum 
+            divideretur in eas; ergo oportet quod sub certa proportione 
+            excedat has duas, alias non potest excedere in maiori proportione 
+            seu in maiori excessu quatuor partes quam duas; 
+            omnis enim proportio minor habet certam mensuram; sub 
+            certa autem proportione non potest illas duas excedere, nisi 
+            sub certa proportione sint comparabiles sibi invicem et 
+            suo toti. - Quod etiam ibi dicitur de pari et impari, quod 
+            <pb n="42"/>numerus infinitus non est par vel impar, ita bene potest 
+            dici quod non est numerus. Constat enim quod de essentiali 
+            constitutione numeri est ordinata progressio unitatum 
+            et per consequens numerorum; unde necessario post parem 
+            numerum immediate sequitur impar et post imparem 
+            par nec aliquis numerus potest excedere numerum qui 
+            ipsum immediate praecedit nisi sola unitate; et quia etiam 
+            omnis numerus unitate ultimo aliis adveniente constituitur, 
+            oportet necessario quod omnis numerus habeat necessario 
+            aliquem numerum post quem immediate sequitur et quem 
+            in sola unitate excedit. Oportet igitur quod numerus infinitus 
+            habeat ante se immediate aliquem numerum parem vel 
+            imparem quem in sola unitate excedat; et ita oportet quod 
+            si ille est 
+            <app>
+              <lem>par,</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>p</del>
+                  <add>par</add>
+                </corr>
+              </rdg>
+            </app> 
+            quod ipse sit impar aut e contrario. - 
+            Praeterea, quando ponimus infinitos binarios vel quaecunque 
+            infinita paria, tunc oportet necessario quod 
+            <app>
+              <lem>ille</lem>
+              <!-- edition unclear -->
+            </app> 
+            numerus 
+            infinitus sit par. - Praeterea, impossibile est 
+            <app>
+              <lem>quod</lem>
+              <!-- edition unclear -->
+            </app> 
+            de aliquo 
+            numero possit negari paritas nisi per hoc quod super omnia 
+            paria restat aliqua unitas nulli parificabilis; hoc autem non 
+            est aliud quam esse imparem. - Quod etiam dicitur de propinquo 
+            et remoto et de priori et de posteriori, quod scilicet 
+            respectu partium determinatarum sint ibi: patet hoc esse 
+            frivolum. Primo 
+            <app>
+              <lem>quidem,</lem>
+              <!-- edition unclear -->
+            </app> 
+            dicere quod infinitum non habet 
+            infinitas partes determinatas est dicere quod id non est actu 
+            infinitum; illud enim quod non habet partes determinatas 
+            nisi solum finitas habet huiusmodi partes sub certo numero 
+            ultra quem non se extendit et ibi est finis totius. - Praeterea, 
+            numquid quantitas palmi vel cubiti est determinata 
+            quantitas? et tamen in infinita magnitudine oportet quod sint 
+            infiniti cubiti vel palmi. Si dicatur quod 
+            <app>
+              <lem>ideo</lem>
+              <rdg wit="#B7">non nisi</rdg>
+            </app> 
+            vocantur 
+            indeterrminatae, quia non possunt omnes ab aliquo intellectu 
+            assignari et determinari: hoc adhuc non sufficit, quia nostra 
+            assignatio vel non assignatio 
+            <app>
+              <lem>nihil</lem>
+              <rdg wit="#V" type="intextu">vel</rdg>
+            </app> 
+            mutat in re; unde si 
+            solum in re sint determinatae, oportebit quod secundum rem 
+            priores partes sint semper remotiores et inaequaliter distantes 
+            a sequentibus quam posteriores. -- Praeterea, quis dicet quod 
+            binarius non sit naturaliter prior omnibus numeris etiam 
+            infinitis magis quam millenarius? aut quis dicet quod omnes 
+            partes in infinitum semper sequentes non semper plus distent 
+            a prioribus quam a posterioribus, quamvis ex parte altera 
+            <pb n="43"/>huic rei infinitas contradicat? - Praeterea, habere partes 
+            determinatas finitas, indeterminatas vero habere infinitas est 
+            proprietas infiniti in potentia, non autem infiniti in actu. - 
+            Ex praedicto etiam patet quod per hoc non potest solvi 
+            contradictio sumpta ex mutua commensuratione 
+            <app>
+              <lem>duorum</lem>
+              <rdg wit="#V" type="corrReplace">
+                <del>suorum</del>
+                <add>duorum</add>
+              </rdg>
+            </app> 
+            infinitorum: oportebit enim quod secundum omnes partes 
+            suas determinatas seu 
+            <app>
+              <lem>determinatae</lem>
+            </app> 
+            quantitatis determinate 
+            attingat unum infinitum omnes partes alterius, quamvis 
+            hoc sit contra rationem infiniti. - Quod etiam dicitur de infinitis 
+            ternariis et millenariis nihil est, quia etiam in eadem 
+            serie infinitorum ternariorum oportebit dare infinitos millenarios; 
+            et in eadem serie infinitorum millenariorum non 
+            erunt plures ternarii quam infiniti; et in una eadem linea 
+            seu in una serie eiusdem lineae erit dare infinitos cubitos et 
+            <app>
+              <lem>infinitos</lem>
+              <!-- edition unlcear -->
+            </app> 
+            palmos eandem lineam totaliter continentes ac per 
+            consequens et sibi coaequales. - Praeterea, non erit plures 
+            unitates dare in infinitis millenariis quam in infinitis ternariis, 
+            cum in neutro sint plures quam infinitae. - Praeterea, secundum 
+            hanc viam poterunt dari plures homines particulares 
+            quam infiniti, quia in una linea vel serie poterunt dari infiniti 
+            et in alia infiniti et sic in infinitum. Et tamen constat quod 
+            si quis velit eos absolute numerare absque respectu ad illam 
+            <app>
+              <lem>seriem,</lem>
+              <rdg wit="#B7" type="intextu">vel aliam</rdg>
+            </app> 
+            secundum hoc quod veraciter sunt in se discreti 
+            per suas individuationes absque omni respectu ad situs diversos 
+            omnes, 
+            <app>
+              <lem wit="#B7">continebuntur</lem>
+              <rdg wit="#V">continuabuntur</rdg>
+            </app> 
+            sub uno numero infinito semel 
+            tantum 
+            <app>
+              <lem>sumpto.</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>sumpmto</del>
+                  <add>sumpto</add>
+                </corr>
+              </rdg>
+            </app> - Praeterea, particulare non excedit suum 
+            universale; 
+            <app>
+              <lem>ergo</lem>
+              <!-- edition unclear -->
+            </app> 
+            numeri materiales et particulares non excedunt 
+            numerum abstractum seu mathematicum; sed ille ut 
+            sic acceptus non continet nisi unum infinitum numerum 
+            <app>
+              <lem wit="#B7">semel</lem>
+              <rdg wit="#V">solum</rdg>
+            </app> 
+            sumptum, 
+            <app>
+              <lem>sicut nec infinitum densum spissum nisi unum semel sumptum.</lem>
+              <rdg wit="#B7" type="om."/>
+            </app> 
+            - Praeterea, aut numerus infinitus 
+            semel tantum sumptus est sufficiens ad comprehendendum 
+            in se omnes numeros materiales aut non. Si sic, ergo omnes 
+            numeri particulares non faciunt nisi unum infinitum semel 
+            sumptum; si non, ergo oportet quod transcendatur ab eis 
+            et sic per consequens oportet quod iste sit finitus.</p>
+        
+          <p>Sed occurrit alia contradictio generalis; 
+            scilicet finitum et infinitum. Idem enim erit finitum 
+            actu et infinitum; quod licet posset probari fere ex 
+            <pb n="44"/>omnibus viis supradictis, ad praesens tamen tripliciter hoc 
+            ostendo.</p>
+        
+          <p>Primo quidem ex parte figurarum et ex 
+            parte specierum tam numeri quam continuae 
+            quantitatis.</p>
+        
+          <p>Ex parte quidem figurarum: Cum enim nullum corpus 
+            extensum possit esse sine certa figura sicut nec sine 
+            determinata positione suarum partium quae aut idem est 
+            quod figura aut inseparabiliter se concomitantur, figuratum 
+            <app>
+              <lem>autem</lem>
+              <rdg wit="#B7" type="intextu">cum</rdg>
+            </app> 
+            non possit esse, quin sit finitum, quoniam figura est 
+            quae termino vel terminis continetur: sequitur quod omne 
+            corpus infinitum sit figuratum ac per consequens finitum. - 
+            Praeterea, detur unum corpus infinitum, ita quod a centro 
+            in omnem partem eius possint duci lineae infinitae, tunc necessaria 
+            illud corpus habebit figuram 
+            <app>
+              <lem>sphaericam;</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>sphaerificam</del>
+                  <add>sphaericam</add>
+                </corr>
+              </rdg>
+            </app> 
+            si etiam 
+            dentur quatuor lineae secundum formam quadraturae in infinitum 
+            tendentes et pertingentes: tune habebunt figuram 
+            quadra tam; et idem est de ali is figuris; sed semper oportet 
+            quod ratione figurae sint finita; ergo et cetera. - Praeterea, 
+            impossibile est uni soli sphaerae dare 
+            <app>
+              <lem>plura</lem>
+              <rdg wit="#V" type="corrDeletion">
+                <corr>
+                  <del>prolura</del>
+                </corr>
+              </rdg>
+            </app> 
+            centra; 
+            sed si fiat unum corpus 
+            <app>
+              <lem>ab</lem>
+              <rdg wit="#B7">ex</rdg>
+            </app> 
+            omni parte infinitum, utpote 
+            mundus iste: tunc uni sphaerae erit dare plura centra, 
+            quia quodcunque punctum ibi signetur, ibi erit veraciter 
+            centrum eius; quia lineae ab eo ductae semper erunt 
+            <app>
+              <lem>infinitae</lem>
+              <rdg wit="#B7" type="om."/>
+            </app> 
+            ac per consequens aequales, nisi corpus illud ponatur 
+            esse 
+            <app>
+              <lem>finitum.</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>infinitum</del>
+                  <add>finitum</add>
+                </corr>
+              </rdg>
+            </app> - Praeterea, inter quascunque duas lineas 
+            aut partes lineae est dare distantiam intermediam: 
+            <app>
+              <lem>illa</lem>
+              <rdg wit="#B7" type="intextu">autem</rdg>
+            </app> 
+            distantia semper est finita; sed inter duas lineas ab 
+            uno cono trianguli in 
+            <app>
+              <lem>infinitum</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>in finitum</del>
+                  <add>infinitum</add>
+                </corr>
+              </rdg>
+            </app> 
+            se extendentes et inter 
+            omnes partes illarum linearum est semper dare distantiam 
+            seu latitudinem intermediam; ergo semper illa distantia est 
+            latitudinis finitae; sed impossibile est illas lineas esse infinitas, 
+            quin 
+            <app>
+              <lem>alicubi</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>alicui</del>
+                  <add>alicubi</add>
+                </corr>
+              </rdg>
+            </app> 
+            distent a se in infinitum, quoniam quanto 
+            plus procedunt, tanto amplius distant; ergo oportebit quod 
+            <app> <!-- this corrections is unclear -->
+              <lem>alicubi</lem>
+              <rdg wit="#V" type="corrDeletion">
+                <corr>
+                  <del>alicui</del>
+                </corr>
+              </rdg>
+            </app> 
+            habeant inter se distantiam infinitam. Et Idem 
+            potest argui ex 
+            <app>
+              <lem>omnibus</lem>
+              <rdg wit="#B7" type="intextu">aliis</rdg>
+            </app> 
+            lineis aliarum figurarum ab eodem 
+            angulo seu cono procedentibus.</p>
+        
+          <p>Ex speciebus vero quantitatis continuae sic 
+            ostenditur: Impossibile enim est esse aliquod corpus seu den<pb n="45"/>sum 
+            sine superficie, 
+            <app>
+              <lem>et 
+              <app>
+                <lem>omnem</lem>
+                <rdg wit="#V" type="corrDeletion">
+                  <corr>
+                    <del>omni</del>
+                  </corr>
+                </rdg>
+              </app>
+                superficiem</lem>
+              <rdg wit="#B7" type="om."/>
+            </app> 
+            praeter circularem 
+            impossibile est dare sine pluribus lineis nec lineam rectam 
+            sine punctis; alias omnes partes densi totaliter sisterent in 
+            indivisibili nec superficies esset tunc de ratione et essentia 
+            densi nec punctus de ratione lineae; qua enim ratione unum 
+            corpus, utpote corpus infinitum, posset esse sine superficie, 
+            eadem ratione quodlibet aliud; sed superficiem non potest 
+            habere, quin sit finitum, cum superficies sit extremum densi 
+            et terminus eius ; oportet ergo quod sit simul finitum et 
+            infinitum.</p>
+        
+          <p>Ex parte vero specierum numeri sic ostenditur: Impossibile 
+            est enim dare 
+            <app> <!-- edition unclear here -->
+              <lem>aliquem</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>aem</del>
+                  <add>aliquem</add>
+                </corr>
+              </rdg>
+            </app> 
+            numerum, quin sit in aliqua 
+            specie numeri; omnis autem species numeri est necessario 
+            finita, quia omnis numerus habet 
+            <app>
+              <lem>aliam</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>aem</del>
+                  <add>aliam</add>
+                </corr>
+              </rdg>
+            </app> 
+            speciem post se 
+            sola unitate se excedentem et aliam ante se quam in sola 
+            unitate antecedit; ergo et cetera. - Praeterea, omnis numerus 
+            minor infinito necessario est finitus et idem est de omni 
+            quantitate seu quanto; sed numerus qui immediate sequitur 
+            post infinitum est minor ipso; ergo omnis numerus immediate 
+            eum sequens erit finitus; et idem est de omni quantitate 
+            immediate sequente quantitatem infinitam; sed necessaria 
+            oportet dare quod omnem numerum sequatur immediate 
+            aliquis numerus; si enim detur oppositum, tunc oportet 
+            quod sequatur eum mediate et ita inter ipsum et omnem 
+            numerum sit iterum 
+            <app>
+              <lem>aliquis</lem>
+              <rdg wit="#B7">alius</rdg>
+            </app> 
+            numerus medius; quod est 
+            impossibile. - Et praeterea, aut illi numeri medii erunt finiti 
+            aut infiniti; et quicquid detur, semper consequentur contradictiones 
+            variae.</p>
+          
+          <p>Secundo vero ostendo hoc ex parte distantiae 
+            intermediae inter partes infiniti ab invicem 
+            in infinitum remotas: Sumpta enim quacunque 
+            partium infiniti numeri vel continui oportet quod pars illa 
+            distet ab aliqua alia in 
+            <app>
+              <lem>infinitum</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>finitum</del>
+                  <add>infinitum</add>
+                </corr>
+              </rdg>
+            </app> 
+            aut a nulla: oportet 
+            enim alterum istorum dari, cum sint contradictoria. Si 
+            detur quod distet ab aliqua in infinitum: ergo inter utramque 
+            est distantia infinita ab utraque parte terminata, ex una 
+            parte ad unam, ex alia vero ad aliam; et ita simul erit 
+            finita et infinita. Post utramque etiam partium aut sequentur 
+            aliquae aliae aut non; et quocunque dato oportet eas 
+            <pb n="46"/>finite distare. Si vero detur quod a nulla distet in infinitum, 
+            tunc sequitur quod ab omnibus distet finite per locum ab 
+            <app>
+              <lem>aequipollenti;</lem>
+              <rdg wit="#B7">aequipollentia</rdg>
+            </app> 
+            sed illud totum cuius omnes partes distant 
+            finite est finitum, cum totum non 
+            <app>
+              <lem>habeat</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>habeant</del>
+                  <add>habeat</add>
+                </corr>
+              </rdg>
+            </app> 
+            distantiam aliam 
+            a distantia omnium partium simul acceptarum; ergo adhuc 
+            sequitur quod sit finitum.</p>
+          
+          <p>Tertio ostendo hoc ex parte cuiuscunque 
+            puncti vel termini 
+            <app>
+              <lem>signabilis</lem>
+              <rdg wit="#V" type="corrDeletion">
+                <corr>
+                  <del>signalis</del>
+                </corr>
+              </rdg>
+            </app> 
+            in toto infinito: 
+            Non enim poterit dari infinitum, quin in quocunque puncto 
+            signabili possit ex una parte finiri; 
+            <app>
+              <lem>sed omne quod est finitum ex una parte est</lem>
+              <rdg wit="#B7" type="om."/>
+            </app> 
+            simpliciter et ex omni parte finitum, 
+            ut probabo: quia cum omne quantum possit dividi in 
+            duo media aequalia, sicut 
+            <app>
+              <lem>ex praecedentibus patet,</lem>
+            </app> 
+            infinitum 
+            ex alter a parte tantum habebit ea; sed altera medietas 
+            eius erit necessario ex utraque parte finita, illa scilicet 
+            quae est versus punctum sui totius; ergo et altera medietas 
+            erit finita, alias non essent aequales. - Praeterea, 
+            duae lineae seu quantitates sibi aequales, ex quacunque parte 
+            sibi lateraliter applicentur, semper erunt aequales et se totaliter 
+            attingentes; sed duae partes infinitae totius infiniti ex 
+            utraque parte sunt sibi aequales, utpote duae lineae a centro 
+            in 
+            <app>
+              <lem>infinitum</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>finitum</del>
+                  <add>infinitum</add>
+                </corr>
+              </rdg>
+            </app> 
+            in partes oppositas protensae, si sibi intelligantur 
+            esse applicatae hoc modo quod partes quae terminantur 
+            ad centrum in situ opposito ponantur, scilicet versus 
+            circumferentias, veraciter intelligentur sibi coaequari; sed 
+            hoc non potest esse, quin tunc ex utraque parte sint finitae, 
+            quia tunc termini earum qui prius erant circa centrum attingerent 
+            totam infinitatem earum; ergo et cetera. - Praeterea, 
+            secundum 
+            <ref>
+              <seg>
+                <name ref="#Augustine">Augustinum</name>, libro II 
+                <title ref="#DeLiberoArbitrio">De libero arbitrio</title>,
+              </seg>
+              <bibl>Augustine, De Libero arbitrio, II, c. 8 (PL 32, 1253)</bibl>
+            </ref> 
+            regula est 
+            <app>
+              <lem>in</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add>in</add>
+                </corr>
+              </rdg>
+            </app> 
+            numeris quod omne duplum tantum 
+            distat a suo 
+            <app>
+              <lem wit="#B7">dimidio</lem>
+              <rdg wit="#V">dimiduo</rdg>
+            </app> 
+            quantum dimidium a suo principia; 
+            quantum enim quaternarius excedit binarium, tantum binarius 
+            excedit unitatem; et quot unitates est dare in octonario 
+            super quaternarium, tot habet quaternarius usque ad primam 
+            unitatem suam inclusive. Sed infinitum ex utraque 
+            parte excedit suas partes in 
+            <app>
+              <lem>duplum.</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>duplus</del>
+                  <add>duplum</add>
+                </corr>
+              </rdg>
+            </app>
+            Ponatur igitur quod 
+            illud infinitum sit infinitorum cubitorum vel 
+            <app>
+              <lem>palmorum:</lem>
+              <rdg wit="#B7">palmarum</rdg>
+            </app>
+            <pb n="47"/>tantum excedet alteram illarum partium, quantum illa excedit
+            quartam partem totius; et in tanto numero cubitorum
+            <app>
+              <lem wit="#B7">excedet</lem>
+              <rdg wit="#V">excedit</rdg>
+            </app> 
+            illam, in quanto illa distat a suo principia; et
+            ipsa iterum in tantum excedet quartam totius quantum quarta 
+            distat a suo principio; constat autem quod una quarta sub
+            certo numero distat a suo principia; ergo et alia quarta;
+            et ita oportet quod sit ex utraque parte finita.</p>
+            <p>Tertio occurrit alia contradictio generalis,
+            quod scilicet infinitum 
+              <app>
+                <lem>erit</lem>
+                <rdg wit="#V" type="corrReplace">
+                  <corr>
+                    <del>eit</del>
+                    <add>erit</add>
+                  </corr>
+                </rdg>
+              </app> 
+              totum positum
+            et non totum positum seu totum existens et
+            non totum existens. Quod evidentius patet in infinito
+            futuro et in infinita divisione continui; si enim infinitum
+            futurum fuerit totum positum in actu, tunc eo ipso sequitur
+            quod non esset nec sit infinitum futurum; et si continuum
+            fuerit totaliter divisum secundum intellectum, ut scilicet sit
+            infinities divisum et in infinita: aut erit compositum ex indivisibilibus
+            -- quod est contra rationem continui -- aut
+            oportet quod illa: infinita in quibus est divisum 
+              <app>
+                <lem wit="#B7">sint</lem>
+                <rdg wit="#V">sunt</rdg>
+              </app> 
+              adhuc
+            divisibilia et ita quod non fuerit totaliter divisum. Si
+            quis autem bene inspexerit causam propter quam in istis.
+            non potest esse infinitum totum positum, inveniet eam communem 
+            omnibus infinitis inter quorum partes est ordo seu
+            secundum situm aut positionem seu secundum prius et posterius
+            sive secundum magis et minus sive 
+              <app>
+                <lem>secundum (d),</lem> <!-- ed says: "Rasura." -->
+              </app>
+            aliquem similem modum aut aequivalentem; quoniam in
+            habentibus ordinem, 
+              <app>
+                <lem>si non datur</lem>
+                <rdg wit="#V" type="corrAddition">
+                  <corr>
+                    <add place="margin">si non datur</add>
+                  </corr>
+                </rdg>
+              </app> 
+              ultimum et primum, 
+              nunquam datur totum. Quod sic potest generaliter probari:
+            in quocunque non est aliqua pars post quam non sequantur
+            <app>
+              <lem wit="#B7">infinitae</lem> <!-- unclear -->
+              <rdg wit="#V">infinitae infinitae</rdg>
+            </app> in illo post omnes suas partes sequuntur 
+              <app>
+                <lem wit="#B7">finitae,</lem>
+                <rdg wit="#V">infinitae</rdg>
+              </app>
+            et ita in illo sunt omnes suae partes et non omnes; sed in
+            quocunque est dare infinitas partes post quamlibet earum
+            sequuntur infinitae, unde post quamlibet speciem numeri aut 
+            figurae sequuntur infinitae; ergo quodlibet tale infinitum habet
+            omnes partes suas et non omnes.</p>
+            <p>Forte dicetur quod si li <abbr>omnes</abbr> sumatur collective, quod
+            sic post omnes partes in simul acceptas nulla penitus sequitur; 
+            si vero sumatur distributive, sic post quamlibet singillatim
+            acceptam infinita sequuntur; quia autem totum infinitum
+            habet eas aggregatim et ut 
+              <app>
+                <lem>in</lem>
+                <rdg wit="#V" type="corrAddition">
+                  <corr>
+                    <add place="aboveLine">in</add>
+                  </corr>
+                </rdg>
+              </app> 
+              simul collectas, ideo 
+              <pb n="48"/>non sequitur quod habeat eas simul omnes et non omnes. - 
+            Sed si quis bene inspiciat virtutem et sensum, distributivae, 
+            videbit quod ex ea sequitur necessario illa quae est collectiva; 
+            certum est enim quod si post quamlibet partem determinatae 
+            quantitatis, utpote post quamlibet partem cubitalem, 
+            sequuntur infinitae tales, etiam quando aggregatim 
+            erunt sumptae: oportet quod post omnes sequantur infinitae, 
+            quia in tota illa aggregatione nulla erit post quam non sequantur.
+            - Praeterea, haec distinctio collectionis et distributionis
+            non habet locum nisi respectu 
+            <app>
+              <lem>praedicati</lem>
+              <rdg wit="#B7">praedicti</rdg>
+            </app> 
+            quod aliter convenit partibus singillatim acceptis et aliter aggregatim
+            acceptis. Unde cum dicitur: tota domus est alba vel 
+            omnes homines sunt albi, tantum valet distributive quantum 
+            collective et e contrario: quia albedo non est in omnibus
+            partibus aggregatim nisi per hoc quod inest omnibus
+            singillatim; quando autem dicitur: -omnes apostoli sunt duodecim 
+            vel 
+            <app>
+              <lem>omnes</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="aboveLine">omnes</add>
+                </corr>
+              </rdg>
+            </app> 
+            isti homines trahunt navem, aliter se
+            habet 
+            <app>
+              <lem>praedicatum</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>praedica</del>
+                  <add>praedicatum</add>
+                </corr>
+              </rdg>
+            </app> 
+            attributum partibus singillatim, aliter
+            si 
+            <app>
+              <lem>attribuatur</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>tribuatur</del>
+                  <add>attributatur</add>
+                </corr>
+              </rdg>
+            </app> 
+            aggregatim. In proposito igitur non habet
+            haec distinctio locum, quia partem sequi post partem non 
+            convenit omnibus partibus aggregatim, nisi conveniat 
+            <app>
+              <lem wit="#B7">omnibus</lem>
+              <rdg wit="#V" type="om."/>
+            </app> 
+            singillatim, nec potest convenire hoc praedicatum omnibus
+            partibus distributive, quin conveniat omnibus etiam collective;
+            ab universali enim. distributiva semper sequitur
+            universalis collective accepta, nisi sit tale 
+            <app>
+              <lem>praedicatum</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>praedicamentum</del>
+                  <add>praedicatum</add>
+                </corr>
+              </rdg>
+            </app>
+            quod alterum respectum et aliquo modo alteram significationem 
+            <app>
+              <lem>habeat</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>habeant</del>
+                  <add>habeat</add>
+                </corr>
+              </rdg>
+            </app> 
+            attributum collective et alterum attributum
+            distributive seu potius subiecto distributo. Quod autem
+            infinitae partes sequantur quamlibet, prout est singillatim
+            in suo toto accepta, non habet alium respectum nec aliam
+            significationem quam quando attribuitur eis aggregatim. -
+            Praeterea, cum partes 
+            <app>
+              <lem>cum</lem>
+              <rdg wit="#B7">in</rdg>
+            </app> 
+            toto sint semper aggregatae:
+            quod post quamlibet, prout est in toto simul cum aliis, sequantur 
+            infinitae, quid est aliud quam quod post omnes aggregatim 
+            acceptas sequuntur infinitae?
+            Patet hoc etiam secundum rationes physicas. 
+            Et primo ex rerum naturalium activa virtute,
+            secundo ex earum motu seu operatione, tertio 
+            ex earum localitate et naturali ordine. 
+            <pb n="49"/>Primo quidem ex virtute: Omne enim corpus seu
+            ens naturale, si est infinitum, oportet quod habeat infinitam
+            virtutem naturalem; virtus autem naturalis cuiuslibet rei naturalis 
+            habet aspectum extra se, scilicet ad patiens in quod
+            potest extra se operari; et secundum quod est maior secundum 
+            hoc 
+            <app>
+              <lem>in</lem> <!-- edition unclear: "al. m. mg." -->
+            </app> 
+            remotiora est aspectus eius potens et directus
+            et virtualiter est in illa protensus; ergo si est infinita, habebit 
+            aspectum extra se ad infinite remota. Et sic oportebit
+            quod post quodlibet corpus infinitum sequantur adhuc alia
+            corpora infinita; et eadem ratione oportebit quod post ista
+            sequantur alia infinita et sic in infinitum. Et tunc sequitur
+            quod nullum eorum sit infinitum, cum quodlibet eorum sit
+            <app>
+              <lem>determinatum</lem>
+              <rdg wit="#B7">terminatum</rdg>
+            </app> 
+            ad sequens. - Si dicatur quod virtus rei infinita 
+            erit infinita extensive non intensive et ita non oportet
+            quod attingat extra se infinite remota: etiam hoc dato adhuc
+            sequitur quod saltem sit dare aliquod patiens extra se in
+            quod sit directa et in quod agere possit; et ita oportebit quod
+            tam ipsa quam subiectum in quo est sit terminatum et 
+            <app>
+              <lem>finitum</lem>
+              <rdg wit="#B7">infinitum</rdg>
+            </app> 
+            ad suum patiens extrinsecum. - Praeterea, nos videmus 
+            quod quanto ignis est maior extensive, tanto ceteris 
+            paribus calor eius et levitas sunt maiora intensive; ergo
+            oportet quod si est infinitus, quod sint in infinitum maiores 
+            intensive; et non solum oportet hoc de virtute ipsius totius, 
+            sed etiam hoc oportet de 
+            <app>
+              <lem>quacunque</lem>
+              <rdg wit="#B7">qualibet</rdg>
+            </app> 
+            parte illius totius, quoniam quaelibet pars adiuvatur ab omnibus aliis partibus;
+            et ita ab infinitis partibus infinitum adiutorium accipiet et
+            sic sequitur quod in parte finita sit virtus infinita. - Praeterea, 
+            omnis pars infiniti naturalis agit in virtute totius et
+            inde est quod virtus totius et omnium partium eius videtur
+            confluere ad partem illam quae immediate agit in patiens
+            <app>
+              <lem>quasi</lem>
+              <rdg wit="#B7">quare</rdg>
+            </app> 
+            ad quendam conum; oportet igitur quod pars illa 
+            habeat infinitam actionem per concursum infinitae virtutis
+            factum in ea. - Item, a duabus partibus cuiuslibet corporis
+            naturalis a se invicem distantibus potest dirigi aspectus suae
+            virtutis versus eundem terminum, 
+            <app>
+              <lem>ac si duae lineae</lem>
+              <rdg wit="#B7">ac duae ac non duae lineae</rdg>
+            </app> 
+            procederent ab una base coarctando se semper 
+            <app>
+              <lem>magis,</lem>
+              <rdg wit="#B7">ac magis</rdg> <!-- addition slightly unclear -->
+            </app> 
+            sicut fit 
+            in triangulo. Ergo partes unius basis quae a se invicem infinite 
+            distant concurrent in aliquo patiente infinite ab eis
+            distanti, qui lineae terminales basis infinitae non possunt 
+            <pb n="50"/>antea concurrere. Et tunc sequitur quod ipsa basis sit simul
+            finita et infinita et quod patiens in quo (a) eorum actiones
+            concurrunt sit distans ab eis finite et infinite. - Forte dicetur
+            quod Deus miraculose poterit sic facere aliquod na·
+            turale ens infinitum quod tamen nullum (b) aliud sequetur
+            nec virtus eius dirigetur in aliquod patiens extrinsecum;
+            et ita praedicta inconvenientia non sequentur (c). Sed haec
+            evasio nulla est. Primo quidem, quia cum omnes partes
+            alicuius formae et virtutis activae et etiam materiae naturaliter
+            sibi uniantur et sese respiciant et coadiuvent: oportebit
+            quod in quolibet corpore infinito possit signari unus triangulus
+            infinitus vel quaecunque altera figura sub qua partes
+            <sic>sese</sic> respiciant et sese coadiuvare et respicere possint; oportebit
+            enim omnes sub aliquo nexu et ordine ad quamlibet
+            aliarum, quantumcunque distantium, virtuali quodam respectu
+            concurrere. Secunda etiam patet hoc nihil esse, quia
+            nunquam potest hoc ita miraculose fieri quin semper ipsum
+            totum et virtus eius sit apta nata, quantum est de sui natura,
+            dirigi et agere in aliquod patiens extrinsecum; per hoc autem
+            non solum tollitur quod actualiter extrinsecum patiens
+            non aspiciat, sed etiam quod non aptitudinaliter hoc aliquo
+            modo (d) possit.</p>
+            
+          <p>Secunda patet hoc ex eorum motu et operatione: 
+            Impressio enim seu operatio cuiuslibet agentis
+            naturalis habet naturalem ordinem in partibus suis secundum 
+            ordinem partium sui patientis (e) in quo huius impressio
+            recipitur, sicut videmus in radiis solis; ergo infinita impressio 
+            quae ab agente infinito naturali manat aut manare 
+            potest habebit hunc ordinem, et ita in ea erit (f) dare naturalem
+            ordinem et successionem partium finitarum simul et
+            infinitarum (g), quando eius initium incipiet ab agente et cum
+            tota successio sit iam facta; ac per consequens iam pertransita (h) 
+            oportebit ei dare ultimum terminum, alias non
+            esset tota facta et pertransita. - Item; cum reflexiones fiant
+            in huiusmodi impressionibus et naturales terminationes (i)
+            secundum hoc quod est dare obiecta naturaliter virtutis
+            agentis et sui aspectus terminativa: poterit dari reflexio infinita
+            et obiectum terminativum virtutis agentis infinite di<pb n="51"/>stans <!-- db check this page. I didn't have full access to the page in the combined file  -->
+            ab eo. Cum etiam tantae quantitatis sit aut esse possit
+            radius reflexus sicut ille a quo reflectitur, sicut ex regulis
+            perspectivae et geometriae patet, si reflexio potest fieri ab 
+            aliquo obiecto infinite distanti, sicut in infinitis impressionibus
+            poterit fieri: utique poterunt clari reflexiones infinitae et
+            terminationes virtutum activarum impressionum suarum infinitarum.
+            Quicunque autem dat reflexionem infinitam, oportet
+            quod det figuram infinitam, quia i·adius reflexus facit
+            angulum (a) cum radio a quo reflectitur; in quo angulo est
+            conus pyramidis radiosae procedentis ab agente tanquam a
+            sua base. Quicunque etiam dat obiectum terminativum et
+            actualem terminationem virtuti in obiectum infinite distans
+            agenti ponit infinitum habere terminum ex utraque parte. -
+            Item, omnis virtus naturalis movet suum mobile secundum
+            totam possibilitatem qua potest eum movere sub tali vel tali
+            dispositione et situ; sed virtus dupla potest in minori tempore
+            movere idem mobile super consimili spatia quam virtus
+            dimidia; quantum enim poterit haec movere in duplo tempore,
+            tantum poterit illa in dimidio; ergo si est infinita virtus
+            naturalis, poterit movere illud in duratione seu mensura
+            in infinitum minori; sed nihil potest dari in infinitum minori
+            minus nisi nunc indivisibile; ergo poterit illud movere
+            in nunc et ita motus posset esse in instanti, quod est etiam
+            Deo impossibile; quoniam includit in se contradictionem expressam, 
+            scilicet quod aliquid sit et non sit simul in diversis
+            locis et quod sit simul successivum, et non successivum.
+            - Item, virtus dupla potest in eodem tempore movere aequale
+            mobile in spatia duplo maiori (b) quam possit(c) virtus
+            dimidia et potest mobile duplo maius movere in aequali tempore
+            et in aequali spatia; ergo virtus naturalis infinita poterit
+            in illo tempore movere illud idem mobile quod movet
+            finite virtus :finita, per infinitum spatium et mobile infinitum
+            poterit movere in aequali tempore et in aequali spatia. Ex
+            hoc autem sequitur quod infinita spatia et infinitum motum
+            sit pertransire in tempore finito, ac per consequens quod
+            non fuerint infinita sed potius finita. - Item, omne corpus (d)
+            naturale est possibile ad motum, cum de essentia suae materiae
+            sit mobilitas; omnis autem materia quanta est possibilis
+            ad motum localem; sed omnis motus localis est circularis
+            aut rectus aut commistus; ergo motus localis infinitus</p>
+          
+          <p><pb n="52"/>
+            <app>
+              <lem wit="#B7">necessario</lem>
+              <rdg wit="#V">necesse</rdg>
+            </app> 
+            erit sub aliquo istorum; nullum autem potest
+          dari, quin tam ipse quam eius mobile sit finitum. - Item,
+          omnis motus dirigitur ad aliquem finalem terminum; mob1le
+          enim nunquam movetur nisi per hoc quod ab aliquo est impulsum
+          ad aliquem certum terminum; 
+            <app>
+              <lem>et</lem>
+              <rdg wit="#B7">unde</rdg>
+            </app> 
+            videmus quod motus naturales semper habent naturales terminos, et hinc
+          est quod elementa habent naturales inclinationes ad certos
+          terminos suorum motuum localium eis naturalium; si ergo
+          potest dari movens et mobile infinitum, sicut 
+            <app>
+              <lem>necessario est dare si potest fieri ens naturale infinitum:</lem>
+              <rdg wit="#B7" type="om."/>
+            </app> 
+            ergo potent ab eis esse motus infinitus et inclinatio infinita et tamen ad
+          certum <sic>teminum. <!-- does this need to be corrected --></sic></p>
+          
+          <p>Tertio patet hoc ex eorum localitate et naturali 
+            ordine: Cum enim species rerum naturalium diversae 
+            non se impediant, immo potius sese coadiuvent - 
+            unde etiam ad complementum universi faciunt - habeantque 
+            naturaliter mutuam inter se ordinabilitatem et ut plurimum 
+            naturaliter 
+            <app> <!-- this is unclear in the edition -->
+              <lem>sortiantur</lem>
+              <rdg wit="#B7 #V">sortiantur</rdg>
+            </app> 
+            varia loca secundum diversas 
+            inclinationes ex sua specie eis convenientes: constat 
+            quod quanto essent perfectiores, tanto possent perfectius ordinari 
+            et collocari et mutuo sibi coaptari aut saltem non 
+            minus perfecte; sed si infinitas actualis potest eis dari, ipsa 
+            erit perfectissima conditio omnium illarum quae eis dari 
+            possunt; ergo tunc possent perfectissime ad invicem ordinari 
+            et collocari; hoc autem evidenter patet esse falsum et impossibile. 
+            - Item, quando corpus fit de nihilo, non necessario 
+            oportet quod fiat intra aliud corpus prius existens aut 
+            in loco eius; quoniam eo ipso quod corpus creatur in esse 
+            eo ipso est, ut infra dicam, collocatum in se ipso; ergo 
+            quantumcunque corpus infinitum prius existat adhuc poterit 
+            creari corpus aliud ac per consequens et alius locus extra 
+            locum corporis infiniti; sed hoc non potest fieri, quin sequatur 
+            <sic>infininitum <!-- does this need to be corrected --></sic> esse finitum.</p>
+          
+          <p>Patet 
+            <app>
+              <lem>etiam</lem>
+              <rdg wit="#B7" type="intextu">hoc</rdg>
+            </app> 
+            secundum rationes metaphysicas, 
+            scilicet ex consideratione causarum quatuor 
+            entis, scilicet causae 
+            <app>
+              <lem>efficientis, finalis, formalis et materialis.</lem>
+              <rdg wit="#B7">efficientis materialis, formalis et finalis</rdg>
+            </app>
+          </p>
+          
+          <p>Ex parte efficiente quidem: Quia si Deus potest 
+            facere infinita actu, poterit illa infinita 
+            <app>
+              <lem>coordinare</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>ordinare</del>
+                  <add>coordinare</add>
+                </corr>
+              </rdg>
+            </app> 
+            ad unum 
+            <pb n="53"/>effectum producendum, ut posito quod faceret infinitas sphaeras 
+            aut infinitos annulos inter se concatenatos, ita quod ad 
+            motum unius sequeretur 
+            <app>
+              <lem>motus</lem>
+              <rdg wit="#B7" type="intextu">in animabus ordinate ut scilicet ad motum illius sequeretur motus</rdg>
+            </app> 
+            in sphaera vel annulo sibi 
+            propinquiori et sic deinceps in aliis per ordinem; sed impossibile 
+            est hoc esse vel fieri, quia in productione cuiuscunque 
+            effectus oportet dare primam causam efficientem et ultimam
+            seu 
+            <app>
+              <lem>immediatam,</lem>
+              <rdg wit="#B7">mediatam</rdg>
+            </app> 
+            cum omnes causae efficientes intermediae
+            ab una principaliter moveantur a qua et accipiunt virtutem
+            effectivam; unde si non esset dare causam efficientem primam,
+            nullam penitus esset dare; et si non esset dare ultimam,
+            nunquam perveniretur ad effectum, cum effectus sequatur
+            post omnes causas et cum immediate sequatur ultimam.
+            - Praeterea, Deus non potest facere quin ipse sit causa
+            prima omnium causarum efficientium; igitur semper omnes
+            causae includuntur et terminantur inter ipsum et effectum.</p>
+            
+          <p>De causa etiam finali potest hoc consimili via
+            ostendi: Quia omnes fines assumunt rationem finalem a fine
+            ultimo nec Deus posset facere quin ipse esset finis ultimus
+            omnium finium; si autem Deus posset facere infinita, posset
+            bonum unius ad bonum alterius ordinare et sic infinitos fines
+            unius constituere.</p>
+          
+            <p>Ex causa vero formali hoc ipsum ostenditur, sive
+            nomine formae sumamus illud quod perficit materiam sive
+            totam quidditatem et definitionem cuiuslibet entis: Primo
+            enim modo sumpta est eius proprium et essentiale quod ordinate
+            attingat totam suam materiam et omnes partes eius;
+            alias non daret esse toti materiae suae neque esset forma
+            nisi solum illarum partium quas attingeret et perficeret; est
+            etiam eius unire materiam et omnes partes eius; est etiam
+            eius 
+              <app>
+                <lem>possibilitatem</lem>
+                <rdg wit="#B7">potentialitatem</rdg>
+            </app> 
+              et indeterminationem seu terminabilitatem
+            materiae terminare et distinguere; unde forma quasi
+            contrarias proprietates habet proprietatibus materiae: sicut
+            enim illa est confusa et indeterminata, sic ista est eius terminus
+            <app>
+              <lem>distinctivus et ordinativus;</lem>
+              <rdg wit="#B7">distinctus et ordinatus</rdg>
+            </app> 
+              sed hoc directe repugnat
+            infinitati, sicut satis de se patet et ex iis quae dicta
+            sunt superius faciliter deduci potest. Si vero sumatur 
+              <app>
+                <lem>pro quidditate,</lem>
+                <rdg wit="#B7" type="om."/>
+              </app> 
+              tunc includit intra se naturas seu rationes
+            omnium generum et differentiarum ipsius entis cuius est
+            quidditas; in generibus autem necessario est dare primum
+            <pb n="54"/>et supremum, sicut patet per rationes generales praedicamentorum 
+              et entis, in differentiis vero est necessaria dare 
+              ultimam quae sit completiva speciei; et breviter cum in 
+              omni praedicamento sit dare genus generalissimum et speciem 
+              specialissimam, necessaria in omni quidditate aggregante 
+              in se diversas rationes generum et differentiarum est 
+              dare primum et ultimum.</p>
+          <p>Ex causa vero materiali ostenditur: Materiae 
+            enim ex sua essentia competit quaedam infinitas quae sonat 
+            in defectum actualitatis et unitatis et stabilitatis; et haec 
+            est infinitas potentialis secundum quam aliquid dicitur esse 
+            infinitum in potentia; ergo infinitas actualis ei opposita oportet
+            quod dicat summam et immensam actualitatem, unitatem
+            et stabilitatem; ergo infinitas actualis summe repugnat omni
+            multitudini et omni essentiae materiali et 
+            <app>
+              <lem wit="#B">imperfectioni</lem>
+              <rdg wit="#V">perfectioni</rdg>
+            </app>
+            eius. - Praeterea, infinitas materialis aut ponitur propter infinitatem 
+            diversarum materiarum ad 
+            <app>
+              <lem>constitutionem</lem>
+              <rdg wit="#V" type="corrDeletion">
+                <corr> <!-- correction slightly unclear -->
+                  <del>conustionem</del>
+                </corr>
+              </rdg>
+            </app> 
+            alicuius 
+            unius concurrentium aut propter infinitas partes eiusdem materiae.
+            Primo modo non est possibile, tum quia una forma
+            non posset 
+            <app>
+              <lem>esse</lem> <!-- unclear -->
+            </app> 
+            in infinitis materiis diversis, tum quia non
+            potest esse in pluribus materiis, nisi prius et principalius sit
+            in una quam in altera; unde oportet quod informet eas et
+            respiciat sub certo ordine; et tunc etiam oportet quod ipsae
+            materiae sint inter se ordinem habentes, ita quod una sit
+            <app>
+              <lem>prior;</lem>
+              <rdg wit="#B7" type="intextu">et</rdg>
+            </app> 
+            altera posterior; sed primam omnium semper necessaria
+            est dare, quia prima semper est illa quae in nullo
+            alio recipitur, 
+            <app>
+              <lem>quicquid enim in alio recipitur</lem>
+              <rdg wit="#B7" type="om."/>
+            </app> 
+            non habet 
+            proprie rationem materiae; 
+            <app>
+              <lem>ergo in quocumque sunt plures materiae,</lem>
+              <rdg wit="#B7" type="om."/>
+            </app> 
+            oportet semper dare primam et ultimam, quia
+            prima est illa quae in nullo recipietur, ultima vero erit quam
+            forma immediatius informabit. Secundo etiam modo non est 
+            possibile; ad quod sufficiant omnia quae dicta sunt, quia ex 
+            omnibus potest improbari; potest etiam hoc ostendi fere ex 
+            omnibus rationibus generalibus entis, 
+            <app>
+              <lem>utpote</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr> <!-- this is unclear -->
+                  <del>ut</del>
+                  <add>utpote</add>
+                </corr>
+              </rdg>
+            </app> 
+            ex ratione
+            universalis et particularis, unius et multi seu eiusdem et diversi
+            et sic de aliis; sed quia hoc infra in quaestione de infinitate
+            seu universalitate angelorum plenius tangetur, idcirco
+            <app>
+              <lem>hic</lem>
+              <rdg wit="#B7" type="intextu">quidem</rdg>
+            </app> 
+            omitto.</p>
+          
+          <p><pb n="55"/>Sic igitur patet tam secundum rationes mathematicas
+          quam physicas 
+            <app>
+              <lem>et</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">et</add>
+                </corr>
+              </rdg>
+            </app> 
+            metaphysicas quod natura et ratio rerum
+          creatarum et creabilium multipliciter contradicit 
+            <app>
+              <lem>infinito</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>infiniti</del>
+                  <add place="margin">infinto</add>
+                </corr>
+              </rdg>
+            </app> 
+            actuali.</p>
+          
+          <p>Restat igitur videre quomodo Dei potentia eidem 
+            contradicat: Si enim Deus posset facere infinitum, eadem
+            ratione poterit facere quod nihil poterit facere novum; qua
+            enim ratione poterit facere infinita, poterit facere omnia
+            possibilia sibi, saltem illa quae possunt se simul compati;
+            quibus factis sequitur quod nihil ultra possit; 
+            <app>
+              <lem wit="#B7">quod</lem>
+              <rdg wit="#V">et</rdg>
+            </app> 
+            est contra rationem divinae potentiae, quia ex suis effectibus
+            non redditur minus potens ad faciendum alia et quia semper
+            superexcedit omnes suos effectus; nec mirum, quia non
+            posset facere quod virtus lucis solaris per suas irradiationes
+            <app>
+              <lem>exhauriretur,</lem> <!-- some sort of correction here -->
+            </app> 
+            ita quod non possit de novo in alias. -
+            Item, quicquid Deus potuit facere simul in uno nunc potuit
+            facere successive, nisi sint talia quae non sint successionis
+            capacia; ergo si Deus potuit facere infinita in hoc nunc,
+            potest ab eo et ultra facere eadem successive; sed hoc
+            est impossibile; quia tunc inter duo nunc extrema esset dare
+            infinita, tum quia tunc infinita successio inchoando ab hodie
+            posset 
+            <app>
+              <lem>tota pertransiri</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>per tota transiri</del>
+                  <add>tota pertransiri</add>
+                </corr>
+              </rdg>
+            </app> 
+            et tunc posset facere totum
+            futurum 
+            <app>
+              <lem>aeternum (f),</lem>
+              <rdg wit="#B7" type="intextu">ita quod aeternum</rdg>
+            </app> 
+            et tamen esset finitum et praeteritum.
+            - Item, nunquam Deus potest facere aliquod corpus nec 
+            aliquam rem, quin posset illud movere; ergo partem infinitam
+            corporis infiniti poterit totam movere, ita quod semper
+            magis ac magis occupet locum alterius partis et e contrario;
+            sed hoc est impossibile, quia tunc sequitur quod illa
+            pars relinqueret post se totam 
+            <app>
+              <lem>aliam</lem>
+              <rdg wit="#B7">aliquam</rdg>
+            </app> 
+            partem loci sui in 
+            quo prius erat ac per consequens secundum illud 
+            <app>
+              <lem>quod</lem>
+              <rdg wit="#B7">in quo</rdg>
+            </app> 
+            erat infinita erit finita; multaque alia consimilia sequerentur;
+            ergo et cetera. - Item, nullum corpus potest Deus facere,
+            quin possit aliquod aliud corpus finitum ita sibi applicare
+            quod nulla partium eius erit ultra partes corporis illius
+            finiti; utpote posito quod faciat unum corpus a centro in
+            altum infinitum: quantum alte attingit illud infinitum, tantum
+            alte poterit collocare aliquod corpus modicum; sed illud non
+            poterit ita alte collocare quin ibi sit terminus eius ultra quem
+            non se extendit et post quem Deus posset vel ipsum vel
+            <pb n="56"/> aliud collocare; ergo et cetera. -- Item, Deus non ex aliquo 
+            alio videtur potens facere infinita, nisi quia nunquam tantum 
+            potest facere quin adhuc amplius possit; 
+            <app>
+              <lem>sed nunquam potest tantum triangulum facere, quin semper amplius possit;</lem>
+              <rdg wit="#B7" type="om."/>
+            </app> 
+            ergo eadem ratione poterit facere infinitum triangulum 
+            et circulum. - Item, omne corpus potest Deus figurare 
+            et in omni quantitate figuram coaequalem eidem potest facere; 
+            ergo in corpore infinito hoc poterit, et sic posset Deus 
+            facere figuram infinitam; quod est impossibile. - Item, nunquam 
+            Deus potest facere aliquid quod 
+            <app>
+              <lem>attingeret</lem>
+              <rdg wit="#B7">attingat</rdg>
+            </app> 
+            terminos alicuius divinae perfectionis; omnis enim creatura se habet 
+            ad quamcunque perfectionem divinam sicut punctus ad 
+            summe immensum; sed si faceret infinitum, illud commetiretur 
+            se alicui perfectioni divinae, ita quod eam totaliter 
+            <app>
+              <lem wit="#B7">attingeret;</lem>
+              <rdg wit="#V" type="intextu">et</rdg>
+            </app> 
+            <app>
+              <lem wit="#B7">quantum enim Deus posset in ilia specie vel 
+            in illa specie, tantum attingeret; et</lem>
+              <rdg wit="#V" type="om."/>
+            </app> 
+            quantum attingeret 
+            ratio illius immensitatis qua Deus esse potest ubique, tantum 
+            attingeret unum corpus ex omni parte infinitum, ac si 
+            toti illi immensitati totaliter se commetiretur.</p>
+        </div>
+        <div>
+          <head>[Solutio Obiectorum].</head>
+          <p>Ad primum igitur in contrarium dicendum quod
+          secundum 
+            <ref>
+              <seg>
+                <name ref="#Augustine">Augustinum</name>, XII <title ref="#CityOfGod">De Civitate,</title> capitulo 18 (1),
+              </seg>
+              <bibl>Augustine, De Civitate XII:18 (PL 41, 367sq)</bibl>
+            </ref>
+          quidam philosophi dixerunt quod Deus nesciebat infinita. Quibus
+          contradicit 
+            <ref>
+              <title ref="#ps">Psalmus</title>,
+            </ref> quando ait quod 
+            <cit>
+              <quote ana="#ps146_5">intelligentiae eius non est numerus.</quote>
+              <bibl>Psalmus 146:5</bibl>
+            </cit> 
+            Et hoc ipsum ratio convincit, perfectio
+          enim divinae sapientiae, potentiae et essentiae manifeste
+          hoc concludit; cum enim in Deo sit omnis perfectio nobilis
+          in summo, cognitio autem omnis veri seu omnium scibilium
+          in quantum talis est una de nobilissimis perfectionibus quae
+          esse aut cogitari possit: oportet quod in Deo sit in summo;
+          sed hoc non potest esse, nisi actu sciat infinita, quia cum
+          in eo non cadat transmutatio seu successio nec sit in potentia 
+          ad aliquid nec aliquid possit sibi addi, si nesciret nisi
+          finita, tunc ultra illa non posset intellectus suus attingere:
+          et ita intellectus noster posset intelligere aliquem numerum
+          maiorem quam Deus intelligere possit. -- Praeterea, si Deus
+          <pb n="57"/>scit numeros et rationes numerorum et naturas et rationes
+          specierum et generum totius entis creati aut creabilis nihilque
+          <app>
+            <lem>scit</lem>
+            <rdg wit="#V" type="corrReplace">
+              <corr>
+                <del>sit</del>
+                <add>scit</add>
+              </corr>
+            </rdg>
+          </app> 
+            in potentia quod non sciat actu, non potest
+          autem rationes numerorum scire, quin sciat quod omni numero
+          potest cogitari duplo vel centuplo maior neque potest
+          scire naturas et rationes generum et specierum, quin
+          sciat quod quantum est de se, 
+            <app>
+              <lem>in infinitis</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>infinitatis</del>
+                  <add>in infinitis</add>
+                </corr>
+              </rdg>
+            </app> 
+            <app>
+              <lem wit="#B7">esse</lem>
+              <rdg wit="#V">esset</rdg>
+            </app> 
+            possunt sciatque quod rationes aliquorum non limitantur ad 
+            <app>
+              <lem wit="#B7">aliquam</lem>
+              <rdg wit="#V">aliam <!-- in ras --></rdg>
+            </app> 
+            certam quantitatem - unde possunt cum omni
+          quantitate se compati, ut sunt ipsaemet species et genera
+          quantitatis et species homogenorum, ut ignis et aqua et consimilium
+          -: utique poterit ista scire ac per consequens sciet
+          quod tantum 
+            <app>
+              <lem>scit</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>sit</del>
+                  <add>scit</add>
+                </corr>
+              </rdg>
+            </app> 
+            actu quantum potest scire in tota aeternitate.
+          - Praeterea, qua ratione divinus intellectus potest
+          attingere hoc scibile vel hoc cogitabile, eadem ratione 
+            <app>
+              <lem>et</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>ad</del>
+                  <add>et</add>
+                </corr>
+              </rdg>
+            </app>
+          aliud, cum de natura sua non sit magis determinatus ad hoc
+          quam ad illud, immo nec de natura sua sit ad aliquid limitatus;
+          nec rationes horum vel illorum scibilium magis se
+          habent ad divinum intellectum de natura sua quam rationes
+          aliorum scibilium; si igitur potest in haec scibilia, potest in
+          omnia quantumcunque infinita.</p>
+          <p>Perfectio etiam potentiae hoc ipsum convincit: nihil enim 
+            Deus potest facere vel regere, quin sciat illud; nunquam vero
+            potest Deus tot facere simul vel successive quin adhuc plura
+            possit. - Ratio etiam essentiae divinae hoc ostendit: quoniam
+            ipsa transcendit totam rationem entis scibililis, ita quod
+            habet se haec ad illam sicut punctus ad 
+            <app>
+              <lem>pelagus</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>plagus</del>
+                  <add>pelagus</add>
+                </corr>
+              </rdg>
+            </app> 
+            essentiae infinitum; oportet ergo necessaria quod essentia Dei totam
+            <app>
+              <lem>rationem</lem> <!-- corr unclear: "Al. m. mg.: B7 infra" -->
+            </app> 
+            entis intra se sufficientissime comprehendat; sed
+            divinum intelligere est eius essentia; ergo et cetera. - Praeterea,
+            essentia Dei et 
+            <app>
+              <lem>suae intelligentiae</lem>
+              <rdg wit="#B7">similiter intelligentia</rdg>
+            </app> 
+            est veritas universalissima
+            comprehendens in se omnem puram veritatem;
+            ergo impossibile est quod divinus intellectus intelligat se,
+            quin intelligat omnem veritatem scibilem.</p>
+          <p>Oportet igitur videre quomodo scientia infinitorum
+            possit stare absque contradictionibus
+            praemissis. Dicendum igitur quod Deus non scit infinita
+            sub omni modo, quia non sub illo qui claudit in se contra<pb n="58"/>dictionem; 
+            qualis esset, si poneretur scire infinita sub aliqua 
+            ratione unius scibilis aut alicuius totius, utpote si intelligeret 
+            unum totum infinitum infinitas partes in se comprehendens, 
+            sive illud totum sumeretur per modum totius 
+            <app>
+              <lem>continui sive per modum totius</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">continue sive per modum totius</add>
+                </corr>
+              </rdg>
+            </app> 
+            discreti; tunc enim sequerentur 
+            omnes contradictiones praemissae. Scit igitur ea hoc modo 
+            quod nunquam per unam ideam seu per unam intelligentiam 
+            scit aliquid nisi finitum et sub certo numero et mensura,
+            per 
+            <app>
+              <lem>aliam</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">aliam</add>
+                </corr>
+              </rdg>
+            </app> 
+            vero ideam seu intelligentiam intelligit
+            aliud 
+            <app>
+              <lem>finitum,</lem>
+              <rdg wit="#B7">scitum</rdg>
+            </app> 
+            et cum in eo sit infinitas rationum et intelligentiarum, 
+            per infinitas intelligentias scit infinita. Quamvis
+            enim intelligentia Dei sit una et simplicissima in essentia,
+            nihilominus tamen veritatem plurium idearum et infinitarum
+            rationum et intelligentiarum per aequivalentiam seu
+            potius per praevalentiam absque omni pluralitate in se comprehendit;
+            et ideo potest scire aliqua plura. ut plura 
+            <app>
+              <lem>quae</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="marginLeft">quae</add>
+                </corr>
+              </rdg>
+            </app> 
+            nullo modo possunt concurrere in 
+            <app>
+              <lem>ratione</lem>
+              <rdg wit="#B7">rationem</rdg>
+            </app> 
+            unius scibilis 
+            simplicis vel compositi; unde et de iis quae fecit potuit scire
+            oppositum, potuit enim scire ea nunquam fore et ita potuit
+            scire sub disiunctione utramque partem contradictionis esse
+            veram; nunquam tamen potuit hoc simul nec per modum
+            unius intelligibilis; quia igitur infinitum seu infinita nullo modo
+            possunt aggregari aut sumi sub aliqua ratione unius scibilis
+            aut sub aliqua ratione unius totius seu unius entis: idcirco
+            nunquam possunt sciri a Deo nisi ut plura et quasi pluribus
+            intelligentiis. Quando igitur dicitur quod Deus scit numeros
+            infinitos, non est intelligendum quod ipse sciat eos ut aggregatos
+            in aliquem unum totalem numerum, quia hoc est impossibile,
+            sed scit unumquemque numerum et unamquamque
+            speciem numeri, ita quod nunquam cadunt sub aliqua una
+            intelligentia Dei, nisi prout sumuntur sub certis terminis et
+            mensuris; et loquor de unitate intelligentiae, prout Dei intelligentia
+            dicitur esse una. per relationem ad unum intelligibile
+            sive simplex sive compositum sive quacunque via
+            unionis seu quocunque modo unitatis possit dici unum; quia
+            nec ipsi numeri hoc modo sunt infiniti quod ex eis constituatur
+            aut constitui possit aliquis numerus infinitus vel aliquod
+            aliud totum, sed potius quilibet est in se finitus et isti
+            finiti tot sunt quod non est eorum dare numerum nec possunt
+            sub aliquo 
+            <app>
+              <lem>numero nec sub aliquo</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">numero nec sub aliquo</add>
+                </corr>
+              </rdg>
+            </app> toto comprehendi.</p>
+          <p><pb n="59"/>Et hoc est quod dicit 
+            <ref>
+              <name ref="#Augustine">Augustinus,</name> 
+              <app>
+                <lem>libro I <title>Contra adversarium 
+                legis et prophetarum</title>,</lem>
+                <rdg wit="#B7" type="om."/>
+              </app>
+            </ref> 
+            <app>
+              <lem>dicens sic:</lem>
+              <rdg wit="#B7" type="om."/>
+            </app> 
+            <cit>
+              <quote>
+                <app>
+                  <lem>Nullus quippe numerus, quantumlibet magnus, vel dicitur vel, si iam 
+                    dici non potest, cogitatur cui addi non possit ut maior sit (a).</lem>
+                  <rdg wit="#B7" type="om."/>
+                </app>
+              </quote>
+              <bibl>Augustine, Contra adversarium legis et prophetarum I, Cap 2 (PL 42, 605)</bibl>
+            </cit>
+          Et expressius, 
+            <ref>
+              <title ref="#CityOfGod">De Civitate Dei,</title> libro XII, capitulo 18,
+            </ref> ita inquit: 
+            <cit>
+              <quote>Suis quisque numerus proprietatibus 
+                <app>
+                  <lem>terminatur,</lem>
+                  <rdg wit="#V" type="corrReplace">
+                    <corr>
+                      <del>terminantur</del>
+                      <add>terminatur</add>
+                    </corr>
+                  </rdg>
+                </app>
+              ut nullus eorum par esse cui quam alteri possit; ergo et dispares
+              inter se atque diversi sunt, 
+                <app>
+                  <lem>et sic singuli quicunque 
+                    finiti sunt et omnes infiniti sunt.</lem>
+                  <rdg wit="#V" type="corrAddition">
+                    <corr>
+                      <add place="margin">et sic singuli quicunque finiti sunt et omnes infiniti sunt</add>
+                    </corr>
+                  </rdg>
+                </app>
+              </quote>
+              <bibl>Augustine, De Civitate Dei, XII, 18 (PL 41, 367)</bibl>
+          </cit> 
+            Et infra dicit quod
+          <cit>
+            <quote>infinitorum numerorum non est numerus;</quote>
+            <bibl>L. C. (PL 41, 368)</bibl>
+          </cit> 
+            quod non esset verum, si essent aggregabiles sub aliqua ratione alicuius 
+            unius totius, quia illud totum posset dici numerus infinitus. 
+            Unde 
+            <ref>
+              <title ref="#ps">Psalmus</title>
+            </ref> 
+            non ait quod intelligentiae Dei sit numerus 
+            infinitus, sed potius quod 
+            <cit>
+              <quote ana="#ps146_5">intelligentiae eius non est numerus;</quote>
+              <bibl>Psalmus 146:5</bibl>
+            </cit> 
+            et quamvis ita diceretur, non 
+            <app>
+              <lem>est</lem>
+              <rdg wit="#B7">esset</rdg>
+            </app> 
+            intentio affirmare 
+            aliquam unam rationem positivam numeri, sed solum 
+            negare terminum in 
+            <app>
+              <lem>pluralitate</lem> <!-- edition unclear here -->
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>plite</del>
+                  <add place="margin">pluralitate</add>
+                </corr>
+              </rdg>
+            </app> 
+            seu 
+            <app>
+              <lem wit="#B7">excrescentiam</lem>
+              <rdg wit="#V">excrescentia</rdg>
+            </app> numerorum.</p>
+          <p>Et per hanc viam possunt sol vi omnes contradictiones: 
+            non enim in divinis scibilibus seu obiectis erit 
+            <app>
+              <lem>pars aequalis</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">pars aequalis</add>
+                </corr>
+              </rdg>
+            </app> 
+            suo toti, quia ibi non est aliqua pars infinita nec etiam 
+            aliquod totum nec est ibi dare aliquem numerum qui non
+            sit par vel impar; quia non est ibi aliquis unus numerus
+            infinitus, quamvis numeri finiti sint ibi <sic>infinities</sic> multi. - 
+            Quod vero dicitur quod infiniti ternarii a Deo sciti sunt aequales 
+            infinitis denariis ab ipso scitis: dicendum quod haec 
+            infinita possunt comparari ad se invicem aut secundum rationem 
+            quam ponunt determinate aut secundum illam quam 
+            ponunt confuse quae non, dicit rationem alicuius unius nec 
+            rationem entis proprie. Primo modo non est aliud comparare
+            ea quam quodlibet finitum in eis comprehensum, in
+            quantum est in se unum et ab aliis distinctum, comparare
+            ad quodlibet finitum alterius infiniti similiter acceptum; et
+            hoc modo in infinitis ternariis nulla est aggregatio determinata
+            ex ternariis toties sumptis facta, quin aggregatio ex
+            denariis toties acceptis semper excedat eam et semper in
+            infinitum. Secundo vero modo comparare ea est quodam 
+            <pb n="60"/>
+            modo comparare nihil ad nihil et confusum ad confusum;
+            nulla enim una ratio comparatur ibi ad 
+            <app>
+              <lem>aliquam</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr> <!-- "Al. m. in ras" -->
+                  <add>aliquam</add>
+                </corr>
+              </rdg>
+            </app> 
+            unam 
+            alteram rationem nec aliqua aliquibus secundum unam aliquam
+            rationem realem; et ideo non debent proprie tunc dici
+            aequalia, nisi pro quanto in hoc conveniunt quod eorum
+            <app>
+              <lem>non</lem>
+              <rdg wit="#B7">nullus</rdg>
+            </app> 
+            est numerus; unde aequantur in negatione potius
+            quam in aliquo positivo, scilicet in negatione termini et omnis
+            determinati generis et speciei. Possunt igitur dici secundum
+            primum modum inaequalia, secundum vero modum istum
+            possunt dici secundum quid aequalia et secundum aliam
+            viam non aequalia, sumendo le <mentioned>non</mentioned> negative, 
+            <app>
+              <lem>non privative</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">non privative</add>
+                </corr>
+              </rdg>
+            </app>
+            neque contrarie, prout scilicet negat aequalitatem positive
+            acceptam.</p>
+          <p>Si vero dicatur quod per consimilem modum poterit 
+            evadi ponendo infinita in actu: dicendum quod non potest;
+            quia impossibile est ea ponere in actu, quin tunc ipsa infinitas
+            eorum dicat aliquam rationem entis actualem et quin omnia
+            sint ad invicem positive coordinata et unum totum universum
+            seu unum totum particulare constituant 
+            <app>
+              <lem>actu;</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>actum</del>
+                  <add>actu</add>
+                </corr>
+              </rdg>
+            </app>
+            quomodo
+            enim poterit fieri actu infinita figura, quin ipsa infinitas
+            eius sit aliquid actuale et quin figura huiusmodi dicat
+            rationem figurae et unius figurae? Quia igitur in re non possunt
+            poni sine ratione certae totalitatis et certae comparationis
+            et coordinationis, ideo ad positionem infinitorum in
+            actu sequuntur omnes praedictae contradictiones, non autem
+            ad positionem eorum in divina scientia. Unde ibi non poterit
+            dici quod Deus possit ea dividere in duo media, quia
+            non dividitur nisi quod habet in se rationem unius et totius
+            quam non habent infinita scibilia in quantum talia. Unde
+            nec possunt dici excedere in duplo vel quadruplo aliquam
+            suarum partium, cum infinita ibi partes non habeant nec in
+            quantum talia dicant aliquid positivum; infinitas enim non
+            dicitur ibi privative, scilicet privando aliquid ab aliquo uno
+            subiecto, nec dicitur contrarie, ita quod dicat quandam unam
+            formam contrariam formae finitatis, nec dicit aliquod unum
+            positivum cum superexcessu, sicut facit, quando dicitur de
+            Deo; sed solum dicitur negative, significat enim plura cum
+            negatione termini et mensurae, unde nunquam potest vere
+            adiungi ad aliquem terminum singularem qui significet aliquid
+            vere unum. Unde nunquam vere Deus potest intelli<pb n="61"/>gere 
+            infinitum corpus aut infinitam figuram aut aliquem
+            unum numerum infinitum, sed solum plura ut plura potest
+            intelligere infinita; et hinc etiam est quod infinitum secundum
+            quantitatem continuam non potest intelligi a Deo, ita
+            quod intelligat aliquam lineam vel superficiem infinitam.
+            Unde infinitas obiectorum Dei semper sumitur secundum
+            <app>
+              <lem>quantitatem discretam.</lem>
+              <rdg wit="#B7">quantitates discretas</rdg>
+            </app>
+          </p>
+          <p>Si autem adhuc fortius instetur quaerendo et arguendo, 
+            sicut supra de infinitis in actu quaerebatur et arguebatur,
+            an omnis numerus scitus a Deo distet ab aliquo altero seu excedat
+            aliquem alterum 
+            <app>
+              <lem>in</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="aboveLine">in</add>
+                </corr>
+              </rdg>
+            </app> 
+            infinitum aut non -- oportet enim
+            dare alterum horum, cum sint contradictoria, de quolibet
+            enim affirmatio est vera vel negatio -: si dicatur quod sic,
+            ergo ipsemet videt inter duos numeros determinatos infinitos
+            numeros et etiam videt alterum illorum 
+            <app>
+              <lem>duorum</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">duroum</add>
+                </corr>
+              </rdg>
+            </app> 
+            numerorum
+            esse infinitum, quia videt quod alterum excedit infinitum.
+            Si detur quod non, ergo per locum ab aequipollenti
+            videt quod omnes a quolibet distant finite et quod inter eos
+            nullus est excessus infinitus et ita videt quod omnes in
+            simul accepti 
+            <app>
+              <lem>sunt</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr> <!-- what the difference between this notation: "Al. m. mg., del sint" in the present cases and othere instances of "Ex sint" -->
+                  <del>sint</del>
+                  <add place="margin">sunt</add>
+                </corr>
+              </rdg>
+            </app> finiti. Et idem potest argui de infinito secundum
+            quantitatem continuam. - Quod si quis dixerit quod
+            quilibet a quolibet distat finite et tamen nihilominus omnes
+            in simul accepti sunt infiniti: eadem ratione poterit hoc dici
+            de infinitis in actu. - Aut si quis dixerit quod si le <mentioned>quolibet</mentioned>
+            sumatur distributive, sic qt1ilibet a quolibet distat finite; si
+            vero sumatur collective, sic distat 
+            <app>
+              <lem>infinite:</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add>infinite</add>
+                </corr>
+              </rdg>
+            </app> 
+            tunc sicut supra
+            de infinitis in actu ostendebatur quod ad distributionem
+            sequebatur ibi collectio et e contrario, ita sequitur et in proposito,
+            ut videtur.</p>
+          <p>Ad hoc igitur dicendum quod haec <mentioned>omnis numerus scitus
+            a Deo distat finite ab altero</mentioned> aut haec <mentioned>nullus numerus
+            scitus a Deo distat infinite ab altero</mentioned> est concedenda
+            sumendo signa illa distributive, 
+            <app>
+              <lem>non autem est verum quod
+              ad distributionem sequatur hic 
+              collectio,</lem>
+              <rdg wit="#B7" type="om."/>
+            </app> 
+            sicut supra sequebatur; 
+            quia si numeri infiniti ponerentur in actu, tunc 
+            ponerentur omnes in simul sub ente et sub omnibus generibus 
+            et proprietatibus quae omnibus entibus communiter 
+            inessent, in divina vero scientia nunquam ponuntur in simul 
+            aggregati sub aliqua una ratione, cum ibi non ponantur nisi
+            <pb n="62"/> 
+            sub ratione sciti, divina autem scientia non fertur super 
+            omnes in simul quasi in unum scibile nec per unam rationem 
+            unius propriae ideae vel unius propriae scientiae fertur in 
+            omnes in simul acceptos 
+            <app>
+              <lem>et</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">et</add>
+                </corr>
+              </rdg>
+            </app> 
+            in simul sumptos. Unde et in proposito 
+            est verum quod omnis numerus scitus a Deo habet post 
+            se infinitos numeros scitos a Deo; nec hoc signum <mentioned>omnis</mentioned> 
+            hic positum significat in 
+            <app>
+              <lem>termino</lem>
+              <!-- in ras -->
+            </app> 
+            cui adi ungitur, scilicet in 
+            numero scito a Deo, aliquam rationem alicuius unius totius; 
+            et ideo totalitas quae per hoc signum <mentioned>omnis</mentioned> hic significatur 
+            non est aliud quam distributio universalis cuius <mentioned>omnia</mentioned> nunquam 
+            sunt in simul susceptibilia vel aggregativa. Unde licet 
+            in exemplo quod supra ponebatur praedicatum uniformiter 
+            conveniat subiecto distributive sumpto et collective, scilicet 
+            in illo <mentioned>tota domus est alba vel omnes homines sunt albi</mentioned>: 
+            tamen cum dicitur <mentioned>omnis numerus est scitus a Deo vel 
+              infiniti numeri sunt sciti a Deo,</mentioned> 
+            <app>
+              <lem>praedicatum</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>preditum</del>
+                  <add>praedicatum</add>
+                </corr>
+              </rdg>
+              
+            </app> 
+            non potest 
+            proprie et vere attribui <!-- ed text actually had "atttribui" here --> subiecto nisi distributive accepto. Et 
+            hinc est quod in illo loco ab aequipollenti quo infertur quod 
+            si nullus distat in infinitum ab altero, omnes distant finite 
+            utrobique debent sumi signa et subiecta distributive; si enim 
+            in una sumerentur distributive et 
+            <app>
+              <lem>in</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="aboveLine">in</add>
+                </corr>
+              </rdg>
+            </app> 
+            altera collective, non 
+            essent aequipollentes. Et ita non sequitur quod licet Deus 
+            videat quod omnes numeri distant a quolibet finite, quod 
+            propter hoc videat quod omnes in simul accepti sint finiti.</p>
+          
+          <p>Ad secundum dicendum quod Deum 
+            <app>
+              <lem>scire</lem> <!-- corrected somehow -->
+            </app> 
+            <app>
+              <lem>aliqua</lem> <!-- in ras ?? -->
+            </app> 
+            potest sumi confuse vel determinate; confuse sumi voco, 
+            quando scire dicitur ferri super aliqua obiecta confuse sumpta 
+            et non per modum determinati obiecti vel scibilis; et hoc modo 
+            scit Deus infinita simul sumpta, quia tunc hoc verbum <mentioned>scire</mentioned> 
+            non significat unam propriam rationem scientiae, sed sub 
+            uno sensu confuso significat simul infinitas rationes propriae 
+            <app>
+              <lem>scientiae</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">scientiae</add>
+                </corr>
+              </rdg>
+            </app> 
+            cuiuslibet finiti numeri. Si vero sumatur determinate, 
+            tunc le <mentioned>infinita</mentioned> habet magis rationem signi distributivi 
+            quam alicuius termini habentis unam rationem determinatam 
+            scibilis; unde sensus est quod Deus scit infinita 
+            finita hoc modo quod quodlibet illorum finitorum scit per se et 
+            singillatim per unam 
+            <app>
+              <lem>propriam</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">propriam</add>
+                </corr>
+              </rdg>
+            </app> 
+            ideam eius. Et per consimilem 
+            modum potest distingui propositio qua dicitur quod Deus 
+            potest facere omne scibile quod ipse scit; quia le <mentioned>facere</mentioned> potest 
+            sumi sub sensu confuso aggregante infinitas factiones 
+            <pb n="63"/>determinatas aut potest sumi sub sensu determinato pro una 
+            factione determinata; voco autem factionem determinatam 
+            omnem factionem quae in uno 
+            <app>
+              <lem>nunc</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>nec</del>
+                  <add place="margin">nunc</add>
+                </corr>
+              </rdg>
+            </app> 
+            potest simul et semel 
+            compleri; et sic similiter voco sci bile determinatum quod 
+            potest totum in simul in actu exire, quia ad minus habebit 
+            rationem unius totius aggregati et coordinati; et hoc modo 
+            totus iste mundus fuit unum scibile Dei. Quando igitur in una 
+            propositione le <mentioned>facere</mentioned> et le <mentioned>scire</mentioned> 
+            <app>
+              <lem>sumitur</lem>
+              <rdg wit="#B7">sumuntur</rdg>
+            </app> 
+            uniformiter 
+            tunc propositio est vera; quando vero unum sumitur in sensu 
+            confuso et aliud in sensu determinato, tunc est falsa, quia 
+            Deus non potest facere una factione determinata omnia infinita 
+            quae scit. Sciendum etiam quod quando dicitur quod in 
+            nullo scito divino implicatur contradictio: verum est, si 
+            sumatur secundum illum modum et 
+            <app>
+              <lem>secundum</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>secunda</del>
+                  <add>secundum</add>
+                </corr>
+              </rdg>
+            </app> 
+            illam rationem 
+            secundum quam est scitum a Deo; si autem diceretur quod
+            Deus scit infinita per unam determinatam scientiam, ita 
+            quod 
+            <app>
+              <lem wit="#B7">in illa</lem>
+              <rdg wit="#V">illa</rdg>
+            </app> 
+            haberent rationem unius determinati scibilis 
+            aut si dicatur quod scit ea quasi unum totum ex suis partibus 
+            in simul aggregatum et unitum: sic semper includitur 
+            contradictio; unde Deus non scit infinita hoc modo, et ideo 
+            non mirum, si non potest ea facere sub simili modo.</p>
+          
+          <p>Ad 
+            <app>
+              <lem>tertium</lem>
+              <rdg wit="#B7" type="intextu">iam</rdg>
+            </app> 
+            patet ex iis quae dicta sunt. Quando 
+            enim dicitur quod Deus potest facere omne quod est sibi 
+            possibile: le <mentioned>facere</mentioned> potest sumi sub sensu confuso vel sub 
+            sensu determinato et eodem modo le <mentioned>possibile</mentioned> et le <mentioned>omne</mentioned> 
+            potest sumi distributive vel collective. Si igitur le <mentioned>omne</mentioned> sumatur 
+            distributive et utrumque 
+            <app>
+              <lem>aliorum</lem>
+              <rdg wit="#V" type="corrReplace">
+                <del>aliquorum</del>
+                <add>aliorum</add>
+              </rdg>
+            </app> 
+            sumatur sub sensu 
+            determinato, propositio est vera; est enim sensus quod Deus 
+            potest una determinata factione facere quodlibet determinatum 
+            possibile, determinatum autem possibile 
+            <app>
+              <lem>non est aliud quam determinatum</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">non est aliud quam determinatum</add>
+                </corr>
+              </rdg>
+            </app> 
+            scibile. Si vero utrumque sumatur 
+            confuse, tunc etiam vera est; est enim sensus quod Deus inlinitis 
+            factionibus 
+            <app>
+              <lem>determinatis</lem> <!-- editions says "Et determinantis"; Et could be a mistake for "Ex" -->
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>determinantis</del>
+                  <add>determinatis</add>
+                </corr>
+              </rdg>
+            </app> 
+            potest infinita possibilia 
+            finita. Si autem non sumatur utrumque uniformiter, tunc 
+            praedicta propositio semper est falsa et tunc in eius negatione 
+            non implicatur contradictio, quia tunc non negatur idem eodem 
+            modo acceptum de eodem, 
+            <app>
+              <lem>eodem</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">eodem</add>
+                </corr>
+              </rdg>
+            </app> 
+            modo sumpto. Quando 
+            autem uterque terminorum sumitur uniformiter, tunc negatio 
+            eius semper includit contradictoria.</p> 
+          <!-- where I left off with app entries -->
+          <p><pb n="64"/>Ad quartum dicendum quod eodem modo quo Deus 
+            potest facere infinita est potens super infinita, et e contrario 
+            Et ideo, quia non potest una factione facere infinita 
+            <app>
+              <lem>seu quia non potest facere infinita</lem>
+              <rdg wit="#B7" type="om."/>
+            </app> 
+            simul esse, ideo non est potens 
+            hoc modo super infinita; pluribus tamen factionibus seu pluribus 
+            modis faciendi determinatis est potens super infinita 
+            distributive et non aliter sumpta.</p>
+          
+          <p>Ad quintum dicendum quod Deum posse aliquid potest 
+            sumi dupliciter: aut scilicet pro potentia per quam aliquid 
+            potest, ut sit sensus: Deus potest aliquid, id est, Deus 
+            habet potentiam per quam potest aliquid; et hoc modo quicquid 
+            Deus potest successive potest simul, id est, totam illam 
+            potentiam per quam potest aliquid facere successive vel 
+            simul totam habet simul et semper. Secundo modo potest 
+            sumi li <mentioned>posse</mentioned> non solum pro potent!a absolute accepta, sed 
+            etiam pro potentia cum modo et ordine sufficienti ad talem 
+            effectum producendum; et tunc oportet adhuc distinguere 
+            hoc signum <mentioned>quicquid,</mentioned> quia aut potest teneri distributive, ut 
+            sit sensus 
+            <app>
+              <lem>quod</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">quod</add>
+                </corr>
+              </rdg>
+            </app> 
+            quodcunque scibile finitum et determinatum 
+            potest Deus facere 
+            <app>
+              <lem>successive, facere</lem>
+              <rdg wit="#B7" type="om."/>
+            </app> 
+            potest simul; 
+            et sic est vera in illis in quibus esse unius compatitur se 
+            cum esse alterius; aut potest teneri collective, ut sit sensus 
+            quod omnia scibilia numero infinita quae Deus potest in infinitum 
+            per infinitam 
+            <app>
+              <lem>successionem</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>successive</del>
+                  <add place="margin">successione</add>
+                </corr>
+              </rdg>
+            </app> 
+            facere, potest et simul 
+            facere; et sic est falsa, et tunc praedicta propositio maior 
+            petit propositum quod debet probare. Si autem 
+            <app>
+              <lem>quaeritur</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>quaeratur</del>
+                  <add>quaeritur</add>
+                </corr>
+              </rdg>
+            </app> 
+            quare non possunt omnia fieri simul, ex quo existentia unius 
+            non impedit existentiam 
+            <app>
+              <lem>aliorum</lem>
+              <rdg wit="#B7">alterius</rdg>
+            </app> 
+            nec e contrario, patet 
+            ex omnibus praedictis: quia in quocunque modo determinato 
+            et finito quantumcunque multo vel magno possunt poni 
+            simul aliqua de illis, quaecunque illa sint; modo autem indeterminato, 
+            qualis est modus infinitus, non possunt poni, 
+            quia hoc implicat omnes contradictiones superius ostensas.</p> 
+          
+          <p>Ad sextum dicendum quod omnem cond1tlonem Deo 
+            inferiorem, quae dicit rationem entis absque omni contradictione 
+            Deus potest creare. Talis autem conditio non est 
+            infinitas actualis; quia pro quanto dicit compositionem partium 
+            <app>
+              <lem>determinatarum,</lem>
+              <rdg wit="#B7">indeterminatarum</rdg>
+            </app> 
+            istarum scilicet et illarum, pro tanto 
+            dicit aliquid; pro quanto vero dicit compositionem indeter<pb n="65"/>minatam 
+            et compositionem partium indeterminatarum, pro 
+            tanto dicit simul ens et non ens. Non est 
+            <app>
+              <lem>etiam</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">etiam</add>
+                </corr>
+              </rdg>
+            </app> 
+            verum 
+            quod huiusmodi infinitas sit passio quantitatis nisi imaginaria 
+            et phantastica. Si tamen 
+            <app>
+              <lem>infinitas</lem>
+              <rdg wit="#B7">infinitum</rdg>
+            </app> 
+            sumatur pro 
+            <mentioned>
+              <app>
+                <lem>in</lem>
+                <rdg wit="#V" type="corrAddition">
+                  <corr>
+                    <add place="margin">in</add>
+                  </corr>
+                </rdg>
+              </app> infinitum,</mentioned> 
+            tunc bene potest dici passio quantitatis; quia quantitas, 
+            quantum est de natura sua, semper potest crescere et 
+            extendi in infinitum.</p>
+          
+          <p>Et per hoc patet ad septimum: non enim mathematica 
+            docet cogitare infinitas 
+            <app>
+              <lem wit="#B7">magnitudines</lem>
+              <rdg wit="#V">imaginationes</rdg>
+            </app> 
+            vel numeros, 
+            nisi pro quanto trahit regulas de eis, 
+            <app>
+              <lem>quantumcunque</lem>
+              <rdg wit="#B7" type="intextu">in infinitum</rdg>
+            </app> 
+            extendantur vel excrescant; quicquid enim communiter et 
+            per se 
+            <app>
+              <lem>dicitur</lem>
+              <rdg wit="#B7">ostenditur</rdg>
+            </app> 
+            de triangulo, est verum de 
+            <app>
+              <lem>omni</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">omni</add>
+                </corr>
+              </rdg>
+            </app> 
+            triangulo 
+            quantumcunque magno vel modico.</p>
+          
+          <p>Ad octavum dicendum quod infinitas actualis repugnat 
+            simul factioni et 
+            <app>
+              <lem>quidditati</lem>
+              <rdg wit="#B7">quantitati</rdg>
+            </app> 
+            creaturae et actuali existentiae 
+            eius, pro eo quod nullum istorum potest esse actu 
+            aut intelligi nisi sub determinato modo; factio enim oportet 
+            quod habeat determinatum obiectum seu effectum, alias non 
+            esset factio. - Quod autem dicitur quod factio non contradicit 
+            nisi rei non factae, infinitum autem hic ponitur esse factum: 
+            dicendum quod simul ponitur esse factum et non factum; 
+            non factum quidem ponitur, 
+            <app>
+              <lem>tum quia ponitur</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">tum quia ponitur</add>
+                </corr>
+              </rdg>
+            </app> 
+            esse infinitum, 
+            tum quia nulla determinatione ponitur esse factum, sicut 
+            si lapis poneretur esse homo cum hoc quod non esset aliquis 
+            determinatus homo. - Quod etiam dicitur quod multae sunt 
+            species creatae quae nullam sibi 
+            <app>
+              <lem>certam</lem>
+              <rdg wit="#B7" type="om."/>
+            </app> 
+            quantitatem determinant 
+            - unde si poneretur infinita linea vel albedo, 
+            non propter hoc esset minus linea vel albedo, sed potius per 
+            hoc eorum quidditas esset maior extensive --: dicendum 
+            quod determinare sibi certam quantitatem potest intelligi 
+            dupliciter, aut scilicet determinando sibi hanc singularem 
+            quantitatem, utpote quantitatem unius palmi, et sic verum 
+            est quod multa sunt quae non determinant sibi talem; aut 
+            potest 
+            <app>
+              <lem>hoc</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>quod</del>
+                  <add place="margin">hoc</add>
+                </corr>
+              </rdg>
+            </app> 
+            intelligi quod pro tanto determinent sibi quantitatem, 
+            quia nunquam possunt esse actu nisi sub aliqua 
+            quantitate finita, quantacunque sit ilia, et sic illa est falsa. 
+            Nec est verum quod dicebatur quod linea infinita habeat 
+            plus de natura lineae quam finita, quia linea infinita simul 
+            <pb n="66"/> 
+            ponit et negat naturam et existentiam lineae. - Quod autem 
+            tertio dicitur de infinitate Dei non est simile, quia illa infinitas 
+            non 
+            <app>
+              <lem>surgit</lem>
+              <rdg wit="#B7">consurgit</rdg>
+            </app> 
+            ex compositione seu aggregatione partium 
+            nec est realiter aliud ab ipsa simplicitate et unitate 
+            divinae essentiae; talis autem infinitas non repugnat, immo 
+            summe consonat actuali essentiae, quamvis nec ista sit communicabilis 
+            creaturae, sicut in quaestione an in quolibet angelo 
+            sit tota sua species plenius ostendetur.</p>
+          
+          <p>Ad nonum dicendum quod in potentiis nulla est 
+            <app>
+              <lem>infinitas</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>finitas</del>
+                  <add>infinitas</add>
+                </corr>
+              </rdg>
+            </app> 
+            actualis; unde tot et tanti habitus et actus possunt 
+            eis inesse quod simul non possent plures vel maiores continere, 
+            unde possunt actu repleri per aliqua finita. - Quod autem dicitur 
+            quod intellectus potest duplum et mille duplum omnis 
+            numeri quantumcunque magni apprehendere: dicendum -- 
+            sicut et ibidem dicebatur - quod distincte et explicite non 
+            potest hoc facere, sed solum 
+            <app>
+              <lem>indistincte</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>distincte</del>
+                  <add>indistincte</add>
+                </corr>
+              </rdg>
+            </app> 
+            et implicite; 
+            <app>
+              <lem wit="#B7">distincte 
+                autem voco quod intellectus feratur super unamquamque 
+                partium numeri per se;</lem>
+              <rdg wit="#V" type="om."/>
+            </app> 
+            indistincte autem voco 
+            quod sub apprehensione alicuius nominis significantis aliquem 
+            unum 
+            <app>
+              <lem>totalem</lem>
+              <rdg wit="#B7" type="om."/>
+            </app> 
+            numerum apprehendat ipsum totum numerum. 
+            Hoc autem modo intellectus potest semper in infinitum 
+            numerum maiorem apprehendere, quoniam in hoc nulla implicatur 
+            infinitas capacitatis suae, quia in apprehendendo maiorem 
+            numerum non fertur super ipsum nisi sicut super 
+            <app>
+              <lem>unum</lem>
+              <rdg wit="#B7" type="om."/>
+            </app> 
+            alium terminum et sicut super unam aliam speciem numeri; 
+            non exigitur autem maior capacitas ad apprehendendum maiorem 
+            numerum per hunc modum quam exigatur ad apprehendendum 
+            minorem numerum. Et idem est de apprehensione 
+            figurarum in quibus sequens semper habet plus unum angulum 
+            quam praecedens: 
+            <app>
+              <lem wit="#B7">si</lem>
+              <rdg wit="#V">sed</rdg>
+            </app> 
+            enim figurae huiusmodi apprehenderentur 
+            per dilatationem aspectus super omnes partes earum, 
+            tunc tanta posset esse figura quod non posset uno aspectu 
+            <app>
+              <lem>apprehendi;</lem>
+              <rdg wit="#B7">comprehendi</rdg>
+            </app> 
+            si autem per unum aliquem 
+            <app>
+              <lem>terminum</lem>
+              <rdg wit="#B7">numerum</rdg>
+            </app> 
+            et per 
+            unam 
+            <app>
+              <lem>aliquam</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr> <!-- "al. m. in ras." -->
+                  <add>aliquam</add>
+                </corr>
+              </rdg>
+            </app> 
+            rationem implicite solum comprehendentem 
+            omnes partes eius apprehendatur, tunc poterit tota simul apprehendi, 
+            quoniam ad sic apprehendendum maiorem figuram 
+            non exigitur maior dilatatio aspectus quam ad apprehendendum 
+            minorem. Huius autem exemplum expresse videmus in 
+            verbo oris nostri: sicut enim possum intelligere in infinitum 
+            <pb n="67"/>
+            semper maiorem ac maiorem numerum, sic possum et verbo 
+            significare; et tamen ad hoc non exigitur actualis infinitas 
+            linguae vel vocis, quia ita brevi nomine possum nominare 
+            magnum numerum sicut parvum.</p>
+          
+          <p>Quod igitur contra hoc affertur, quod nullum totum potest 
+            videri totum, si aliqua partium eius 
+            <app>
+              <lem>lateat:</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>liteat</del>
+                  <add>lateat</add>
+                </corr>
+              </rdg>
+            </app> 
+            dicendum 
+            quod nullum totum potest videri distincte, quin omnes partes 
+            eius 
+            <app>
+              <lem>distincte videantur, nec aliquod totum potest videri</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">distincte videantur, nec aliquod totum potest videri</add>
+                </corr>
+              </rdg>
+            </app> 
+            indistincte et implicite, quin omnes partes eius 
+            <app>
+              <lem>consimiliter</lem>
+              <rdg wit="#B7">totaliter</rdg>
+            </app> 
+            videantur, nisi forte ipsum totum ex hoc dicatur 
+            distincte apprehendi, quia apprehenditur ut distinctum ab 
+            <app>
+              <lem>aliis</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <add place="margin">alii</add>
+                  <del>aliis</del>
+                </corr>
+              </rdg>
+            </app> 
+            totis, quamvis partes suae indistincte apprehendantur; 
+            et hoc modo possum videre unum vel duos exercitus 
+            vel 
+            <app>
+              <lem>duos acervos lapidum</lem>
+              <rdg wit="#B7">unum lapidum</rdg>
+            </app> 
+            de longe, non distinguendo aliquam 
+            partium eius nisi confuse et implicite. - Quod etiam secundo 
+            affertur quod nullus scit speciem numeri, nisi sciat 
+            quot unitates sint in eo - 
+            <app>
+              <lem>unde</lem>
+              <rdg wit="#B7" type="intextu">et</rdg>
+            </app> 
+            species distinguuntur per 
+            maiorem excessum 
+            <app>
+              <lem>unitatis</lem>
+              <rdg wit="#B7">unitatum</rdg>
+            </app> 
+            --: dicendum quod scire quot 
+            unitates sint in numero et scire unam speciem numeri excedere 
+            alteram in tot unitatibus potest quis distincte vel indistincte; 
+            distincte quid em scit hoc, quando unamquamque 
+            unitatem secundum se distincte apprehendit; indistincte 
+            <app>
+              <lem wit="#B7">vero</lem>
+              <rdg wit="#V">quidem</rdg>
+            </app> 
+            scit hoc, quando per 
+            <app>
+              <lem>aliquas</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>alias</del>
+                  <add place="margin">aliquas</add>
+                </corr>
+              </rdg>
+            </app> 
+            rationes et per aliquos 
+            terminos multitudinem et excessum earum apprehendit; unde 
+            per hunc terminum «mille» et per rationem quam significat 
+            scio quod in decuplo excedit millenarius centenarium absque 
+            hoc quod intellectus meus feratur singillatim et distincte 
+            super omnes unitates eorum. Per consimilem autem modum 
+            potest responderi ad illud quod de voluntate et memoria 
+            tangebatur. - Quod autem tertio de memoria angelorum 
+            <app>
+              <lem>affertur:</lem>
+              <rdg wit="#V">fertur</rdg>
+            </app> dicendum quod - sicut loco suo plenius habet 
+            tangi - ponere quod nulla species retenta a memoria angeli 
+            deleatur est ponere quod capacitas suae memoriae sit 
+            actu 
+            <app>
+              <lem>infinita;</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>finita</del>
+                  <add>infinita</add>
+                </corr>
+              </rdg>
+            </app> 
+            et est praeter hoc contra naturam generationis: 
+            quae enim de novo generantur a virtute 
+            <app> <!-- this is an example of "Ex create"; could all entries like this indicate an editorial correction -->
+              <lem>creata</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>create</del>
+                  <add>creata</add>
+                </corr>
+              </rdg>
+            </app> 
+            in 
+            aliquo subiecto, nihil inconveniens, si possunt et corrumpi; 
+            constat autem quod multae species et multarum specierum novae 
+            compositiones generantur in memoria angeli. Cum habitus
+          <pb n="68"/> 
+            etiam voluntatis recti fuerint deleti de voluntate daemonum 
+            et multae species deleantur de acie intelligentiae 
+            <app>
+              <lem>eorum:</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>earum</del>
+                  <add>eorum</add>
+                </corr>
+              </rdg>
+            </app> 
+            patet 
+            <app>
+              <lem>quod incorruptibilitas</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">quod incorruptibilitas</add>
+                </corr>
+              </rdg>
+            </app> 
+            vel intellectualitas naturae 
+            angelicae non obstat quin aliquae species memoriae eius 
+            possint corrumpi.</p>
+          <p>Ad decimum dicendum quod potentia 
+            <app>
+              <lem>continui</lem> <!-- Al. m. corr.; sequitur ras. et lac. -->
+            </app> 
+            non 
+            est actu infinita. Omnes autem rationes quae ad hoc probandum 
+            subiunguntur, si verae essent, non solum probarent 
+            potentiam continui esse actu infinitam, sed etiam quod quodlibet 
+            continuum quantumcunque parvum esset infinitae quantitatis 
+            et ita quod esset maius caelo et omni quanto finito.</p>
+          <p>Quod ergo primo ad hoc affertur quod tot habet divisibilitates 
+            simul in actu quot potest divisiones successive habere 
+            et quod omnes divisibilitates distant secundum situm, sicut 
+            et ipsae divisiones: dicendum quod una divisibilitas continui 
+            non est distincta ab alia nisi eo modo quo unus punctus seu 
+            situs eius <sic>punctalis</sic> est distinctus ab alio puncto seu ab alio 
+            situ <sic>punctali;</sic> cum enim divisio non fiat nisi in puncto, non 
+            sunt plures divisibilitates quam sint puncta signabilia. Aut 
+            igitur 
+            <app>
+              <lem>nomine</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>nomne</del>
+                  <add>nomine</add>
+                </corr>
+              </rdg>
+            </app> 
+            divisibilitatis intendimus significare potentiam 
+            materiae et partium eius per quam est susceptiva divisionis 
+            aut punctales uniones partium ex quarum destructione 
+            divisio generatur quasi in eodem situ. Si primo modo, 
+            tunc non est danda alia multiplicitas vel infinitas in potentia 
+            illa quam in partibus materiae; unde sicut partes materiae 
+            nullam habent actualem distinctionem in homogeneis, 
+            immo faciunt unum ens continuum: sic nec potentiae earum 
+            sunt actu distinctae, sed potius faciunt unam potentiam continuam; 
+            et consimiliter situs vel positiones earum non sunt 
+            actu distincti, sed potius est ibi unus situs continuus. Si vero 
+            sumatur secunda modo, scilicet pro <sic>punctali</sic> unione partium: 
+            tunc dicendum quod sicut partes quae sunt extrema 
+            unionum suarum non 
+            <app>
+              <lem>sunt</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>sumit</del>
+                  <add>sunt</add>
+                </corr>
+              </rdg>
+            </app> 
+            actu distinctae, sic nec ipsae 
+            uniones; omnis enim relatio cuius extrema non habent actu 
+            rationem extremorum est solum in potentia. Et si dicatur 
+            quod partes tunc non essent actu unitae, sed solum in potentia: 
+            dicendum quod omnes partes continui sunt actu unitae, 
+            sed non unionibus actualiter inter se distinctis, sed omnes 
+            in simul sumptae et sub indistinctione sunt una totalis unio; 
+            quicunque autem imaginatur ibi plures uniones <sic>punctales</sic> 
+            <pb n="69"/>
+            seu plures situs, semper imaginatur prius plures partes, illas
+            scilicet quas accipit 
+            <app>
+              <lem>ut</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">ut</add>
+                </corr>
+              </rdg>
+            </app> 
+            extrema unionum illarum, et ideo
+            primo distinguit eas in sua imaginatione.</p>
+            <p>Ad id etiam quod secundo affertur dicendum quod continuum
+            posse suscipere simul divisiones numero plures omni
+            numero 
+              <app>
+                <lem>finito</lem>
+                <rdg wit="#V" type="corrReplace">
+                  <corr>
+                    <del>infinito</del>
+                    <add>finito</add>
+                  </corr>
+                </rdg>
+              </app> 
+              quarumcunque divisionum potest intelligi
+            dupliciter, quia le <mentioned>omni</mentioned> potest teneri 
+              <app>
+                <lem>distributive,</lem>
+                <rdg wit="#V" type="corrReplace">
+                  <corr>
+                    <del>distributione</del>
+                    <add>distributive</add>
+                  </corr>
+                </rdg>
+              </app> 
+              ut 
+              sit sensus quod quocunque numero divisionum finito et determinate
+            sumpto potest dari simul alius numerus divisionum
+            maior illo; et sic maior est vera, saltem respectu
+            potentiae Dei, minor autem falsa. Aut potest teneri collective
+            et quasi confuse, ut sit sensus quod omnibus numeris
+            divisionum qui coniunctim vel disiunctim dari possunt potest
+            dari maior; et sic est falsa maior, sed minor vera. Aut
+            potest clarius dici ~ licet in idem redeat - quod omni numero
+            finito qui simul et coniunctim dari potest actu potest
+            adhuc dari maior, non autem omni numero finito qui disiunctive
+            dari potest; voco autem disiunctive dari, quando uno
+            numero actu dat? alter non potest actu dari nisi specie prioris
+            destructa et e contrario.</p>
+            <p>Ad id quod tertia 
+              <app>
+                <lem>obicitur</lem>
+                <rdg wit="#V" type="corrAddition">
+                  <corr>
+                    <add place="margin">obicitur</add>
+                  </corr>
+                </rdg>
+              </app> 
+              dicendum quod quia una 
+              divisio non repugnat alteri, ideo non 
+              <app>
+                <lem>potest</lem>
+                <rdg wit="#V" type="corrReplace">
+                  <corr>
+                    <del>postest</del>
+                    <add>potest</add>
+                  </corr>
+                </rdg>
+              </app> 
+              dari simul tot 
+              quin plures solum in determinato numero dentur; sub numero
+            autem infinito vel indeterminato dari non possunt. Et
+            hoc non provenit ex mutua divisionum repugnantia, sed potius 
+            ex contradictionibus quas 
+              <app>
+                <lem>implicat</lem>
+                <rdg wit="#V" type="corrReplace">
+                  <corr>
+                    <del>ineplicat</del>
+                    <add>implicat</add>
+                  </corr>
+                </rdg>
+              </app> 
+              in se actualis infinitas.</p>
+            <p>Ad id quod quarto 
+              <app>
+                <lem>obicitur</lem>
+                <rdg wit="#V" type="corrAddition">
+                  <corr>
+                    <add place="margin">obicitur</add>
+                  </corr>
+                </rdg>
+              </app> 
+              dicendum quod veritas 
+              essentiae omnium partium in quas potest dividi quantum 
+              est in suo toto, sed non est ibi sub actuali distinctione, sed 
+              potius sub totali unitate totius continui praeterquam in 
+              <app> <!-- ed says: "Al. m.; sequitur lac" -->
+                <lem>heterogeneis:</lem>
+              </app> 
+              partes enim heterogeneae habent divisibilitatem
+            specificam, sed non possunt ibi esse diversae species partium
+            infinitae actu. Rursus est sciendum quod modus essendi quem
+            partes per divisionem perdunt erat modus unitatis suae continuitatis;
+            et ita non erat modus distinctus, sed potius indistinctus.
+            Ex praedicto igitur argumento non sequitur quod
+            ibi sint partes aut essentiae partium actu infinitae, sed solum
+            quod ibi est veritas et essentia partium in infinitum divi<pb n="70"/>sibilium; 
+              unde non habet actuali multiplicitate omnia illa in 
+            quae potest dividi et sic multo minus nec sub actuali infinitate, 
+            sed potius habet ea sub actuali unitate et sub 
+            <app>
+              <lem>unica</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>uica</del>
+                  <add>unica</add>
+                </corr>
+              </rdg>
+            </app> 
+            essentia et veritate. - Si dicatur quod essentia unius partis 
+            non est essentia alterius, ergo est alia et sic per consequens 
+            essentia unius 
+            <app>
+              <lem>est</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>aliquid</del>
+                  <add place="margin">est</add>
+                </corr>
+              </rdg>
+            </app> 
+            distincta ab essentia alterius: dicendum 
+            quod essentia partis, prout est partialis seu prout est eius 
+            propria et praecisa, non potest accipi in toto homogeneo nisi 
+            cum quadam discretione intellectuali seu imaginaria; et 
+            prout est sic accepta, potest dici quod essentia unius est alia 
+            ab essentia alterius, secundum rem tamen non est ibi nisi 
+            una essentia, talem tamen unitatem habens quod sola divisione 
+            suae continuitatis potest dividi in plura. Potest etiam 
+            dici quod licet propria essentia unius partis non sit propria 
+            essentia alterius, tamen essentia unius non 
+            <app>
+              <lem>est</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add>est</add>
+                </corr>
+              </rdg>
+            </app> 
+            alia ab 
+            essentia alterius nisi solum in potentia. Nec sequitur quod 
+            si essentia unius non est essentia alterius, quod propter hoc 
+            sit alia; quia quando dicimus quod essentia unius non est 
+            essentia alterius, non intendimus aliud significare nisi quod 
+            non sunt omnino una simplex essentia, nullo modo divisibilis 
+            in 
+            <app>
+              <lem>partes;</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>partis</del>
+                  <add>partes</add>
+                </corr>
+              </rdg>
+            </app> 
+            quando vero dicimus quod non sunt aliae inter 
+            se invicem, intendimus solum significare quod non sunt actualiter 
+            distinctae. - Si iterum instetur quod communiter solet 
+            dici quod in continuo partes indeterminatae non sunt nisi in 
+            potentia, partes vero determinatae sunt in actu - ex quo 
+            potest surgere quaestio an partes determinatae sint ibi solum 
+            sub numero finito, ita quod sit ibi dare partes determinatas 
+            tot et non plures, aut sint ibi sub numero infinito -: dicendum 
+            quod in homogeneis non est dare aliquam partem actu 
+            distinctam; unde partes determinatae non sunt ibi actu hoc 
+            modo quod sint actu distinctae; et ideo quando quaeritur 
+            an sint ibi sub numero finito 
+            <app>
+              <lem>vel infinito,</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">nomine</add>
+                </corr>
+              </rdg>
+            </app> 
+            responderi debet 
+            quod sub nullo numero sunt ibi ac per consequens nec sub 
+            numero finito nec sub numero infinito; nisi autem ita respondeatur, 
+            non possunt vitari inconvenientia et contradictiones. 
+            Hoc autem quod dictum est habet locum, si le <mentioned>determinatae</mentioned> 
+            sumatur in universali, non specificando in particulari 
+            quanta est illa determinatio; quia si specificetur utpote dicendo 
+            <mentioned>tot palmi vel tot cubiti sunt in hoc toto continuo,</mentioned> 
+            sic ad quaestionem qua quaeritur an partes determinata 
+            <pb n="71"/>
+            <app>
+              <lem>sint</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>sint</del>
+                  <add>sunt</add>
+                </corr>
+              </rdg>
+            </app> 
+            ibi sub numero finito semper debet responderi quod 
+            sic; et quia 
+            <ref>
+              <seg><name ref="#Aristotle">Aristoteles</name></seg>
+              <bibl>Phys., VI, 1 231a 21 sqq.; VI, 2 232a23sqq.; V, 3, 227a10sqq</bibl>
+            </ref> 
+            et communiter loquentes semper 
+            intendunt hoc modo accipere partes determinatas, ideo 
+            simpliciter loquendo potius debet responderi isto 
+            <app>
+              <lem>ultimo</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">nomine</add>
+                </corr>
+              </rdg>
+            </app> 
+            modo quam primo.</p>
+          
+          <p>Ad id quod quinto 
+            <app>
+              <lem>obicitur</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">obicitur</add>
+                </corr>
+              </rdg>
+            </app> 
+            dicendum quod materia 
+            per suam potentiam finitam est potens recipere successive 
+            formas alias et alias in infinitum, sicut et agens per potentiam 
+            activam finitam potest generare diversas similitudines 
+            in infinitum; quia potentia per quam recipit unam non est 
+            semper per essentiam diversa a potentia per quam recipit 
+            aliam nec respectus quos habet, in quantum est possibilis 
+            ad infinitas, sunt semper realiter diversi nec dicunt aliud 
+            quam ipsam possibilitatem; et ideo non oportet quod ex hoc 
+            sequatur actualis infinitas. - Si vero obiciatur quod saltem 
+            ilia potentia de qua simul possunt educi non tot quin plura 
+            videtur esse actu infinita, talis autem est potentia continui 
+            de qua per divisionem possunt fieri simul semper plura et 
+            plura entia: dicendum quod illa potentia de qua et in qua 
+            possunt simul educi non tot quin plura ipsa semper remanente 
+            una est actu infinita, non autem illa de qua non potest 
+            hoc fieri nisi per eius destructionem et divisivam minorationem; 
+            et hoc modo solum potest fieri in continuo; 
+            unde et 
+            <ref>
+              <seg><name ref="#Averroes">Commentator</name></seg>
+              <bibl>Averroes; locum non inveni</bibl>
+            </ref> 
+            dicit quod 
+            <app>
+              <lem>potentia ad divisionem potius est</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">potentia ad divisionem potius est</add>
+                </corr>
+              </rdg>
+            </app> 
+            potentia ad sui destructionem quam ad 
+            perfectionem.</p>
+          
+          <p>Ad undecimum dicendum quod linea non potest fieri 
+            absque terminis sine contradictione praeter lineam circularem;
+            et posito quod Deus hoc facere posset, non propter hoc
+            esset actu infinita, hoc scilicet modo quod haberet partes actu
+            universales et in infinitum protensas. - Quod autem dicitur
+            quod essentiam puncti potest Deus separare ab essentia partium
+            lineae, cum sint realiter diversae: ad hoc quidam dicunt
+            quod punctus penitus nihil reale dicit nisi solum privationem
+            partium ultimarum; alii vero dicunt quod etsi dicat
+            aliquid positivum, non tamen dicit aliquid quasi extrinsecum
+            ab essentia lineae et partium eius aut quasi extrinsecum si<pb n="72"/>tuatum, 
+            sed solum est quaedam formalis et finalis et essentialis 
+            proprietas ipsarum; et ideo non est separabilis a linea 
+            per divisionem seu praecisionem, licet 
+            <app>
+              <lem wit="#B6">sit</lem>
+              <rdg wit="#B7">scit</rdg>
+            </app> 
+            destructibilis 
+            per lineae 
+            <app>
+              <lem>totalem</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>talem</del>
+                  <add>totalem</add>
+                </corr>
+              </rdg>
+            </app> 
+            continuationem, sicut fit, quando linea 
+            recta vertitur in lineam circularem.</p> 
+          <p>Ad duodecimum dicendum quod nec in aevo nec in 
+            motu est dare infinita actu.</p>
+          <p>Ad primam igitur probationem in contrarium dicendum 
+            quod sicut mobile est semper in loco sibi aequali, quamdiu 
+            durat motus, nunquam enim potest occupare locum maiorem 
+            <app>
+              <lem>aut</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>au</del>
+                  <add>aut</add>
+                </corr>
+              </rdg>
+            </app> 
+            minorem se, et tamen non est dare aliquam partem 
+            motus vel temporis in qua mobile non fuerit in locis in infinita 
+            loca divisibilibus -: sic et in aevo non est dare aliquam 
+            partem aevi in qua totum esse aeviternorum non 
+            <app>
+              <lem wit="#B6">fuerit</lem>
+              <rdg wit="#V">fiunt</rdg>
+            </app> 
+            permanens 
+            permanentia in infinitum divisibili, et tamen ipsum 
+            esse totum est simul semper. - Quod autem dicitur quod hoc 
+            non possit fieri, nisi semper sit in aliquo nunc: dicendum quod 
+            esse eorum potest accipi dupliciter, primo modo, prout communiter 
+            se habet ad praeteritum, praesens et futurum, ita 
+            quod non includit determinate in sua ratione hoc vel illud 
+            tempus nec hoc vel illud nunc. Et hoc modo semper est totum 
+            simul; sed haec simultas non est determinata necessario ad 
+            unum nunc, 
+            <app>
+              <lem>immo</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>nunc</del>
+                  <add place="margin">immo</add>
+                </corr>
+              </rdg>
+            </app> 
+            commetitur se seu potius coexistit toti 
+            successioni aevi et pluribus nunc, eo modo quo dicimus quod 
+            idem esse angeli est semper totum in tota duratione sua 
+            <app>
+              <lem>et</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="aboveLine">et</add>
+                </corr>
+              </rdg>
+            </app>  
+            in qualibet parte eius. Et hoc modo sumitur ipsum esse quasi 
+            nominaliter, pro eo quod non significat determinate hoc vel 
+            illud tempus. Secundo modo potest accipi cum 
+            <app>
+              <lem>determinata</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>determinatea</del>
+                  <add>determinata</add>
+                </corr>
+              </rdg>
+            </app> 
+            consignificatione certi temporis et certae durationis, et hoc 
+            modo consuevimus ipsum magis significare per hoc verbum 
+            <mentioned>existere</mentioned>; hoc autem facimus, quando dicimus quod angelus 
+            est vel existit in hoc nunc et fuit vel exstitit heri, et tunc 
+            significamus ipsum esse ut est per continuam durationem 
+            existens seu ipsam durationem eius concretive sumptam. Et 
+            hoc modo non est totum semper simul quantum ad rem durationis 
+            quam significat, nisi solum quando est in initio vel 
+            termino suae durationis; quia tunc solum existit actu in nunc. 
+            - Quod autem dicitur quod semper totum simul fit vel conservatur 
+            a Deo: dicendum quod ista circumlocutio, scilicet 
+            <pb n="73"/> 
+            <!-- where i left off with corrections -->
+            <mentioned>totum simul,</mentioned> potest determinare hoc verbum <mentioned>fit</mentioned> ratione 
+            ipsius fieri vel ratione ipsius esse nominaliter accepti. Primo 
+            modo non est vera, quia tunc esset sensus quod suum fieri 
+            vel conservari totum esset simul, et ita non esset successivum. 
+            Secundo modo vera est; est enim sensus quod una 
+            pars ipsius esse vel suae essentiae non sit in una parte durationis 
+            et alia in alia, sed potius tota in qualibet.</p>
+          <p>Ad secundam dicendum quod 
+            <app>
+              <lem>esse</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>esset</del>
+                  <add>esse</add>
+                </corr>
+              </rdg>
+            </app> 
+            aeviterni fuit actu 
+            in qualibet parte suae durationis, sed non fuit ibi per viam 
+            discretionis, sed potius per modum continuationis; ipsa enim 
+            duratio est quaedam continua existentia eius; et ideo non 
+            oportet quod omnes partes numeraverit actu, quia numeratio 
+            actualem distinctionem et discretionem includit. -- Quod 
+            autem dicitur quod in nulla parte divisibili potest esse simul: 
+            dicendum quod le <mentioned>esse simul</mentioned> potest hic accipi tripliciter, 
+            aut ut scilicet 
+            <app>
+              <lem>per</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">per</add>
+                </corr>
+              </rdg>
+            </app> 
+            hoc significemus quod ipsum 
+            esse, ut est nominaliter sumptum, non haberet totam veritatem 
+            suae quidditatis simul; aut 
+            <app>
+              <lem>ut</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">ut</add>
+                </corr>
+              </rdg>
+            </app> 
+            significemus quod 
+            quamdiu est in parte divisibili, non est in 
+            <app>
+              <lem>aliqua</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <del>alia</del>
+                  <add place="margin">aliqua</add>
+                </corr>
+              </rdg>
+            </app> 
+            mensura 
+            simultanea, qualis solum est ipsum nunc; aut ut significemus 
+            simultatem quae competere potest parti durationis divisibili, 
+            quae licet non sit simul in nunc, est tamen quoad hoc simul 
+            in se ipsa, hoc est dicere quod ipsa non est ante se ipsam 
+            et post se ipsam, quamvis infra ipsam sit una pars eius prior 
+            et alia posterior. Primo ergo modo et tertio potest dici quod 
+            esse est totum simul in parte divisibili, non autem secundo 
+            modo.</p>
+          <p>Ad tertiam dicendum quod esse, in quantum est nominaliter 
+            acceptum, absque, scilicet consignificatione praeteriti 
+            vel praesentis vel futuri, non se habet aliter post suum exitum 
+            quam in 
+            <app>
+              <lem>initio</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>nitio</del>
+                  <add place="margin">initio</add>
+                </corr>
+              </rdg>
+            </app> 
+            suo; et hoc modo non sequitur conclusio. 
+            Respectu vero suae durationis se habet aliter post 
+            quam se haberet in suo initio; quia post existit per quandam 
+            continuationem protensam, in ipso autem initio non 
+            potest dari talis continuatio vel protensio.</p> 
+          <p>Ad quartam quae est de motu dicendum quod mobile 
+            semper esse in 
+            <app>
+              <lem>loco,</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>lo</del>
+                  <add place="margin">loco</add>
+                </corr>
+              </rdg>
+            </app> 
+            <app>
+              <lem>dum</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">dum</add>
+                </corr>
+              </rdg>
+            </app> movetur, potest intelligi dupliciter: 
+            aut quia semper habet ibi existentiam et localitatem 
+            actu distinctam et discretam ab omni alia localitate aut quia 
+            habet unam continuam localitatem per continuam succes<pb n="74"/>sionem 
+            acquisitam quae potest dividi in plures localitates et 
+            hoc 
+            <app>
+              <lem>in</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">in</add>
+                </corr>
+              </rdg>
+            </app> 
+            infinitum. Primo modo non est in loco nisi solum in 
+            initio motus et in fine eius; secundo modo semper, 
+            <app> <!-- dbcheck -->
+              <lem>dummodo</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <del>de modo</del>
+                  <add place="margin">dummodo</add>
+                </corr>
+              </rdg>
+            </app> 
+            est in loco. - Quod autem dicitur quod nunquam est in loco 
+            nisi sibi adaequato, ita quod termini eius sunt actu terminati 
+            infra terminos loci sui: dicendum quod licet sit verum quod 
+            nunquam est in loco nisi sibi 
+            <app> <!-- some sort of correction -->
+              <lem>adaequato</lem>
+            </app> 
+            - nunquam enim 
+            habet locum maiorem se vel minorem -, non tamen propter 
+            hoc affirmative potest inferri quod semper sit in loco sibi 
+            adaequato, nisi praesupponatur quod sit in uno loco et non 
+            in pluribus locis. Mobile autem in toto motu et in qualibet 
+            parte temporis et motus fuit in pluribus locis et nunquam in 
+            uno solo; non quod fuerit simul in eis simultate quae spectat 
+            ad instans indivisibile, sed solum simultate quae potest competere 
+            uni parti temporis divisibilis. Unde le <mentioned>est</mentioned> semper 
+            hic aequivocatur, quia potest consignificare praesens instantaneum, 
+            ut sit sensus: semper est in loco sibi aequali, id est, 
+            semper est dare aliquod instans in quo semper est in loco 
+            sibi aequali; et hoc modo est falsa, quia non semper est 
+            dare instans in actu, nisi forte secundum illos qui ponunt 
+            illud simul 
+            <app>
+              <lem>concurrere</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">concurrere</add>
+                </corr>
+              </rdg>
+            </app> 
+            cum tempore; quamquam tunc non 
+            ponant illud nisi in fluxu successionis secundum quem modum 
+            non ponitur mensurare instantanea sed potius successiva. 
+            <app>
+              <lem>Potest</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">potest</add>
+                </corr>
+              </rdg>
+            </app> 
+            etiam le <mentioned>est</mentioned> consignificare praesens tale quale 
+            potest competere parti temporis divisibili; et tunc non 
+            <app>
+              <lem>debet</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">debet</add>
+                </corr>
+              </rdg>
+            </app> 
+            dici quod semper est in loco sibi aequali, dum movetur, 
+            sed potius quod semper est in pluribus locis vel in 
+            quadam localitate divisibili in plura loca, ne realem distinctionem 
+            locorum vel localitatum ibi ponere videamur; non 
+            autem per hoc intendimus dicere quod totam illam localitatem 
+            divisibilem in plura loca habeat simul ipsum mobile 
+            nisi loquendo de simultate temporis secundum quam tempus 
+            dicitur simul cum motu et e contrario, non autem loquendo 
+            de simultate instantanea.</p>
+          
+          <p>Ad quintam dicendum quod sicut in continuo permanenti
+          non distinguitur actu pars a parte, sic nec in continuo
+          successivo; et ideo prius et posterius non sunt ibi actu tanquam
+          res inter se distinctae. Rursus advertendum quod relationes
+          prioritatis et posterioritatis ad hoc quod sint actu
+          exigunt extrema actu; et cum istae relationes sint oppositae
+          <pb n="75"/> 
+            ac per consequens non possint esse actu distinctae, quin in 
+            eorum extremis sit aliqua distinctio actualis: hinc est 
+            <app>
+              <lem>quod</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">quod</add>
+                </corr>
+              </rdg>
+            </app>
+            in continuo successivo non est proprie dare actu prius et
+            posterius, nisi partes eius accipiantur prius ut distinctae secundum
+            rem vel secundum intellectum. - Quod autem dicitur
+            quod quando unum eorum est, alterum eorum non est, et sic
+            sequitur quod distinguantur sicut ens et non ens: dicendum
+            quod illa pars quae sumitur ut ens iam sumitur ut distincta
+            ab illa quae accipitur ut nondum ens. Sciendum est etiam
+            quod aliter esse dicitur de successione et partibus eius, aliter
+            de <sic>instantaneis:</sic> illa enim non 
+            <app>
+              <lem>dicuntur</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>dicitur</del>
+                  <add place="margin">dicuntur</add>
+                </corr>
+              </rdg>
+            </app> 
+            esse quasi partes 
+            eius sicut in aliquo uno nunc, sed solum quia sunt in successione. 
+            Licet igitur partes successionis non possint secundum 
+            se totas esse in aliquo uno nunc, immo nec secundum aliquam 
+            partem suam, possunt tamen secundum se totas esse in aliqua 
+            una successione; et respectu illius totalis successionis 
+            non debet dici quod quando una pars est, alia non est; sed 
+            solum debet hoc dici vel respectu instantis vel respectu partialis 
+            successionis quae 
+            <app>
+              <lem>competit</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>comptit</del>
+                  <add>competit</add>
+                </corr>
+              </rdg>
+            </app> praecise soli alteri illarum 
+            partium. - Et per hoc patet ad duodecimum.</p>
+          <p>Ad tertium decimum principale dicendum quod 
+            quando dicitur quod nullum verbum est Deo impossibile, hoc 
+            est intelligendum de verbo rationali et intelligibili; verbum 
+            enim contradictionem implicans potius debet dici non verbum, 
+            pro quanta 
+            <app>
+              <lem>significat</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>signat</del>
+                  <add>significat</add>
+                </corr>
+              </rdg>
+            </app> (d) aliquid repugnans entitati et 
+            factioni.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

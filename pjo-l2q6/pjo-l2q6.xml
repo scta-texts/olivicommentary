@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+               <title>Librum II, Quaestio 6</title>
+                <author xml:id="PJO">Peter John Olivi</author>
+                <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2015.06">
+                    <title>Librum II, Quaestio 6</title>
+                    <date when="2015-06-15">June 15, 2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Ad Claras Aquas</publisher>
+                <pubPlace>Quaracchi</pubPlace>
+                <availability status="free">
+                    <p>Public Domain</p>
+                </availability>
+                <date when="1922">1922</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Quaestions In Secundum Librum Sententiarum, ed. Bernardus Jansent, S.I, Ad Claras Aquas, 1922</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2015-06-15" who="#CO" status="draft" n="2015.06">
+                    <p>Created file for the first time.</p>
+                    <note type="status">
+                        <note type="collobaration">Yes</note>
+                        <note type="validating-schema">lbp-0.0.1</note>
+                        <note type="transcription-type">critical</note>
+                    </note>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div xml:id="includeList">
+                <!-- <xi:include
+                    href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+                    xpointer="worksCited"/> 
+                <xi:include
+                    href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+                    xpointer="prosopography"/> -->
+            </div>
+        </front>
+        <body>
+            <div xml:id="pjo-l2q6">
+                <head>Librum II, Quaestio 6</head>
+                
+                <p>Sexto post hoc (a) quaeritur an sint plures mundi vel
+                solum unus et an sit possibile plures mundos esse.</p>
+                <p>Circa hoc <ref><name ref="#Aristotle">Aristoteles,</name> libro <title ref="deCaeloEtMundo">De caelo et mundo</title></ref>, dicit
+                (1) quod non possunt esse plures.</p>
+                
+                <p>Cuius praecipua ratio est (2): quia tota materia et (b)
+                forma caeli et mundi seu universi est sic tota et totaliter in
+                caelo et in ipso mundo quod non potest alia vel amplior
+                esse vel excogitari, etiam a Deo. — Secunda est(3): quia <pb n="129"/>
+                oporteret dare vacuum inter hunc mundum et alium sive
+                alter esset sphaericus sicut iste sive non; esset enim aliquod
+                spatium inter aliquam partem huius et aliquam alterius nullo
+                corpore repletum. - Tertia est (1): quia terra alterius
+                mundi moveretur ad centrum huius mundi et ignis illius ad
+                supremam circumferentiam huius mundi. Quod probatur: quia
+                propria passio necessario sequitur totam speciem; sed propria
+                passio terrae huius mundi est moveri ad centrum terrae
+                huius mundi; ergo idem competit omni terrae, ubicunque sit.
+                - Quarta est (2): quia si essent plures mundi ac per consequens 
+                et plures caeli primi, tunc essent plura tempora
+                simul; quia quodlibet haberet suum proprium tempus; primum 
+                enim et proprium subiectum motus dicit in libro <ref><title ref="Physics">Physicorum</title></ref>
+                suorum (3) esse primum motum caeli.</p>
+                
+                <p>Omnes autem hae rationes sunt falsae et ridicu1osae.
+                Et ultra hoc, prima est haeretica et in Deum
+                blasphema, nam ponit Deum ac si truncum, id est, ita curtum
+                et limitatum et imbecillem (a) ut non possit excogitare
+                maiorem quantitatem quantitate huius mundi nec aliam numero
+                nec possit cogitare alias species et individua a speciebus 
+                et individuis huius mundi. Nec mirum: quia et posuit
+                Deum (b 4) quicquid fecit (c) necessario fecisse, et ideo
+                ponit quod ab aeterno fecerit mundum et quod aliter facere
+                non potuerit, nisi sicut fecit; et secundum quosdam posuit quod
+                Deus nihil effective fecit in substantia huius mundi, sed solum
+                (d) movet intelligentias quae post ipsum (e) per modum
+                primi desiderati, id est, per modum obiecti motivi et per
+                modum causae (f) finalis moventur (g) et illae sic affectualiter
+                motae movent localiter caelos, et per illum motum sic vult
+                moveri et regulari omnia inferiora quod impossibile sit
+                etiam Deo, nisi per intermedium motum caeli aliquod de
+                iis moveri.<pb n="130"/></p>
+                
+                <p>Et certe verba eius <ref>VIII <title ref="Physics">Physicorum</title></ref> (1) et <ref>XI <title ref="Metaphysics">Metaphysicae</title></ref>
+                (2) hoc sonare videntur; nam eodem (a) <ref>XI</ref> nititur
+                probare quod Deus nihil aliud a se intelligat, tum quia cum
+                omne cognoscens perficiatur a cognito, oporteret eum perfici
+                ab alio a se, tum quia melius est quaedam non videre
+                quam videre, puta stercora et hominum verenda, foeda et
+                foetida. Ecce qualem Deum ponit et qualibus principis sua
+                dicta fulsit! Et quidem non miror de homine pagano et
+                idolatra et ab idolatris genito et nutrito. Sed hoc est nimis
+                stupendum quod Christiani, professione theologi et etiam religiosi,
+                sic aestimant et quasi adorant dicta istius in iis quae
+                ad materiam theologicam vel metaphysicam seu supernaturalem
+                spectant.</p>
+                
+                <p>Secunda autem ratio de vacuo patet ex dictis in
+                praemissa quaestione de mundi aeternitate. - Praeterea,
+                quare inter duos mundos et caelos eorum non posset poni tantum
+                corpus quod omnem intermediam vacuitatem repleret?</p>
+                
+                <p>Tertia vero de motu terrae ad centrum huius mundi
+                est nimis ridiculosa; tum quia naturalis inclinatio ad locum
+                certum ad quam sequitur motus ad talem locum praesupponit
+                specialem colligantiam corporum in aliquo universo,
+                et potissime quando inclinat ad locum relativum quale est
+                centrum vel circumferentia, quia centrum dicit respectum
+                medii respectu suae sphaerae et circumferentia dicit respectum
+                sphaericae reflexionis circa suum centrum, unde quaecunque
+                terra per se solam absque omni altero corpore poneretur
+                ad nullum centrum alicuius caeli vel mundi inclinaretur;
+                tum quia si motus caeli cooperatur ad motum inferiorum,
+                tunc eo ipso quo haec terra poneretur infra caelum alterius
+                mundi moveretur per motum et influxum illius ad eius centrum;
+                tum quia dato quod caelum et ignis et terra alterius
+                mundi per aliquas essentiales d1fferentias differrent (b) ab
+                istis nullum inconveniens esset; tum quia Deus potest terrae
+                auferre suam gravitatem tanquam sibi accidentalem,
+                posset etiam sibi dare aliquam specialem inclinationem ad
+                centrum mundi in quo statueret eam.</p>
+                
+                <p>Quarta vero ratio de pluritate temporum in quaestionibus
+                de tempore et aevo satis est exsufflata.<pb n="131"/></p>
+                
+                <p>Quidam vero alii (1) dixerunt quod quia ab uno 
+                potest esse nisi unus mundus, ideo ab uno Deo non potest
+                esse nisi unus mundus.</p>
+                
+                <p>Sed haec ratio insanit dupliciter: Primo, quia
+                ponit quod ab uno non possit esse nisi unum, cum ab eadem
+                potentia voluntatis possint (a) esse opposita velle et
+                unus intellectus possit innumeras et diversissimas cogitationes
+                formare; quanto ergo magis unus Deus in omni perfectione
+                immensus hoc potest. — Secundo insanit, quia eo
+                ipso quo ponit unum mundum esse a Deo ponit multa numero
+                et specie et genere esse a Deo, quia in uno mundo
+                multa talia continentur.</p>
+                
+                <p>Dicendum ergo quod Deus non posset facere plures
+                mundos nullum unum universum constituentes, non quia hoc
+                absolute contradicat rationi entis vel scibilis, sed quia hoc
+                contradicit relativae rationi ordinis Deo et suo
+                operi condecentis. Cum enim omnia irrationalia debeant
+                (b) ad naturam rationalem tanquam ad suum finem coordinari
+                et etiam ad invicem, sicut entia et opera unius summi
+                boni, multitudo autem pei sonarum rationalium debeant se invicem
+                in unum Deum amare et in omnibus et ex omnibus
+                unum Deum laudare; nequaquam potest a Deo decenter et
+                ordinate fieri multitudo naturarum personarum rationalium
+                nisi sub connexione ex ordine perfectissimae et pulcherrimae
+                unitatis. Unde et articulus catholicae fidei est quod una est
+                Ecclesia generalis tanquam una Christi columba et sponsa et
+                tanquam unum corpus unius capitis. Ultra hoc autem tenet
+                fides quod totum humanum genus est ab uno primo homine in
+                quo omnes peccaverunt et quod omnes ex ipso electi et eligendi
+                sunt et erunt unum corpus unius capitis Christi a quo
+                sunt redempti et cuius uno spiritu vegetantur et iustificantur;
+                ex hoc autem sequitur nullum hominem esse nisi in hoc
+                mundo. Cum etiam auctoritas prophetica et apostolica clamet
+                quod Christi fides erat omnibus gentibus praedicanda et
+                Christi Ecclesia in toto orbe fundanda; patet non esse hominem
+                mortalem et viatorem nisi in ea parte terrae habitabili
+                per quam Ecclesiae praedicatio et primi hominis propagatio
+                potuit currere et diffundi. — Et hoc ad praesens sufficiat
+                pro quaestione ista.<pb n="132"/></p>
+            </div>
+        </body>
+    </text>
+</TEI>    

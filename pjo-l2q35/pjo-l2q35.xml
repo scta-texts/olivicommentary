@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Quaestio 35</title>
+        <author xml:id="PJO">Peter John Olivi</author>
+        <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.05">
+          <title>Librum II, Quaestio 2</title>
+          <date when="2015-05-17">May 17, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Ad Claras Aquas</publisher>
+        <pubPlace>Quaracchi</pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="1922">1922</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Quaestions In Secundum Librum Sententiarum, ed. Bernardus Jansent, S.I, Ad Claras Aquas, 1922</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-05-17" who="#JW" status="draft" n="2015.05">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pjo-l2q35">
+        <head>Librum II, Quaestio 35</head>
+        <p>Quarto quaeritur de angelico (h) intellectu an suum
+        intelligere sit idem cum substantia sui intellectus
+        aut saltem an Deus posset hoc facere.</p>
+        
+        <p>Ad quod breviter dicendum quod 'non sunt 
+          idem nec esse possunt.</p>
+        
+        <p>Primo quidem, quia si actus intelligendi esset (i) eius 
+          substantia seu substantialis forma, tunc nullius obiecti praesentia 
+          nec etiam species memorialis quae tenet locum obiecti 
+          esset sibi (k) necessaria ad hoc quod actu intelligeret, et tunc 
+          ita intelligeret non entia sicut et (l) entia et absentia sicut 
+          propinqua et contingentia sicut et necessaria. - Secundo, 
+          quia tunc; non esset in potentia ad actum intelligendi sicut 
+          nec ad suam substantiam, et ita omnia obiecta ad quae secundum 
+          suam naturam est possibilis intelligeret actu; et tunc 
+          <pb n="627"/> 
+          sequitur quod actu intelligeret infinita et etiam contradictoria 
+          simul, quia si per successionem temporum potest contradictoria, 
+          tunc esset simul actualis ad ea. - Tertio, quia tunc 
+          eius subsstantia esset omnino illimitata et infinitarum specierum 
+          rationes m se habens ac per consequens quasi universalis 
+          et quasi extra genus; esset enim ipsa per essentiam suam 
+          ratio et similitudo omnium obiectorum suorum. - Quarto, quia 
+          tunc aut (a) ad variationem obiectorum variaretur eius substantia 
+          in suo substantiali intellectu, quod non est dandum, aut 
+          nullo modo variaretur, et tunc multiplici falsitati esset subiecta 
+          (b) nec aliquam certitudinem de diversificatione obiectorum 
+          posset habere. - Quinto, quia tunc nullam haberet libertatem 
+          ad varia excogitanda vel deliberandi vel diiudicandi (c) 
+          iuxta suum placitum; non enim posset intellectum suum 
+          convertere aut diversimode movere ad aliquid cogitandum 
+          quin potius suum intelligere non esset proprie eius actio, 
+          sed potius esset eius essentia, et ita non solum non subiceretur 
+          ei tanquam libero agenti, sed nec etiam tanquam naturali 
+          agenti. Sexto, quia tunc eius intelligentia esset 
+          absolutissima ab omni conversione et aspectu seu protensione 
+          et directione ad quodcunque obiectum et (d) ad quemcunque 
+          actum, ita etiam quod in intelligendo Deum nullam 
+          haberet conversionem, directionem aut protensionem ad 
+          ipsum, sed potius sua absoluta essentia esset idem quod visio 
+          Dei; talis autem absolutio non videtur competere intellectui 
+          creato. - Septimo, quia quaero a:n Deus posset sibi 
+          tollere intelligentiam alicuius obiecti, saltem alicuius obiecti 
+          particularis. Si sic: ergo aut illa erat ei accidentalis aut 
+          saltem erat realiter diversa ab intelligentiis aliorum obiectorum 
+          quae sibi remanent post huiusmodi ablationem; et tunc 
+          tot diversas formas substantiales oporteret in eo ponere 
+          quot obiectorum intelligentias haberet. - Octavo, quia tunc 
+          nullus habitus nullaque opinio vel credulitas, sed solum simplex 
+          et pura et actualis intelligentia posset in eo esse; quia 
+          habitus habent aspectum et ordinem ad actuum generationem, 
+          credulitas autem habet aspectum (e) ad illud cui innititur et 
+          habet ignorantiam seu latentiam obiecti cuius evidentiam 
+          appetit aut potest appetere ipse opinans. Tunc etiam sequeretur 
+          quod nullus error posset cadere in angelo, quia absurdum 
+          est dicere quod error sit substantia alicuius aut quod (f ) 
+          <pb n="628"/> 
+          Deus indiderit alicui errorem pro forma substantiali. - Nono, 
+          quia nullam univocationem (a) penitus haberet cum intellectu 
+          alicuius hominis, etiam (b) beati; constat enim quod nostrum 
+          intelligere est quaedam actio ab intellectu prodiens (c) et eius 
+          actualem conversionem naturaliter sequens, unde est quaedam 
+          actio seu actus accidentalis, quamvis aliquas nobiles 
+          proprietates formae substantialis in se habeat, sicut alibi est 
+          tactum; ergo nostrum intelligere differt ab intelligentia angeli 
+          sicut accidens a substantia, et sic nulla penitus univocatio 
+          esset ibi.</p>
+        
+        <p>Ex  praedictis patet hoc ipsum de actu volendi. 
+          Possunt enim consimiles rationes iuxta suum modum 
+          ad hoc coaptari: tunc enim quicquid angelus (a) posset velle 
+          totum vellet actu et semper vellet omnia uniformiter; nec 
+          posset cadere in peccatum nec ascendere in meritum nec 
+          habere dominium super aliquem actum volendi sicut nec 
+          super suam essentiam a se nullatenus prodeuntem nec libere 
+          nec naturaliter; nullusque in eo esset habitus nullaque gratia, 
+          sed totum esset substantia et natura; simulque vellet contradictoria 
+          aut non esset potens ad volendum neutram partem 
+          contradictionis nec simul nec disiunctive sive successive; 
+          nisi forte dicatur quod sicut divinum velle absque omni variatione 
+          sui potuit nolle quae vult et velle quae non vult, 
+          quod sic et ipse posset, sed si (e) vident quomodo hoc competat 
+          Deo facere, faciliter patere potest quod talis modus 
+          tantae est altitudinis et ineffabilitatis quod nihil in Deo altius 
+          ac (f) per consequens nulli alteri communicabile.</p>
+        
+        <p>Ex praedictis etiam omnibus patet quod pagani philosophi 
+          qui posuerunt quod in substantiis separatis esset (g) 
+          suum intelligere idem quod sua substantia manifeste intendebant 
+          et credebant huiusmodi substantias esse deos, habentes 
+          in se universaliter et ab aeterno et per naturam suam 
+          quicquid habere poterant et omnino simplices et infinitas et 
+          immutabiles et invariabiles et impeccabiles, nulla gratia aut 
+          merito indigentes, sed potius per sola sua substantialia beatos 
+          et felices, ita quod eorum beatitudo erat eorum substantia. 
+          Et ideo in iis quae de intelligentiis dixerunt sic debemus 
+          eos fugere tanquam idolatras plures deos ponentes.</p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

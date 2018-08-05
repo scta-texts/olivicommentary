@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Quaestio 17</title>
+        <author xml:id="PJO">Peter John Olivi</author>
+        <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.05">
+          <title>Librum II, Quaestio 17</title>
+          <date when="2015-05-17">May 17, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Ad Claras Aquas</publisher>
+        <pubPlace>Quaracchi</pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="1922">1922</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Quaestions In Secundum Librum Sententiarum, ed. Bernardus Jansent, S.I, Ad Claras Aquas, 1922</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-05-17" who="#JW" status="draft" n="2015.05">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pjo-l2q17">
+        <head>Librum II, Quaestio 17</head>
+        <p>
+          <app>
+            <lem>Secundo quaeritur an</lem>
+            <rdg wit="#B3">Quaeritur utrum pro</rdg>
+          </app> 
+          potentia materiae addat aliquid realiter diversum ad essentiam eius.</p>
+        <div>
+        <head>Et quod sic videtur.</head>
+        <p>1. Impossibile 
+          <app>
+            <lem>enim</lem>
+            <rdg wit="#B3" type="om."/>
+          </app> 
+          est diversas essentias esse penitus 
+          idem cum una simplici essentia; sed potentiae materiae 
+          sunt plures, sicut et actus formales; quot enim modis dicitur 
+          unum correlativorum, 
+          <app>
+            <lem>tot modis</lem>
+            <rdg wit="#B3" type="om."/>
+          </app> 
+          et reliquum; essentia autem materiae est una; ergo impossibile est quod sint penitus 
+          idem cum ipsa. - Huic autem rationi videtur consentire 
+          <ref>
+            <name ref="#Averroes">Commentator,</name> super XI 
+            <title ref="#MetaphysicsCommentary">Metaphysicae</title>,
+          </ref> 
+          super illa parte: 
+          <cit>
+            <quote>Et dubitandum est in hoc et dicendum ex 
+              <app>
+                <lem>quo</lem>
+                <rdg wit="#V" type="corrAddition">
+                  <corr>
+                    <add place="margin">quo</add>
+                  </corr>
+                </rdg>
+              </app> 
+              non ente fiat generatio;</quote>
+            <bibl>Averroes, Metaphysica, lib. XII, summa 1, cap. 2 (vol. VIII, f. 297rb)</bibl>
+          </cit> 
+          ait enim sic: 
+          <cit>
+            <quote>Non quodlibet ens fit ex 
+              qualibet potentia, sed unumquodque 
+              <app>
+                <lem>entium</lem>
+                <rdg wit="#B3">ens</rdg>
+              </app> 
+              fit ex 
+              <app>
+                <lem>eo quod 
+                  <pb n="356"/> 
+                  est in</lem>
+                <rdg wit="#B3">qualibet</rdg>
+              </app> 
+              potentia id quod fit, id. est, ex potentia propria, ita 
+              quod numerus potentiarum sit 
+              <app>
+                <lem>sicut</lem>
+                <rdg wit="#B3" type="om."/>
+              </app> 
+              numerus specierum 
+              entium generabilium·</quote>
+            <bibl>Ibid.</bibl>
+          </cit> 
+          Et dixit hoc secundum 
+          <ref>
+            <seg><name ref="#Aristotle">Aristotelem</name>,</seg>
+            <bibl>Aristotle, De generatione et corruptione, I, 7, 324b 6sqq.; II, 4, 331a7sqq.; Phys. I, 6, 7, 189a11sqq.; Metaph., VII, 3, 1029a2sqq; VII, 7, 1032a20sqq.; VIII, 1, 1042a24sqq.</bibl>
+          </ref> 
+          quia opinatur quod sit una secundum subiectum et 
+          multa secundum habilitates.</p>
+        <p>2. Item, quaelibet forma, maxime substantialis, attingit 
+          totam essentiam 
+          <app>
+            <lem>suae</lem>
+            <rdg wit="#B3" type="om."/>
+          </app> 
+          materiae et tamen non attingit totam 
+          potentiam eius, quoniam si 
+          <app>
+            <lem>totam</lem>
+            <rdg wit="#B3" type="intextu">eius</rdg>
+          </app> 
+          potentiam 
+          <app>
+            <lem>attingeret,</lem> <!-- al. m. corr. -->
+          </app> 
+          illa existente in ea, non esset possibilis ad aliquam 
+          aliam formam; sed si potentia esset penitus eadem cum essentia 
+          materiae: quandocunque unum totaliter attingeretur, 
+          et reliquum; 
+          <app>
+            <lem>ergo et cetera.</lem>
+            <rdg wit="#B3" type="om."/>
+          </app></p> 
+          <p>3. Item, nos videmus quod materia acquirit novas potentias 
+            vel impotentias, secundum 
+            <app>
+              <lem>quod</lem>
+              <rdg wit="#B3" type="om."/>
+            </app> 
+            diversimode disponitur 
+            a diversis formis, ut 
+            <app>
+              <lem wit="#B7">materia</lem>
+              <rdg wit="#V #B3">materiam</rdg>
+            </app>
+            corporis humani per formam 
+            <app>
+              <lem>organizationis</lem>
+              <rdg wit="#B3">organis</rdg>
+            </app> 
+            fit capax animae; unde et ab 
+            <ref>
+              <seg><name ref="#Aristotle">Aristotele</name></seg>
+              <bibl>Aristotle, Cap. 8, 9a14sqq</bibl>
+            </ref> 
+            naturalis potentia vel impotentia ponuntur in secunda 
+            specie qualitatis; sed hoc esset impossibile, si essent 
+            penitus eadem inter se; 
+            <app>
+              <lem>ergo et cetera.</lem>
+              <rdg wit="#B3" type="om."/>
+            </app>
+          </p>
+        
+          <p>4. Item, potentiae propinquae videntur esse di versae a 
+            potentiis rem otis, unde et plures sunt illae quam istae; sed 
+            si omnino sunt idem cum 
+            <app>
+              <lem>essentia</lem>
+              <rdg wit="#B3">potentia</rdg>
+            </app> 
+            materiae, nulla in eis 
+            poterit esse diversitas; ergo et cetera.</p> 
+        </div>
+        <div>
+          <head>[Respondeo]</head>
+          <p>
+            <app>
+              <lem>Dicendum</lem>
+              <rdg wit="#B3">respondeo</rdg>
+            </app> 
+            quod licet quidam dixerint quod potentia 
+            sit accidens materiae et ita quod addat aliquid secundum 
+            rem diversum ad ipsam, moti ex rationibus praedictis 
+            <app>
+              <lem>et</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="aboveLine">et</add>
+                </corr>
+              </rdg>
+            </app> 
+            etiam quia ubique sumpserunt pro primo principia quod 
+            ubicunque 
+            <app>
+              <lem>est</lem>
+              <rdg wit="#B3">sit</rdg>
+            </app> 
+            diversitas rationum realium, semper 
+            <app>
+              <lem wit="#B7">est</lem>
+              <rdg wit="#B3 #V" type="om."/>
+            </app> 
+            ibi diversitas 
+            <app>
+              <lem>essentialis,</lem>
+              <rdg wit="#B3">essentiarum</rdg>
+            </app> 
+            constat autem rationem potentiae 
+            et rationem essentiae ipsius materiae esse 
+            <app>
+              <lem>rationes</lem>
+              <rdg wit="#B3" type="om."/>
+            </app> 
+            <pb n="357"/> 
+            diversas, 
+            <app>
+              <lem>et</lem>
+              <rdg wit="#B3" type="om."/>
+            </app> 
+            ita quod quaelibet earum est in materia secundum 
+            rem et non solum secundum modum intelligendi: 
+            credo tamen cum aliis quod penitus sint eadem 
+            secundum rem.</p>
+          
+          <p>Si enim essent diversae, tunc potentia esset recepta in 
+            essentia materiae; recepta autem esse non posset, nisi materia 
+            haberet 
+            <app>
+              <lem>in se</lem>
+              <rdg wit="#B3" type="om."/>
+            </app> 
+            aliam potentiam per quam posset eam 
+            recipere, et sic 
+            <app>
+              <lem>iretur</lem>
+              <rdg wit="#B3">esset ire</rdg>
+            </app> 
+            in infinitum. Oporteret etiam quod 
+            ipsa potentia esset quaedam forma, quia omne quod inhaeret 
+            materiae et 
+            <app>
+              <lem>quod</lem>
+              <rdg wit="#B3" type="om."/>
+            </app> 
+            determinat eam aliquo modo 
+            <app>
+              <lem>est</lem>
+              <rdg wit="#B3">esset</rdg>
+            </app> 
+            forma 
+            materiae, unde et materia ordinatur ad 
+            <app>
+              <lem>omne</lem>
+              <rdg wit="#B3">esse secundum</rdg>
+            </app> 
+            quod in se 
+            recipit sicut ad suum actum, unde 
+            <app>
+              <lem>et</lem>
+              <rdg wit="#B3" type="om."/>
+            </app> 
+            prius erat possibilis 
+            ad recipiendum illud; non dicitur autem possibilis nisi 
+            respectu actus, et etiam quia omne accidens ponitur in genere 
+            formarum. Nec mirum, quia cum ens sufficienter dividatur 
+            in materiam 
+            <app>
+              <lem>et</lem>
+              <rdg wit="#B3" type="om."/>
+            </app> 
+            formam et aggregatum ex eis seu 
+            compositum, certum est autem quod nullum accidens est 
+            materia nec aggregatum ex materia et forma: ergo 
+            <app>
+              <lem>necesse est</lem>
+              <rdg wit="#B3">oportet dare</rdg>
+            </app> 
+            quod omne accidens sit forma. Nemo autem rationabiliter 
+            dicere potest quod 
+            <app>
+              <lem>potentia materiae</lem>
+              <rdg wit="#B3">materia</rdg>
+            </app> 
+            sit forma, 
+            cum per 
+            <app>
+              <lem>eam</lem>
+              <rdg wit="#B3">ipsam</rdg>
+            </app> 
+            non significemus nisi solum ordinem materiae 
+            ad formam. Et praeterea constat quod non posset esse 
+            forma substantialis, quia talis dat materiae esse substantiale 
+            actu determin11tum, quod nullo modo potest convenire ipsi 
+            potentiae; nec forma accidentalis esse potest nec etiam aliquo 
+            modo accidens, sicut in quaestione de materia substantiarum 
+            <app>
+              <lem>intellectualium</lem>
+              <rdg wit="#B3">intelligibilium</rdg>
+            </app> 
+            est ostensum ex parte rationis ipsius 
+            accidentis et rationis subiecti seu suppositi et 
+            <app>
+              <lem>rationis</lem>
+              <rdg wit="#B3">ratione</rdg>
+            </app> 
+            ipsius potentiae et corporalis materiae 
+            <app>
+              <lem>et</lem>
+              <rdg wit="#B3" type="intextu">ratione</rdg>
+            </app> 
+            potentiarum 
+            animae. - Ratio igitur receptionis 
+            <app>
+              <lem>et</lem>
+              <rdg wit="#B3">ipsius materiae</rdg>
+            </app> 
+            inhaerentiae 
+            clamat ipsam 
+            <app>
+              <lem>potentiam</lem>
+              <rdg wit="#B3" type="intextu">animae</rdg>
+            </app> 
+            non esse aliquid 
+            diversum ab 
+            <app>
+              <lem>essentia</lem>
+              <rdg wit="#B3" type="intextu">ipsius</rdg>
+            </app> 
+            materiae.</p> 
+          
+          <p>Ostendit etiam hoc ipsa essentia materiae 
+            et ratio eius. Omnibus enim aliis amotis ipsa per se est 
+            sufficienter possibilis ad omnia quae in ea possunt esse; unde 
+            nullo modo potest intelligi nisi ut possibilis. Si autem potentia 
+            diceret aliquid ab ea diversum, potentiis amotis ipsa 
+            <pb n="358"/> 
+            non 
+            <app>
+              <lem>esset</lem> 
+              <rdg wit="#V" type="corrReplace"> <!-- Al. m. ex esse -->
+                <corr>
+                  <del>esse</del>
+                  <add>esset</add>
+                </corr>
+              </rdg>
+            </app> 
+            possibilis ad aliquid et ita de se nullum haberet 
+            ordinem aut respectum ad suas formas possetque intelligi 
+            ut non possibilis et sic per consequens ut a nullo determinabilis; 
+            et ita sequeretur quod cum omne ens sit determinabile 
+            <app>
+              <lem>ab alio</lem>
+              <rdg>ablio</rdg>
+            </app> 
+            aut terminus 
+            <app>
+              <lem>seu</lem>
+              <rdg wit="#B3">autem</rdg>
+            </app> 
+            determinatio eius, 
+            quod ipsa 
+            <app>
+              <lem>posset</lem>
+              <rdg wit="#B3" type="om."/>
+            </app> 
+            intelligi vere ut quoddam ens 
+            <app>
+              <lem>de se sufficienter</lem>
+              <rdg wit="#B3">per se omnino</rdg>
+            </app> 
+            determinatum. - Praeterea, ita se habet materia 
+            ad suam possibilitatem sicut forma ad suam actualitatem 
+            et ita immediate materia refertur ad formam sicut forma ad 
+            ipsam; sed actualitas ipsius formae non dicit aliud ab essentia 
+            eius, cum forma et actus sint 
+            <app>
+              <lem>idem.</lem>
+              <rdg wit="#B3" type="intextu">secundum philosophum II de anima</rdg>
+            </app> 
+            Et etiamsi 
+            diceret aliud, tunc essentia formae nullam haberet de se 
+            actualitatem seu actum. Ipsa etiam forma per suam essentiam 
+            refertur ad materiam, unde et 
+            <app>
+              <lem>per</lem>
+              <rdg wit="#B3" type="om."/>
+            </app> 
+            solam suam essentiam 
+            informat eam; ergo materia et 
+            <app>
+              <lem>sua possibilitas erunt omnino idem</lem>
+              <rdg wit="#B3">per sua essentiam erit idem cum possibilitate sua</rdg>
+            </app> 
+            et materia per 
+            <app>
+              <lem>solam</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>solvam</del>
+                  <add>solam</add>
+                </corr>
+              </rdg>
+            </app> 
+            suam essentiam 
+            <app> <!-- Ex refertur quod habet b3 -->
+              <lem>referetur</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>refertur</del>
+                  <add>referetur</add>
+                </corr>
+              </rdg>
+              <rdg wit="#B3">refertur</rdg>
+            </app> 
+            ad formam. - Praeterea, definitio materiae est 
+            ens in potentia seu ens possibile; ergo possibilitas seu potentia 
+            est pars suae definitionis et ita 
+            <app>
+              <lem>ad</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="aboveLine">ad</add>
+                </corr>
+              </rdg>
+            </app> 
+            minus est pars suae 
+            essentiae; sed non potest esse pars, quin sit idem penitus cum 
+            tota eius essentia, cum materia sit unum 
+            <app>
+              <lem>de</lem>
+              <rdg wit="#B3">ex</rdg>
+            </app> 
+            primis 
+            <app>
+              <lem>principiis 
+              et ita non 
+              <app> <!-- unclear why this is here if the whole things is supposed to be ommited; see container app -->
+                <lem>possit</lem>
+                <rdg wit="#B3">posset</rdg>
+              </app> 
+              esse composita ex diversis</lem>
+              <rdg wit="#B3" type="om."/>
+            </app> 
+            principiis 
+            quorum unum sit genus, alterum vero differentia eius.</p> 
+          <p>Praeterea, si potentia est aliud ab 
+            <app>
+              <lem wit="#B7 #B3">essentia</lem>
+              <rdg wit="#V">essentiae</rdg>
+            </app> 
+            materiae: 
+            aut est 
+            <app>
+              <lem>aliquid</lem>
+              <rdg wit="#B3">aliud</rdg>
+            </app> 
+            ab ea resultans, sicut calor dicitur resultare 
+            a forma ignis, aut est aliquid in ea concreatum aut est aliquid 
+            per formas 
+            <app>
+              <lem>in ea genitum.</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>genitum in ea</del>
+                  <add>in ea genitum</add>
+                </corr>
+              </rdg>
+            </app> Primum esse non potest, quia 
+            materia non potest esse per se causa efficiens alicuius; omne 
+            autem quod resultat ab 
+            <app>
+              <lem>altero</lem>
+              <rdg wit="#B3">alio</rdg>
+            </app> 
+            efficitur ab illo. Et posito 
+            quod posset esse causa efficiens eius, ad minus secundum 
+            aliud esset 
+            <app>
+              <lem>eius</lem>
+              <rdg wit="#B3">eam</rdg>
+            </app> 
+            efficiens seu originans et secundum aliud 
+            esset eius subiectum recipiens; sed materia non posset secundum 
+            aliud et aliud originare suam potentiam et ei subici. 
+            - Secundum etiam 
+            <app>
+              <lem wit="#B6">esse</lem>
+              <rdg wit="#V #B3" type="om."/>
+            </app> 
+            non 
+            <app>
+              <lem>potest.</lem>
+              <rdg wit="#B3" type="om."/>
+            </app> 
+            Naturaliter enim 
+            primo oportet quod materia habeat esse substantiale quam 
+            <pb n="359"/> <!-- where I left off --> 
+            accidentale, et 
+            <app>
+              <lem>maxime eum accidens seu esse accidentale</lem>
+              <rdg wit="#V" type="corrAddition">
+                <add place="margin">maxime eum accidens seu esse accidentale</add>
+              </rdg>
+            </app> 
+            fundetur in ipso 
+            <app>
+              <lem>esse</lem> <!-- sequitur in ras ?? -->
+            </app> 
+            substantiali; sed materia habet 
+            esse substantiale per solam formam substantialem; 
+            <app>
+              <lem>ergo</lem>
+              <rdg wit="#B3">quo</rdg>
+            </app> 
+            ordine 
+            <app>
+              <lem>naturali aliqua forma substantialis praecedit necessario 
+            omnia accidentalia</lem>
+              <rdg wit="#B3" type="om."/>
+            </app> 
+            ipsius materiae; sed si potentia 
+            diceret aliquid concreatum ipsi materiae diversum ab ipsa, 
+            illud esset aut forma substantialis aut accidentalis. Nemo 
+            <app>
+              <lem>autem</lem>
+              <rdg wit="#B3" type="om."/>
+            </app> 
+            unquam posuit quod esset forma substantialis; si 
+            autem est accidentalis, 
+            <app>
+              <lem>praecessit</lem>
+              <rdg wit="#B3">praecedit praecedit</rdg>
+            </app> 
+            forma 
+            <app>
+              <lem>substantialis,</lem>
+              <rdg wit="#V" type="intextu">aut accidentalis</rdg>
+            </app> 
+            et ita praecessit potentia ad formam· substantialem. Et hoc 
+            ipsum sequitur, posito quod illud concreatum esset forma 
+            substantialis. Ergo ad positionem dicentium eam concreatam 
+            esse materiae semper sequitur potentiam praecessisse 
+            <app>
+              <lem>potentiam</lem>
+              <rdg wit="#B3" type="om."/>
+            </app> 
+            et etiam quod forma substantialis prius sit in materia 
+            quam ipsa potentia materiae, quod nullius sanae mentis 
+            dicet. - Tertium autem multo minus stare potest, tum quia 
+            materia non recipit suam 
+            <app>
+              <lem>potentialitatem</lem>
+              <rdg wit="#B7">possibilitatem</rdg>
+              <rdg wit="#B3">potentiam</rdg>
+            </app> 
+            <app>
+              <lem>a</lem>
+              <rdg wit="#B3">ex</rdg>
+            </app> 
+            formis, tum 
+            quia ad hoc omnia praedicta inconvenientia 
+            <app>
+              <lem>sequuntur</lem>
+              <rdg wit="#B3">sequerentur</rdg>
+            </app> 
+            et 
+            etiam ampliora, sicut satis de se patet. -- Praeterea, si potentia 
+            ista non dicit essentiam materiae 
+            <app>
+              <lem>nec essentiam formae</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">nec essentiam formae</add>
+                </corr>
+              </rdg>
+            </app> 
+            quaero cuiusmodi essentiam dicit; et specialiter 
+            quaero quomodo dicit talem essentiam quod per eam materia 
+            sit potens recipere et 
+            <app>
+              <lem>sustinere</lem>
+              <rdg wit="#B3" type="intextu">diversas</rdg>
+            </app> 
+            formas et sine 
+            <app> <!--unclear; edition reads: sequitur ras. et lac.; et al. m. -->
+              <lem>ea</lem>
+            </app> 
+            nullo modo sit potens; et credo quod non poterit dari. Unde 
+            ipsa ratio potentiae, si bene pensetur, satis hoc ipsum clamat; 
+            non enim videtur quod possit dicere per se 
+            <app>
+              <lem>aliquam</lem>
+              <rdg wit="#B7" type="om."/>
+            </app> 
+            <app>
+              <lem>naturam</lem>
+              <rdg wit="#B3">essentiam</rdg>
+            </app> 
+            aliam ab illa in qua fundatur.</p> 
+          
+          <p>Si autem aliquis dicat quod partim est eadem cum essentia 
+            <app>
+              <lem>materiae,</lem>
+              <rdg wit="#B3" type="intextu">et</rdg>
+            </app> 
+            partim diversa: contra hoc est, 
+            <app>
+              <lem>quia</lem>
+              <rdg wit="#B3" type="om."/>
+            </app>  
+            aut ideo dicitur 
+            <app> <!-- edition unclear; reads: "Sequitur ras. et lac." -->
+              <lem>partim</lem>
+            </app> 
+            diversa, quia aliquid addit diversum, 
+            aut quia 
+            <app>
+              <lem>licet</lem>
+              <rdg wit="#B3">si</rdg>
+            </app> 
+            nihil addat diversum, non tamen dicit 
+            totam essentiam materiae, sed solum aliquam partem 
+            eius. Primum autem stare non potest, quia 
+            <app>
+              <lem>ad</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add>ad</add>
+                </corr>
+              </rdg>
+            </app> 
+            additionem 
+            illius diversi sequuntur inconvenientia prius tacta et praeter 
+            hoc sequitur quod 
+            <app>
+              <lem>potentia</lem>
+              <rdg wit="#B3">essentia</rdg>
+            </app> 
+            materiae esset composita ex 
+            essentiis diversorum generum, scilicet ex essentia materiae 
+            <pb n="360"/> 
+            et ex illo 
+            <app>
+              <lem wit="#B3">diverso</lem>
+              <rdg wit="#V">diversa</rdg>
+            </app> 
+            quod addit ad eam; quod quantas 
+            <app>
+              <lem>absurditates</lem>
+              <rdg wit="#B3" type="intextu">implicet seu</rdg>
+            </app> 
+            continet satis patet. - Secundum etiam stare non 
+            potest, tum quia in essentia materiae non est dare talem 
+            compositionem, tum quia illa alia pars quae cum ipsa potentia 
+            constitueret materiam non esset potentia et ita, ut 
+            videtur, esset actus et sic materia esset composita ex potentia 
+            et actu.</p> 
+        </div>
+        <div> 
+          <head>[Solutio Obiectorum]</head>
+          <p>Ad primum igitur in contrarium dicendum quod materia 
+            non habet plures potentias passivas essentialiter inter 
+            se differentes, sed in essentia sua includuntur rationes plurium 
+            potentiarum absque omni diversitate reali; alias sequeretur 
+            quod potentiae actu infinitae 
+            <app> <!-- In mg., del esset -->
+              <lem>essent</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>esset</del>
+                  <add place="margin">essent</add>
+                </corr>
+              </rdg>
+            </app> 
+            in ea, quoniam 
+            tot essent in ea potentiae actu ad quot formas et figuras 
+            est possibilis; 
+            <app>
+              <lem>est autem possibilis</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">est autem possibilis</add>
+                </corr>
+              </rdg>
+            </app> 
+            ad infinitas formas 
+            et figuras tam secundum speciem quam secundum numerum. 
+            Et posset ex hoc trahi bona ratio ad principalem responsionem. 
+            Quamvis autem tot modis dicatur unum correlativorum 
+            quot modis et reliquum, non tamen propter hoc oportet 
+            quod secundum quod diversificatur unum, 
+            <app> <!-- "al. m. corr -->
+              <lem>diversificetur</lem>
+            </app> 
+            reliquum. Alias, quot possunt esse mihi similia realiter 
+            in se diversa, tot habebo in me relationes similitudinum 
+            realiter diversas; et cum
+            <app>
+              <lem>infinita possent mihi assimilari, 
+                tunc habebo</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">infinita possent mihi assimilar, tunc habebo</add>
+                </corr>
+              </rdg>
+            </app> 
+            infinitas. Secundum etiam numerum filiorum 
+            eiusdem hominis plurificabuntur et patres et secundum numerum 
+            linearum eiusdem circuli plurificabuntur centra: 
+            quod est manifeste falsum et impossibile. Et tamen verum 
+            est quod secundum plurificationem linearum plurificantur 
+            rationes 
+            <app>
+              <lem>respectuum</lem>
+              <rdg wit="#B7">respectu</rdg>
+            </app> 
+            ipsius circuli, absque omni tamen 
+            diversitate reali; alias haberet intra se infinita actu diversa. 
+            -- Si autem aliud 
+            <app>
+              <lem>sensit</lem>
+              <rdg wit="#B7">ostendit</rdg>
+            </app> 
+            <name ref="#Averroes">Averroes,</name> non curo, quamvis 
+            verba eius satis possint ad hoc trahi. Sicut enim in Deo 
+            dicuntur esse plures rationes et tamen per hoc non intendimus 
+            significare aliquam pluralitatem essentialem, sic et in 
+            materia dicuntur esse plures potentiae propter hoc solum, 
+            quia ipsa est per suam essentiam possibilis ad plures formas 
+            absque omni diversitate reali, non intendentes per hoc si<pb n="361"/>gnificare 
+            nisi solam pluralitatem rationum realium. Et hoc 
+            forte voluit dicere, quando dixit quod est una secundum 
+            subiectum et plures secundum habilitates, hoc est, secundum 
+            modos se habendi quibus se habet per modum possibilis ad 
+            plures formas recipiendas. Et 
+            <app>
+              <lem>sic</lem>
+              <rdg wit="#B7">sicut</rdg>
+            </app> 
+            etiam potest exponi quod 
+            <ref>
+              <seg>
+                <name ref="#Aristotle">Aristoteles</name> videtur dicere in 
+                III <title ref="#Physics">Physicorum</title>,</seg>
+              <bibl>Aristotle, Physics, III, Cap. 1, 201a35sq.; III, 5, 229a11sqq.</bibl>
+            </ref> 
+            quod 
+            scilicet alia est potentia ad sanitatem vel dealbationem, alia 
+            ad aegritudinem vel denigrationem; alias contradiceret sibi 
+            ipsi 
+            <ref>
+              <seg>in alio loco ubi ait</seg>
+              <bibl>Cfr. notam 1, page 356, praeterea Phys., IV, 9, 217a21sqq.; De generatione et corruptione I, 7, 324b6sqq.; Ethica, V, 1, 1129a13sq.</bibl>
+            </ref> 
+            quod una est potentia contrariorum; 
+            quamvis possit dici quod <name ref="#Averroes">Commentator</name> non loquitur 
+            de potentia remota, sed de potentia propinqua quae alio nomine 
+            dicitur potentia disposita; unde et praemisit quod quodlibet 
+            fit ex potentia propria; quid autem de ista sit sentiendum 
+            in tertio argumento tangetur.</p>
+        
+          <p>Ad secundum dicendum quod licet tota essentia materiae 
+            attingatur aliquo modo a qualibet forma, non tamen 
+            attingitur secundum omnes rationes suas nec secundum omnes 
+            suos res pectus attingitur; ergo tota secundum aliquam unam 
+            rationem et respectum; et tunc secundum illum modum attingitur 
+            totum illud reale quod ponunt ipsae potentiae. Simpliciter 
+            tamen non dicuntur attingi omnes potentiae eius, 
+            quia potentiae nominant rationes et respectus ipsius materiae 
+            secundum quas ipsa potest diversimode attingi et non 
+            attingi; et est simile huius, quando dicimus quod intellectus 
+            attingit totam essentiam Dei seu alicuius alterius simplicis 
+            obiecti et tamen non omnes rationes eius.</p>
+          
+          <p>Ad tertium dicendum quod materia non acquirit novas 
+            potentias passivas simpliciter, sed ex hoc solum dicitur 
+            eas acquirere, quia potentia quam per essentiam suam habet 
+            non est ordinata ad omnes formas, nisi prius alias formas 
+            in se habeat. Sicut enim soli non acquiritur aliqua potentia 
+            activa et tamen non potest agere per suam potentiam in 
+            remotiora, nisi prius agat in propinquiora: 
+            <app>
+              <lem wit="#B3">sic</lem>
+              <rdg wit="#V #B7">sicut</rdg>
+            </app> 
+            suo modo 
+            est de recipiendo in proposito, sicut si dicerem quod non 
+            possint recipi centum, nisi prius secundum naturam recipiantur 
+            triginta. Dicitur ergo potentia acquiri, non quia aliqua 
+            essentia potentiae passivae acquiratur, sed solum quia 
+            <pb n="362"/> 
+            ipsi potentiae prius in materia existenti novus ordo et nova 
+            formalis habitudo ad aliquam formam recipiendam datur; 
+            quantum autem ad hanc formalem habitudinem vel formalem 
+            ineptitudinem potest verificari illud de naturali potentia 
+            et impotentia, quod scilicet sint in praedicamento qualitatis. 
+            Hoc tamen dico, quando forma seu dispositio habilitans 
+            est accidentalis, sicut est durities vel mollities et quando est 
+            ad actum accidentalem, sicut est divisio partium cerae vel 
+            coniunctio vel sicut est infirmari vel sanari et consimilia. 
+            Quando autem forma habilitans est substantialis, sicut est 
+            organizatio, tunc talis potentia et quantum ad id quod dicit 
+            materiale et quantum ad id quod dicit formale est in genere 
+            substantiae, et maxime quando forma ad quam habilitatur 
+            est substantialis, sicut est anima ad quam materia corporalis 
+            per formam organizationis ordinatur. Sic autem sumendo 
+            potentiam, ut scilicet non solum significet ipsam essentiam 
+            potentiae passivae, sed etiam ipsum ordinem seu dispositionem 
+            formalem, verum est quod plurificantur potentiae propinquae 
+            et quod species entium generantur ex potentia propria 
+            et non ex qualibet; sic etiam aliquando potentiae contrariorum 
+            sunt contrariae; quae quidem sunt vera non ratione 
+            essentiae materialis quam potentia dicit, sed solum 
+            ratione illius formalis per quod potentia potest fieri propinqua 
+            et propria et disposita et per quam 
+            <app> <!-- Sequitur ras. et lac. -->
+              <lem>potest</lem>
+            </app> 
+            contrariae 
+            <app>
+              <lem>dispositioni</lem>
+              <rdg wit="#B7">disponi</rdg>
+            </app> 
+            esse contraria.</p>
+          
+          <p>Et per hoc patet ad quartum Si autem ultra hoc 
+            aliquis obiciat quod adveniente forma ad quam prius materia 
+            erat in potentia destruitur ipsa potentia, essentia materiae 
+            remanente, quia modo non est in potentia ad formam, 
+            sed potius habet eam actu, quod fieri non posset, si potentia 
+            esset penitus eadem cum essentia materiae: dicendum quod 
+            essentia potentiae quam ante adventum formae habebat tota 
+            remanet post 
+            <app> <!-- Ex conventum -->
+              <lem>adventum</lem>
+              <rdg wit="#V" type="corrReplace">
+                <corr>
+                  <del>conventum</del>
+                  <add>adventum</add>
+                </corr>
+              </rdg>
+            </app> 
+            formae, sed solum ordo et habitudo 
+            eius variatur, quia prius ordinabatur ad formam ut ad 
+            absentem, modo vero ut ad praesentem, unde et materia 
+            habet adhuc in se potentiam in qua ipsa forma est recepta 
+            et fundata. Quando vero dicimus quod materia est potentia 
+            ad talem formam, intendimus significare ordinem distantiae 
+            quo se habet ad formam ut absentem. Qui ordo si dicit tale 
+            quid quod realiter tolli possit: constat quod est aliquid formale; 
+            si vero supra ordinem quem potentia materiae habet 
+            <pb n="363"/> 
+            ad formam iam praesentem non dicit nisi solam negationem 
+            ipsius formae et praesentiae eius: 
+            <app>
+              <lem>tum</lem>
+              <rdg wit="#B7">tunc</rdg>
+            </app> 
+            per adventum 
+            formae huius potentiae sola negatio tollitur; et quidem praeter 
+            dispositiones contrarias quae ante adventum formae corrumpuntur 
+            reliquae dispositiones formales quae ad formae 
+            ipsius receptionem disponebant non videntur tolli per adventum 
+            formae, sed potius conservari et compleri.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Quaestio 67</title>
+        <author xml:id="PJO">Peter John Olivi</author>
+        <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.05">
+          <title>Librum II, Quaestio 67</title>
+          <date when="2015-05-22">May 22, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Ad Claras Aquas</publisher>
+        <pubPlace>Quaracchi</pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="1924">1924</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Quaestions In Secundum Librum Sententiarum, ed. Bernardus Jansent, S.I, Ad Claras Aquas, Vol. II, 1924</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-05-22" who="#JW" status="draft" n="2015.05">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pjo-l2q67">
+        <head>Librum II, Quaestio 67</head>
+        <p>Quantum (a) ad octavum, an scilicet. noster intellectus 
+          includit in se omnes nostras (b) potentias 
+          sensitivas, Ita quod noster (c) intellectus sit nostra 
+          potentia visiva et (d) auditiva et sic de aliis (e).</p>
+        <div>
+          <head>Arguitur quod sic (f)</head>
+          
+          <p>Quia nullum inconveniens videtur ex hoc sequi; non 
+          enim videtur inconveniens quod ipse respectu obiectorum 
+          sensiblium sit potentia organica.</p>
+          
+          <p>1. Primo, quia tota essentia animae rationalis ponitur 
+            a pluribus secundum se totam informare corpus et omnes 
+            partes eius, et tamen tota essentia animae non est ignobilior 
+            quam essentia suae potentiae.</p>
+          
+          <p>2. Secundo, quia maioris nobilitatis est quod possit 
+            omnia entia immediate videre et intelligere quam quod non 
+            possit.</p>
+          
+          <p>3. Tertio, quia angelicus intellectus ponitur hoc posse, 
+            et tamen aspectus eius et actus quibus haec (g) sensibilia 
+            immediate attmg1t oportet quod sit sic(h) determinatus ad 
+            illa acsi per speciale organum hoc fieret. Nec talis aspectus 
+            videtur minus distare ab altitudine sui alterius aspectus 
+            ad intellectualia et divina quam distat(i) in nobis, dato quod 
+            primus sit in nobis organicus.</p>
+          
+          <p>4. Quarto, quia intellectus hominum beatorum immediate 
+            aspicit et videt omnia sensibilia convertendo se et applicando 
+            ad illa; ergo non est hoc (k) contra essentiam intellectus 
+            humani.</p>
+          
+          <p>5. Quinto, quia non est inconveniens eius actum simplicem 
+            et incorporalem ponere in organo corporali, quia actus 
+            videndi et audiendi et actus iudicii sensus communis sunt 
+            simplices et incorporales et tamen sunt in suis organis.</p>
+          
+          <p>6. Sexto, quia non est inconveniens quin intellectus 
+            quamvis sit organicus, possit reflecti super se et super suum 
+            <pb n="616"/>actum; quia sensus communis; quamvis sit organicus, attingit 
+            simplices actus sensuum particularium. Et etiam probatum 
+            fuit supra quod reflectitur super (a) se et etiam super 
+            totum suum suppositum (b) per hoc quod (c) canis vel serpens 
+            praeeligit partem viliorem morti exponere pro salvando toto 
+            et (d) parte sua (e) radicaliori et nobiliori; quod non potest, 
+            nisi suo sensuali (f) iudicio discernat totum a parte et radicaliorem 
+            consistentiam suae vitae a minus radicali. Quod 
+            et ibidem probatum est per 
+            <ref>
+              <seg><name ref="#Augustine">Augustinum</name>, II <title ref="#DeLiberoArbitrio">De libero arbitrio</title>,</seg>
+              <bibl>Augustine, De libero arbitrio, II, capp. 3, 4, (PL 32, 1244sqq)</bibl>
+            </ref> 
+            hoc expresse docentem (g) et argumentantem.</p>
+        </div>
+        <div>
+        <head>[Respondeo] (h)</head>
+        <p>Huius quaestionis veritas non solum catholicis, sed 
+          etiam paganis philosophis (i) est et 
+          fuit nota(h). Omnes enim pro certo habent quod 
+          intellectus noster non est potentia organica et 
+          ideo non est aliqua potentiarum nostrarum sensitivarum. 
+          Et quidem hoc aliqualiter clamat experientia 
+          qua in brutis intellectu carentibus videmus huiusmodi potentias 
+          sensitivas (1) et etiam in infantibus et amentibus quod 
+          sunt actus earum absque actu intellectus.</p>
+          
+          <p>Huius tamen profundior ratio a diversis diversimode 
+            datur. Nam sequaces paganorum philosophorum (m) 
+            dicunt causam huius esse: Quia 
+            intellectus habet sola universali a pro immediato 
+            obiecto, quae secundum suam universalitatem 
+            non sunt in rebus sensibilibus nec esse 
+            possunt. Et ideo oportet (o) quod species illa repraesentans 
+            abstrahatur ab omnibus conditionibus sensibilibus et particularibus 
+            ad hoc autem non potuit pertingi nisi per quasdam 
+            minores et praeambulas abstractiones (p). Nam species 
+            sensibilium primo abstrahitur a sola materia naturali, quando 
+            absque ilia gignitur in quinque sensibus particularibus, adhuc 
+            tamen per quandam originalem continuationem cohaeret 
+            materiae naturali (q). Ab hac autem cohaerentia abstrahitur, 
+            <pb n="617"/> 
+            quando fit in potentia imaginativa. Adhuc taien secundum 
+            eos (a) non est a quantitativis et situalibus et individualibus 
+            conditionibus abstracta seu (b) spoliata, et ideo ulterius oportet 
+            quod per lumen intellectus ab omnibus talibus conditionibus 
+            abstrahatur. Quae quidem sic n ab omnibus talibus (d) 
+            abstracta non potest existere in aliquo quanto vel situali, 
+            quia tunc eo ipso esset ibi per modum quantum et situalem 
+            ac per consequens et per modum individualem. Ergo oportet 
+            quod sit in subiecto ab omni quanto et situali abstracto. 
+            Ergo intellectus qui est eius subiectum est necessario abstractus. 
+            ab omni quanto et situali (e) ac per consequens et (f) 
+            ab omni organo corporali (g).</p>
+        <p>Haec autem ratio veram quidem et catholicam (h) 
+          habet conclusionem, sed innititur falsis 
+          et periculosis. Quorum primum est quod intellectus nihil 
+          praeter universalia apprehendat per se et immediate. -- 
+          Secundum est quod species vel actus apprehensionis cohaerens 
+          immediate obiecto materiam -naturalem habenti non 
+          potest intellectuales proprietates habere; materiam autem 
+          naturalem hic voco ex qua per motum corporalem naturaliter 
+          educuntur formae ipsius. Dicunt (i) etiam quod quamdiu 
+          est in aliqua quacunque materia, non potest esse intellectualis 
+          nec (k) intellectiva. - Tertium est quod species imaginaria 
+          sit extensa seu quanta et (l) sub corporali situ partes 
+          suas habens situatas et situaliter distinctas. - Quartum 
+          est quod species existens in intellectu sit ab omnibus particularibus 
+          conditionibus (m) spoliata.</p>
+          
+          <p>Horum autem reprobatio (n) patet ex alibi satis tactis. 
+            Et certe, ipsi haec quatuor potius supponunt tanquam principia 
+            prima (o) et per se nota quam curaverint illa probare, 
+            nisi forte per hoc quod iterum tanquam principium de se 
+            evidens praesupponunt quod scilicet omnis species repraesentans 
+            extensa et situalia (p) est extensa (q) et situalis, pro 
+            eo quod simile oportet repraesentari per simile et non potest (r) 
+            per dissimile et maxime per dissimillimum (s). Propter 
+            quod et oportet quod species repraesentans universalia sit 
+            universalis. Hoc autem dictum tollit Deo (t) omnem propriam 
+            <pb n="618"/>intelligentiam corporum et quorumcunque particularium et 
+            ponit speciem repraesentantem universalia in infinitum excedere 
+            suum subiectum, scilicet, intellectum humanum, qui 
+            utique est particularis et sub eadem specie in pluribus personis 
+            hominum plurificatus (a). Ponit etiam illam speciem cum 
+            suo actu intelligendi nullo modo esse numeraliter plurificatam 
+            in pluribus intellectibus hominum. Propter quod ex hoc 
+            dicto sequitur 
+            <ref>
+              <seg>error <name ref="#Averroes">Averrois</name></seg>
+              <bibl>Cfr. De animae beatitudine, per totum, praesertim cap 4 (vol. IX f. 148r sqq.); De anima, lib. III, summa 1, capp. 1, 3 (vol. VI pars I, f. 136rsqq.)</bibl>
+            </ref> 
+            quod scilicet erit tantum 
+            unus intellectus in omnibus hominibus. Et certe ipsimet (b) 
+            compelluntur tenere quod per dissimile in essendo, simile 
+            tamen in exprimendo et repraesentando repraesentantur nobis 
+            non solum ea quae per intellectum scimus, sed et ea quae 
+            sensibus nostris sentimus.</p>
+          
+          <p>Ad veritatem(c) igitur quaestionis praemissae 
+            triplex ratio datur ad praesens. Prima est(d) 
+            ex libertate arbitrii nostri quam impossibile est(e) 
+            subici motibus et actionibus agentium corporalium; quia 
+            tunc non solum cogeretur et coactive necessitaretur et impelleretur 
+            ad suos actus, sed etiam esset naturae inferioris 
+            a natura suorum principalium motorum corporalium, aut saltem 
+            non superioris. - Item, ex quo (f) secundum se et pro 
+            suo absoluto esse (g) et existere indigeret materia corporali 
+            et in varias substantiales formas transmutabili (h): eo ipso 
+            convinceretur esse generabilis et corruptibilis, prout in quaestione, 
+            an sensitiva nostra sit radicata in spirituali materia 
+            animae vel non, sed potius sit a generante, plenius (i) est 
+            probatum.</p>
+        
+          <p>Secunda est ex sublimitate intellectivi 
+            aspectus et actus comparata ad inferioritatem 
+            organici aspectus et actus potentiarum(k) organicarum 
+            animae. Nam aspectus et actus organicus(l) sic 
+            est corpori coniunctus et conformatus quod vel (m) nihil aspicit 
+            nisi corporeum, vel non potest aliquid aspicere nisi ut 
+            coniunctum corpori quod et aspicit, nec potest hoc (n) nisi 
+            cum modo quasi corporeo. Nam sicut sensus est compositus 
+            <pb n="619"/>ex potentia animae et organo corporeo: sic aspectus eius 
+            est compositus ex spirituali aspectu suae potentiae et ex corporali 
+            aspectu sui organi (a). Et hinc est quod licet sensus 
+            communis apprehendat spirituales et (b) sensitivos actus sensum, 
+            non tamen facit hoc nisi cum quodam aspectu corporali 
+            organi sui ad organa sensuum aut etiam ad organum 
+            proprium, prout ali quo modo forsitan reflectitur, in se ipsum. 
+            Ergo si intellectus esset potentia organica, nihil posset intelligere 
+            nisi ut corpori (c) et situi locali coniunctum et hoc 
+            cum modo et aspectu <sic>semisituali.</sic></p> 
+          <p>Si vero tam ad hoc quam ad priorem rationem dicas 
+            quod pars intellectiva non sit coniuncta suae materiae corporali, 
+            quin super ipsam dominative (d) emergat - non 
+            enim (e) est ibi tota immersa, sicut sunt ceterae formae -: 
+            contra hoc obicitur (f), quia aut secundum solam unam partem 
+            sui formalem informabit materiam corporalem aut secundum 
+            omnes. Si secundum unum solam, tunc reliquae differunt ab 
+            illa per (g) differentiam substantialem; quia illi parti est essentiale 
+            quod sit forma corporis, reliquis vero est essentiale 
+            quod non sint formae corporis, sed potius sint in se absolutae. 
+            Si vero secundum omnes, ergo tota et totaliter est immersa 
+            materiae corporali. - Praeterea, unaquaeque res sicut se 
+            habet ad esse, sic se habet ad operari. Si ergo non solum 
+            propter connexionem sui ad partem sensitivam, sed etiam (h) 
+            absolute et immediate propter se indiget materia corporali 
+            ad suum esse: ergo et eodem modo, scilicet, absolute et immediate 
+            indiget materia corporali ad suum operari. Ergo 
+            absque illa nullam penitus operationem habet aut habere 
+            potest, nec etiam aliquod esse nisi forsan miraculose, sicut 
+            accidentia panis in sacramento altaris.</p> 
+          
+          <p>Tertia(i) ratio est ex (k) ordine suae connexionis 
+            ad sensitivam sibi subnexam et <sic>conradicatam.</sic> 
+            In quo quidem ordine duo inter cetera includuntur, 
+            scilicet, quod semper (l) pars intellectiva sit valde praedominans (m) 
+            et superposita toti sensitivae et quod secundum 
+            suum infimum aspectum sit sibi et suis sensitivis actibus intimata 
+            et (n) inviscerata ac per consequens et organis eius. 
+            <pb n="620"/>Ex primo autem habetur quod non solum dominative transcendat 
+            organa corporis, sed etiam totam partem animae sensitivam. 
+            Ex secundo vero habetur quod nulli organo sit unita 
+            nisi mediante parte animae sensitiva (a) et nec hoc ipsum (b) 
+            nisi per infimum eius aspectum.</p> 
+          
+          <p>Sed forte dices quod haec ratio petit principium, quia 
+            scilicet supponit intellectum a tota sensitiva differre, et tamen 
+            haec debet esse conclusio hic probanda. Sed contra hoc adverte 
+            quod ex ordine diversorum actuum nostrae animae 
+            diversorumque modorum agendi nobis per assiduam et intimam 
+            experientiam comprobato supponitur supra communes 
+            actus sensuum particularium et sensus communis et imaginativae 
+            esse actus intelligendi et volendi liberos praedictis 
+            omnibus dominantes et praesidentes. Et ex hoc praesupposito (c) 
+            probatur partem illam animae a qua sunt isti actus 
+            nullatenus esse organicam ac per consequens non solum differre 
+            a nostris potentiis sensitivis quantum ad suos actus 
+            communes, sed etiam quantum ad differentias (d) organici et 
+            non organici.</p>
+        </div>
+        <div>
+        <head>[Solutio Obiectorum]</head>
+          <p>Ad obiectum ergo in contrarium patet multa 
+            inconvenientia sequi, si intellectus esset potentia organica 
+            vel idem cum sensibus nostris organicis.</p> 
+          
+          <p>Ad primam etiam supprobationem (e) patet ex 
+            dictis quod (f) tota essentia animae rationalis non informat 
+            immediate partes corporis. Nec etiam illi doctores qui contrarium 
+            dicunt tenent quod saltem secundum potentias suas (g) 
+            intellectuales et liberas corpus informet.</p> 
+          
+          <p>Ad secundam dicendum quod videre omnia modo (h) 
+            organico et semicorporali non esset nobilitatis in aliquo intellectu 
+            immo totam nobilitatem intellectualem prosterneret 
+            in sensum brutalem. Quamvis autem per modum intellectualem 
+            et absque omni (i) organo corporeo omnia (k) praesentialiter 
+            et immediate videre sit maioris nobilitatis quam hoc 
+            non posse: non propter hoc sequitur quod intellectus noster 
+            hoc possit, saltem in hae vita, quia, licet sit nobilis, non 
+            tamen habet omnem nobilitatem. -- Praeterea, si quod sibi 
+            <pb n="621"/> 
+            subtrahitur in se, sufficienter et coaequaliter recompensaretur 
+            per sensus sibi subnexos: tunc perinde esset sibi hoc posse 
+            mediantibus sensibus quod et posse immediate, et forte sic 
+            fiet in statu gloriae. Sin autem, dabitur tunc sibi (a) quod 
+            possit in omnia immediate et praeter hoc quod possit in corporalia 
+            (b) mediantibus sensitivis.</p>
+          
+          <p>Ad tertiam (e) dicunt quidam quod angelus habet sub 
+            intellectu suo potentias sensitivas in hoc differentes a nostris 
+            quod nostrae sunt organicae, non autem illae. Moti 
+            sunt autem (d) ad hoc: Quia quando angelus visibiliter videt 
+            hanc vel illam faciem et sub hoc situ vel illo, non minus 
+            differt illud suum videre ·a suo audire quo audibiliter audit 
+            clamores et voces quam nostrum videre differat a nostro 
+            audire, nec suum videre et audire minus proprie et individualiter 
+            expriniunt (e) sua. propria (f) obiecta quam faciunt 
+            nostri actus. - Rursus dicunt quod quando angelus cogitat 
+            haec vel ilia corpora et has vel. illas figuras et quantitates, 
+            et hoc non ut sibi realiter praesentes (u), sed potius ut absentes: 
+            non minus differt (h) hoc ab actu videndi et ab actu 
+            intelligendi universales quidditates praedictorum quam differant 
+            tres praedicti actus in nobis. - Dicunt etiam quod 
+            sicut noster intellectus abstrahit absolutas rationes universalium 
+            (i) ab obiecto et actu imaginario vel visio seu audito (k): 
+            sic intellectus angelicus oportet quod abstrahat eas a 
+            suis actibus et obiectis et (l) consimilibus aut (m) saltem habet 
+            prius eas (n) sub consimili abstractione, ita quod suo actuali 
+            iudicio discernit (o) inter has rationes et illas sicut inter universales 
+            et imaginarias et visuales.</p>
+          
+          <p>Contra (p) hunc modum arguitur: Primo, quia (q) quando 
+            angelus videt alterum angelum in loco corporali a se distante 
+            (r), tunc eodem aspectu quo aspicit in angelum a se 
+            distantem aspicit et in eius locum. Actus etiam ille quo 
+            videt eum esse in tali loco et in tali (s) corpore apprehendit 
+            simul duo extrema localis existentiae illius angeli scilicet 
+            Ipsum angelum et illud corpus locale. Constat autem quod 
+            per intellectum videt ilium angelum, ergo et per eundem 
+            <pb n="622"/> videt illud corpus locale. - Secundo, quia qua ratione non 
+            est contra essentiam intellectus cogitare corpora et haec 
+            vel (a) illa: eadem ratione nec immediate et praesentialiter 
+            illa videre, et maxime cum de absoluta ratione intellectus 
+            sit habere totum ens et totum entis (b) ambitum pro obiecto (c). 
+            - Tertio, quia qua ratione angelus per solum intellectum 
+            potest (d) suos particulares actus et habitus videre (e) praesentes 
+            et recordari praeteritos et eo ipso absentes et iterum 
+            ex eis considerative et distinctive abstrahere (f) rationes universales 
+            eorum, secundum quas specie vel genere ad invicem 
+            conveniunt: eadem ratione per solum intellectum potest haec 
+            tria respectu corporalium.</p>
+          
+          <p>Praeterea, non oportet tres actus istos respectu corporum 
+            differre tantum in eis quantum (g) differunt in nobis; 
+            quia videre nostri oculi corporalis nostrumque (h) imaginari 
+            sunt (i) secundum se ab omni intellectiva ratione exclusi (k), 
+            videre autem angeli quo videt praesentia corpora et suus 
+            cogitatus quo illa ut absentia cogitat sunt actus essentialiter 
+            intellectivi, ita quod in sua essentia habent intellectualem 
+            claritatem intellectivi iudicii, aut (l) si aliquando actus(m) 
+            sunt in eo creditivi vel opinativi, tunc etiam (n) hi sunt in 
+            eo cum essentiali proprietate intellectivi seu (o) intellectualis 
+            assensus (p). - Praeterea, licet audire sonos differat in eis 
+            specie (q) a visu colorum propter diversitatem obiectorum: 
+            non tamen per (r) respectum ad potentiam quae in eis efficit 
+            istos actus, quia respectu eius sunt ambo intellectivi. In nobis 
+            vero differunt utroque modo et ideo plus (s) in nobis differunt 
+            quam in ipsis. -- Praeterea, si in eis sunt potentiae 
+            sensitivae, adhuc duo inconvenientia ex hoc sequi videntur. 
+            Primum est quod ex sola sua essentia absque connexione 
+            earum ad intellectum et voluntatem competit eis esse in materia 
+            spirituali, ita quod solae absque primis poterunt ei 
+            dare per seu existentiam. Ergo absque parte intellectiva 
+            poterit dari spiritualis substantia ab omni corpore separata. 
+            Secundum (u) est quod sensitiva eorum habebit ex ratione 
+            suae essentiae quod nullo modo posset (v) alicuius corporis 
+            <pb n="623"/>esse forma. Ergo super nostram sensitivam (a) habet quoad 
+            hoc ordinem sic transcendentem (b) acsi esset intellectiva.</p> 
+          
+          <p>Si vero pro altera parte adhuc arguatur quod praeter 
+            potentiam volitivam et intellectivam oportet in eis esse aliquam 
+            potentiam motivam exteriorum ad imperium voluntatis, 
+            prout in prima quaestione de motu processivo animalium 
+            tetigi: potest dici quod qua ratione oporteret eam addi 
+            ad intellectualem volitivam et cognitivam, eadem ratione et 
+            a sensualem (v), sicut patet ex ibidem dictis. Potest etiam 
+            dici quod forte ad hoc sufficit vigor suae volitivae potentia (d) 
+            seu totius substantiae suae, in quantum (e) est motus 
+            et impulsus ad exteriora ab imperio sui velle. De hoc tamen 
+            in duodecima quaestione amplius disseretur.</p>
+          
+          <p>Dicendum ergo ad supprobationem (f) praedictam quod 
+            licet actus, quo angelus videt haec corpora vel ilia, ita propre 
+            et singulariter exprimat quantitativas et situales et individuales 
+            proprietates eorum, sicut faciunt actus nostri: non 
+            tamen sunt essentialiter sic infimi, tum quia sunt intellectivi, 
+            tum quia non sunt organis corporeis et eorum corporalibus 
+            aspectibus affixi.</p>
+          
+          <p>Ad quartam dicendum quod forte intellectus beatorum 
+            hominum cum gloriosis sensibus corporis sibi subnexis 
+            ita plene videbit et intelliget omnia corporalia, quamvis non 
+            attingat illa nisi per intermedios actus sensuum sicut videbit 
+            angelus per solum suum intellectum. Verumtamen, si ita fiat, 
+            oportebit utra hoc quod aspectus humani et beati intellectus 
+            sic fortiter transeat per actus sensuum ad exteriora quod 
+            angelum illic existentem possit aeque clare et immediate 
+            videre sicut et angelus sibi in gloria aequalis. -- Si vero 
+            dicatur quod ultra hoc oportet quod etiam eodem actu intellectus, 
+            quo videt angelum esse in tali loco videat ipsum 
+            locum, eadem ratione qua et hoc supra de angelo probabatur 
+            potest dici quod non fit hoc actu omnino simplici, sed 
+            quasi composito ex duoobus. Sed in angelo non oportet ibi 
+            aliquem actum sensitivum et organicum famulatorie addi, 
+            sicut oportet in intellectu humano, ut servetur ordo essentialis 
+            coniunctionis eius ad suam sensitivam (g) et suae sensitivae 
+            ad eum. Alioquin dicendum erit quod in tantum sublimabitur (h) 
+            per gloriam quod etiam corpora attinget et videbit omnino immediate.</p>
+        <p><pb n="624"/>Ad quintam(a) patet ex dictis quod (b) licet cognitivi 
+          actus sensuum sint simplices et (c) incorporei, non tamen sunt 
+          ita simplices nec ita a lege corporum et corporalium aspectuum 
+          liberi et (d) semoti sicut oportet esse actus intellectivos.</p>
+        <p>Ad sextam(e) etiam patet ex supradictis(f), quia reflexio 
+          cuiuscunque sensus super (g) se vael super (h) actus sensitivos 
+          est valde infima respectu reflexionis liberae et intellectivae. 
+          Nam sensus noster non potest reflecti nisi secundum 
+          exigentiam corporalis aspectus sui organi, cuius est non 
+          posse immediate dirigi vel reflecti nisi super corporale et 
+          situale. Unde etiamsi corporalis aspectus oculi (i) beati absque 
+          omni intermedio speculo vel speculari (k) super se reflectitur: 
+          non reflectitur immediate nisi super corporalia eius (l). Spiritualis 
+          tamen aspectus sensus communis suo corporali aspectui 
+          sui organi connexus et invisceratus (m) attingit immediate 
+          actus sensitivos, prout sunt organis corporeis et corporalibus (n) 
+          aspectus incorporati. Et si potentiae partialium sensuum 
+          possunt aliquo modo sentire proprios actus, tunc illos aspiciunt 
+          et attingunt modo praedicto.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

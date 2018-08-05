@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- <?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Librum II, Quaestio 8</title>
+                <author xml:id="PJO">Peter John Olivi</author>
+                <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2015.05">
+                    <title>Librum II, Quaestio 8</title>
+                    <date when="2015-05-09">May 09, 2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Ad Claras Aquas</publisher>
+                <pubPlace>Quaracchi</pubPlace>
+                <availability status="free">
+                    <p>Public Domain</p>
+                </availability>
+                <date when="1922">1922</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Quaestiones In Secundum Librum Sententiarum, ed. Bernardus Jansen, S.I, Ad Claras Aquas, 1922</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2015-04-27" who="#JW" status="draft" n="2015.05">
+                    <p>Created file for the first time.</p>
+                    <note type="status">
+                        <note type="collabaration">Yes</note>
+                        <note type="validating-schema">lbp-0.0.1</note>
+                        <note type="transcription-type">critical</note>
+                    </note>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div xml:id="includeList">
+                <xi:include
+                    href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+                    xpointer="worksCited"/>
+                <xi:include
+                    href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+                    xpointer="prosopography"/>
+            </div>
+        </front>
+        <body>
+            <div xml:id="pjo-l2q8">
+                <head>QUAESTIO VIII.</head>
+                <p>Secundo quaeritur an esse et essentia sint idem.</p>
+                <div>
+                    <head>Et videtur quod non.</head>
+                        
+                    <p>1. Quia actus differt ab eo cuius est actus; sed esse est
+                       actus entis et essentiae; ergo et cetera.</p>
+                    
+                    <p>2. Item, omne limitatum et participatum differt ab eo
+                       per quod limitatur et in quo participatur; sed esse limitatur
+                       ad certum genus et speciem per essentiam cuius est et a
+                       qua participatur: esse enim, quantum est de se, est illimitatum
+                       et indistinctum.</p>
+                    
+                    <p>3. Item, eadem essentia speciei habet diversa esse in
+                       diversis individuis; ergo ilia esse differunt ab ipsa.</p>
+                    
+                    <p>4. Item, materia habet esse diversa sub diversis formis,
+                       ergo ipsa differt a suo esse.</p>
+                    
+                    <p>5. Item, quod est proprium solius Dei non competit creaturae;
+                       sed proprium est solius Dei quod ipse sit suum esse,
+                       et e contrario; unde <ref><name ref="#HilaryOfPoitiers">Hilarius</name>, VII <title ref="#deTrinitate">De Trinitate</title></ref>, dicit (1)
+                       quod  <quote>esse non est accidens Deo, sed subsistens veritas</quote> ;
+                       ex quo, videtur, supponetur quod esse creatum sit accidens;
+                       Deus etiam appropriavit sibi hoc nomen dicens (2) <name ref="#Moses">Moysi</name>:
+                        <quote>Ego sum qui sum et qui est misit me ad vos</quote> .</p>
+                        
+                    <p>6. Item, idem verissime et propriissime praedicatur de
+                       se ipso; ergo esse verissime praedicabitur de essentia cuius
+                       est, et e contrario; sed hoc falsum; ergo et cetera</p>
+                    
+                    <p>7. Item, nihil potest cogitari aut intelligi non intelligendo
+                       illud quod est idem cum eo; sed essentia creata potest
+                       intelligi sine suo esse, immo et potest intelligi non esse,
+                       quod est amplius.</p>
+                    
+                    <p>8. Item, illud quod est (a) de se indeterminatum ad duo
+                       opposita non est aliquod illorum; sed essentia est de se indeterminata
+                       ad esse et non esse; unde et potest esse vel
+                       non esse.</p>
+                    
+                    <p>9. Item, successivum differt ab eo quod permanet in
+                       tota successione; sed esse secundum quod plus durat plus
+                       succedit, essentia vero permanet eadem; ergo et cetera.</p>
+                    
+                    <p>10. Item, humanitas Christi habet aliud esse quam nostra;
+                       et gutta aquae habet aliud esse, quando est in fluvio,
+                       aliud, quando est per se; et tamen essentia est eadem et
+                       eiusdem speciei. </p>
+           
+                </div>
+                <div>
+                    <head>[Respondeo]</head>
+                    
+                    <p>Circa istam quaestionem sunt tres modi dicendi
+                       hodie satis solemnes (b). — Quorum primi
+                       dicunt quod esse differt ab essentia cuius est esse sicut
+                       accidens a subiecto; motique sunt quibusdam rationum
+                       praemissarum. </p>
+                    
+                    <p>Secundi vero dicunt quod differt ab ea realiter: est
+                       enim actus ab ea manans et eam consequens, non tamen
+                       manans sic ab ea quod transeat in aliud genus; quia non
+                       est (c) ei accidentale sed substantiale. — Isti autem videntur
+                       esse moti ex eo quod esse videtur in se claudere intellectum
+                       (d) essentiae cum quadam additione et quia id quod dicit
+                       dicit per modum actus verbalis, essentia vero per modum
+                       quidditatis nominalis; ex quibus videtur quod sit actus manans
+                       ab essentia et (e) eam praesupponens et consequens.</p>
+                    
+                    <p>Tertii dicunt quod realiter sunt omnino idipsum (f), ita
+                       quod idem dicunt, sed sub alia ratione.</p>
+                    
+                    <p>Isti autem suum dictum asstruunt ostendendo primo
+                       quod esse non est accidens essentiae cuius est et secundo
+                       quod non est substantiale, aliquid realiter addens ad eam et
+                       praecipue eo modo quo dicunt secundi.</p>
+                    
+                    <p>Primum autem probant sic. Omne subiectum prius
+                       est naturaliter quam suum accidens; accidentale enim esse
+                       dependet a subiecto et non e contrario; sed (a) impossibile est
+                       quod essentia sit prius naturaliter quam suum esse; ipsa etiam
+                       in tantum dependet a suo esse quod ex sola ablatione illius
+                       annihilatur seu corrumpitur. — Item, omne accidens differt
+                       per essentiam a suo subiecto et omne receptum a recipiente,
+                       ergo si esse est accidens receptum in essentia sua, ipsum differt
+                       essentialiter ab illa; ergo habet aliam essentiam ab illa,
+                       si ergo esse necessario differt ab essentia quae per ipsum est,
+                       ergo ipsum esse differret (b) ab illa essentia per quam differt
+                       ab ilia essentia cuius dicebatur esse accidens; et tunc de
+                       hac secunda essentia potest argui sicut et de prima et sic in
+                       infinitum. — Item, si esse est accidens, oportet quod sit in
+                       aliquo praedicamento accidentis, et hoc aut ut genus vel
+                       species vel differentia vel aliquod principium formale illius
+                       generis. Si autem est genus, ergo est quaedam essentia distinguenda
+                       in species per differentias sibi additas; et cum
+                       pro regula habeatur quod omnis essentia differt a suo esse
+                       sicut subiectum ab accidente, ergo ipsum esse differet ab
+                       ista essentia sicut et (c) a prima; praeterea, esse non videtur
+                       habere differentias nisi solas illas quas habet essentia
+                       cuius est. Si vero est species illius generis; ergo aliquid (d)
+                       est communius quam esse quod est genus ipsius esse ; quod
+                       est falsum, quia nihil est communius quam esse. Si vero
+                       est principium formale illius generis, tunc ipsum est quaedam
+                       pars essentiae eius; quae essentia ex eo quod est ex
+                       aliis partibus constituta recipit in se quoddam esse accidentale
+                       per quod existit; quae omnia sunt multis absurditatibus
+                       plena. — Item, nihil est magis substantiale quam sit ipsum
+                       subiectum seu ipsum per se ens sibi ipsi; sed illud quod proprie
+                       est per se ens et quod omnibus aliis subiacet tanquam
+                       sustinens ilia est suppositum substantiae, quod prima substantia
+                       vocatur; ipsum autem in sua ratione formaliter includit
+                       per se esse et per se existentiam; per se autem esse est quoddam
+                       esse; ergo et cetera. — Item, nulla forma proprie informatur
+                       ab alio; et esto quod informaretur, ipsum informans
+                       necessario esset aliqua forma; sed omnes essentiae formarum
+                       sunt purae formae; si autem esse est accidens earum, utique
+                       informantur ab illo; ergo (a) sequitur quod formae sit forma
+                       et iterum quod ipsum esse est quaedam forma. — Item, nullum
+                       accidens dat esse simpliciter, sed solum esse tale et esse secundum
+                       quid. — Item, omne accidens per aliquam inhaerentiam
+                       inhaeret suo subiecto, quae inhaerentia se habet ad accidens
+                       per eam inhaerens tanquam quoddam esse talis essentiae; ergo
+                       esse substantiae habebit quandam inhaerentiam sic se habentem
+                       ad ipsum; quod est absurdum et ridiculosum. — Item, constat
+                       quod proprium esse substantiae multum debet differre a
+                       proprio esse accidentium; ergo satis videtur quod debeat esse
+                       in alio praedicamento. — Item, album secundum <name ref="#Aristotle">Aristotelem</name>
+                       (1) est in praedicamento qualitatis; sed album et (b) esse
+                       albedinis videntur esse idem; ergo et cetera. — Item, secundum
+                       hoc motus qui terminatur immediate ad formam non
+                       terminabitur immediate ad esse formae, sed solum mediante
+                       forma; et ita naturaliter prius educet formam quam suum
+                       esse. — Item, secundum eos accidens, saltem proprium, causatur
+                       a substantia; unde dicunt quod materia cum forma
+                       causa est omnium accidentium quae sunt in ea; sed impossibile
+                       est quod aliqua res sit causa sui esse; ergo impossibile
+                       est quod suum esse sit accidens eius. — Item, secundum eos
+                       forma dat esse materiae et ex forma cum materia consurgit
+                       seu resultat esse compositi; si ergo forma dando esse materiae
+                       dat aliud quam se ipsam, oportebit quod det illud efficiendo
+                       seu originando; ergo est causa efficiens sui esse formalis
+                       quod dat materiae; si etiam esse compositi consurgens
+                       ex unione formae cum materia est aliud ab eis ut sic unitis,
+                       oportebit quod originaliter sive effective causetur ab eis;
+                       quod est impossibile, quia eo ipso essent causa effectiva sui
+                       totius seu compositi.</p>
+                    
+                    <p>Secundum vero probant sic et primo quantum
+                       ad hoc quod secundi (c) dicunt quod esse naturaliter subsequatur
+                       essentiam et praesupponat eam: omne enim quod naturaliter
+                       subsequitur alterum habet necessario esse post esse
+                       illius; ergo essentia prius est quam suum esse, quod est impossibile,
+                       etiam Deo. — Item, videtur quod naturaliter prius possit
+                       a Deo fieri sine posteriori; ergo essentia posset a Deo fieri
+                       sine suo esse. — Secundo quantum ad hoc quod dicunt
+                       quod esse manat originaliter ab essentia cuius est; constat
+                       enim quod originari non est aliud quam (a) fieri; fieri autem
+                       non est aliud quam effici; ergo esse substantiale fit ab essentia;
+                       sed esse angeli et primorum entium non fit nisi per creationem.;
+                       ergo et cetera. — Item, (b) omnis effectus inmediatus
+                       est similitudo suae causae habens se per analogiam ad illam;
+                       ergo esse est quasi quaedam qualitas similis essentiae a qua
+                       manat. — Item, omnis actus immediate manans ab alio est
+                       eius actio et operatio; ergo si, prout dicunt, esse est actus
+                       manans ab essentia, sequitur quod esse sit quaedam actio
+                       essentiae. — Item, impossibile est quod aliquod essentialium
+                       rei naturaliter sequatur totam essentiam rei et impossibile
+                       est quod fiat a tota (c) essentia eius, quia tunc sequeretur
+                       se ipsum et fieret a se ipso, quoniam omne essentiale aut
+                       est principium constitutivum essentiae aut est ipsa essentia.
+                       — Tertio probant hoc directius quantum ad hoc quod alii
+                       dicunt quod esse differt realiter ab essentia cuius est tanquam
+                       illud realiter superaddens ad eam. Quod enim hoc esse
+                       non possit probant; quia si differt ab essentia, aut differt
+                       sicut pars a toto aut sicut totum a parte aut sicut duae
+                       essentiae diversae. Primum et secundum nec ipsi (d) dant nec
+                       dari potest; tertium vero dari non potest, nisi vel sint simpliciter
+                       duo entia aut quod unum sit accidens alterius; et
+                       tunc redit (e) opinio prima. Sed forte dicent quod esse non
+                       differt (f) ab essentia, sicut essentia ab essentia (g), sed solum
+                       sicut esse ab essentia. Sed contra; quia si nullo modo differunt
+                       sicut duae essentiae, ergo essentia et quidditas unius
+                       est essentia et quidditas alterius; sed quaecunque sic se
+                       habent sunt omnino idipsum, sicut patet etiam in personis
+                       divinis et in esse personali earum. — Item, si esse realiter
+                       differt ab essentia solum ut esse, ergo ipsum secundum se
+                       et in se nullam habet quidditatem vel essentiam; ex quo
+                       sequitur quod sit omnino nihil. — Item, detur quod Deus
+                       nihil cesset facere nisi solum ipsum esse; constat quod eo
+                       ipso cessat facere essentiam; ergo nihil aliud erat facere
+                       esse quam facere essentiam; et hoc ipsum patet arguendo
+                       e contrario, utpote si detur quod Deus creet solam essentiam.
+                       — Item, idem non est realiter idem sibi ipsi per aliud
+                       a se; sed nihil est realiter idem sibi nisi per esse identitatis
+                       seu per esse suae essentiae; homo enim non est realiter
+                       seu actualiter homo nisi per esse suae humanitatis, nec
+                       albedo est realiter albedo nisi per esse suae albedinis, et sic
+                       de aliis. — Item, abstractum et concretum seu idem sumptum
+                       abstractive et concretive omnino dicit idipsum; sed esse et essentia
+                       sunt huiusmodi. Secundum enim <name ref="#Augustine">Augustinum</name> sic
+                       se habet esse ad essentiam sicut currere ad cursum et per
+                       se existere ad suppositum vel substantiam; unde, <ref>VII <title ref="#CityOfGod">De Civitate</title>,
+                       capitulo 4</ref>, dicit (1):  <quote>Sicut ab eo quod est esse appellatur
+                       essentia, ita ab eo quod est subsistere substantiam dicimus</quote> ;
+                       et <ref>V <title ref="#deTrinitate">De Trinitate</title>, capitulo 2</ref> (2);  <quote>Sicut ab eo quod
+                       est sapere dicta est sapientia et ab eo quod est scire dicta
+                       est scientia, ita (a) ab eo quod est (b) esse dicta est essentia</quote> .
+                       Item, <ref>XII <title ref="#CityOfGod">De Civitate</title>, capitulo 2</ref>, dicit (3):  <quote>Cum Deus
+                       summa essentia sit, hoc est, summe sit et ideo immutabilis sit,
+                       rebus quas ex nihilo creavit esse dedit sed non summe esse;
+                       et aliis dedit esse amplius, aliis minus atque ita naturam essentiarum
+                       gradibus ordinavit; sicut enim ab eo quod est sapere
+                       vocatur sapientia, sic ab eo quod est esse vocatur essentia,
+                       ac per hoc ei naturae quae summe est contraria
+                       natura non est nisi quae non est; ei quippe quod est non
+                       esse contrarium est, et propterea Deo, id est, summae essentiae
+                       nulla essentia contraria est</quote> . — Item, <ref><name ref="#Anselm">Anselmus</name>,
+                       <title ref="#Monologion">Monologion</title> (c), capitulo 6</ref>, dicit (4) quod  <quote>summa essentia sic
+                       est per se et ex se sicuti dicitur quod lux lucet vel est lucens
+                       per se ipsam et (d) ex se ipsa; quemadmodum enim
+                       se habent ad invicem lux et (e) lucere et lucens, sic sunt ad
+                       invicem essentia et esse et ens, hoc est existens sive subsistens;
+                       ergo summa essentia et summe esse et summe
+                       ens, id est, summe existens, non dissimiliter sibi conveniunt
+                       quam lux et lucere et lucens</quote> ; haec <name ref="#Anselm">Anselmus</name>. Item,
+                       <ref><name ref="#Augustine">Augustinus</name>, libro (f) <title>De immortalitate animae</title>, capitulo 11</ref>,
+                       volens probare quod nulla essentia, in quantum essentia est,
+                       habet aliquid contrarium subdit (5):  <quote>Omnis enim essentia non
+                       ob aliud essentia est nisi quia est; esse autem non habet
+                       contrarium nisi non esse; unde nihil est ipsi esse contrarium</quote> ;
+                       haec <name ref="#Augustine">Augustinus</name>. Item, <ref>VI <title ref="#deTrinitate">De Trinitate</title>, capitulo
+                       1</ref>:  <quote>Absurdum est</quote>  inquit (1)  <quote>dicere candidum non
+                       esse candorem</quote> ; et post (2);  <quote>Sicut candor ad se ipsum dicitur
+                       candidus, ita et sapientia ad se ipsam dicitur sapiens</quote> ;
+                       quod non est verum nisi concretivum esse candoris et sapientiae
+                       sit idem quod essentia candoris et sapientiae; et
+                       sumo hic concretum pro habente in se essentiam et esse
+                       candoris; hoc enim modo essentia candoris magis habet se
+                       ipsam et suum esse quam subiectum eius habeat ipsam,
+                       quia ipsa habet hoc primo et per se et per omnimodam identitatem,
+                       subiectum autem eius habet hoc per ipsam; et pro
+                       tanto verius dicitur candor esse candidus quam subiectum
+                       eius dicatur esse candidum.</p>
+                    
+                    <p>Nota autem quod omnes rationes probantes quod realiter
+                       non differant probant quod esse non sit accidens essentiae.</p>
+                    
+                </div>
+                <div>
+                    <head>[Solutio Obiectorum]</head>
+                    
+                    <p>Ad primum igitur in contrarium dicendum quod esse
+                       non est actus essentiae sicut forma est actus (a) materiae,
+                       sed solum eo modo quod ipsamet essentia est (b) actus essentiae
+                       et entis, et sumitur hic actus pro actualitate seu
+                       entitate. Unde valde absurdum est quod quidam dixerunt,
+                       scilicet quod esse sit quasi quaedam actio essentiae; propter
+                       quod, ut (c) dicunt, nulla substantia potest aliquam aliam
+                       operationem facere nisi mediante aliqua potentia vel qualitate,
+                       quia nihil potest immediate in duos actus. Absurdum
+                       etiam est id quod alii dixerunt, scilicet quod essentia se
+                       habet ad esse sicut potentia ad actum; quia secundum hoc
+                       actualis entitas rei et eius actualis forma erunt pura potentia
+                       ad esse et potius erunt non ens quam ens; quia quod
+                       secundum se et in quantum tale nihil habet de esse (d) est
+                       de se in quantum tale omnino non ens. Secundum hoc etiam
+                       essentia esset quasi materia et esse esset eius forma substantialis;
+                       nam per suam informationem essentia acciperet
+                       esse simpliciter. Secundum hoc etiam essentia omnis formae
+                       creatae esset pura potentia et ita falso vocaretur actus et
+                       falso distingueretur a materia tanquam actus a potentia;
+                       falso etiam diceretur quod forma dat esse materiae, quia 
+                       nec daret sibi illud effective nec formaliter; immo ipsum
+                       esse daret se ipsum materiae inhaerendo ei et communicando
+                       ei suam existentiam.</p>
+                    
+                    <p>Ad secundum dicendum quod esse non est communius
+                       aut illimitatius quam essentia, immo omnino currunt de
+                       pari. Sed quantum ad modum intelligendi essentia est prior
+                       et communior, quia sumitur per modum abstracti, esse vero
+                       per modum concreti; unde esse non potest intelligi sine ratione
+                       essentiae et entis. Si ergo esse commune limitatur per
+                       aliquid in quo recipitur, ergo eadem ratione essentia et ens;
+                       quod est absurdum, quia tunc omnis essentia et omne ens
+                       essent recepta in alio a se. — Praeterea, (a) potius deberet
+                       dici quod esse commune limitatur per specialia esse aut per
+                       differentias essendi specificas quam quod limitetur et distinguatur
+                       per varias essentias in quibus recipitur. — Praeterea,
+                       albedo non mutat speciem propter diversitatem suorum subiectorum
+                       et idem est de aliis formis; ergo nec esse mutabit
+                       speciem propter diversitatem suorum recipientium. —
+                       Praeterea, recipiens in quantum recipiens nihil efficit (b) in
+                       recepto, immo in quantum recipiens dicit solum potentiam
+                       passivam et non activam; ergo receptiva ipsius esse nullam
+                       distinctionem aut limitationem facient in ipso. Igitur frustra
+                       auctores primae positionis fundaverunt se in praedicta ratione
+                       dicentes quod si esse non esset in alio receptum, tunc esset
+                       omnino unum et illimitatum et imparticipatum, non advertentes
+                       quod hoc ipsum sequetur de essentia et etiam de materia
+                       et de omni supposito seu prima substantia, quia constat quod
+                       ista non sunt in alio a se recepta. Dato etiam quod per sua
+                       subiecta limitaretur et numeraretur, adhuc huiusmodi limitatio
+                       non esset aliud quam eius individuatio et numeralis multiplicatio;
+                       ergo esse in omnibus rebus differret solum numero
+                       et non genere vel specie. Quis autem dicet quod esse substantiale
+                       vel accidentale seu esse per se et esse in alio et esse
+                       simplex et extensum, spirituale et corporale, vivens et non
+                       vivens, intellectuale et non intellectuale non differant genere
+                       vel specie? — Sciendum igitur quod nec enti nec ipsi esse
+                       ex ratione sua generali aut speciali convehit illimitatio vel
+                       unitas, licet ex ratione generali non habeat limitari vel distingui.
+                       Et idem est de quolibet communi et universali, quia
+                       si haberet, tunc nunquam posset esse in aliquo sine praedicta
+                       illimitatione et unitate et tunc quodlibet universale 
+                       esset realiter unum et illimitatum in omnibus individuis suis;
+                       abstractio (a) igitur quae competit esse creato cummuniter
+                       sumpto non negat limitationem aut sui multiplicationem, sed
+                       sola abstractio divini esse hoc facit.</p>
+                    
+                    <p>Sed dicunt quod <name ref="#Boethius">Boethius</name>, in libro <title ref="#deHebdomadibus">De hebdomadibus</title>,
+                       dicit (1):  <quote>Diversum est esse et id quod est, ipsum enim esse
+                       nondum est; at vero quod est accepta forma essendi est
+                       atque consistit, quod est, participare aliquo potest, sed ipsum
+                       esse nullo modo aliquo participat</quote> ; et post:  <quote>Omne simplex
+                       esse suum et id quod est unum habet; omni composito
+                       aliud est esse, aliud ipsum est</quote> . — Ad quod dicendum quod
+                       <name ref="#Boethius">Boethius</name> per  <quote>esse</quote>  intelligit formam substantialem, per
+                        <quote>quod est</quote>  vero intelligit materiam. Quod patet primo, quia
+                       ipsum esse vocat formam essendi receptam in ipso quod
+                       est, sicut patet in auctoritate praemissa. Secundo, quia ibidem
+                       dicit:  <quote>Diversum est esse aliquid et esse aliquid in
+                       eo quod est</quote> ; illic enim accidens, hic substantia significatur;
+                       ex quo patet quod ipsum esse simpliciter sumptum vult
+                       esse substantiam. Tertio, quia paulo post dicit;  <quote>Quorum
+                       substantia bona est, id quod sunt bona sunt; id quod sunt.
+                       autem habent ex eo quod est esse; esse igitur ipsorum bonum
+                       est, igitur substantialia bona sunt</quote> . Constat autem quod
+                       haec conclusio non sequitur ex praemissis, nisi ipsum esse
+                       sit substantiale rebus. Quarto, quia, libro <title ref="#deTrinitate">De Trinitate</title>, dicit
+                       (2):  <quote>Omne namque esse a forma est; nihil igitur secundum
+                       materiam esse dicitur, sed secundum propriam formam;
+                       sed divina substantia sine materia forma est atque ideo
+                       unum est et est id quod est; reliqua enim non sunt id quod
+                       sunt, unumquodque enim habet esse suum ex lis ex quibus
+                       est, id est, ex suis partibus et est hoc atque hoc, id est, partes
+                       suae coniunctae</quote> .</p>
+                    
+                    <p>Ad tertium dicendum quod essentia speciei est ita
+                       multiplicata in suis individuis sicut et suum esse; et ideo
+                       non est in eis eadem realiter, sed solum secundum modum
+                       intelligendi; sicut autem possumus eam intelligere communiter
+                       vel particulariter, sic et suum esse.</p>
+                    
+                    <p>Ad quartum dicendum quod eadem materia habet sub
+                       diversis formis idem esse materiale; pro quanto vero habet
+                       diversas formas, pro tanto habet diversa esse formalia.</p>
+                    
+                    <p>Ad quintum dicendum quod esse communiter sumptum
+                       non est proprium solius Dei, sed esse antonomastice
+                       sumptum; et hoc modo <title>Sacra Scriptura</title> et Deus ipse appropriat
+                       sibi nomen essendi et consimiliter appropriatur ei nomen
+                       essentiae. — Quod autem haec ita sint patet: <ref><name ref="#Augustine">Augustinus</name>
+                       enim, V <title ref="#deTrinitate">De Trinitate</title> (a), capitulo 2</ref>, praemisso (1) quod
+                        <quote>ab eo quod est esse dicta est essentia</quote>  subdit:  <quote>Et quis
+                       magis est quam ille qui dixit (2) <name ref="#Moses">Moysi</name>: <quote>Ego sum qui sum
+                       et dices filiis Israel qui est misit me ad vos?</quote> sed aliae
+                       essentiae sive substantiae capiunt accidentia quibus mutantur,
+                       Deo autem aliquid accidere non potest et ideo sola
+                       est incommutabilis substantia vel essentia quae Deus est; cui
+                       profecto ipsum esse — unde essentia nominata est — maxime
+                       ac verissime competit</quote> . Item, <ref>VII <title ref="#deTrinitate">De Trinitate</title>, capitulo
+                       5</ref> (3):  <quote>Manifestum est Deum abusive substantiam vocari,
+                       ut nomine usitatiori intelligatur essentia quod vere ac
+                       proprie dicitur, ita ut fortasse solum Deum dici oporteat essentiam;
+                       est enim vere solusque incommutabilis est; quod nomen
+                       <name ref="#Moses">Moysi</name> annuntiavit, cum ait: <quote>Ego sum qui sum et qui
+                       est misit me</quote> et cetera</quote> . — Item, <name ref="#Jerome">Hieronymus</name>, <title>ad Marcellam</title>
+                       (4):  <quote>Deus solus qui exordium non habet verae essentiae
+                       nomen tenuit, quia in eius comparatione qui vere est,
+                       quia incommutabilis est, quasi non sunt quae mutabilia sunt</quote> ;
+                       et post (5):  <quote>Solus igitur Deus est, cuius essentiae nostrum
+                       esse comparatum non est</quote> . — Quod autem dicitur, scilicet
+                       quod soli (b) Deo est proprium quod sua essentia sit suum
+                       esse, nusquam legi in dicto alicuius sancti. Sed bene dicunt (c)
+                       quod soli essentiae divinae est proprium quod in sua ratione
+                       habet esse omnino incommutabile et pure necessarium et
+                       aeternum, quod vocatur esse a se; tale enim esse nullo modo
+                       includitur in aliqua alia essentia. Qui autem dicunt quod
+                       Deus non potest non (d) esse, quia sua essentia est suum esse,
+                       potius deberent dicere quod ideo (e) non potest mutari, quia
+                       in ratione (f) sua et in ratione sui esse cadit immutabilitas
+                       et aeternitas et essendi necessitas et non-essendi impossibilitas
+                       et quicquid est summae actualitatis. Quomodo autem
+                       dictum eorum non sit simpliciter verum in sequentibus argumentis
+                       tangetur. — Sciendum etiam quod <name ref="#HilaryOfPoitiers">Hilarius</name> non
+                       intendit dicere illud pro quo verbum eius est assumptum, nec
+                       omnino sic dicit sicut allegatum est. Non enim dicit quod
+                       esse non est accidens, sed dicit  <quote>esse non est accidens nomen</quote> ;
+                       intendit enim ibi probare quod quando dicitur: Deus
+                       erat Verbum, quod ipsum Verbum non dicitur Deus solum
+                       nuncupative, sed potius dicitur quod est Deus simpliciter et
+                       realiter. Unde subdit (1) quod non (a) ita attribuitur sibi nomen
+                       Dei sicut <name ref="#Moses">Moysi</name>, quando dicitur (2) constitutus esse deus
+                       Pharaonis, aut sicut aliis, quando dicitur (3)  <quote>Ego dixi, dii
+                       estis</quote> ; ut enim ibi ostendit, ipse modus loquendi docet eos
+                       nuncupative, non naturaliter aut ex natura sui generis dictos
+                       esse deos. Ostendens ergo quod Verbum realiter est Deus
+                       subdit (4):  <quote>Hic autem rei significata substantia est, cum dicitur:
+                       Deus erat; esse enim non (b) est accidens nomen sed
+                       subsistens Veritas</quote> . Ex quo patet quod vult dicere quod cum
+                       Verbum dicitur esse Deus, le  <mentioned>esse</mentioned>  significat entitatem realem
+                       et veram, non nominationem accidentalem. Et ita patet
+                       quod auctoritas eius praeallegata nihil facit ad propositum.</p>
+                    
+                    <p>Ad sextum dicendum quod idem sub eadem ratione
+                       sumptum propriissime praedicatur de se, sed non si sub diversa
+                       ratione sumatur; alias propriissime diceretur quod Deus
+                       Pater est Filius, quia verissime sunt omnino idipsum; vere
+                       etiam ac proprie diceretur quod essentia Dei, in quantum
+                       est communis trium, generat et generatur, quod est falsissimum
+                       (c).</p>
+                    
+                    <p>Ad septimum dicendum primo quod aliquid potest
+                       sub una sui ratione cogitari absque hoc quod cogitetur sub
+                       omni ratione sua; alias Deus nunquam vere cogitatur a nobis.
+                       — Secundo potest dici quod essentia nunquam cogitatur
+                       sine ratione essendi nominaliter sumpta; alias non cogitaretur
+                       sub ratione entis. Verum est quod ipsum esse potest
+                       dupliciter cogitari: uno modo, cogitando rationem et quidditatem
+                       eius; alio modo, cogitando ipsum ut praesentialiter
+                       existens aut ut praeteritum vel futurum. Et consimiliter potest
+                       essentia dupliciter cogitari. Primo igitur modo cogitatur
+                       res et eius esse, sed non cogitatur res esse actu; et consimiliter
+                       cogitatur tunc ipsum esse absque hoc quod sit actu 
+                       seu de praesenti. — Quod autem dicitur quod essentia potest
+                       cogitari non esse; hoc ipsum coguntur dicere de ipso esse;
+                       constat enim quod omne esse creatum potest pro aliquo tempore
+                       cogitari non esse, in tantum quod vere dicimus quod
+                       omne esse creatum potuit semper non esse; potuit enim Deus
+                       facere quod nunquam fuisset vel foret. Si ergo ratio praedicta
+                       bona est, sequitur quod omne esse creatum realiter
+                       differat a se ipso. Si etiam vera est ratio dicentium quod
+                       si essentia creata esset suum esse, nunquam posset non esse;
+                       sequitur quod si esse creatum est idem quod suum esse, nunquam
+                       poterit non esse; aut dicant quare magis sequatur
+                       illic quam istic. — Miror autem unde habent quare licet essentia
+                       sit idem quod sua essentia, non tamen ex hoc sequitur
+                       quod non (a) possit non esse essentia, cum possit tota
+                       annihilari. Miror, inquam, unde habent quare hoc ipsum non
+                       possit stare, si essentia est suum esse. Sed dicunt quod ideo
+                       essentia quae esset suum esse non posset corrumpi, quia idem
+                       non potest separari a se ipso; ergo esse non posset separari
+                       a tali essentia. Sed mirum quod non advertunt quod secundum
+                       hoc sequitur quod nullum esse poterit corrumpi; quia
+                       eadem ratione non poterit separari a se ipso. Argumentum
+                       autem nihil valet, quia res non annihilantur per divisionem
+                       sui a suo esse, sed potius per corruptionem ipsius essentiae;
+                       unde si per impossibile remaneret essentia separata a suo
+                       esse, indubitanter ilia essentia adhuc esset actu essentia.
+                       — Rursus, cum dicitur quod essentia potest non esse, ilia potentia
+                       non dicit aliud quam essentialem defectum seu defectibilitatem
+                       ipsius essentiae et sui esse. — Cum etiam dicitur
+                       quod esse nominaliter sumptum potest cogitari non esse, non
+                       autem esse (b) verbaliter sumptum, quia tunc consignificat
+                       praesens tempus et actualem existentiam sui in illo, ex quo
+                       videtur quod esse nominale differat realiter ab esse verbali;
+                       dicendum quod esse sumitur nominaliter ex hoc quod ipsum
+                       consideramus et consignificamus absque consignificatione alicuius
+                       temporis; tunc vero sumitur verbaliter, quando sumitur
+                       cum consignificatione (c) temporis praesentis vel praeteriti
+                       vel futuri; ex quo patet quod non differunt penes essentialem
+                       (d) et absolutam actualitatem ipsius esse, sed solum
+                       penes consignificationem et non consignificationem temporis.
+                       Nec est intelligendum quod esse nominale sic cogitetur non 
+                       esse quod ratio non entitatis sit eadem cum ratione ipsius
+                       esse, sed ex hoc solo quod esse, prout est a nobis absolute
+                       intellectum, potest cogitari non habere esse reale extra, id est,
+                       non habere se ipsum extra sed tantum in intellectu.</p>
+                    
+                    <p>Ad octavum dicendum quod prima est vera in iis
+                       quae possunt esse sub utroque oppositorum, non autem quando
+                       alterum oppositorum non est aliud quam destructio ipsius
+                       rei; unde nunquam est sub eo realiter, sed solum imaginarie.
+                       Licet etiam essentia possit non esse, nihilominus ita est determinata
+                       ad suum esse sicut et ad suam essentiam, quia
+                       nec aliter potest amittere unum quam reliquum.</p>
+                    
+                    <p>Ad nonum dicendum quod ipsum esse ita permanet(a)
+                       idem in tota duratione sicut et essentia, et ita successive
+                       durat essentia sicut et esse. Quomodo autem hoc sit in quaestione
+                       de aevo est tactum. — Si vero obicias quod esse
+                       quod idem numero perdurat in tota successione suae durationis
+                       non est ex se determinatum aut limitatum ad solum
+                       nunc praesens vel ad (b) solum futurum; ergo oportet quod
+                       differat ab illo (c) esse praesenti quod vocamus esse in hoc
+                       nunc et ab esse praeterito quod vocamus fuisse et ab esse
+                       futuro quod nondum est, quia ista sunt ex se limitata ad
+                       unum certum nunc: dicendum quod si huiusmodi nunc sic
+                       sunt inter se essentialiter diversa quod addant diversas essentias
+                       super esse rei, tunc quantum addit quodlibet istorum
+                       nunc ad esse rei quod est idem numero in omnibus ipsis,
+                       tantum addet esse in hoc nunc et in illo ad praefatum esse
+                       rei et non plus; si autem huiusmodi nunc non addunt diversam
+                       essentiam, sed solum eandem ut sibi ipsi continuatam
+                       iuxta modum in fine quaestionis de aevo tactum, tunc
+                       appropriationes ipsius esse ad hoc et ad illud nunc non addunt
+                       nisi rationes iterationis seu continuationis eiusdem essentiae
+                       et eiusdem esse (d).</p>
+                    
+                    <p>Ad decimum dicendum quod quando dicitur quod essentia
+                       est suum esse, proprie agitur de illo esse quo essentia
+                       est actu essentia; huic (e) autem esse sic sumpto potest
+                       addi aliquis (f) modus essendi sicut et ipsi essentiae. Per
+                       ilium autem modum essendi non variatur ratio specifica
+                       ipsius essentiae nec ipsius esse primo modo sumpti, quia ille
+                       modus non dicit formam absolutam nec dicit differentiam
+                       specificam alicuius essentiae vel naturae, sed solum dicit 
+                       medum existendi, sive absolutum, quale est esse per se seu
+                       esse suppositi (a), sive relatum et ad aliud inclinatum, ut est
+                       esse partis in suo toto et (b) esse seu inhaerere accidentalis
+                       in subiecto et esse cuiuscunque naturae in supposito alterius
+                       naturae; et tale est esse naturae humanae in Christo.
+                       Quamvis autem modi isti essendi varientur, essentia rei remanente
+                       eadem, nihilominus substantiales sunt essentiis quarum
+                       sunt, quamvis non eo modo quo ipsa essentia est substantialis
+                       sibi ipsi. Quomodo autem hoc sit et qua ratione
+                       alibi est ostensum.</p>
+                    
+                    <p>Ad illud autem quod secundi dicunt, scilicet
+                       quod esse sequitur essentiam, quia ultra intellectum
+                       essentiae aliquid addere videtur: dicendum quod ex modo
+                       intelligendi non debet semper inferri modus rei, quamvis
+                       nec illud quod dicunt sit simpliciter verum, sicut ex praedictis
+                       patet. — Quod vero dicunt quod esse se habet per modum
+                       actus verbalis: dicendum quod sumendo actum pro
+                       actione neutrum habet rationem actus; sumendo vero actum
+                       pro actualitate sic esse dicit eam in concreto, essentia vero
+                       in abstracto, sicut faciunt currere et cursus.</p>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

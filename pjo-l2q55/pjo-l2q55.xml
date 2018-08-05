@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Quaestio 55</title>
+        <author xml:id="PJO">Peter John Olivi</author>
+        <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.05">
+          <title>Librum II, Quaestio 55</title>
+          <date when="2015-05-20">May 20, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Ad Claras Aquas</publisher>
+        <pubPlace>Quaracchi</pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="1922">1922</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Quaestions In Secundum Librum Sententiarum, ed. Bernardus Jansent, S.I, Ad Claras Aquas, Vol. II, 1924</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-05-20" who="#JW" status="draft" n="2015.05">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pjo-l2q55">
+        <head>Librum II, Quaestio 55</head>
+        <p>Primo quaeritur an in nobis sint plures potentiae
+        intellectivae et plures volitivae praeter appetitivam
+        sensualem.</p>
+        <div>
+        <head>Quod autem sint plures probatur.</head>
+        <p>1. Primo ex obiectis: Quia obiectorum genere diversorum
+        sunt diversa genera potentiarum; sed obiectum necessarium
+        et obiectum contingens sunt genere diversa (a) et consimiliter 
+        obiectum creatum et increatum; ergo alio intellectu
+        intelliguntur contingentia vel creata et alio necessaria vel
+        increata.</p>
+        <p>2. Secunda probatur per actus: Quia actus genere differentes 
+          sunt diversarum potentiarum; sed scire et opinari 
+          sunt actus genere diversi; ergo et cetera.</p>
+        <p>3. Tertio probatur ex ratione liberi arbitrii quae est libera 
+          facultas rationis et voluntatis; ex quo videtur quod differat 
+          a ratione et voluntate per se et separatim sumptis; 
+          ergo praeter illas est dare tertiam potentiam vim utriusque 
+          earum sub altiori ratione in se habentem.</p>
+        <p>4. Quarto probatur a simili: Quia sicut voluntas dividitur 
+          in irascibilem et concupiscibilem, sic intellectus in practicum 
+          et speculativum, et sicut ibi est differens ratio obiectorum 
+          -- irascibilis enim fertur in arduum, concupiscibilis vero in 
+          bonum -: sic et hic, quia intellectus speculativus fertur in 
+          verum ut verum, practicus vero in verum ut bonum.</p>
+        </div>
+        <div>
+        <head>[Respondeo]</head>
+        <p>Circa quaestionem hanc videtur <name ref="#Aristotle">Aristoteles</name> sensisse
+        quod in nobis sint duae potentiae intellectivae diversorum 
+        generum, unum scilicet scientificum, aliud opinativum. Nam
+        <pb n="285"/> 
+          <ref>
+            <seg>VI <title>Ethicorum</title>,</seg>
+            <bibl>Aristotle, Ethics, VI, c. 2, 1139a6sqq</bibl>
+          </ref> in (a) principia, dicit quod sicut rationale et 
+          irrationale sunt duae partes animae, sic intellectus speculativus 
+          necessariorum et intellectus speculativus contingentium sunt 
+          duae partes partis rationalis. Primam autem vocat scientificum, 
+          secundam vero consiliativum et ratiocinativum, et in prima 
+          ponit tres habitus speculativos, scilicet, sapientiae et intellectus 
+          et (b) scientiae (2), in secunda vero ponit duos scilicet 
+          artem et prudentiam (3). Ad quod probandum facit primam 
+          rationem superius factam probans maiorem rationis illius 
+          per hoc quod (c) haec cognitio insit animae per quandam 
+          assimilationem et appropriationem seu determinationem ipsius 
+          ad obiectum cognitum; ex quo videtur quod habet diversificari 
+          secundum diversitatem obiectorum. Item <ref>III <title ref="#deAnima">De anima</title></ref> 
+          dicit (4): 
+          <cit>
+            <quote>Dividentibus autem animae partes, si secundum 
+              potentias dividant, valde multae sunt, scilicet, vegetabile, sensibile, 
+              intellectivum, consiliativum et appetitivum Et haec, 
+              inquit<!-- example of inquit in quote element problem -->, plus differunt (d) ab invicem quam concupiscibile et 
+              irascibile.</quote>
+            <bibl>Aristotke, De anima, III, c. 10 (433b1sqq.)</bibl>
+          </cit> 
+          Ergo expresse videtur velle quod intellectivum 
+          et consiliativum sint diversae potentiae animae (e). Quidam 
+          vero expositores eius dicunt quod per nomen ratiocinativi 
+          aut consiliativi intendit significare quandam potentiam sensitivam 
+          quae a quibusdam vacatur cogitativa humana. Quae 
+          quidem est rationalis non per essentiam, sed per participationem, 
+          quam 
+          <ref>
+            <seg><name ref="#Aristotle">Aristoteles,</name> in III <title ref="#deAnima">De anima</title>,</seg>
+            <bibl>Aristotle, De Anima, III, c. 5, 430a24sq</bibl>
+          </ref> 
+          vocat intellectum passivum et corruptibilem. Unde et 
+          <ref>
+            <seg>VI <title ref="#Ethics">Ethicorum</title></seg>
+            <bibl>Aristotle, Ethics, VI, c. 12, 1143a25sqq</bibl>
+          </ref> 
+          ubi agit de <sic>sinesi</sic> secundum quam aliquis dicitur bene sensatus 
+          et de <sic>gomone</sic> secundum quam quis dicitur recti et 
+          temperati iudicii, dicit quod omnes istae virtutes sunt 
+          singularium et operabilium quorum oportet habere sensum 
+          hic autem est intellectus, scilicet, consiliativus seu practicus.</p>
+          
+          <p>Licet autem quid super hoc (f) <name ref="#Aristotle">Aristoteles</name> intenderit 
+            non sit multum curandum, quod tamen huius contrarium 
+            senserit arguitur: quia in 
+            <ref>
+              <seg>principio VI <title ref="#Ethics">Ethicorum</title></seg>
+              <bibl>Aristotle, Ethics, VI, cap. 1, 1138 b 35sq</bibl>
+            </ref> 
+            ubi de 
+            his loquitur, dicit se duas partes animae, scilicet, rationale 
+            et irrationale, prius divisisse, 
+            <ref>
+              <seg>in fine scilicet primi libri.</seg>
+              <bibl>Aristotle, Ethics, VI, cap. 13, 1102a27sqq</bibl>
+            </ref> 
+            <pb n="286"/> 
+            Ibi autem, data iam hac divisione, subdividit irrationale, 
+            scilicet, in (a) id quod non communicat cum ratione, ut est 
+            plantativum, et in id quod de (b) ea aliqualiter participat, pro 
+            quanto est ei oboediens seu oboedibile, et (c) 
+            <ref>
+              <seg>in isto dicit</seg>
+              <bibl>Aristotle, Ethics, VI, cap. 13, 1102b28sqq</bibl>
+            </ref> 
+            esse morales virtutes, sed in mere rationali dicit esse sapientiam 
+            et prudentiam et ceteras intellectuales virtutes. Et 
+            tamen, 
+            <ref>
+              <seg>in VI libro,</seg>
+              <bibl>Aristotle, Ethics, VI, cap. 1, 1139a6sqq.; cap. 5, 1140a24sqq</bibl>
+            </ref> 
+            aperte dicit quod prudentia est in (d) 
+            intellectu consiliativo et opinativo; si autem ista esset potentia 
+            sensitiva, tunc oporteret dicere quod habitus prudentiae 
+            esset (e) simpliciter et totaliter in potentia sensitiva, 
+            quod dicere est absurdissimum.</p>
+        
+          <p>Quicquid autem <name ref="#Aristotle">Aristoteles</name> de his senserit -- videtur 
+            enim quibusdam quod de hac materia contraria dixerit 
+            sibi ipsi -: hoc nobis est pro certo tenendum 
+            quod in mente nostra non sunt plures potentiae 
+            intellectivae nec plures volitivae.</p> 
+          
+          <p>Quod primo de potentia intellectiva probatur 
+            ex parte generalis obiecti intellectus, quod est generalissima 
+            ratio entis et veri et boni, quae utique in omnibus 
+            obiectis tam contingentibus quam necessariis apprehenditur; 
+            et ita oportet quod intellectus contingentia apprehendens sit 
+            ille idem cuius est attingere generalissimas rationes entis</p>
+          
+          <p>Secundo probatur hoc multiplicius ex parte actus intellectus 
+            scientifici: Quia saltem solius illis est actus sciendi 
+            certitudinalis; sed non potest dari aliqua potentia intellectiva 
+            quae non habeat multos actus scientiae certitudinalis, nam 
+            intellectus opinans vel dubitans aut quandocunqu aliquid 
+            cogitans scit se opinari vel scit se dubitare et cogitare, scit 
+            etiam se esse, scit etiam rationes obiectorum esse rationes 
+            entis vel non entis, et de rationibus particularibus contingentium 
+            scit quod sunt rationes particulares, et saepissime scit 
+            quorum generum (f) et specierum sunt illa particularia contingentia 
+            quae cogitat. Item, certitudinaliter scit (g) illa esse 
+            contingentia et opinabilia seu probabilia, non autem necessaria, 
+            nec per causas suas necessario scibilia. Item, quando 
+            <pb n="287"/>subsunt suo exteriori visui vel sensui, scit certitudinaliter 
+            illa esse, et scit illa a se videri et sentiri. Item omnis intellectus 
+            ratiocinans circa contingentia accipit aliqua universalia 
+            et aliquas propositiones universales et optime scit illas 
+            esse universales, accipit etiam eas sub certa habitudine locali 
+            et sub aliqua forma syllogistica seu sub aliquo ordine 
+            consequentiarum et sub ordine consequentis et antecedentis 
+            et quamvis (a) nesciat veritatem conclusionis nihilominus bene 
+            scit formam et ordinem syllogisticae rationis et generalem veritatem 
+            logicalium (b) habitudinum quae communiter maximae 
+            vocantur. Item, intellectus ratiocinans circa contingentia ut 
+            saepius procedit ex quibusdam generalibus principiis seu regulis 
+            sibi certitudinaliter notis, quam vis (c) per ilia non possit 
+            necessario inferre ipsa contingentia.</p>
+        <p>Tertio probatur hoc ex parte actus opinandi et dubitandi. 
+          Constat enim quod de omnibus necessariis et aeternis 
+          possumus multipliciter opinari et dubitare; ergo potentia opinativa 
+          habet totum ambitum entis pro obiecto. Item, dubitare 
+          et certum esse sunt actus contrarii; ergo sunt eiusdem 
+          potentiae. Item, error in scibilibus est contrarius scientiae; 
+          ergo error et scientia sibi contraria sunt eiusdem potentiae; 
+          sed qui errat opinatur obiectum erroneum esse verum ergo 
+          opinio et praefatus error sunt eiusdem potentiae scitivae. 
+          Item, constat quod intellectus scitivus in multis aliquando 
+          errat et errare potest; ergo ipse potest habere actum opinionis 
+          erroneae; utquid ergo non et opinionis verae seu probabilis? 
+          Item, multi errantes credunt certitudinaliter se scire 
+          illud in quo errant; sed hoc non potest fieri, nisi potentia 
+          errans apprehendat rationem sciendi, ita quod sciat et quid 
+          est scire et quod certum esse et quid dubitare; nec curo 
+          quod sciat definitiones eorum; sed quod certitudinaliter sciat 
+          id quod significatur per nomina ilia; sed solius potentiae scitivae 
+          est scire quod est scire (d); ergo et cetera. Item, omnis 
+          opinans et ratiocinans naturaliter appetit scire illud circa 
+          quod ratiocinatur vel consiliatur; ergo omnis intellectus ratiocinans 
+          et opinans naturaliter tendit et inclinatur ad scire; sed 
+          hoc est impossibile, nisi sit potentia scitiva; ergo et cetera.</p>
+          
+          <p>Quarto probatur hoc ex actibus intellectus relativis et 
+            collativis seu comparativis. Constat enim quod eadem potentia 
+            collativa apprehendit omnia extrema suae collationis; 
+            <pb n="288"/>ergo intellectus, qui collative distinguit inter creatum et increatum 
+          et inter finitum et infinitum et inter contingens et 
+          necessarium et inter scibile et opinabile et inter scientiam 
+          et opinionem et inter particulare et universale, est eadem 
+          potentia; ergo ad eandem potentiam spectant omnia ista. 
+          Item, si sunt in nobis duo intellectus, tunc illa potentia quae 
+          hanc dualitatem et diversitatem intelligit habet utramque 
+          potentiam pro obiecto, ac per consequens et earum obiecta 
+          attinguntur ab illa; ergo adhuc esset dare in nobis unum 
+          intellectum attingentem utraque genera potentiarum illarum 
+          et obiectorum suorum.</p>
+          <p>Quinto probatur hoc ex superioritate actus iudicandi. 
+            Oportet enim in nobis esse aliquam unam potentiam per 
+            quam de omnibus nostris potentiis et earum obiectis et actibus 
+            iudicemus; et constat quod non potest dari in nobis aliqua 
+            talis potentia, quin de pluribus saepe habeat dubitare 
+            aut plura citra scientialem certitudinem iudicare. Item, in 
+            potentiis ordinate connexis superior et posterior (a) iudicat 
+            de omnibus aliis et de earum actibus et obiectis; ergo omnino 
+            oportet esse unam in nobis quae ad omnia obiectorum genera 
+            se extendat.</p>
+        <p>Sexto probatur hoc ex his quae sunt communia omni 
+          intellectui, cuiusmodi sunt (b) intelligere et affirmare et negare 
+          et unam partem contradictionis ab altera distinguere, 
+          id est, intelligere quoad affirmare non est negare nec affirmatum 
+          est negatum nec e contrario, est etiam eis commune 
+          reflecti super se et super suos actus et eos reflexive apprehendere 
+          eosque sensibiliter experiri seu palpare; sed ista omnia 
+          sunt propriae rationes (c) intellectus scientifici, nam intellectus 
+          qui nihil scit nihil intelligit; principium etiam omnis scientiae 
+          est distinctio contradictionis et intelligere quod affirmatio 
+          non potest esse negatio (d) nec e contrario; ergo oportet quod 
+          omnis intellectus sit scientificus, id est, potens scire; quomodo 
+          enim intellectus qui nihil potest intelligere habebit 
+          nomen aut rationem intellectus?</p>
+          
+          <p>Septimo probatur hoc ex ordine nostri intellectus ad 
+            Deum. Constat enim quod ille intellectus est in nobis altissimus 
+            per quem altius et immediatius ordinamur ad Deum;  
+            sed per intellectum Deo plus quam suae rationi credentem 
+            altius ordinamur in Deum quam per illum qui soli suae 
+            <pb n="289"/>scientiae innititur, unde et fides divinorum inter virtutes altissimas 
+            computatur; ergo intellectus creditivus est nostra 
+            altissima potentia intellectiva; sed eadem est potentia creditiva 
+            et opinativa, unde et credulitas contraria fidei est in 
+            eadem potentia in qua et fides, unde et mutuo se expellunt, 
+            et potentia quae per rectam fidem rectificatur per contrariam 
+            distorquetur. Item, secundum potentiam intellectivam 
+            sumus nos ad imaginem divini intellectus; sed potentia quae 
+            solum esset opinativa non esset proprie ad imaginem divini 
+            intellectus, quia divini intellectus non est opinari et dubitare, 
+            sed solum intelligere et scire (a). Item, esse ad Dei imaginem 
+            est assimilari Deo aut alieni rationi divinae specifice sumptae 
+            eo modo quo ibi ratio specifica potest poni; alias enim omnis 
+            creatura esset ad imaginem Dei (b), quia omnes ei assimilantur 
+            secundum aliquam generalem rationem Dei, utpote in 
+            ratione en tis et veri; si ergo intellectus noster est ad imaginem 
+            divini intellectus, assimilatur specificae rationi divini 
+            intellectus; ergo quantum est ex ordine ad Deum seu ad 
+            imaginem Dei, in nobis non est nisi una species intellectus. 
+            Et huic consonat ratio nostrae fidei non ponentis in Deo 
+            nisi unicum Verbum et unam vim generativam (c) seu expressivam 
+            divini Verbi secundum unam rationem intellectus 
+            paterni; quod non esset verum, si in Deo posset poni veritas 
+            plurium totalium rationum intellectivarum, sicut alibi est 
+            ostensum.</p>
+        <p>Octavo patet hoc ex fundamentali seu causali ratione 
+          actuum opinandi et dubitandi et errandi. Huius enim causa 
+          principaliter provenit ex defectu luminis scientifici. Si enim 
+          scientificum lumen nostri intellectus certitudinaliter et visualiter 
+          posset omnia attingere, sicut facit Deus et sicut 
+          facit noster intellectus, quando omnia, etiam futura contingentia, 
+          videt in Deo: tunc nunquam haberet actum opinativum 
+          aut dubitativum vel erroneum. Quia vero ipsum lumen 
+          nostri intellectus non potest esse omnino defectivum nec 
+          pura tenebra: idcirco non potest esse quin ad (d) aliqua certitudinaliter 
+          et visualiter se extendere queat et quin per illa 
+          ad quaedam alia possit quidem certitudinaliter, sed non visualiter, 
+          ita quod ilia non solum in suis causis ratiocinative 
+          aut per necessariam consequentiam conspiciat, sed etiam praesentialiter 
+          in se ipsis. Quia vero in tali processu ad ulteriora
+        <pb n="290"/> se protendens paulative et magis ac magis deficit, sicut in 
+          radiositate ignis vel lucis solaris continue experimur: ideo 
+          ad quaedam non potest nisi probabiliter, quamvis hoc ipsum 
+          non sit modicum scientiae, videre scilicet ipsam probabilitatem 
+          et videre quomodo deficit a certitudine scientiali. Rursus, 
+          quia nostra potentia cum suo naturali lumine diversis 
+          auxiliis indiget ad plenum et inerrabilem actum sciendi: 
+          ideo per illorum defectum potest multipliciter obliquari et 
+          in errorem deduci etiam respectu illorum quae potest et poterat 
+          scire, ac per consequens multo fortius potest obliquari 
+          respectu altiorum ad quae scienda minus aut difficilius erat 
+          potens. Item, pro quanto causa huius est ex parte obiectorum, 
+          patet hoc ipsum: quia quaedam ipsorum non ita sunt nec 
+          esse possunt praesentia nostro intellectui sicut alia, quaedam 
+          etiam non sunt ita proportionalia nostro intellectui sicut alia, 
+          quaedam etiam habent ex se minus (a) de intelligibilitate seu 
+          de intelligibili entitate et veritate quam alia. Et ideo non 
+          mirum, si eadem potentia intellectiva potest in quaedam sua 
+          obiecta facilius et certitudinalius (b) ac immediatius, in quaedam 
+          vero difficilius et obscurius et per plura media.</p>
+        
+          <p>Deinde probatur hoc ipsum de voluntate. Et
+            primo ex consimili generalitate obiectorum suorum iuxta
+            primam rationem superius factam.</p>
+        
+          <p>Secundo ex consimili ordine eius ad Deum et ad imaginem 
+            Dei.</p>
+          
+          <p>Tertio ex dominativa libertate quam habet super omnes 
+            potentias et super actus earum. Impossibile enim est dare 
+            in nobis plures potentias liberas et libere dominantes, quia 
+            si una superior omnibus dominatur, eo ipso sequitur quod 
+            omnes aliae sunt necessitabiles a superiori eis praedominante 
+            et eas dominative et imperiose movente. Item, impossibile 
+            est duo plena et libera dominia fundari in eadem natura; 
+            nam quodlibet (c) haberet per se existentiam ab altero 
+            separatam, et possent dari duae perfectae voluntates omnino 
+            contrariae in . eadem, et potentia uni illarum subiecta non 
+            esset alteri subiecta (d ).</p>
+        <p>Quarto probatur hoc ex collectione volitorum aut volibilium 
+          cuiuscunque potentiae liberae ad volendum. Talis 
+          enim non solum vult finem, sed etiam ea quae sunt ad finem 
+          vult propter ipsum finem, et omne quod potest sibi praesen<pb n="291"/>tari 
+          ut bonum vel utile potest velle, et etiam uno actu potest 
+          innumera sibi vel alteri optare; ex quo satis patet quod (a)</p> 
+        
+          <p>Quinto patet hoc ex divisione voluntatis in naturalem 
+          et electivam. Si enim haec duo necessario in unam potentiam 
+          concurrunt, satis eo ipso patet hoc de aliis. Quod autem 
+          illae duae in unam potentiam concurrant patet; tum 
+          quia omnis potentia electiva diligit naturaliter tam se ipsam 
+          quam omnia sibi connaturalia, nec mirum, quia oportet quod 
+          ipsa sit quaedam natura; tum quia, si illa potentia quae dicetur 
+          naturalis voluntas est libera, potest aliqua libere velle 
+          seu eligere, alias non esset libera, si autem non est libera, 
+          tunc est necessario subiecta voluntati liberae et longe inferioris 
+          generis; tum quia eiusdem potentiae est beatitudinem 
+          naturaliter appetere et ea quae sunt ad hunc finem <sic>accomoda</sic> 
+          pro loco et tempore libere eligere.</p>
+          <p>Sexto patet hoc ex divisione voluntatis in irascibilem (b) 
+          et concupiscibilem: Quia haec necessario in unam potentiam 
+          concurrunt, quia in omni actu et obiecto irascibilis includitur 
+          actus et obiectum concupiscibilis, ut in irasci includitur 
+          concupiscentia vindictae, nec sola ratio ardui quae dicitur 
+          esse formale obiectum irascibilis potest esse appetibilis seu 
+          diligibilis, si nullam continet in se rationem boni concupiscibilis; 
+          unde omnes passiones et affectiones irascibilis fundantur 
+          et radicantur in affectione amoris vel odii (c), quae utique 
+          sunt affectiones partis concupiscibilis; unde qui sperat, amat 
+          et desiderat id quod sperat, et qui timet, cum quodam odio 
+          fugit id quod timet. Item, detur saltem per impossibile sola 
+          potentia concupiscibilis (d) convenientia amans et contraria 
+          odiens et fugiens: nunquid ista obiectum odibile sibi imminens vel approximans timebit et amatum imminens expectabit? 
+          utique. Item, affectiones irascibilis non videntur aliud 
+          dicere nisi aut quasdam robustas erectiones ipsius concupiscibilis 
+          aut quadam consternationes, unde quando potentia 
+          concupiscibilis cum quadam erectione vadit ad suum amatum, 
+          ex sola hac constanti erectione adiungit sibi rationem irascibilis, 
+          et ideo earum divisio non est vere divisio in duas 
+          potentias, sed solum in rationes seu modos eiusdem potentiae. 
+          Item, si irascibilis est altera potentia a concupiscibili, 
+          impossibile est ipsam esse liberam (e), quia nunquam poterit 
+          <pb n="292"/>moveri nisi mota a concupiscibili et ab actibus eius, quia actus 
+            concupiscibilis sunt causa actuum irascibilis, unde amor imperat 
+            omnibus affectionibus. Et secundum hoc sequeretur 
+            quod voluntas libera in nihil arduum posset ire nec aliquid 
+            velle per modum altum et dominativum. Quod est expresse 
+            contra rationem libertatis.</p>
+        <p>Septimo patet hoc ex connexione voluntatis intellectivae 
+          ad intellectum. Uni enim potentiae apprehensivae non 
+          connectitur directe et immediate nisi una sola potentia voltiva; 
+          si igitur unus est intellectus et non plures, ut superius 
+          est probatum ergo non erit nisi una voluntas intellectlva. 
+          Maior probatur quia ad hoc est apprehensiva, ut praesentet 
+          appetitivae suum obiectum, et ideo oportet quod ambae sint 
+          eiusdem ambitus respectu suorum obiectorum. Si etiam eadem 
+          apprehensiva subservit duabus appetitivis, tunc aut 
+          utrique subservit immediate aut uni mediante altera. Si 
+          utrique immediate, tunc valde transcenderet utramque illarum, 
+          quia neutri cohaereret secundum totum suum ambitum, nec 
+          aliqua earum caperet totum ambitum eius, sed una unam 
+          partem et alia aliam. Si autem uni mediante altera, tunc postrema 
+          primo fertur in actum mediae volitivae quam in actum 
+          apprehensivae. Quod est impossibile, quia non potest ferri 
+          in aliquid nisi ut per cognitivam sibi praesentatum, non enim 
+          possumus<!-- corr: text actually has posssumus --> velle nisi cognita (a ).</p>
+        </div>
+        <div>
+        <head>[Solutio Obiectorum]</head>
+        <p>Ad primum igitur in contrarium dicendum quod non
+        omnis diversitas speciei vel generis obiectorum probat vel 
+        includit diversitatem potentiarum nostrarum; alias tot erunt 
+        in nobis potentiae intellectivae quot sunt species et genera 
+        scibilium Secundum hoc etiam quilibet sensus particularis 
+        esset plures potentiae, quia nullus est quin habeat plura obiecta 
+        diversorum generum; lux enim et color differunt genere. 
+        Multa etiam sunt species et genera sonorum, et multa 
+        sunt genera tangibilium et gustabilium. Si dicatur quod non 
+        sunt sic diversa quin in aliqua communi ratione alicuius 
+        generis generalissimi vel subalterni univocentur: etiam hoc 
+        est falsum quia radius seu radiositas lucis igneae vel solaris 
+        non habet univocationem cum ipsa, sed solum analogiam, 
+        et tamen utraque visu apprehenditur. Sufficit ergo quo in 
+        <pb n="293"/>aliqua una ratione analoga conveniant; quae ratio respectu 
+          intellectus (a) communiter dicitur esse ratio entis seu quidditatis. 
+          Quaecunque autem sint secundum se (b) huiusmodi 
+          rationes: nobis tamen in omnibus non sunt notae vel nominatae 
+          nisi solum per respectum ad potentiam cuius sunt; ut 
+          cum dicimus quod ratio visibilitatis est illud in quo conveniunt 
+          omnia visibilia respectu visus, et ratio tangibilitatis est illud 
+          in quo respectu tactus omnia tangibilia conveniunt, et consimiliter 
+          sufficit quod in ratione intelligibilitatis omnia obiecta 
+          intellectus conveniant. - Ad id vero quod ab <name ref="#Aristotle">Aristotele</name> 
+          in primi probatione subinducitur dicendum quod 
+          cognitio est quidem per assimilationem et determinationem 
+          potentiae ad obiectum, sed tamen ilia assimilatio non est 
+          essentia ipsius potentiae sicut nec ipsa cognitio, quia tunc 
+          per essentiam esset omnium determinata similitudo. Quod 
+          non potest competere nisi soli Deo.</p>
+        <p>Ad secundum dicendum quod non omnis generalis
+        vel specifica diversitas actuum includit diversitatem potentiarum; 
+        alias essent in nobis tot potentiae quot sunt vel esse 
+        possunt species habituum et actuum. Sufficit ergo quod actus 
+        univoce vel analogice participent generalem rationem potentiae 
+        eo modo quo accidens participat rationem sui subiecti
+        et actus rationem agentis. Generalis autem ratio intellectus
+        est ratio expressivi cum assensu vel dissensu vel
+        suspensione; et haec ratio quasi (c) differenter participatur
+        in actu intelligendi et sciendi et opinandi seu credendi et
+        dubitandi, in omnibus enim cogitative exprimitur aliquod
+        obiectum.</p>
+        <p>Ad tertium satis patet ex alibi dictis. Facultas enim
+        rationis et voluntatis non potest esse tertia potentia alia ab
+        intellectu et voluntate, nec una potentia essentialiter composita 
+        ex duabus, nec aliquo modo potest esse alia a voluntate 
+        libera, quia alias oporteret voluntatem liberam sibi
+        esse naturaliter subiectam, ac per consequens non esse essentialiter
+        liberam. Intelligendum est ergo quod eadem facultas 
+        voluntatis est potens movere rationem et voluntatem 
+        ad libere discernendum et iudicandum et ad volendum seu
+        eligendum; voluntas enim dominatur tam sibi quam rationi
+        et ideo sua facultas non solum dicitur facultas voluntatis,
+        sed etiam rationis.</p>
+          <p><pb n="294"/>Ad quartum etiam patet ex supradictis, et si diligentius 
+          vis rationis illius aspiciatur, potius valet ad propositum, 
+          quia absolutum et relatum non variant potentiam; alias nulla 
+          eadem potentia posset unum suum obiectum conferre ad 
+          alterum. Praeterea, ratio ardui includitur sub ratione boni 
+          et e contrario, quia ratio arduitatis est quaedam ratio bonitatis, 
+          et omnis bonitas, in quantum bonitas, est quid arduum, 
+          et quantum habet de bonitate, tantum eo ipso habet de arduitate. 
+          Et consimiliter veritas includit bonitatem et e contrario, 
+          quia omnis veritas, in quantum talis, est quid bonum 
+          et e contrario. Rursus, relatio obiecti intellectus ad actum 
+          et ad obiectum voluntatis non diversificat intellectum in duas 
+          potentias intellectivas. Ex quo patet quod intellectus practicus 
+          non est altera potentia a speculativo, quia practicus ex 
+          hoc solo dicitur practicus quod proprias speculationes refert 
+          ad actum et obiectum voluntatis et ad ea operabilia quae 
+          voluntas vult fieri. Proprias autem ideo dixi, quia speculationes 
+          scientiarum practicarum sunt ei propriae, speculationes 
+          vero scientiarum mere speculativarum sunt propriae intellectus, 
+          in quantum proprie dicitur speculativus.</p>
+        
+        <p>Notandum aut em quod contra praedeterminata, 
+          quod scilicet in mente nostra non sit nisi 
+          una potentia intellectiva et altera volitiva, non 
+          est illud (a) quod 
+          <ref>
+            <seg><name ref="#Augustine">Augustinus,</name> libro XII <title ref="#deTrinitate">De Trinitate,</title></seg>
+            <bibl>Augustine, De Trinitate, XII, c. 12, n. 17, 18 (PL 42, 1007sq)</bibl>
+          </ref>
+        distinguit superiorem rationem et inferiorem
+        quasi virum et mulierem; quia ipse non accipit ibi
+        rationem superiorem pro una aliqua sola potentia mentis et
+        consimiliter nec inferiorem, immo sub unaquaque illarum
+        aggregat intellectum et voluntatem. Quod patet: quia utrique
+        earum attribuit non solum actum apprehendendi et discernendi,
+        sed etiam actum comedendi, id est, delectandi et
+        consentiendi. Potentiam igitur intellectivam et volitivam
+        coniunctim sumptas distinguit in duo officia seu aspectus,
+        scilicet, in aspectum aeternorum seu supernorum et in aspectum
+        temporalium seu inferiorum; et quia secundus (b) aspectus
+        subest priori sicut uxor viro et velut subditus suo praelato,
+        idcirco rationem superiorem comparat viro, inferiorem
+        vero uxori.</p> 
+        <p><pb n="295"/>Verumtamen si contra dicta <name ref="#Augustine">Augustini</name> ibidem obicias 
+          quia ipse ibidem ponit quod plenus consensus plenumque 
+          iudicium agendorum spectat ad solam rationem superiorem, 
+          cum tamen e contra videatur quod plenus consensus in inferiora 
+          agenda vel volenda non spectet nisi ad solum aspectum 
+          inferiorum et ita non nisi ad solam rationem inferiorem, 
+          et praecipue quando mens plene consentit in illa absque 
+          omni aspectu ad aeterna, sicut facit cum per omnimodam 
+          aversionem ab aeternis se convertit totaliter ad creata: ad 
+          hoc dupliciter respondetur, primo scilicet, quod sub aspectu 
+          aeternorum comprehendatur tam aspectus verus quam falsus; 
+          nam de quocunque, quamquam falso, mens dicat <mentioned>hoc 
+            est summum bonum meum et hoc mihi finaliter est amandum 
+            et prosequendum,</mentioned> accipitur a mente tanquam aeternum 
+          et tanquam principalis regula volendorum et agendorum. 
+          Constat autem quod absque pleno consensu in aliquem ultimum 
+          finem vere vel falso acceptum non potest plene consentiri 
+          in ea quae sunt ad ilium finem, in quantum talia. 
+          Consensus igitur in aliquid tanquam in ultimum finem spectat 
+          ad rationem superiorem, consensus vero in id quod ad finem 
+          spectat ad inferiorem. Secundo respondetur quod nomine 
+          rationis superioris non significa tur primo et principaliter 
+          actualis vel habitualis aspectus aeternorum, sed potius ipsa 
+          potentia, prout est potentialiter apta aspicere illa. Et quia 
+          potentia secundum sui supremum est ad hoc apta, non autem 
+          secundum suum infimum, plenitudo autem consensus et 
+          iudicii non potest menti inesse, si ibi desit suprema portio 
+          seu supremum ipsius -- quando enim secundum solum suum 
+          infimum in aliquid consentit, tunc infime (a) et nec semiplene 
+          consentit -: hinc est quod plenus vel principalis consensus 
+          ad solam superiorem rationem dicitur pertinere.</p>
+        <p>Ex hoc autem patet quare malus consensus 
+          solius rationis inferioris dicitur non esse mortale 
+          peccatum. Quamvis enim 
+          <ref>
+            <seg><name ref="#Augustine">Augustinus</name> ibidem</seg>
+            <bibl>Cfr. l. c., n. 18 (PL 42, 1008)</bibl>
+          </ref> 
+          dicat quod licet <name ref="#Eva">Eva</name> sola peccante <name ref="#Adam">Adam</name> non damnaretur, 
+          quia non erant realiter una persona, sed duae, nihilominus sola 
+          inferiori ratione peccante totus homo damnabitur, quia sunt 
+          simpliciter unius (b) solius personae: non oportet intelligi de 
+          condemnatione mortis aeternae seu infernalis, sed sufficit 
+          <pb n="296"/>hoc intelligi de condemnatione ad quamcunque poenam debitam 
+          veniali peccato. Sic enim 
+          <ref>
+            <seg><title ref="#Enchiridion">Enchiridion,</title> capitulo 63,</seg>
+            <bibl>Augustine, Enchiridion, cap. 64, n. 68-72 (PL 40, 262sqq.)</bibl>
+          </ref> 
+          <ref>
+            <seg>idem <name ref="#Augustine">Augustinus</name></seg>
+            <bibl>Ibid.</bibl>
+          </ref> 
+          accipit damnationem, ubi de (a) poena 
+          purgatoria eorum qui non sunt valde mali dicit quod orationum 
+          et eleemosynarum suffrag1a aut ad hoc eis prosunt, 
+          ut sit remissio, scilicet totalis, aut certe, ut <sic>tolerabilor</sic> fiat 
+          ipsa damnatio. Quod autem peccatum quod est in sola ratione 
+          inferiori nolit esse mortale patet: quia in praefato 
+          <ref>XII libro <title ref="#deTrinitate">De Trinitate,</title> 
+            capitulo 12,</ref> 
+          dicit quod 
+          <cit>
+            <quote>de talibus cogitationibus quibus ratio inferior obiectatur illicitis venia 
+            petenda est pectusque (b) percutiendum et dicendum, 
+            <cit>
+              <quote ana="#mt6_12">dimitte nobis debita nostra</quote>
+              <bibl>Matthew 6:12</bibl>
+            </cit> 
+            et cetera.</quote>
+            <bibl>Augustine, XII, De Trinitate, c. 12 (PL ??)</bibl>
+          </cit> 
+          Item, ubi paulo post dicit 
+          quod per hoc totus homo damnabitur, subdit: 
+          <cit>
+            <quote>Nisi 
+              haec, quae sine voluntate operandi, sed tamen cum voluntate 
+              animum oblectandi solius cogitationis sentiuntur esse 
+              peccata, per Mediatoris gratiam remittantur.</quote>
+            <bibl>Cfr. n. 18 (PL 42, 1008)</bibl>
+          </cit> 
+          Ex quo videtur 
+          quod de hoc peccato loquitur tanquam de veniali, quia 
+          secundum eum et secundum 
+          <ref>
+            <seg><name ref="#Anselm">Anselmum</name></seg>
+            <bibl>Non invenimus</bibl>
+          </ref> 
+          principalis causa venialitatis et remissibilitatis venialium est meritum et gratia 
+          Christi. Item, 
+          <ref>
+            libro II <name><!-- need ref id for Commentary on Genesis against Manichaeos -->Contra Manichaeos,</name>
+          </ref> 
+          parum ante medium libri, agens de eisdem dicit quod. 
+          <cit>
+            <quote>si suggestione 
+            facta, cupiditas inferioris rationis mota fuerit, quasi iam mulieri 
+            persuasum erit; sed aliquando ratio commotam cupiditatem 
+            viriliter refrenat; quod cum fit, non labimur in peccatum 
+            - supple mortale -; si autem ratio consentiat et faciendum 
+            omne decernat, ab omni beata vita tanquam de 
+            paradiso expellitur homo</quote>
+            <bibl>De Genesi contra Manich., II, 14 (PL 34, 207)</bibl>
+          </cit> 
+          Quod igitur 
+          <ref><name ref="#Lombard">Magister</name> Sententiarum, 
+          libro II, distinctione XXIV,</ref> 
+          agens de ista materia 
+          dicit (5 ) quod 
+          <cit>
+            <quote>quando mulier sine viro gustat, id est, 
+              quando ratio inferior sine superiori consentit, est aliquando 
+              mortale peccatum:</quote>
+            <bibl>Petrus Lombardus, Sent., lib. II, distin. XXIV, n. 8 (ed. Quaracchi 1916, p. 424); (PL 192, 704).</bibl>
+          </cit> 
+          non est contra hoc, quia sicut ex dictis 
+          eius ibidem expresse patet, ipse loquitur in illo casu in quo 
+          <pb n="297"/>ratio superior est merito inculpanda, quia cogitationem rationis 
+          inferioris nimis morosam compescere neglexit, quae 
+          negligentia a magistris consensus (a) interpretativus seu occultus 
+          appellatur.</p>
+        <p>Ad huius tamen evidentiam sciendum quod quamquam 
+          aliquando superior ratio nullo modo consentiat ad opus peccati 
+          extrinsecum perficiendum: nihilominus aliquando plene 
+          et expresse consentit ad cogitandum et ad delectandum se 
+          cogitando. Et si tunc secundum quosdam illud opus quod sic 
+          cogitatur est de genere suo mortale, praefatus consensus est 
+          mortalis. Secundum alios vero quibus magis assentio hoc 
+          non est verum, nisi illud praeter hoc quod est de genere 
+          suo mortale habeat in vitiosa voluntate et sensualitate cogitantis 
+          enormem excessum vitiosae delectationis, quod non de 
+          facili invenitur nisi in (b) peccato carnis. Propter quod etiam 
+          huiusmodi modus delectandi secundum doctiores aliquando 
+          est mortalis, ubi opus exterius de quo cogitatur est ex suo 
+          genere veniale cogitanti; quia dato quod vir tota die cum 
+          horrenda delectatione cogitet se commisceri suae uxori et 
+          absque intentione operis in huiusmodi cum pleno consensu 
+          se pascat: nunquid vir sapiens dicet quod mortaliter peccat, 
+          quamvis utique in hoc ipso citius et gravius peccaret 
+          mortaliter, si de non sua coniuge cogitaret et praecipue si 
+          ad virginalem aut regularem castimoniam esset voto vel 
+          professione astrictus? Rursus, sciendum quod plenus consensus 
+          non sic ascribitur rationi superiori et semiplenus 
+          cum primis motibus inferiori quin aliquando primos motus 
+          et semiplenos consensus ponamus esse in superiori, ut cum 
+          quis aliquo primo motu vel semipleno consensu afficitur in 
+          Deum aut in aliquid divinum aut cum primo motu contra 
+          Deum turbatur vel cum primo motu haesitat de fide vel veritate 
+          ipsius. Haec enim idcirco superiori rationi attribuuntur, 
+          quia insunt menti secundum supremum aspectum ipsius, 
+          prout scilicet habet aspectum in Deum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

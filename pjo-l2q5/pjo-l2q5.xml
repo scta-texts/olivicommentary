@@ -1,0 +1,1779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Quaestio 5</title>
+        <author xml:id="PJO">Peter John Olivi</author>
+        <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.06">
+          <title>Librum II, Quaestio 5</title>
+          <date when="2015-06-12">June 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Ad Claras Aquas</publisher>
+        <pubPlace>Quaracchi</pubPlace>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="1922">1922</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Quaestions In Secundum Librum Sententiarum, ed. Bernardus Jansent, S.I, Ad Claras Aquas, 1922</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-06-12" who="#JW" status="draft" n="2015.06">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pjo-l2q5">
+        <head>Librum II, Quaestio 5</head>
+        <p>Quinto quaeritur an Deus potuerit mundum
+          facere ab aeterno.</p>
+        <div>
+          <head>Et quod sic videtur.</head>
+          <p>1. Posita causa sufficienti statim potest poni eius effectus; 
+            sed Deus fuit ab aeterno causa sufficiens ad mundi productionem; 
+            ergo et cetera.</p>
+          
+          <p>2. Item, a destructione consequentis: si Deus non potuit 
+            mundum ab aeterno creare, ergo non fuit ab aeterno sufficienter 
+            potens et actualis ad creare.</p> 
+          
+          <p><pb n="93"/>Item, si causa naturaliter agens esset ab aeterno, eius 
+            effectus naturalis posset esse ab aeterno; unde <name ref="#Augustine">Augustinus</name> 
+            dicit quod 
+            <cit>
+              <quote>si ignis esset ab aeterno, splendor eius esset ab aeterno;</quote>
+              <bibl>Augustine, De Trinitate, VI, 1 (PL 42, 923)</bibl>
+            </cit> 
+            <app>
+              <lem>si igitur hoc posset causa naturaliter agens, 
+                si esset ab aeterno;</lem>
+              <rdg wit="#V" type="corrAddition">
+                <corr>
+                  <add place="margin">si igitur hoc posset causa naturaliter agens, si esset ab aeterno</add>
+                </corr>
+              </rdg>
+            </app> 
+            ergo multo magis hoc poterit Dei 
+            voluntas supernaturaliter agens.</p>
+          
+          <p>4. Item, si Deus non potuit ab aeterno mundum creare 
+            et postmodum potuit hoc in aliquo initio temporis, ergo est 
+            mutatus; est enim factus de non potente potens.</p>
+          
+          <p>5. Item, nulla veritas et maxime catholica videtur esse 
+            in dehonorationem et minorationem divinae potentiae; sed 
+            dicere quod Deus non potuerit hoc ab aeterno videtur esse 
+            huiusmodi; ergo hoc dicere non est verum, saltem veritate 
+            spectante ad fidem catholicam.</p>
+          
+          <p>6. Item, quod semper eodem modo se habet semper 
+            potest idem facere, nisi illud transierit in praeteritum.</p>
+          
+          <p>7. Item, Deus potuit hoc velle pro toto tempore sibi possibili; 
+            ergo potuit mundum fecisse tantum antea quantum 
+            possibilitas temporis in antea se extendit; sed ilia non habet 
+            terminum initialem, quia nunquam tantum potuit temporis 
+            fieri quin adhuc aliud tempus potuerit fieri ante ipsum et sic 
+            in infinitum; ergo tantum tempus potuit fieri quod nullum 
+            habuisset initium.</p>
+          
+          <p>8. Item, sicut iam dictum est, temporum Deo possibilium 
+            in antea non est dare primum; sed omnium temporum 
+            sibi possibilium potuit quodcunque voluit eligere; ergo non 
+            est dare terminum (b) seu initium illius temporis quod potuit 
+            ad faciendum eligere ac per consequens et facere.</p>
+          
+          <p>9. Item, Deus potest omne illud in quo non includitur 
+            contradictio; sed in hoc non includitur contradictio, quia 
+            factioni creaturae seu ei quod est habere effectum principium 
+            non repugnat semper fuisse seu non habuisse durationis 
+            initium; unde secundum <ref><name ref="#Augustine">Augustinum</name>, libro X <title ref="#CityOfGod">De Civitate</title>, 
+            33 capitulo,</ref> 
+            <cit>
+              <quote>philosophi dixerunt mundum non 
+                habere temporis sed substitutionis initium, dantes exemplum 
+                de pede in pulvere ab aeterno vestigium imprimente;</quote>
+              <bibl>Augustine, De civitate Dei, X, 31 (PL 41, 311)</bibl>
+            </cit> 
+            et 
+            <ref>
+              <seg>idem habetur XI libro (c), 4 capitulo.</seg>
+              <bibl>Augustine, De Civitate Dei, X, 31 (PL 41, 319)</bibl>
+            </ref>
+          </p>
+          <p><pb n="94"/>10. Item, nulla conditio includens in se rationem creaturae 
+            repugnat rationi creaturae; sed tempus aeternum est huiusmodi, 
+            ut probabo; ergo et cetera. — Probatio minoris: omnis 
+            conditio entis quae non est divina nec Deo aequalis et quae est 
+            eiusdem generis et speciei cum aliqua conditione creata includit 
+            in se rationem creaturae seu esse creati vel creabilis; 
+            sed dato quod tempus esset aeternum eius duratio non esset 
+            duratio Dei nec Deo aequalis; unde 
+            <ref><name ref="#Boethius">Boethius,</name> V <title ref="#Consolation">De Consolatione</title>,</ref>
+          ait quod 
+            <cit>
+              <quote>id quod temporis patitur conditionem, 
+                licet illud, sicut de mundo 
+                <ref>
+                  <seg>censuit Aristoteles,</seg>
+                  <bibl>Aristotle, De Caelo, I, 10-12, 279b4sqq.; Phys., VIII, 1-3, 250b11sqq.</bibl>
+                </ref> 
+                nec coeperit 
+                unquam esse nec desinat: nondum tamen tale est ut aeternum 
+                esse iure credatur; non enim totum simul infinitae vitae 
+                spatium comprehendit;</quote>
+              <bibl>Boethius, De consolatione, 5, N. 349 (PL 68, 859)</bibl>
+            </cit> 
+            et paulo post: 
+            <cit>
+              <quote>Unde non recte 
+                quidam qui cum audiunt visum 
+                <ref>
+                  <seg><name ref="#Plato">Platonis</name></seg>
+                  <bibl>Plato, Timaeus, 27 E sqq. Phaedrus, 245 D sqq.; Phaedon, 105 D; Menon, 86 A; Resp., X 611 A.</bibl>
+                </ref> 
+                mundum hunc nec 
+                habuisse initium temporis nec habiturum esse defectum, hoc 
+                modo conditori conditum mundum fieri coaeternum putant; 
+                aliud est enim per interminabilem duci vitam, aliud (a) interminabilis 
+                vitae totam pariter complexam esse praesentiam, 
+                quod divinae mentis proprium esse manifestum est;</quote> 
+              <bibl>Boethius, De consolatione, 5, N. 349 (PL 68, 859) <!-- edition just says "L. c." --></bibl>
+            </cit> 
+            haec 
+            <name ref="#Boethius">Boethius.</name> Tempus etiam aeternum seu infinitum est eiusdem 
+            generis et etiam eiusdem speciei cum tempore finito, quia 
+            augmentum eiusdem speciei infinitum non variat speciem 
+            illam; et multo minus eam diversificat, si infinitum cum 
+            finito (b) sint idem numero, sicut utique partes temporis finitae 
+            essent idem numero cum tempore finito ex eis infinities 
+            replicatis constitute.</p>
+          
+          <p>11. Item, illud quod ex sua essentia et natura non determinat 
+            sibi aliquod tempus, immo quantum est de se, extendit 
+            se ad omne tempus potuit esse et fuisse in omni tempore 
+            possibili; sed naturae rerum mundi, saltem caelestium 
+            et intellectualium, sunt huiusmodi; ergo et cetera.</p>
+          
+          <p>12. Item, illud quod nullam infinitatem actualem ponit 
+            est Deo possibile nec repugnat rationi creaturae; sed tempus 
+            ab aeterno durans est huiusmodi, quia nunquam ponitur esse 
+            in eo actu nisi solum tempus praesens quod utique semper 
+            est finitum.</p>
+          
+          <p>13. Item, quicquid Deus potest successive potest simul; 
+            sed infinita potest successive; ergo simul.</p>
+          
+          <p><pb n="95"/>14. Item, quando tota possibilitas et impossibilitas operis 
+            pendet ex sola potentia agentis, tunc tota ratio quare 
+            illud non potest fieri est ex defectu potentiae agentis; sed 
+            possibilitas et impossibilitas rerum creabilium nihil ponit 
+            penitus nisi in sola potentia creantis; ergo si non potuerunt 
+            fieri ab aeterno, hoc fuit ex defectu potentiae creatoris; sed 
+            hoc est falsum et blasphemum; ergo et illud.</p>
+          
+          <p>15. Item, illud quod certitudinaliter sciri non potest non 
+            est certitudinaliter asserendum; sed mundum non posse creari 
+            ab aeterno certitudinaliter sciri non potest; ergo saltem hoc 
+            non est asserendum. — Minor probatur dupliciter: primo, 
+            quia constat quod hoc non dicit Scriptura Sacra, ergo illius 
+            rei certitudo non habetur ex fide; nec ex scientia demonstrativa, 
+            quia tunc per scientiam huiusmodi indubitanter 
+            sciremus mundum esse creatum ex tempore; ex hoc autem 
+            sequitur quod non tenemus hoc ex fide, quia 
+            <ref>secundum <name ref="#Paul">Apostolum</name>:</ref> 
+            <cit>
+              <quote ana="#hebr11_1">Fides est argumentum non apparentium;</quote>
+              <bibl>Ad Hebraeos 11:1</bibl>
+            </cit> 
+            sed nos tenemus hoc per fidem secundum 
+            <ref>illud Hebr. 11:</ref> 
+            <cit>
+              <quote ana="#hebr11_3">Fide intelligimus aptata esse saecula verbo Dei;</quote>
+              <bibl>Ad Hebraeos 11:3</bibl>
+            </cit> 
+            et 
+            <ref>
+              <name ref="#GregoryGreat">Gregorius,</name> <title>Super Ezechielem</title>,</ref> 
+            dicit quod 
+            <cit>
+              <quote>quaedam est prophetia de praeterito, ut est illud: 
+                <cit>
+                  <quote ana="#gen1_1">In principio creavit 
+                Deus caelum et terram.</quote>
+                  <bibl>Genesis 1:1</bibl>
+                </cit>
+              </quote>
+              <bibl>Greg., M., Homil. in Ezech., lib. I, n. 1175, hom. 1 (PL 76, 786)</bibl>
+            </cit> 
+            — Secundo probatur hoc: quia 
+            hoc non potest sciri per causam ipsius creationis quae est 
+            Dei voluntas quae nulli est nota, nisi quantum voluntarie se 
+            revelat; nec potest hoc sciri per quidditates rerum creatarum, 
+            quia illae non sunt ex se limitatae ad hoc tempus vel 
+            illud, immo quantum est de se, extendunt se ad omne tempus; 
+            sed non est dare alia ex quibus possit hoc demonstrari; 
+            ergo et cetera.</p>
+          
+          <p>Ad quaestionem utramque simul</p>
+        </div>
+        <div>
+          <head>Respondeo</head>
+          <p>Quod mundus non est aeternus nec esse potuit ab aeterno.</p> 
+          
+          <p>Et quidem quod non fuerit fides catholica expresse 
+            et indubitabiliter tenet tanquam unum de 
+            primis fundamentis suis. Unde 
+            <ref>
+              <seg>Vetus Testamentum</seg>'
+              <bibl>Genesis c. 1, 2, 5</bibl>
+            </ref> 
+            a certo 
+            initio creationis mundi inchoat, quod ut magis firmaretur in
+          <pb n="96"/>
+            opinione fidelium, annorum seriem ab ipso inchoans et deducens 
+            solemniter enarrat et in eius indelebilem memoriam 
+            voluit Deus septimam diem in qua Deus a condendo quievit 
+            habere solemnem in tempore illo. In Novo etiam sic praedicat 
+            Iohannes Verbi aeternitatem quod tamen principium seu 
+            initium mundi aperte asserit dicens: 
+            <cit>
+              <quote ana="#io1_1">In principio erat 
+                Verbum.</quote>
+              <bibl>Iohannes 1:1</bibl>
+            </cit> 
+            Et Christus primum diem creationis per solemnia 
+            opera magnificat et a tota Ecclesia sua per instinctum sui 
+            Spiritus coli (a) specialiter fecit.</p>
+          
+          <p>Nec mirum, quia error de aeternitate mundi, 
+            prout a philosophis mundi (2) est positus, habet fundamentum 
+            impium; prout enim patet ex dictis <name ref="#Aristotle">Aristotelis</name> (b)(3) 
+            et sequacium eius, praecipuum fundamentum sumpserunt (c) 
+            ex tribus nefariis. Primum est (4) quod Deus quicquid 
+            agit necessario agit, ita quod nullo modo posset aliter 
+            agere nec amplius aut minus, loquendo de immediata (d) 
+            actione ipsius. — Secundum est quod omnium quae aliquando 
+            agunt, aliquando non agunt aut quae aliquando sic agunt, 
+            aliquando vero non sic oportet reddere causam quare aliquando 
+            sic, aliquando vero non sic. Dixerunt (5) enim quod 
+            quaecunque se habent ad opposita oportet quod per aliquid 
+            determinentur ad alterum oppositorum ad hoc ut plus agant 
+            unum quam reliquum (e), sive illud determinans sit aliquid disponens 
+            vel cooperans sive removens prohibens; alias ut dicunt, 
+            non potest reddi ratio quare magis agunt quam non 
+            agunt vel e contrario. Quia igitur <name ref="#Aristotle">Aristoteles</name> (6) vidit inferiores 
+            causas in agendo et(f) non agendo varie se habere:
+          <pb n="97"/> 
+            ideo visus est omnia inferiora reducere ad aliquam causam 
+            quae cum uniformitate (a) posset esse in aliis causa contrariorum; 
+            visumque est ei quod haec erat motus caeli aeternus; 
+            qui pro quanto non est alterativus sui subiecti sed solummodo 
+            partibus eius dans varia ubi et pro quanto est 
+            circularis et secundum eum aeternus et invariabilis a suo 
+            cursu, est in se uniformis; pro quanto vero corpora caelestia 
+            per ipsum accipiunt varium aspectum super inferiora, est 
+            causa contrariorum; unde videmus quod declinatio solis a 
+            nostro hemisphaerio est causa corruptionis, eius vero accessus 
+            est causa generationis et renovationis.— Tertium est, quia 
+            ut visum est eis (1), res per ordinem habent necessario emanare 
+            a prima causa, ita quod res aeternae et incorruptibiles 
+            immediatius sunt et dependent ab ea quam res temporales 
+            et corruptibiles; et inter aeterna intellectuales substantiae 
+            immediatius sunt ab ea quam substantiae corporales; et in intellectualibus 
+            illae quae sunt supremae et magis ei similes immediatius 
+            sunt ab ea illique in tantum similes quod eas deos 
+            putaverunt et vocaverunt; et hinc est quod ut dicunt, nullum 
+            inferiorum potuit esse a prima causa nisi per intermedias substantias 
+            superiores; videnturque sibi per hoc mirabilem ordinem 
+            ac concordiam et concatenationem ponere in toto universo.</p>
+          
+          <p>Primum autem quantae impietatis sit in Deum monstratum 
+            est in materia de libertate voluntatis Dei per quam sine 
+            omni variatione sui potest libere ferri super opposita obiecta 
+            et super oppositos effectus; si enim Deus omnia quae facit 
+            necessario facit nec aliter agere aut non agere Cb) potest: 
+            omnis timor et reverentia, amicitia et gratia, spes ac deprecatio 
+            seu imploratio frustra habetur ad eum nihilque veri 
+            dominii habet in rebus; et ex quo ab eo libertas in opposita 
+            tollitur, multo magis ab omnibus quae sunt sub ipso; 
+            ex quo iterum vorago infernalis impietatis consurgit, sicut 
+            in materia de libertate voluntatis humanae est abunde monstratum. 
+            — Secundum autem directe tollit libertatem omnibus 
+            causis ab ultima usque ad primam, licet quandam falsam 
+            et passivam libertatem ipsi somnient cum praedictis; statuitque 
+            fatales constellationes, quia omnes varietates motuum 
+            inferiorum sive directe sive oblique reducit in motum 
+            caeli et in varios aspectus stellarum. — Tertium autem est 
+            <pb n="98"/> 
+            consummatio impietatis, quia primae causae potentiam arctat 
+            quasi usque ad unum punctum, in eo quod non nisi unum 
+            solum ponit ab eo esse immediate et hoc necessario; statuitque 
+            idololatriam (a) nobisque attribuit essentialem infinitatem 
+            et miseriam, quia secundum hoc quasi essentialiter sumus 
+            in extremo catenae quam fingunt.</p>
+          
+          <p>Sicut autem habet impium fundamentum, sic habet et 
+            processum, quia omnes aut fere omnes articulos fidei catholicae 
+            uno flatu abnegat et de medio tollit; tollit enim peccatum 
+            originale, quia nullum primum hominem ponit ac per 
+            consequens tollit totum opus redemptionis; ponit etiam aut 
+            unitatem intellectus aut revolutionem earundem animarum 
+            per diversa corpora aut infinitas animas et plures earum in 
+            aeternum manere separatas a corpore; et cum cursum istius 
+            saeculi et humanae generationis ponat in aeternum manere: 
+            patet quod nullam felicitatem statuit homini nisi in vita ista.</p>
+          
+          <p>Terminus autem eius a sapientibus timetur fore pessimus: 
+            credunt enim quod hic sit unus de principalibus 
+            articulis introductoriis infernalis sectae antichristi. Unde quidam 
+            magnus doctor (1) numerum bestiae (2), scilicet sescenti 
+            sexaginta sex, sic exponebat: 
+            <cit>
+              <quote>Quia enim scriptum est quod 
+                <cit>
+                  <quote ana="#11_9">in circuitu impii ambulant</quote>
+                  <bibl>Psalmus 11:9</bibl>
+                </cit> 
+                ideo numerus bestiae 
+                uno numero circulari sub triplici circuitu describitur; senarius 
+                enim est numerus circularis, quia per reflexionem sui in 
+                se multiplicatus reddit numerum terminatum in se ipsum, 
+                ut sexies sex faciunt triginta sex; et (b) si iterum multiplices 
+                sexies triginta sex, habebit numerum terminatum in 
+                sex et sic in infinitum; hic ergo numerus primo, ponitur 
+                hic circuire et habes sescentos, deinde denarium et habes 
+                sexaginta, deinde unitatem et habes sex. Quia vero centum 
+                anni faciunt unum saeculum, mores vero humani reguntur (c) 
+                per decalogum legis: ideo, ut dicebat, per sescentos (d) significatur 
+                circuitus saeculorum, id est, circuitus aeternitatis temporum; 
+                per sexaginta vero circuitus unius intellectus in tota 
+                universitate hominum et ii sunt (4) tres spiritus procedentes 
+                <pb n="99"/> de ore bestiae ac draconis et pseudoprophetae in modum 
+                ranarum.</quote>
+              <bibl>Cfr. Apocal. 13:18</bibl>
+            </cit>
+          </p>
+          <p>Quod autem ab aeterno nullo modo esse potuerit 
+            probatur quadriformi respectu.</p>
+          
+          <p>Primo scilicet per respectum ad incomponibilia (a) fieri 
+            cum tempore aeterno: nullum enim est genus infinitatis quod 
+            non ponatur potuisse fieri, si tempus aeternum potuit fieri; 
+            constat autem quod (b) illud est (c) impossibile ex cuius positione 
+            ponitur aliquod impossibile esse possibile; sed quod 
+            omne genus infinitorum potuerit poni in Cd) actu est impossibile, 
+            sicut in quaestione an Deus possit facere infinita in 
+            actu est probatum multipliciter et meo (e) iudicio infallibiliter. 
+            Philosophi etiam mundani multa genera infinitorum reputant 
+            impossibilia, utpote quod infinitae causae per se simul concurrant 
+            ad aliquem effectum aut quod sit dare infinitam lineam 
+            vel infinitum triangulum. — Quod autem ad aeternitatem temporis 
+            hoc sequatur probo et hoc in septem modis infinitorum. 
+            Probo enim primo quod quaelibet figura, utpote triangulus 
+            et quadratum et sic de aliis, potuit secundum hoc fieri 
+            actu infinita; quia omni sane intelligenti potentiam Dei 
+            constat quod in qualibet parte temporis praeteriti potuit 
+            Deus facere unum triangulum maiorem illo qui factus fuerat 
+            in tempore praecedenti aut eundem triangulum secundum 
+            totum processum partium temporis semper auxisse; ergo triangulus 
+            factus vel augmentatus post infinita tempora esset in 
+            infinitum maior aliquo triangulo prius facto et haberet in 
+            se infinitum augmentum et sic esset actu infinitus; quod est 
+            contra rationem trianguli et cuiuslibet figurae. — Secundo 
+            per (f) consimilem modum probatur idem de infinito quanto. 
+            — Tertio idem probatur de infinita virtute actuali et eius 
+            actione: constat enim quod simul cum mundo Deus potuit 
+            facere ignem aut quodcunque corpus naturale habens unigeneitatem 
+            in suis partibus; constat etiam quod semper potuit 
+            sibi aequale vel duplum addere seu duplo augere; ergo 
+            potuit fieri ignis actu infinitus et cum splendore ac (g) calore 
+            infinito ac per consequens et cum actione actu infinita. — 
+            Quarto probatur hoc ipsum de infinita divisione lineae et 
+            cuiuscunque continui: quia unam lineam finitam et mundo 
+            coaeternam potuit Deus in qualibet parte temporis praete<pb n="100"/>riti 
+            dividere una nova divisione vel pluribus; ergo in infinito 
+            tempore fuisset divisa in partes actu infinitas. — Quinto 
+            patet hoc ipsum de infinito motu recto seu de infinito spatio 
+            recto per motum pertransito: constat enim quod in 
+            qualibet parte temporis praeteriti potuit Deus augere spatium 
+            in rectum et unum mobile movere per illud; ergo 
+            post infinita tempora illud spatium rectum esset infinitum 
+            et per infinitum motum rectum esset pertransitum. — Sexto 
+            patet hoc ipsum de infinitate quatuor causarum, scilicet 
+            agentium et materialium ac formalium et finalium. De agentibus 
+            quidem patet hoc: dentur enim ab aeterno creata 
+            centum poma vel nuces sese sic contingentes ut ad motum 
+            primae sequatur motus in secunda et de secunda in tertia 
+            et sic deinceps; ponaturque Deum postremis nucibus in 
+            qualibet parte temporis nucem aliquam subiunxisse: constat 
+            quod post infinitum tempus essent infinitae per ordinem se 
+            habentes, constat (a) etiam quod motus ultimae produceretur 
+            per motus infinitarum mediarum et ita essent motores 
+            infiniti coordinati ad unum motum. — Idem patet de causa 
+            finali, quia in infinito tempore posset Deus unum opus ab 
+            aeterno factum sic ordinasse per fines intermedios quod usque 
+            post infinitum tempus non pertingeret suum finem ultimum 
+            et ita illud opus haberet infinitas causas finales per ordinem 
+            se habentes. Si dicatur quod in aliquo finito tempore omnes 
+            fines intermedii quos Deus posset facere essent expleti: contra, 
+            constat quod bonum commune est finis boni partialis seu 
+            singularis; ponatur ergo quod Deus sic ordinasset universitatem 
+            hominum et aliarum rerum quod in qualibet parte 
+            temporis cresceret; tunc ipsa universitas, ut est augmentata, 
+            esset finis prioris, sicut (b) totum est finis suae partis; ergo 
+            post infinita tempora primi per infinitos fines intermedios 
+            pertigissent ad finem communitatis hodiernae. Quis etiam dicet 
+            quod ex quo mundus esset aeternus, non posset Deus 
+            ordinasse animas ad aliquam futuram gloriam tanquam ad 
+            finem ultimum suum? et tamen constat quod animae ab 
+            aeterno factae non potuissent pertingere ad ilium finem nisi 
+            per processum temporis infinitum. Item, detur quod homines 
+            ab aeterno factos esset finaliter collocaturus in quodam caelo 
+            vel loco post infinita tempora fiendo, aliis in tempore praevio 
+            semper magis ac magis (c) praemissis, ita quod homines ipsi 
+            ab aeterno scirent quod usquequo pertranseundo medios per<pb n="101"/>venissent 
+            ad illud, non haberent locum ilium nec gloriam 
+            eius: nunquid fines itinerationum essent infiniti? utique. — 
+            De duabus vero (a) aliis pertranseo causa brevitatis. — Septimo 
+            patet hoc ipsum de infinitate superlativorum graduum 
+            mentis in ascendendo: detur enim unus angelus quantaecunque 
+            nobilitatis ab aeterno creatus, quis dicet quod in 
+            quolibet temporum praeteritorum non potuerit Deus facere 
+            unum alterum aut aliquam alteram creaturam longe illo 
+            nobiliorem, ita quod sequentes semper sint in millecuplo 
+            nobiliores primis? si ergo infinitum tempus potuit peragrari 
+            et est peragratum, tunc angelus seu creatura ultima facta 
+            habebit infinitissimam praevalentiam super primas; et tunc 
+            si iterum detur quod iste fuisset creatus ab aeterno et quod 
+            alii fierent post ipsum sub ordine prius dato: tunc iterum 
+            ultimus esset in infinitum altior isto; et tunc hoc ipsum posset 
+            per modum consimilem replicari de secundo, ut scilicet 
+            fieret aliquis alter in infinitum maior ipso; et iterum posset 
+            hoc dari de tertio et sic in infinitum. Adverte autem quod 
+            in quolibet praedictorum infinitorum non solum probatum 
+            est ipsa posse esse facta, si mundus esse potuit ab aeterno, 
+            sed etiam probatum est quod quodlibet ipsorum cum tota 
+            sua infinitate haberet initium et finem; quia initium seu 
+            prima pars eorum ponitur ab aeterno concreata cum mundo, 
+            ultima vero pars ponitur creata in die praesenti aut in quacunque 
+            die determinate sumpta.</p>
+          
+          <p>Secundo probatur principale per respectum
+            ad contradictionem in aeternitate seu infinitate 
+            temporis praeteriti directe implicitam.</p>
+          
+          <p>Omnes enim aut fere omnes contradictiones quae in quaestione 
+            an Deus possit facere infinitum actu per rationes 
+            mathematicas probatae sunt includi in quocunque quanto 
+            actu infinito spectant directe ad propositum. Septem enim 
+            viae quibus primum ibidem probatur quod eadem erunt 
+            aequalia et non aequali a facile est hic applicare. 
+            Erit enim pars aequalis suo toti: sumpta enim tota quantitate 
+            temporis praeteriti sive per modum continui sive per 
+            modum numeri ex diversis partibus temporis aggregati, quantumcunque 
+            aliquid magnum finitum tamen inde detraxeris, 
+            illud quod remanet est infinitum ac per consequens aequale 
+            suo toti. — Item, de infinitis annis praeteritis sumatur tantum 
+            de quolibet unus dies, et erunt infiniti dies qui utique eo 
+            <pb n="102"/> 
+            ipso quo infiniti erunt aequales infinitis annis a quibus sunt 
+            subtracti; et nihilominus tantum excedentur ab eis quantum 
+            unicus dies exceditur a toto anno. Lunationes etiam infinitae 
+            quae praeterierunt non erunt plures quam solares seu annuales 
+            solis revolutiones et nihilominus erunt plures. Et huiusmodi 
+            multa similia possunt dari; utpote de quolibet anno subtrahatur 
+            tantum minima hora unius diei, et invenientur aequales 
+            tam numero quam duratione infinitis annis; et infiniti ternarii 
+            dierum vel annorum erunt aequales infinitis millenariis 
+            annorum et sic de aliis. — Item, oportebit dare quod numerus 
+            dierum praeteritorum fuerit par vel impar; et potest 
+            hoc argui, sicut ibi arguebatur. — Item, idem dies erit alteri 
+            diei aeque propinquus cum uno altero et non aeque 
+            propinquus: utpote dies hodierna erit aeque propinqua alicui 
+            diei (a) per infinita tempora iam praeteritae sicut dies hesterna 
+            aut sicut quaecunque altera dies eam sub spatio finito 
+            praecedens; quod enim distent aequaliter ab illa patet, quia 
+            utraque distat in infinitum ab ilia; et nihilominus oportet 
+            quod tantum distent ab ilia (b) inaequaliter quantum una 
+            istarum est prior altera. — Item, ex hoc ipso probatur quod 
+            dies prior erit simul cum posteriori et non simul; et patet 
+            modus probandi sicut et ibi. — Item, totum tempus praeteritum 
+            in quantum continuum erit divisibile in duo media 
+            aequalia, et in quantum discretum, id est, in dies vel annos 
+            distinctum erit divisibile in duo media aequalia aut in duo 
+            sola unitate se excedentia; et sicut totum erit (c) duplum ad 
+            quamlibet medietatem, sic erit quadruplum ad mediam mediae 
+            et sic de aliis proportionibus; cum etiam super omnem 
+            proportionem duplam sit dare triplam et quadruplam et sic 
+            deinceps; ergo super totum tempus infinitum potest addi 
+            tantum quod superexcedet eius medietatem in proportione 
+            tripla vel quadrupla et sic deinceps; et tamen cum hoc non 
+            erit maius quam primum infinitum nec eius media erunt 
+            maiora quam medietates illius. — Item, tota duratio motus 
+            lunae aeterni erit commensurata toti motui solis seu toti durationi 
+            motus sui, ita quod mutuo non se excedent; et nihilominus 
+            nullum eorum attinget totum alterum seu partes 
+            alterius, et ita unumquodque eorum excedetur ab altero; si 
+            enim detur quod unum attingat omnes partes alterius, sequitur 
+            quod in illo altero non sunt partes infinitae, quia in in<pb n="103"/>finito 
+            tempore seu motu praeterito non fuit aliqua pars finita 
+            ante quam non praecesserint aliae numero infinitae; si enim 
+            detur oppositum, scilicet quod ibi fuerit aliqua pars ante 
+            quam non fuerunt infinitae aliae, tunc quicquid praecessit 
+            ante eam fuit finitum, quod est contra positionem datam. 
+            Si igitur nulla fuit ibi pars (a) quam non praecesserint infinitae: 
+            sequitur per locum ab oppositis quod omnem partem 
+            temporis aeterni praecesserunt tempora infinita; ex quo sequitur 
+            quod attinctis (b) omnibus partibus restent infinitae 
+            praeteritae adhuc attingendae. Si vero dentur evasiones quae 
+            ad consimiles rationes in quaestione de infinito sunt positae, 
+            consimiliter infringuntur sicut et ibi, et tanto amplius, quanto 
+            in tempore nihil ponitur nisi quasi per modum unius ordinis 
+            linearis.</p>
+          
+          <p>Deinde probatur hoc ex (c) ratione numeri: impossibile 
+            est enim dari aliquem numerum, quin sit in aliqua 
+            specie numeri; omnis autem species numeri est necessario 
+            finita, quia omnis numerus habet aliquam speciem post se 
+            sola unitate se excedentem et aliam ante se quam in sola 
+            unitate antecedit; ergo numerus dierum aut annorum temporis 
+            aeterni erit sub aliqua specie numeri ac per consequens 
+            et finitus. — Item, omnis numerus (d) minor infinito est 
+            finitus et idem est de omni alia quantitate; sed numerus qui 
+            immediate post numerum infinitum sequitur est minor ipso, 
+            et idem est de quacunque quantitate immediate sequente 
+            post quantitatem infinitam et inclusam infra illam; sed 
+            omnem numerum sequitur immediate aliquis numerus: si 
+            enim detur oppositum, tunc nullus numerus sequitur eum immediate; 
+            ergo inter ipsum et omnem numerum est aliquis 
+            numerus intermedius, quod est impossibile; et dato quod 
+            esset, aut ille est finitus et tunc non facit distare nisi finite; 
+            aut est infinitus et tunc inter duo extrema est dare infinitum 
+            medium, quod est impossibile; si igitur fuerunt infiniti dies 
+            ab aeterno, oportet dare aliquam maximam speciem numeri 
+            quae immediate et sola transcendatur ab infinito numero dierum. 
+            — Item, aut hodierna dies distat in infinitum ab aliqua 
+            die temporis aeterni praeteriti aut a nulla, quia haec divisio 
+            est per contradictoria; si ab aliqua: ergo inter illam et istam 
+            fuit distantia dierum et temporum infinita ac per consequens 
+            fuit simul infinita et ex utraque parte terminata; si 
+            <pb n="104"/> 
+            vero a nulla: ergo ab omnibus distat finite, quia a nullo 
+            distare infinite aequipollet huic, scilicet ab omnibus distare 
+            finite; sed illud est finitum cuius omnes partes distant finite 
+            et non infinite; ergo et cetera. — Item, omne quod est finitum 
+            ex una parte est totaliter ex alia parte finitum per 
+            regulam illam: quod omne continuum est divisibile in duo 
+            media aequalia; non enim potest dividi in duo talia, quin 
+            altera pars sit ex utraque parte finita, scilicet ilia quae sumitur 
+            ex ilia parte secundum quam suum totum erat finitum; 
+            sed tempus aeternum ponitur esse finitum ex una parte; 
+            ergo et cetera. — Item, in quocunque toto non est nec fuit 
+            aliqua pars determinatae quantitatis ante quam non fuerint 
+            infinitae tales et etiam maiores: illud totum sic habuit omnes 
+            suas partes praeteritas quod non habuit omnes; quod est 
+            contradictoria esse simul vera de eodem; sed hoc est dare 
+            in proposito; ergo et cetera. Et si detur ad hoc evasio quam 
+            posui in quaestione de infinito, sic infringitur hic sicut ibi. 
+            — Forte dicetur quod praedictae rationes concludunt solum 
+            de infinito quod habet actu simul partes infinitas, hoc autem 
+            non habet tempus aeternum. — Sed istud nihil est; quia in 
+            praedictis rationibus non supponitur quod partes sint actu, 
+            sed quod sint vel fuerint partes eius, sive simul sive successive, 
+            et in pluribus earum supponitur ^quod successive 
+            fuerint partes eius. Praeterea, tam menti divinae quam angelicae 
+            occurrent simul partes eius tanquam partes unius 
+            totius sibi sub certa coordinatione connexae et continuatae 
+            et connumeratae; et in ipsis sumptis sub hoc modo adhuc 
+            stant omnes consequentiae et contradictiones praedictae.</p>
+          
+          <p>Deinde probatur quod hic sit directe contradictio ex 
+            eo quod simul ponitur esse infinitum et successivum 
+            et continuum: nam hic ponitur quod aliquod praeteritum 
+            nunquam fuerit praesens et quod aliquis motus non habuit terminum 
+            a quo et quod prius fecit Deus tempus quam nunc et 
+            quod mundus accepit suum esse in tempore et non in nunc. 
+            Primum probatur sic: quia aut ante omne praesens quod unquam 
+            (a) fuit <sic>fuit</sic> aliquod tempus praeteritum aut non; si sic: 
+            habeo propositum; si non: ergo per locum a contradictoriis 
+            fuit aliquod praesens ante quod nullum fuit tempus (b) praeteritum; 
+            ex quo sequitur quod ipsum fuerit primum omnium 
+            temporum et initium omnium ac per consequens quod tempus 
+            non fuerit aeternum aut sine initio. — Secundum autem 
+            <pb n="105"/> 
+            sic probatur: aut enim omnis motus praeteritus habuit terminum 
+            a quo aut non omnis; si omnis (a): ergo ante omnem 
+            motum praeteritum fuit terminus a quo et ita omnes habuerunt 
+            initium; sed in omni continuo successivo cuius omnes 
+            partes habuerunt initium ipsum de necessitate habuit initium, 
+            quia ipsum non potuit non habere initium nisi ratione 
+            alicuius partis suae quae non habuit initium. Si vero dicatur 
+            quod non omnis motus habuit terminum a quo: habeo propositum. 
+            Quodsi dixeris quod in hoc nulla est contradictio: hoc 
+            est apertissime falsum et est etiam contra philosophos mundi; 
+            quia motus non est aliud quam accessus ad unum terminum 
+            recedendo ab altero nec aliquis motor potest mobile movere 
+            nisi expellendo eum ab aliquo termino seu statu in quo prius 
+            erat. — Tertii vero et quarti probatio de se patet: quia non 
+            potest dari oppositum, quin eo ipso tempus et mundus ponantur 
+            habuisse initium in aliquo nunc; dicere autem quod 
+            tempus potuit fluere ante omne nunc aut quod mundus prius 
+            fuit creatus in tempore quam in (b) nunc est absurdissimum, 
+            et praecipue cum mundus quantum ad substantiam suarum 
+            principalium partium factus fuerit simul et non successive. 
+            — Praeterea, qua ratione tunc potuit Deus facere tempus 
+            ante omne nunc, eadem ratione posset hoc adhuc facere; hoc 
+            autem constat esse impossibile; ergo et illud.</p>
+          
+          <p>Item, probatur hic alia contradictio: quia erit dare 
+            essentialem ordinem in partibus temporis et motus et 
+            cum hoc nullus erit ibi ordo. Primum quidem patet ex 
+            ipsa essentia temporis et motus et ex ordine dierum et revolutionum 
+            caeli. Secundum etiam patet: quia ubi non est nec fuit 
+            primum, non est dare secundum nec tertium et sic de aliis 
+            ordinibus designatis per numeros subsequentes usque in infinitum; 
+            omnis igitur ordinata successio in sua essentia includit 
+            aliquod primum initium. Et hoc ipsum patet per aliam 
+            viam: quia ratio consequentis seu succedentis, in quibuscunque 
+            ponatur, etiamsi in infinitis poneretur, de necessitate 
+            praesupponit antecedens, ita quod ratio consequentis non 
+            potest absolute et universaliter praecedere rationem antecedentis 
+            nec posterius rationem prioris; sed si tempus fuit ab 
+            aeterno, oportet necessario dicere quod ratio posterioris absolute 
+            et universaliter praecessit rationem prioris, ita quod 
+            nihil fuit unquam in tempore, quin prius habuerit rationem 
+            posterioris quam prioris, quia non habuit rationem prioris 
+            <pb n="106"/> 
+            usquequo transiit et aliquid ei successit, rationem vero posterioris 
+            habuit eo ipso simul dum erat.</p>
+          
+          <p>Tertio probatur principale ex ordine rationalis 
+            creaturae ad peccatum et supplicium et 
+            ad meritum et praemium seu ad quemcunque 
+            liberum motum et universaliter ex ordine omnis creaturae 
+            ad motum et mutationem suam in ea vel ab ea fieri 
+            possibilem. Ex primo quidem sic: dicere quod creatura rationalis 
+            habens plenam libertatem ad peccandum aut ad se 
+            pro tempore futuro movendum nullo modo possit hoc facere 
+            nisi post infinitum tempus primo ab eo pertransitum est idem 
+            quod dicere eam habere plenam facultatem et potestatem 
+            illud agendi et non habere; sed quandocunque ponitur creatura 
+            rationalis fieri vel facta esse hoc ponitur; oportet enim 
+            necessario quod sua essentia et existentia per infinita tempora 
+            seu per infinitam durationem praecesserit omnem actionem 
+            et passionem et omnem motum et mutationem factam 
+            vel fiendam tardius vel posterius quam ipsa. Si enim dicatur 
+            quod non praecessit per infinitam durationem, sequitur necessario 
+            quod praecessit solum per finitam; ex quo sequitur 
+            quod habuit initium et non infinitam durationem in ante. — 
+            Item, constat quod impossibile est infinita futura pertransiri, 
+            saltem inter duos terminos datos; ergo nulla creatura rationalis 
+            facta ab aeterno sine poena vel finali praemio potuit 
+            aliquo modo pervenire ad finale praemium vel supplicium 
+            vel ad quemcunque finem praedesideratum ab ea statim 
+            ut (a) fuit; quia ab hora motus in finem oportuisset prius pertransiri 
+            infinitam durationem, antequam pertingeret (b) ad 
+            illum finem. Istam autem viam arguendi tangit 
+            <ref><name ref="#Augustine">Augustinus</name>, XI <title ref="#CityOfGod">De Civitate,</title> capitulo 4,</ref> 
+            ubi dicto quod 
+            <cit>
+              <quote>philosophi 
+                dicunt mundum non habere temporis sed suae creationis initium</quote></cit>
+            subdit (1): 
+            <cit>
+              <quote>Sed non video quomodo eis possit in ceteris
+                (c) rebus ratio ista subsistere maximeque in anima; quam
+                si Deo coaeternam esse contenderint: unde illi accident nova
+                miseria, quae nunquam antea per aeternum, nullo modo poterunt
+                explicare.</quote>
+            </cit>
+          </p>
+          <p>Quarto probatur hic esse contradictio ex 
+            respectu ad Deum. Contradicit enim hoc divinae potentiae: 
+            dicere enim quod quamcunque rem a Deo factam non
+          <pb n="107"/>
+            potuerit Deus cito post factionem annihilare seu cessare a 
+            dando sibi esse est potentiam Dei horribiliter limitare; sed 
+            nullam rem factam ab aeterno potuit unquam (a) annihilare, 
+            nisi prius res durasset in infinitum; quia si potuit ante durationem 
+            eius infinitam, sequitur rem non habuisse durationem 
+            infinitam sed finitam; ergo ponere aliquid creatum ab 
+            aeterno factum esse vel potuisse fieri est ponere quod non 
+            potuit statim post receptionem sui esse a Deo annihilari. — 
+            Item, dicere quod Deus post cuiuscunque rei factionem non 
+            potuerit aliquid facere cito post illud, utpote dividere rem 
+            quantam in duas partes, est horribiliter eius potentiam enervare; 
+            sed hoc sequitur et ponitur, quandocunque ponitur aliquid 
+            fecisse ab aeterno; et patet deductio sicut prius; ergo 
+            et cetera. -- Item, dicere quod esse rei creatae praecessit 
+            omnem Dei factionem est dicere quod non fuit facta a Deo 
+            aut quod fuit prius quam fieret ab eo; sed hoc ponitur in 
+            proposito: oportet enim dare alteram partem contradictionis, 
+            scilicet quod aut esse rei ab aeterno factae praecessit omnem 
+            sui factionem aut non omnem; si omnem, habeo propositum; 
+            si non omnem, ergo est aliquam factionem dare, antequam 
+            esse rei non fuerat; sed hoc non est verum, nisi ilia sit 
+            prima factio eius et in primo nunc sui esse; ergo et cetera. 
+            — Item, dicere quod Deus non fecit in re nisi solam continuationem 
+            sui esse vel quod factio per quam est a Deo non 
+            fuit nec est nisi solum continuatio eius quod primo habuerat 
+            est dicere: aut quod non omnis factio creaturae fuit a 
+            Deo aut quod res habuit esse ante omnem factionem suam; 
+            sed primum in positione aeternitatis includitur, quia Deus 
+            nunquam dedit rei aeternae esse primum et ante omnem 
+            determinatam dationem qua dedit sibi esse praecesserat eius 
+            esse, nisi dicas quod absque eius successione accepit esse a (b) 
+            Deo pro tota aeternitate attingente simul totum quod per successionem 
+            infinitam in ante et post potuit attingere et etiam 
+            amplius; quod non est aliud quam ponere deos gentilium philosophorum; 
+            et tamen adhuc stat ratio contra aeternitatem 
+            cuiuscunque successivi vel successionis. — Item, dicere quod 
+            simul cum creatione mundi aut cuiuscunque rei non potuerit 
+            Deus facere litteram significantem unum et sic deinceps sub 
+            certis partibus temporis facere ordinate litteras vel figuras 
+            designantes per ordinem subsequentes numeros est horribile; 
+            sed hoc ponitur in positione aeternitatis mundi; quia si detur 
+            <pb n="108"/> 
+            quod potuit: tunc eo ipso datur partes temporum correspondentes 
+            litteris esse inchoatas ab ilia, parte temporis quae correspondet 
+            litterae significanti unum; eo ipso etiam datur quod 
+            partes temporis aeterni sunt sufficienter numeratae per litteras 
+            illas. — Item, impossibile est ultimum cuiuscunque divinae 
+            perfectionis posse attingi a creatura, ita quod commetiatur se 
+            illi et eius infinitati; sed si tempus fuit aeternum, tunc omnino 
+            commensurabit se toti durationi Dei in ante, ita quod totaliter 
+            attinxit eam in ante. — Item, impossibile est creaturam 
+            exire a Deo secundum totum ambitum aeternitatis Dei 
+            et secundum immensum aspectum potentiae Dei, immo oportet 
+            quod se habeat ad ilium ambitum et aspectum sicut se 
+            habet punctus ad magnitudinem infinitam (a) et sicut se habet 
+            minimum nunc ad infinitum tempus; ergo oportet quod exeat 
+            ab eo sub aspectu alicuius modici nunc et ita sub aliquo 
+            primordiali initio suae durationis. Et pro ista ratione et pro 
+            praecedenti facit illud quod dicit 
+            <ref>
+              <name ref="#Dionysius">Dionysius</name>, capitulo 5, <title ref="#deDivinisNominibus">De 
+              divinis nominibus</title>,
+            </ref> 
+            scilicet quod 
+            <cit>
+              <quote>Deus omnia continet 
+                secundum supei simplificatam ipsius infinitatem et ab omnibus 
+                singulariter participatur.</quote>
+              <bibl>Pseudo-Dionysius, De divin. nomin., cap. 5, sect. 9 (PG 3, 826)</bibl>
+            </cit> 
+            — Item, non minus est et fuit semper 
+            Deus potens super tempus a parte post quam super tempus 
+            a parte ante; ergo qua ratione potuit (b) facere quod fuerit 
+            tempus infinitum a parte ante, eadem ratione poterit et potuit 
+            facere quod infinitum tempus, futurum totum fuerit; sed constat 
+            quod hoc non dicit aliquid Deo possibile, immo includit 
+            contradictionem apertam, quia eo ipso ponitur quod fuerit finitum 
+            et infinitum a parte post. — Item, infinitum tempus praeteritum 
+            fuit primo futurum quam fuerit praesens vel praeteritum; 
+            ergo qua ratione potuit Deus illud infinitum futurum totum 
+            facere, eadem ratione poterit adhuc infinitum tempus futurum 
+            totum facere, ita quod aliquando vere possit diei <mentioned>totum 
+              est factum;</mentioned> 
+            quod est impossibile et apertam implicans contradictionem; 
+            igitur impossibilitas et contradictio quae est in 
+            totali factione infiniti motus vel temporis futuri debuit omnem 
+            hominem docere quod consimilis contradictio et impossibilitas 
+            includitur in infinito motu vel tempore a parte ante. — 
+            Item, qua ratione Deus potuit facere totum tempus sibi possibile 
+            a parte ante, eadem ratione potuit facere ab aeterno 
+            omnia possibilia sibi, saltem ilia quorum, unum potest simul 
+            <pb n="109"/> 
+            esse cum altero; sed ponere hoc est ponere effectum creatum 
+            sic coaequatum potentiae Dei quod non potest aliquid ultra 
+            illum; et cum ipse operetur per suum velle, sequitur quod 
+            suum velle non possit ferri nisi solum super ilia quae fecit; 
+            quod dicere est abominabile. — Ex praemissis igitur decem 
+            rationibus patet quod dicere mundum non posse a Deo fieri ab 
+            aeterno non derogat potentiae Dei, immo potius eius altitudinem 
+            commendat et salvat. — Item, dicere quod Deus possit 
+            facere aliquid inordinatum est Deum blasphemare; sed 
+            in factione et existentia mundi aeterna includitur multiplex 
+            inordinatio tam per respectum ad anteriora quam per respectum 
+            ad subsequentia, sicut ex omnibus praedictis satis 
+            patere potest: non enim erit dare ordinem rerum ad aliquam 
+            perfectionem vel operationem futuram nec praesentia habebunt 
+            ordinem ad partes temporis infinite distantes nec posset 
+            dari ordinata distinctio et progressio operum Dei secundum 
+            ordinatam progressionem temporum; sicut nunc cernimus 
+            quod ordinate post Patriarchas misit Legem et Prophetas 
+            et sic tandem Christum et conversionem gentium et sic 
+            postmodum conversionem Iudaeorum et finale indicium. Positio 
+            igitur aeternitatis mundi est positio confusionis infernalis, 
+            <cit>
+              <quote ana="#iob10_22">in quo nullus ordo sed sempiternum horror inhabitat.</quote>
+              <bibl>Iob 10:22</bibl>
+            </cit>
+          </p>
+          <p>Sed quia quidam theologi (a) dicunt quod hoc non est 
+            contra dicta sanctorum, audiant primo quid dicit <ref><name ref="#Augustine">Augustinus</name> 
+            in libro seu in disputatione <title>Contra Felicianum 
+              Arianum</title></ref> dicentem Filium Dei esse creaturam, sed perfectam 
+            et quae dominari possit omnibus creaturis; contra quem arguit 
+            <ref><name ref="#Augustine">Augustinus</name></ref> ex definitione creaturae quam sic definit: 
+            <cit>
+              <quote>Creatura namque est quae aut adhuc non est aut 
+                aliquando non fuit rei cuiuslibet corruptibilis, quantum in se 
+                est, per omnipotentis Dei voluntatem facta substantia; haec 
+                definitio utrum in Dei cadat Filio videamus;</quote>
+              <bibl>Pseudo-Augustinus (Vigilius), Contra Felicianum De unitate trinitatis, cap. 7 (PL 42, 1162).</bibl>
+            </cit> haec <name ref="#Augustine">Augustinus</name>. 
+            Ex hac autem probat ibidem quod Dei Filius non 
+            est creatura; si ergo definitio data et ratio ex ea deducta 
+            est bona, ergo non esse aut non fuisse cadit in definitione 
+            creaturae; sed hoc non est verum, si creatura est aut esse 
+            potuit ab aeterno. — Item, infra in tertia obiectione ab ista dicit (3): 
+            <cit>
+              <quote>Ergo si naturam rerum intelligentia duce perpendimus, 
+                <pb n="110"/>
+                demus initium; si non, negamus occasum; alioquin ideo Filium 
+                non habere dicamus initium, quia non per gratiam sed per 
+                naturam fatemur esse perpetuum;</quote>
+              <bibl>Pseudo-Augustinus (Vigilius), Contra Felicianum De unitate trinitatis, <!-- edition says L. c. --> cap. 8 (PL 42, 1163)</bibl>
+            </cit> 
+            et sumit ibi perpetuum 
+            a parte finis, sicut ibidem et supra in obiectione immediate 
+            praecedenti patet; ergo <name ref="#Augustine">Augustinus</name> vult quod quicquid 
+            habet finem habeat initium et quod non habet initium nullo 
+            modo habet finem. — Item, 
+            <ref>XI <title ref="#CityOfGod">De Civitate</title>, capitulo 4,</ref> 
+            dicit 
+            quod 
+            <cit>
+              <quote>si anima fuit ab aeterno, nullo modo potest explicari (a) 
+                qualiter nova miseria sibi accidit.</quote>
+              <bibl>Augustine, De civitate Dei, XI, c. 4 (PL 41, 319)</bibl>
+            </cit> 
+            — Item, 
+            <ref>XII <title ref="#CityOfGod">De 
+              Civitate,</title> capitulo 15,</ref> 
+            dicit: 
+            <cit>
+              <quote>Si dixero semper fuisse creaturam, 
+                cuius dominus esset qui dominus semper est nec dominus 
+                unquam non fuit? sed nunc illam nunc aliam per alia 
+                atque alia temporum spatia, ne aliquam creatori coaeternam 
+                esse dicamus; quod fides ratioque sana condemnat. Cavendum 
+                est ne sit absurdum mortalem quidem per vices temporum 
+                semper fuisse creaturam, decedentem aliam, aliam 
+                succedentem, immortalem vero non coepisse esse, nisi cum (b) 
+                ad nostrum saeculum ventum est, quando et angeli creati 
+                sunt; cum tamen non fuerint, antequam fierent, ne si immortales 
+                sic semper fuisse dicantur, Deo coaeterni esse credantur;</quote>
+              <bibl>Augustine, De civitate Dei, XII, c. 15 (PL 41, 363)</bibl>
+            </cit> 
+            haec Augustinus. Attende eum dicentem quod fides 
+            et ratio sana condemnat dictum illud quo dicitur creatura 
+            semper in successione durans esse coaeterna creatori; et consimiliter 
+            dicit angelos non semper fuisse, ne credantur Deo 
+            coaeterni. Nec sufficit ad hoc dicere quod loquitur de coaeternitate 
+            qua habetur aeque simplex et aeque nobilis aeternitas 
+            sicut habet Deus; quia eo ipso quod ponit ilia esse 
+            creaturam sive mortalem sive immortalem, satis erat patens 
+            quod non ponebantur hoc modo esse Deo coaeterna, nisi forte 
+            pro quanto omnis coaeternitas (c) aut simpliciter aut sub conditione 
+            includit Dei aeternitatem. — Item, <ref>infra eodem (3);</ref> 
+            <cit>
+              <quote>Si 
+                Deus semper dominus fuit, semper habuit creaturam suo dominatui 
+                servientem, verumtamen non de ipso genitam, sed 
+                ab ipso de nihilo factam nec ei coaeternam; erat quippe 
+                ante illam, quamvis nullo tempore sine ilia, non eam spatio 
+                transcurrente (d) sed manente (e) perpetuitate praecedens.</quote>
+              <bibl>Augustine, De civitate Dei, XII, c. 15 (PL 41, 356)</bibl>
+            </cit> 
+            — Item, capitulo 16 (4): 
+            <cit>
+              <quote>Quae saecula praeterierunt, ante<pb n="111"/>quam 
+                genus institueretur humanum, me fateor ignorare; non 
+                tamen dubito nihil omnino creaturae creatori esse coaeternum.</quote>
+              <bibl>Augustine, De civitate Dei, XII, c. 15 (PL 41, 365)</bibl>
+            </cit> 
+            
+            Et paulo post dicit (1) quod 
+            <cit>
+              <quote>ilia tempora aeterna de 
+                quibus <name ref="#Paul">Apostolus</name> (2), loquitur non fuerunt Deo coaeterna, quia 
+                ille ante tempora aeterna non solum erat, verum etiam promisit 
+                vitam aeternam.</quote>
+            </cit> 
+            — Et idem dicit <name ref="#Jerome">Hieronymus</name> (3), <title>Super epistolam(a) ad Titum</title>, pertractans ilia verba <name ref="#Paul">Apostoli</name> (4)
+          <cit>
+            <quote ana="#tit1_2">quam promisit non mendax Deus ante tempora aeterna:</quote>
+            <bibl>Ad Titum, 1:2</bibl>
+          </cit> 
+            ubi nos habemus ante tempora saecularia, quia aeternum stat 
+            ibi pro saeculo. — Item, 
+            <ref><name ref="#Augustine">Augustinus</name>, libro <title ref="#OnFaithToPeter">De fide ad Petrum,</title> 
+              capitulo 8,</ref> 
+            ubi loquitur de iis quae de Dei creatura sunt 
+            absque dubitatione credenda, dicit: 
+            <cit>
+              <quote>Deus qui sine initio 
+                semper est dedit rebus a se creatis ut sint, non tamen sine 
+                initio; quia nulla creatura eiusdem naturae est cuius est aeternitas: 
+                unus, verus et bonus Deus.</quote>
+              <bibl>Fulgentius, De fide, cap. 3, n. 25 (PL 65, 683)</bibl>
+            </cit> 
+            Et post: 
+            <cit>
+              <quote>Summum et incommutabile 
+                bonum nullum habet defectum, quia non est ex 
+                nihilo factum; nullum habet profectum, quia non habet initium; 
+                ideo quippe naturae a Deo factae proficere possunt, quia 
+                esse coeperunt, ideo deficere, quia ex nihilo factae sunt;</quote>
+              <bibl><!-- edition says: L.c. --> Fulgentius, De fide, cap. 3, n. 25 (PL 65, 683)</bibl>
+            </cit> 
+            haec 
+            <name ref="#Augustine">Augustinus</name>. Ubi vero, quod si rationes eius bonae sunt, sequitur
+          quod omne quod est sine initio est eiusdem naturae 
+          cuius est Deus et quod nullum profectum potest recipere; ex 
+          quorum utroque sequitur quod omne quod est sine initio est
+          Deus; patet etiam ex praedictis quod Augustinus firmiter
+          credit quod hoc erat de substantia fidei catholicae. — Item,
+          <ref><name ref="#Dionysius">Dionysius</name>, <title ref="#deDivinisNominibus">De divinis nominibus</title>, capitulo 10,</ref> ubi agit de 
+            aevo seu de tempore et saeculo dicit (7): 
+            <cit>
+              <quote>Oportet igitur non 
+                simpliciter coaeterna Deo qui est ante saeculum aestimare 
+                aeterna (b) dicta.</quote>
+              <bibl>Pseudo-Dionys., De div. nomin. cap. 10, sect 3 (PG 3, 939).</bibl>
+            </cit> 
+            Super quo dicit <name ref="#Grosseteste">Lincolniensis</name> (8) quod 
+            sapienter obviat philosophis qui dicebant quod intelligibilia 
+            et mundus, licet a Deo essent creata, erant tamen Deo coaeterna. 
+            Et hoc ipsum dicit 
+            <ref>
+              <name ref="#Maximus"><sic>Commentum</sic></name> ex Graeco</ref> ubi dicitur quod 
+            <cit>
+              <quote>electorum apud gentiles philosophorum dicta 
+                <pb n="112"/> 
+                reducit ad pietatem dicens incorporales virtutes a Deo conditas, 
+                non tamen coaeternas Deo, ut gentiles delirant.</quote>
+              <bibl>Maximus Confessor, Scholia in librum de divinis nominibus, in cap. 10, sect. 3 (PG 4, 387)</bibl>
+            </cit> 
+            Item, 
+            capitulo 5, dicit (1) saepe quod Deus omnibus praeexistit (a) 
+            et est ante omnia. — Item, <name ref="#BasilOfCasarea">Basilius</name>, super illud Iohannis (2) 
+            <cit>
+              <quote ana="#io1_1">In principio erat Verbum</quote>
+              <bibl>Iohannes 1:1</bibl>
+            </cit> 
+            dicit: 
+            <cit>
+              <quote>Hoc autem Verbum 
+                non est humanum verbum, non enim in principio erat verbum 
+                humanum sed nec angelorum; omnis enim creatura infra 
+                saeculorum terminos est, a creatore essendi sumens principium</quote>
+              <bibl>Basilius, Homilia XVI, In illud In principio erat Verbum, n. 3 (PG 31, 478)</bibl>
+            </cit> 
+            Sed forte dices quod <name ref="#BasilOfCasarea">Basilius</name> et <name ref="#Dionysius">Dionysius</name> non 
+            dicunt quin esse possint Deo coaeterni, sed solum quod non 
+            sunt; sed si bene inspiciatur mens et ratio dicti eorum, invenitur 
+            quod simpliciter et absolute loquuntur et secundum 
+            id quod essentialiter competit creaturae.</p>
+        </div>
+        <div>
+          <head>[Solutio Obiectorum].</head>
+          <p>Ad primum igitur in contrarium dicendum quod loquendo 
+            de Deo ut praesupposita eius voluntate ad creandum 
+            mundum maior erat in eo ratio ad creandum ipsum quam 
+            ad non creandum, non tamen ad creandum ab aeterno, sed 
+            ad creandum pro illo tempore pro quo ab aeterno voluerat 
+            mundum creari in tali tempore; loquendo autem de Deo absolute, 
+            prout potuit velle et nolle mundum creare, sic fuit in 
+            eo aequalis ratio ad creare et ad non creare; sed tamen 
+            nulla mutatione in se facta potuit eius velle ferri super quodcunque 
+            illorum, sicut in quaestione an Deus potuerit nolle 
+            quae voluit et e (b) contrario est abunde monstratum.</p>
+          
+          <p>Ad secundum dicendum quod otiari, prout sonat in 
+            defectum, est non facere opus pro tempore pro quo debet 
+            fieri et ex cuius cessatione cessat aliqua perfectio operantis; 
+            Deus autem cessando a creatione innumerabilium mundorum 
+            aut a creatione istius pro toto tempore in quo prius creari 
+            potuit non cessavit ab opere quod deberet facere aut ex 
+            cuius cessatione esset in eo aliqua imperfectio; sed si cessasset 
+            ab aeterna generatione (c) Filii, tunc cessasset ab eo 
+            quod necessario exigebat ordo suae naturae, et eo ipso fuisset
+          <pb n="113"/> 
+            in eo defectus generativae virtutis et ordinis quem Deus 
+            habet Pater in actu generandi.</p>
+          <p>Ad tertium dicendum quod aliud est, dicere quod, 
+            Deus in se et secundum se sit purum necesse et aliud quod 
+            ipse sit necessario huius vel illius obiecti aut huius vel illius 
+            effectus; dicimus ergo quod Deus est ens necessarium simul 
+            et liberum; quia impossibile est quod in ipso sit aliqua necessitas 
+            excludens aut coarctans eius summam libertatem et 
+            dominationem: nulla igitur in eo posita contingentia aut potentialitate 
+            deficiendi ab aliquo esse realiter in ipso aliquid 
+            ponente, certi sumus quod libere potuit hoc vel eius oppositum 
+            velle, ac per consequens libere potuit hoc vel illud facere. 
+            Igitur habitudo suae potentiae vel sui velle ad tale obiectum, 
+            pro quanto dicit essentiam Dei, fuit et est pura necessitas; 
+            pro quanto vero includit obiectum sub tali vel tali ratione, 
+            non oportet quod sit ens necessarium; quod est dicere quod 
+            illud obiectum sic in ea includi aut ipsam esse talis obiecti 
+            non dicit absolute essentiam divini velle, sed solum dicit 
+            ipsum ut huius; et pro quanto dicit ipsum, dicit essentiam 
+            eius et sic pro tanto ens necessarium; pro quanto vero dicit 
+            ut huius, non dicit aliquid, sed solum dicit alicuius; ipse vero 
+            per suam libertatem nulla mutatione in se facta potest esse 
+            huius vel illius, quamvis non possit hoc vel hoc, sed necessario 
+            sit semper omnino id ipsum.</p>
+          
+          <p>Ad quartum dicendum quod prima simpliciter loquendo 
+            est falsa non solum respectu divinae libertatis, sed 
+            etiam respectu naturae; sed secundum quid potest diei esse 
+            vera sumendo reduplicationem illam non pro identitate rei, 
+            sed pro (a) identitate rationis vel (b) respectus; licet enim Deus 
+            per id ipsum possit velle quodcunque oppositorum, in quantum 
+            tamen vult unum, non vult aliud.</p>
+          
+          <p>Ad quintum dicendum quod quando Deus dicitur 
+            factus de non creante creans, non fit transitus realis ab uno 
+            contradictoriorum (c) in aliud, sumendo creans et non creans 
+            quantum ad id quod ponitur in Deo et ex parte Dei; tum 
+            quia Deus per idipsum potest esse creans et non creans, 
+            sicut per idipsum potest velle creare et non creare; tum quia 
+            Deus ex se et absolute non erat creans et non creans (d), sed 
+            cum ex sua essentia esset indifferens ad utrumque, ex sua 
+            libertate ab aeterno fuit alterius partis, scilicet quod crearet 
+            <pb n="114"/> 
+            mundum in tali tempore; et ideo, quantum est ex parte sua, 
+            ab aeterno fuit creans mundum. Sumendo vero creans et non 
+            creans respectu eius quod ponunt in effectu aut in obiecto, 
+            sic sunt contradictoria; et tunc de creatione ad non creationem 
+            fit transitus per mutationem factam in creatura quae est 
+            idem quod creatio passio. Licet autem mutatio creaturae non 
+            sit causa alicuius realiter existentis in Deo, tamen bene est 
+            causa quod aliquid de novo dicatur de Deo, quia agens denominatur 
+            a suo effectu et ab actione quae manat ab eo.</p>
+          
+          <p>Ad sextum dicendum quod licet creatio mundi ex 
+            tempore sit in gloriam Dei, non tamen tali modo quod ex 
+            hoc vel in modico augeatur formalis gloria Dei. Non etiam 
+            sequitur quod licet mundi creatio sub tali tempore et sub 
+            talibus circumstantiis sit ad gloriam Dei, quod eius ab aeterno 
+            duratio esset in maiorem gloriam; quia hoc includit impotentiam 
+            et deordinationem, non autem illud. Non etiam sequitur 
+            quod si tanta duratio mundi est ad gloriam Dei, quod maior 
+            esset ad maiorem gloriam, nisi in maioritate durationis includeretur 
+            maior refulgentia divinae dominationis et libertatis et 
+            ordinis divinae sapientiae; maior autem dominatio eius refulget 
+            in eo quod taxavit sibi tempus prout sibi placuit quam 
+            si necessario dedisset sibi totam durationem quam dare potuit.</p>
+          
+          <p>Ad septimum dicendum quod sicut ex praedictis patet, 
+            mundum creare ab aeterno non habet rationem boni aut liberalitatis. 
+            Sciendum etiam quod materialis maioritas doni 
+            non facit ad maioritatem liberalitatis seu bonitatis dantis, sed 
+            solum ilia maioritas quae includit in se formaliter maioritatem 
+            virtualium seu rationabilium circumstantiarum; ita autem 
+            bene novit Deus circumstantiare durationem mundi inchoatam 
+            a tali initio sicut illam quae longe antea inchoaretur; sicut 
+            ita perfectam rationem circuli potest dare parvae sphaerae 
+            sicut magnae.</p>
+          
+          <p>Ad octavum dicendum quod summum bonum non est 
+            sui diffusivum in sibi subiecta nisi secundum ordinem sapientiae 
+            suae et secundum condecentiam dominationis suae et 
+            secundum beneplacitum suae voluntatis, quia non decet ipsum 
+            esse alligatum aut subiectum diffusioni suae in inferiora; et 
+            idem dico de liberalitate sua. Sed nihilominus verum est 
+            quod Deus communicando se creaturis ex tempore communicavit 
+            eis infinitum bonum, scilicet seipsum. Falsa est ergo 
+            propositio qua dicitur quod summe liberalis est summe erogare 
+            sua bona; sed debet dici quod summe liberalis est summe 
+            liberaliter dare danda et servare servanda.</p>
+          <p><pb n="115"/>
+            Ad nonum dicendum quod dato quod melius fuerit
+            velle mundum creari aliquando quam nunquam creare, non 
+            tamen ex hoc sequitur quod melius fuerit ipsum velle creare 
+            pro omni tempore pro quo potuit creari; sicut nec sequitur 
+            quod si melius fuit velle creare mundum tantae magnitudinis 
+            quam nullius, quod melius fuerit velle creare mundum tantum 
+            quantus a Deo fieri potuit; et ideo concessa prima conclusione 
+            praefatae rationis adhuc non sequitur secunda. — An 
+            autem prima sit vera, scilicet quod melius fuit Deum velle 
+            creare mundum aliquando quam nolle unquam creare ipsum, 
+            a quibusdam dicitur quod in genere fuit melius aliquid aliquando 
+            creari quam si nihil unquam crearetur; sed in speciali 
+            non fuit melius de hoc quam de illo, quia tantum valuissent 
+            alii homines vel angeli similes et aequales angelis 
+            et hominibus creatis et creandis sicut valent isti. Alii dicunt 
+            quod tam in generali quam in speciali aeque bonum fuit 
+            velle sicut et nolle et e contrario et creare sicut non creare 
+            et e contrario; istorum autem ratio est: quia bonitas creaturae 
+            nihil addit ad bonitatem divinam nec suum velle habet 
+            aliquid melioritatis ex ordine sui ad bonum creatum nec aliter 
+            ipse esset plene dominus et summe liber super bona creanda, 
+            si in aliquo esset arctatus aut necessario determinatus ad 
+            aliqua creanda, etiam in genere. Priorum vero ratio est quod 
+            licet creatura nihil divini boni addat ad Deum nec aliquid 
+            consimilis speciei vel generis nec aliquid quod prius non esset 
+            causaliter in Deo: nihilominus addit aliquid quod licet cum 
+            Deo non faciat maius bonum, quia non sunt sub ratione 
+            unius boni cum Deo aggregabilia aut comparabilia, faciunt 
+            tamen discretive plura bona; licet etiam Deus ex obiecto 
+            bonitatis creatae vel creandae (a) non bonificetur nec melioretur, 
+            ordo tamen eius ad creata vel creabilia includit in se 
+            magnam bonitatem; alias non esset melius Deum posse creare 
+            quam non posse aut scire creabilia quam nescire nec esset 
+            melius Deum diligere amicos suos quam non diligere aut 
+            velle facere iustitiam secundum quod exigit ordo rerum creatarum 
+            quam nolle facere; si etiam quaecunque determinatio 
+            divini velle ad obiecta creata praeiudicat eius dominationi 
+            et libertati: tunc sequitur quod ei praeiudicet determinatio 
+            qua Deus non potest velle aliquid facere nisi sub debito ordine 
+            aut qua dicitur quod Deus non potest omittere ilia quae 
+            exigit ordo universitatis operum inchoatorum. — Quid au<pb n="116"/>tem 
+            horum sit verius et divinae nobilitati magis consonum (a) 
+            nondum plene scio advertere. Sed forte videbitur alicui quod 
+            pro primis sit 
+            <ref><name ref="#Augustine">Augustinus</name>, libro IV <title>Super Genesim</title>, capitulo 
+              14,</ref> dicens: 
+            <cit>
+              <quote>Sed bona facere, si non posset, nulla esset 
+                potentia; si autem posset nec faceret, magna esset invidentia; 
+                quia ergo est omnipotens et bonus, omnia bona valde 
+                fecit;</quote>
+              <bibl>Augustine, De Genesi ad lit. IV, 16 (PL 34, 307)</bibl>
+            </cit> 
+            ex hac enim ratione videtur sequi quod Deus non 
+            potuit non facere bona creata, quia constat quod non potuit 
+            esse invidus. Sed fortasse <name ref="#Augustine">Augustinus</name> non hoc intendit, 
+            quia in capitulo illo nititur ostendere quod Deus requievit 
+            die septimo ab operibus suis, pro quanto non eget 
+            operibus quae fecit, sed sola (b) sua bonitate est perfecte 
+            beatus; unde ibidem dicit (2) quod 
+            <cit>
+              <quote>esto quod nulla fecisset, 
+                adhuc laudabiliter eis non egeret;</quote>
+              <bibl>Augustine, De Genesi ad lit. IV, 16 (PL 34, 307) <!-- edition says L. c. --></bibl>
+            </cit> 
+            ratio igitur praedicta ad 
+            hoc solum videtur tendere quod si Deus faciendo res non 
+            potuisset aut noluisset eas facere bonas, tunc aut esset impotens 
+            aut invidus seu malevolus, quia subtraheret eis bonitatem 
+            quam exigit ordo operis et ordo suae factionis.</p>
+          
+          <p>Ad decimum patet ex iam dictis; quia quando dicitur 
+            quod si <quote>noluit, invidus fuit,</quote> non est verum nisi in casu praefato 
+            aut in consimili, quando scilicet ordo naturae vel rationis 
+            exigit illud debere dari; quando etiam dicitur quod <quote>si non 
+              potuit, ergo impotens fuit,</quote> non est verum de iis quae includunt 
+            in se contradictionem; sicut mundum fieri ab aeterno 
+            eam includit.</p>
+          
+          <p>Ad undecimum dicendum quod ratio quare Deus 
+            hoc facit vel non facit et quare sic vel sic facit potest assignari 
+            dupliciter; uno modo sic quod minuat vel tollat libertatem 
+            et dominationem Dei respectu talis operis, et talem est 
+            impossibile ac blasphemum poni in Deo; alio modo sic quod 
+            includat eam, et hoc modo ipsamet libertas et eius honorificentia 
+            est summa ratio propter quam omnia debuerunt fieri 
+            sicut libere voluit et disposuit et nullo modo aliter. Positio 
+            autem aeternitatis mundi hanc rationem tollit, primam vero 
+            ponit; et ideo potius debet argui in oppositum. Quando ergo 
+            dicitur quod non potest reddi ratio quare mundus inceptus 
+            est potius in hoc tempore quam in alio, quia non fuit convenientius 
+            quod crearetur in hoc tempore quam in alio; dicendum 
+            quod si de convenientia quae sumitur ex parte rei 
+            <pb n="117"/>
+            factae vel fiendae loquatur, verum est, non autem loquendo 
+            de convenientia quae sumitur ex parte divinae libertatis et 
+            dispositionis; convenientissimum enim fuit quod Deus esset 
+            liber in eligendo hoc vel illud tempus, ipso autem (a) eligente 
+            (b) alterum illorum convenientissimum fuit quod ita 
+            fieret. Si vero dicitur quod saltem secundum hoc non fuit 
+            aliqua ratio quare Deus magis elegit hoc tempus quam aliud, 
+            quia non fuit convenientius hoc eligi quam aliud: dicendum 
+            quod in electionibus rationabilibus (c) non semper oportet quod 
+            illud quod eligitur sit magis eligibile seu eligendum quam 
+            illud quod relinquitur; sed in quibusdam sufficit quod fuerit 
+            aeque bonum et aequaliter eligendum, sicut patet in omnibus 
+            aequivalentibus quorum homo non vult nisi unum. De hoc 
+            autem in quaestione de libertate voluntatis intellectualis sufficienter, 
+            prout puto, est tactum et ideo ibi plenius requiratur.</p>
+          
+          <p>Ad duo decimum dicendum quod Deus non dicitur 
+            non potuisse creare mundum ab aeterno propter expectationem 
+            alicuius futuri quo ipse indigeret ad (d) aliquid faciendum, 
+            sed solum propter impossibilitatem contradictionis in hoc implicatae; 
+            in illis vero quae fecit ex tempore non dicitur exspectasse 
+            tempus futurum quasi sibi esset futurum et quasi 
+            ipse per quandam spem seu exspectationem tenderet in illud, 
+            cum ipse ab aeterno sit praesens omnibus temporibus futuris 
+            et praeteritis; non etiam propter adventum alicuius futuri de 
+            novo voluit aliquid creare, cum in eo non cadat voluntas 
+            nova aut temporalis voluntas, sed ab aeterno voluit et vult 
+            quaecunque voluit et vult et voliturus est. — Sed forte dicet (e) 
+            aliquis quod tempus hodiernum non potuit a Deo fieri nisi 
+            in illo ordine in quo nunc factum est; ex quo sequitur quod 
+            non potuerit a Deo fieri, antequam factus sit; et non loquor 
+            de ipso absolute, sed solum in quantum est hodiernum. Dicendum 
+            quod haec ratio potius est pro nobis quam contra 
+            nos, nisi forte apud illos qui blasphemant Deum nihil posse 
+            facere novum, ita quod ipse non sit causa immediata huius 
+            vel illius diei, quorum error est detestabilis; sed loquendo 
+            ad illos qui licet hoc concedant, dicunt tamen quod si Deus 
+            non potuit mundum ab aeterno facere, impotens fuit: quaero 
+            an hodiernum (f) diem in quantum hodiernum potuerit facere, 
+            antequam fecerit; quaero etiam an hunc diem absolute sum<pb n="118"/>ptum 
+            potuerit facere ab aeterno. Oportet igitur dici quod ista 
+            non posse modo praedicto fieri non est ex impotentia Dei, 
+            sed quia contradicit rationi ipsius factibilis; de futuris tamen 
+            aut praesentibus diebus diei debet quod totum posse quo 
+            Deus potest haec facere, quando ilia fecit, habuit ab aeterno 
+            et ipsum posse ab aeterno fuit efficaciter praesens huic tempori 
+            et eius factioni.</p>
+          
+          <p>Ad tertium decimum dicendum quod primae propositiones 
+            sunt falsae loquendo de actionibus extrinsecis; aeternum 
+            enim agens non potest habere actionem extrinsecam 
+            nisi finitam et temporalem, et sumo temporale pro omni 
+            habente durationem finitam. Si quis vero dicat quod nihil 
+            potest diei agens aeternum nisi ab actione aeterna: dicendum 
+            quod respectu actionum extrinsecarum Deus dicitur agens 
+            aeternum et temporale, sed sub alia et alia ratione; quia 
+            aeternum dicitur ratione suae substantiae et virtutis et ratione 
+            ordinis quo aeternaliter est ordinatus ad hoc vel illud agendum 
+            in tali vel tali tempore; temporale vero agens dicitur, pro 
+            quanto actio eius extrinseca seu effectus extrinsecus, non manat 
+            ab ipso aeternaliter sed ex tempore. Deus igitur respectu 
+            actionum extrinsecarum non dicitur agens aeternum quasi 
+            actio ilia ab aeterno manaverit ab eo,.sed quia ipse respectu 
+            eius fuit actualissimus ab aeterno; itaque quantum est ex se 
+            et ex parte sua, ipse fecit eam in hoc tempore ab aeterno; 
+            quod non est aliud dicere nisi quod efficacia divinae causalitatis
+            super hunc effectum fiendum in hoc tempore fuit ita 
+            in Deo ab aeterno sicut est in tempore in quo eam facit.</p>
+          
+          <p>Ad quartum decimum dicendum quod agere secundum 
+            modum suae naturae potest intelligi dupliciter: aut 
+            scilicet quia agit sicut sibi competit agere aut quia facit 
+            actionem vel effectum per omnia habentem modum et naturam 
+            agentis. Primo modo propositio est vera, sed tunc ex 
+            ea conclusio non sequitur; secundo modo est falsa, et sic inferebatur. 
+            Quando ergo dicitur quod causa aeterna agit secundum 
+            modum suae aeternitatis, verum est respectu eius 
+            quod ilia actio ponit realiter in causa aeterna, sed non respectu 
+            eius quod ponit in effectu. Quando etiam dicitur quod 
+            non facit aliquid, nisi quando aliquid fit ab eo, verum est, 
+            quando per le <mentioned>facere</mentioned> significatur emanatio ipsius effectus, 
+            non autem quando per le <mentioned>facere</mentioned> significatur actualis efficacia 
+            ipsius esse a qua manat (a) ipse effectus; verum est 
+            <pb n="119"/> 
+            tamen quod secundum communem modum loquendi magis 
+            proprie significat primum quam secundum.</p>
+          
+          <p>Ad quintum decimum dicendum quod in impossibilibus 
+            per accidens non solum includitur praeteritum, sed etiam 
+            omne illud quod includitur in divina causa sub respectu et 
+            ordine <sic>anterioratus</sic> ad tempus praesens. Hoc autem est, quandocunque 
+            dicitur aliquid a Deo potuisse fieri antea; sicut 
+            enim praeteritum non esse praeteritum (a) habet in se contradictionem: 
+            sic et quod aliquid ab isto die in posterum 
+            possit esse vel fieri ante diem hodiernum, in quantum est 
+            hodiernus; igitur hoc est impossibile, quia in sua ratione simul 
+            includit duos ordines successionis (b) sibi contradicentes.</p>
+          
+          <p>Ad sextum decimum dicendum quod non sequitur; 
+            potuit antea fieri, ergo antea fuit aliquod tempus; sicut non
+            sequitur: Deus potuit aliquid facere extra mundum, ergo est 
+            aliquod spatium extra mundum. Unde <ref><name ref="#Augustine">Augustinus</name>, IX <title ref="#CityOfGod">De 
+              Civitate</title>, capitulo 5,</ref> dicit; 
+            <cit>
+              <quote>Nam si infinita spatia temporis 
+                ante mundum cogitant in quibus eis non videtur Deus ab 
+                opere cessare potuisse, simpliciter cogitent extra mundum 
+                infinita spatia locorum, in quibus si quisquam dicat non potuisse 
+                vacare omnipotentem, nonne consequens erit ut innumerabiles 
+                mundos cum <name ref="#Epicurus">Epicuro</name> somniare cogantur?</quote>
+              <bibl>Augustine, De civitate Dei, XI, c. 5 (PL 41, 320)</bibl>
+            </cit> haec <name ref="#Augustine">Augustinus</name>. Praeterea, nunquid sequitur; hoc potest fieri 
+            in futuro tempore, ergo futurum tempus est actu? absit. Sciendum 
+            igitur quod quando dicitur quod hoc potuit fieri antea, 
+            duplex potest esse sensus: aut quia scilicet in tali eius factione 
+            fuisset sibi data duratio vel existentia habens in se 
+            rationem anterioris respectu temporis praesentis aut quia erat 
+            aliquod anterius in quo istud potuit fieri. Primo modo est 
+            vera et sic non sequitur conclusio; secundo modo est falsa 
+            nec aliquis etiam de vulgariter loquentibus propositionem 
+            praedictam communiter intelligit nisi solum primo modo.</p>
+          
+          <p>Ad septimum decimum dicendum quod consimiliter 
+            posset argui de punctis continuantibus et de punctis terminantibus 
+            partes lineae. Ad hoc igitur potest dupliciter responderi: 
+            primo, quod in tempore non est aliquod nunc actu nisi 
+            solum in terminis eius per quod est distinctum ab aliis temporibus, 
+            et secundum hoc non est dare aliquod nunc continuans 
+            praeteritum et futurum. Secundo modo potest diei quod 
+            <pb n="120"/> 
+            licet nunc non per aliud a se continuet partes temporis, accidentale 
+            tamen est sibi quod partes illae actu continuentur 
+            ad ipsum; aptitudo igitur continuandi eas est sibi essentialis, 
+            sed non ipsa actualis continuatio. Posset etiam diei quod nunc, 
+            prout est idem quod continuatio partium temporis, differt a 
+            nunc terminabilibus; sicut ipsa continuatio differt ab ipsis 
+            terminis, quamvis in hoc conveniant quod utraque sunt indivisibilia.</p>
+          
+          <p>Ad duodevicesimum dicendum quod relatio nihil 
+            ponit realiter nisi illud in quo immediate fundatur; ex modo 
+            tamen intelligendi et significandi ponit suum terminum extrinsecum. 
+            Dico igitur quod illud quod ponit realiter ordo 
+            initialis (a) temporis mundi non debet dici posterioritas, nisi 
+            aliquid praecedat; dicimus tamen quod potuit habere rationem 
+            posterioris per solam antecessionem alicuius prioris, 
+            sicut dicimus quod hic homo per solam humanitatem quam 
+            habet potest esse similis (b) omnibus hominibus possibilibus 
+            fieri. Potest etiam dici quod sicut non sequitur; praesens est 
+            prius futuro, ergo futurum est actu, ita non sequitur; mundus 
+            habet rationem posterioris respectu temporum prius possibilium 
+            fieri, ergo ilia tempora sunt vel fuerunt; realitas enim 
+            unius relationis potest aliquando esse sine realitate alterius, 
+            sicut patet de voluntate et volito; possumus enim velle aliqua 
+            quae nunquam fuerunt vel erunt et etiam multa quae impossibile 
+            est esse vel fuisse.</p>
+          
+          <p>Ad undevicesimum dicendum quod licet secundum 
+            modum significandi possibile videatur dici a potentia passiva 
+            ipsius possibilis, secundum rem tamen aliquando dicitur possibile 
+            a sola potentia causa efficientis. Et hoc modo fuit possibile 
+            mundum creari; hoc enim secundum rem non fuit possibile, 
+            nisi solum quia Deus potuit mundum creare.</p>
+          
+          <p>Ad vicesimum dicendum quod Deus fuit prior natura 
+            et duratione, sic tamen quod sua duratio per quam fuit 
+            prior non est aliud a sua natura; non autem sequitur ex hoc 
+            quod in Deo fuerit prius et posterius, quia sua duratio simul 
+            est simplex et immensa, et ideo simul est praesens toti ambitui 
+            temporis creabilis; alias ita posset argui quod Deus per 
+            propriam durationem nullam rem praecedat aut praecedere 
+            possit.</p>
+          
+          <p>Ad vicesimum primum dicendum quod quando dicitur 
+            quod mundus in primo nunc suae creationis se habuit 
+            <pb n="121"/> 
+            aliter quam prius: non hoc dicitur, quasi realiter habuerit 
+            prius aliquem modum se habendi alium ab illo quem accepit 
+            in creatione, sed solum quia noster intellectus accipit suam 
+            non entitatem quasi per modum cuiusdam extremi realis et 
+            ac si per modum cuiusdam entis realiter praecessisset esse 
+            creatum. Quando (a) etiam dicitur quod omnis mutatio praesupponit 
+            subiectum: verum est de mutatione proprie dicta, 
+            non autem de mutatione secundum quid et improprie dicta, 
+            qualis est creatio quae est idem quod res creata.</p>
+          
+          <p>Ad vicesimum secundum patet ex iam dictis: quia 
+            non omne quod se habet aliter nunc quam prius fuit realiter 
+            sub alio modo aliquid realiter ponente, sed sufficit quod secundum 
+            modum intelligendi fuerit sub alio modo, eo modo 
+            quo dicimus quod non ens est aliud ab ente (b), cum tamen 
+            non sit aliud per aliquam alietatem seu differentiam aliquid 
+            ponentem in ipso non ente.</p>
+          
+          <p>Ad vicesimum tertium dicendum quod secundum 
+            rem universalia non sunt ubique et semper, sed solum secundum 
+            modum intelligendi et sumendo <unclear>ubique et semper,</unclear> 
+            potius negative quam positive, per abnegationem scilicet limitationis 
+            ad hunc locum et ad hoc tempus seu ad hic et 
+            nunc; intelliguntur enim ut abstracta ab omni conditione individuali 
+            ac per consequens ut abstracta ab hic et nunc. 
+            Veritas autem consequentiarum et propositionum necessariarum 
+            est duplex: una est veritas suae significationis, et haec 
+            constat quod non est nisi quando sunt ipsae propositiones; 
+            alia est Veritas sui significati, et haec quidem non semper est 
+            aliquid reale, sed semper est intelligibilis et significabilis (c)
+            ab intellectu increato et etiam ab intellectu creato, si tamen 
+            ille intellectus est actu; non est autem intelligibilis aut significabilis 
+            propter aliquid quod tunc realiter sit in ipsa, sed 
+            solum propter vim (d) entitatis et veritatis divinae a qua manat 
+            et quam sequitur lux intellectus creati, quando tales veritates 
+            intelligit; quamvis dici possit et bene quod intellectus 
+            non intelligit eas nisi praesupponendo terminos in quibus fundantur; 
+            unde cum dicitur <mentioned>duo et tria sunt quinque</mentioned> aut 
+            <mentioned>homo est animal</mentioned>: sensus est quod ponere actu duo et tria 
+            est idem quod ponere quinque et quod ponere actu hominem 
+            est idem quod ponere actu animal; de iis autem alibi in suis 
+            materiis est amplius tactum.</p>
+          <p><pb n="122"/> 
+            Ad vicesimum quartum dicendum quod non posse 
+            nec potuisse aliter se habere potest provenire aut ex aliqua 
+            entitate necessaria quam ponit aut quia eius oppositum nec 
+            per se nec per alterum potest aut potuit esse tanquam includens 
+            in se contradictionem. Primo modo solum est vera 
+            propositio prima; secundo modo solum est vera propositio 
+            secunda; et ideo conclusio est nulla.</p>
+          <p>Ad vicesimum quintum dicendum quod praedictae 
+            veritates in sua universalitate secundum se et absolute sumptae 
+            nullum esse reale habent, sed solum sunt aut in intellectu 
+            creato vel increato aut in propositionibus significantibus eas 
+            aut in suis particularibus, quando sunt actu; et ideo non est 
+            mirum, si secundum se sumptae non habent causam effectivam. 
+            Non ergo sunt veritas nisi solum per veritatem intelligentiae 
+            eas intelligentis aut per veritatem signi eas significantis aut 
+            per veritatem suae existentiae actualis secundum quam sunt 
+            factae in suis particularibus in quibus sunt actu (a), quandocunque 
+            actu existunt.</p>
+          
+          <p>Ad vicesimum sextum dicendum quod ante quam 
+            mundus esset, non fuit verum realiter mundum non esse 
+            nisi solum in exemplari aeterno; et ideo non fuit verum veritate 
+            creata nec veritate aliqua ponente aliud quam Deum.</p>
+          
+          <p>Ad vicesimum septimum dicendum quod spatium 
+            occupatum a mundo non fuit aliquid reale ante mundum; 
+            nec mirum, quia nec modo est aliud realiter differens a 
+            mundo et partibus eius, quod ipsimet philosophi pagani concedunt 
+            et necessario concedere habent. Propter quod miror 
+            quomodo quidam ex eis credunt se ex hoc probare mundi 
+            aeternitatem, quasi oporteat poni spatium vacuum, quandocunque 
+            poneretur mundus non esse (b) vel fuisse; quia si illud 
+            spatium est aliquid realiter differens a mundo et partibus 
+            eius, tunc dato quod sine mundo remaneat, adhuc non 
+            proprie remanet vacuum, sed potius remanet quoddam ens 
+            quod simul erat cum mundo; si vero nihil ponit aliud a 
+            mundo, tunc mundo annihilate ipsum est annihilatum.</p>
+          
+          <p>Ad primum igitur medium dicendum quod mundus sic 
+            mutatus esset post spatium illud, non tanquam post aliquid 
+            secundum rem actu existens, sed solum tanquam post spatium 
+            quod primo fuit. Et quando dicitur quod nihil minus 
+            illo occuparet ipsum totum: non est ex hoc quod aliquid 
+            actu ponat, sed solum ex hoc quod actu posuit aut ex hoc 
+            <pb n="123"/>
+            quod aliquid sibi sic succedere potest quod vere dicetur esse 
+            in eodem loco in quo fuit spatium illud. — Si vero instetur 
+            quod secundum hoc sequitur quod spatium quod mundus 
+            prius occupasse ponitur fuit quoddam spatium praeteritum et 
+            localiter differens ab illo spatio quod postea ponitur occupare: 
+            dicendum quod in huiusmodi spatio duo includuntur, 
+            unum est eius absoluta entitas, et hoc modo adhuc manet 
+            cum mundo, cum non sit aliud ab ipso seu a quantitate eius; 
+            secundum est eius ordo seu respectus situalis, et hoc modo 
+            sicut res mutat alium situm, sic dicitur mutare locale spatium, 
+            quod non fit nisi solum transeundo de uno situ in alterum. 
+            Quid autem ponat ubi vel esse in loco dimensionaliter 
+            alibi habet tradi; nobis enim sufficit quod non ponit aliquid 
+            nisi existens in corpore cuius est illud ubi seu illud esse in 
+            loco.</p>
+          
+          <p>Ad secundum medium dicendum quod secundum aliquos 
+            idem spatium seu idem locus dicitur esse corporis recedentis 
+            et corporis succedentis (a), non propter aliquam realem 
+            identitatem spatii intermedii (b) quod ab utroque dicitur 
+            fuisse occupatum, sed solum propter identitatem superficiei 
+            continentis. Sed contra istos sunt duo: primo, quia 
+            superficie continente (c) variata adhuc dicitur locus omnino 
+            idem; secundo, quia totus mundus non habet aliquid extra se 
+            quod dimensionaliter contineat ipsum; et tamen si alius mundus 
+            aequalis succederet ei, diceretur quod secundus est in eodem 
+            situ et loco in quo fuit prior mundus et quod occupat 
+            illud spatium quod prior mundus occupabat. — Alii dicunt quod 
+            non dicitur idem locus nisi solum ratione (d) eiusdem ordinis 
+            et respectus ad primam superficiem caeli superni. Sed adhuc 
+            contra hoc est secunda ratio immediate praemissa. Praeterea, 
+            dato quod Deus annihilaret sola corpora superiora, ita 
+            quod non remanerent nisi sola inferiora; constat quod ex hoc 
+            inferiora non mutassent locum nec illud quod realiter ponit in 
+            eis ubi seu esse in loco esset propter hoc variatum; ergo 
+            adhuc essent in suo loco sicut prius et tamen non haberent 
+            tunc eundem ordinem ad caelum quem prius habebant, quia 
+            non est idem ordo entis ad non ens qui est entis ad ens. 
+            Praeterea, si est idem ordo vel idem respectus: ergo idem est 
+            subiectum et eadem essentia fundamentalis ipsius respectus; 
+            sed omnibus corporibus intermediis mutatis per varia loca
+          <pb n="124"/> 
+            non potest dici quod ordo prioris situs seu loci eorum maneat 
+            in eodem subiecto aut quod in diversis subiectis sit idem numero. 
+            — Propter quod videtur aliis quod licet spatium locale, 
+            prout respectu diversorum corporum sibi invicem in illo succedentium 
+            dicitur esse idem, non dicat aliquid reale secundum 
+            se, dicit tamen aliquid potentiale seu ordinabile respectu 
+            primae causae et respectu rerum emanantium ab ea; sicut 
+            enim videmus quod licet quidditas creabilium nihil sit nisi 
+            in sua causa, nihilominus sic sunt in sua causa (a) quod non 
+            potest fieri illud idem quodcunque aliud faciendo; et sicut 
+            videmus quod licet species numerorum actu non existentium 
+            nihil ponant secundum se, nihilominus Deus non posset facere 
+            aliquam earum, nisi haberet ordinem suae speciei competentem, 
+            utpote non potest fieri ternarius qui transcendat 
+            binarium nisi in sola unitate aut qui distet a quaternario 
+            nisi solum uno gradu. Sic, ut dicunt, non potuit Deus facere 
+            tempora nisi solum in ordine quem ratio eorum includit; 
+            unde diem hodiernum in quantum hodiernum (b) non potuit 
+            facere prius vel posterius nec diem hesternum (c) in quantum 
+            hesternum (d) potuit facere in die hodierno, quia hoc 
+            esset contra rationem hesterni (e); licet enim realem essentiam 
+            temporis praeteriti aut cuiuscunque alterius posset facere 
+            hodie, non tamen sub ratione prioris vel posterioris 
+            temporis. Iuxta hunc ergo modum dicunt quod sic sunt apud 
+            Deum omnes ordines situum seu locorum quod ordo unius 
+            situs nullo modo potest in alio ordine situum collocari; unde 
+            situm caeli sub illo ordine quem nunc habet non posset alibi 
+            collocare. Est autem hic unum mirabile quod licet iste ordo 
+            respectu eorum in quibus fundatur non sit realiter idem, 
+            habet tamen quandam identitatem quantum ad rationem ordinandi 
+            et referendi; quia omnino eodem modo refertur et 
+            situaliter ordinatur corpus succedens corpori sicut illud cui 
+            succedit erat situaliter ordinatum; et ideo tam imaginatio 
+            quam intellectus eam sequens accipiunt ilium ordinem situalem 
+            amborum corporum ac si esset realiter unus ordo et 
+            unus situs numero; et haec est fortissima ratio quae induxit 
+            homines ad opinandum vacuum esse. Et secundum hoc potest 
+            (f) dici quod corporum sibi succedentium non est idem 
+            locus nisi modo praedicto, sed ex tali identitate non sequitur 
+            conclusio. Cui autem hoc non placet, sciat quod haec difficul<pb n="125"/>tas 
+            valde indirecte adducitur ad probandum mundi aeternitatem; 
+            non enim ex ea directe probatur, nisi quod vacuum 
+            est et fuit ab aeterno, ita quod mundus est collocatus in 
+            quodam spatio differente ab ipso, ita quod illo existente eodem 
+            corpora mundi sibi in eo succedunt. Et eadem ratione 
+            probatur quod est extra mundum vacuum infinitum, sicut 
+            quidam posuerunt ex praefata ratione seu imagine decepti.</p>
+          
+          <p>Ad tertium medium patet ex iam dictis: non enim est 
+            alia invariabilitas in eo nisi invariabilitas ordinis situalis 
+            talis vel talis quae non est ponenda nisi iuxta modum praedictum 
+            aut iuxta aliquem priorum modorum aut aequivalentium 
+            illis.</p>
+          
+          <p>Ad primum autem secundae quaestionis dicendum 
+            quod prima non est vera, nisi ibi quaedam determinatio 
+            subintelligatur, scilicet quod effectus statim potest 
+            poni pro quocunque tempore pro quo causa est sufficiens ad 
+            illud faciendum; Deus autem non fuit causa sufficiens ad faciendum 
+            mundum ab aeterno, licet ipse sit et fuerit ab aeterno, 
+            quia hoc non dicit causalem sufficientiam sed potius 
+            deficientiam. Alias posset eadem ratione inferri quod tota 
+            successio temporum quorumcunque (a) Deo possibilium potuit 
+            simul fieri ab aeterno; quia totam potentiam quam habet 
+            Deus respectu illorum vel habiturus est habuit ab aeterno; 
+            ex hoc autem sequeretur quod Deus potuit facere contradictoria 
+            simul et (b) ab aeterno; quia constat quod utraque 
+            pars contradictionis potest ab eo fieri successive, ita quod 
+            una pars fiat prius et altera posterius.</p>
+          
+          <p>Ad secundum dicendum quod haec, scilicet <mentioned>Deus 
+            non potuit mundum ab aeterno creare</mentioned> est duplex; quia hoc 
+            quod dico ab aeterno, potest determinare hoc verbum <mentioned>potuit</mentioned> 
+            vel hoc verbum <mentioned>creare</mentioned>. Primo modo est falsa, secundo 
+            modo est vera; quia Deus ab aeterno potuit mundum creare 
+            in certo initio temporis huius vel illius. Ex primo autem 
+            modo inferebatur conclusio et non ex secundo. et ideo non 
+            valet.</p>
+          
+          <p>Ad tertium dicendum quod non est mirum, si ex antecedente 
+            includente contradictoria potest inferri consequens 
+            includens contradictoria. Quando autem ponitur ignis ab 
+            aeterno, duo ponuntur sibi invicem contradicentia, scilicet 
+            quod sit quoddam naturale agens necessitatum seu necessario 
+            se habens ad effectum sibi coaevum seu ad effectum sine
+          <pb n="126"/> 
+            medio temporis producendum; et praeter hoc ponitur quod 
+            sit aeternum. Ex primo autem sequitur quod fiat effectus sibi 
+            proportionalis et coaevus; ex secundo autem sequitur quod 
+            fiat effectus aeternus seu (a) ab aeterno. <name ref="#Augustine">Augustinus</name> autem 
+            non posuit illam consequentiam nisi solum ratione primi, 
+            dixit enim hoc ad ostendendum quod Deus potuit Filium qui 
+            est splendor gloriae eius gignere coaeternum. — Rursus 
+            dicendum quod non est simile, quia longe alia est proportio 
+            ignis ad suum splendorem et Dei ad creaturam; ilia enim 
+            est proportio finiti ad finitum et germinis naturalis ad suam 
+            naturalem originem, ista vero est finiti {'') ad infinitum O et 
+            temporalis ad aeternum et <sic>artificiati</sic> ad artem et artificem per 
+            quem (d) est factum. Quamvis ergo Deus sit agens supernaturale, 
+            creatura tamen non est capax coaevitatis (3) ad eum, 
+            sicut splendor est capax coaevitatis ad ignem. Unde sicut 
+            non valet, quando dicitur <mentioned>homo potest generare alium. hominem 
+              sibi coaequalem, ergo Deus, cum sit potentior, potest 
+              generare alium Deum sibi coaequalem</mentioned>; ita nec in proposito 
+            praefata consequentia valet.</p>
+          
+          <p>Ad quartum dicendum quod si Deus non posset ab 
+            aeterno mundum creare in aliquo initio temporis et postea 
+            posset, fuisset mutatus. Prima ergo propositio est duplex et 
+            fallit per compositionem et divisionem (f), quia li <mentioned>ab aeterno</mentioned> 
+            et li <mentioned>postea</mentioned> vel li <mentioned>postmodum</mentioned> possunt construi cum li 
+            <mentioned>potuit</mentioned> aut cum li <mentioned>creare</mentioned>. Primo autem modo (g) sequitur 
+            conclusio, non autem secundo modo.</p>
+          
+          <p>Ad quintum dicendum quod sicut ex praedictis patet, 
+            haec Veritas non est in dehonorationem divinae potentiae, 
+            sed potius in exaltationem; quia ex hoc non dicitur aliud 
+            nisi quod tanta est quod non potest deficere nec aliquid diversum 
+            a se facere sibi coaequale aut in aliquo sibi commensuratum.</p>
+          
+          <p>Ad sextum dicendum quod prima propositio vera est 
+            pro toto tempore pro quo res est factibilis, non autem pro 
+            illa duratione pro qua nunquam est nec fuit factibilis.</p> 
+          
+          <p>Ad septimum dicendum quod licet non sit dare aliquod 
+            tempus ante quod Deus non potuerit mundum creare, 
+            nihilominus nunquam fuit dare infinitum tempus Deo possibile 
+            in quo mundus sine initio potuerit creari; sicut quamvis 
+            Deus nunquam possit facere aliquod tempus futurum,
+          <pb n="127"/>
+            <!-- where i left off -->
+          quin post illud possit aliud facere et sic in infinitum, non tamen 
+          potest facere actu infinitum. Quando ergo dicitur quod
+          Deus potuit hoc facere pro toto tempore sibi possibili, intelligendum
+          est hoc distributive non collective; quia nec totum
+          tempus sibi possibile fuit unquam sic sibi possibile quod sub
+          una totali continuatione posset totum ipsum facere; cuius
+          ratio et explicatio in quaestione de infinito plenius patuit.</p> 
+          
+          <p>Et per hoc patet ad octavum: quia quando dicitur 
+            quod omnium temporum Deo possibilium potest quodcunque 
+            vult eligere, non tamen ex hoc sequitur quod possit totum 
+            simul eligere; et multo minus sequitur quod non sit dare 
+            initium cuiuscunque determinati temporis quod ipse determinate 
+            potuit eligere, licet omnium confuse et indeterminate 
+            et collective sumptorum non sit dare initium. Nec mirum, 
+            quia nec ipsa possunt sic poni in re, quia ut sic sumpta non 
+            habent rationem unius entis nec unius intelligibilis, sicut in 
+            quaestione de infinito fuit ostensum.</p>
+          
+          <p>Ad nonum dicendum quod licet habere principium effectum 
+            ex prima significatione nominis non contradicat ei 
+            quod est non habere initium durationis, implicite tamen et 
+            ex consequenti multipliciter (a) ei contradicit; sicut superius 
+            est probatum.</p>
+          
+          <p>Ad decimum dicendum quod in aeternitate durationis 
+            successivae includuntur contradictoria, ita quod partim 
+            includitur ibi ratio creata et partim ratio increata (b) et partim 
+            ratio purae confusionis seu absolutae impossibilitatis. In 
+            quantum enim ibi (c) ponitur esse successio et haec rei creatae 
+            ponitur ibi ratio creata; in quantum vero ponitur aeternitas 
+            carens initio, ponitur ratio increata; in quantum vero ponitur 
+            quid non intelligibile aut in quantum ponitur ibi confusio 
+            contradictionum, ponitur ratio simpliciter et absolute impossibilis. 
+            -- Quando ergo <name ref="#Boethius">Boethius</name> dicit quod ponendo aeternum 
+            tempus non (d) ponitur aeternitas Deo aequalis: verum 
+            est pro ilia parte pro qua includit successionem, non autem 
+            pro illa pro qua includit carentiam initii; et quod <name ref="#Boethius">Boethius</name> (e) 
+            solum hoc dicat ratione successionis ex verbis eius 
+            patet aperte. — Quod autem dicitur quod tempus infinitum 
+            dicit rationem eiusdem generis cuius est (f) tempus finitum: 
+            verum est, pro quanto dicit rationem temporis, sed non pro 
+            <pb n="128"/> 
+            quanto dicit rationem infiniti in actu; nec mirum, quia in 
+            quantum tale non dicit rationem entis.</p>
+          
+          <p>Ad undecimum dicendum quod eo modo quo tempus 
+            fuit possibile fieri et esse eo modo naturae rerum potuerunt 
+            fieri in omni tempore possibili; tempus autem infinitum nunquam 
+            est vel fuit possibile sic quod totum esset aliquando 
+            factum; aliud est enim dicere quod nunquam sub aliquo 
+            certo numero est dare tot tempora quin Deus possit plura 
+            et aliud quod ipse potuerit facere quod fuerint infinita aut 
+            quod potuerit ea facere sine initio.</p>
+          
+          <p>Ad duodecimum dicendum quod sicut ex praedictis 
+            patet, infinitas per successionem iam facta non minores includit 
+            contradictiones quam infinitas creaturae actu existens, 
+            immo quodam modo plures; et ideo minor (a) illius rationis 
+            est falsa.</p>
+          
+          <p>Ad tertium decimum dicendum quod (b) maior est 
+            duplex; quia ilia adverbia, scilicet <mentioned>simul vel successive</mentioned>, 
+            possunt determinare hoc verbum <mentioned>potuit</mentioned> aut hoc verbum 
+            <mentioned>facere</mentioned> quod ibi intelligitur. Primo modo est vera, secundo 
+            autem modo est falsa; quia tunc Deus posset facere simul 
+            contradictoria esse, sicut potest facere ilia esse successive. 
+            Minor etiam non est vera, nisi sit sensus quod potest successive 
+            facere infinita, id est, in (c) infinitum; non enim potest 
+            per quamcunque successionem facere quod infinita sint aliquando 
+            facta.</p>
+          
+          <p>Ad quartum decimum dicendum quod prima non 
+            est universaliter vera, sed debet diei quod vel provenit ex 
+            defectu potentiae agentis vel ex summa veritate et actualitate 
+            potentiae agentis; quod enim Deus non possit impossibilia 
+            contradictionem in se includentia non est ex (d) defectu 
+            potentiae, sed potius ex summa veritate et entitate potentiae. 
+            -— Minor etiam indebite assumitur; quia non est omnino idem 
+            dicere quod impossibilitas aeternitatis mundi nihil ponebat 
+            realiter nisi in Deo et dicere quod eius impossibilitas non 
+            pendebat nisi a Deo; quia etiam ex ipsa contradictione terminorum 
+            pendebat quae nihil ponit in Deo tanquam in causa 
+            eius; quia non dicit rationem entis, sed potius non entis et 
+            non factibilis.</p>
+          
+          <p>Ad quintum decimum dicendum quod maior est 
+            falsa, nisi <mentioned>scire</mentioned> sumatur prout est commune ad certitudinem
+          <pb n="129"/>
+          intelligentiae et ad certitudinem fidei divinae. — Minor etiam 
+          est falsa, sicut patet ex rationibus supradictis. — Ad primum 
+          autem quod pro ea inducitur dicendum quod idem potest 
+          sciri per rationem demonstrativam et fide certa teneri; quia
+          non omnis claritas cuiuscunque demonstrativae scientiae est
+          incompossibilis cum fide, sicut alibi est per sanctos et per 
+          rationem probatum. Et quando <name ref="#Paul">Apostolus</name> dicit quod 
+            <cit>
+              <quote ana="#hebr11_1">Fides 
+                est argumentum non apparentium</quote>
+              <bibl>Ad Hebraeos 11:1</bibl>
+            </cit> 
+            non dicit hoc de 
+            quacunque non-apparentia, sed solum de ilia quae negat 
+            apparentiam visionis praesentialis sic absorbentis facultatem 
+            intellectus quod nullo modo potest dissentire a veritate sic 
+            visa. — Ad secundum dicendum quod utroque modo potest 
+            hoc sciri et scitur, scilicet per causam et per quidditates 
+            rerum creatarum; sicut patet ex rationibus supra scriptis 
+            quarum quaedam sumuntur ex parte potentiae divinae quae 
+            est causa rerum, quaedam vero ex parte limitationis quam 
+            includit ratio omnis creaturae. Licet autem voluntas Dei non 
+            possit absque revelatione sciri in iis quae aequaliter potest 
+            velle et nolle, potest tamen per rationem naturalem sciri in 
+            iis quae necessario habet velle vel nolle, utpote quod vult 
+            esse Deus et quod non potest velle peccatum nec peccare 
+            nec velle facere contradictionem. Licet etiam quidditas rei 
+            creatae non limitetur ad hoc vel illud tempus, limitatur tamen 
+            ad tempus finitum; sicut, licet ratio trianguli vel quadrati 
+            non limitetur ad hanc vel illam quantitatem, limitatur 
+            tamen in genere ad quantitatem finitam.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
