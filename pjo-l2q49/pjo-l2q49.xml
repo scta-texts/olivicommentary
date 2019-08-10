@@ -436,7 +436,7 @@
             </app> 
             quod 
             <cit>
-              <quote ana="#lev17_14">sedes animae in sanguine 
+              <quote source="http://scta.info/resource/lev17_14">sedes animae in sanguine 
             est,</quote>
               <bibl>Leviticus 17:14 <!-- edition also suggests 17:11 --></bibl>
             </cit> 
@@ -458,7 +458,7 @@
             anima carnis in sanguine est, et 
             <ref><title ref="#deut">Deuterominii</title> 13 (3),</ref> 
             <cit>
-              <quote ana="#deut12_23">hoc solum cave ne sanguinem comedas, sanguis enim corporis pro anima est.</quote>
+              <quote source="http://scta.info/resource/deut12_23">hoc solum cave ne sanguinem comedas, sanguis enim corporis pro anima est.</quote>
               <bibl>Deuteronomy 12:23</bibl>
             </cit> 
             In cuius rei signum videmus quod sanguine 
@@ -487,7 +487,7 @@
             habere operationem vitae et tamen sunt pars corporis 
             spectantes ad resurrectionem; unde Christus dicit (1), 
             <cit>
-              <quote ana="#mt10_30"><!-- add lc12_7 adn Lc21_18 -->vestri 
+              <quote source="http://scta.info/resource/mt10_30"><!-- add lc12_7 adn Lc21_18 -->vestri 
                 capilli capitis omnes ·numerati sunt, et capillus de capite 
                 vestro non pedbit.</quote>
               <bibl>Matthew 10:30; Luke 12:7; Luke 21:18</bibl>
@@ -634,13 +634,13 @@
           vis animae seu existentiae eius sustentativa, secundum illud
           <ref><title ref="#lev">Levitici</title> 17,</ref> 
             <cit>
-              <quote ana="#lev17_11">anima carnis (e) in sanguine est (f),</quote>
+              <quote source="http://scta.info/resource/lev17_11">anima carnis (e) in sanguine est (f),</quote>
               <bibl>Leviticus 17:11</bibl>
             </cit>
             et <ref><title ref="#deut">Deuteronomii</title> 
             12,</ref> 
             <cit>
-              <quote ana="#deut12_23">hoc solum cave ne sanguinem comedas, sanguis 
+              <quote source="http://scta.info/resource/deut12_23">hoc solum cave ne sanguinem comedas, sanguis 
                 enim eorum pro anima est;</quote>
               <bibl>Deuteronomy 12:23</bibl>
             </cit> 

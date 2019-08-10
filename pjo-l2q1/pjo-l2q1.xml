@@ -495,7 +495,7 @@ inditis illos eduxerunt.</quote>
                 <rdg wit="#B4" type="om."/>
               </app> ait: 
               <cit>
-                <quote ana="#Icor3_6">Ego plantavi, <name>Apollo</name> rigavit, 
+                <quote source="http://scta.info/resource/Icor3_6">Ego plantavi, <name>Apollo</name> rigavit, 
                   <app>
                     <lem>sed</lem>
                     <rdg wit="#B4">autem</rdg>
@@ -1455,7 +1455,7 @@ inditis illos eduxerunt.</quote>
                 discernens ab operibus creaturae quae admoventur extrin<pb n="19"/>secus 
                 assumpsit similitudinem de agricultura, quando ait 
                 <cit>
-                  <quote ana="#Icor3_6">Ego plantavi, et cetera</quote>
+                  <quote source="http://scta.info/resource/Icor3_6">Ego plantavi, et cetera</quote>
                   <bibl>I Ad Corinthios 3:6</bibl>
                 </cit>
               </quote>
