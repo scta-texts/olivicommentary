@@ -5,13 +5,13 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Librum II, Quaestio 14</title>
+                <title>Liber II, Quaestio 14</title>
                 <author xml:id="PJO">Peter John Olivi</author>
                 <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
             </titleStmt>
             <editionStmt>
                 <edition n="2015.05">
-                    <title>Librum II, Quaestio 14</title>
+                    <title>Liber II, Quaestio 14</title>
                     <date when="2015-05-09">May 09, 2015</date>
                 </edition>
             </editionStmt>
