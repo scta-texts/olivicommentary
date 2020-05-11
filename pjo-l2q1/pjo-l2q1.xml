@@ -557,11 +557,11 @@
              Patens est autem quod iste est modus
             <app>
               <lem>absolutissimus,</lem>
-              <rdg wit="#" type="corrReplace">
-                <corr>
+              <rdg wit="#" type="correction-substitution">
+                <subst>
                   <del>solutissimus</del>
                   <add>absolutissimus</add>
-                </corr>
+                </subst>
               </rdg>
             </app>
              ita quod ex parte obiecti vel effectus non potest absolutior dari. Constat autem
