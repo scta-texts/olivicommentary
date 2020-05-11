@@ -4,7 +4,6 @@
       <titleStmt>
         <title>Liber II, Quaestio 1</title>
         <author xml:id="PJO">Peter John Olivi</author>
-        <editor xml:id="BJ">Bernardus Jansen S. I.</editor>
         <respStmt>
           <name>Jeffrey C. Witt</name>
           <resp>TEI Encoder</resp>
@@ -26,7 +25,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="Q" n="Quaracchi1922">Quaracchi 1922</witness>
+          <witness xml:id="Q" n="Quaracchi1922">Quaracchi 1922</witness><!-- <editor xml:id="BJ">Bernardus Jansen S. I.</editor> -->
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -52,10 +51,12 @@
     <body>
       <div xml:id="pjo-l2q1">
         <head xml:id="pjo-l2q1-Hd1e102">QUAESTIO I.</head>
+        <div xml:id="pjo-l2q1-Dd1e105">
         <p xml:id="pjo-l2q1-d1e105">
           Primo quaeritur an Deus alicui creato vel creabili possit communicare potentiam
           creandi.
         </p>
+        </div>
         <div xml:id="pjo-l2q1-Dd1e108" type="rationes-principales">
           <head xml:id="pjo-l2q1-Hd1e110">Rationes principales</head>
           <p xml:id="pjo-l2q1-d1e113">
