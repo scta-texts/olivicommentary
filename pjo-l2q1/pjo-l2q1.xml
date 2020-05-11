@@ -90,7 +90,7 @@
             ·fiat ab illo, saltem per
             <app>
               <lem>speciale</lem>
-              <rdg wit="#" type="correction-substitution">
+              <rdg wit="#V" type="correction-substitution">
                 <!-- not sure what witness this is; probably vat witness -->
                 <subst>
                   <add>speciale</add>
@@ -128,7 +128,7 @@
             coadiuvat actionem potentiae activae, in quantum est agens; ergo absque omni
             <app>
               <lem>patiente</lem>
-              <rdg wit="#" type="correction-substitution">
+              <rdg wit="#V" type="correction-substitution">
                 <!-- not sure what witness this is that makes the correction, probably vatican text -->
                 <subst>
                   <add>patiente</add>
@@ -192,7 +192,7 @@
             accipere quod ad earum actus sequantur in rebus aliis mirabiles effectus, utpote quod de
             <app>
               <lem>aere</lem>
-              <rdg wit="#" type="correction-substitution">
+              <rdg wit="#V" type="correction-substitution">
                 <!-- witness unclear probably vat -->
                 <subst>
                   <del>aree</del>
@@ -221,7 +221,7 @@
             de aliquo producatur, quia illud de quo educeretur in nullo iuvat velle, et quia ita
             <app>
               <lem>fit</lem>
-              <rdg wit="#" type="correction-substitution">
+              <rdg wit="#V" type="correction-substitution">
                 <subst>
                   <del>fuit</del>
                   <add>fit</add>
@@ -254,7 +254,7 @@
             non potest generare radium genitum vel generabilem ab
             <app>
               <lem>alia</lem>
-              <rdg wit="#" type="correction-substitution">
+              <rdg wit="#V" type="correction-substitution">
                 <subst>
                   <del>aliqua</del>
                   <add>alia</add>
@@ -294,7 +294,7 @@
              quod videtur quod illa ageret se
             <app>
               <lem>tota.</lem>
-              <rdg wit="#" type="correction-substitution">
+              <rdg wit="#V" type="correction-substitution">
                 <subst>
                   <del>totam</del>
                   <add>tota</add>
@@ -558,7 +558,7 @@
              Patens est autem quod iste est modus
             <app>
               <lem>absolutissimus,</lem>
-              <rdg wit="#" type="correction-substitution">
+              <rdg wit="#V" type="correction-substitution">
                 <subst>
                   <del>solutissimus</del>
                   <add>absolutissimus</add>
@@ -568,7 +568,7 @@
              ita quod ex parte obiecti vel effectus non potest absolutior dari. Constat autem
             <app>
               <lem>quod</lem>
-              <rdg wit="#" type="correction-addition">
+              <rdg wit="#V" type="correction-addition">
                 <add place="margin">quod</add>
               </rdg>
             </app>
@@ -580,7 +580,7 @@
             absolutissime circumplectens aut quod nec per modum totius nec
             <app>
               <lem>per modum partis</lem>
-              <rdg wit="#" type="correction-substitution">
+              <rdg wit="#V" type="correction-substitution">
                 <subst>
                   <del>partis per modum</del>
                   <add>per modum partis</add>
@@ -687,7 +687,7 @@
             creare, ergo quando creat aliquid in hoc loco, potest
             <app>
               <lem>simul</lem>
-              <rdg wit="#" type="correction-substitution">
+              <rdg wit="#V" type="correction-substitution">
                 <subst>
                   <del>similis</del>
                   <add>simul</add>
@@ -760,7 +760,7 @@
              influxa similitudo illius, ita quod
             <app>
               <lem>eius</lem>
-              <rdg wit="#" type="correction-substitution">
+              <rdg wit="#V" type="correction-substitution">
                 <subst>
                   <del>est</del>
                   <add>eius</add>
@@ -876,7 +876,7 @@
             applicantur, multo magis ad exteriora ferri non possunt sine determinato
             <app>
               <lem>et</lem>
-              <rdg wit="#" type="correction-substitution">
+              <rdg wit="#V" type="correction-substitution">
                 <subst>
                   <del>in</del>
                   <add>et</add>
@@ -961,7 +961,7 @@
             potentiae creativae sit caritas et iustitia et gloria talis ac tanta quod suae
             <app>
               <lem>creaturae</lem>
-              <rdg wit="#" type="correction-substitution">
+              <rdg wit="#V" type="correction-substitution">
                 <subst>
                   <del><unclear>creatus</unclear></del>
                   <add>creaturae</add>
@@ -1024,7 +1024,7 @@
             absolutissimum
             <app>
               <lem>et omnipotentissimum</lem>
-              <rdg wit="#" type="correction-addition">
+              <rdg wit="#V" type="correction-addition">
                 <add place="margin">et omnipotentissimum</add>
               </rdg>
             </app>
@@ -1091,7 +1091,7 @@
              de causalissimo et radicalissimo
             <app>
               <lem>et</lem>
-              <rdg wit="#" type="correction-addition">
+              <rdg wit="#V" type="correction-addition">
                 <add place="above-line">et</add>
               </rdg>
             </app>
@@ -1157,7 +1157,7 @@
              sunt finita quae excedunt in infinitum plura
             <app>
               <lem>finita,</lem>
-              <rdg wit="#" type="correction-substitution">
+              <rdg wit="#V" type="correction-substitution">
                 <subst>
                   <del>infinita</del>
                   <add>finita</add>
@@ -1167,7 +1167,7 @@
              ut linea cubitalis est
             <app>
               <lem>in</lem>
-              <rdg wit="#" type="correction-addition">
+              <rdg wit="#V" type="correction-addition">
                 <add place="margin">in</add>
               </rdg>
             </app>
@@ -1314,7 +1314,7 @@
             </cit>
             <app>
               <lem>Et tamen</lem>
-              <rdg wit="#" type="correction-addition">
+              <rdg wit="#V" type="correction-addition">
                   <add place="margin">Et tamen</add>
               </rdg>
             </app>
@@ -1370,7 +1370,7 @@
                 Opera tua a te
                 <app>
                   <lem>facta</lem>
-                  <rdg wit="#" type="correction-substitution">
+                  <rdg wit="#V" type="correction-substitution">
                     <subst>
                       <del>factas</del>
                       <add>facta</add>
@@ -1384,7 +1384,7 @@
                  de concreata, id est, simul a te creata materia; quia eius
                 <app>
                   <lem>informitatem</lem>
-                  <rdg wit="#" type="correction-substitution">
+                  <rdg wit="#V" type="correction-substitution">
                     <subst>
                       <del>infirmitatem</del>
                       <add>informitatem</add>
@@ -1396,7 +1396,7 @@
                 materies aliud caeli et terrae species: materiem quidem
                 <app>
                   <lem>de</lem>
-                  <rdg wit="#" type="correction-addition">
+                  <rdg wit="#V" type="correction-addition">
                     <add place="above-line">de</add>
                   </rdg>
                 </app>
@@ -1431,7 +1431,7 @@
             volitum, in quantum volitum et
             <app>
               <lem>alium</lem>
-              <rdg wit="#" type="correction-addition">
+              <rdg wit="#V" type="correction-addition">
                 <add place="above-line">alium</add>
               </rdg>
               <rdg wit="#B4 #B5">aliud</rdg>
@@ -1445,7 +1445,7 @@
              intrinsecum. Et tamen hi non possunt ab eo fieri quomodocunque vel
             <app>
               <lem>quanticunque,</lem>
-              <rdg wit="#" type="correction-substitution">
+              <rdg wit="#V" type="correction-substitution">
                 <subst>
                   <del>quantique</del>
                   <add>quanticunque</add>
@@ -1566,7 +1566,7 @@
             Dei, prout haec omnia in se includit, aequatur suae scientiae, non solum in
             <app>
               <lem>essentia</lem>
-              <rdg wit="#" type="correction-substitution">
+              <rdg wit="#V" type="correction-substitution">
                 <subst>
                   <del>scientia</del>
                   <add>essentia</add>
@@ -1586,7 +1586,7 @@
              ex eius amplissima libertate et
             <app>
               <lem>bonitate:</lem>
-              <rdg wit="#" type="correction-addition">
+              <rdg wit="#V" type="correction-addition">
                 <add place="margin">bonitate</add>
               </rdg>
             </app>
@@ -1602,7 +1602,7 @@
             latitudinis secundum quam possent excrescere in ternarios
             <app>
               <lem>vel quaternarios</lem>
-              <rdg wit="#" type="correction-addition">
+              <rdg wit="#V" type="correction-addition">
                 <add place="margin">vel quaternarios</add>
               </rdg>
             </app>
